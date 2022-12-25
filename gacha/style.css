@@ -1,8 +1,40 @@
+html {
+    scroll-padding-top: 70px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table{
+    margin: 0;
+    border-spacing: 0;
+}
+
+tr:first-child th {
+    border-top: 2px solid #000;
+    position: sticky;
+    top: 0;
+}
+
+tr:last-child td {
+    border-bottom: 2px solid #000;
+}
+
 th {
     white-space: nowrap;
     background-color: #00bfff;
     border-right: 1px solid #000;
     border-bottom: 2px solid #000;
+}
+
+th:first-child {
+    border-left: 2px solid #000;
+}
+
+th:last-child {
+    border-right: 2px solid #000;
 }
 
 td {
@@ -15,21 +47,18 @@ td {
     background-color: #fff;
 }
 
-table{
-    margin: 0;
-    border-spacing: 0;
+td:first-child {
+    border-left: 2px solid #000;
+}
+
+td:last-child {
+    border-right: 2px solid #000;
 }
 
 .bonus-list {
     overflow: auto;
     width: max-content;
-    height: 340px;
-}
-
-.gacha-list {
-    overflow: auto;
-    width: max-content;
-    height: 90%;
+    height: 285px;
 }
 
 .bonus-list tr td:nth-of-type(1) {
@@ -40,30 +69,11 @@ table{
     text-align: right;
 }
 
-tr:first-child th {
-    border-top: 2px solid #000;
-    position: sticky;
-    top: 0;
-}
-
-th:first-child {
-    border-left: 2px solid #000;
-}
-
-th:last-child {
-    border-right: 2px solid #000;
-}
-
-td:first-child {
-    border-left: 2px solid #000;
-}
-
-td:last-child {
-    border-right: 2px solid #000;
-}
-
-tr:last-child td {
-    border-bottom: 2px solid #000;
+.gacha-list {
+    overflow: auto;
+    width: max-content;
+    height: 90%;
+    width: 100%;
 }
 
 .flex_test-box {

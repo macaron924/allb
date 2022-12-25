@@ -1,0 +1,110 @@
+/*ボタンのための表*/
+
+.buttonTable table {
+    border: 0px;
+}
+
+
+/*ボタン*/
+
+.calc-btn {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.calc-btn:hover {
+    cursor: pointer;
+}
+
+
+/*メインの表*/
+
+.maintable {
+    overflow: auto;
+    height: 80%;
+    width: 100%;
+}
+
+.maintable table{
+    margin: 0;
+    border-spacing: 0;
+}
+
+.maintable tr:first-child th:first-child {
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.maintable tr:first-child th {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    position: sticky;
+    top: 0;
+}
+
+.maintable tr:last-child td {
+    border-bottom: 2px solid #000;
+}
+
+.maintable th {
+    white-space: nowrap;
+    background-color: #00bfff;
+    border-right: 1px solid #000;
+    border-bottom: 2px solid #000;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.maintable th:first-child {
+    width: 200px;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.maintable th:last-child {
+    border-right: 2px solid #000;
+}
+
+.maintable td {
+    text-align: left;
+    vertical-align: center;
+    white-space: nowrap;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.maintable td:first-child {
+    width: 200px;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    position: sticky;
+    left: 0;
+    background-color: #fff !important;
+}
+
+.maintable td:last-child {
+    border-right: 2px solid #000;
+}
+
+.maintable td.status {
+    text-align: right;
+}
+
+.maintable td.characteristic {
+    text-align: center;
+}
+
+.maintable td.buff {
+    color: red;
+}
+
+.maintable td.debuff {
+    color: blue;
+}

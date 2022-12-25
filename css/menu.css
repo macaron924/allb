@@ -35,7 +35,7 @@
     /*ナビゲーション天地中央揃え*/
     position: absolute;
     z-index: 999;
-    top: 70px;
+    top: 30px;
     left: 50%;
     transform: translate(-50%,0%);
     text-align: center;
@@ -136,14 +136,14 @@
     font-weight: bold;
     padding: 0.7em;
     text-align: center;
-    background: #00bfff;
-    color: #fff;
+    background: #91e3ff;
+    color: #666;
     transition: 0.3s0;
     z-index: 99;
 }
 
 /* マウスオーバー時 */
 .page_top_btn:hover {
-    background: #0000ff;
+    background: #5cd6ff;
     color: rgb(255, 255, 255, 0.8);
 }

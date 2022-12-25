@@ -1,8 +1,10 @@
-.top-banner {
-    width: 100%;
+* {
+    padding: 0;
+    margin: 0;
 }
 
 header {
+    z-index: 99999;
     position: sticky;
     top: 0;
     height: 65px;
@@ -13,30 +15,41 @@ header h1 {
     padding: 10px;
 }
 
+.top-banner {
+    width: 100%;
+}
+
+main {
+    margin: 10px;
+}
+
+.top-page-content {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.top-page-content * {
+    margin: 5px;
+}
+
+.title {
+    grid-area: title;
+    background-color: #ccf2ff;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
 footer {
     height: 65px;
     text-align: center;
     margin-top: 10px;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 footer * {
     margin: 5;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-}
-
-main * {
-    padding: 5px;
-    margin: 5x;
-}
-
-main {
-    padding-top: 20px;
-    padding-left: 50px;
 }
 
 

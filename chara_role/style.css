@@ -1,3 +1,12 @@
+html {
+    scroll-padding-top: 100px;
+}
+
+table{
+    margin: 0;
+    border-spacing: 0;
+}
+
 .example {
     overflow: auto;
     width: 100%;
@@ -5,9 +14,46 @@
     scroll-padding-top: 28px;
 }
 
-table{
-    margin: 0;
-    border-spacing: 0;
+tr:first-child th:first-child {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #ccf2ff;
+}
+
+tr:first-child th{
+    border-top: 2px solid #000;
+    position: sticky;
+    top: 0;
+    background: #ccf2ff;
+}
+
+tr.charaBottom td {
+    border-bottom: 2px solid #000;
+}
+
+tr:last-child td {
+    border-bottom: 2px solid #000;
+}
+
+th {
+    white-space: nowrap;
+    border-right: 1px solid #999;
+    border-bottom: 2px solid #000;
+    background: #ccf2ff;
+}
+
+th:first-child{
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    position: sticky;
+    left: 0;
+    background: #ccf2ff;
+}
+
+th:last-child {
+    border-right: 2px solid #000;
 }
 
 td {
@@ -18,74 +64,14 @@ td {
     padding: 5px;
 }
 
-td::first-line {
-    font-weight: bold;
-}
-
 td span {
     background-color: #f0c0c0;
 }
 
-th {
-    white-space: nowrap;
-    border-right: 1px solid #999;
-    border-bottom: 2px solid #000;
-    background: #ccf2ff;
-}
-
-
-th.tableTopLeft {
-    position: sticky;
-    top: 0;
-    left: 0;
-    background: #ccf2ff;
-}
-
-th.tableTop {
-    position: sticky;
-    top: 0;
-    background: #ccf2ff;
-}
-
-th.tableLeft {
-    position: sticky;
-    left: 0;
-    background: #ccf2ff;
-}
-
-tr:first-child th:first-child {
-    z-index: 1;
-}
-
-tr:first-child th{
-    border-top: 2px solid #000;
-}
-
-tr.charaBottom td {
-    border-bottom: 2px solid #000;
-}
-
-th:first-child{
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
-}
-
-th:last-child {
-    border-right: 2px solid #000;
+td::first-line {
+    font-weight: bold;
 }
 
 td:last-child {
     border-right: 2px solid #000;
-}
-
-tr:last-child td {
-    border-bottom: 2px solid #000;
-}
-
-html {
-    scroll-padding-top: 27px;
-}
-
-.title {
-    grid-area: title;
 }
