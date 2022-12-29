@@ -1,0 +1,155 @@
+html {
+    scroll-padding-top: 70px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table{
+    margin: 0;
+    border-spacing: 0;
+}
+
+tr:first-child th {
+    border-top: 2px solid #000;
+    position: sticky;
+    top: 0;
+}
+
+tr:last-child td {
+    border-bottom: 2px solid #000;
+}
+
+th {
+    white-space: nowrap;
+    background-color: #00bfff;
+    border-right: 1px solid #000;
+    border-bottom: 2px solid #000;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+th:first-child {
+    border-left: 2px solid #000;
+}
+
+th:last-child {
+    border-right: 2px solid #000;
+}
+
+td {
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: #fff;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 5px;
+}
+
+td:first-child {
+    border-left: 2px solid #000;
+}
+
+td:last-child {
+    border-right: 2px solid #000;
+}
+
+.bonus-list {
+    overflow: auto;
+    width: max-content;
+    height: 285px;
+}
+
+.bonus-list tr td:nth-of-type(1) {
+    text-align: right;
+}
+
+.bonus-list tr td:nth-of-type(2) {
+    text-align: right;
+}
+
+.step-list {
+    overflow: auto;
+    width: max-content;
+    height: 285px;
+}
+
+.step-list tr.kugiri td {
+    border-bottom: 1.5px solid #000;
+}
+
+.step-list tr td:nth-of-type(1) {
+    text-align: right;
+}
+
+.step-list tr td:nth-of-type(2) {
+    text-align: right;
+}
+
+.step-list tr td:nth-of-type(3) {
+    text-align: right;
+}
+
+.step-list tr td:nth-of-type(4) {
+    text-align: right;
+}
+
+.step-list tr td:nth-of-type(5) {
+    text-align: right;
+}
+
+.step-list tr td:nth-of-type(6) {
+    text-align: right;
+}
+
+.gacha-list {
+    overflow: auto;
+    width: max-content;
+    height: calc(100vh - 150px);
+    width: 100%;
+}
+
+.flex_test-box {
+    background-color: #ccf2ff;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.flex_test-item {
+    padding: 5px;
+    color: #000;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 5px;
+    width: 110px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.memoria_img {
+    width: 100px;
+    height: 100px;
+}
+
+.banner_img {
+    height: 150px;
+}
+
+.mini-banner_img {
+    height: 80px;
+    vertical-align: middle;
+}
+
+.item_img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin: 1px;
+    margin-right: 5px;
+}
