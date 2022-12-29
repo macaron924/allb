@@ -24,7 +24,7 @@
 
 .maintable {
     overflow: auto;
-    height: 80%;
+    height: calc(100vh - 150px);
     width: 100%;
 }
 
