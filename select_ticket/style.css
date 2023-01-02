@@ -67,19 +67,19 @@ img.item_img {
 }
 
 img.border-pink {
-    border: 3px solid #ff00ff;
+    border: 5px solid #ff00ff;
 }
 
 img.border-gold {
-    border: 3px solid #d3b400;
+    border: 5px solid #cfb000;
 }
 
 img.border-silver {
-    border: 3px solid #999999;
+    border: 5px solid #aaaaaa;
 }
 
 img.border-bronze {
-    border: 3px solid #e48339;
+    border: 5px solid #e48339;
 }
 
 .no-border table tr td{
