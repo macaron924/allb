@@ -1,6 +1,6 @@
 document.write(`
 <header>
-<h1>macaron's site</h1>
+<h1>はっぴーゆにこーん☆</h1>
 <div class="openbtn"><span></span><span></span><span></span></div>
 <nav id="g-nav">
     <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
@@ -12,6 +12,7 @@ document.write(`
             <li><a href="../../memoria_list/"><h1>memoria</h1></a></li>
             <li><a href="../../gacha_info/"><h1>gacha</h1></a></li>
             <li><a href="../../charm_list/"><h1>charm</h1></a></li>
+            <li><a href="../../select_ticket/"><h1>select</h1></a></li>
         </ul>
     </div>
 </nav>
