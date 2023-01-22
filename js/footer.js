@@ -1,6 +1,6 @@
 document.write(`
 <footer>
     <hr>
-    macaron's site
+    はっぴーゆにこーん☆<br>
 </footer>
 `);
