@@ -1,3 +1,7 @@
+html {
+    scroll-padding-top: 100px;
+}
+
 table{
     margin: 0;
     border-spacing: 0;
@@ -7,6 +11,7 @@ table{
     overflow: auto;
     width: 100%;
     height: calc(100vh - 150px);
+    scroll-padding-top: 28px;
 }
 
 th {

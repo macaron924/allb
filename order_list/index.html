@@ -15,6 +15,56 @@
 		
 		<main>
 			<h1 class="title">オーダー一覧 (11/30更新)</h1>
+			<br>
+			属性： 
+			<a href="#fire">火</a> / 
+			<a href="#water">水</a> / 
+			<a href="#wind">風</a> / 
+			<a href="#light">光</a> / 
+			<a href="#dark">闇</a> / 
+			<a href="#lightdark">光闇</a>
+			<br>
+			攻防： 
+			<a href="#ASA-up">攻バフ</a> / 
+			<a href="#DSD-up">防バフ</a> / 
+			<a href="#ASA-down">攻デバフ</a> / 
+			<a href="#DSD-down">防デバフ</a>
+			<br>
+			劣勢時： 
+			<a href="#flag">旗</a>
+			<br>
+			属性盾： 
+			<a href="#fire-shield">火</a> / 
+			<a href="#water-shield">水</a> / 
+			<a href="#wind-shield">風</a>
+			<br>
+			MP系： 
+			<a href="#MP-keigen">軽減</a> / 
+			<a href="#MP-kaihuku">回復</a>
+			<br>
+			補助スキル： 
+			<a href="#hojo-up">覚醒</a> / 
+			<a href="#hojo-down">覚醒妨害</a>
+			<br>
+			通特盾： 
+			<a href="#tsuujou-shield">通常</a> / 
+			<a href="#tokushu-shield">特殊</a>
+			<br>
+			リセット系： 
+			<a href="#order-reset">オーダー使用回数</a> / 
+			<a href="#unit-reset">ユニットチェンジ回数</a>
+			<br>
+			属性攻防： 
+			<a href="#zokusei-attack-up">攻バフ</a> / 
+			<a href="#zokusei-defense-up">防バフ</a> / 
+			<a href="#zokusei-attack-down">攻デバフ</a> / 
+			<a href="#zokusei-defense-down">防デバフ</a>
+			<br>
+			オーダー時間操作： 
+			<a href="#kasoku">加速</a> / 
+			<a href="#ayatsuri">操り</a>
+			<br>
+			<br>
 			<div class="example">
 				<table>
 					<tr>
@@ -26,7 +76,7 @@
 						<th>レギマ効果</th>
 						<th>レギマ時間</th>
 					</tr>
-					<tr>
+					<tr id="fire">
 						<td><img src="../img/order_img/order_1.png"></td>
 						<td></td>
 						<td>火炎の心得</td>
@@ -98,7 +148,7 @@
 						<td>火　特殊・後衛：特大増加<br>火　通常　　　：増加</td>
 						<td>30+120</td>
 					</tr>
-					<tr>
+					<tr id="water">
 						<td><img src="../img/order_img/order_2.png"></td>
 						<td></td>
 						<td>流水の心得</td>
@@ -170,7 +220,7 @@
 						<td>水　特殊・後衛：特大増加<br>水　通常　　　：増加</td>
 						<td>30+120</td>
 					</tr>
-					<tr>
+					<tr id="wind">
 						<td><img src="../img/order_img/order_3.png"></td>
 						<td></td>
 						<td>疾風の心得</td>
@@ -242,7 +292,7 @@
 						<td>風　特殊・後衛：特大増加<br>風　通常　　　：増加</td>
 						<td>30+120</td>
 					</tr>
-					<tr>
+					<tr id="light">
 						<td><img src="../img/order_img/order_89.png"></td>
 						<td></td>
 						<td>神光の心得</td>
@@ -323,7 +373,7 @@
 						<td>味方前衛ATK/Sp.ATK：特大上昇</td>
 						<td>20+0</td>
 					</tr>
-					<tr>
+					<tr id="dark">
 						<td><img src="../img/order_img/order_90.png"></td>
 						<td></td>
 						<td>宵闇の心得</td>
@@ -395,7 +445,7 @@
 						<td>闇：特大増加<br>風：増加</td>
 						<td>15+60</td>
 					</tr>
-					<tr>
+					<tr id="lightdark">
 						<td><img src="../img/order_img/order_87.png"></td>
 						<td></td>
 						<td>光陰の心得</td>
@@ -413,7 +463,7 @@
 						<td>光闇：特大増加</td>
 						<td>15+60</td>
 					</tr>
-					<tr>
+					<tr id="ASA-up">
 						<td><img src="../img/order_img/order_4.png"></td>
 						<td></td>
 						<td>攻勢強化の剣</td>
@@ -440,7 +490,16 @@
 						<td>味方前衛ATK/Sp.ATK：特大上昇</td>
 						<td>20+0</td>
 					</tr>
-					<tr>
+					<tr class="paid">
+						<td><img src="../img/order_img/order_131.png"></td>
+						<td>〇</td>
+						<td>熾烈攻勢の聖剣</td>
+						<td>味方ATK/Sp.ATK：超特大上昇</td>
+						<td>10+0</td>
+						<td>味方前衛ATK/Sp.ATK：超特大上昇</td>
+						<td>20+0</td>
+					</tr>
+					<tr id="DSD-up">
 						<td><img src="../img/order_img/order_5.png"></td>
 						<td></td>
 						<td>守勢強化の盾</td>
@@ -467,7 +526,7 @@
 						<td>味方前衛DEF/Sp.DEF：特大上昇</td>
 						<td>20+0</td>
 					</tr>
-					<tr>
+					<tr id="ASA-down">
 						<td><img src="../img/order_img/order_6.png"></td>
 						<td></td>
 						<td>刀縛りの蔦</td>
@@ -494,7 +553,7 @@
 						<td>敵前衛ATK/Sp.ATK：特大減少</td>
 						<td>20+0</td>
 					</tr>
-					<tr>
+					<tr id="DSD-down">
 						<td><img src="../img/order_img/order_7.png"></td>
 						<td></td>
 						<td>敵陣防壁破壊</td>
@@ -530,7 +589,7 @@
 						<td>味方前衛スキル効果：大増加<br>※劣勢時のみ</td>
 						<td>40+110</td>
 					</tr>
-					<tr>
+					<tr id="flag">
 						<td><img src="../img/order_img/order_15.png"></td>
 						<td></td>
 						<td>不屈の御旗</td>
@@ -548,7 +607,7 @@
 						<td>味方前衛スキル効果：特大増加<br>※劣勢時のみ</td>
 						<td>30+120</td>
 					</tr>
-					<tr>
+					<tr id="fire-shield">
 						<td><img src="../img/order_img/order_17.png"></td>
 						<td></td>
 						<td>火除けの盾</td>
@@ -575,7 +634,7 @@
 						<td>敵火：特大減少<br>※回復を除く<br>※味方ポイントが敵の1/2以下で即終了</td>
 						<td>20+100</td>
 					</tr>
-					<tr>
+					<tr id="water-shield">
 						<td><img src="../img/order_img/order_18.png"></td>
 						<td></td>
 						<td>水払いの盾</td>
@@ -602,7 +661,7 @@
 						<td>敵水：特大減少<br>※回復を除く<br>※味方ポイントが敵の1/2以下で即終了</td>
 						<td>20+100</td>
 					</tr>
-					<tr>
+					<tr id="wind-shield">
 						<td><img src="../img/order_img/order_19.png"></td>
 						<td></td>
 						<td>風止めの盾</td>
@@ -629,7 +688,7 @@
 						<td>敵風：特大減少<br>※回復を除く<br>※味方ポイントが敵の1/2以下で即終了</td>
 						<td>20+100</td>
 					</tr>
-					<tr>
+					<tr id="MP-keigen">
 						<td><img src="../img/order_img/order_20.png"></td>
 						<td></td>
 						<td>魔減の展開</td>
@@ -647,7 +706,7 @@
 						<td>味方全体消費MP特大軽減</td>
 						<td>20+80</td>
 					</tr>
-					<tr>
+					<tr id="MP-kaihuku">
 						<td><img src="../img/order_img/order_21.png"></td>
 						<td></td>
 						<td>広域魔導強化の陣</td>
@@ -692,7 +751,7 @@
 						<td>味方後衛MP70%回復</td>
 						<td>30+0</td>
 					</tr>
-					<tr>
+					<tr id="hojo-up">
 						<td><img src="../img/order_img/order_24.png"></td>
 						<td></td>
 						<td>覚醒の明星</td>
@@ -719,7 +778,7 @@
 						<td>味方全体補助スキル発動率特大増加</td>
 						<td>20+80</td>
 					</tr>
-					<tr>
+					<tr id="hojo-down">
 						<td><img src="../img/order_img/order_25.png"></td>
 						<td></td>
 						<td>覚醒妨害</td>
@@ -746,7 +805,7 @@
 						<td>敵全体補助スキル発動率特大減少<br>残り2分未満で即終了<br>※相手が補助スキル発動率上昇オーダー使用時、効果増加</td>
 						<td>20+80</td>
 					</tr>
-					<tr>
+					<tr id="tsuujou-shield">
 						<td><img src="../img/order_img/order_40.png"></td>
 						<td></td>
 						<td>衝撃返しの盾</td>
@@ -764,7 +823,7 @@
 						<td>通常ダメージ大軽減</td>
 						<td>30+90</td>
 					</tr>
-					<tr>
+					<tr id="tokushu-shield">
 						<td><img src="../img/order_img/order_46.png"></td>
 						<td></td>
 						<td>特異返しの盾</td>
@@ -782,7 +841,7 @@
 						<td>特殊ダメージ大軽減</td>
 						<td>30+90</td>
 					</tr>
-					<tr>
+					<tr id="order-reset">
 						<td><img src="../img/order_img/order_49.png"></td>
 						<td></td>
 						<td>回帰の砂時計</td>
@@ -800,7 +859,7 @@
 						<td>自身以外味方オーダー回数リセット</td>
 						<td>30+0</td>
 					</tr>
-					<tr>
+					<tr id="unit-reset">
 						<td><img src="../img/order_img/order_59.png"></td>
 						<td></td>
 						<td>広域再編の策</td>
@@ -854,7 +913,7 @@
 						<td>味方後衛ユニットチェンジ回数リセット</td>
 						<td>15+0</td>
 					</tr>
-					<tr>
+					<tr id="zokusei-attack-up">
 						<td><img src="../img/order_img/order_93.png"></td>
 						<td></td>
 						<td>光刃激化の豪剣</td>
@@ -935,7 +994,7 @@
 						<td>味方前衛火攻撃力：特大上昇</td>
 						<td>20+0</td>
 					</tr>
-					<tr>
+					<tr id="zokusei-defense-up">
 						<td><img src="../img/order_img/order_94.png"></td>
 						<td></td>
 						<td>光鎧強化の壁</td>
@@ -1007,7 +1066,7 @@
 						<td>味方前衛風防御力：特大上昇</td>
 						<td>20+0</td>
 					</tr>
-					<tr>
+					<tr id="zokusei-attack-down">
 						<td><img src="../img/order_img/order_97.png"></td>
 						<td></td>
 						<td>光刃縛りの蔦</td>
@@ -1079,7 +1138,7 @@
 						<td>味方前衛風攻撃力：特大減少</td>
 						<td>20+0</td>
 					</tr>
-					<tr>
+					<tr id="zokusei-defense-down">
 						<td><img src="../img/order_img/order_98.png"></td>
 						<td></td>
 						<td>光鎧の壁破壊</td>
@@ -1160,7 +1219,7 @@
 						<td>味方前衛火防御力：特大減少</td>
 						<td>20+0</td>
 					</tr>
-					<tr>
+					<tr id="kasoku">
 						<td><img src="../img/order_img/order_117.png"></td>
 						<td></td>
 						<td>戦術加速の策</td>
@@ -1178,7 +1237,7 @@
 						<td>味方：次に使うオーダーの準備時間を5秒に変更</td>
 						<td>5+0</td>
 					</tr>
-					<tr>
+					<tr id="ayatsuri">
 						<td><img src="../img/order_img/order_123.png"></td>
 						<td></td>
 						<td>操りの時計</td>
