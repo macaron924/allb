@@ -1,0 +1,2086 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta http-equiv="content-type" charset="UTF-8">
+		<meta http-equiv="Cache-Control" content="no-store">
+		<link rel="icon" href="../img/icon.png">
+		<link rel="stylesheet" type="text/css" href="./style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/menu.css">
+        <title>メモリア一覧 (ガチャ等分類あり)</title>
+    </head>
+
+    <body>
+        <script src="../js/header_depth1.js"></script>
+
+        <main>
+            <h1 class="title">メモリア一覧 (ガチャ等分類あり)</h1>
+            <h2><a href="./">ガチャ等分類無しver.はこちら</a></h2>
+            <br>
+            <a href="#start">初期実装</a><br>
+            <a href="#event">メダル/ギガント級討伐イベント</a><br>
+            <a href="#challenge">チャレンジバトルイベント</a><br>
+            <a href="#zokusei">属性ガチャ</a><br>
+            <a href="#kakusei">覚醒フェス</a><br>
+            <a href="#birthday">誕生日/誕生月ガチャ</a><br>
+            <a href="#zeneikouei">前衛後衛/役割別ガチャ</a><br>
+            <a href="#other">その他のガチャ</a><br>
+            <a href="#legendary">レジェンダリー</a><br>
+            <a href="#mission">ミッション、ログインボーナス等</a><br>
+            <a href="#pay">課金</a><br>
+            <a href="#code">シリアルコード</a><br>
+            <br>
+            <span class="category0" id="start">初期実装</span><br>
+            <div class="category1">
+                制服<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_1.png"><br>守りたいもの</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_2.png"><br>世代を越え伝えるもの</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_3.png"><br>完全無欠のお嬢様</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_4.png"><br>ふーみん、司令官になる</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_5.png"><br>紡ぐ未来、変わる今</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_6.png"><br>吉村・Ｔｈｉ・梅の日常</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_7.png"><br>ふたりで守る灯り</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_8.png"><br>淑やかなるスナイパー</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_9.png"><br>先輩と後輩と仲間たち</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_10.png"><br>全力少女</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_11.png"><br>藍の一番長い日</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_12.png"><br>ヘルヴォルの名を冠する者</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_13.png"><br>言葉なく猛る</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_14.png"><br>秘密の魔法の唱え方</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_15.png"><br>その笑顔を守るために</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_16.png"><br>グラン・エプレの必勝戦術</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_17.png"><br>努力は憧れを追って</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_18.png"><br>エアリアル☆シューター</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_19.png"><br>花は優しく微笑む</div>
+                    </div>
+                </div>
+                アラウンドザウィロー (一柳隊隊服)<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_20.png"><br>お気に入りの隊服</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_21.png"><br>孤高のリリィが生きる今</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_22.png"><br>バトル・ウエイトレス</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_23.png"><br>一柳隊の仲間として</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_24.png"><br>紅蓮を翔ける勇者</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_25.png"><br>トレイン・コースター</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_26.png"><br>可憐なる旗のもとに</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_27.png"><br>踏み出す勇気</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_28.png"><br>夢見る魔法少女</div>
+                    </div>
+                </div>
+                カップリングメモリア<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_29.png"><br>レンズにほころぶ百合の蕾</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_30.png"><br>ねむねむにさようなら</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_31.png"><br>やさしい黄昏</div>
+                    </div>
+                </div>
+            </div>
+            <span class="category0" id="event">メダル/ギガント級討伐イベント</span><br>
+            <div class="category1">
+                守護天使の誓い (2021/1/20～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_37.png"><br>帰り立つ少女</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第1弾イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_38.png"><br>シュッツエンゲルの誓い</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_39.png"><br>雪辱の一閃</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_40.png"><br>疾風の救助者</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第2弾イベントガチャ (2021/1/22～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_41.png"><br>強くなるために</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_42.png"><br>Dear Schutzengel</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ブーステッド・フレンド (2021/1/31～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_44.png"><br>夜に潜む</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第1弾イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_45.png"><br>伝えたい言葉</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_46.png"><br>歴戦の貫禄</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_47.png"><br>ニアレスト</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第2弾イベントガチャ (2021/2/3～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_48.png"><br>雨上がりの朝稽古</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_49.png"><br>放課後ファンタズム</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                叛逆のスキャルドメール (2021/2/10～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_50.png"><br>盾の乙女</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_51.png"><br>雨降って絆深まる</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_52.png"><br>お気に入りのかわいい服</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_53.png"><br>誇りの一閃</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_54.png"><br>約束のピクニック</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_55.png"><br>ヘルヴォルの戦乙女</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_56.png"><br>私たちの正義</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                カラフル・ダイアリー (2021/2/19～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_58.png"><br>変わる世界と変わらぬ想い</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_59.png"><br>貴方に贈る花</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_60.png"><br>わたしの秘密の記録</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_61.png"><br>都会の空を舞う天使</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_62.png"><br>ストロベリー・プリンセス</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_63.png"><br>これまでも、これからも隣で</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ノーブルリリィ・レポート (2021/2/28～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_68.png"><br>一流の戦い</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第1弾イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_65.png"><br>安らぎの帰り道</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_66.png"><br>戦場を切り裂く閃光</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_67.png"><br>わたしにできること</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第2弾イベントガチャ (2021/3/3～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_68.png"><br>一流の戦い</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_69.png"><br>ロイヤル・ホスピタリティ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_70.png"><br>一柳隊、大特集！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_71.png"><br>一柳隊の知恵袋</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_72.png"><br>ふたりのアーセナル</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_73.png"><br>CHARMにお疲れ様</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                アイドルリリィ★ステージ (2021/3/21～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_87.png"><br>ひめひめ・オン・ザ・ステージ！</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_82.png"><br>アイドルリリィ★スマイル</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_83.png"><br>ハッピー☆シューティングスター</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_84.png"><br>光り輝くステージへ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_85.png"><br>アイドルリリィをつかまえて</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_86.png"><br>姫歌を脅かす2つの新星</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_87.png"><br>ひめひめ・オン・ザ・ステージ！</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                罪なき少女たちのスティグマ (2021/3/31～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_95.png"><br>星が見えない君へ</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_89.png"><br>突き通す信念の剣</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_90.png"><br>トリガーハッピー</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_91.png"><br>たった一歩の前進</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_92.png"><br>キャッチ＆リリース＆イート</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_93.png"><br>そこにある笑顔</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_94.png"><br>白花咲く港</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_95.png"><br>星が見えない君へ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                アーセナル・ジェラシー (2021/4/15～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_101.png"><br>GO!GO!ミリアム</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_102.png"><br>優美なる舞</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_103.png"><br>踏み込む勇気</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                朋友のブルーストライク (2021/4/30～)<br>
+                <div class="category2">
+                    第1弾イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_106.png"><br>パーフェクトガード</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_107.png"><br>朋友</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_108.png"><br>想いの輪唱</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_109.png"><br>復讐の炎</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第2弾イベントガチャ (2021/5/3～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_110.png"><br>甘いスイーツでおもてなし♪</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_111.png"><br>出逢いの約束</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                漆黒の騎士と白の姫騎士 (2021/5/16～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_114.png"><br>果断なる漆黒の騎士</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_115.png"><br>撃滅のブラックナイト</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_116.png"><br>優麗なる白の姫騎士</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_117.png"><br>不滅のホワイトナイト</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                超越のアーセナルハート (2021/5/31～)<br>
+                <div class="category2">
+                    第1弾イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_123.png"><br>未来を切り開く武器</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_124.png"><br>新しい可能性</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_125.png"><br>アーセナルの絆</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第2弾イベントガチャ (2021/6/3～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_126.png"><br>黄昏の研究者たち</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_127.png"><br>鬼さんズ、こちら</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                リリティカル☆サマー (2021/6/18～)<br>
+                <div class="category2">
+                    第1弾イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_133.png"><br>アナザーワールド</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_134.png"><br>ウォーター・レイルウェイ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_135.png"><br>ラ・ヴァカンス・パルフェ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_136.png"><br>水の車窓</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第2弾イベントガチャ (2021/6/22～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_137.png"><br>ランペイジクラフト</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_138.png"><br>ざっぱ～～ん！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_139.png"><br>おもちゃのプール</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                真夏のエスコートナイト (2021/6/29～)<br>
+                <div class="category2">
+                    第1弾イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_141.png"><br>エスコートナイト</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_142.png"><br>輝きの海岸線</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_143.png"><br>馳せたる海辺</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第2弾イベントガチャ (2021/7/3～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_144.png"><br>グリーンライフ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_145.png"><br>きみとぼくの創作世界</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_146.png"><br>スーパーかわいいジャンプ！</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                災禍の胎動 (2021/7/10～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_147.png"><br>レギオン、集結</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_150.png"><br>顕現する脅威</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    1章完結編前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_149.png"><br>通じ合うふたり</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_150.png"><br>顕現する脅威</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    1章完結編後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_148.png"><br>夜の闇を切り拓く者たち</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                未来を切り開く、絆の弾丸 (2021/7/15～)<br>
+                <div class="category2">
+                    1章完結編前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_152.png"><br>親愛なる仲間</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_153.png"><br>単騎無双</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    1章完結編後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_154.png"><br>信頼の背中</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_155.png"><br>戦いを終えて</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                歴戦乙女のアンサンブル (2021/7/20～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_158.png"><br>神宿りの暴走</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_159.png"><br>大切な存在</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_160.png"><br>悲壮の華</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_161.png"><br>黄昏の英雄たち</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                夜空に咲く追憶の花 (2021/7/31～)<br>
+                <div class="category2">
+                    第1弾イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_164.png"><br>夜空に咲く約束の花</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_165.png"><br>もう何も奪わせない</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_166.png"><br>夏祭りのスナイパー</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第2弾イベントガチャ (2021/8/3～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_167.png"><br>約束の蕾</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_168.png"><br>紅巴式夏祭りの楽しみ方</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                古き空より祈りをこめて (2021/8/11～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_170.png"><br>楽しい遊園地</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_171.png"><br>繋げたい言葉</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_172.png"><br>いつかみんなと見る景色</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                約束の魔法 (魔法少女リリカルなのはDetonation コラボ) (2021/8/31～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_178.png"><br>はるかな空</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第1弾イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_179.png"><br>貫く想いの一撃</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_180.png"><br>救う願いの一閃</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_181.png"><br>束ねる絆の一夜</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第2弾イベントガチャ (2021/9/3～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_182.png"><br>わたしたちの魔法</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_183.png"><br>小さなシュッツエンゲル</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_184.png"><br>世界を越えて</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                蒼穹の白百合 (2021/9/14～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_187.png"><br>花を束ねる者</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_188.png"><br>追跡者</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_189.png"><br>この空の下で</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                虹色ハロウィンバスターズ (2021/9/30～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_195.png"><br>ハッピー＆トリート</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_196.png"><br>吸血鬼のたしなみ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_197.png"><br>おいでよ☆ハロウィン</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ふしぎの国のタヅサ (2021/10/11～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_199.png"><br>ようこそ！ふしぎの国へ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_200.png"><br>プレ・ハロウィンパーティー！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_201.png"><br>ホワイト・ラビット・マジック！</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                復刻 ブーステッド・フレンド (2021/10/21～)<br>
+                <div class="category2">
+                    第1弾イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_204.png"><br>無邪気な親近感</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第2弾イベントガチャ (2021/10/23～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_205.png"><br>ここから先へ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                凛然のリトル・シスター (2021/10/31～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_209.png"><br>ヘイムスクリングラ・シスターズ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_210.png"><br>勝利の女神が微笑む時</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_211.png"><br>二水のヘイムスクリングラ体験</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                夜闇を駆けるエージェント (2021/11/11～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_216.png"><br>駆けろ！エージェント</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_217.png"><br>美しき鉄糸の舞</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_218.png"><br>せめて、この子だけは</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                復刻 ノーブルリリィ・レポート (2021/11/20～)<br>
+                <div class="category2">
+                    第1弾イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_220.png"><br>エレクトロンバウト！</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第2弾イベントガチャ (2021/11/22～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_221.png"><br>気まぐれのツーショット</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ユリの花咲く場所 (2021/11/30～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_226.png"><br>冷たいラムネをどうぞ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_227.png"><br>みんな、ガンバレー！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_228.png"><br>結梨の大好きな場所</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                メモリー・オブ・リリィズ (2021/12/13～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_229.png"><br>胸躍る聖夜</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_230.png"><br>スノーフレーク</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_231.png"><br>プレゼントはお任せ♪</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                復刻 アイドルリリィ★ステージ (2021/12/20～)<br>
+                <div class="category2">
+                    第1弾イベントガチャ (第2弾も同日で既存PUのみ)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_232.png"><br>高らかと響き渡る歌声の中で</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_233.png"><br>大丈夫、みんながいるから</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                戦場に咲く歌の花 (戦姫絶唱シンフォギアXD UNLIMITED コラボ) (2021/12/26～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_237.png"><br>戦いの合間に</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_238.png"><br>絆の歌</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_239.png"><br>神獣鏡の輝き</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_240.png"><br>ガンズ・パーティー</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_241.png"><br>気高き錬金術士</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                招福万来のラッキーガール (2021/12/31～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_242.png"><br>元日の決斗！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_243.png"><br>心弛ぶひととき</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_244.png"><br>故郷へ想い馳せながら</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_245.png"><br>罰執行のお時間です</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                復刻 守護天使の誓い (2022/1/8～)<br>
+                <div class="category2">
+                    第1弾イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_250.png"><br>ミューチュアル・プロテクション</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第2弾イベントガチャ (同日～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_251.png"><br>ファイア・ダッシュ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                激戦のプレリュード (2022/1/20～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_256.png"><br>狂乱の姫巫女</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_257.png"><br>台場の白き魔女</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_258.png"><br>鬼神の意志を継ぐ者</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_259.png"><br>ラ・ピュセル</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_260.png"><br>戦火の結束</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                慟哭のクリューサーオール (2022/1/31～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_261.png"><br>ジャスト・ザ・ブレイブ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_262.png"><br>コール・ユア・ネーム</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_263.png"><br>ガーディアン・パワー</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_264.png"><br>エクストリームブースト</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                メイド・イン・シルト (2022/2/10～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_267.png"><br>ドキドキ・ショコラーデ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_268.png"><br>まごころをこめて！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_269.png"><br>ハッピーバレンタインだにゃん♪</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_270.png"><br>ハンドメイド・リリィ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                双璧の戦乙女 (2022/2/19～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_273.png"><br>暴君の花嫁</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_274.png"><br>セインツの宝石</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_275.png"><br>劔の妖精</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                美しき世界のメッセンジャー (2022/2/28～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_277.png"><br>寂寥の美</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_278.png"><br>先駆けプリンセス</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_279.png"><br>遠い日の足跡</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                オーダーメイドシスターズ (2022/3/12～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_283.png"><br>純白の想い</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_284.png"><br>いつでも近くに</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_285.png"><br>あなただけの守護天使</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ギガント級ヒュージ討伐 アビスサーペントChapter.1 (2022/3/24～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_290.png"><br>迎え撃つ勇士たち</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_288.png"><br>ブレイブ・ショット</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_289.png"><br>不撓不屈の心を胸に</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                デート・ア・リリィ 狂三フレンド (デート・ア・ライブ コラボ) (2022/3/31～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_292.png"><br>デートのプロフェッショナル</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第1弾イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_293.png"><br>静寂の中で</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_294.png"><br>灼爛の一撃</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_295.png"><br>扶翼の剣</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第2弾イベントガチャ (2022/4/4～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_296.png"><br>悪夢との共闘</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_297.png"><br>世界を守る剣たち</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                復刻 アーセナル・ジェラシー (2022/4/8～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_298.png"><br>水流乱撃</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                まごころを留めて (2022/4/15～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_302.png"><br>そうさく倶楽部の活動</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_303.png"><br>不動劔の姫</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_304.png"><br>飛翔迎撃</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_305.png"><br>麗しき出立</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ギガント級ヒュージ討伐 アビスサーペントChapter.2 (2022/4/25～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_309.png"><br>ストームデュオ</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_307.png"><br>雷光一閃</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_308.png"><br>アクアストライク</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                鋼鉄の意志、未来への翼 (2022/4/30～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_313.png"><br>不死身の刃</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_314.png"><br>友を守護する剣</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_315.png"><br>狂化フルスロットル</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_316.png"><br>みんなを守るために</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                悪蝕のナイトメア (2022/5/19～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_322.png"><br>希望の光</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_323.png"><br>だいすきをあげる</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_324.png"><br>私ヲ蝕ム悪イ夢</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ギガント級ヒュージ討伐 アビスサーペントChapter.3 (2022/5/25～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_328.png"><br>もう一度、何度でも</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_326.png"><br>心の炎は豪雨で消えず</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_327.png"><br>相生の水先案内人</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                メンター・ザ・リリィ (2022/5/31～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_329.png"><br>BZのプロフェッショナル</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_330.png"><br>最高のルームメイト</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_331.png"><br>美しき師弟関係</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_332.png"><br>生徒会のお仕事</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                復刻 朋友のブルーストライク (2022/6/10～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_338.png"><br>勝利のファンファーレ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                フェス!フェス!アイドルリリィ (2022/6/17～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_339.png"><br>M.V.P.オンステージ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_340.png"><br>乙女の非常事態</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_341.png"><br>ビーチでバカンス</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_342.png"><br>華の休息</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ギガント級ヒュージ討伐 アビスサーペントChapter.4 (2022/6/24～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_347.png"><br>この勝利が小さな一歩でも</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_345.png"><br>ここから先は通さない</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_346.png"><br>巨影を討つ閃光</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                絆色のスフィアコネクト (2022/6/30～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_349.png"><br>ピュリファイ・ラプラス</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_350.png"><br>絆のアルケミートレース</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_351.png"><br>信じる想いを力に変えて</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                復刻 罪なき少女たちのスティグマ (2022/7/10～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_356.png"><br>殲滅のシルバーバレット</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                リリィティック漂流記 (2022/7/20～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_358.png"><br>面目躍如のサバイバル</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_359.png"><br>炊事は任せた！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_360.png"><br>ウッドクラフトに挑戦</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_361.png"><br>ダイビング・アタッカー</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ギガント級ヒュージ討伐 カオスサーペントChapter.1 (2022/7/25～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_366.png"><br>バトル・デプロイメント</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_364.png"><br>アンブッシュ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_365.png"><br>淀みを蹴って</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                灼炎のエニグマ (2022/7/31～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_371.png"><br>不屈の一太刀</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_372.png"><br>極限コンビネーション</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_373.png"><br>激戦の終わりに</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                新刊1部ください！？ (2022/8/6～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_376.png"><br>新刊1部ください！？</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                復刻 夜空に咲く追憶の花 (2022/8/8～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_377.png"><br>見返り美人</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ふたりの魂祭り (2022/8/17～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_383.png"><br>祭囃子と恋の音</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_384.png"><br>ポイ越しの笑顔</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_385.png"><br>飛び出せミリアム！</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ギガント級ヒュージ討伐 カオスサーペントChapter.2 (2022/8/24～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_393.png"><br>その瞳に映るモノ</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_391.png"><br>天からの強襲</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_392.png"><br>アクロバット・シューター</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ライフロングフレンド (2022/8/31～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_394.png"><br>氷帝</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_395.png"><br>白鳥の姫騎士</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_396.png"><br>戦場のお色直し</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_397.png"><br>親愛なるルームメイト</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                復刻 古き空より祈りをこめて (2022/9/10～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_402.png"><br>一葉ののんびりタイム</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                竜楯のコンフリクト (2022/9/16～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_403.png"><br>真夜中の極秘作戦</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_404.png"><br>ミッドナイトスティール</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_405.png"><br>息を潜めて</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ギガント級ヒュージ討伐 カオスサーペントChapter.3 (2022/9/23～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_412.png"><br>らんとたづさのかくれんぼ</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_410.png"><br>静寂に佇む狩人</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_411.png"><br>藍は舞い降りた</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                すれ違いのティーガーデン (2022/9/30～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_414.png"><br>ふたりの距離</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_415.png"><br>庭園の護り人</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_416.png"><br>ソーイングマスター姫歌</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                復刻 戦場に咲く歌の花 (戦姫絶唱シンフォギアXD UNLIMITED コラボ) (2022/10/7～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_422.png"><br>陽だまりシュッツエンゲル</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_423.png"><br>夜空に響く勝利の歌</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                トリック・オア・スイーツ (2022/10/15～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_424.png"><br>いたずらゴースト</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_425.png"><br>どきどきデビル</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_426.png"><br>はじらいマミー</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ギガント級ヒュージ討伐 カオスサーペントChapter.4 (2022/10/21～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_433.png"><br>雲間から差し込む光</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_431.png"><br>ひめひめ華麗に参上！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_432.png"><br>好機を待つのじゃ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                リリィズ＆パンツァー (ガールズ＆パンツァー コラボ) (2022/10/31～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_440.png"><br>作戦会議です！</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第1弾イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_436.png"><br>形勢逆転！！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_437.png"><br>西住流の誇り</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_438.png"><br>優雅なティータイム</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_439.png"><br>予想外の事態</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    第2弾イベントガチャ (2022/11/4～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_441.png"><br>束の間の休息</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_442.png"><br>ワーオ！　エキサイティン！！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_443.png"><br>CHARMという兵器</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                復刻(イベント復刻無し) 歴戦乙女のアンサンブル (2022/11/8～)<br>
+                <div class="category2">
+                    ピックアップガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_449.png"><br>暮れなずむ空</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                憂い晴らすは姉妹の絆 (2022/11/10～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_451.png"><br>あなたとおそろい</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_452.png"><br>騒がし乙女の凱旋</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_453.png"><br>覚醒の兆し</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                凍て空の流星 ―狂乱の三重奏― / ギガント級ヒュージ討伐 フロストサーペントChapter.1 (2022/11/19～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_462.png"><br>白に染まる世界</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_459.png"><br>鳴り響く狂乱の連弾</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_460.png"><br>雪原の白き魔女</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_461.png"><br>雪風と踊る少女</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                聖夜へ捧ぐサプライズ (2022/11/30～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_464.png"><br>帯びる熱と急接近</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_465.png"><br>サプライズゲーム</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_466.png"><br>はっぴーらっきーとっきー</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                凍て空の流星 ―輝きを繋ぐ旋律― / ギガント級ヒュージ討伐 フロストサーペントChapter.2 (2022/12/11～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_476.png"><br>歴戦の余裕</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_473.png"><br>旋律に身を委ねて</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_474.png"><br>縮地、友の元へ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_475.png"><br>雪原に火花散る</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                シスターズ・カラミティ (2022/12/22～)<br>
+                <div class="category2">
+                    シスターズ・カラミティ イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_485.png"><br>空想魔法少女</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_486.png"><br>願いの魔法少女</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_487.png"><br>投影魔術</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    シスターズ・カラミティ・ツヴァイ イベントガチャ (2022/12/25～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_488.png"><br>射殺す百頭</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_489.png"><br>約束された勝利の剣</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                年始めに想い重ねて (2022/12/31～)<br>
+                <div class="category2">
+                    イベント第1弾ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_490.png"><br>初春の宴に貴女を想う</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_491.png"><br>新年、はっじまっるよ～♪</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_492.png"><br>兎であけおめですわ！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_493.png"><br>かがみもち、できました！</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベント第2弾ガチャ (2023/1/3～)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_494.png"><br>雪兎に会えた日</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_495.png"><br>突きて返すは兎姉妹</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_496.png"><br>思い出を抱きしめて</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_497.png"><br>賀正！！</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                凍て空の流星 ―雪風に劔を掲げて― / ギガント級ヒュージ討伐 フロストサーペントChapter.3 (2023/1/10～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_506.png"><br>引導を渡して差し上げますわ</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_503.png"><br>この手に劔がある限り</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_504.png"><br>うりゃうりゃうりゃうりゃ！！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_505.png"><br>飢えし群れ、挑む狩人</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                花々集う大宴会 (2023/1/20～)<br>
+                <div class="category2">
+                    イベントガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_508.png"><br>止めどない熱</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_509.png"><br>Cherishing</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_510.png"><br>変わらない絆</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_511.png"><br>ふたりのヒメゴト</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    アニバーサリー大宴会ガチャ (2023/1/22～) (特効は共闘イベントのみ)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_512.png"><br>好いも甘いも受け止めて</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_513.png"><br>宴に舞う華</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_514.png"><br>湯けむりの向こう側</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    アニバーサリー大宴会ガチャ～おかわり～ (2023/1/24～) (特効は共闘イベントのみ)<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_515.png"><br>蝶の夢</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_516.png"><br>いつも隣に</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_517.png"><br>ありのままのわたしで</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                カラフルデイズ・エンド (2023/1/31～)<br>
+                <div class="category2">
+                    イベント第1弾ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_524.png"><br>ハルナストライク！！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_525.png"><br>光の盾</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_526.png"><br>貴女の笑顔を守るために</div>
+                    </div>
+                </div>
+            </div>
+            <span class="category0" id="challenge">チャレンジバトルイベント</span><br>
+            <div class="category1">
+                水属性チャレンジバトル (2021/3/15～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_79.png"><br>クラシック・ホリデイ</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    水属性チャレンジバトルガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_77.png"><br>晴れのちラムネ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_78.png"><br>湯けむりの園</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_79.png"><br>クラシック・ホリデイ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                風属性チャレンジバトル (2021/4/19～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_105.png"><br>空想と現実は陸続き</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    風属性チャレンジバトルガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_104.png"><br>見切れ希望女子</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_105.png"><br>空想と現実は陸続き</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                火属性チャレンジバトル (2021/5/20～)<br>
+                <div class="category2">
+                    報酬<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_120.png"><br>心を満たす栄養食</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    火属性チャレンジバトルガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_119.png"><br>おこづかいのゆくえ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_120.png"><br>心を満たす栄養食</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                サマーチャレンジバトル (2021/8/7～)<br>
+                <div class="category2">
+                    ハーフアニバーサリー~Sequel~記念サマーガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_169.png"><br>優しい夕暮れ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                コラボ開催記念チャレンジバトル (2021/9/8～)<br>
+                <div class="category2">
+                    コラボ開催記念チャレンジバトルガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_186.png"><br>姉妹の休息</div>
+                    </div>
+                </div>
+            </div>
+            <span class="category0" id="zokusei">属性/レジェンダリーバトルガチャ</span><br>
+            <div class="category1">
+                水属性ピックアップガチャ (2021/6/14～)<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_132.png"><br>勝負の鍵は</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                風属性ピックアップガチャ (2021/7/19～)<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_156.png"><br>リリィのすべてを伝えるために</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                レジェンダリーバトルガチャ (2021/8/23～)<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_176.png"><br>仮想訓練場の応酬</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                レジェンダリーバトルガチャ (2021/9/16～)<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_190.png"><br>発進☆ユニコーン！</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                レジェンダリーバトルガチャ (2021/11/3～)<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_212.png"><br>アクアプラクティス</div>
+                    </div>
+                </div>
+            </div>
+            <span class="category0" id="kakusei">覚醒フェス</span><br>
+            <div class="category1">
+                覚醒フェス (2021/10/26～)<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_207.png"><br>プレシャス・モーニング</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                覚醒フェス (2021/11/24～)<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_223.png"><br>トライング・オン</div>
+                    </div>
+                </div>
+            </div>
+            <span class="category0" id="birthday">誕生日/誕生月ガチャ</span><br>
+            <div class="category1">
+                2021<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_43.png"><br>アフタヌーンティー</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_57.png"><br>星降る夜の約束</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_64.png"><br>猫の誘惑</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_76.png"><br>姫歌イメチェン大作戦!!</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_88.png"><br>藍の宝物</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_98.png"><br>不器用なお姉様</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_112.png"><br>恋花様ダイエット大作戦</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_121.png"><br>この地にて芽吹く</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_130.png"><br>アンブレイカブル</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_140.png"><br>あなたと甘いひとときを</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_162.png"><br>のびのびトレーニング！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_173.png"><br>リフレッシュ！エンジン</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_193.png"><br>ハッピーを見つけたら☆</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_198.png"><br>ヘルヴォルのお嫁さん</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_208.png"><br>飾らぬ想いに咲き誇る</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_213.png"><br>街角の寡黙な花</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_224.png"><br>リワード・マイセルフ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_235.png"><br>情熱の取材前夜！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_236.png"><br>あなたに傘を</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                2022<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_246.png"><br>大切な貴方への贈り物</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_265.png"><br>一筆の心</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_271.png"><br>暁に笑う少女</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_280.png"><br>真夜中のクリエイター</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_291.png"><br>キラキラアイスクリーム！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_301.png"><br>愛しき人との待ち合わせ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_317.png"><br>足踏み健康ロードの悲劇</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_325.png"><br>昼下がりのラプソディー</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_333.png"><br>尊みの探求者</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_343.png"><br>クローバー・クラウン</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_362.png"><br>楽しいを探しに行こう！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_378.png"><br>夏の海とかき氷</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_413.png"><br>ダイスキをキャンバスに</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_417.png"><br>秋空ピクニック</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_435.png"><br>ワイン色の思い出</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_450.png"><br>縄跳びトレーニング</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_463.png"><br>レンズ越しの視点</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_477.png"><br>ふーみんにインタビュー</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_479.png"><br>懐かしくて、優しい味</div>
+                    </div>
+                </div>
+            </div>
+            <span class="category0" id="zeneikouei">前衛後衛/役割別ガチャ</span><br>
+            <div class="category1">
+                後衛ピックアップガチャ (2021/3/5～)<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_74.png"><br>あたしがこの手で守るもの</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_75.png"><br>ガラスの中の大切な世界</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                前衛ガチャピックアップ (2021/3/18～)<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_80.png"><br>迷子のクマ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_81.png"><br>うさぎになったカメ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                後衛ピックアップガチャ (2021/4/6～)<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_96.png"><br>ふたつのふれあい</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_97.png"><br>ワンショット</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                前衛ピックアップガチャ (2021/4/13～)<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_99.png"><br>レンズに咲く百合の花</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_100.png"><br>ハッピーハッピー☆タピオカ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                リミテッド後衛ガチャ (2021/5/11～)<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_113.png"><br>不完全ゆえに愛おしく</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                リミテッド前衛ガチャ (2021/5/18～)<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_118.png"><br>カワイイのシャッターチャンス</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                レギオンリーグ記念前衛後衛ガチャ (2021/6/6～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_128.png"><br>文武両道の乙女</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_129.png"><br>ひとりはみんなのために</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                レギオンリーグ記念前衛後衛ガチャ (2021/8/20～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_174.png"><br>清淑なる黒き槍</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_175.png"><br>プリンセスひめひめ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                レギオンリーグ記念前衛後衛ガチャ (2021/9/18～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_191.png"><br>一直線上のストラテジー</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_192.png"><br>校舎屋上のストラグル</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                レギオンリーグ記念前衛後衛ガチャ (2021/10/14～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_202.png"><br>平穏を守るための哮り</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_203.png"><br>フォール・ダウン・アタック</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                レギオンリーグ記念前衛後衛ガチャ (2021/11/8～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_214.png"><br>電光石火でご到着！</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_215.png"><br>スピード☆スター</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                1周年記念役割別ガチャ (2022/1/6～)<br>
+                <div class="category2">
+                    通常ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_247.png"><br>ボナペティ！</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    特殊ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_248.png"><br>CHARMを絵筆に替えて</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_249.png"><br>海の世界に想いを馳せて</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    支援ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_247.png"><br>ボナペティ！</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    妨害ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_248.png"><br>CHARMを絵筆に替えて</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    回復ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_249.png"><br>海の世界に想いを馳せて</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                新属性追加記念ガチャ (2022/3/7～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_281.png"><br>小春日和</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_282.png"><br>放課後のミューズ</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                ギガント級リリース直前記念ガチャ (2022/3/18～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_286.png"><br>レスキューキャット</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_287.png"><br>静かに肩を寄せて</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                レギオンリーグ記念前衛後衛ガチャ (2022/4/10～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_299.png"><br>なかよしとわいらいと</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_300.png"><br>月下の傍観者</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                レギオンリーグ記念前衛後衛ガチャ (2022/5/16～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_318.png"><br>すってんあかりん</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_319.png"><br>ブレイク・タイム</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_320.png"><br>ラブリーアンドピース</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_321.png"><br>思い出はカメラの中に</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                レギオンリーグ記念前衛後衛ガチャ (2022/6/9～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_334.png"><br>回遊のススメ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_335.png"><br>メイクアップ！</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_336.png"><br>謳歌のミュージックアワー</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_337.png"><br>お手当マイスター</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                レギオンリーグ記念前衛後衛ガチャ (2022/7/7～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_352.png"><br>水も滴るいい乙女</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_353.png"><br>ゼロ距離のしあわせ</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_354.png"><br>光の注ぐ夜</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_355.png"><br>やめられない刺激</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                レギオンリーグ記念前衛後衛ガチャ (2022/8/14～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_379.png"><br>クリエイターズコラボ-きらめきステージ-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_380.png"><br>クリエイターズコラボ-躍動の旋律-</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_381.png"><br>クリエイターズコラボ-花咲くハーモニー-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_382.png"><br>クリエイターズコラボ-想いを込めた歌声-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                祝1.5周年りりふぇす!!記念ガチャ (2022/8/20～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_386.png"><br>クリエイターズコラボ-納涼かき氷-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_387.png"><br>クリエイターズコラボ-涼やかな響き-</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_388.png"><br>クリエイターズコラボ-打ち上げ花火-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_389.png"><br>クリエイターズコラボ-夏色日和-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                クリエイターズコラボ前衛後衛ガチャ (2022/9/4～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_398.png"><br>クリエイターズコラボ-りざるとちぇっく-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_399.png"><br>クリエイターズコラボ-もっと優しく-</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_400.png"><br>クリエイターズコラボ-先輩ふぁいと☆-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_401.png"><br>クリエイターズコラボ-ペアトレ-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                クリエイターズコラボ前衛後衛ガチャ (2022/9/21～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_406.png"><br>クリエイターズコラボ-すすきの道しるべ-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_407.png"><br>クリエイターズコラボ-二人の奏でる夜の歌-</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_408.png"><br>クリエイターズコラボ-星空のどうぶつ探し-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_409.png"><br>クリエイターズコラボ-好きなものを一緒に-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                クリエイターズコラボ前衛後衛ガチャ (2022/10/5～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_418.png"><br>クリエイターズコラボ-ジャックコーデ-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_419.png"><br>クリエイターズコラボ-Early Trick-</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_420.png"><br>クリエイターズコラボ-こころにいたずら-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_421.png"><br>クリエイターズコラボ-くるくおーらんたん-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                クリエイターズコラボ前衛後衛ガチャ (2022/10/19～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_427.png"><br>クリエイターズコラボ-秋の木漏れ日-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_428.png"><br>クリエイターズコラボ-秋月夜の彩り-</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_429.png"><br>クリエイターズコラボ-紅葉も頬も色づいて-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_430.png"><br>クリエイターズコラボ-紅葉の帳-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                クリエイターズコラボ前衛後衛ガチャ (2022/11/6～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_444.png"><br>クリエイターズコラボ-ねんねこぐろっぴ-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_445.png"><br>クリエイターズコラボ-不動劔と至宝-</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_446.png"><br>カワウソづくし</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_447.png"><br>ひめひめコールお願いっ！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_448.png"><br>かめ、のち、えがお</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                クリエイターズコラボ前衛後衛ガチャ (2022/11/18～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_454.png"><br>クリエイターズコラボ-もふもふな時間-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_455.png"><br>クリエイターズコラボ-思い出がもう一つ-</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_456.png"><br>クリエイターズコラボ-どたばたデイズ-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_457.png"><br>クリエイターズコラボ-いつものおやつ-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_458.png"><br>クリエイターズコラボ-ご一緒にいかが？-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                クリエイターズコラボ前衛後衛ガチャ (2022/12/4～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_467.png"><br>クリエイターズコラボ-ひめひめ仕立て-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_468.png"><br>クリエイターズコラボ-手作りクリスマス-</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_469.png"><br>クリエイターズコラボ-聖夜に乾杯-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_470.png"><br>クリエイターズコラボ-聖夜のテラリウム-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_471.png"><br>クリエイターズコラボ-サンタをつかまえて-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                クリエイターズコラボ前衛後衛ガチャ (2022/12/20～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_480.png"><br>クリエイターズコラボ-どんがらがっしゃん-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_481.png"><br>クリエイターズコラボ-あつあつの肉まん-</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_482.png"><br>クリエイターズコラボ-ゆー姉と一緒！-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_483.png"><br>クリエイターズコラボ-かずはをよしよし-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_484.png"><br>クリエイターズコラボ-膝の子猫と窓の雪-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                クリエイターズコラボ前衛後衛ガチャ (2023/1/7～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_498.png"><br>クリエイターズコラボ-ことよろなのじゃ！-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_499.png"><br>クリエイターズコラボ-新年を祝すわ！-</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_500.png"><br>クリエイターズコラボ-あけおめですっ♪-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_501.png"><br>クリエイターズコラボ-謹賀新年です！-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_502.png"><br>クリエイターズコラボ-今年もよろしくね-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                アルティメットメモリア前衛後衛ガチャ (2023/1/26～)<br>
+                <div class="category2">
+                    前衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_518.png"><br>Ultimate Memoria -比類なき異能-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_519.png"><br>Ultimate Memoria -フェノメノ-</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    後衛ガチャ<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_520.png"><br>Ultimate Memoria -蒼き月、満ちる時-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_521.png"><br>Ultimate Memoria -シリウス・ロア-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_522.png"><br>Ultimate Memoria -縦横無尽、阻む者無し-</div>
+                    </div>
+                </div>
+            </div>
+            <span class="category0" id="other">その他のガチャ</span><br>
+            <div class="category1">
+                ラスバれ！GW記念 エモーショナルメモリア -癒しの露天風呂- ガチャ<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_312.png"><br>Emotional Memoria -癒しの露天風呂-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                エモーショナルメモリア -お姉様の水難- ガチャ<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_348.png"><br>Emotional Memoria-お姉様の水難-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                エモーショナルメモリア -晴れときどきサンオイル- ガチャ<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_363.png"><br>Emotional Memoria-晴れときどきサンオイル-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                祝1.5周年りりふぇす!!ガチャ<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_367.png"><br>クリエイターズコラボ-月に顔をそむけて-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_368.png"><br>クリエイターズコラボ-レディーティータイム-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_369.png"><br>クリエイターズコラボ-ひまわりとんだよ-</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_370.png"><br>クリエイターズコラボ-らぶらぶぴーす-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                エモーショナルメモリア -吐息の距離- ガチャ<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_523.png"><br>Emotional Memoria -吐息の距離-</div>
+                    </div>
+                </div>
+            </div>
+            <span class="category0" id="legendary">レジェンダリー</span><br>
+            <div class="category1">
+                レギオンリーグ<br>
+                <div class="category2">
+                    1st<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_131.png"><br>蒼き月の御使い</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_163.png"><br>プランセス</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_177.png"><br>獅子奮迅</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_194.png"><br>誠実なる守護者</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_206.png"><br>神の子</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_219.png"><br>リトル・アークメイジ</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_234.png"><br>戦場のコンダクター</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_253.png"><br>猪突猛進！</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_272.png"><br>ワンマンアーミー</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    レギオンリーグ 2nd Season<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_306.png"><br>フラガラッハの光</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_344.png"><br>猛る獅子の剣</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_390.png"><br>ナイトガンスリンガー</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_434.png"><br>月夜に吠える天狼</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_478.png"><br>聞こえし者</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category1">
+                レギオンボックスガチャ<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_222.png"><br>指先と白いペン</div>
+                    </div>
+                </div>
+            </div>
+            <span class="category0" id="mission">ミッション、ログインボーナス等</span><br>
+            <div class="category1">
+                初心者ミッション等<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_32.png"><br>そばにいるだけで</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_33.png"><br>祝!!リリース!!</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_34.png"><br>果てなき戦いの日々</div>
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_35.png"><br>ふたりの約束</div>
+                    </div>
+                </div>
+                期間限定<br>
+                <div class="category2">
+                    1周年記念<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_255.png"><br>Anniversary Memoria -大切なあなたを想い-</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    光闇実装記念<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_276.png"><br>信念と誇り</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    GWキャンペーン<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_311.png"><br>駆ける希望</div>
+                    </div>
+                </div>
+                HA、AN無料ガチャ<br>
+                <div class="category2">
+                    0.5周年<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_157.png"><br>リリィたちの羽休め</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    1周年<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_254.png"><br>戦いの旅路</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    1.5周年<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_357.png"><br>祝1.5周年りりふぇす!!</div>
+                    </div>
+                </div>
+                <div class="category2">
+                    2周年<br>
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_507.png"><br>2周年祭り 絆の彩り</div>
+                    </div>
+                </div>
+            </div>
+            <span class="category0" id="pay">課金</span><br>
+            <div class="category1">
+                夢結 / ルナティックトランサー<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_36.png"><br>焔の中の断罪者</div>
+                    </div>
+                </div>
+                百由 / 百合ヶ丘標準制服<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_122.png"><br>百由の息抜き</div>
+                    </div>
+                </div>
+                梨璃 / ラプラスの目覚め<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_151.png"><br>ラプラスの発動</div>
+                    </div>
+                </div>
+                結梨 / 百合ヶ丘標準制服<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_225.png"><br>リリィになるために！</div>
+                    </div>
+                </div>
+                雨嘉 / 聖夜のプレゼント<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_472.png"><br>神琳！？　これは違うの！</div>
+                    </div>
+                </div>
+            </div>
+            <span class="category0" id="code">シリアルコード</span><br>
+            <div class="category1">
+                1stシングル BD付き限定版<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_185.png"><br>凛々しい花々</div>
+                    </div>
+                </div>
+                ヴァイスシュヴァルツ アサルトリリィVol.2<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_252.png"><br>パジャマパーティー</div>
+                    </div>
+                </div>
+                2ndシングル BD付き限定版<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_266.png"><br>煌めく花々</div>
+                    </div>
+                </div>
+                アサルトリリィ ふるーつ<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_310.png"><br>アサルトリリィ ふるーつ</div>
+                    </div>
+                </div>
+                一柳隊ソロ曲アルバム<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_374.png"><br>Cherish</div>
+                    </div>
+                </div>
+                ヘルヴォル＆グラン・エプレソロ曲アルバム<br>
+                <div class="category2">
+                    <div class="flex_test-box">
+                        <div class="flex_test-item"><img src="../img/memoria_img/memoria_375.png"><br>Diverse</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="../js/footer.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="../js/menu.js"></script>    
+
+    </body>
+</html>
+
