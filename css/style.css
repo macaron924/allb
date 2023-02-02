@@ -52,6 +52,12 @@ footer * {
     margin: 5px;
 }
 
+.quote-box {
+    width: calc(100% - 200px);
+    margin: 0 auto;
+    font-size: 10px;
+}
+
 
 
 
