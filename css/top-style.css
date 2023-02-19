@@ -7,7 +7,7 @@ header {
     z-index: 99999;
     position: sticky;
     top: 0;
-    height: 95px;
+    height: 65px;
     background-color: #91e3ff;
 }
 
@@ -37,6 +37,13 @@ main {
     margin: 5px;
 }
 
+.jump-btn {
+    height: 200px !important;
+    width: 200px !important;
+    border: 1px;
+    background-color: #eeeeee;
+}
+
 .title {
     grid-area: title;
     background-color: #ccf2ff;
@@ -47,10 +54,10 @@ main {
 }
 
 footer {
-    height: 65px;
+    height: 100px;
     text-align: center;
     margin-top: 10px;
-    background-color: #ffffff;
+    background-color: #eeeeee;
 }
 
 footer * {
