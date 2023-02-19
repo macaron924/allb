@@ -110,6 +110,7 @@ td:last-child {
     width: max-content;
     height: calc(100vh - 150px);
     width: 100%;
+    scroll-padding-top: 28px;
 }
 
 .flex_test-box {
