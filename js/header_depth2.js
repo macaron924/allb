@@ -1,6 +1,6 @@
 document.write(`
 <header>
-<a href="../../"><h1>はっぴーゆにこーん☆</h1></a>
+<h1>はっぴーゆにこーん☆</h1>
 <div class="openbtn"><span></span><span></span><span></span></div>
 <nav id="g-nav">
     <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
