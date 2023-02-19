@@ -50,7 +50,7 @@ function getCharaImg(array) {
   for (var i = 0; i < array.length; i++) {
     // サムネ画像要素の追加
     var img = document.createElement('img');
-    img.src = "../img/chara_img/chara_" + array[i] + ".png"
+    img.src = "../images/chara/chara_" + array[i] + ".png"
     img.height = 80;
     tdChara.appendChild(img);
   }
@@ -91,7 +91,7 @@ function makeTable(charId) {
       var tdChara = document.createElement('td');
       // サムネ画像要素の追加
       var img = document.createElement('img');
-      img.src = "../img/memoria_img/memoria_" + jsonCopy[i]['id'] + ".png"
+      img.src = "../images/memoria/memoria_" + jsonCopy[i]['id'] + ".png"
       img.height = 80;
       // td要素内にテキストを追加
       tdId.appendChild(img);
