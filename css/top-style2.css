@@ -1,0 +1,127 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    z-index: 99999;
+    position: sticky;
+    top: 0;
+    height: 9rem;
+    background-color: #91e3ff;
+}
+
+header h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    padding: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+header h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding-left: 1.5rem;
+}
+
+.top-banner {
+    width: 100%;
+}
+
+main {
+    margin: 1rem;
+}
+
+.top-page-content {
+    margin: 1rem;
+    text-align: center;
+}
+
+.txt {
+    display: inline-block;
+    text-align: left;
+}
+
+.jump-btn {
+    height: 20rem !important;
+    width: 20rem !important;
+    border: 0.1rem;
+    background-color: #eeeeee;
+}
+
+.title {
+    grid-area: title;
+    background-color: #ccf2ff;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+main h2 {
+    font-size: 2rem;
+}
+
+main h3 {
+    font-size: 1.8rem;
+}
+
+footer {
+    height: 10rem;
+    text-align: center;
+    margin-top: 0.1rem;
+    background-color: #eeeeee;
+}
+
+footer {
+    padding: 1rem;
+}
+
+footer * {
+    margin: 0.5rem;
+}
+
+footer h3 {
+    font-size: 1.8rem;
+}
+
+.quote-box {
+    width: calc(100% - 20rem);
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.flex_test-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.flex_test-item {
+    padding: 1rem;
+    color: #000;
+    background-color: #fff;
+    margin: 0.5rem;
+    border: 0.2rem solid #91e3ff;
+    border-radius: 0.5rem;
+    width: 22rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.flex_test-item:hover {
+    background-color: #ccf2ff;
+}
+
+.item-img {
+    width: 20rem;
+}
+
+
+
+
