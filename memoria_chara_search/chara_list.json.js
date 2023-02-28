@@ -294,5 +294,29 @@ charaJson = [
     {
       "charaID": 74,
       "charaName": "？？"
+    },
+    {
+      "charaID": 75,
+      "charaName": "まどか"
+    },
+    {
+      "charaID": 76,
+      "charaName": "ほむら"
+    },
+    {
+      "charaID": 77,
+      "charaName": "マミ"
+    },
+    {
+      "charaID": 78,
+      "charaName": "さやか"
+    },
+    {
+      "charaID": 79,
+      "charaName": "杏子"
+    },
+    {
+      "charaID": 80,
+      "charaName": "キュゥべえ"
     }
 ]
