@@ -108,10 +108,41 @@ function sort(mode) {
 
   }
 
+  renewNowSort(mode);
   makeTable();
 }
 
+function renewNowSort(mode) {
+  var str = "";
+  if (mode == "reset") {
+    sortModeArray= [];
+  } else {
+    var indexSearchResult = existInArray(mode);
+    if (existInArray(mode) >= 0) {
+      sortModeArray.splice(indexSearchResult, 1)
+    }
+    sortModeArray.push(mode);
+    var max = sortModeArray.length;
+    for (var i = max - 1; i >= 0; i--) {
+      if (i == max - 1) {
+        str += sortModeArray[i];
+      } else {
+        str += " / ";
+        str += sortModeArray[i];
+      }
+    }
+  }
+  document.getElementById('now-sort').textContent = str;
+}
+
+function existInArray(mode) {
+  for (var i = 0; i < sortModeArray.length; i++) {
+    if (mode == sortModeArray[i]) return i;
+  }
+  return -1;
+}
 
 // 初期化
 var jsonCopy = JSON.parse(JSON.stringify(json));
 makeTable();
+var sortModeArray = [];

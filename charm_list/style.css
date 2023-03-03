@@ -1,22 +1,41 @@
 /*ボタンのための表*/
 
+.buttonTable {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
 .buttonTable table {
-    border: 0px;
+    border: 0;
+}
+
+.buttonTable td {
+    padding: 0.2rem;
+}
+
+.sortModeView {
+    font-size: 2rem;
+}
+
+.sortModeView td:first-child {
+    word-break: keep-all;
 }
 
 
 /*ボタン*/
 
 .calc-btn {
-    width: 100px;
-    height: 30px;
-    border: 1px solid #333;
-    border-radius: 5px;
-    margin: 2px;
+    width: 11rem;
+    height: 3rem;
+    border: 0.1rem solid #333;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+    background-color: #ddd;
 }
 
 .calc-btn:hover {
     cursor: pointer;
+    background-color: #aaa;
 }
 
 
@@ -24,8 +43,9 @@
 
 .maintable {
     overflow: auto;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 16rem);
     width: 100%;
+    font-size: 1.6rem;
 }
 
 .maintable table{
@@ -33,64 +53,47 @@
     border-spacing: 0;
 }
 
-.maintable tr:first-child th:first-child {
-    z-index: 10;
-    position: sticky;
-    top: 0;
-    left: 0;
-}
-
-.maintable tr:first-child th {
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
-    position: sticky;
-    top: 0;
-}
-
-.maintable tr:last-child td {
-    border-bottom: 2px solid #000;
-}
-
 .maintable th {
-    white-space: nowrap;
     background-color: #00bfff;
-    border-right: 1px solid #000;
-    border-bottom: 2px solid #000;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.maintable th:first-child {
-    width: 200px;
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
-}
-
-.maintable th:last-child {
-    border-right: 2px solid #000;
+    border-right: 0.1rem solid #000000;
+    border-bottom: 0.2rem solid #000000;
 }
 
 .maintable td {
+    border-right: 0.1rem solid #999;
+    border-bottom: 0.1rem solid #999;
     text-align: left;
     vertical-align: center;
-    white-space: nowrap;
-    border-right: 1px solid #999;
-    border-bottom: 1px solid #999;
-    padding: 5px;
-    background-color: #fff;
 }
 
-.maintable td:first-child {
-    width: 200px;
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
+.maintable tr:first-child>th:first-child {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.maintable tr:first-child>th {
+    border-top: 0.2rem solid #000;
+    border-bottom: 0.2rem solid #000;
+    position: sticky;
+    top: 0;
+}
+
+.maintable tr:last-child>* {
+    border-bottom: 0.2rem solid #000;
+}
+
+.maintable tr>*:first-child {
+    width: 20rem;
+    border-left: 0.2rem solid #000;
+    border-right: 0.2rem solid #000;
     position: sticky;
     left: 0;
-    background-color: #fff !important;
 }
 
-.maintable td:last-child {
-    border-right: 2px solid #000;
+.maintable tr>*:last-child {
+    border-right: 0.2rem solid #000;
 }
 
 .maintable td.status {
