@@ -1,5 +1,5 @@
 $(".select-btn").click(function () {//ボタンがクリックされたら
-	$(this).toggleClass('active');//ボタン自身に activeクラスを付与
+    $(this).toggleClass('active');//ボタン自身に activeクラスを付与
 });
 
 function charaButtonPushAction(charaId) {
