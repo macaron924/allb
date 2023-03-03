@@ -1,156 +1,88 @@
-html {
-    scroll-padding-top: 70px;
-}
-
 hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-table{
-    margin: 0;
-    border-spacing: 0;
+th {
+    background-color: #00bfff;
+    border-right: 0.1rem solid #000;
+    border-bottom: 0.2rem solid #000;
 }
 
-tr:first-child th {
-    border-top: 2px solid #000;
+td {
+    border-right: 0.1rem solid #999;
+    border-bottom: 0.1rem solid #999;
+    text-align: left;
+    vertical-align: middle;
+}
+
+tr:first-child>th {
+    border-top: 0.2rem solid #000;
     position: sticky;
     top: 0;
 }
 
-tr:last-child td {
-    border-bottom: 2px solid #000;
+tr:last-child>* {
+    border-bottom: 0.2rem solid #000;
 }
 
-th {
-    white-space: nowrap;
-    background-color: #00bfff;
-    border-right: 1px solid #000;
-    border-bottom: 2px solid #000;
-    padding-left: 5px;
-    padding-right: 5px;
+tr>*:first-child {
+    border-left: 0.2rem solid #000;
 }
 
-th:first-child {
-    border-left: 2px solid #000;
-}
-
-th:last-child {
-    border-right: 2px solid #000;
-}
-
-td {
-    text-align: left;
-    vertical-align: middle;
-    white-space: nowrap;
-    background-color: #fff;
-    border-right: 1px solid #999;
-    border-bottom: 1px solid #999;
-    padding: 5px;
-}
-
-td:first-child {
-    border-left: 2px solid #000;
-}
-
-td:last-child {
-    border-right: 2px solid #000;
+tr>*:last-child {
+    border-right: 0.2rem solid #000;
 }
 
 .bonus-list {
     overflow: auto;
     width: max-content;
-    height: 285px;
+    height: 28.5rem;
 }
 
-.bonus-list tr td:nth-of-type(1) {
-    text-align: right;
-}
-
-.bonus-list tr td:nth-of-type(2) {
+.bonus-list tr>td:nth-of-type(1), .bonus-list tr>td:nth-of-type(2) {
     text-align: right;
 }
 
 .step-list {
     overflow: auto;
     width: max-content;
-    height: 285px;
+    height: 28.5rem;
 }
 
-.step-list tr.kugiri td {
-    border-bottom: 1.5px solid #000;
+.step-list tr.kugiri>td {
+    border-bottom: 0.2rem solid #000;
 }
 
-.step-list tr td:nth-of-type(1) {
+.step-list tr>td {
     text-align: right;
 }
 
-.step-list tr td:nth-of-type(2) {
-    text-align: right;
-}
-
-.step-list tr td:nth-of-type(3) {
-    text-align: right;
-}
-
-.step-list tr td:nth-of-type(4) {
-    text-align: right;
-}
-
-.step-list tr td:nth-of-type(5) {
-    text-align: right;
-}
-
-.step-list tr td:nth-of-type(6) {
-    text-align: right;
+.step-list tr>td:nth-of-type(7) {
+    text-align: left;
 }
 
 .gacha-list {
     overflow: auto;
     width: max-content;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 16rem);
     width: 100%;
-    scroll-padding-top: 28px;
-}
-
-.flex_test-box {
-    background-color: #ccf2ff;
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-}
-
-.flex_test-item {
-    padding: 5px;
-    color: #000;
-    background-color: #fff;
-    margin: 5px;
-    border-radius: 5px;
-    width: 110px;
-    text-align: center;
-    font-size: 15px;
-    font-weight: normal;
-}
-
-.memoria_img {
-    width: 100px;
-    height: 100px;
+    scroll-padding-top: 3.2rem;
 }
 
 .banner_img {
-    height: 150px;
+    height: 15rem;
 }
 
 .mini-banner_img {
-    height: 80px;
+    height: 8rem;
     vertical-align: middle;
 }
 
 .item_img {
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
     vertical-align: middle;
-    margin: 1px;
-    margin-right: 5px;
+    margin: 0.1rem;
+    margin-right: 0.5rem;
 }
