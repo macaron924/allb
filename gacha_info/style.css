@@ -34,31 +34,22 @@ tr>*:last-child {
     border-right: 0.2rem solid #000;
 }
 
-.bonus-list {
+.bonus-list, .step-list {
     overflow: auto;
-    width: max-content;
     height: 28.5rem;
-}
-
-.bonus-list tr>td:nth-of-type(1), .bonus-list tr>td:nth-of-type(2) {
-    text-align: right;
-}
-
-.step-list {
-    overflow: auto;
     width: max-content;
-    height: 28.5rem;
+    max-width: 100%;
 }
 
 .step-list tr.kugiri>td {
     border-bottom: 0.2rem solid #000;
 }
 
-.step-list tr>td {
+.bonus-list  tr>td, .step-list tr>td{
     text-align: right;
 }
 
-.step-list tr>td:nth-of-type(7) {
+.bonus-list tr>td:last-child, .step-list tr>td:last-child {
     text-align: left;
 }
 
@@ -71,7 +62,9 @@ tr>*:last-child {
 }
 
 .banner_img {
+    object-fit: contain;
     height: 15rem;
+    max-width: 100%;
 }
 
 .mini-banner_img {

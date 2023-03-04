@@ -3,6 +3,9 @@
 .buttonTable {
     font-size: 1.6rem;
     font-weight: bold;
+    overflow: auto;
+    width: max-content;
+    max-width: 100%;
 }
 
 .buttonTable table {
