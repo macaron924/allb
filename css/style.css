@@ -3,6 +3,12 @@ html {
     scroll-padding-top: 7rem;
 }
 
+@media (max-width: 500px) {
+    html {
+        font-size: 45%;
+    }
+}
+
 * {
     padding: 0;
     margin: 0;
