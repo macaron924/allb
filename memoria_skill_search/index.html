@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head prefix="og: https://ogp.me/ns#">
+        <meta http-equiv="content-type" charset="UTF-8">
+        <meta http-equiv="Cache-Control" content="no-store">
+        <meta property="og:url" content="https://macaron924.github.io/allb/memoria_skill_search">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="メモリアスキル検索">
+        <meta property="og:description" content="スキルでメモリアを絞り込めるツールです。">
+        <meta property="og:site_name" content="はっぴーゆにこーん☆">
+        <meta property="og:image" content="https://macaron924.github.io/allb/images/icon.png">
+        <meta name="twitter:card" content="summary">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../images/icon.png">
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="../css/menu.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="./style.css">
+        <title>メモリアスキル検索</title>
+    </head>
+
+    <body>
+        <script src="../js/header_depth1.js"></script>
+
+        <div id="filter-menu">
+            <div class="filter-menu_content">
+                <div>
+                    <label for="mode">検索モード</label>
+                    <select id="mode">
+                        <option value="1">レギオンマッチ</option>
+                        <option value="0">対ヒュージ</option>
+                    </select>
+                    <label for="dual-display">両方表示</label>
+                    <input type="checkbox" id="dual-display">
+                </div>
+                <div class="flex_chara-btn-box">
+                    <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(1);" value="通常単体"></div>
+                    <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(2);" value="通常範囲"></div>
+                    <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(3);" value="特殊単体"></div>
+                    <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(4);" value="特殊範囲"></div>
+                    <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(5);" value="支援"></div>
+                    <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(6);" value="妨害"></div>
+                    <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(7);" value="回復"></div>
+                </div>
+                <div class="flex_chara-btn-box">
+                    <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('A');" value="1"></div>
+                    <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('B');" value="1～2"></div>
+                    <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('C');" value="1～3"></div>
+                    <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('D');" value="2"></div>
+                    <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('E');" value="2～3"></div>
+                </div>
+                <div>
+                    <label for="damage">ダメージ</label>
+                    <select id="damage">
+                        <option value="">(効果量を選択)</option>
+                        <option value="小">小～</option>
+                        <option value="中">中～</option>
+                        <option value="大">大～</option>
+                        <option value="特大">特大～</option>
+                        <option value="超特大">超特大～</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="heal">回復　　</label>
+                    <select id="heal">
+                        <option value="">(効果量を選択)</option>
+                        <option value="小">小～</option>
+                        <option value="中">中～</option>
+                        <option value="大">大～</option>
+                        <option value="特大">特大～</option>
+                        <option value="超特大">超特大～</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="effect1">バフ・デバフ①</label>
+                    <select id="effect1-type">
+                        <option value="">(対象を選択)</option>
+                        <option value="ATK↑">ATK↑</option>
+                        <option value="Sp.ATK↑">Sp.ATK↑</option>
+                        <option value="DEF↑">DEF↑</option>
+                        <option value="Sp.DEF↑">Sp.DEF↑</option>
+                        <option value="火属性攻撃力↑">火属性攻撃力↑</option>
+                        <option value="火属性防御力↑">火属性防御力↑</option>
+                        <option value="水属性攻撃力↑">水属性攻撃力↑</option>
+                        <option value="水属性防御力↑">水属性防御力↑</option>
+                        <option value="風属性攻撃力↑">風属性攻撃力↑</option>
+                        <option value="風属性防御力↑">風属性防御力↑</option>
+                        <option value="光属性攻撃力↑">光属性攻撃力↑</option>
+                        <option value="光属性防御力↑">光属性防御力↑</option>
+                        <option value="闇属性攻撃力↑">闇属性攻撃力↑</option>
+                        <option value="闇属性防御力↑">闇属性防御力↑</option>
+                        <option value="最大HP↑">最大HP↑</option>
+                        <option value="ATK↓">ATK↓</option>
+                        <option value="Sp.ATK↓">Sp.ATK↓</option>
+                        <option value="DEF↓">DEF↓</option>
+                        <option value="Sp.DEF↓">Sp.DEF↓</option>
+                        <option value="火属性攻撃力↓">火属性攻撃力↓</option>
+                        <option value="火属性防御力↓">火属性防御力↓</option>
+                        <option value="水属性攻撃力↓">水属性攻撃力↓</option>
+                        <option value="水属性防御力↓">水属性防御力↓</option>
+                        <option value="風属性攻撃力↓">風属性攻撃力↓</option>
+                        <option value="風属性防御力↓">風属性防御力↓</option>
+                        <option value="光属性攻撃力↓">光属性攻撃力↓</option>
+                        <option value="光属性防御力↓">光属性防御力↓</option>
+                        <option value="闇属性攻撃力↓">闇属性攻撃力↓</option>
+                        <option value="闇属性防御力↓">闇属性防御力↓</option>
+                    </select>
+                    <select id="effect1-value">
+                        <option value="">(効果量を選択)</option>
+                        <option value="小">小～</option>
+                        <option value="中">中～</option>
+                        <option value="大">大～</option>
+                        <option value="特大">特大～</option>
+                        <option value="超特大">超特大～</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="effect2">バフ・デバフ②</label>
+                    <select id="effect2-type">
+                        <option value="">(対象を選択)</option>
+                        <option value="ATK↑">ATK↑</option>
+                        <option value="Sp.ATK↑">Sp.ATK↑</option>
+                        <option value="DEF↑">DEF↑</option>
+                        <option value="Sp.DEF↑">Sp.DEF↑</option>
+                        <option value="火属性攻撃力↑">火属性攻撃力↑</option>
+                        <option value="火属性防御力↑">火属性防御力↑</option>
+                        <option value="水属性攻撃力↑">水属性攻撃力↑</option>
+                        <option value="水属性防御力↑">水属性防御力↑</option>
+                        <option value="風属性攻撃力↑">風属性攻撃力↑</option>
+                        <option value="風属性防御力↑">風属性防御力↑</option>
+                        <option value="光属性攻撃力↑">光属性攻撃力↑</option>
+                        <option value="光属性防御力↑">光属性防御力↑</option>
+                        <option value="闇属性攻撃力↑">闇属性攻撃力↑</option>
+                        <option value="闇属性防御力↑">闇属性防御力↑</option>
+                        <option value="最大HP↑">最大HP↑</option>
+                        <option value="ATK↓">ATK↓</option>
+                        <option value="Sp.ATK↓">Sp.ATK↓</option>
+                        <option value="DEF↓">DEF↓</option>
+                        <option value="Sp.DEF↓">Sp.DEF↓</option>
+                        <option value="火属性攻撃力↓">火属性攻撃力↓</option>
+                        <option value="火属性防御力↓">火属性防御力↓</option>
+                        <option value="水属性攻撃力↓">水属性攻撃力↓</option>
+                        <option value="水属性防御力↓">水属性防御力↓</option>
+                        <option value="風属性攻撃力↓">風属性攻撃力↓</option>
+                        <option value="風属性防御力↓">風属性防御力↓</option>
+                        <option value="光属性攻撃力↓">光属性攻撃力↓</option>
+                        <option value="光属性防御力↓">光属性防御力↓</option>
+                        <option value="闇属性攻撃力↓">闇属性攻撃力↓</option>
+                        <option value="闇属性防御力↓">闇属性防御力↓</option>
+                    </select>
+                    <select id="effect2-value">
+                        <option value="">(効果量を選択)</option>
+                        <option value="小">小～</option>
+                        <option value="中">中～</option>
+                        <option value="大">大～</option>
+                        <option value="特大">特大～</option>
+                        <option value="超特大">超特大～</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="effect-up">効果/範囲UP</label>
+                    <select id="effect-up">
+                        <option value="">選択してください</option>
+                        <option value="編成数(火/効果アップ)">編成数(火/効果アップ)</option>
+                        <option value="編成数(水/効果アップ)">編成数(水/効果アップ)</option>
+                        <option value="編成数(風/効果アップ)">編成数(風/効果アップ)</option>
+                        <option value="オーダー(火/効果アップ)">オーダー(火/効果アップ)</option>
+                        <option value="オーダー(水/効果アップ)">オーダー(水/効果アップ)</option>
+                        <option value="オーダー(風/効果アップ)">オーダー(風/効果アップ)</option>
+                        <option value="オーダー(光/効果アップ)">オーダー(光/効果アップ)</option>
+                        <option value="オーダー(闇/効果アップ)">オーダー(闇/効果アップ)</option>
+                        <option value="オーダー(火/対象範囲アップ)">オーダー(火/対象範囲アップ)</option>
+                        <option value="オーダー(水/対象範囲アップ)">オーダー(水/対象範囲アップ)</option>
+                        <option value="オーダー(風/対象範囲アップ)">オーダー(風/対象範囲アップ)</option>
+                        <option value="チャージ">チャージ</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="button" class="filter-btn" onclick="runButtonPushAction();" value="実行">
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <h1 class="title">メモリアスキル検索</h1>
+            <input type="button" class="filter-btn" value="絞り込み">
+            <!--テーブル生成位置-->
+            <div class="maintable" id ='maintable'></div>
+        </main>
+
+        <script src="../js/footer.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="../js/menu.js"></script>
+        <script src="./memoria_skill.json.js"></script>
+        <script src="./skill_list.json.js"></script>
+        <script src="./MakeMemoriaTable.js"></script>
+    </body>
+</html>
