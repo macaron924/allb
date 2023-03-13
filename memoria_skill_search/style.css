@@ -12,6 +12,10 @@
     display: block;
 }
 
+#dual-display {
+    margin-left: 3rem;
+}
+
 .filter-menu_content {
     background: #ccf2ff;
     margin: 2rem;

@@ -8,6 +8,7 @@ $(".filter-btn").click(function () {//ボタンがクリックされたら
 
 function runButtonPushAction() {
   modeSelection = parseInt(document.getElementById("mode").value);
+  dualDisplay = document.getElementById("dual-display").checked;
   effectSelectionArray = [];
   damageSelection = stringToNumber(document.getElementById("damage").value);
   healSelection = stringToNumber(document.getElementById("heal").value);
@@ -144,8 +145,11 @@ function filter(skillArray) {
 function tagToString(tag) {
   var str = "";
   for (var i = 0; i < tag.length; i++) {
-    if (i != 0) str += ", "
-    str += (tag[i][0] + "/" + tag[i][1]);
+    if (i != 0) str += " , ";
+    for (var j = 0; j < tag[i].length; j++) {
+      if (j != 0) str += "・";
+      str += tag[i][j];
+    }
   }
   return str;
 }
@@ -161,6 +165,17 @@ function createSkillDetailFromName(skillName) {
   return tagToString(getSkillInfoFromName(skillName, 'tag'));
 }
 
+function getHojoSkillInfoFromName(skillName, option) {
+  for (var i = 0; i < hojoJson.length; i++) {
+    if (skillName == hojoJson[i]['name']) return hojoJson[i][option];
+  }
+  return null;
+}
+
+function createHojoSkillDetailFromName(skillName) {
+  return tagToString(getHojoSkillInfoFromName(skillName, 'tag'));
+}
+
 function makeTable() {
 
   // table要素を生成
@@ -171,41 +186,41 @@ function makeTable() {
   // td要素を生成
   var thId = document.createElement('th');
   var thName = document.createElement('th');
-  switch (modeSelection) {
-    case 0:
-      var thVshugeName = document.createElement('th');
-      var thVshugeDetail = document.createElement('th');
-      break;
-    case 1:
-      var thLmName = document.createElement('th');
-      var thLmDetail = document.createElement('th');
-      break;
+  if (modeSelection == 0 || dualDisplay == true) {
+    var thVshugeName = document.createElement('th');
+    var thVshugeDetail = document.createElement('th');
+  }
+  if (modeSelection == 1 || dualDisplay == true) {
+    var thLmName = document.createElement('th');
+    var thLmDetail = document.createElement('th');
+    var thhojoName = document.createElement('th');
+    var thhojoDetail = document.createElement('th');
   }
   // th要素内にテキストを追加
   thId.textContent = "サムネイル";
   thName.textContent = "メモリア名";
-  switch (modeSelection) {
-    case 0:
-      thVshugeName.textContent = "対ヒュージスキル名";
-      thVshugeDetail.textContent = "対ヒュージスキル効果";
-      break;
-    case 1:
-      thLmName.textContent = "レギオンマッチスキル名";
-      thLmDetail.textContent = "レギオンマッチスキル効果";
-      break;
+  if (modeSelection == 0 || dualDisplay == true) {
+    thVshugeName.textContent = "対ヒュージスキル名";
+    thVshugeDetail.textContent = "対ヒュージスキル効果";
+  }
+  if (modeSelection == 1 || dualDisplay == true) {
+    thLmName.textContent = "レギオンマッチスキル名";
+    thLmDetail.textContent = "レギオンマッチスキル効果";
+    thhojoName.textContent = "レギオンマッチ補助スキル名";
+    thhojoDetail.textContent = "レギオンマッチ補助スキル効果";
   }
   // th要素をtr要素の子要素に追加
   tr.appendChild(thId);
   tr.appendChild(thName);
-  switch (modeSelection) {
-    case 0:
-      tr.appendChild(thVshugeName);
-      tr.appendChild(thVshugeDetail);
-      break;
-    case 1:
-      tr.appendChild(thLmName);
-      tr.appendChild(thLmDetail);
-      break;
+  if (modeSelection == 0 || dualDisplay == true) {
+    tr.appendChild(thVshugeName);
+    tr.appendChild(thVshugeDetail);
+  }
+  if (modeSelection == 1 || dualDisplay == true) {
+    tr.appendChild(thLmName);
+    tr.appendChild(thLmDetail);
+    tr.appendChild(thhojoName);
+    tr.appendChild(thhojoDetail);
   }
   // tr要素をtable要素の子要素に追加
   table.appendChild(tr);
@@ -219,15 +234,15 @@ function makeTable() {
         // td要素を生成
         var tdId = document.createElement('td');
         var tdName = document.createElement('td');
-        switch (modeSelection) {
-          case 0:
-            var tdVshugeName = document.createElement('td');
-            var tdVshugeDetail = document.createElement('td');
-            break;
-          case 1:
-            var tdLmName = document.createElement('td');
-            var tdLmDetail = document.createElement('td');
-            break;
+        if (modeSelection == 0 || dualDisplay == true) {
+          var tdVshugeName = document.createElement('td');
+          var tdVshugeDetail = document.createElement('td');
+        }
+        if (modeSelection == 1 || dualDisplay == true) {
+          var tdLmName = document.createElement('td');
+          var tdLmDetail = document.createElement('td');
+          var tdhojoName = document.createElement('td');
+          var tdhojoDetail = document.createElement('td');
         }
         // サムネ画像要素の追加
         var img = document.createElement('img');
@@ -236,28 +251,28 @@ function makeTable() {
         // td要素内にテキストを追加
         tdId.appendChild(img);
         tdName.textContent = memoriaJson[i]['name'];
-        switch (modeSelection) {
-          case 0:
-            tdVshugeName.textContent = memoriaJson[i]['skill'][j][0];
-            tdVshugeDetail.textContent = createSkillDetailFromName(memoriaJson[i]['skill'][j][0]);
-            break;
-          case 1:
-            tdLmName.textContent = memoriaJson[i]['skill'][j][1];
-            tdLmDetail.textContent = createSkillDetailFromName(memoriaJson[i]['skill'][j][1]);
-            break;
+        if (modeSelection == 0 || dualDisplay == true) {
+          tdVshugeName.textContent = memoriaJson[i]['skill'][j][0];
+          tdVshugeDetail.textContent = createSkillDetailFromName(memoriaJson[i]['skill'][j][0]);
+        }
+        if (modeSelection == 1 || dualDisplay == true) {
+          tdLmName.textContent = memoriaJson[i]['skill'][j][1];
+          tdLmDetail.textContent = createSkillDetailFromName(memoriaJson[i]['skill'][j][1]);
+          tdhojoName.textContent = memoriaJson[i]['skill'][j][2];
+          tdhojoDetail.textContent = createHojoSkillDetailFromName(memoriaJson[i]['skill'][j][2]);
         }
         // td要素をtr要素の子要素に追加
         tr.appendChild(tdId);
         tr.appendChild(tdName);
-        switch (modeSelection) {
-          case 0:
-            tr.appendChild(tdVshugeName);
-            tr.appendChild(tdVshugeDetail);
-            break;
-          case 1:
-            tr.appendChild(tdLmName);
-            tr.appendChild(tdLmDetail);
-            break;
+        if (modeSelection == 0 || dualDisplay == true) {
+          tr.appendChild(tdVshugeName);
+          tr.appendChild(tdVshugeDetail);
+        }
+        if (modeSelection == 1 || dualDisplay == true) {
+          tr.appendChild(tdLmName);
+          tr.appendChild(tdLmDetail);
+          tr.appendChild(tdhojoName);
+          tr.appendChild(tdhojoDetail);
         }
         // tr要素をtable要素の子要素に追加
         table.appendChild(tr);
@@ -271,6 +286,7 @@ function makeTable() {
 // 初期化
 //var memoriaJson = JSON.parse(JSON.stringify(memoriaJson));
 var modeSelection = 1;
+var dualDisplay = false;
 var yakuwariArray = [];
 var rangeArray = [];
 var damageSelection = 0;
