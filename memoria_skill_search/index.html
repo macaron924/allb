@@ -30,7 +30,7 @@
                         <option value="1">レギオンマッチ</option>
                         <option value="0">対ヒュージ</option>
                     </select>
-                    <input type="checkbox" id="dual-display">
+                    <input type="checkbox" id="dual-display" checked>
                     <label for="dual-display">両方表示</label>
                 </div>
                 <div class="flex_chara-btn-box">
@@ -160,7 +160,7 @@
                 <div>
                     <label for="effect-up">効果/範囲UP</label>
                     <select id="effect-up">
-                        <option value="">選択してください</option>
+                        <option value="">(効果を選択)</option>
                         <option value="編成数(火/効果アップ)">編成数(火/効果アップ)</option>
                         <option value="編成数(水/効果アップ)">編成数(水/効果アップ)</option>
                         <option value="編成数(風/効果アップ)">編成数(風/効果アップ)</option>
@@ -175,6 +175,66 @@
                         <option value="チャージ">チャージ</option>
                     </select>
                 </div>
+                <br>
+                <hr>
+                <br>
+                <div>
+                    <label for="hojo1">補助スキル①</label>
+                    <select id="hojo1-type">
+                        <option value="">(対象を選択)</option>
+                        <option value="ATK↑">ATK↑</option>
+                        <option value="Sp.ATK↑">Sp.ATK↑</option>
+                        <option value="DEF↑">DEF↑</option>
+                        <option value="Sp.DEF↑">Sp.DEF↑</option>
+                        <option value="ATK↓">ATK↓</option>
+                        <option value="Sp.ATK↓">Sp.ATK↓</option>
+                        <option value="DEF↓">DEF↓</option>
+                        <option value="Sp.DEF↓">Sp.DEF↓</option>
+                        <option value="攻撃ダメージ↑">攻撃ダメージ↑</option>
+                        <option value="支援/妨害効果↑">支援/妨害効果↑</option>
+                        <option value="回復量↑">回復量↑</option>
+                        <option value="MP消費↓">MP消費↓</option>
+                        <option value="マッチPt獲得量↑(通常単体)">マッチPt獲得量↑(通常単体)</option>
+                        <option value="マッチPt獲得量↑(特殊単体)">マッチPt獲得量↑(特殊単体)</option>
+                    </select>
+                    <select id="hojo1-value">
+                        <option value="">(効果量を選択)</option>
+                        <option value="小">小～</option>
+                        <option value="中">中～</option>
+                        <option value="大">大～</option>
+                        <option value="特大">特大～</option>
+                        <option value="超特大">超特大～</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="hojo2">補助スキル②</label>
+                    <select id="hojo2-type">
+                        <option value="">(対象を選択)</option>
+                        <option value="ATK↑">ATK↑</option>
+                        <option value="Sp.ATK↑">Sp.ATK↑</option>
+                        <option value="DEF↑">DEF↑</option>
+                        <option value="Sp.DEF↑">Sp.DEF↑</option>
+                        <option value="ATK↓">ATK↓</option>
+                        <option value="Sp.ATK↓">Sp.ATK↓</option>
+                        <option value="DEF↓">DEF↓</option>
+                        <option value="Sp.DEF↓">Sp.DEF↓</option>
+                        <option value="攻撃ダメージ↑">攻撃ダメージ↑</option>
+                        <option value="支援/妨害効果↑">支援/妨害効果↑</option>
+                        <option value="回復量↑">回復量↑</option>
+                        <option value="MP消費↓">MP消費↓</option>
+                        <option value="マッチPt獲得量↑(通常単体)">マッチPt獲得量↑(通常単体)</option>
+                        <option value="マッチPt獲得量↑(特殊単体)">マッチPt獲得量↑(特殊単体)</option>
+                    </select>
+                    <select id="hojo2-value">
+                        <option value="">(効果量を選択)</option>
+                        <option value="小">小～</option>
+                        <option value="中">中～</option>
+                        <option value="大">大～</option>
+                        <option value="特大">特大～</option>
+                        <option value="超特大">超特大～</option>
+                    </select>
+                </div>
+                <br>
                 <div>
                     <input type="button" class="filter-btn" onclick="runButtonPushAction();" value="実行">
                 </div>
@@ -183,7 +243,7 @@
 
         <main>
             <h1 class="title">メモリアスキル検索</h1>
-            <input type="button" class="filter-btn" value="絞り込み">
+            <input type="button" class="filter-btn" value="表示変更 / 絞り込み">
             <!--テーブル生成位置-->
             <div class="maintable" id ='maintable'></div>
         </main>

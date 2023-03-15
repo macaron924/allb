@@ -48,6 +48,11 @@ select, label {
     padding: 0.5rem;
 }
 
+select.disabled {
+    background-color: #868686;
+    pointer-events: none;
+}
+
 /*ボタンのためのflex-box*/
 
 .flex_chara-btn-box {
@@ -94,6 +99,7 @@ select, label {
     overflow: auto;
     height: calc(100vh - 16rem);
     width: 100%;
+    font-size: 1.2rem;
 }
 
 .maintable th {
@@ -107,6 +113,8 @@ select, label {
     vertical-align: middle;
     border-right: 0.1rem solid #999999;
     border-bottom: 0.1rem solid #999999;
+    max-width: 50rem;
+    line-height: 1.6rem;
 }
 
 .maintable tr:first-child>th:first-child {
@@ -136,4 +144,12 @@ select, label {
 
 .maintable tr>*:last-child {
     border-right: 0.2rem solid #000000;
+}
+
+.maintable td.skill_name {
+    white-space: normal;
+}
+
+.maintable td.skill_name::first-line {
+    font-weight: bold;
 }

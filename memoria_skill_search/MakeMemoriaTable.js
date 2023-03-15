@@ -7,21 +7,44 @@ $(".filter-btn").click(function () {//ボタンがクリックされたら
 });
 
 function runButtonPushAction() {
+  effectSelectionArray = [];
+  hojoSelectionArray = [];
   modeSelection = parseInt(document.getElementById("mode").value);
   dualDisplay = document.getElementById("dual-display").checked;
-  effectSelectionArray = [];
   damageSelection = stringToNumber(document.getElementById("damage").value);
   healSelection = stringToNumber(document.getElementById("heal").value);
   effectSelectionArray.push([document.getElementById("effect1-type").value, stringToNumber(document.getElementById("effect1-value").value)]);
   effectSelectionArray.push([document.getElementById("effect2-type").value, stringToNumber(document.getElementById("effect2-value").value)]);
   effectUpSelection = document.getElementById("effect-up").value;
+  hojoSelectionArray.push([document.getElementById("hojo1-type").value, stringToNumber(document.getElementById("hojo1-value").value)]);
+  hojoSelectionArray.push([document.getElementById("hojo2-type").value, stringToNumber(document.getElementById("hojo2-value").value)]);
 
   makeTable();
+}
+
+function hojoFilter(hojoName) {
+  var tag = getHojoSkillInfoFromName(hojoName, 'tag');
+  if (tag == "") return true;
+  var trueCount = 0;
+  for (var j = 0; j < hojoSelectionArray.length; j++) {
+    for (var i = 0; i < tag.length; i++) {
+      if (hojoSelectionArray[j][0] == "") {
+        trueCount++;
+        break;
+      } else if ((tag[i][1] == hojoSelectionArray[j][0]) && (stringToNumber(tag[i][2]) >= hojoSelectionArray[j][1])) {
+        trueCount++;
+        break;
+      }
+    }
+  }
+  if (trueCount == effectSelectionArray.length) return true;
+  return false;
 }
 
 function effectUpFilter(skillName) {
   if (effectUpSelection == "") return true;
   var tag = getSkillInfoFromName(skillName, 'tag');
+  if (tag == "") return true;
   for (var i = 0; i < tag.length; i++) {
     if (tag[i][0] == effectUpSelection) {
       return true;
@@ -32,6 +55,7 @@ function effectUpFilter(skillName) {
 
 function effectFilter(skillName) {
   var tag = getSkillInfoFromName(skillName, 'tag');
+  if (tag == "") return true;
   var trueCount = 0;
   for (var j = 0; j < effectSelectionArray.length; j++) {
     for (var i = 0; i < tag.length; i++) {
@@ -51,6 +75,7 @@ function effectFilter(skillName) {
 function damageFilter(skillName) {
   if (stringToNumber(damageSelection) == 0) return true;
   var tag = getSkillInfoFromName(skillName, 'tag');
+  if (tag == "") return true;
   for (var i = 0; i < tag.length; i++) {
     if (tag[i][0].includes('ダメージ')) {
       if (stringToNumber(tag[i][1]) >= damageSelection) return true;
@@ -63,6 +88,7 @@ function damageFilter(skillName) {
 function healFilter(skillName) {
   if (stringToNumber(healSelection) == 0) return true;
   var tag = getSkillInfoFromName(skillName, 'tag');
+  if (tag == "") return true;
   for (var i = 0; i < tag.length; i++) {
     if (tag[i][0].includes('回復')) {
       if (stringToNumber(tag[i][1]) >= healSelection) return true;
@@ -139,13 +165,17 @@ function filter(skillArray) {
   if (healFilter(skillName) == false) return false;
   if (effectFilter(skillName) == false) return false;
   if (effectUpFilter(skillName) == false) return false;
+  if (modeSelection == 1) {
+    var hojoName = skillArray[2];
+    if (hojoFilter(hojoName) == false) return false;
+  }
   return true;
 }
 
 function tagToString(tag) {
   var str = "";
   for (var i = 0; i < tag.length; i++) {
-    if (i != 0) str += " , ";
+    if (i != 0) str += "<br>";
     for (var j = 0; j < tag[i].length; j++) {
       if (j != 0) str += "・";
       str += tag[i][j];
@@ -158,10 +188,11 @@ function getSkillInfoFromName(skillName, option) {
   for (var i = 0; i < skillJson.length; i++) {
     if (skillName == skillJson[i]['name']) return skillJson[i][option];
   }
-  return null;
+  return "";
 }
 
 function createSkillDetailFromName(skillName) {
+  if (skillName == "") return "";
   return tagToString(getSkillInfoFromName(skillName, 'tag'));
 }
 
@@ -173,6 +204,7 @@ function getHojoSkillInfoFromName(skillName, option) {
 }
 
 function createHojoSkillDetailFromName(skillName) {
+  if (skillName == "") return "";
   return tagToString(getHojoSkillInfoFromName(skillName, 'tag'));
 }
 
@@ -193,8 +225,8 @@ function makeTable() {
   if (modeSelection == 1 || dualDisplay == true) {
     var thLmName = document.createElement('th');
     var thLmDetail = document.createElement('th');
-    var thhojoName = document.createElement('th');
-    var thhojoDetail = document.createElement('th');
+    var thHojoName = document.createElement('th');
+    var thHojoDetail = document.createElement('th');
   }
   // th要素内にテキストを追加
   thId.textContent = "サムネイル";
@@ -206,8 +238,8 @@ function makeTable() {
   if (modeSelection == 1 || dualDisplay == true) {
     thLmName.textContent = "レギオンマッチスキル名";
     thLmDetail.textContent = "レギオンマッチスキル効果";
-    thhojoName.textContent = "レギオンマッチ補助スキル名";
-    thhojoDetail.textContent = "レギオンマッチ補助スキル効果";
+    thHojoName.textContent = "レギオンマッチ補助スキル名";
+    thHojoDetail.textContent = "レギオンマッチ補助スキル効果";
   }
   // th要素をtr要素の子要素に追加
   tr.appendChild(thId);
@@ -219,8 +251,8 @@ function makeTable() {
   if (modeSelection == 1 || dualDisplay == true) {
     tr.appendChild(thLmName);
     tr.appendChild(thLmDetail);
-    tr.appendChild(thhojoName);
-    tr.appendChild(thhojoDetail);
+    tr.appendChild(thHojoName);
+    tr.appendChild(thHojoDetail);
   }
   // tr要素をtable要素の子要素に追加
   table.appendChild(tr);
@@ -241,25 +273,28 @@ function makeTable() {
         if (modeSelection == 1 || dualDisplay == true) {
           var tdLmName = document.createElement('td');
           var tdLmDetail = document.createElement('td');
-          var tdhojoName = document.createElement('td');
-          var tdhojoDetail = document.createElement('td');
+          var tdHojoName = document.createElement('td');
+          var tdHojoDetail = document.createElement('td');
         }
         // サムネ画像要素の追加
         var img = document.createElement('img');
-        img.src = "../images/memoria/memoria_" + memoriaJson[i]['id'] + ".png"
+        img.src = "../images/memoria/memoria_" + memoriaJson[i]['id'] + ".png";
         img.height = 80;
         // td要素内にテキストを追加
         tdId.appendChild(img);
         tdName.textContent = memoriaJson[i]['name'];
         if (modeSelection == 0 || dualDisplay == true) {
-          tdVshugeName.textContent = memoriaJson[i]['skill'][j][0];
-          tdVshugeDetail.textContent = createSkillDetailFromName(memoriaJson[i]['skill'][j][0]);
+          tdVshugeName.classList.add('skill_name');
+          tdVshugeName.innerHTML = "<nobr>" + memoriaJson[i]['skill'][j][0] + "</nobr><br>" + getSkillInfoFromName(memoriaJson[i]['skill'][j][0], 'effect_detail');
+          tdVshugeDetail.innerHTML = createSkillDetailFromName(memoriaJson[i]['skill'][j][0]);
         }
         if (modeSelection == 1 || dualDisplay == true) {
-          tdLmName.textContent = memoriaJson[i]['skill'][j][1];
-          tdLmDetail.textContent = createSkillDetailFromName(memoriaJson[i]['skill'][j][1]);
-          tdhojoName.textContent = memoriaJson[i]['skill'][j][2];
-          tdhojoDetail.textContent = createHojoSkillDetailFromName(memoriaJson[i]['skill'][j][2]);
+          tdLmName.classList.add('skill_name');
+          tdLmName.innerHTML =  "<nobr>" + memoriaJson[i]['skill'][j][1] + "</nobr><br>" + getSkillInfoFromName(memoriaJson[i]['skill'][j][1], 'effect_detail');
+          tdLmDetail.innerHTML = createSkillDetailFromName(memoriaJson[i]['skill'][j][1]);
+          tdHojoName.classList.add('skill_name');
+          tdHojoName.innerHTML =  "<nobr>" + memoriaJson[i]['skill'][j][2] + "</nobr><br>" + getHojoSkillInfoFromName(memoriaJson[i]['skill'][j][2], 'effect_detail');
+          tdHojoDetail.innerHTML = createHojoSkillDetailFromName(memoriaJson[i]['skill'][j][2]);
         }
         // td要素をtr要素の子要素に追加
         tr.appendChild(tdId);
@@ -271,8 +306,8 @@ function makeTable() {
         if (modeSelection == 1 || dualDisplay == true) {
           tr.appendChild(tdLmName);
           tr.appendChild(tdLmDetail);
-          tr.appendChild(tdhojoName);
-          tr.appendChild(tdhojoDetail);
+          tr.appendChild(tdHojoName);
+          tr.appendChild(tdHojoDetail);
         }
         // tr要素をtable要素の子要素に追加
         table.appendChild(tr);
@@ -286,11 +321,12 @@ function makeTable() {
 // 初期化
 //var memoriaJson = JSON.parse(JSON.stringify(memoriaJson));
 var modeSelection = 1;
-var dualDisplay = false;
+var dualDisplay = true;
 var yakuwariArray = [];
 var rangeArray = [];
 var damageSelection = 0;
 var healSelection = 0;
 var effectSelectionArray = [];
-var effectUpSelection = ""
+var effectUpSelection = "";
+var hojoSelectionArray = [];
 makeTable();
