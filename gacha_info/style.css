@@ -68,7 +68,6 @@ tr>*:last-child {
 }
 
 .mini-banner_img {
-    height: 8rem;
     vertical-align: middle;
 }
 
@@ -78,4 +77,58 @@ tr>*:last-child {
     vertical-align: middle;
     margin: 0.1rem;
     margin-right: 0.5rem;
+}
+
+.flex_gacha-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex_gacha-item {
+    padding: 1rem;
+    color: #000;
+    background-color: #fff;
+    margin: 0.5rem;
+    width: 40rem;
+    border: 0.2rem solid #91e3ff;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.flex_gacha-item .mini-banner_img {
+    width: 37.5rem;
+}
+
+.flex_gacha-item .item_img {
+    margin: 0;
+}
+
+.flex_gacha-item table {
+    margin: 0;
+    padding: 0;
+}
+
+.flex_gacha-item table td {
+    padding: 0;
+    border: solid 0;
+    text-align: left;
+    white-space: normal;
+    background-color: transparent;
+}
+
+.flex_gacha-item table td a {
+    display:block;
+    width:100%;
+    height:100%;
+}
+.flex_gacha-item table tr:first-child>td {
+    text-align: center;
+}
+
+.flex_gacha-item table tr:last-child>td:first-child {
+    width: 5.5rem;
 }
