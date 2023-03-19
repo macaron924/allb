@@ -36,15 +36,6 @@ function searchFromArray(charaId, array) {
   return false;
 }
 
-function getCharaName(array) {
-  var stringArray = "";
-  stringArray += charaJson[array[0]-1]['charaName'];
-  for (var i = 1; i < array.length; i++) {
-    stringArray += (", " + charaJson[array[i]-1]['charaName']);
-  }
-  return stringArray;
-}
-
 function getCharaImg(array) {
   var tdChara = document.createElement('td');
   for (var i = 0; i < array.length; i++) {
@@ -96,7 +87,6 @@ function makeTable(charId) {
       // td要素内にテキストを追加
       tdId.appendChild(img);
       tdName.textContent = jsonCopy[i]['name'];
-      //tdChara.textContent = getCharaName(array);
       tdChara = getCharaImg(array);
       // td要素をtr要素の子要素に追加
       tr.appendChild(tdId);

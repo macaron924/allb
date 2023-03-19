@@ -1,5 +1,5 @@
 $(".select-btn").click(function () {//ボタンがクリックされたら
-    $(this).toggleClass('active');//ボタン自身に activeクラスを付与
+  $(this).toggleClass('active');//ボタン自身に activeクラスを付与
 });
 
 $(".filter-btn").click(function () {//ボタンがクリックされたら
@@ -28,7 +28,7 @@ function hojoFilter(hojoName) {
   var trueCount = 0;
   for (var j = 0; j < hojoSelectionArray.length; j++) {
     for (var i = 0; i < tag.length; i++) {
-      if (hojoSelectionArray[j][0] == "") {
+      if ((hojoSelectionArray[j][0] == "") && (stringToNumber(tag[i][2]) >= hojoSelectionArray[j][1])) {
         trueCount++;
         break;
       } else if ((tag[i][1] == hojoSelectionArray[j][0]) && (stringToNumber(tag[i][2]) >= hojoSelectionArray[j][1])) {
@@ -59,7 +59,7 @@ function effectFilter(skillName) {
   var trueCount = 0;
   for (var j = 0; j < effectSelectionArray.length; j++) {
     for (var i = 0; i < tag.length; i++) {
-      if (effectSelectionArray[j][0] == "") {
+      if ((effectSelectionArray[j][0] == "") && (stringToNumber(tag[i][1]) >= effectSelectionArray[j][1])) {
         trueCount++;
         break;
       } else if ((tag[i][0] == effectSelectionArray[j][0]) && (stringToNumber(tag[i][1]) >= effectSelectionArray[j][1])) {
@@ -319,7 +319,6 @@ function makeTable() {
 }
 
 // 初期化
-//var memoriaJson = JSON.parse(JSON.stringify(memoriaJson));
 var modeSelection = 1;
 var dualDisplay = true;
 var yakuwariArray = [];
