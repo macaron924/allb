@@ -45,12 +45,18 @@ tr>*:last-child {
     border-bottom: 0.2rem solid #000;
 }
 
-.bonus-list  tr>td, .step-list tr>td{
+.bonus-list tr>td, .step-list tr>td{
     text-align: right;
 }
 
 .bonus-list tr>td:last-child, .step-list tr>td:last-child {
     text-align: left;
+}
+
+.bonus-list td a, .step-list td a {
+    display:block;
+    width:100%;
+    height:100%;
 }
 
 .gacha-list {
@@ -125,6 +131,7 @@ tr>*:last-child {
     width:100%;
     height:100%;
 }
+
 .flex_gacha-item table tr:first-child>td {
     text-align: center;
 }
