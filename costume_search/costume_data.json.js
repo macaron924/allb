@@ -2969,5 +2969,23 @@ costumeJson = [
         "percent": 15,
         "parameter": [["Sp.ATK", 1500], ["Sp.DEF", 1500]],
         "ex": [["風UP", 3]]
+    },
+    {
+        "id": 331,
+        "chara": 3,
+        "yakuwari": 4,
+        "name": "おやすみスタイル",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 1500], ["Sp.DEF", 1500]],
+        "ex": [["風UP", 3]]
+    },
+    {
+        "id": 332,
+        "chara": 7,
+        "yakuwari": 6,
+        "name": "おやすみスタイル",
+        "percent": 15,
+        "parameter": [["ATK", 1500], ["DEF", 1500]],
+        "ex": [["風UP", 5]]
     }
 ]
