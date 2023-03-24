@@ -200,7 +200,7 @@ function getHojoSkillInfoFromName(skillName, option) {
   for (var i = 0; i < hojoJson.length; i++) {
     if (skillName == hojoJson[i]['name']) return hojoJson[i][option];
   }
-  return null;
+  return "";
 }
 
 function createHojoSkillDetailFromName(skillName) {
