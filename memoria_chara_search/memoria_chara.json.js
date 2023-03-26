@@ -2848,5 +2848,10 @@ json = [
     "id": 570,
     "name": "千香瑠のエクササイズ",
     "chara": [14]
+  },
+  {
+      "id": 571,
+      "name": "Emotional Memoria -朝寝坊のススメ-",
+      "chara": [12]
   }
 ]
