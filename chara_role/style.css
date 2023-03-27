@@ -3,7 +3,7 @@
     line-height: 2.8rem;
 }
 
-.example {
+.maintable {
     overflow: auto;
     width: 100%;
     height: calc(100vh - 16rem);
@@ -51,10 +51,6 @@ tr>*:last-child {
     border-right: 0.2rem solid #000000;
 }
 
-td::first-line {
-    font-weight: bold;
-}
-
 td span {
     background-color: #f0c0c0;
 }
@@ -63,4 +59,25 @@ img {
     width: 10rem;
     height: 10rem;
     vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+table.innerTable td {
+    padding: 0;
+    border: solid 0;
+    text-align: left;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: transparent;
+    font-size: 1.6rem;
+    height: 2.5rem;
+    width: auto;
+}
+
+table.innerTable tr:first-child>td:last-child {
+    font-weight: bold;
+}
+
+table.innerTable td span {
+    background-color: #f0c0c0;
 }
