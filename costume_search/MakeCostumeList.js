@@ -18,7 +18,7 @@ function runButtonPushAction() {
     parameterSelectionArray.push([document.getElementById("parameter2-type").value, parseInt(document.getElementById("parameter2-value").value)]);
     exSelection = document.getElementById("ex").value;
     
-    makeTable();
+    makeList();
 }
 
 function percentFilter(costume) {
@@ -145,7 +145,48 @@ function exToString(exArray) {
     return str;
 }
 
-function makeTable() {
+function makeInnerTable(thisCostume) {
+    // tableを生成
+    var table = document.createElement('table');
+    
+    // 1行目
+    var tr1 = document.createElement('tr');
+    var td11 = document.createElement('td');
+    td11.rowSpan = "4";
+    var img = document.createElement('img');
+    img.src = "../images/costume/costume_" + thisCostume['id'] + ".png";
+    td11.appendChild(img);
+    tr1.appendChild(td11);
+    var td12 = document.createElement('td');
+    td12.textContent = thisCostume['name'];
+    tr1.appendChild(td12);
+    table.appendChild(tr1);
+
+    // 2行目
+    var tr2 = document.createElement('tr');
+    var td22 = document.createElement('td');
+    td22.innerHTML = yakuwariToString(thisCostume['percent']);
+    tr2.appendChild(td22);
+    table.appendChild(tr2);
+
+    // 3行目
+    var tr3 = document.createElement('tr');
+    var td32 = document.createElement('td');
+    td32.innerHTML = parameterToString(thisCostume['parameter']);
+    tr3.appendChild(td32);
+    table.appendChild(tr3);
+
+    // 4行目
+    var tr4 = document.createElement('tr');
+    var td42 = document.createElement('td');
+    td42.innerHTML = exToString(thisCostume['ex']);
+    tr4.appendChild(td42);
+    table.appendChild(tr4);
+
+    return table;
+}
+
+function makeList() {
 
     // flexboxを生成
     var flexbox = document.createElement('div');
@@ -157,42 +198,9 @@ function makeTable() {
             // flexitemを生成
             var flexitem = document.createElement('div');
             flexitem.className = "flex_costume-item";
-            // tableを生成
-            var table = document.createElement('table');
             
-            // 1行目
-            var tr1 = document.createElement('tr');
-            var td11 = document.createElement('td');
-            td11.rowSpan = "4";
-            var img = document.createElement('img');
-            img.src = "../images/costume/costume_" + costumeJson[i]['id'] + ".png";
-            td11.appendChild(img);
-            tr1.appendChild(td11);
-            var td12 = document.createElement('td');
-            td12.textContent = costumeJson[i]['name'];
-            tr1.appendChild(td12);
-            table.appendChild(tr1);
-
-            // 2行目
-            var tr2 = document.createElement('tr');
-            var td22 = document.createElement('td');
-            td22.innerHTML = yakuwariToString(costumeJson[i]['percent']);
-            tr2.appendChild(td22);
-            table.appendChild(tr2);
-
-            // 3行目
-            var tr3 = document.createElement('tr');
-            var td32 = document.createElement('td');
-            td32.innerHTML = parameterToString(costumeJson[i]['parameter']);
-            tr3.appendChild(td32);
-            table.appendChild(tr3);
-
-            // 4行目
-            var tr4 = document.createElement('tr');
-            var td42 = document.createElement('td');
-            td42.innerHTML = exToString(costumeJson[i]['ex']);
-            tr4.appendChild(td42);
-            table.appendChild(tr4);
+            // tableを生成
+            var table = makeInnerTable(costumeJson[i]);
 
             // tableをflexitemの子要素に追加
             flexitem.appendChild(table);
@@ -213,4 +221,4 @@ var yakuwariArray = [];
 var percentSelection = 0;
 var parameterSelectionArray = [];
 var exSelection = "";
-makeTable();
+makeList();

@@ -145,10 +145,6 @@ select.disabled {
     height: 2.5rem;
 }
 
-.flex_costume-item table tr:first-child>td:first-child {
-    width: 11rem;
-}
-
 .flex_costume-item table tr:first-child>td:last-child {
     font-weight: bold;
 }
@@ -161,4 +157,5 @@ img {
     width: 10rem;
     height: 10rem;
     vertical-align: middle;
+    margin-right: 1rem;
 }
