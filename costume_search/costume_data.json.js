@@ -1,5 +1,4 @@
 costumeJson = [
-          
     {
         "id": 1,
         "chara": 1,
@@ -2987,5 +2986,41 @@ costumeJson = [
         "percent": 15,
         "parameter": [["ATK", 1500], ["DEF", 1500]],
         "ex": [["風UP", 5]]
+    },
+    {
+        "id": 333,
+        "chara": 69,
+        "yakuwari": 2,
+        "name": "神庭女子標準制服",
+        "percent": 15,
+        "parameter": [["ATK", 1500], ["DEF", 1500]],
+        "ex": [["火UP", 3]]
+    },
+    {
+        "id": 334,
+        "chara": 70,
+        "yakuwari": 4,
+        "name": "ブルーミングノネット",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 1500], ["Sp.DEF", 1500]],
+        "ex": [["火UP", 3]]
+    },
+    {
+        "id": 335,
+        "chara": 69,
+        "yakuwari": 6,
+        "name": "ブルーミングノネット",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 1500], ["Sp.DEF", 1500]],
+        "ex": [["火UP", 5]]
+    },
+    {
+        "id": 336,
+        "chara": 17,
+        "yakuwari": 5,
+        "name": "ブルーミングノネット",
+        "percent": 15,
+        "parameter": [["ATK", 1500], ["DEF", 1500]],
+        "ex": [["火UP", 5]]
     }
 ]
