@@ -1,4 +1,4 @@
-costumeJson = [
+const costumeJson = [
     {
         "id": 1,
         "chara": 1,
@@ -3021,6 +3021,33 @@ costumeJson = [
         "name": "ブルーミングノネット",
         "percent": 15,
         "parameter": [["ATK", 1500], ["DEF", 1500]],
+        "ex": [["火UP", 5]]
+    },
+    {
+        "id": 337,
+        "chara": 19,
+        "yakuwari": 2,
+        "name": "ブルーミングノネット",
+        "percent": 15,
+        "parameter": [["ATK", 1500], ["DEF", 1500]],
+        "ex": [["火UP", 3]]
+    },
+    {
+        "id": 338,
+        "chara": 18,
+        "yakuwari": 7,
+        "name": "ブルーミングノネット",
+        "percent": 15,
+        "parameter": [["Sp.DEF", 1500], ["DEF", 1500]],
+        "ex": [["火UP", 5]]
+    },
+    {
+        "id": 339,
+        "chara": 70,
+        "yakuwari": 5,
+        "name": "神庭女子標準制服",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 1500], ["Sp.DEF", 1500]],
         "ex": [["火UP", 5]]
     }
 ]

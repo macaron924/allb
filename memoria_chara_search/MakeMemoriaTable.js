@@ -101,6 +101,6 @@ function makeTable(charId) {
 }
 
 // 初期化
-var jsonCopy = JSON.parse(JSON.stringify(json));
+var jsonCopy = JSON.parse(JSON.stringify(memoriaJson));
 var selectionArray = [];
 makeTable([]);

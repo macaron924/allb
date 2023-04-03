@@ -1,4 +1,4 @@
-hojoJson = [
+const hojoJson = [
     {
         "name": "攻:パワーUP Ⅱ",
         "effect_detail": "前衛から攻撃時、一定確率で自身のATKを大アップさせる。",

@@ -143,6 +143,6 @@ function existInArray(mode) {
 }
 
 // 初期化
-var jsonCopy = JSON.parse(JSON.stringify(json));
+var jsonCopy = JSON.parse(JSON.stringify(charmJson));
 makeTable();
 var sortModeArray = [];

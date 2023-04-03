@@ -1,4 +1,4 @@
-var json = [
+const charmJson = [
   {
     "CHARM": "初期19種",
     "分類": "汎用",
