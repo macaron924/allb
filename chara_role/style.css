@@ -45,6 +45,8 @@ tr>th:first-child {
     border-right: 0.2rem solid #000000;
     position: sticky;
     left: 0;
+    min-width: 10rem;
+    white-space: normal;
 }
 
 tr>*:last-child {
