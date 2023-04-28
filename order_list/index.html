@@ -25,53 +25,57 @@
         <main>
             <h1 class="title">オーダー一覧</h1>
             <p class="order-category">
-                属性： 
-                <a href="#fire">火</a> / 
-                <a href="#water">水</a> / 
-                <a href="#wind">風</a> / 
-                <a href="#light">光</a> / 
-                <a href="#dark">闇</a> / 
+                属性：
+                <a href="#fire">火</a> /
+                <a href="#water">水</a> /
+                <a href="#wind">風</a> /
+                <a href="#light">光</a> /
+                <a href="#dark">闇</a> /
                 <a href="#lightdark">光闇</a>
                 <br>
-                攻防： 
-                <a href="#ASA-up">攻バフ</a> / 
-                <a href="#DSD-up">防バフ</a> / 
-                <a href="#ASA-down">攻デバフ</a> / 
+                攻防：
+                <a href="#ASA-up">攻バフ</a> /
+                <a href="#DSD-up">防バフ</a> /
+                <a href="#ASA-down">攻デバフ</a> /
                 <a href="#DSD-down">防デバフ</a>
                 <br>
-                劣勢時： 
+                劣勢時：
                 <a href="#flag">旗</a>
                 <br>
-                属性盾： 
-                <a href="#fire-shield">火</a> / 
-                <a href="#water-shield">水</a> / 
+                属性盾：
+                <a href="#fire-shield">火</a> /
+                <a href="#water-shield">水</a> /
                 <a href="#wind-shield">風</a>
                 <br>
-                MP系： 
-                <a href="#MP-keigen">軽減</a> / 
+                MP系：
+                <a href="#MP-keigen">軽減</a> /
                 <a href="#MP-kaifuku">回復</a>
                 <br>
-                補助スキル： 
-                <a href="#hojo-up">覚醒</a> / 
+                補助スキル：
+                <a href="#hojo-up">覚醒</a> /
                 <a href="#hojo-down">覚醒妨害</a>
                 <br>
-                通特盾： 
-                <a href="#tsuujou-shield">通常</a> / 
+                通特盾：
+                <a href="#tsuujou-shield">通常</a> /
                 <a href="#tokushu-shield">特殊</a>
                 <br>
-                リセット系： 
-                <a href="#order-reset">オーダー使用回数</a> / 
+                リセット系：
+                <a href="#order-reset">オーダー使用回数</a> /
                 <a href="#unit-reset">ユニットチェンジ回数</a>
                 <br>
-                属性攻防： 
-                <a href="#zokusei-attack-up">攻バフ</a> / 
-                <a href="#zokusei-defense-up">防バフ</a> / 
-                <a href="#zokusei-attack-down">攻デバフ</a> / 
+                属性攻防：
+                <a href="#zokusei-attack-up">攻バフ</a> /
+                <a href="#zokusei-defense-up">防バフ</a> /
+                <a href="#zokusei-attack-down">攻デバフ</a> /
                 <a href="#zokusei-defense-down">防デバフ</a>
                 <br>
-                オーダー時間操作： 
-                <a href="#kasoku">加速</a> / 
+                オーダー時間操作：
+                <a href="#kasoku">加速</a> /
                 <a href="#ayatsuri">操り</a>
+                <br>
+                役職効果アップ:
+                <a href="#shien">支えの波動</a> / 
+                <a href="#bougai">妨げの波動</a>
             </p>
             <br>
             <div class="example">
@@ -536,7 +540,7 @@
                         <td>20+0</td>
                     </tr>
                     <tr class="paid">
-                        <td><img src="../images/order/order_136.png"></td>
+                        <td><img src="../images/order/order_138.png"></td>
                         <td>〇</td>
                         <td>堅硬守勢の防壁</td>
                         <td>味方DEF/Sp.DEF：超特大上昇</td>
@@ -1326,6 +1330,24 @@
                         <td>10+0</td>
                         <td>敵：次に使うオーダーの効果時間を60秒に変更<br>効果時間0秒オーダーには適用されない<br>60秒以下なら変更されず効果終了</td>
                         <td>30+0</td>
+                    </tr>
+                    <tr id="shien">
+                        <td><img src="../images/order/order_139.png"></td>
+                        <td></td>
+                        <td>支えの波動</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方支援メモリアスキル効果：特大増加</td>
+                        <td>20+80</td>
+                    </tr>
+                    <tr id="bougai">
+                        <td><img src="../images/order/order_140.png"></td>
+                        <td></td>
+                        <td>妨げの波動</td>
+                        <td>味方DEF/Sp.DEF：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方妨害メモリアスキル効果：特大増加</td>
+                        <td>20+80</td>
                     </tr>
                 </table>
             </div>
