@@ -352,22 +352,22 @@ const charaJson = [
     {
         "charaID": 71,
         "charaName": "優珂",
-        "charaJump": ""
+        "charaJump": "fuka"
     },
     {
         "charaID": 72,
         "charaName": "美岳",
-        "charaJump": ""
+        "charaJump": "mitake"
     },
     {
         "charaID": 73,
-        "charaName": "？？",
-        "charaJump": ""
+        "charaName": "蒔菜",
+        "charaJump": "makina"
     },
     {
         "charaID": 74,
-        "charaName": "？？",
-        "charaJump": ""
+        "charaName": "結爾",
+        "charaJump": "yuni"
     },
     {
         "charaID": 75,
@@ -398,5 +398,43 @@ const charaJson = [
         "charaID": 80,
         "charaName": "キュゥべえ",
         "charaJump": ""
+    },
+    {
+        "charaID": 81,
+        "charaName": "伊万里",
+        "charaJump": ""
+    },
+    {
+        "charaID": 82,
+        "charaName": "鞠萠",
+        "charaJump": ""
+    },
+    {
+        "charaID": 83,
+        "charaName": "日葵",
+        "charaJump": ""
+    },
+    {
+        "charaID": 84,
+        "charaName": "藍 (アルケミートレース)",
+        "charaJump": ""
+    },
+    {
+        "charaID": 85,
+        "charaName": "美岳 (マグスレジスタ)",
+        "charaJump": ""
+    },
+    {
+        "charaID": 86,
+        "charaName": "蒔菜 (サークリットマグス)",
+        "charaJump": ""
     }
+    /*
+    ,
+    {
+        "charaID": ,
+        "charaName": "",
+        "charaJump": ""
+    }
+    */
 ]
