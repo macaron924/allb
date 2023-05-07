@@ -12,7 +12,7 @@ document.write(`
             <li><a href="./memoria_list/"><h1>memoria</h1></a></li>
             <li><a href="./gacha_info/"><h1>gacha</h1></a></li>
             <li><a href="./charm_list/"><h1>charm</h1></a></li>
-            <li><a href="./select_ticket/"><h1>select</h1></a></li>
+            <li><a href="./exchange_info/"><h1>exchange</h1></a></li>
             <li><a href="./other_info/"><h1>other</h1></a></li>
         </ul>
     </div>
