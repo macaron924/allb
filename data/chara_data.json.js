@@ -2,117 +2,117 @@ const charaJson = [
     {
         "charaID": 1,
         "charaName": "梨璃",
-      "charaJump": "riri"
+        "charaJump": "riri"
     },
     {
         "charaID": 2,
         "charaName": "夢結",
-      "charaJump": "yuyu"
+        "charaJump": "yuyu"
     },
     {
         "charaID": 3,
         "charaName": "楓",
-      "charaJump": "kaede"
+        "charaJump": "kaede"
     },
     {
         "charaID": 4,
         "charaName": "二水",
-      "charaJump": "fumi"
+        "charaJump": "fumi"
     },
     {
         "charaID": 5,
         "charaName": "鶴紗",
-      "charaJump": "tazusa"
+        "charaJump": "tazusa"
     },
     {
         "charaID": 6,
         "charaName": "梅",
-      "charaJump": "mai"
+        "charaJump": "mai"
     },
     {
         "charaID": 7,
         "charaName": "神琳",
-      "charaJump": "shenlin"
+        "charaJump": "shenlin"
     },
     {
         "charaID": 8,
         "charaName": "雨嘉",
-      "charaJump": "yujia"
+        "charaJump": "yujia"
     },
     {
         "charaID": 9,
         "charaName": "ミリアム",
-      "charaJump": "miliam"
+        "charaJump": "miliam"
     },
     {
         "charaID": 10,
         "charaName": "一葉",
-      "charaJump": "kazuha"
+        "charaJump": "kazuha"
     },
     {
         "charaID": 11,
         "charaName": "藍",
-      "charaJump": "ran"
+        "charaJump": "ran"
     },
     {
         "charaID": 12,
         "charaName": "恋花",
-      "charaJump": "renka"
+        "charaJump": "renka"
     },
     {
         "charaID": 13,
         "charaName": "瑤",
-      "charaJump": "yo"
+        "charaJump": "yo"
     },
     {
         "charaID": 14,
         "charaName": "千香瑠",
-      "charaJump": "chikaru"
+        "charaJump": "chikaru"
     },
     {
         "charaID": 15,
         "charaName": "叶星",
-      "charaJump": "kanaho"
+        "charaJump": "kanaho"
     },
     {
         "charaID": 16,
         "charaName": "高嶺",
-      "charaJump": "takane"
+        "charaJump": "takane"
     },
     {
         "charaID": 17,
         "charaName": "紅巴",
-      "charaJump": "kureha"
+        "charaJump": "kureha"
     },
     {
         "charaID": 18,
         "charaName": "灯莉",
-      "charaJump": "akari"
+        "charaJump": "akari"
     },
     {
         "charaID": 19,
         "charaName": "姫歌",
-      "charaJump": "himeka"
+        "charaJump": "himeka"
     },
     {
         "charaID": 20,
         "charaName": "百由",
-      "charaJump": "moyu"
+        "charaJump": "moyu"
     },
     {
         "charaID": 21,
         "charaName": "天葉",
-      "charaJump": "soraha"
+        "charaJump": "soraha"
     },
     {
         "charaID": 22,
         "charaName": "依奈",
-      "charaJump": "ena"
+        "charaJump": "ena"
     },
     {
         "charaID": 23,
         "charaName": "亜羅椰",
-      "charaJump": "araya"
+        "charaJump": "araya"
     },
     {
         "charaID": 24,

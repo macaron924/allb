@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" charset="UTF-8">
+        <meta http-equiv="Cache-Control" content="no-store">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../images/icon.png">
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="../css/menu.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="./style.css">
+        <title>セレクトチケットTop</title>
+    </head>
+
+    <body>
+        <script src="../js/header_depth1.js"></script>
+
+        <main>
+            <h1 class="title">セレクトチケットTop</h1>
+            <h2>このページについて</h2>
+            <br>
+            主に課金で買えたり配布されたりするセレクトチケットの交換ラインナップについてまとめています．<br>
+            <br>
+            <hr>
+            <br>
+            <h2>その他のメモリアセレクトチケット, リフレイン</h2>
+            <div class="flex_ticket-box" id="memoria-ticket-list"></div>
+            <br>
+            <h2>衣装引換券</h2>
+            <div class="flex_ticket-box" id="costume-ticket-list"></div>
+            <br>
+        </main>
+
+        <script src="../js/footer.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="../js/menu.js"></script>
+        <script src="../data/exchange-ticket-memoria_data.json.js"></script>
+        <script src="../data/exchange-ticket-costume_data.json.js"></script>
+        <script src="./GetTicketList.js"></script>
+    </body>
+</html>
