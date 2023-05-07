@@ -8,7 +8,7 @@ for (var i = 0; i < gachaTicketJson.length; i++) {
         </table>
     </div>
     `;
-    document.getElementById('gacha-ticlet-list').insertAdjacentHTML('beforeend', content);
+    document.getElementById('gacha-ticket-list').insertAdjacentHTML('beforeend', content);
 }
 
 const images = document.querySelectorAll('img');
