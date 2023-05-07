@@ -8,7 +8,7 @@ function getTicketData(ticketSelection) {
 function addTopics(topicArray) {
     var topics = "";
     for (var i = 0; i < topicArray.length; i++) {
-        topics += `${topicArray[i]}<br>`;
+        topics += `<br>${topicArray[i]}`;
     }
     return topics;
 }

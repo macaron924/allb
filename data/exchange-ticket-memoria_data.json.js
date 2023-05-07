@@ -186,7 +186,14 @@ const exchangeTicketMemoriaJson = [
         "index": "new-year-2023-1",
         "get": ["あけましておめでとうガチャ", "福袋"],
         "lineup": {
-            "topic": [],
+            "topic": [`
+                <h3>
+                    <span style="color: #ff00ff;">ピンク枠</span>：プラチナのみ<br>
+                    <span style="color: #cfb000;">金枠</span>：プラチナ, ゴールドのみ<br>
+                    <span style="color: #aaaaaa;">銀枠</span>：プラチナ, ゴールド, シルバーのみ<br>
+                    枠無し：どれでも可<br>
+                </h3>`
+            ],
             "else": [
                 {
                     "caption": "ラインナップ",
