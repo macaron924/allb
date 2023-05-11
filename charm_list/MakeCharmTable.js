@@ -56,7 +56,7 @@ function sort(mode) {
     
     if (mode == 'reset') {
 
-        jsonCopy = JSON.parse(JSON.stringify(json));
+        jsonCopy = JSON.parse(JSON.stringify(charmJson));
 
     } else if (mode.includes('実装日')) {
 
