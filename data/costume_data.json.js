@@ -5,7 +5,7 @@ const costumeJson = [
         "yakuwari": 1,
         "name": "百合ヶ丘標準制服",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -14,7 +14,7 @@ const costumeJson = [
         "yakuwari": 3,
         "name": "百合ヶ丘標準制服",
         "percent": 12.5,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -23,7 +23,7 @@ const costumeJson = [
         "yakuwari": 2,
         "name": "百合ヶ丘標準制服",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -32,7 +32,7 @@ const costumeJson = [
         "yakuwari": 2,
         "name": "百合ヶ丘標準制服",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -41,7 +41,7 @@ const costumeJson = [
         "yakuwari": 4,
         "name": "百合ヶ丘標準制服",
         "percent": 12.2,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -50,7 +50,7 @@ const costumeJson = [
         "yakuwari": 1,
         "name": "百合ヶ丘標準制服",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -59,7 +59,7 @@ const costumeJson = [
         "yakuwari": 3,
         "name": "百合ヶ丘標準制服",
         "percent": 12.5,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -68,7 +68,7 @@ const costumeJson = [
         "yakuwari": 1,
         "name": "百合ヶ丘標準制服",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -77,7 +77,7 @@ const costumeJson = [
         "yakuwari": 4,
         "name": "百合ヶ丘標準制服",
         "percent": 12.5,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -86,7 +86,7 @@ const costumeJson = [
         "yakuwari": 4,
         "name": "エレンスゲ標準制服",
         "percent": 12.5,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -95,7 +95,7 @@ const costumeJson = [
         "yakuwari": 1,
         "name": "エレンスゲ標準制服",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -104,7 +104,7 @@ const costumeJson = [
         "yakuwari": 2,
         "name": "エレンスゲ標準制服",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -113,7 +113,7 @@ const costumeJson = [
         "yakuwari": 3,
         "name": "エレンスゲ標準制服",
         "percent": 12.5,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -122,7 +122,7 @@ const costumeJson = [
         "yakuwari": 4,
         "name": "エレンスゲ標準制服",
         "percent": 12.5,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -131,7 +131,7 @@ const costumeJson = [
         "yakuwari": 3,
         "name": "神庭女子標準制服",
         "percent": 12.5,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -140,7 +140,7 @@ const costumeJson = [
         "yakuwari": 2,
         "name": "神庭女子標準制服",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -149,7 +149,7 @@ const costumeJson = [
         "yakuwari": 1,
         "name": "神庭女子標準制服",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -158,7 +158,7 @@ const costumeJson = [
         "yakuwari": 4,
         "name": "神庭女子標準制服",
         "percent": 12.5,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -167,7 +167,7 @@ const costumeJson = [
         "yakuwari": 3,
         "name": "神庭女子標準制服",
         "percent": 12.5,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -176,7 +176,7 @@ const costumeJson = [
         "yakuwari": 5,
         "name": "アラウンドザウィロー",
         "percent": 12.5,
-        "parameter": [["Sp.DEF", 500]],
+        "parameter": [["Sp.DEF", 2000], ["Sp.ATK", 1500]],
         "ex": []
     },
     {
@@ -185,7 +185,7 @@ const costumeJson = [
         "yakuwari": 7,
         "name": "アラウンドザウィロー",
         "percent": 12.5,
-        "parameter": [["DEF", 500]],
+        "parameter": [["DEF", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -194,7 +194,7 @@ const costumeJson = [
         "yakuwari": 6,
         "name": "アラウンドザウィロー",
         "percent": 12.5,
-        "parameter": [["DEF", 500]],
+        "parameter": [["DEF", 2000], ["ATK", 1500]],
         "ex": []
     },
     {
@@ -203,7 +203,7 @@ const costumeJson = [
         "yakuwari": 5,
         "name": "アラウンドザウィロー",
         "percent": 12.5,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -212,7 +212,7 @@ const costumeJson = [
         "yakuwari": 7,
         "name": "アラウンドザウィロー",
         "percent": 12.5,
-        "parameter": [["Sp.DEF", 500]],
+        "parameter": [["Sp.DEF", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -221,7 +221,7 @@ const costumeJson = [
         "yakuwari": 5,
         "name": "アラウンドザウィロー",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -230,7 +230,7 @@ const costumeJson = [
         "yakuwari": 6,
         "name": "アラウンドザウィロー",
         "percent": 12.5,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -239,7 +239,7 @@ const costumeJson = [
         "yakuwari": 7,
         "name": "アラウンドザウィロー",
         "percent": 12.5,
-        "parameter": [["Sp.DEF", 500]],
+        "parameter": [["Sp.DEF", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -248,7 +248,7 @@ const costumeJson = [
         "yakuwari": 6,
         "name": "アラウンドザウィロー",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -356,7 +356,7 @@ const costumeJson = [
         "yakuwari": 2,
         "name": "エレンスゲオーダー",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -365,7 +365,7 @@ const costumeJson = [
         "yakuwari": 6,
         "name": "エレンスゲオーダー",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -374,7 +374,7 @@ const costumeJson = [
         "yakuwari": 3,
         "name": "エレンスゲオーダー",
         "percent": 12.5,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -383,7 +383,7 @@ const costumeJson = [
         "yakuwari": 5,
         "name": "エレンスゲオーダー",
         "percent": 12.5,
-        "parameter": [["DEF", 500]],
+        "parameter": [["DEF", 2000], ["ATK", 1500]],
         "ex": []
     },
     {
@@ -392,7 +392,7 @@ const costumeJson = [
         "yakuwari": 7,
         "name": "エレンスゲオーダー",
         "percent": 12.5,
-        "parameter": [["Sp.DEF", 500]],
+        "parameter": [["Sp.DEF", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -401,7 +401,7 @@ const costumeJson = [
         "yakuwari": 4,
         "name": "フローラルクインテット",
         "percent": 12.5,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -410,7 +410,7 @@ const costumeJson = [
         "yakuwari": 6,
         "name": "フローラルクインテット",
         "percent": 12.5,
-        "parameter": [["Sp.ATK", 500]],
+        "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -419,7 +419,7 @@ const costumeJson = [
         "yakuwari": 5,
         "name": "フローラルクインテット",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -428,7 +428,7 @@ const costumeJson = [
         "yakuwari": 7,
         "name": "フローラルクインテット",
         "percent": 12.5,
-        "parameter": [["DEF", 500]],
+        "parameter": [["DEF", 2000], ["Sp.DEF", 1500]],
         "ex": []
     },
     {
@@ -437,7 +437,7 @@ const costumeJson = [
         "yakuwari": 1,
         "name": "フローラルクインテット",
         "percent": 12.5,
-        "parameter": [["ATK", 500]],
+        "parameter": [["ATK", 2000], ["DEF", 1500]],
         "ex": []
     },
     {
@@ -3193,6 +3193,33 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["Sp.ATK", 1500], ["Sp.DEF", 1500]],
         "ex": [["水UP", 5]]
+    },
+    {
+        "id": 356,
+        "chara": 15,
+        "yakuwari": 2,
+        "name": "ミラージュマリアージュ",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 357,
+        "chara": 68,
+        "yakuwari": 6,
+        "name": "ミラージュマリアージュ",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 5]]
+    },
+    {
+        "id": 358,
+        "chara": 69,
+        "yakuwari": 4,
+        "name": "ミラージュマリアージュ",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
     }
     /*
     ,
