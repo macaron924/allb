@@ -73,6 +73,12 @@ tr>*:last-child {
     max-width: 100%;
 }
 
+.banner-big_img {
+    object-fit: contain;
+    width: 80rem;
+    max-width: 100%;
+}
+
 .mini-banner_img {
     vertical-align: middle;
 }
@@ -141,7 +147,7 @@ tr>*:last-child {
 }
 
 
-/*衣装データのflexbox*/
+/*ガチャチケデータのflexbox*/
 
 .flex_ticket-box {
     display: flex;
