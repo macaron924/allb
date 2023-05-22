@@ -3220,6 +3220,42 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
         "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 359,
+        "chara": 16,
+        "yakuwari": 5,
+        "name": "エレガントフォーマル",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 5]]
+    },
+    {
+        "id": 360,
+        "chara": 47,
+        "yakuwari": 2,
+        "name": "セイクリッドロザリオ",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 361,
+        "chara": 14,
+        "yakuwari": 5,
+        "name": "セイクリッドロザリオ",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["風UP", 5]]
+    },
+    {
+        "id": 362,
+        "chara": 15,
+        "yakuwari": 4,
+        "name": "セイクリッドロザリオ",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["風UP", 3], ["水耐性", 2]]
     }
     /*
     ,
