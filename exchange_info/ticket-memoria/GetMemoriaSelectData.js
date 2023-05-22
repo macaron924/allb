@@ -10,6 +10,7 @@ function addTopics(topicArray) {
     for (var i = 0; i < topicArray.length; i++) {
         topics += `<br>${topicArray[i]}`;
     }
+    topics += `<br>`;
     return topics;
 }
 
