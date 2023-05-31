@@ -428,6 +428,26 @@ const charaJson = [
         "charaID": 86,
         "charaName": "蒔菜 (サークリットマグス)",
         "charaJump": ""
+    },
+    {
+        "charaID": 87,
+        "charaName": "友奈",
+        "charaJump": "c7_yuna"
+    },
+    {
+        "charaID": 88,
+        "charaName": "美森",
+        "charaJump": "c7_mimori"
+    },
+    {
+        "charaID": 89,
+        "charaName": "夏凜",
+        "charaJump": "c7_karin"
+    },
+    {
+        "charaID": 90,
+        "charaName": "園子",
+        "charaJump": "c7_sonoko"
     }
     /*
     ,
