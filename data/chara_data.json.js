@@ -448,6 +448,16 @@ const charaJson = [
         "charaID": 90,
         "charaName": "園子",
         "charaJump": "c7_sonoko"
+    },
+    {
+        "charaID": 90,
+        "charaName": "風",
+        "charaJump": "c7_fu"
+    },
+    {
+        "charaID": 91,
+        "charaName": "樹",
+        "charaJump": "c7_itsuki"
     }
     /*
     ,
