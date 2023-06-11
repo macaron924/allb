@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" charset="UTF-8">
+        <meta http-equiv="Cache-Control" content="no-store">
+        <meta property="og:url" content="https://macaron924.github.io/allb/memoria_list/byCategory.html">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="メモリア一覧 (ガチャ等分類あり)">
+        <meta property="og:description" content="メモリアを入手方法別で分類してまとめたページです。">
+        <meta property="og:site_name" content="はっぴーゆにこーん☆">
+        <meta property="og:image" content="https://macaron924.github.io/allb/images/icon.png">
+        <meta name="twitter:card" content="summary">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../../images/icon.png">
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="../../css/menu.css">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="./../style.css">
+        <title>メモリア一覧 (ガチャ等分類あり)</title>
+    </head>
+
+    <body>
+        <script src="../../js/header_depth2.js"></script>
+
+        <main>
+            <h1 class="title">メモリア一覧 (ガチャ等分類あり)</h1>
+            <br>
+            <div>
+                <label for="jump">カテゴリー</label>
+                <select id="jump" onChange="location.href=value;">
+                    <option value="">(カテゴリーを選択)</option>
+                </select>
+            </div>
+            <p id="jump" class="memoria-category"></p>
+            <div id="list"></div>
+        </main>
+
+        <script src="../../js/footer.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="../../js/menu.js"></script>
+        <script src="../../data/memoria_data.json.js"></script>
+        <script src="./MakeMemoriaListByCategory.js"></script>   
+
+    </body>
+</html>
+
