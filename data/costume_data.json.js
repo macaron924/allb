@@ -3391,6 +3391,24 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["DEF", 3000], ["Sp.DEF", 3000]],
         "ex": [["火UP", 5]]
+    },
+    {
+        "id": 378,
+        "chara": 2,
+        "yakuwari": 2,
+        "name": "ハピネスブーケα",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 379,
+        "chara": 9,
+        "yakuwari": 6,
+        "name": "レゾナンスオブハートα",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["風UP", 5]]
     }
     /*
     ,
