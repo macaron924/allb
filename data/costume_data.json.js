@@ -1320,7 +1320,7 @@ const costumeJson = [
         "name": "エクスドライブ",
         "percent": 12.5,
         "parameter": [["Sp.ATK", 500], ["Sp.DEF", 500]],
-        "ex": [["火UP", 2], ["水UP", 2], ["闇UP", 2]]
+        "ex": [["火UP(対ヒュージ)", 2], ["水UP(対ヒュージ)", 2], ["闇UP(対ヒュージ)", 2]]
     },
     {
         "id": 148,
@@ -1329,7 +1329,7 @@ const costumeJson = [
         "name": "エクスドライブ",
         "percent": 12.5,
         "parameter": [["Sp.DEF", 500], ["Sp.ATK", 500]],
-        "ex": [["火UP", 2], ["水UP", 2], ["闇UP", 2]]
+        "ex": [["火UP(対ヒュージ)", 2], ["水UP(対ヒュージ)", 2], ["闇UP(対ヒュージ)", 2]]
     },
     {
         "id": 149,
@@ -1338,7 +1338,7 @@ const costumeJson = [
         "name": "エクスドライブ",
         "percent": 12.5,
         "parameter": [["ATK", 500], ["DEF", 500]],
-        "ex": [["火UP", 2], ["水UP", 2], ["光UP", 2]]
+        "ex": [["火UP(対ヒュージ)", 2], ["水UP(対ヒュージ)", 2], ["光UP(対ヒュージ)", 2]]
     },
     {
         "id": 150,
@@ -1347,7 +1347,7 @@ const costumeJson = [
         "name": "ファウストローブ",
         "percent": 12.5,
         "parameter": [["ATK", 500], ["DEF", 500]],
-        "ex": [["火UP", 2], ["水UP", 2], ["光UP", 2]]
+        "ex": [["火UP(対ヒュージ)", 2], ["水UP(対ヒュージ)", 2], ["光UP(対ヒュージ)", 2]]
     },
     {
         "id": 151,
@@ -3409,6 +3409,33 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["ATK", 3000], ["DEF", 3000]],
         "ex": [["風UP", 5]]
+    },
+    {
+        "id": 380,
+        "chara": 46,
+        "yakuwari": 2,
+        "name": "セイクリッドロザリオ",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP(ギガント限定)", 3], ["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 381,
+        "chara": 2,
+        "yakuwari": 5,
+        "name": "セイクリッドロザリオ",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP(ギガント限定)", 5], ["水UP", 5]]
+    },
+    {
+        "id": 382,
+        "chara": 53,
+        "yakuwari": 3,
+        "name": "セイクリッドロザリオ",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP(ギガント限定)", 3], ["水UP", 3], ["火耐性", 2]]
     }
     /*
     ,
