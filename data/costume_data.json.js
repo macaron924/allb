@@ -3436,6 +3436,15 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
         "ex": [["水UP(ギガント限定)", 3], ["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 383,
+        "chara": 25,
+        "yakuwari": 4,
+        "name": "高難度外征レギオン制服",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 1500], ["Sp.DEF", 1500]],
+        "ex": []
     }
     /*
     ,
