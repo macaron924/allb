@@ -1,5 +1,15 @@
 $(".select-btn").click(function () {//ボタンがクリックされたら
-        $(this).toggleClass('active');//ボタン自身に activeクラスを付与
+    $(this).toggleClass('active');//ボタン自身に activeクラスを付与
+});
+
+$(".chara-open-btn").click(function () {//ボタンがクリックされたら
+    $(this).toggleClass('active');//ボタン自身に activeクラスを付与
+    $("#chara_list").toggleClass('active');//filter-menuにactiveクラスを付与
+});
+
+$("#mode-check").click(function () {//ボタンがクリックされたら
+    onlymode = document.getElementById("mode-check").checked;
+    makeTable(selectionArray);
 });
 
 function charaButtonPushAction(charaId) {
@@ -20,7 +30,7 @@ function existInSelection(charaId) {
 }
 
 function searchFromArray(charaId, array) {
-    // 初期化の0指定なら問答無用true
+    // 配列の長さが0ならtrue
     if (charaId.length == 0) return true;
     // 各メモリアに対し，指定キャラが見つかればtrue
     var trueCount = 0;
@@ -32,7 +42,12 @@ function searchFromArray(charaId, array) {
             }
         }
     }
-    if (trueCount == charaId.length) return true;
+    if (trueCount == charaId.length) {
+        if (onlymode == true) {
+            if (array.length != charaId.length) return false;
+        }
+        return true
+    };
     return false;
 }
 
@@ -49,6 +64,7 @@ function getCharaImg(array) {
 }
 
 function makeTable(charId) {
+    var resultCount = 0;
 
     // table要素を生成
     var table = document.createElement('table');
@@ -74,6 +90,8 @@ function makeTable(charId) {
     for (var i = 0; i < jsonCopy.length; i++) {
         array = jsonCopy[i]['chara'];
         if (searchFromArray(charId, array) == true) {
+            resultCount++;
+
             // tr要素を生成
             var tr = document.createElement('tr');
             // td要素を生成
@@ -98,9 +116,11 @@ function makeTable(charId) {
     }
     // 生成したtable要素を追加する
     document.getElementById('maintable').replaceChildren(table);
+    document.getElementById('resultCount').replaceChildren(resultCount);
 }
 
 // 初期化
 var jsonCopy = JSON.parse(JSON.stringify(memoriaJson));
 var selectionArray = [];
+var onlymode = false
 makeTable([]);
