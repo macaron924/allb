@@ -280,6 +280,7 @@ function makeTable() {
                 var img = document.createElement('img');
                 img.src = "../../images/memoria/memoria_" + memoriaJson[i]['id'] + ".png";
                 img.height = 80;
+                img.loading = "lazy";
                 // td要素内にテキストを追加
                 tdId.appendChild(img);
                 tdName.textContent = memoriaJson[i]['name'];

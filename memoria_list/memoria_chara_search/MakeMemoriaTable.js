@@ -58,6 +58,7 @@ function getCharaImg(array) {
         var img = document.createElement('img');
         img.src = "../../images/chara/chara_" + array[i] + ".png"
         img.height = 80;
+        img.loading = "lazy";
         tdChara.appendChild(img);
     }
     return tdChara;
@@ -102,6 +103,7 @@ function makeTable(charId) {
             var img = document.createElement('img');
             img.src = "../../images/memoria/memoria_" + jsonCopy[i]['id'] + ".png"
             img.height = 80;
+            img.loading = "lazy";
             // td要素内にテキストを追加
             tdId.appendChild(img);
             tdName.textContent = jsonCopy[i]['name'];

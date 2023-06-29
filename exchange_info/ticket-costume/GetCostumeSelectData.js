@@ -51,7 +51,7 @@ function addCostumeList(costumeArray) {
         // flexitemを生成
         var flexitem = document.createElement('div');
         flexitem.className = "flex_test-item";
-        flexitem.innerHTML = `<img ${changeBorder(costumeArray[i][1])}src="../../images/costume/costume_${id}.png"><br>${getCostumeChara(id)} / ${getCostumeName(id)}`;
+        flexitem.innerHTML = `<img ${changeBorder(costumeArray[i][1])}src="../../images/costume/costume_${id}.png" loading="lazy"><br>${getCostumeChara(id)} / ${getCostumeName(id)}`;
 
         // flexitemをflexboxの子要素に追加
         flexbox.appendChild(flexitem);

@@ -9,7 +9,7 @@ function addMemoriaList() {
         // flexitemを生成
         var flexitem = document.createElement('div');
         flexitem.className = "flex_test-item";
-        flexitem.innerHTML = `<img src="../images/memoria/memoria_${memoriaJson[i]['id']}.png"><br>${memoriaJson[i]['name']}`;
+        flexitem.innerHTML = `<img src="../images/memoria/memoria_${memoriaJson[i]['id']}.png" loading="lazy"><br>${memoriaJson[i]['name']}`;
 
         // flexitemをflexboxの子要素に追加
         flexbox.appendChild(flexitem);
