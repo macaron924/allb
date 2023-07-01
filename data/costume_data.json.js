@@ -3463,6 +3463,33 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["ATK", 3000], ["DEF", 3000]],
         "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 386,
+        "chara": 74,
+        "yakuwari": 4,
+        "name": "エレンスゲ標準制服",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 387,
+        "chara": 93,
+        "yakuwari": 2,
+        "name": "ソルギナックシステム",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 388,
+        "chara": 94,
+        "yakuwari": 7,
+        "name": "ソルギナックシステム",
+        "percent": 15,
+        "parameter": [["Sp.DEF", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 5]]
     }
     /*
     ,
