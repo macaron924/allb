@@ -7,7 +7,7 @@ document.write(`
         <ul>
             <li><a href="../"><h1>Top</h1></a></li>
             <br><hr><br>
-            <li><a href="../chara_role/"><h1>chara</h1></a></li>
+            <li><a href="../chara_role/"><h1>costume</h1></a></li>
             <li><a href="../order_list/"><h1>order</h1></a></li>
             <li><a href="../memoria_list/"><h1>memoria</h1></a></li>
             <li><a href="../gacha_info/"><h1>gacha</h1></a></li>

@@ -450,14 +450,24 @@ const charaJson = [
         "charaJump": "c7_sonoko"
     },
     {
-        "charaID": 90,
+        "charaID": 91,
         "charaName": "風",
         "charaJump": "c7_fu"
     },
     {
-        "charaID": 91,
+        "charaID": 92,
         "charaName": "樹",
         "charaJump": "c7_itsuki"
+    },
+    {
+        "charaID": 93,
+        "charaName": "優珂 (ヘリオマグススフィア)",
+        "charaJump": "fuka"
+    },
+    {
+        "charaID": 94,
+        "charaName": "結爾 (マグスファンタズム)",
+        "charaJump": ""
     }
     /*
     ,
