@@ -3490,6 +3490,51 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["Sp.DEF", 3000], ["DEF", 3000]],
         "ex": [["水UP", 5]]
+    },
+    {
+        "id": 389,
+        "chara": 95,
+        "yakuwari": 2,
+        "name": "ソルギナックシステム",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 390,
+        "chara": 96,
+        "yakuwari": 4,
+        "name": "ソルギナックシステム",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 391,
+        "chara": 71,
+        "yakuwari": 6,
+        "name": "エレンスゲ標準制服",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP", 5]]
+    },
+    {
+        "id": 392,
+        "chara": 1,
+        "yakuwari": 5,
+        "name": "トウメイダイアリーNP",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 5]]
+    },
+    {
+        "id": 393,
+        "chara": 2,
+        "yakuwari": 2,
+        "name": "トウメイダイアリーNP",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
     }
     /*
     ,
