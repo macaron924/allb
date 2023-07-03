@@ -462,11 +462,21 @@ const charaJson = [
     {
         "charaID": 93,
         "charaName": "優珂 (ヘリオマグススフィア)",
-        "charaJump": "fuka"
+        "charaJump": ""
     },
     {
         "charaID": 94,
         "charaName": "結爾 (マグスファンタズム)",
+        "charaJump": ""
+    },
+    {
+        "charaID": 95,
+        "charaName": "一葉 (ブーステッドインサニティ)",
+        "charaJump": ""
+    },
+    {
+        "charaID": 96,
+        "charaName": "恋花 (ドレインタッチ)",
         "charaJump": ""
     }
     /*
