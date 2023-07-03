@@ -1,3 +1,15 @@
+for (var i = 0; i < exchangeMedalBonusJson.length; i++) {
+    content = `
+    <div class="flex_ticket-item">
+        <table>
+            <tr><td><a href="./medal/?index=${exchangeMedalBonusJson[i]['index']}"><img src="../images/item/medal_bonus_${exchangeMedalBonusJson[i]['index']}.png"></a></td>
+                <td><a href="./medal/?index=${exchangeMedalBonusJson[i]['index']}">${exchangeMedalBonusJson[i]['name']}</a></td></tr>
+        </table>
+    </div>
+    `;
+    document.getElementById('bonus-medal-list').insertAdjacentHTML('beforeend', content);
+}
+
 for (var i = 0; i < exchangeTicketMemoriaJson.length; i++) {
     content = `
     <div class="flex_ticket-item">
