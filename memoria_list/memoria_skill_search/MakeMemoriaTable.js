@@ -6,6 +6,7 @@ $(".filter-btn").click(function () {//ボタンがクリックされたら
     $("#filter-menu").toggleClass('active');//filter-menuにactiveクラスを付与
 });
 
+
 function runButtonPushAction() {
     effectSelectionArray = [];
     hojoSelectionArray = [];
@@ -20,82 +21,6 @@ function runButtonPushAction() {
     hojoSelectionArray.push([document.getElementById("hojo2-type").value, stringToNumber(document.getElementById("hojo2-value").value)]);
 
     makeTable();
-}
-
-function hojoFilter(hojoName) {
-    var tag = getHojoSkillInfoFromName(hojoName, 'tag');
-    if (tag == "") return true;
-    var trueCount = 0;
-    for (var j = 0; j < hojoSelectionArray.length; j++) {
-        for (var i = 0; i < tag.length; i++) {
-            if ((hojoSelectionArray[j][0] == "") && (stringToNumber(tag[i][2]) >= hojoSelectionArray[j][1])) {
-                trueCount++;
-                break;
-            } else if ((tag[i][1] == hojoSelectionArray[j][0]) && (stringToNumber(tag[i][2]) >= hojoSelectionArray[j][1])) {
-                trueCount++;
-                break;
-            }
-        }
-    }
-    if (trueCount == effectSelectionArray.length) return true;
-    return false;
-}
-
-function effectUpFilter(skillName) {
-    if (effectUpSelection == "") return true;
-    var tag = getSkillInfoFromName(skillName, 'tag');
-    if (tag == "") return true;
-    for (var i = 0; i < tag.length; i++) {
-        if (tag[i][0] == effectUpSelection) {
-            return true;
-        }
-    }
-    return false;
-}
-
-function effectFilter(skillName) {
-    var tag = getSkillInfoFromName(skillName, 'tag');
-    if (tag == "") return true;
-    var trueCount = 0;
-    for (var j = 0; j < effectSelectionArray.length; j++) {
-        for (var i = 0; i < tag.length; i++) {
-            if ((effectSelectionArray[j][0] == "") && (stringToNumber(tag[i][1]) >= effectSelectionArray[j][1])) {
-                trueCount++;
-                break;
-            } else if ((tag[i][0] == effectSelectionArray[j][0]) && (stringToNumber(tag[i][1]) >= effectSelectionArray[j][1])) {
-                trueCount++;
-                break;
-            }
-        }
-    }
-    if (trueCount == effectSelectionArray.length) return true;
-    return false;
-}
-
-function damageFilter(skillName) {
-    if (stringToNumber(damageSelection) == 0) return true;
-    var tag = getSkillInfoFromName(skillName, 'tag');
-    if (tag == "") return true;
-    for (var i = 0; i < tag.length; i++) {
-        if (tag[i][0].includes('ダメージ')) {
-            if (stringToNumber(tag[i][1]) >= damageSelection) return true;
-            else return false;
-        }
-    }
-    return false;
-}
-
-function healFilter(skillName) {
-    if (stringToNumber(healSelection) == 0) return true;
-    var tag = getSkillInfoFromName(skillName, 'tag');
-    if (tag == "") return true;
-    for (var i = 0; i < tag.length; i++) {
-        if (tag[i][0].includes('回復')) {
-            if (stringToNumber(tag[i][1]) >= healSelection) return true;
-            else return false;
-        }
-    }
-    return false;
 }
 
 function stringToNumber(str) {
@@ -140,11 +65,10 @@ function rangeButtonPushAction(range) {
     }
 }
 
-function yakuwariFilter(skillName) {
+function yakuwariFilter(yakuwari) {
     if (yakuwariArray.length == 0) return true;
-    var yakuwariNumber = getSkillInfoFromName(skillName, 'yakuwari')
     for (var i = 0; i < yakuwariArray.length; i++) {
-        if (yakuwariNumber == yakuwariArray[i]) return true;
+        if (yakuwari == yakuwariArray[i]) return true;
     }
     return false;
 }
@@ -157,18 +81,96 @@ function rangeFilter(skillName) {
     return false;
 }
 
-function filter(skillArray) {
+function damageFilter(skillInfo) {
+    if (stringToNumber(damageSelection) == 0) return true;
+    var tag = skillInfo['tag'];
+    for (var i = 0; i < tag.length; i++) {
+        if (tag[i]['fx'].includes('ダメージ')) {
+            if (stringToNumber(tag[i]['val']) >= damageSelection) return true;
+            else return false;
+        }
+    }
+    return false;
+}
+
+function healFilter(skillInfo) {
+    if (stringToNumber(healSelection) == 0) return true;
+    var tag = skillInfo['tag'];
+    for (var i = 0; i < tag.length; i++) {
+        if (tag[i]['fx'].includes('回復')) {
+            if (stringToNumber(tag[i]['val']) >= healSelection) return true;
+            else return false;
+        }
+    }
+    return false;
+}
+
+function effectFilter(skillInfo) {
+    var tag = skillInfo['tag'];
+    var trueCount = 0;
+    for (var j = 0; j < effectSelectionArray.length; j++) {
+        for (var i = 0; i < tag.length; i++) {
+            if ((effectSelectionArray[j][0] == "") && (stringToNumber(tag[i]['val']) >= effectSelectionArray[j][1])) {
+                trueCount++;
+                break;
+            } else if ((tag[i]['fx'] == effectSelectionArray[j][0]) && (stringToNumber(tag[i]['val']) >= effectSelectionArray[j][1])) {
+                trueCount++;
+                break;
+            }
+        }
+    }
+    if (trueCount == effectSelectionArray.length) return true;
+    return false;
+}
+
+function effectUpFilter(skillInfo) {
+    if (effectUpSelection == "") return true;
+    var tag = skillInfo['tag'];
+    for (var i = 0; i < tag.length; i++) {
+        if (tag[i]['fx'] == effectUpSelection) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function hojoFilter(hojoName) {
+    var tag = getHojoSkillInfoFromName(hojoName, 'tag');
+    var trueCount = 0;
+    var selectionCount = 0;
+    for (var j = 0; j < hojoSelectionArray.length; j++) {
+        if (hojoSelectionArray[j][0] != "" && hojoSelectionArray[j][1] != 0) selectionCount++;
+        for (var i = 0; i < tag.length; i++) {
+            if ((hojoSelectionArray[j][0] == "") && (stringToNumber(tag[i][2]) >= hojoSelectionArray[j][1])) {
+                trueCount++;
+                break;
+            } else if ((tag[i][1] == hojoSelectionArray[j][0]) && (stringToNumber(tag[i][2]) >= hojoSelectionArray[j][1])) {
+                trueCount++;
+                break;
+            }
+        }
+    }
+    if (trueCount == effectSelectionArray.length) return true;
+    return false;
+}
+
+function filter(yakuwari, skillArray) {
+
     var skillName = skillArray[modeSelection];
-    if (yakuwariFilter(skillName) == false) return false;
+    var skillInfo = getSkillInfoFromName(yakuwari, skillName);
+
+    if (yakuwariFilter(yakuwari) == false) return false;
     if (rangeFilter(skillName) == false) return false;
-    if (damageFilter(skillName) == false) return false;
-    if (healFilter(skillName) == false) return false;
-    if (effectFilter(skillName) == false) return false;
-    if (effectUpFilter(skillName) == false) return false;
-    if (modeSelection == 1) {
+    if (damageFilter(skillInfo) == false) return false;
+    if (healFilter(skillInfo) == false) return false;
+    if (effectFilter(skillInfo) == false) return false;
+    if (effectUpFilter(skillInfo) == false) return false;
+
+    if (modeSelection == 1) {  // レギマモードのとき補助スキルも
         var hojoName = skillArray[2];
         if (hojoFilter(hojoName) == false) return false;
     }
+
     return true;
 }
 
@@ -184,16 +186,55 @@ function tagToString(tag) {
     return str;
 }
 
-function getSkillInfoFromName(skillName, option) {
+function tag2ToString(tag) {
+    if (tag == "") return "";
+    var str = "";
+    for (var i = 0; i < tag.length; i++) {
+        if (i != 0) str += "<br>";
+        str += tag[i]['fx'];
+        str += "・";
+        str += tag[i]['val'];
+    }
+    return str;
+}
+
+function getSkillInfoFromName(yakuwari, skillName) {
+    var skillJson;
+    switch (yakuwari) {
+        case 1:
+            skillJson = skillJson_1;
+            break;
+        case 2:
+            skillJson = skillJson_2;
+            break;
+        case 3:
+            skillJson = skillJson_3;
+            break;
+        case 4:
+            skillJson = skillJson_4;
+            break;
+        case 5:
+            skillJson = skillJson_5;
+            break;
+        case 6:
+            skillJson = skillJson_6;
+            break;
+        case 7:
+            skillJson = skillJson_7;
+            break;
+        default:
+            skillJson = "";
+    }
+    if (skillJson == "") return "";
     for (var i = 0; i < skillJson.length; i++) {
-        if (skillName == skillJson[i]['name']) return skillJson[i][option];
+        if (skillName == skillJson[i]['name']) return skillJson[i];
     }
     return "";
 }
 
-function createSkillDetailFromName(skillName) {
-    if (skillName == "") return "";
-    return tagToString(getSkillInfoFromName(skillName, 'tag'));
+function createSkillDetailFromName(tag) {
+    if (tag == "") return "";
+    return tag2ToString(tag);
 }
 
 function getHojoSkillInfoFromName(skillName, option) {
@@ -258,9 +299,16 @@ function makeTable() {
     table.appendChild(tr);
     
     // テーブル本体を作成
+    //var count = 0;
     for (var i = (memoriaJson.length - 1); i >= 0; i--) {
         for (var j = 0; j < memoriaJson[i]['skill'].length; j++) {
-            if (filter(memoriaJson[i]['skill'][j]) == true) {
+
+            var yakuwari = memoriaJson[i]['yakuwari'][j];
+            var skill = memoriaJson[i]['skill'][j];
+
+            if (filter(yakuwari, skill) == true) {
+                //count++;
+
                 // tr要素を生成
                 var tr = document.createElement('tr');
                 // td要素を生成
@@ -285,17 +333,22 @@ function makeTable() {
                 tdId.appendChild(img);
                 tdName.textContent = memoriaJson[i]['name'];
                 if (modeSelection == 0 || dualDisplay == true) {
+
+                    var vshuge = getSkillInfoFromName(yakuwari, skill[0]);
                     tdVshugeName.classList.add('skill_name');
-                    tdVshugeName.innerHTML = "<nobr>" + memoriaJson[i]['skill'][j][0] + "</nobr><br>" + getSkillInfoFromName(memoriaJson[i]['skill'][j][0], 'effect_detail');
-                    tdVshugeDetail.innerHTML = createSkillDetailFromName(memoriaJson[i]['skill'][j][0]);
+                    tdVshugeName.innerHTML = "<nobr>" + skill[0] + "</nobr><br>" + vshuge['effect_detail'];
+                    tdVshugeDetail.innerHTML = createSkillDetailFromName(vshuge['tag']);
                 }
                 if (modeSelection == 1 || dualDisplay == true) {
+
+                    var lm = getSkillInfoFromName(yakuwari, skill[1]);
                     tdLmName.classList.add('skill_name');
-                    tdLmName.innerHTML =    "<nobr>" + memoriaJson[i]['skill'][j][1] + "</nobr><br>" + getSkillInfoFromName(memoriaJson[i]['skill'][j][1], 'effect_detail');
-                    tdLmDetail.innerHTML = createSkillDetailFromName(memoriaJson[i]['skill'][j][1]);
+                    tdLmName.innerHTML =    "<nobr>" + skill[1] + "</nobr><br>" + lm['effect_detail'];
+                    tdLmDetail.innerHTML = createSkillDetailFromName(lm['tag']);
+
                     tdHojoName.classList.add('skill_name');
-                    tdHojoName.innerHTML =    "<nobr>" + memoriaJson[i]['skill'][j][2] + "</nobr><br>" + getHojoSkillInfoFromName(memoriaJson[i]['skill'][j][2], 'effect_detail');
-                    tdHojoDetail.innerHTML = createHojoSkillDetailFromName(memoriaJson[i]['skill'][j][2]);
+                    tdHojoName.innerHTML =    "<nobr>" + skill[2] + "</nobr><br>" + getHojoSkillInfoFromName(skill[2], 'effect_detail');
+                    tdHojoDetail.innerHTML = createHojoSkillDetailFromName(skill[2]);
                 }
                 // td要素をtr要素の子要素に追加
                 tr.appendChild(tdId);
@@ -317,6 +370,7 @@ function makeTable() {
     }
     // 生成したtable要素を追加する
     document.getElementById('maintable').replaceChildren(table);
+    //document.getElementById('resultCount').replaceChildren(count);
 }
 
 // 初期化

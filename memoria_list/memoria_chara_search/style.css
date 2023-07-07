@@ -76,8 +76,8 @@
 
 .maintable {
     overflow: auto;
-    height: calc(100vh - 26rem);
     width: 100%;
+    border: 0.1rem solid #000000;
 }
 
 .maintable th {
