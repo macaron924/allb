@@ -299,7 +299,7 @@ function makeTable() {
     table.appendChild(tr);
     
     // テーブル本体を作成
-    //var count = 0;
+    var count = 0;
     for (var i = (memoriaJson.length - 1); i >= 0; i--) {
         for (var j = 0; j < memoriaJson[i]['skill'].length; j++) {
 
@@ -307,7 +307,7 @@ function makeTable() {
             var skill = memoriaJson[i]['skill'][j];
 
             if (filter(yakuwari, skill) == true) {
-                //count++;
+                count++;
 
                 // tr要素を生成
                 var tr = document.createElement('tr');
@@ -370,7 +370,7 @@ function makeTable() {
     }
     // 生成したtable要素を追加する
     document.getElementById('maintable').replaceChildren(table);
-    //document.getElementById('resultCount').replaceChildren(count);
+    document.getElementById('resultCount').replaceChildren(count);
 }
 
 // 初期化
