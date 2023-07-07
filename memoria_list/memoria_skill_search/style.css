@@ -1,3 +1,5 @@
+/*絞り込みメニュー*/
+
 #filter-menu {
     display: none;
     position: fixed;
@@ -21,7 +23,7 @@
     margin: 2rem;
     padding: 2rem;
     height: max-content;
-    max-height: calc(100% - 5rem);
+    max-height: calc(100% - 10rem);
     overflow: auto;
 }
 
@@ -96,9 +98,9 @@ select.disabled {
 
 .maintable {
     overflow: auto;
-    height: calc(100vh - 16rem);
     width: 100%;
     font-size: 1.2rem;
+    border: 0.1rem solid #000000;
 }
 
 .maintable th {
@@ -151,4 +153,8 @@ select.disabled {
 
 .maintable td.skill_name::first-line {
     font-weight: bold;
+}
+
+.maintable th>td:nth-of-type(2), .maintable tr>td:nth-of-type(2) {
+    white-space: normal;
 }
