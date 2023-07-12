@@ -336,18 +336,28 @@ function makeTable() {
 
                     var vshuge = getSkillInfoFromName(yakuwari, skill[0]);
                     tdVshugeName.classList.add('skill_name');
-                    tdVshugeName.innerHTML = "<nobr>" + skill[0] + "</nobr><br>" + vshuge['effect_detail'];
-                    tdVshugeDetail.innerHTML = createSkillDetailFromName(vshuge['tag']);
+                    if (vshuge == "") {
+                        tdVshugeName.innerHTML = "<nobr>" + skill[0] + "</nobr><br>" + "";
+                        tdVshugeDetail.innerHTML = "";
+                    } else {
+                        tdVshugeName.innerHTML = "<nobr>" + skill[0] + "</nobr><br>" + vshuge['effect_detail'];
+                        tdVshugeDetail.innerHTML = createSkillDetailFromName(vshuge['tag']);
+                    }
                 }
                 if (modeSelection == 1 || dualDisplay == true) {
 
                     var lm = getSkillInfoFromName(yakuwari, skill[1]);
                     tdLmName.classList.add('skill_name');
-                    tdLmName.innerHTML =    "<nobr>" + skill[1] + "</nobr><br>" + lm['effect_detail'];
-                    tdLmDetail.innerHTML = createSkillDetailFromName(lm['tag']);
+                    if (lm == "") {
+                        tdLmName.innerHTML = "<nobr>" + skill[1] + "</nobr><br>" + "";
+                        tdLmDetail.innerHTML = "";
+                    } else {
+                        tdLmName.innerHTML = "<nobr>" + skill[1] + "</nobr><br>" + lm['effect_detail'];
+                        tdLmDetail.innerHTML = createSkillDetailFromName(lm['tag']);
+                    }
 
                     tdHojoName.classList.add('skill_name');
-                    tdHojoName.innerHTML =    "<nobr>" + skill[2] + "</nobr><br>" + getHojoSkillInfoFromName(skill[2], 'effect_detail');
+                    tdHojoName.innerHTML = "<nobr>" + skill[2] + "</nobr><br>" + getHojoSkillInfoFromName(skill[2], 'effect_detail');
                     tdHojoDetail.innerHTML = createHojoSkillDetailFromName(skill[2]);
                 }
                 // td要素をtr要素の子要素に追加
