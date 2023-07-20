@@ -3580,6 +3580,69 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["DEF", 3000], ["Sp.DEF", 3000]],
         "ex": [["火UP", 5]]
+    },
+    {
+        "id": 399,
+        "chara": 1,
+        "yakuwari": 7,
+        "name": "リリサマ!!シャイン",
+        "percent": 7.5,
+        "parameter": [["Sp.DEF", 1550], ["DEF", 1500]],
+        "ex": []
+    },
+    {
+        "id": 400,
+        "chara": 3,
+        "yakuwari": 3,
+        "name": "リリサマ!!シャイン",
+        "percent": 7.5,
+        "parameter": [["Sp.ATK", 1550], ["Sp.DEF", 1500]],
+        "ex": []
+    },
+    {
+        "id": 401,
+        "chara": 8,
+        "yakuwari": 7,
+        "name": "スタースプラッシュ",
+        "percent": 15,
+        "parameter": [["Sp.DEF", 3000], ["DEF", 3000]],
+        "ex": [["風UP", 5]]
+    },
+    {
+        "id": 402,
+        "chara": 23,
+        "yakuwari": 2,
+        "name": "リリティカルサマー",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 403,
+        "chara": 67,
+        "yakuwari": 4,
+        "name": "リリティカルサマー",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 404,
+        "chara": 34,
+        "yakuwari": 6,
+        "name": "リリティカルサマー",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["風UP", 5]]
+    },
+    {
+        "id": 405,
+        "chara": 69,
+        "yakuwari": 7,
+        "name": "リリティカルサマー",
+        "percent": 15,
+        "parameter": [["Sp.DEF", 3000], ["DEF", 3000]],
+        "ex": [["風UP", 5]]
     }
     /*
     ,

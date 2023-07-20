@@ -6,9 +6,9 @@
 .maintable {
     overflow: auto;
     width: 100%;
-    height: calc(100vh - 16rem);
     scroll-padding-top: 3.6rem;
     font-size: 1.6rem;
+    border: 0.1rem solid #000000;
 }
 
 th {
