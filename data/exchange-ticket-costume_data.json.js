@@ -14,6 +14,18 @@ const exchangeTicketCostumeJson = [
     },
     */
     {
+        "name": "吉村・Thi・梅衣装引換券",
+        "index": "costume_mai",
+        "get": ["課金(5000円, 販売期間:2023/7/21～2023/7/27)"],
+        "lineup": {
+            "topic": [],
+            "else": [
+                {"caption": "ラインナップ","costume": [[272,""], [233,""], [204,""], [92,""], [36,""], [6,""], [25,""]]
+                }
+            ]
+        }
+    },
+    {
         "name": "GO!GO!スプラッシュ衣装引換券",
         "index": "costume_ririsama-1",
         "get": ["配布", "2.5周年GO!GO!スプラッシュ引換券 交換所"],
