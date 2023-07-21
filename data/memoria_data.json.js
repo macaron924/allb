@@ -4152,7 +4152,7 @@ const memoriaJson = [
     {
         "id": 362,
         "name": "楽しいを探しに行こう！",
-        "chara": [5],
+        "chara": [6],
         "get_rank": "S",
         "category": { "c1": "誕生日/誕生月ガチャ", "c2": "2022", "c3": [""] },
         "yakuwari": [2, 6],
