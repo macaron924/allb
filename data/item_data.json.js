@@ -12,5 +12,9 @@ const itemJson = [
     { "index": "memoria_348_evolution", "name": "お姉様の水難：ピース", "link": "" },
     { "index": "memoria_348_awakening", "name": "お姉様の水難：ジェム", "link": "" },
     { "index": "memoria_363_evolution", "name": "晴れときどきサンオイル：ピース", "link": "" },
-    { "index": "memoria_363_awakening", "name": "晴れときどきサンオイル：ジェム", "link": "" }
+    { "index": "memoria_363_awakening", "name": "晴れときどきサンオイル：ジェム", "link": "" },
+    { "index": "memoria_523_evolution", "name": "吐息の距離：ピース", "link": "" },
+    { "index": "memoria_523_awakening", "name": "吐息の距離：ジェム", "link": "" },
+    { "index": "memoria_571_evolution", "name": "朝寝坊のススメ：ピース", "link": "" },
+    { "index": "memoria_571_awakening", "name": "朝寝坊のススメ：ジェム", "link": "" }
 ]

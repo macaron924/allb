@@ -17,6 +17,18 @@ const exchangeMedalBonusJson = [
     },
     */
     {
+        "name": "エモーショナルメモリアボーナスメダルⅦ",
+        "index": "emotional-7",
+        "lineup": {
+            "memoria": [ { "caption": "メモリア", "ratio": 1000, "content": [661, 312, 348, 363, 523, 571] } ],
+            "costume": [],
+            "item": [
+                { "caption": "ガチャチケット", "ratio": 1000, "content": ["gacha-ticket_zokusei-fire", "gacha-ticket_zokusei-water", "gacha-ticket_zokusei-wind", "gacha-ticket_zokusei-light", "gacha-ticket_zokusei-dark"] },
+                { "caption": "素材", "ratio": 300, "content": ["memoria_312_evolution", "memoria_312_awakening", "memoria_348_evolution", "memoria_348_awakening", "memoria_363_evolution", "memoria_363_awakening", "memoria_523_evolution", "memoria_523_awakening", "memoria_571_evolution", "memoria_571_awakening"] }
+            ]
+        }
+    },
+    {
         "name": "衣装交換メダル7月",
         "index": "202307-costume",
         "lineup": {
@@ -192,11 +204,11 @@ const exchangeMedalBonusJson = [
         "name": "エモーショナルメモリアボーナスメダルⅣ",
         "index": "emotional-4",
         "lineup": {
-            "memoria": [ { "caption": "", "ratio": 1000, "content": [523, 312, 348, 363] } ],
+            "memoria": [ { "caption": "メモリア", "ratio": 1000, "content": [523, 312, 348, 363] } ],
             "costume": [],
             "item": [
-                { "caption": "", "ratio": 1000, "content": ["gacha-ticket_zokusei-light", "gacha-ticket_zokusei-dark"] },
-                { "caption": "", "ratio": 300, "content": ["memoria_312_evolution", "memoria_312_awakening", "memoria_348_evolution", "memoria_348_awakening", "memoria_363_evolution", "memoria_363_awakening"] }
+                { "caption": "ガチャチケ", "ratio": 1000, "content": ["gacha-ticket_zokusei-light", "gacha-ticket_zokusei-dark"] },
+                { "caption": "素材", "ratio": 300, "content": ["memoria_312_evolution", "memoria_312_awakening", "memoria_348_evolution", "memoria_348_awakening", "memoria_363_evolution", "memoria_363_awakening"] }
             ]
         }
     },
