@@ -36,7 +36,7 @@ tr>*:last-child {
 
 .bonus-list, .step-list {
     overflow: auto;
-    height: 28.5rem;
+    max-height: 41rem;
     width: max-content;
     max-width: 100%;
 }
