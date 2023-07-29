@@ -2948,7 +2948,7 @@ const costumeJson = [
         "yakuwari": 7,
         "name": "セイクリッドロザリオ",
         "percent": 15,
-        "parameter": [["DEF", 1500], ["Sp.DEF", 1500]],
+        "parameter": [["Sp.DEF", 1500], ["DEF", 1500]],
         "ex": [["風UP", 5]]
     },
     {
@@ -3227,7 +3227,7 @@ const costumeJson = [
         "yakuwari": 5,
         "name": "エレガントフォーマル",
         "percent": 15,
-        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "parameter": [["DEF", 3000], ["ATK", 3000]],
         "ex": [["水UP", 5]]
     },
     {
@@ -3407,7 +3407,7 @@ const costumeJson = [
         "yakuwari": 6,
         "name": "レゾナンスオブハートα",
         "percent": 15,
-        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "parameter": [["DEF", 3000], ["ATK", 3000]],
         "ex": [["風UP", 5]]
     },
     {
@@ -3652,6 +3652,24 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["DEF", 3000], ["Sp.DEF", 3000]],
         "ex": [["風UP", 5]]
+    },
+    {
+        "id": 407,
+        "chara": 17,
+        "yakuwari": 2,
+        "name": "リリティカルサマーα",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 408,
+        "chara": 11,
+        "yakuwari": 6,
+        "name": "リリティカルサマーα",
+        "percent": 15,
+        "parameter": [["Sp.DEF", 3000], ["Sp.ATK", 3000]],
+        "ex": [["火UP", 5]]
     }
     /*
     ,
