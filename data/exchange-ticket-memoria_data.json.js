@@ -21,7 +21,7 @@ const exchangeTicketMemoriaJson = [
         "index": "premium-ririsama",
         "get": ["課金(5000円(ブラウザ版は3000円), 販売期間:2023/7/28～2023/8/30)"],
         "lineup": {
-            "topic": [],
+            "topic": ["※衣装無し"],
             "else": [
                 {
                     "caption": "ラインナップ",
