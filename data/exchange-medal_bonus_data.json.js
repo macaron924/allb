@@ -17,6 +17,19 @@ const exchangeMedalBonusJson = [
     },
     */
     {
+        "name": "新章グラン・エプレ編ボーナスメダル",
+        "index": "new-ch-gran-eple",
+        "lineup": {
+            "memoria": [
+                { "caption": "メモリア", "ratio": 500, "content": [524, 525, 526, 527, 528, 572, 573, 574, 575, 576, 577] }
+            ],
+            "costume": [
+                { "caption": "衣装", "ratio": 500, "content": [303, 304, 305, 306, 307, 334, 335, 336, 337, 338] }
+            ],
+            "item": []
+        }
+    },
+    {
         "name": "エモーショナルメモリアボーナスメダルⅦ",
         "index": "emotional-7",
         "lineup": {
