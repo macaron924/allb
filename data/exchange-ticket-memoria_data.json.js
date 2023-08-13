@@ -92,7 +92,7 @@ const exchangeTicketMemoriaJson = [
         }
     },
     {
-        "name": "吉村・Thi・梅メモリア引換券",
+        "name": "吉村・Thi・梅★5メモリア引換券",
         "index": "memoria_mai",
         "get": ["課金(3000円, 販売期間:2023/7/21～2023/7/27)"],
         "lineup": {
