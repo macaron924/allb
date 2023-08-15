@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
     <head>
         <meta http-equiv="content-type" charset="UTF-8">
         <meta http-equiv="Cache-Control" content="no-store">
@@ -13,7 +13,8 @@
     </head>
 
     <body>
-        <script src="../js/header_depth1.js"></script>
+        <script src="../js/header.js"></script>
+        <script>writeHeader(1);</script>
 
         <main>
             <h1 class="title">セレクトチケットTop</h1>
@@ -23,14 +24,16 @@
             <br>
             <hr>
             <br>
-            <h2>ボーナスメダル</h2>
-            <div class="flex_ticket-box" id="bonus-medal-list"></div>
-            <br>
-            <h2>メモリアセレクトチケット, リフレイン</h2>
-            <div class="flex_ticket-box" id="memoria-ticket-list"></div>
-            <br>
-            <h2>衣装引換券</h2>
-            <div class="flex_ticket-box" id="costume-ticket-list"></div>
+            <h2 class="category"><span>▶</span>ボーナスメダル</h2>
+            <div class="flex_medal-box content" id="bonus-medal"></div>
+            <h2 class="category"><span>▶</span>メモリア引換券</h2>
+            <div class="flex_medal-box content" id="memoria-ticket"></div>
+            <h2 class="category"><span>▶</span>衣装引換券</h2>
+            <div class="flex_medal-box content" id="costume-ticket"></div>
+            <h2 class="category"><span>▶</span>イベントガチャスペシャル交換券</h2>
+            <div class="flex_medal-box content" id="event-gacha-sp-ticket"></div>
+            <h2 class="category"><span>▶</span>その他</h2>
+            <div class="flex_medal-box content" id="exchange-list"></div>
             <br>
         </main>
 
@@ -38,9 +41,7 @@
 
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="../js/menu.js"></script>
-        <script src="../data/exchange-medal_bonus_data.json.js"></script>
-        <script src="../data/exchange-ticket-memoria_data.json.js"></script>
-        <script src="../data/exchange-ticket-costume_data.json.js"></script>
-        <script src="./GetTicketList.js"></script>
+        <script src="../data/exchange_data.json.js"></script>
+        <script src="./GetExchangeList.js"></script>
     </body>
 </html>

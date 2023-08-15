@@ -133,12 +133,16 @@
     position: fixed;
     bottom: 1rem;
     right: 1rem;
+    height: 5.6rem;
+    width: 5.6rem;
+    border: 0.3rem solid #ffffff;
+    border-radius: 2.8rem;
+    background: #91e3ff;
     font-weight: bold;
     font-size: 2rem;
     padding: 0.7em;
     text-align: center;
-    background: #91e3ff;
-    color: #666;
+    color: #ffffff;
     transition: 0.3s0;
     z-index: 99;
 }

@@ -82,9 +82,15 @@ main {
     border-radius: 1rem;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 footer {
     text-align: center;
-    margin-top: 0.1rem;
+    margin-top: auto;
     padding: 1rem;
     background-color: #eeeeee;
 }
@@ -109,7 +115,6 @@ footer h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    margin-bottom: 1rem;
 }
 
 .flex_test-item {
@@ -148,4 +153,8 @@ th,td {
     white-space: nowrap;
     padding: 0.5rem;
     background: #ffffff;
+}
+
+#ticket-lineup .flex_test-box{
+    margin-bottom: 1rem;
 }

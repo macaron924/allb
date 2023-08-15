@@ -29,8 +29,8 @@ function addMemoriaList(memoriaArray) {
 function addLineup() {
     for (var i = eventGachaTicketJson.length - 1; i >= 0; i--) {
         var caption = `<h3>▼${eventGachaTicketJson[i]['name']}</h3>`;
-        document.getElementById('lineup').insertAdjacentHTML('beforeend', caption);
-        document.getElementById('lineup').appendChild(addMemoriaList(eventGachaTicketJson[i]['lineup']));
+        document.getElementById('ticket-lineup').insertAdjacentHTML('beforeend', caption);
+        document.getElementById('ticket-lineup').appendChild(addMemoriaList(eventGachaTicketJson[i]['lineup']));
     }
 }
 

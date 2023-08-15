@@ -57,7 +57,7 @@ function addLineup() {
     var topics = addTopics(thisGacha['lineup']['topic']);
     document.getElementById('lineup').insertAdjacentHTML('beforeend', topics);
     for (var i = 0; i < thisGacha['lineup']['else'].length; i++) {
-        var caption = `<br><h3>${thisGacha['lineup']['else'][i]['caption']} :</h3>`;
+        var caption = `<br><h3>${thisGacha['lineup']['else'][i]['date']} ${thisGacha['lineup']['else'][i]['caption']} :</h3>`;
         document.getElementById('lineup').insertAdjacentHTML('beforeend', caption);
         document.getElementById('lineup').appendChild(addMemoriaList(thisGacha['lineup']['else'][i]['content']));
     }

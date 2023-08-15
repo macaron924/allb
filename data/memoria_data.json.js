@@ -5987,7 +5987,7 @@ const memoriaJson = [
         "id": 518,
         "name": "Ultimate Memoria -比類なき異能-",
         "chara": [26],
-        "get_rank": "SSS+",
+        "get_rank": "未定推定SSS相当",
         "category": { "c1": "前衛後衛/役割別/クリエイターズコラボガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2023/1/26～)", "c3": ["前衛ガチャ"] },
         "yakuwari": [2, 5],
         "skill": [
@@ -5999,7 +5999,7 @@ const memoriaJson = [
         "id": 519,
         "name": "Ultimate Memoria -フェノメノ-",
         "chara": [23],
-        "get_rank": "SSS+",
+        "get_rank": "未定推定SSS相当",
         "category": { "c1": "前衛後衛/役割別/クリエイターズコラボガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2023/1/26～)", "c3": ["前衛ガチャ"] },
         "yakuwari": [4, 6],
         "skill": [
@@ -6011,7 +6011,7 @@ const memoriaJson = [
         "id": 520,
         "name": "Ultimate Memoria -蒼き月、満ちる時-",
         "chara": [21],
-        "get_rank": "SSS+",
+        "get_rank": "未定推定SSS相当",
         "category": { "c1": "前衛後衛/役割別/クリエイターズコラボガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2023/1/26～)", "c3": ["後衛ガチャ"] },
         "yakuwari": [6, 4],
         "skill": [
@@ -6023,7 +6023,7 @@ const memoriaJson = [
         "id": 521,
         "name": "Ultimate Memoria -シリウス・ロア-",
         "chara": [24],
-        "get_rank": "SSS+",
+        "get_rank": "未定推定SSS相当",
         "category": { "c1": "前衛後衛/役割別/クリエイターズコラボガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2023/1/26～)", "c3": ["後衛ガチャ"] },
         "yakuwari": [5, 2],
         "skill": [
@@ -6035,7 +6035,7 @@ const memoriaJson = [
         "id": 522,
         "name": "Ultimate Memoria -縦横無尽、阻む者無し-",
         "chara": [29],
-        "get_rank": "SSS+",
+        "get_rank": "未定推定SSS相当",
         "category": { "c1": "前衛後衛/役割別/クリエイターズコラボガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2023/1/26～)", "c3": ["後衛ガチャ"] },
         "yakuwari": [7, 3],
         "skill": [
@@ -6118,7 +6118,7 @@ const memoriaJson = [
         "id": 529,
         "name": "チョコを知らない君へ",
         "chara": [12, 10],
-        "get_rank": "S",
+        "get_rank": "未定推定S",
         "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "楯のメイドとバレンタイン (2023/2/9～)", "c3": ["イベントガチャ"] },
         "yakuwari": [5, 2],
         "skill": [
@@ -6130,7 +6130,7 @@ const memoriaJson = [
         "id": 530,
         "name": "触れ合う吐息",
         "chara": [13],
-        "get_rank": "S",
+        "get_rank": "未定推定S",
         "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "楯のメイドとバレンタイン (2023/2/9～)", "c3": ["イベントガチャ"] },
         "yakuwari": [7, 4],
         "skill": [
@@ -6142,7 +6142,7 @@ const memoriaJson = [
         "id": 531,
         "name": "安らぎをあなたに",
         "chara": [14],
-        "get_rank": "S",
+        "get_rank": "未定推定S",
         "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "楯のメイドとバレンタイン (2023/2/9～)", "c3": ["イベントガチャ"] },
         "yakuwari": [4, 6],
         "skill": [
@@ -6399,7 +6399,7 @@ const memoriaJson = [
         "id": 553,
         "name": "ぎゅーっとしてあげる",
         "chara": [11],
-        "get_rank": "S",
+        "get_rank": "未定推定S",
         "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "ハンドメイド・ギフト (2023/3/11～)", "c3": ["イベントガチャ"] },
         "yakuwari": [5],
         "skill": [
@@ -6410,7 +6410,7 @@ const memoriaJson = [
         "id": 554,
         "name": "泡立てチャレンジの結果",
         "chara": [15],
-        "get_rank": "S",
+        "get_rank": "未定推定S",
         "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "ハンドメイド・ギフト (2023/3/11～)", "c3": ["イベントガチャ"] },
         "yakuwari": [6, 4],
         "skill": [
@@ -6422,7 +6422,7 @@ const memoriaJson = [
         "id": 555,
         "name": "光咲く日々を抱いて",
         "chara": [10, 11, 12, 13, 14],
-        "get_rank": "S",
+        "get_rank": "未定推定S",
         "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "ハンドメイド・ギフト (2023/3/11～)", "c3": ["イベントガチャ"] },
         "yakuwari": [2, 7],
         "skill": [
@@ -6735,7 +6735,7 @@ const memoriaJson = [
         "name": "魅惑のセレクション",
         "chara": [14, 16,
           8],
-        "get_rank": "S",
+        "get_rank": "未定推定S",
         "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "魅惑のバニーセレクション (2023/4/10～)", "c3": ["イベントガチャ"] },
         "yakuwari": [7],
         "skill": [
@@ -6746,7 +6746,7 @@ const memoriaJson = [
         "id": 583,
         "name": "バニートラップ",
         "chara": [16],
-        "get_rank": "S",
+        "get_rank": "未定推定S",
         "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "魅惑のバニーセレクション (2023/4/10～)", "c3": ["イベントガチャ"] },
         "yakuwari": [4, 5],
         "skill": [
@@ -6758,7 +6758,7 @@ const memoriaJson = [
         "id": 584,
         "name": "さみしがりうさぎ",
         "chara": [8],
-        "get_rank": "S",
+        "get_rank": "未定推定S",
         "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "魅惑のバニーセレクション (2023/4/10～)", "c3": ["イベントガチャ"] },
         "yakuwari": [6, 2],
         "skill": [
@@ -6880,7 +6880,7 @@ const memoriaJson = [
         "id": 594,
         "name": "ゴージャスアイドル☆楓",
         "chara": [3],
-        "get_rank": "S",
+        "get_rank": "未定推定S",
         "category": { "c1": "その他のガチャ", "c2": "ラスバれ！ゴールデン☆ウィーク2023記念ガチャ", "c3": [""] },
         "yakuwari": [4, 6],
         "skill": [
@@ -6892,7 +6892,7 @@ const memoriaJson = [
         "id": 595,
         "name": "エクセレントアイドル☆紗癒",
         "chara": [57],
-        "get_rank": "S",
+        "get_rank": "未定推定S",
         "category": { "c1": "その他のガチャ", "c2": "ラスバれ！ゴールデン☆ウィーク2023記念ガチャ", "c3": [""] },
         "yakuwari": [5, 2],
         "skill": [
@@ -7023,7 +7023,7 @@ const memoriaJson = [
         "id": 606,
         "name": "エターナル・プロミス",
         "chara": [15, 16],
-        "get_rank": "S",
+        "get_rank": "未定推定S",
         "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "Mirage Mariage (2023/5/11～)", "c3": ["イベントガチャ"] },
         "yakuwari": [2],
         "skill": [
@@ -7034,7 +7034,7 @@ const memoriaJson = [
         "id": 607,
         "name": "ウエディング・マーチ",
         "chara": [68],
-        "get_rank": "S",
+        "get_rank": "未定推定S",
         "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "Mirage Mariage (2023/5/11～)", "c3": ["イベントガチャ"] },
         "yakuwari": [6, 2],
         "skill": [
@@ -7046,7 +7046,7 @@ const memoriaJson = [
         "id": 608,
         "name": "夢見る自分を、怖れずに",
         "chara": [69],
-        "get_rank": "S",
+        "get_rank": "未定推定S",
         "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "Mirage Mariage (2023/5/11～)", "c3": ["イベントガチャ"] },
         "yakuwari": [4, 7],
         "skill": [
@@ -7785,7 +7785,7 @@ const memoriaJson = [
         "id": 670,
         "name": "Ultimate Memoria -ヴィルトシュバイン-",
         "chara": [28],
-        "get_rank": "SSS+",
+        "get_rank": "未定推定SSS相当",
         "category": { "c1": "前衛後衛/役割別/クリエイターズコラボガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2023/8/4～)", "c3": ["前衛ガチャ"] },
         "yakuwari": [2, 6],
         "skill": [
@@ -7797,7 +7797,7 @@ const memoriaJson = [
         "id": 671,
         "name": "Ultimate Memoria -終曲のタクト-",
         "chara": [27],
-        "get_rank": "SSS+",
+        "get_rank": "未定推定SSS相当",
         "category": { "c1": "前衛後衛/役割別/クリエイターズコラボガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2023/8/4～)", "c3": ["前衛ガチャ"] },
         "yakuwari": [4, 5],
         "skill": [
@@ -7809,7 +7809,7 @@ const memoriaJson = [
         "id": 672,
         "name": "Ultimate Memoria -幻奏乙女-",
         "chara": [25],
-        "get_rank": "SSS+",
+        "get_rank": "未定推定SSS相当",
         "category": { "c1": "前衛後衛/役割別/クリエイターズコラボガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2023/8/4～)", "c3": ["後衛ガチャ"] },
         "yakuwari": [5, 4],
         "skill": [
@@ -7821,7 +7821,7 @@ const memoriaJson = [
         "id": 673,
         "name": "Ultimate Memoria -無二なる二刀-",
         "chara": [53],
-        "get_rank": "SSS+",
+        "get_rank": "未定推定SSS相当",
         "category": { "c1": "前衛後衛/役割別/クリエイターズコラボガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2023/8/4～)", "c3": ["後衛ガチャ"] },
         "yakuwari": [6, 2],
         "skill": [
@@ -7833,7 +7833,7 @@ const memoriaJson = [
         "id": 674,
         "name": "Ultimate Memoria -双刃無双-",
         "chara": [22],
-        "get_rank": "SSS+",
+        "get_rank": "未定推定SSS相当",
         "category": { "c1": "前衛後衛/役割別/クリエイターズコラボガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2023/8/4～)", "c3": ["後衛ガチャ"] },
         "yakuwari": [7, 1],
         "skill": [
@@ -7875,17 +7875,6 @@ const memoriaJson = [
         "skill": [
             ["WパワーアシストC Ⅳ", "[風攻水防]マイトアシストC Ⅳ", "援:風パワーUP Ⅲ"],
             ["Sp.マイトスマッシュB Ⅲ+", "風弱：Sp.パワースマッシュB Ⅲ", "攻:Sp.パワーUP Ⅲ"]
-        ]
-    },
-    {
-        "id": 678,
-        "name": "神の子は、水面に踊る",
-        "chara": [25],
-        "get_rank": "非ガチャ産",
-        "category": { "c1": "レジェンダリー", "c2": "レギオンリーグ", "c3": ["2nd"] },
-        "yakuwari": [4],
-        "skill": [
-            ["Sp.ガードバーストD LG", "Sp.ガードバーストD LG", "攻:ダメージUP Ⅲ"]
         ]
     }
     /**

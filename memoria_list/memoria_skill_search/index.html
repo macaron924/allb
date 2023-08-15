@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
     <head prefix="og: https://ogp.me/ns#">
         <meta http-equiv="content-type" charset="UTF-8">
         <meta http-equiv="Cache-Control" content="no-store">
@@ -20,10 +20,15 @@
     </head>
 
     <body>
-        <script src="../../js/header_depth2.js"></script>
+        <script src="../../js/header.js"></script>
+        <script>writeHeader(2);</script>
 
-        <div id="filter-menu">
-            <div class="filter-menu_content">
+        <main>
+            <h1 class="title">メモリアスキル検索</h1>
+            <div>
+                <input type="button" id="menu-open-btn" class="active" value="絞り込みMENU ON/OFF">
+            </div>
+            <div id="filter-menu_content" class="active">
                 <div>
                     <label for="mode">検索モード</label>
                     <select id="mode">
@@ -255,18 +260,12 @@
                 </div>
                 <br>
                 <div>
-                    <input type="button" class="filter-btn" onclick="runButtonPushAction();" value="実行">
+                    <input type="button" id="filter-btn" onclick="runButtonPushAction();" value="実行">
                 </div>
             </div>
-        </div>
-
-        <main>
-            <h1 class="title">メモリアスキル検索</h1>
-            <input type="button" class="filter-btn" value="表示変更 / 絞り込み"><br>
-            <br>
             <!--テーブル生成位置-->
             <h2>検索結果：<span id="resultCount"></span>件</h2>
-            <div class="maintable" id ='maintable'></div>
+            <div id ="maintable" class="all"></div>
         </main>
 
         <script src="../../js/footer.js"></script>
@@ -275,7 +274,7 @@
         <script src="../../js/menu.js"></script>
         <script src="../../data/memoria_data.json.js"></script>
         <script src="../../data/memoria_skill.json.js"></script>
-        <script src="../../data/hojo_list.json.js"></script>
-        <script src="./MakeMemoriaTable.js"></script>
+        <script src="../../data/memoria_hojo.json.js"></script>
+        <script src="./MakeMemoriaList.js"></script>
     </body>
 </html>
