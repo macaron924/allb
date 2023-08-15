@@ -1,0 +1,202 @@
+/*メニューボタンの表示切替*/
+
+#menu-open-btn {
+    background-color: #eee;
+    width: 22rem;
+    height: 3rem;
+    border: 0.1rem solid #333333;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+}
+
+#menu-open-btn.active {
+    background-color: #00bfff;
+}
+
+
+/*絞り込みメニュー*/
+
+#filter-menu_content {
+    display: none;
+    background: #ccf2ff;
+    border: solid #00bfff;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    height: max-content;
+    max-height: calc(100% - 10rem);
+    overflow: auto;
+}
+
+#filter-menu_content.active {
+    display: block;
+}
+
+#filter-btn {
+    width: 100%;
+    background: #00bfff;
+    height: 3rem;
+    border: 0.1rem solid #333333;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#filter-btn.not-changed {
+    background: #ffff99;
+}
+
+#chara_list {
+    display: none;
+    background-color: #ccf2ff;
+    border: 0.1rem solid #333333;
+    padding-bottom: 0.5rem;
+}
+
+#chara_list.active {
+    display: block;
+}
+
+#chara_list h3 {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+#chara-open-btn {
+    background-color: #eee;
+    width: 22rem;
+    height: 3rem;
+    border: 0.1rem solid #333333;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+}
+
+#chara-open-btn.active {
+    background-color: #00bfff;
+}
+
+select {
+    background: #ffffff;
+    height: 3rem;
+    border: 0.1rem solid #333333;
+    border-radius: 0.5rem;
+}
+
+select, label {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    padding: 0.5rem;
+}
+
+select.disabled {
+    background-color: #868686;
+    pointer-events: none;
+}
+
+/*ボタンのためのflex-box*/
+
+.flex_btn-box {
+    background-color: #ccf2ff;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.flex_btn-item {
+    padding: 0;
+    color: #000000;
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+
+/*ボタン*/
+
+.select-btn {
+    background-color: #eee;
+    width: 15rem;
+    height: 3rem;
+    border: 0.1rem solid #333333;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+}
+
+.select-btn:hover {
+    cursor: pointer;
+}
+
+.select-btn.active {
+    background-color: #00bfff;
+}
+
+
+/*衣装データのflexbox*/
+
+.flex_costume-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex_costume-item {
+    padding: 1rem;
+    color: #000;
+    background-color: #fff;
+    margin: 0.5rem;
+    width: 40rem;
+    border: 0.2rem solid #91e3ff;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.flex_costume-item table td {
+    padding: 0;
+    border: solid 0;
+    text-align: left;
+    vertical-align: middle;
+    white-space: normal;
+    background-color: transparent;
+    font-size: 1.6rem;
+    height: 2.5rem;
+}
+
+.flex_costume-item table tr:first-child>td:last-child {
+    font-weight: bold;
+}
+
+.flex_costume-item table td span {
+    background-color: #f0c0c0;
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+
+/*boxの表示/非表示切替*/
+
+.category {
+    cursor: pointer;
+}
+
+.category span {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.category.close span {
+    display: inline-block;
+    transform: rotate(0deg);
+}
+
+.flex_btn-box.close {
+    display: none;
+}

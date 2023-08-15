@@ -1,3 +1,30 @@
+#default-sort-btn {
+    background-color: #eee;
+    width: 10rem;
+    height: 3rem;
+    border: 0.1rem solid #333333;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+}
+
+#default-sort-btn.active {
+    background-color: #00bfff;
+}
+
+#date-sort-btn {
+    background-color: #eee;
+    width: 10rem;
+    height: 3rem;
+    border: 0.1rem solid #333333;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+}
+
+#date-sort-btn.active {
+    background-color: #00bfff;
+}
+
+
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -112,7 +139,7 @@ tr>*:last-child {
 }
 
 .flex_gacha-item .mini-banner_img {
-    width: 37.5rem;
+    height: 11rem;
 }
 
 .flex_gacha-item .item_img {
@@ -153,7 +180,6 @@ tr>*:last-child {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
 }
 
 .flex_ticket-item {
@@ -180,6 +206,10 @@ tr>*:last-child {
     height: 2.5rem;
 }
 
+.flex_ticket-item table tr:first-child {
+    height: 4rem;
+}
+
 .flex_ticket-item table tr:first-child>td:first-child {
     width: 5.5rem;
 }
@@ -194,4 +224,27 @@ tr>*:last-child {
     display:block;
     width:100%;
     height:100%;
+}
+
+
+.gacha-group {
+    margin-bottom: 2.4rem;
+}
+
+.gacha-group .title {
+    cursor: pointer;
+    background: #88e1ff;
+}
+
+.gacha-group .flex_gacha-box {
+    display: none;
+}
+
+.gacha-group .flex_gacha-box.active {
+    display: flex;
+}
+
+.gacha-group .title.active span {
+    display: inline-block;
+    transform: rotate(90deg);
 }

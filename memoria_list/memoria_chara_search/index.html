@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
     <head prefix="og: https://ogp.me/ns#">
         <meta http-equiv="content-type" charset="UTF-8">
         <meta http-equiv="Cache-Control" content="no-store">
-        <meta property="og:url" content="https://macaron924.github.io/allb/memoria_chara_search">
+        <meta property="og:url" content="https://macaron924.github.io/allb/memoria_list/memoria_chara_search/">
         <meta property="og:type" content="article">
         <meta property="og:title" content="メモリアキャラ検索">
         <meta property="og:description" content="キャラを複数選択してメモリアを絞り込めるツールです。">
@@ -20,18 +20,20 @@
     </head>
 
     <body>
-        <script src="../../js/header_depth2.js"></script>
+        <script src="../../js/header.js"></script>
+        <script>writeHeader(2);</script>
 
         <main>
             <h1 class="title">メモリアキャラ検索</h1>
             <div>
-                <input type="button" class="chara-open-btn" value="キャラ選択MENU ON/OFF">
+                <input type="button" id="chara-open-btn" class="active" value="キャラ選択MENU ON/OFF">
             </div>
             <div class="mode-box">
                 <input type="checkbox" id="mode-check">
                 <label for="mode-check">選択キャラ"のみ"のメモリアを探す</label>
             </div>
-            <div id="chara_list">
+            <div id="chara_list" class="active">
+                <h3 class="category"><span>▶</span> 百合ヶ丘女学院／一柳隊</h3>
                 <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(1);" value="梨璃"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(2);" value="夢結"></div>
@@ -42,8 +44,10 @@
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(7);" value="神琳"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(8);" value="雨嘉"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(9);" value="ミリアム"></div>
-                    <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(20);" value="百由"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(35);" value="結梨"></div>
+                </div>
+                <h3 class="category"><span>▶</span> 百合ヶ丘女学院／アールヴヘイム</h3>
+                <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(21);" value="天葉"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(22);" value="依奈"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(23);" value="亜羅椰"></div>
@@ -53,22 +57,31 @@
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(27);" value="茜"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(28);" value="月詩"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(29);" value="辰姫"></div>
+                </div>
+                <h3 class="category"><span>▶</span> 百合ヶ丘女学院／その他</h3>
+                <div class="flex_chara-btn-box">
+                    <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(20);" value="百由"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(53);" value="汐里"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(54);" value="祀"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(56);" value="閑"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(57);" value="紗癒"></div>
                 </div>
+                <h3 class="category"><span>▶</span> エレンスゲ女学園／ヘルヴォル</h3>
                 <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(10);" value="一葉"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(11);" value="藍"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(12);" value="恋花"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(13);" value="瑤"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(14);" value="千香瑠"></div>
+                </div>
+                <h3 class="category"><span>▶</span> エレンスゲ女学園／クエレブレ</h3>
+                <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(71);" value="優珂"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(72);" value="美岳"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(73);" value="蒔菜"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(74);" value="結爾"></div>
                 </div>
+                <h3 class="category"><span>▶</span> 神庭女子藝術高校／グラン・エプレ</h3>
                 <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(15);" value="叶星"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(16);" value="高嶺"></div>
@@ -80,6 +93,7 @@
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(69);" value="鈴夢"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(70);" value="藤乃"></div>
                 </div>
+                <h3 class="category"><span>▶</span> 御台場女学校</h3>
                 <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(40);" value="純"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(41);" value="初"></div>
@@ -87,6 +101,7 @@
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(43);" value="楪"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(44);" value="椛"></div>
                 </div>
+                <h3 class="category"><span>▶</span> 私立ルドビコ女学院</h3>
                 <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(45);" value="来夢"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(46);" value="幸恵"></div>
@@ -94,35 +109,55 @@
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(48);" value="聖恋"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(49);" value="佳世"></div>
                 </div>
+                <h3 class="category"><span>▶</span> その他</h3>
                 <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(34);" value="莉芬"></div>
                 </div>
+                <h3 class="category"><span>▶</span> コラボ／魔法少女リリカルなのは</h3>
                 <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(31);" value="なのは"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(32);" value="フェイト"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(33);" value="はやて"></div>
+                </div>
+                <h3 class="category"><span>▶</span> コラボ／戦姫絶唱シンフォギア</h3>
+                <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(36);" value="響"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(37);" value="未来"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(38);" value="クリス"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(39);" value="キャロル"></div>
+                </div>
+                <h3 class="category"><span>▶</span> コラボ／デート・ア・ライブ</h3>
+                <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(50);" value="狂三"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(51);" value="琴里"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(52);" value="十香"></div>
+                </div>
+                <h3 class="category"><span>▶</span> コラボ／ガールズアンドパンツァー</h3>
+                <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(58);" value="みほ"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(59);" value="まほ"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(60);" value="ダージリン"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(61);" value="アンチョビ"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(62);" value="カチューシャ"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(63);" value="ケイ"></div>
+                </div>
+                <h3 class="category"><span>▶</span> コラボ／プリズマ☆イリヤ</h3>
+                <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(64);" value="イリヤ"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(65);" value="美遊"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(66);" value="クロエ"></div>
+                </div>
+                <h3 class="category"><span>▶</span> コラボ／魔法少女まどか☆マギカ</h3>
+                <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(75);" value="まどか"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(77);" value="マミ"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(76);" value="ほむら"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(78);" value="さやか"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(79);" value="杏子"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(80);" value="キュゥべえ"></div>
+                </div>
+                <h3 class="category"><span>▶</span> コラボ／結城友奈は勇者である</h3>
+                <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(87);" value="友奈"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(88);" value="美森"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(89);" value="夏凜"></div>

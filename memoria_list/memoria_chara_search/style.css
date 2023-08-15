@@ -5,7 +5,40 @@
 }
 
 
-/*ボタンのための表*/
+/*キャラボタンの表示切替*/
+
+#chara_list {
+    display: none;
+    background: #ccf2ff;
+    border: 0.1rem solid #333333;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+#chara_list.active {
+    display: block;
+}
+
+#chara_list h3 {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+#chara-open-btn {
+    background-color: #eee;
+    width: 22rem;
+    height: 3rem;
+    border: 0.1rem solid #333333;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+}
+
+#chara-open-btn.active {
+    background-color: #00bfff;
+}
+
+
+/*ボタンのためのflex*/
 
 .flex_chara-btn-box {
     background-color: #ccf2ff;
@@ -22,33 +55,6 @@
     text-align: center;
     font-size: 1.5rem;
     font-weight: normal;
-}
-
-
-/*キャラボタンの表示切替*/
-
-#chara_list {
-    display: none;
-    background: #ccf2ff;
-    border: 0.1rem solid #333333;
-    margin-bottom: 2rem;
-}
-
-#chara_list.active {
-    display: block;
-}
-
-.chara-open-btn {
-    background-color: #eee;
-    width: 22rem;
-    height: 3rem;
-    border: 0.1rem solid #333333;
-    border-radius: 0.5rem;
-    margin: 0.2rem;
-}
-
-.chara-open-btn.active {
-    background-color: #00bfff;
 }
 
 
@@ -124,4 +130,25 @@
 
 .maintable th>td:nth-of-type(2), .maintable tr>td:nth-of-type(2) {
     white-space: normal;
+}
+
+
+/*boxの表示/非表示切替*/
+
+.category {
+    cursor: pointer;
+}
+
+.category span {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.category.close span {
+    display: inline-block;
+    transform: rotate(0deg);
+}
+
+.flex_chara-btn-box.close {
+    display: none;
 }

@@ -8,30 +8,6 @@ hr {
     line-height: 2.8rem;
 }
 
-.category0 {
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.category1 {
-    background-color: #fff;
-    margin-top: 0.5rem;
-    margin-bottom: 1.5rem;
-    padding: 0.5rem;
-    font-size: 2rem;
-    font-weight: bold;
-    border: #00bfff solid 0.2rem;
-}
-
-.category2 {
-    background-color: #fff;
-    padding: 0.5rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 0.1rem;
-    border: #00bfff solid 0.1rem;
-}
-
 img.item_img {
     width: 4rem;
     height: 4rem;
@@ -40,40 +16,17 @@ img.item_img {
     margin-right: 0.5rem;
 }
 
-img.border-pink {
-    border: 0.5rem solid #ff00ff;
-}
-
-img.border-gold {
-    border: 0.5rem solid #cfb000;
-}
-
-img.border-silver {
-    border: 0.5rem solid #aaaaaa;
-}
-
-img.border-bronze {
-    border: 0.5rem solid #e48339;
-}
-
-.no-border table tr td{
-    border: 0;
-    vertical-align: top;
-    padding-bottom: 0.2rem;
-}
-
-
 
 /*チケットデータのflexbox*/
 
-.flex_ticket-box {
+.flex_medal-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
 }
 
-.flex_ticket-item {
+.flex_medal-item {
     padding: 1rem;
     color: #000;
     background-color: #fff;
@@ -86,7 +39,7 @@ img.border-bronze {
     font-weight: normal;
 }
 
-.flex_ticket-item table td {
+.flex_medal-item table td {
     padding: 0;
     border: solid 0;
     text-align: left;
@@ -97,18 +50,48 @@ img.border-bronze {
     height: 2.5rem;
 }
 
-.flex_ticket-item table tr:first-child>td:first-child {
+.flex_medal-item table tr:first-child>td:first-child {
     width: 5.5rem;
 }
 
-.flex_ticket-item img {
+.flex_medal-item img {
     width: 5rem;
     height: 5rem;
     vertical-align: middle;
 }
 
-.flex_ticket-item table td a {
+.flex_medal-item table td a {
     display:block;
     width:100%;
     height:100%;
+}
+
+
+/*boxの表示/非表示切替*/
+
+.category {
+    background: #ffffff;
+    border: solid #88e1ff;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.category span {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.category.close span {
+    display: inline-block;
+    transform: rotate(0deg);
+}
+
+.content {
+    margin-bottom: 2rem;
+}
+
+.content.close {
+    display: none;
 }

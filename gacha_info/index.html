@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
     <head>
         <meta http-equiv="content-type" charset="UTF-8">
         <meta http-equiv="Cache-Control" content="no-store">
@@ -13,7 +13,8 @@
     </head>
 
     <body>
-        <script src="../js/header_depth1.js"></script>
+        <script src="../js/header.js"></script>
+        <script>writeHeader(1);</script>
 
         <main>
             <h1 class="title">ガチャ一覧Top</h1>
@@ -40,6 +41,10 @@
             <br>
             <h3><a href="./event-ticket/">イベントガチャチケット(コラボ，季節，御台場・ルド女を除く)はこちら</a></h3>
             <br>
+            <div>
+                <input type="button" id="default-sort-btn" class="active" value="デフォルト順" onclick="defaultSort();">
+                <input type="button" id="date-sort-btn" class="" value="更新順" onclick="dateSort();">
+            </div>
             <div class="flex_ticket-box" id="gacha-ticket-list"></div>
         </main>
 
