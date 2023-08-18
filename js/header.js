@@ -1,6 +1,6 @@
 function getPathPrefix(depth) {
-    var string = "./";
-    for (var i = 0; i < depth; i++) {
+    let string = "./";
+    for (let i = 0; i < depth; i++) {
         string += "../";
     }
     return string;
@@ -8,7 +8,7 @@ function getPathPrefix(depth) {
 
 function writeHeader(depth) {
     const path_prefix = getPathPrefix(depth);
-    var subtitle = "";
+    let subtitle = "";
     if (depth == 0) subtitle = "<h3>―マカロンのラスバレまとめサイト―</h3>";
     
     document.body.insertAdjacentHTML("beforeend", `

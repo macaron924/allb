@@ -1,7 +1,7 @@
 function defaultSort() {
     document.getElementById("default-sort-btn").className = "active";
     document.getElementById("date-sort-btn").className = "";
-    for (var i = 0; i < gachaTicketJsonCopy.length; i++) {
+    for (let i = 0; i < gachaTicketJsonCopy.length; i++) {
         document.getElementById('gacha-ticket-list').appendChild(gachaTicketJsonCopy[i]['item']);
     }
 }
@@ -9,23 +9,23 @@ function defaultSort() {
 function dateSort() {
     document.getElementById("default-sort-btn").className = "";
     document.getElementById("date-sort-btn").className = "active";
-    for (var i = 0; i < dateSortedIndexArray.length; i++) {
+    for (let i = 0; i < dateSortedIndexArray.length; i++) {
         document.getElementById('gacha-ticket-list').appendChild(gachaTicketJsonCopy[dateSortedIndexArray[i]]['item']);
     }
 }
 
 function compare(a, b) {
-    var dateAndTimeArray_a = gachaTicketJsonCopy[a]['lineup']['else'][0]['date'].split(' ');
-    var date_aray_a = dateAndTimeArray_a[0].split('/');
-    var year_a = parseInt(date_aray_a[0]);
-    var month_a = parseInt(date_aray_a[1]);
-    var day_a = parseInt(date_aray_a[2]);
+    let dateAndTimeArray_a = gachaTicketJsonCopy[a]['lineup']['else'][0]['date'].split(' ');
+    let date_aray_a = dateAndTimeArray_a[0].split('/');
+    let year_a = parseInt(date_aray_a[0]);
+    let month_a = parseInt(date_aray_a[1]);
+    let day_a = parseInt(date_aray_a[2]);
 
-    var dateAndTimeArray_b = gachaTicketJsonCopy[b]['lineup']['else'][0]['date'].split(' ');
-    var date_aray_b = dateAndTimeArray_b[0].split('/');
-    var year_b = parseInt(date_aray_b[0]);
-    var month_b = parseInt(date_aray_b[1]);
-    var day_b = parseInt(date_aray_b[2]);
+    let dateAndTimeArray_b = gachaTicketJsonCopy[b]['lineup']['else'][0]['date'].split(' ');
+    let date_aray_b = dateAndTimeArray_b[0].split('/');
+    let year_b = parseInt(date_aray_b[0]);
+    let month_b = parseInt(date_aray_b[1]);
+    let day_b = parseInt(date_aray_b[2]);
 
     if( year_a < year_b ) return 1;
     if( year_a > year_b ) return -1;
@@ -37,15 +37,15 @@ function compare(a, b) {
     return 1;
 }
 
-var gachaTicketJsonCopy = JSON.parse(JSON.stringify(gachaTicketJson));
-for (var i = 0; i < gachaTicketJsonCopy.length; i++) {
+let gachaTicketJsonCopy = JSON.parse(JSON.stringify(gachaTicketJson));
+for (let i = 0; i < gachaTicketJsonCopy.length; i++) {
     gachaTicketJsonCopy[i]['item'] = ""; // flexitem参照先を追加
 }
 
-var dateSortedIndexArray = [];
-for (var i = 0; i < gachaTicketJsonCopy.length; i++) {
+let dateSortedIndexArray = [];
+for (let i = 0; i < gachaTicketJsonCopy.length; i++) {
     dateSortedIndexArray.push(i);
-    var item = document.createElement('div');
+    let item = document.createElement('div');
     item.className = "flex_ticket-item"
     content = `
     <table>

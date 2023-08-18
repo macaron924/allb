@@ -1,18 +1,18 @@
 $(document).on('click', '.category', function() {//タイトル要素をクリックしたら
-	var findElm = $(this).next(".content");//直後のアコーディオンを行うエリアを取得し
+	let findElm = $(this).next(".content");//直後のアコーディオンを行うエリアを取得し
 	$(findElm).toggleClass('close');// closeクラスを付与
 	$(this).toggleClass('close');// 自身にもcloseクラスを付与
 });
 
 function getMedalData(medalSelection) {
-    for (var i = 0; i < exchangeDataJson.length; i++) {
+    for (let i = 0; i < exchangeDataJson.length; i++) {
         if (exchangeDataJson[i]['index'] == medalSelection) return exchangeDataJson[i];
     }
     return "";
 }
 
 function getMemoriaName(id) {
-    for (var i = 0; i < memoriaJson.length; i++) {
+    for (let i = 0; i < memoriaJson.length; i++) {
         if (memoriaJson[i]['id'] == id) return memoriaJson[i]['name'];
     }
     return "";
@@ -20,15 +20,15 @@ function getMemoriaName(id) {
 
 function addMemoriaList(memoriaArray) {
     // flexboxを生成
-    var flexbox = document.createElement('div');
+    let flexbox = document.createElement('div');
     flexbox.className = "flex_test-box content";
     
     // flexbox本体を作成
-    for (var i = 0; i < memoriaArray.length; i++) {
+    for (let i = 0; i < memoriaArray.length; i++) {
         id = memoriaArray[i];
 
         // flexitemを生成
-        var flexitem = document.createElement('div');
+        let flexitem = document.createElement('div');
         flexitem.className = "flex_test-item";
         flexitem.innerHTML = `<img src="../../images/memoria/memoria_${id}.png" loading="lazy"><br>${getMemoriaName(id)}`;
 
@@ -40,21 +40,21 @@ function addMemoriaList(memoriaArray) {
 }
 
 function getCharaName(charaID) {
-    for (var i = 0; i < charaJson.length; i++) {
+    for (let i = 0; i < charaJson.length; i++) {
         if (charaJson[i]['charaID'] == charaID) return charaJson[i]['charaName'];
     }
     return "";
 }
 
 function getCostumeChara(id) {
-    for (var i = 0; i < costumeJson.length; i++) {
+    for (let i = 0; i < costumeJson.length; i++) {
         if (costumeJson[i]['id'] == id) return getCharaName(costumeJson[i]['chara']);
     }
     return "";
 }
 
 function getCostumeName(id) {
-    for (var i = 0; i < costumeJson.length; i++) {
+    for (let i = 0; i < costumeJson.length; i++) {
         if (costumeJson[i]['id'] == id) return costumeJson[i]['name'];
     }
     return "";
@@ -62,15 +62,15 @@ function getCostumeName(id) {
 
 function addCostumeList(costumeArray) {
     // flexboxを生成
-    var flexbox = document.createElement('div');
+    let flexbox = document.createElement('div');
     flexbox.className = "flex_test-box content";
     
     // flexbox本体を作成
-    for (var i = 0; i < costumeArray.length; i++) {
+    for (let i = 0; i < costumeArray.length; i++) {
         id = costumeArray[i];
 
         // flexitemを生成
-        var flexitem = document.createElement('div');
+        let flexitem = document.createElement('div');
         flexitem.className = "flex_test-item";
         flexitem.innerHTML = `<img src="../../images/costume/costume_${id}.png" loading="lazy"><br>${getCostumeChara(id)} / ${getCostumeName(id)}`;
 
@@ -82,14 +82,14 @@ function addCostumeList(costumeArray) {
 }
 
 function getItemName(id) {
-    for (var i = 0; i < itemJson.length; i++) {
+    for (let i = 0; i < itemJson.length; i++) {
         if (itemJson[i]['index'] == id) return itemJson[i]['name'];
     }
     return "";
 }
 
 function getItemLink(id) {
-    for (var i = 0; i < itemJson.length; i++) {
+    for (let i = 0; i < itemJson.length; i++) {
         if (itemJson[i]['index'] == id) return itemJson[i]['link'];
     }
     return "";
@@ -97,18 +97,18 @@ function getItemLink(id) {
 
 function addItemList(itemArray) {
     // flexboxを生成
-    var flexbox = document.createElement('div');
+    let flexbox = document.createElement('div');
     flexbox.className = "flex_test-box content";
     
     // flexbox本体を作成
-    for (var i = 0; i < itemArray.length; i++) {
+    for (let i = 0; i < itemArray.length; i++) {
         id = itemArray[i];
 
         // flexitemを生成
-        var flexitem = document.createElement('div');
+        let flexitem = document.createElement('div');
         flexitem.className = "flex_test-item";
-        var content = `<img src="../../images/item/${id}.png" loading="lazy"><br>${getItemName(id)}`;
-        var link = getItemLink(id);
+        let content = `<img src="../../images/item/${id}.png" loading="lazy"><br>${getItemName(id)}`;
+        let link = getItemLink(id);
         if (link != "") content = `<a href="../../gacha_info/${link}">${content}</a>`;
         flexitem.innerHTML = content;
 
@@ -120,8 +120,8 @@ function addItemList(itemArray) {
 }
 
 function getTicketLineup(ticketName) {
-    var lineup = []
-    for (var i = 0; i < eventGachaTicketJson.length; i++) {
+    let lineup = []
+    for (let i = 0; i < eventGachaTicketJson.length; i++) {
         if (eventGachaTicketJson[i]['name'] == ticketName) {
             lineup = eventGachaTicketJson[i]['lineup'];
             break;
@@ -131,19 +131,19 @@ function getTicketLineup(ticketName) {
 }
 
 function addGetWay() {
-    var caption = "<h2>入手方法</h2>";
+    let caption = "<h2>入手方法</h2>";
     document.getElementById('getWay').insertAdjacentHTML('beforeend', caption);
-    for (var i = 0; i < thisMedal['get'].length; i++) {
-        var str = `・${thisMedal['get'][i]}<br>`;
+    for (let i = 0; i < thisMedal['get'].length; i++) {
+        let str = `・${thisMedal['get'][i]}<br>`;
         document.getElementById('getWay').insertAdjacentHTML('beforeend', str);
     }
-    var hr = "<hr>";
+    let hr = "<hr>";
     document.getElementById('getWay').insertAdjacentHTML('beforeend', hr);
 }
 
 function addNotices() {
-    var topics = "";
-    for (var i = 0; i < thisMedal['notice'].length; i++) {
+    let topics = "";
+    for (let i = 0; i < thisMedal['notice'].length; i++) {
         if (i == 0) topics += `<br>`;
         topics += `${thisMedal['notice'][i]}<br>`;
     }
@@ -151,53 +151,53 @@ function addNotices() {
 }
 
 function addLineup() {
-    var caption = "<h2>交換ラインナップ</h2><br>";
+    let caption = "<h2>交換ラインナップ</h2><br>";
     document.getElementById('lineup').insertAdjacentHTML('beforeend', caption);
     
     addNotices();
 
-    for (var i = 0; i < thisMedal['lineup']['memoria'].length; i++) {
-        var category = thisMedal['lineup']['memoria'][i];
+    for (let i = 0; i < thisMedal['lineup']['memoria'].length; i++) {
+        let category = thisMedal['lineup']['memoria'][i];
 
-        var caption = `<h3 class="category"><span>▶</span> ${category['caption']} : 必要 ${category['ratio']}</h3>`;
+        let caption = `<h3 class="category"><span>▶</span> ${category['caption']} : 必要 ${category['ratio']}</h3>`;
         document.getElementById('lineup').insertAdjacentHTML('beforeend', caption);
 
-        var memoria = addMemoriaList(category['content']);
+        let memoria = addMemoriaList(category['content']);
         document.getElementById('lineup').appendChild(memoria);
     }
     
-    for (var i = 0; i < thisMedal['lineup']['costume'].length; i++) {
-        var category = thisMedal['lineup']['costume'][i];
+    for (let i = 0; i < thisMedal['lineup']['costume'].length; i++) {
+        let category = thisMedal['lineup']['costume'][i];
 
-        var caption = `<h3 class="category"><span>▶</span> ${category['caption']} : 必要 ${category['ratio']}</h3>`;
+        let caption = `<h3 class="category"><span>▶</span> ${category['caption']} : 必要 ${category['ratio']}</h3>`;
         document.getElementById('lineup').insertAdjacentHTML('beforeend', caption);
 
-        var costume = addCostumeList(category['content']);
+        let costume = addCostumeList(category['content']);
         document.getElementById('lineup').appendChild(costume);
     }
     
-    for (var i = 0; i < thisMedal['lineup']['item'].length; i++) {
-        var category = thisMedal['lineup']['item'][i];
+    for (let i = 0; i < thisMedal['lineup']['item'].length; i++) {
+        let category = thisMedal['lineup']['item'][i];
 
-        var caption = `<h3 class="category"><span>▶</span> ${category['caption']} : 必要 ${category['ratio']}</h3>`;
+        let caption = `<h3 class="category"><span>▶</span> ${category['caption']} : 必要 ${category['ratio']}</h3>`;
         document.getElementById('lineup').insertAdjacentHTML('beforeend', caption);
 
-        var item = addItemList(category['content']);
+        let item = addItemList(category['content']);
         document.getElementById('lineup').appendChild(item);
     }
     
-    for (var i = 0; i < thisMedal['lineup']['event-ticket'].length; i++) {
-        var category = thisMedal['lineup']['event-ticket'][i];
+    for (let i = 0; i < thisMedal['lineup']['event-ticket'].length; i++) {
+        let category = thisMedal['lineup']['event-ticket'][i];
 
-        var caption = `<h3 class="category"><span>▶</span> ${category['caption']} : 必要 ${category['ratio']}</h3>`;
+        let caption = `<h3 class="category"><span>▶</span> ${category['caption']} : 必要 ${category['ratio']}</h3>`;
         document.getElementById('lineup').insertAdjacentHTML('beforeend', caption);
 
-        var content = document.createElement('div');
+        let content = document.createElement('div');
         content.className = "content";
 
-        for (var j = 0; j < category['content'].length; j++) {
-            var ticketName = `<h3>▼ ${category['content'][j]}</h3>`;
-            var ticketLineup = getTicketLineup(category['content'][j]);
+        for (let j = 0; j < category['content'].length; j++) {
+            let ticketName = `<h3>▼ ${category['content'][j]}</h3>`;
+            let ticketLineup = getTicketLineup(category['content'][j]);
             content.insertAdjacentHTML('beforeend', ticketName);
             content.appendChild(addMemoriaList(ticketLineup));
         }

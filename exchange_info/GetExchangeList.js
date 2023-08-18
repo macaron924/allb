@@ -1,10 +1,10 @@
 $(".category").click(function () {//タイトル要素をクリックしたら
-	var findElm = $(this).next(".content");//直後のアコーディオンを行うエリアを取得し
+	let findElm = $(this).next(".content");//直後のアコーディオンを行うエリアを取得し
 	$(findElm).toggleClass('close');// closeクラスを付与
 	$(this).toggleClass('close');// 自身にもcloseクラスを付与
 });
 
-for (var i = 0; i < exchangeDataJson.length; i++) {
+for (let i = 0; i < exchangeDataJson.length; i++) {
     content = `
     <div class="flex_medal-item">
         <table>

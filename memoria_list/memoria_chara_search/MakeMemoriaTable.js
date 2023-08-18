@@ -1,5 +1,5 @@
 $(".category").click(function () {//タイトル要素をクリックしたら
-	var findElm = $(this).next(".flex_chara-btn-box");//直後のアコーディオンを行うエリアを取得し
+	let findElm = $(this).next(".flex_chara-btn-box");//直後のアコーディオンを行うエリアを取得し
 	$(findElm).toggleClass('close');// closeクラスを付与
 	$(this).toggleClass('close');// 自身にもcloseクラスを付与
 });
@@ -20,7 +20,7 @@ $("#mode-check").click(function () { // モード選択ボタンがクリック�
 
 // キャラ選択ボタンが押された時
 function charaButtonPushAction(charaId) { 
-    var i = existInSelection(charaId); // 押したものがあるかどうか、あれば位置を返す
+    let i = existInSelection(charaId); // 押したものがあるかどうか、あれば位置を返す
     if (i >= 0) { // あった
         selectionArray.splice(i, 1); // それを削除
     } else { // 無かった(-1だった)
@@ -31,7 +31,7 @@ function charaButtonPushAction(charaId) {
 
 // 指定したキャラが既に選択されてるかどうか
 function existInSelection(charaId) {
-    for (var i = 0; i < selectionArray.length; i++) {
+    for (let i = 0; i < selectionArray.length; i++) {
         if (charaId == selectionArray[i]) return i; // あればその位置を返す
     }
     return -1; // 無ければ-1を返す
@@ -50,9 +50,9 @@ function searchFromArray(memoriaCharaArray) {
     }
 
     // 各メモリアに対し，指定キャラが見つからないときfalse
-    for (var j = 0; j < selectionArray.length; j++) {
-        var flag = false
-        for (var i = 0; i < memoriaCharaArray.length; i++) {
+    for (let j = 0; j < selectionArray.length; j++) {
+        let flag = false
+        for (let i = 0; i < memoriaCharaArray.length; i++) {
             if (selectionArray[j] == memoriaCharaArray[i]) {
                 flag = true;
                 break;
@@ -67,13 +67,13 @@ function searchFromArray(memoriaCharaArray) {
 function getCharaImg(memoriaCharaArray) {
 
     // td要素を生成
-    var tdChara = document.createElement('td');
+    let tdChara = document.createElement('td');
 
     // キャラサムネ追加
-    for (var i = 0; i < memoriaCharaArray.length; i++) {
+    for (let i = 0; i < memoriaCharaArray.length; i++) {
 
         // サムネ画像要素の追加
-        var img = document.createElement('img');
+        let img = document.createElement('img');
         img.src = "../../images/chara/chara_" + memoriaCharaArray[i] + ".png"
         img.height = 80;
         img.loading = "lazy";
@@ -89,9 +89,9 @@ function getCharaImg(memoriaCharaArray) {
 function filter() {
 
     // 検索結果件数を保存する変数
-    var resultCount = 0;
+    let resultCount = 0;
 
-    for (var i = 0; i < memoriaJsonCopy.length; i++) {
+    for (let i = 0; i < memoriaJsonCopy.length; i++) {
 
         // メモリアキャラ取得
         const memoriaCharaArray = memoriaJsonCopy[i]['chara'];
@@ -117,14 +117,14 @@ function filter() {
 function makeTable() {
     
     // table要素を生成
-    var table = document.createElement('table');
+    let table = document.createElement('table');
     
     // ヘッダーを作成
-    var tr = document.createElement('tr');
+    let tr = document.createElement('tr');
     // td要素を生成
-    var thId = document.createElement('th');
-    var thName = document.createElement('th');
-    var thChara = document.createElement('th');
+    let thId = document.createElement('th');
+    let thName = document.createElement('th');
+    let thChara = document.createElement('th');
     // th要素内にテキストを追加
     thId.textContent = "サムネイル";
     thName.textContent = "メモリア名";
@@ -137,10 +137,10 @@ function makeTable() {
     table.appendChild(tr);
     
     // 検索結果件数を保存する変数
-    var resultCount = 0;
+    let resultCount = 0;
     
     // テーブル本体を作成
-    for (var i = 0; i < memoriaJsonCopy.length; i++) {
+    for (let i = 0; i < memoriaJsonCopy.length; i++) {
         
         // メモリアキャラ取得
         memoriaCharaArray = memoriaJsonCopy[i]['chara'];
@@ -149,13 +149,13 @@ function makeTable() {
         resultCount++;
         
         // tr要素を生成
-        var tr = document.createElement('tr');
+        let tr = document.createElement('tr');
         // td要素を生成
-        var tdId = document.createElement('td');
-        var tdName = document.createElement('td');
-        var tdChara = document.createElement('td');
+        let tdId = document.createElement('td');
+        let tdName = document.createElement('td');
+        let tdChara = document.createElement('td');
         // サムネ画像要素の追加
-        var img = document.createElement('img');
+        let img = document.createElement('img');
         img.src = "../../images/memoria/memoria_" + memoriaJsonCopy[i]['id'] + ".png"
         img.height = 80;
         img.loading = "lazy";
@@ -180,10 +180,10 @@ function makeTable() {
 }
 
 // 初期化
-var memoriaJsonCopy = JSON.parse(JSON.stringify(memoriaJson));
-for (var i = 0; i < memoriaJsonCopy.length; i++) {
+let memoriaJsonCopy = JSON.parse(JSON.stringify(memoriaJson));
+for (let i = 0; i < memoriaJsonCopy.length; i++) {
     memoriaJsonCopy[i]["tr"] = "";
 }
 makeTable();
-var selectionArray = [];
-var onlymode = false
+let selectionArray = [];
+let onlymode = false

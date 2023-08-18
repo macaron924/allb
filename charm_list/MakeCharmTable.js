@@ -1,13 +1,13 @@
 function makeTable() {
 
     // table要素を生成
-    var table = document.createElement('table');
+    let table = document.createElement('table');
     
     // ヘッダーを作成
-    var tr = document.createElement('tr');
+    let tr = document.createElement('tr');
     for (key in jsonCopy[0]) {
         // th要素を生成
-        var th = document.createElement('th');
+        let th = document.createElement('th');
         // th要素内にテキストを追加
         th.textContent = key;
         // th要素をtr要素の子要素に追加
@@ -17,13 +17,13 @@ function makeTable() {
     table.appendChild(tr);
     
     // テーブル本体を作成
-    for (var i = 0; i < jsonCopy.length; i++) {
+    for (let i = 0; i < jsonCopy.length; i++) {
         // tr要素を生成
-        var tr = document.createElement('tr');
+        let tr = document.createElement('tr');
         // th・td部分のループ
         for (key in jsonCopy[0]) {
             // td要素を生成
-            var td = document.createElement('td');
+            let td = document.createElement('td');
             // ステータスの項目ならstatusクラス(右寄せ)
             if (key == 'ATK' || key == 'Sp.ATK' 
             || key == 'DEF' || key == 'Sp.DEF' || 
@@ -61,19 +61,19 @@ function sort(mode) {
     } else if (mode.includes('実装日')) {
 
         function compare(a, b) {
-            var r = 0;
+            let r = 0;
 
-            var date_aray_a = a['実装日'].split('/');
-            var year_a = parseInt(date_aray_a[0]);
-            var month_a = parseInt(date_aray_a[1]);
-            var day_a = parseInt(date_aray_a[2]);
+            let date_aray_a = a['実装日'].split('/');
+            let year_a = parseInt(date_aray_a[0]);
+            let month_a = parseInt(date_aray_a[1]);
+            let day_a = parseInt(date_aray_a[2]);
 
-            var date_aray_b = b['実装日'].split('/');
-            var year_b = parseInt(date_aray_b[0]);
-            var month_b = parseInt(date_aray_b[1]);
-            var day_b = parseInt(date_aray_b[2]);
+            let date_aray_b = b['実装日'].split('/');
+            let year_b = parseInt(date_aray_b[0]);
+            let month_b = parseInt(date_aray_b[1]);
+            let day_b = parseInt(date_aray_b[2]);
 
-            var reverse = 1;
+            let reverse = 1;
             if (mode.includes('r')) { reverse = -1 }
 
             if( year_a < year_b ){ r = 1; }
@@ -98,7 +98,7 @@ function sort(mode) {
     } else {
 
         function compare(a, b) {
-            var r = 0;
+            let r = 0;
             if( a[mode] < b[mode] ){ r = 1; }
             else if( a[mode] > b[mode] ){ r = -1; }
         
@@ -113,17 +113,17 @@ function sort(mode) {
 }
 
 function renewNowSort(mode) {
-    var str = "";
+    let str = "";
     if (mode == "reset") {
         sortModeArray= [];
     } else {
-        var indexSearchResult = existInArray(mode);
+        let indexSearchResult = existInArray(mode);
         if (existInArray(mode) >= 0) {
             sortModeArray.splice(indexSearchResult, 1)
         }
         sortModeArray.push(mode);
-        var max = sortModeArray.length;
-        for (var i = max - 1; i >= 0; i--) {
+        let max = sortModeArray.length;
+        for (let i = max - 1; i >= 0; i--) {
             if (i == max - 1) {
                 str += sortModeArray[i];
             } else {
@@ -136,13 +136,13 @@ function renewNowSort(mode) {
 }
 
 function existInArray(mode) {
-    for (var i = 0; i < sortModeArray.length; i++) {
+    for (let i = 0; i < sortModeArray.length; i++) {
         if (mode == sortModeArray[i]) return i;
     }
     return -1;
 }
 
 // 初期化
-var jsonCopy = JSON.parse(JSON.stringify(charmJson));
+let jsonCopy = JSON.parse(JSON.stringify(charmJson));
 makeTable();
-var sortModeArray = [];
+let sortModeArray = [];

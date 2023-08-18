@@ -1,32 +1,32 @@
 function getGachaData(gachaSelection) {
-    for (var i = 0; i < gachaTicketJson.length; i++) {
+    for (let i = 0; i < gachaTicketJson.length; i++) {
         if (gachaTicketJson[i]['index'] == gachaSelection) return gachaTicketJson[i];
     }
     return "";
 }
 
 function getWholeInfo() {
-    var totalRatio = thisGacha['lineup']['total-ratio'];
-    var volume = 0;
-    for (var i = 0; i < thisGacha['lineup']['else'].length; i++) {
+    let totalRatio = thisGacha['lineup']['total-ratio'];
+    let volume = 0;
+    for (let i = 0; i < thisGacha['lineup']['else'].length; i++) {
         volume += thisGacha['lineup']['else'][i]['content'].length;
     }
-    var individualRatio = totalRatio / volume;
-    var individualRatioString = (Math.floor(individualRatio * 1000) / 1000).toFixed(3);
+    let individualRatio = totalRatio / volume;
+    let individualRatioString = (Math.floor(individualRatio * 1000) / 1000).toFixed(3);
 
     return `排出メモリア ★5出現率${totalRatio}% 全${volume}種 各${individualRatioString}%`;
 }
 
 function addTopics(topicArray) {
-    var topics = "";
-    for (var i = 0; i < topicArray.length; i++) {
+    let topics = "";
+    for (let i = 0; i < topicArray.length; i++) {
         topics += `<br>${topicArray[i]}<br>`;
     }
     return topics;
 }
 
 function getMemoriaName(id) {
-    for (var i = 0; i < memoriaJson.length; i++) {
+    for (let i = 0; i < memoriaJson.length; i++) {
         if (memoriaJson[i]['id'] == id) return memoriaJson[i]['name'];
     }
     return "";
@@ -34,15 +34,15 @@ function getMemoriaName(id) {
 
 function addMemoriaList(memoriaArray) {
     // flexboxを生成
-    var flexbox = document.createElement('div');
+    let flexbox = document.createElement('div');
     flexbox.className = "flex_test-box";
     
     // テーブル本体を作成
-    for (var i = 0; i < memoriaArray.length; i++) {
+    for (let i = 0; i < memoriaArray.length; i++) {
         id = memoriaArray[i];
 
         // flexitemを生成
-        var flexitem = document.createElement('div');
+        let flexitem = document.createElement('div');
         flexitem.className = "flex_test-item";
         flexitem.innerHTML = `<img src="../../images/memoria/memoria_${id}.png" loading="lazy"><br>${getMemoriaName(id)}`;
 
@@ -54,10 +54,10 @@ function addMemoriaList(memoriaArray) {
 }
 
 function addLineup() {
-    var topics = addTopics(thisGacha['lineup']['topic']);
+    let topics = addTopics(thisGacha['lineup']['topic']);
     document.getElementById('lineup').insertAdjacentHTML('beforeend', topics);
-    for (var i = 0; i < thisGacha['lineup']['else'].length; i++) {
-        var caption = `<br><h3>${thisGacha['lineup']['else'][i]['date']} ${thisGacha['lineup']['else'][i]['caption']} :</h3>`;
+    for (let i = 0; i < thisGacha['lineup']['else'].length; i++) {
+        let caption = `<br><h3>${thisGacha['lineup']['else'][i]['date']} ${thisGacha['lineup']['else'][i]['caption']} :</h3>`;
         document.getElementById('lineup').insertAdjacentHTML('beforeend', caption);
         document.getElementById('lineup').appendChild(addMemoriaList(thisGacha['lineup']['else'][i]['content']));
     }
