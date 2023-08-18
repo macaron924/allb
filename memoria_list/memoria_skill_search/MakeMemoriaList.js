@@ -57,14 +57,14 @@ function stringToNumber(str) {
 }
 
 function existInYakuwariArray(yakuwari) {
-    for (var i = 0; i < yakuwariArray.length; i++) {
+    for (let i = 0; i < yakuwariArray.length; i++) {
         if (yakuwari == yakuwariArray[i]) return i;
     }
     return -1;
 }
 
 function yakuwariButtonPushAction(yakuwari) {
-    var i = existInYakuwariArray(yakuwari);
+    let i = existInYakuwariArray(yakuwari);
     if (i >= 0) {
         yakuwariArray.splice(i, 1);
     } else {
@@ -73,14 +73,14 @@ function yakuwariButtonPushAction(yakuwari) {
 }
 
 function existInRangeArray(range) {
-    for (var i = 0; i < rangeArray.length; i++) {
+    for (let i = 0; i < rangeArray.length; i++) {
         if (range == rangeArray[i]) return i;
     }
     return -1;
 }
 
 function rangeButtonPushAction(range) {
-    var i = existInRangeArray(range);
+    let i = existInRangeArray(range);
     if (i >= 0) {
         rangeArray.splice(i, 1);
     } else {
@@ -90,7 +90,7 @@ function rangeButtonPushAction(range) {
 
 function yakuwariFilter(yakuwari) {
     if (yakuwariArray.length == 0) return true;
-    for (var i = 0; i < yakuwariArray.length; i++) {
+    for (let i = 0; i < yakuwariArray.length; i++) {
         if (yakuwari == yakuwariArray[i]) return true;
     }
     return false;
@@ -98,7 +98,7 @@ function yakuwariFilter(yakuwari) {
 
 function rangeFilter(skillName) {
     if (rangeArray.length == 0) return true;
-    for (var i = 0; i < rangeArray.length; i++) {
+    for (let i = 0; i < rangeArray.length; i++) {
         if (skillName.includes(rangeArray[i])) return true;
     }
     return false;
@@ -106,8 +106,8 @@ function rangeFilter(skillName) {
 
 function damageFilter(skillInfo) {
     if (stringToNumber(damageSelection) == 0) return true;
-    var tag = skillInfo['tag'];
-    for (var i = 0; i < tag.length; i++) {
+    let tag = skillInfo['tag'];
+    for (let i = 0; i < tag.length; i++) {
         if (tag[i]['fx'].includes('ダメージ')) {
             if (stringToNumber(tag[i]['val']) >= damageSelection) return true;
             else return false;
@@ -118,8 +118,8 @@ function damageFilter(skillInfo) {
 
 function healFilter(skillInfo) {
     if (stringToNumber(healSelection) == 0) return true;
-    var tag = skillInfo['tag'];
-    for (var i = 0; i < tag.length; i++) {
+    let tag = skillInfo['tag'];
+    for (let i = 0; i < tag.length; i++) {
         if (tag[i]['fx'].includes('回復')) {
             if (stringToNumber(tag[i]['val']) >= healSelection) return true;
             else return false;
@@ -129,10 +129,10 @@ function healFilter(skillInfo) {
 }
 
 function effectFilter(skillInfo) {
-    var tag = skillInfo['tag'];
-    var trueCount = 0;
-    for (var j = 0; j < effectSelectionArray.length; j++) {
-        for (var i = 0; i < tag.length; i++) {
+    let tag = skillInfo['tag'];
+    let trueCount = 0;
+    for (let j = 0; j < effectSelectionArray.length; j++) {
+        for (let i = 0; i < tag.length; i++) {
             if ((effectSelectionArray[j][0] == "") && (stringToNumber(tag[i]['val']) >= effectSelectionArray[j][1])) {
                 trueCount++;
                 break;
@@ -148,8 +148,8 @@ function effectFilter(skillInfo) {
 
 function effectUpFilter(skillInfo) {
     if (effectUpSelection == "") return true;
-    var tag = skillInfo['tag'];
-    for (var i = 0; i < tag.length; i++) {
+    let tag = skillInfo['tag'];
+    for (let i = 0; i < tag.length; i++) {
         if (tag[i]['fx'] == effectUpSelection) {
             return true;
         }
@@ -159,14 +159,14 @@ function effectUpFilter(skillInfo) {
 
 // 各補助スキルの効果が条件に合うかどうかを判定する関数
 function hojoEffectFilter(hojoInfo) {
-    var tag = hojoInfo['tag'];
-    for (var j = 0; j < hojoSelectionArray.length; j++) {
-        var flag = false;
+    let tag = hojoInfo['tag'];
+    for (let j = 0; j < hojoSelectionArray.length; j++) {
+        let flag = false;
         if (hojoSelectionArray[j][0] == "" && hojoSelectionArray[j][1] == 0) { // 種別・効果量未指定のとき
             flag = true;
             break;
         }
-        for (var i = 0; i < tag.length; i++) {
+        for (let i = 0; i < tag.length; i++) {
             if ((hojoSelectionArray[j][0] == "") && (stringToNumber(tag[i][2]) >= hojoSelectionArray[j][1])) { // 種別未指定かつ効果量が指定以上
                 flag = true;
                 break;
@@ -183,11 +183,10 @@ function hojoEffectFilter(hojoInfo) {
 
 // 各補助スキルが条件に合うかどうかを判定し保持
 function hojoFilter() {
-    var hojoJsons = [hojoJsonCopy_attack, hojoJsonCopy_support, hojoJsonCopy_heal, hojoJsonCopy_command];
-    for (var i = 0; i < hojoJsons.length; i++) {
-        var hojoJson = hojoJsons[i];
-        for (var j = 0; j < hojoJson.length; j++) {
-            var hojoInfo = getHojoSkillInfoFromName(hojoJson[j]['name']);
+    for (let i = 0; i < hojoJsonCopy.length; i++) {
+        let hojoJson = hojoJsonCopy[i];
+        for (let j = 0; j < hojoJson.length; j++) {
+            let hojoInfo = getHojoSkillInfoFromName(hojoJson[j]['name']);
             if (hojoEffectFilter(hojoInfo) == false) { // 補助スキル効果のフィルター
                 hojoJson[j]['filter'] = false;
             } else {
@@ -199,49 +198,24 @@ function hojoFilter() {
 
 // 役割をもとに探索する対象を限定するための関数
 function getSkillsFromYakuwari(yakuwari) {
-    var skillJson;
-    switch (yakuwari) {
-        case 1:
-            skillJson = skillJsonCopy_1;
-            break;
-        case 2:
-            skillJson = skillJsonCopy_2;
-            break;
-        case 3:
-            skillJson = skillJsonCopy_3;
-            break;
-        case 4:
-            skillJson = skillJsonCopy_4;
-            break;
-        case 5:
-            skillJson = skillJsonCopy_5;
-            break;
-        case 6:
-            skillJson = skillJsonCopy_6;
-            break;
-        case 7:
-            skillJson = skillJsonCopy_7;
-            break;
-        default:
-            skillJson = "";
-    }
+    let skillJson = skillJsonCopy[yakuwari - 1];
     return skillJson;
 }
 
 // 選択してる役割のスキルのみ、各スキルが条件に合うかどうかを判定し保持
 function skillFilter() {
-    var yakuwariArray_copy;
+    let yakuwariArray_copy;
     if (yakuwariArray.length == 0) {
         yakuwariArray_copy = [1, 2, 3, 4, 5, 6, 7];
     } else {
         yakuwariArray_copy = yakuwariArray;
     }
-    for (var i = 0; i < yakuwariArray_copy.length; i++) {
-        var skillJson = getSkillsFromYakuwari(yakuwariArray_copy[i]); // 役割をもとに探索する対象を限定する
+    for (let i = 0; i < yakuwariArray_copy.length; i++) {
+        let skillJson = getSkillsFromYakuwari(yakuwariArray_copy[i]); // 役割をもとに探索する対象を限定する
         if (skillJson == "") break;
 
-        for (var j = 0; j < skillJson.length; j++) {
-            var skillInfo = getSkillInfoFromName(yakuwariArray_copy[i], skillJson[j]['name']);
+        for (let j = 0; j < skillJson.length; j++) {
+            let skillInfo = getSkillInfoFromName(yakuwariArray_copy[i], skillJson[j]['name']);
             if (damageFilter(skillInfo) == false) { // ダメージ種別と大きさのフィルター
                 skillJson[j]['filter'] = false;
                 continue;
@@ -262,31 +236,6 @@ function skillFilter() {
         }
     }
 }
-/*
-// 個別の条件をまとめて真偽を返す関数
-function allFilter(yakuwari, skillArray) {
-
-    // まず役割でフィルター
-    if (yakuwariFilter(yakuwari) == false) return false;
-
-    // 次にスキル効果範囲
-    var skillName = skillArray[modeSelection];
-    if (rangeFilter(skillName) == false) return false;
-
-    // スキル効果内容
-    var skillInfo = getSkillInfoFromName(yakuwari, skillName); // スキル情報取得
-    if (skillInfo['filter'] == false) return false; // スキル側のfilter参照して偽なら偽
-    
-    // レギマモードのとき補助スキルも
-    if (modeSelection == 1) {
-        var hojoName = skillArray[2];
-        var hojoInfo = getHojoSkillInfoFromName(hojoName); // 補助スキル情報取得
-        if (hojoInfo['filter'] == false) return false; // 補助スキル側のfilter参照して偽なら偽
-    }
-
-    // 全ての条件をクリアした場合のみ真
-    return true;
-}*/
 
 // 個別の条件をまとめて真偽を返す関数
 function allFilter(yakuwari, skillArray, skillRefArray) {
@@ -295,16 +244,16 @@ function allFilter(yakuwari, skillArray, skillRefArray) {
     if (yakuwariFilter(yakuwari) == false) return false;
 
     // 次にスキル効果範囲
-    var skillName = skillArray[modeSelection];
+    let skillName = skillArray[modeSelection];
     if (rangeFilter(skillName) == false) return false;
 
     // スキル効果内容
-    var skillInfo = skillRefArray[modeSelection]; // スキル情報取得
+    let skillInfo = skillRefArray[modeSelection]; // スキル情報取得
     if (skillInfo['filter'] == false) return false; // スキル側のfilter参照して偽なら偽
     
     // レギマモードのとき補助スキルも
     if (modeSelection == 1) {
-        var hojoInfo = skillRefArray[2]; // 補助スキル情報取得
+        let hojoInfo = skillRefArray[2]; // 補助スキル情報取得
         if (hojoInfo['filter'] == false) return false; // 補助スキル側のfilter参照して偽なら偽
     }
 
@@ -314,9 +263,9 @@ function allFilter(yakuwari, skillArray, skillRefArray) {
 
 // 役割とスキル名をもとに情報を取得
 function getSkillInfoFromName(yakuwari, skillName) {
-    var skillJson = getSkillsFromYakuwari(yakuwari); // 役割をもとに探索する対象を限定する
+    let skillJson = getSkillsFromYakuwari(yakuwari); // 役割をもとに探索する対象を限定する
     if (skillJson == "") return "";
-    for (var i = 0; i < skillJson.length; i++) { // 名前が一致するスキルを探す
+    for (let i = 0; i < skillJson.length; i++) { // 名前が一致するスキルを探す
         if (skillName == skillJson[i]['name']) return skillJson[i]; // 名前が一致したらそれを返す
     }
     return "";
@@ -324,25 +273,25 @@ function getSkillInfoFromName(yakuwari, skillName) {
 
 // 頭文字と補助スキル名をもとに情報を取得
 function getHojoSkillInfoFromName(skillName) {
-    var hojoJson;
-    var hojoPrefix = skillName[0]
+    let hojoJson;
+    let hojoPrefix = skillName[0]
     switch (hojoPrefix) { // 頭文字をもとに探索する対象を限定する
         case "攻":
-            hojoJson = hojoJsonCopy_attack;
+            hojoJson = hojoJsonCopy[0];
             break;
         case "援":
-            hojoJson = hojoJsonCopy_support;
+            hojoJson = hojoJsonCopy[1];
             break;
         case "回":
-            hojoJson = hojoJsonCopy_heal;
+            hojoJson = hojoJsonCopy[2];
             break;
         case "コ":
-            hojoJson = hojoJsonCopy_command;
+            hojoJson = hojoJsonCopy[3];
             break;
         default:
             hojoJson = "";
     }
-    for (var i = 0; i < hojoJson.length; i++) { // 名前が一致するスキルを探す
+    for (let i = 0; i < hojoJson.length; i++) { // 名前が一致するスキルを探す
         if (skillName == hojoJson[i]['name']) return hojoJson[i]; // 名前が一致したらそれを返す
     }
     return "";
@@ -350,8 +299,8 @@ function getHojoSkillInfoFromName(skillName) {
 
 // タグから文字列に(スキル)
 function skillTagToString(tag) {
-    var str = "";
-    for (var i = 0; i < tag.length; i++) {
+    let str = "";
+    for (let i = 0; i < tag.length; i++) {
         if (i != 0) str += "<br>";
         str += tag[i]['fx'];
         str += "・";
@@ -368,10 +317,10 @@ function createSkillDetailFromName(tag) {
 
 // タグから文字列に(補助)
 function hojoTagToString(tag) {
-    var str = "";
-    for (var i = 0; i < tag.length; i++) {
+    let str = "";
+    for (let i = 0; i < tag.length; i++) {
         if (i != 0) str += "<br>";
-        for (var j = 0; j < tag[i].length; j++) {
+        for (let j = 0; j < tag[i].length; j++) {
             if (j != 0) str += "・";
             str += tag[i][j];
         }
@@ -404,14 +353,14 @@ function filter() {
     }
 
     // 検索結果件数を保存する変数
-    var resultCount = 0;
+    let resultCount = 0;
 
-    for (var i = 0; i < memoriaJsonCopy.length; i++) {
-        for (var j = 0; j < memoriaJsonCopy[i]['skill'].length; j++) {
+    for (let i = 0; i < memoriaJsonCopy.length; i++) {
+        for (let j = 0; j < memoriaJsonCopy[i]['skill'].length; j++) {
 
-            var yakuwari = memoriaJsonCopy[i]['yakuwari'][j];
-            var skill = memoriaJsonCopy[i]['skill'][j];
-            var skillRef = memoriaJsonCopy[i]['skillRef'][j];
+            let yakuwari = memoriaJsonCopy[i]['yakuwari'][j];
+            let skill = memoriaJsonCopy[i]['skill'][j];
+            let skillRef = memoriaJsonCopy[i]['skillRef'][j];
     
             // 対応tr参照
             const tr = memoriaJsonCopy[i]["tr"][j]
@@ -436,19 +385,19 @@ function filter() {
 function makeTable() {
 
     // table要素を生成
-    var table = document.createElement('table');
+    let table = document.createElement('table');
     
     // ヘッダーを作成
-    var tr = document.createElement('tr');
+    let tr = document.createElement('tr');
     // td要素を生成
-    var thId = document.createElement('th');
-    var thName = document.createElement('th');
-    var thVshugeName = document.createElement('th');
-    var thVshugeDetail = document.createElement('th');
-    var thLmName = document.createElement('th');
-    var thLmDetail = document.createElement('th');
-    var thHojoName = document.createElement('th');
-    var thHojoDetail = document.createElement('th');
+    let thId = document.createElement('th');
+    let thName = document.createElement('th');
+    let thVshugeName = document.createElement('th');
+    let thVshugeDetail = document.createElement('th');
+    let thLmName = document.createElement('th');
+    let thLmDetail = document.createElement('th');
+    let thHojoName = document.createElement('th');
+    let thHojoDetail = document.createElement('th');
     // 各スキル列のclass
     thVshugeName.className = "vshugeRow";
     thVshugeDetail.className = "vshugeRow";
@@ -478,29 +427,29 @@ function makeTable() {
     table.appendChild(tr);
 
     // 検索結果件数を保存する変数
-    var resultCount = 0;
+    let resultCount = 0;
     
     // テーブル本体を作成
-    for (var i = (memoriaJsonCopy.length - 1); i >= 0; i--) {
-        for (var j = 0; j < memoriaJsonCopy[i]['skill'].length; j++) {
+    for (let i = (memoriaJsonCopy.length - 1); i >= 0; i--) {
+        for (let j = 0; j < memoriaJsonCopy[i]['skill'].length; j++) {
 
-            var yakuwari = memoriaJsonCopy[i]['yakuwari'][j];
-            var skill = memoriaJsonCopy[i]['skill'][j];
+            let yakuwari = memoriaJsonCopy[i]['yakuwari'][j];
+            let skill = memoriaJsonCopy[i]['skill'][j];
 
             // 検索結果件数カウント
             resultCount++;
 
             // tr要素を生成
-            var tr = document.createElement('tr');
+            let tr = document.createElement('tr');
             // td要素を生成
-            var tdId = document.createElement('td');
-            var tdName = document.createElement('td');
-            var tdVshugeName = document.createElement('td');
-            var tdVshugeDetail = document.createElement('td');
-            var tdLmName = document.createElement('td');
-            var tdLmDetail = document.createElement('td');
-            var tdHojoName = document.createElement('td');
-            var tdHojoDetail = document.createElement('td');
+            let tdId = document.createElement('td');
+            let tdName = document.createElement('td');
+            let tdVshugeName = document.createElement('td');
+            let tdVshugeDetail = document.createElement('td');
+            let tdLmName = document.createElement('td');
+            let tdLmDetail = document.createElement('td');
+            let tdHojoName = document.createElement('td');
+            let tdHojoDetail = document.createElement('td');
             // 各スキル列のclass
             tdVshugeName.className = "vshugeRow";
             tdVshugeDetail.className = "vshugeRow";
@@ -509,7 +458,7 @@ function makeTable() {
             tdHojoName.className = "hojoRow";
             tdHojoDetail.className = "hojoRow";
             // サムネ画像要素の追加
-            var img = document.createElement('img');
+            let img = document.createElement('img');
             img.src = "../../images/memoria/memoria_" + memoriaJsonCopy[i]['id'] + ".png";
             img.height = 80;
             img.loading = "lazy";
@@ -518,7 +467,7 @@ function makeTable() {
             // メモリア名
             tdName.textContent = memoriaJsonCopy[i]['name'];
             // 対ヒュージスキル
-            var vshuge = getSkillInfoFromName(yakuwari, skill[0]);
+            let vshuge = getSkillInfoFromName(yakuwari, skill[0]);
             tdVshugeName.classList.add('skill_name');
             if (vshuge == "") {
                 tdVshugeName.innerHTML = "<nobr>" + skill[0] + "</nobr><br>" + "";
@@ -528,7 +477,7 @@ function makeTable() {
                 tdVshugeDetail.innerHTML = createSkillDetailFromName(vshuge['tag']);
             }
             // レギマスキル
-            var lm = getSkillInfoFromName(yakuwari, skill[1]);
+            let lm = getSkillInfoFromName(yakuwari, skill[1]);
             tdLmName.classList.add('skill_name');
             if (lm == "") {
                 tdLmName.innerHTML = "<nobr>" + skill[1] + "</nobr><br>" + "";
@@ -538,7 +487,7 @@ function makeTable() {
                 tdLmDetail.innerHTML = createSkillDetailFromName(lm['tag']);
             }
             // 補助スキル
-            var hojo = getHojoSkillInfoFromName(skill[2]);
+            let hojo = getHojoSkillInfoFromName(skill[2]);
             tdHojoName.classList.add('skill_name');
             if (lm == "") {
                 tdHojoName.innerHTML = "<nobr>" + skill[2] + "</nobr><br>" + "";
@@ -571,43 +520,29 @@ function makeTable() {
 }
 
 // 初期化
-var memoriaJsonCopy = JSON.parse(JSON.stringify(memoriaJson));
-for (var i = 0; i < memoriaJsonCopy.length; i++) {
+let memoriaJsonCopy = JSON.parse(JSON.stringify(memoriaJson));
+for (let i = 0; i < memoriaJsonCopy.length; i++) {
     memoriaJsonCopy[i]["skillRef"] = []; // スキル参照先を追加
     memoriaJsonCopy[i]["tr"] = []; // tr参照先を追加
 }
 
-var skillJsonCopy_1 = JSON.parse(JSON.stringify(skillJson_1));
-var skillJsonCopy_2 = JSON.parse(JSON.stringify(skillJson_2));
-var skillJsonCopy_3 = JSON.parse(JSON.stringify(skillJson_3));
-var skillJsonCopy_4 = JSON.parse(JSON.stringify(skillJson_4));
-var skillJsonCopy_5 = JSON.parse(JSON.stringify(skillJson_5));
-var skillJsonCopy_6 = JSON.parse(JSON.stringify(skillJson_6));
-var skillJsonCopy_7 = JSON.parse(JSON.stringify(skillJson_7));
-for (var i = 0; i < skillJsonCopy_1.length; i++) skillJsonCopy_1[i]["filter"] = true;
-for (var i = 0; i < skillJsonCopy_2.length; i++) skillJsonCopy_2[i]["filter"] = true;
-for (var i = 0; i < skillJsonCopy_3.length; i++) skillJsonCopy_3[i]["filter"] = true;
-for (var i = 0; i < skillJsonCopy_4.length; i++) skillJsonCopy_4[i]["filter"] = true;
-for (var i = 0; i < skillJsonCopy_5.length; i++) skillJsonCopy_5[i]["filter"] = true;
-for (var i = 0; i < skillJsonCopy_6.length; i++) skillJsonCopy_6[i]["filter"] = true;
-for (var i = 0; i < skillJsonCopy_7.length; i++) skillJsonCopy_7[i]["filter"] = true;
+let skillJsonCopy = JSON.parse(JSON.stringify(skillJson));
+for (let i = 0; i < skillJsonCopy.length; i++) {
+    for (let j = 0; j < skillJsonCopy[i].length; j++) skillJsonCopy[i][j]["filter"] = true;
+}
 
-var hojoJsonCopy_attack = JSON.parse(JSON.stringify(hojoJson_attack));
-var hojoJsonCopy_support = JSON.parse(JSON.stringify(hojoJson_support));
-var hojoJsonCopy_heal = JSON.parse(JSON.stringify(hojoJson_heal));
-var hojoJsonCopy_command = JSON.parse(JSON.stringify(hojoJson_command));
-for (var i = 0; i < hojoJsonCopy_attack.length; i++) hojoJsonCopy_attack[i]["filter"] = true;
-for (var i = 0; i < hojoJsonCopy_support.length; i++) hojoJsonCopy_support[i]["filter"] = true;
-for (var i = 0; i < hojoJsonCopy_heal.length; i++) hojoJsonCopy_heal[i]["filter"] = true;
-for (var i = 0; i < hojoJsonCopy_command.length; i++) hojoJsonCopy_command[i]["filter"] = true;
+let hojoJsonCopy = JSON.parse(JSON.stringify(hojoJson));
+for (let i = 0; i < hojoJsonCopy.length; i++) {
+    for (let j = 0; j < hojoJsonCopy[i].length; j++) hojoJsonCopy[i][j]["filter"] = true;
+}
 
-var modeSelection = 1;
-var dualDisplay = true;
-var yakuwariArray = [];
-var rangeArray = [];
-var damageSelection = 0;
-var healSelection = 0;
-var effectSelectionArray = [];
-var effectUpSelection = "";
-var hojoSelectionArray = [];
+let modeSelection = 1;
+let dualDisplay = true;
+let yakuwariArray = [];
+let rangeArray = [];
+let damageSelection = 0;
+let healSelection = 0;
+let effectSelectionArray = [];
+let effectUpSelection = "";
+let hojoSelectionArray = [];
 makeTable();

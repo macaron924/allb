@@ -1,7 +1,7 @@
-$(".category").click(function () {//タイトル要素をクリックしたら
-	var findElm = $(this).next(".flex_btn-box");//直後のアコーディオンを行うエリアを取得し
-	$(findElm).toggleClass('close');// closeクラスを付与
-	$(this).toggleClass('close');// 自身にもcloseクラスを付与
+$(".category").click(function () { // タイトル要素をクリックしたら
+	let findElm = $(this).next(".flex_btn-box"); // 直後のアコーディオンを行うエリアを取得し
+	$(findElm).toggleClass('close'); // closeクラスを付与
+	$(this).toggleClass('close'); // 自身にもcloseクラスを付与
 });
 
 $("#menu-open-btn").click(function () { // フィルターボタンがクリックされたら
@@ -14,15 +14,15 @@ $("#chara-open-btn").click(function () { // キャラ選択表示ボタンがク
 });
 
 function yakuwariToString(percent) {
-    var str = percent + "%";
+    let str = percent + "%";
     if (percent >= percentBorder) str = "<span>" + str + "</span>";
     return str;
 }
 
 function parameterToString(paramArray) {
-    var str = "";
-    var totalParameter = 0;
-    for (var i = 0; i < paramArray.length; i++) {
+    let str = "";
+    let totalParameter = 0;
+    for (let i = 0; i < paramArray.length; i++) {
         if (i != 0) str += ", ";
         str += (paramArray[i][0] + "+" + paramArray[i][1]);
         totalParameter += paramArray[i][1];
@@ -32,8 +32,8 @@ function parameterToString(paramArray) {
 }
 
 function exToString(exArray) {
-    var str = "";
-    for (var i = 0; i < exArray.length; i++) {
+    let str = "";
+    for (let i = 0; i < exArray.length; i++) {
         if (i != 0) str += ", ";
         str += (exArray[i][0] + ":" + exArray[i][1] + "%");
     }
@@ -43,40 +43,40 @@ function exToString(exArray) {
 
 function makeInnerTable(thisCostume) {
     // tableを生成
-    var table = document.createElement('table');
+    let table = document.createElement('table');
     table.className = "innerTable";
     
     // 1行目
-    var tr1 = document.createElement('tr');
-    var td11 = document.createElement('td');
+    let tr1 = document.createElement('tr');
+    let td11 = document.createElement('td');
     td11.rowSpan = "4";
-    var img = document.createElement('img');
+    let img = document.createElement('img');
     img.src = "../images/costume/costume_" + thisCostume['id'] + ".png";
     img.loading = "lazy";
     td11.appendChild(img);
     tr1.appendChild(td11);
-    var td12 = document.createElement('td');
+    let td12 = document.createElement('td');
     td12.textContent = thisCostume['name'];
     tr1.appendChild(td12);
     table.appendChild(tr1);
 
     // 2行目
-    var tr2 = document.createElement('tr');
-    var td22 = document.createElement('td');
+    let tr2 = document.createElement('tr');
+    let td22 = document.createElement('td');
     td22.innerHTML = yakuwariToString(thisCostume['percent']);
     tr2.appendChild(td22);
     table.appendChild(tr2);
 
     // 3行目
-    var tr3 = document.createElement('tr');
-    var td32 = document.createElement('td');
+    let tr3 = document.createElement('tr');
+    let td32 = document.createElement('td');
     td32.innerHTML = parameterToString(thisCostume['parameter']);
     tr3.appendChild(td32);
     table.appendChild(tr3);
 
     // 4行目
-    var tr4 = document.createElement('tr');
-    var td42 = document.createElement('td');
+    let tr4 = document.createElement('tr');
+    let td42 = document.createElement('td');
     td42.innerHTML = exToString(thisCostume['ex']);
     tr4.appendChild(td42);
     table.appendChild(tr4);
@@ -86,8 +86,8 @@ function makeInnerTable(thisCostume) {
 
 // キャラの役割あたりの最大衣装数取得
 function getCharaMaxRow(charaIndex) {
-    var max = 0;
-    for (var i = 0; i < 7; i++) {
+    let max = 0;
+    for (let i = 0; i < 7; i++) {
         if (charaRoleArray[charaIndex][i].length > max) max = charaRoleArray[charaIndex][i].length;
     }
     return max;
@@ -105,42 +105,39 @@ function getCharaJump(charaIndex) {
 
 // メイン表の作成
 function makeTable() {
-
-    // table要素を生成
-    //var table = document.createElement('table');
     
     // ヘッダーを作成
-    var tr = document.createElement('tr');
-    var th = document.createElement('th');
+    let tr = document.createElement('tr');
+    let th = document.createElement('th');
     th.textContent = "";
     tr.appendChild(th);
-    var yakuwariString = ["通常単体", "通常範囲", "特殊単体", "特殊範囲", "支援", "妨害", "回復"];
-    for (var i = 0; i < 7; i++) {
-        var th = document.createElement('th');
+    let yakuwariString = ["通常単体", "通常範囲", "特殊単体", "特殊範囲", "支援", "妨害", "回復"];
+    for (let i = 0; i < 7; i++) {
+        let th = document.createElement('th');
         th.textContent = yakuwariString[i];
         tr.appendChild(th);
     }
     document.getElementById('maintable').appendChild(tr);
     
     // テーブル本体を作成
-    for (var i = 0; i < charaRoleArray.length; i++) {
-        var charaIndex = charaDisplay[i] - 1; // 表示順取得
-        var maxRow = getCharaMaxRow(charaIndex);
-        for (var charaRowIndex = 0; charaRowIndex < maxRow; charaRowIndex++) {
+    for (let i = 0; i < charaRoleArray.length; i++) {
+        let charaIndex = charaDisplay[i] - 1; // 表示順取得
+        let maxRow = getCharaMaxRow(charaIndex);
+        for (let charaRowIndex = 0; charaRowIndex < maxRow; charaRowIndex++) {
             // 行作成
-            var tr = document.createElement('tr');
+            let tr = document.createElement('tr');
             if (charaRowIndex == maxRow - 1) tr.className = "charaBottom";
             // キャラ名
             if (charaRowIndex == 0) {
-                var th = document.createElement('th');
+                let th = document.createElement('th');
                 th.innerHTML = getCharaName(charaIndex);
                 th.rowSpan = maxRow;
                 th.id = getCharaJump(charaIndex);
                 tr.appendChild(th);
             }
             // 役割ごと
-            for (var yakuwari = 0; yakuwari < 7; yakuwari++) {
-                var td = document.createElement('td');
+            for (let yakuwari = 0; yakuwari < 7; yakuwari++) {
+                let td = document.createElement('td');
                 if (charaRoleArray[charaIndex][yakuwari].length > charaRowIndex) {
                     td.appendChild(makeInnerTable(costumeJson[charaRoleArray[charaIndex][yakuwari][charaRowIndex]]));
                 } else {
@@ -148,12 +145,11 @@ function makeTable() {
                 }
                 tr.appendChild(td);
             }
+
+            // 生成したtable要素を追加する
             document.getElementById('maintable').appendChild(tr);
         }
     }
-
-    // 生成したtable要素を追加する
-    //document.getElementById('maintable').replaceChildren(table);
 }
 
 
@@ -169,13 +165,13 @@ const charaDisplay = [
 
 // 多次元配列定義
 const maxChara = charaDisplay.length;
-var charaRoleArray = [];
-for (var i = 0; i < maxChara; i++){
+let charaRoleArray = [];
+for (let i = 0; i < maxChara; i++){
     charaRoleArray.push([[], [], [], [], [], [], []]);
 }
 
 // 多次元配列に新しい順に格納
-for (var i = (costumeJson.length - 1); i >= 0; i--) {
+for (let i = (costumeJson.length - 1); i >= 0; i--) {
     charaRoleArray[costumeJson[i]['chara'] - 1][costumeJson[i]['yakuwari'] - 1].push(i);
 }
 

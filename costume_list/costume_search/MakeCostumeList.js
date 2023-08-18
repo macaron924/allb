@@ -1,7 +1,7 @@
-$(".category").click(function () {//タイトル要素をクリックしたら
-	var findElm = $(this).next(".flex_btn-box");//直後のアコーディオンを行うエリアを取得し
-	$(findElm).toggleClass('close');// closeクラスを付与
-	$(this).toggleClass('close');// 自身にもcloseクラスを付与
+$(".category").click(function () { // タイトル要素をクリックしたら
+	let findElm = $(this).next(".flex_btn-box"); // 直後のアコーディオンを行うエリアを取得し
+	$(findElm).toggleClass('close'); // closeクラスを付与
+	$(this).toggleClass('close'); // 自身にもcloseクラスを付与
 });
 
 $("#menu-open-btn").click(function () { // フィルターボタンがクリックされたら
@@ -43,17 +43,17 @@ function runButtonPushAction() {
 
 function percentFilter(costume) {
     if (percentSelection == 0) return true;
-    var percent = costume['percent'];
+    let percent = costume['percent'];
     if (percent == "") return true;
     if (percent >= percentSelection) return true;
     return false;
 }
 
 function parameterFilter(costume) {
-    var tag = costume['parameter'];
-    var trueCount = 0;
-    for (var j = 0; j < parameterSelectionArray.length; j++) {
-        for (var i = 0; i < tag.length; i++) {
+    let tag = costume['parameter'];
+    let trueCount = 0;
+    for (let j = 0; j < parameterSelectionArray.length; j++) {
+        for (let i = 0; i < tag.length; i++) {
             if ((parameterSelectionArray[j][0] == "") && (tag[i][1] >= parameterSelectionArray[j][1])) {
                 trueCount++;
                 break;
@@ -69,8 +69,8 @@ function parameterFilter(costume) {
 
 function exFilter(costume) {
     if (exSelection == "") return true;
-    var tag = costume['ex'];
-    for (var i = 0; i < tag.length; i++) {
+    let tag = costume['ex'];
+    for (let i = 0; i < tag.length; i++) {
         if (tag[i][0] == exSelection) {
             return true;
         }
@@ -80,8 +80,8 @@ function exFilter(costume) {
 
 function yakuwariFilter(costume) {
     if (yakuwariArray.length == 0) return true;
-    var yakuwariNumber = costume['yakuwari'];
-    for (var i = 0; i < yakuwariArray.length; i++) {
+    let yakuwariNumber = costume['yakuwari'];
+    for (let i = 0; i < yakuwariArray.length; i++) {
         if (yakuwariNumber == yakuwariArray[i]) return true;
     }
     return false;
@@ -89,8 +89,8 @@ function yakuwariFilter(costume) {
 
 function charaFilter(costume) {
     if (charaArray.length == 0) return true;
-    var charaNumber = costume['chara'];
-    for (var i = 0; i < charaArray.length; i++) {
+    let charaNumber = costume['chara'];
+    for (let i = 0; i < charaArray.length; i++) {
         if (charaNumber == charaArray[i]) return true;
     }
     return false;
@@ -106,14 +106,14 @@ function filter(costume) {
 }
 
 function existInYakuwariArray(yakuwari) {
-    for (var i = 0; i < yakuwariArray.length; i++) {
+    for (let i = 0; i < yakuwariArray.length; i++) {
         if (yakuwari == yakuwariArray[i]) return i;
     }
     return -1;
 }
 
 function yakuwariButtonPushAction(yakuwari) {
-    var i = existInYakuwariArray(yakuwari);
+    let i = existInYakuwariArray(yakuwari);
     if (i >= 0) {
         yakuwariArray.splice(i, 1);
     } else {
@@ -122,14 +122,14 @@ function yakuwariButtonPushAction(yakuwari) {
 }
 
 function existInCharaArray(chara) {
-    for (var i = 0; i < charaArray.length; i++) {
+    for (let i = 0; i < charaArray.length; i++) {
         if (chara == charaArray[i]) return i;
     }
     return -1;
 }
 
 function charaButtonPushAction(chara) {
-    var i = existInCharaArray(chara);
+    let i = existInCharaArray(chara);
     if (i >= 0) {
         charaArray.splice(i, 1);
     } else {
@@ -138,15 +138,15 @@ function charaButtonPushAction(chara) {
 }
 
 function yakuwariToString(percent) {
-    var str = percent + "%";
+    let str = percent + "%";
     if (percent >= percentBorder) str = "<span>" + str + "</span>";
     return str;
 }
 
 function parameterToString(paramArray) {
-    var str = "";
-    var totalParameter = 0;
-    for (var i = 0; i < paramArray.length; i++) {
+    let str = "";
+    let totalParameter = 0;
+    for (let i = 0; i < paramArray.length; i++) {
         if (i != 0) str += ", ";
         str += (paramArray[i][0] + "+" + paramArray[i][1]);
         totalParameter += paramArray[i][1];
@@ -156,8 +156,8 @@ function parameterToString(paramArray) {
 }
 
 function exToString(exArray) {
-    var str = "";
-    for (var i = 0; i < exArray.length; i++) {
+    let str = "";
+    for (let i = 0; i < exArray.length; i++) {
         if (i != 0) str += ", ";
         str += (exArray[i][0] + ":" + exArray[i][1] + "%");
     }
@@ -167,39 +167,39 @@ function exToString(exArray) {
 
 function makeInnerTable(thisCostume) {
     // tableを生成
-    var table = document.createElement('table');
+    let table = document.createElement('table');
     
     // 1行目
-    var tr1 = document.createElement('tr');
-    var td11 = document.createElement('td');
+    let tr1 = document.createElement('tr');
+    let td11 = document.createElement('td');
     td11.rowSpan = "4";
-    var img = document.createElement('img');
+    let img = document.createElement('img');
     img.src = "../../images/costume/costume_" + thisCostume['id'] + ".png";
     img.loading = "lazy";
     td11.appendChild(img);
     tr1.appendChild(td11);
-    var td12 = document.createElement('td');
+    let td12 = document.createElement('td');
     td12.textContent = thisCostume['name'];
     tr1.appendChild(td12);
     table.appendChild(tr1);
 
     // 2行目
-    var tr2 = document.createElement('tr');
-    var td22 = document.createElement('td');
+    let tr2 = document.createElement('tr');
+    let td22 = document.createElement('td');
     td22.innerHTML = yakuwariToString(thisCostume['percent']);
     tr2.appendChild(td22);
     table.appendChild(tr2);
 
     // 3行目
-    var tr3 = document.createElement('tr');
-    var td32 = document.createElement('td');
+    let tr3 = document.createElement('tr');
+    let td32 = document.createElement('td');
     td32.innerHTML = parameterToString(thisCostume['parameter']);
     tr3.appendChild(td32);
     table.appendChild(tr3);
 
     // 4行目
-    var tr4 = document.createElement('tr');
-    var td42 = document.createElement('td');
+    let tr4 = document.createElement('tr');
+    let td42 = document.createElement('td');
     td42.innerHTML = exToString(thisCostume['ex']);
     tr4.appendChild(td42);
     table.appendChild(tr4);
@@ -210,18 +210,18 @@ function makeInnerTable(thisCostume) {
 function makeList() {
 
     // flexboxを生成
-    var flexbox = document.createElement('div');
+    let flexbox = document.createElement('div');
     flexbox.className = "flex_costume-box";
     
     // テーブル本体を作成
-    for (var i = (costumeJson.length - 1); i >= 0; i--) {
+    for (let i = (costumeJson.length - 1); i >= 0; i--) {
         if (filter(costumeJson[i]) == true) {
             // flexitemを生成
-            var flexitem = document.createElement('div');
+            let flexitem = document.createElement('div');
             flexitem.className = "flex_costume-item";
             
             // tableを生成
-            var table = makeInnerTable(costumeJson[i]);
+            let table = makeInnerTable(costumeJson[i]);
 
             // tableをflexitemの子要素に追加
             flexitem.appendChild(table);
@@ -237,9 +237,9 @@ function makeList() {
 const percentBorder = 15
 const totalParameterBorder = 3000
 // 初期化
-var charaArray = [];
-var yakuwariArray = [];
-var percentSelection = 0;
-var parameterSelectionArray = [];
-var exSelection = "";
+let charaArray = [];
+let yakuwariArray = [];
+let percentSelection = 0;
+let parameterSelectionArray = [];
+let exSelection = "";
 makeList();

@@ -1,4 +1,4 @@
-var ranks = [
+let ranks = [
     {
         "rank": "コラボ",
         "index": "collabo",
@@ -128,8 +128,8 @@ var ranks = [
 ]
 
 // jsonに格納
-for (var i = 0; i < memoriaJson.length; i++) {
-    for (var j = 0; j < ranks.length; j++) {
+for (let i = 0; i < memoriaJson.length; i++) {
+    for (let j = 0; j < ranks.length; j++) {
         if (memoriaJson[i]['get_rank'] == ranks[j]['rank']) {
             ranks[j]['content'].push(memoriaJson[i]['id']);
             break;
@@ -138,7 +138,7 @@ for (var i = 0; i < memoriaJson.length; i++) {
 }
 
 function getMemoriaName(id) {
-    for (var i = 0; i < memoriaJson.length; i++) {
+    for (let i = 0; i < memoriaJson.length; i++) {
         if (memoriaJson[i]['id'] == id) return memoriaJson[i]['name'];
     }
     return "";
@@ -146,15 +146,15 @@ function getMemoriaName(id) {
 
 function addMemoriaList(memoriaArray) {
     // flexboxを生成
-    var flexbox = document.createElement('div');
+    let flexbox = document.createElement('div');
     flexbox.className = "flex_test-box";
     
     // テーブル本体を作成
-    for (var i = 0; i < memoriaArray.length; i++) {
+    for (let i = 0; i < memoriaArray.length; i++) {
         id = memoriaArray[i];
 
         // flexitemを生成
-        var flexitem = document.createElement('div');
+        let flexitem = document.createElement('div');
         flexitem.className = "flex_test-item";
         flexitem.innerHTML = `<img src="../../images/memoria/memoria_${id}.png" loading="lazy"><br>${getMemoriaName(id)}`;
 
@@ -166,11 +166,11 @@ function addMemoriaList(memoriaArray) {
 }
 
 function addLineup() {
-    for (var i = 0; i < ranks.length; i++) {
-        var jump = `<option value="#${ranks[i]['index']}">${ranks[i]['rank']}</option>`
+    for (let i = 0; i < ranks.length; i++) {
+        let jump = `<option value="#${ranks[i]['index']}">${ranks[i]['rank']}</option>`
         document.getElementById('jump').insertAdjacentHTML('beforeend', jump);
 
-        var caption = `<br><h2 id=${ranks[i]['index']}>${ranks[i]['rank']}</h2>${ranks[i]['summary']}`;
+        let caption = `<br><h2 id=${ranks[i]['index']}>${ranks[i]['rank']}</h2>${ranks[i]['summary']}`;
         document.getElementById('list').insertAdjacentHTML('beforeend', caption);
         document.getElementById('list').appendChild(addMemoriaList(ranks[i]['content']));
     }
