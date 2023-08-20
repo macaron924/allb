@@ -489,7 +489,7 @@ function makeTable() {
             // 補助スキル
             let hojo = getHojoSkillInfoFromName(skill[2]);
             tdHojoName.classList.add('skill_name');
-            if (lm == "") {
+            if (hojo == "") {
                 tdHojoName.innerHTML = "<nobr>" + skill[2] + "</nobr><br>" + "";
                 tdHojoDetail.innerHTML = "";
             } else {
