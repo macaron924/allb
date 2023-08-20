@@ -3751,6 +3751,33 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["ATK", 1500], ["Sp.ATK", 1500]],
         "ex": []
+    },
+    {
+        "id": 418,
+        "chara": 57,
+        "yakuwari": 4,
+        "name": "シャイニングスピカ",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 419,
+        "chara": 98,
+        "yakuwari": 7,
+        "name": "ローエングリン隊服",
+        "percent": 15,
+        "parameter": [["Sp.DEF", 3000], ["DEF", 3000]],
+        "ex": [["火UP", 5]]
+    },
+    {
+        "id": 420,
+        "chara": 99,
+        "yakuwari": 2,
+        "name": "ローエングリン隊服",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["火UP", 3], ["風耐性", 2]]
     }
     /*
     ,
