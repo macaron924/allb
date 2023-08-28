@@ -493,6 +493,28 @@ const gachaTicketJson = [
         }
     },
     {
+        "name": "御台場女学校★5確定ガチャチケット",
+        "index": "odaiba",
+        "lineup": {
+            "topic": [],
+            "total-ratio": 100,
+            "else": [
+                { "date": "2022/8/10", "caption": "新規登場", "content": [256, 257, 260, 273, 274, 275] }
+            ]
+        }
+    },
+    {
+        "name": "私立ルドビコ女学院★5確定ガチャチケット",
+        "index": "ludojyo",
+        "lineup": {
+            "topic": [],
+            "total-ratio": 100,
+            "else": [
+                { "date": "2022/8/10", "caption": "新規登場", "content": [258, 259, 260, 313, 314, 315, 316] }
+            ]
+        }
+    },
+    {
         "name": "ラスバレ2周年祭り★5確定ガチャチケット",
         "index": "202302-daienkai",
         "lineup": {
