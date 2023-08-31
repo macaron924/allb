@@ -97,7 +97,10 @@ const charaJson = [
     { "charaID": 96, "charaName": "恋花 (ドレインタッチ)", "charaJump": "" },
     { "charaID": 97, "charaName": "涼子", "charaJump": "" },
     { "charaID": 98, "charaName": "雪陽", "charaJump": "yukiyo" },
-    { "charaID": 99, "charaName": "広夢", "charaJump": "hiromu" }
+    { "charaID": 99, "charaName": "広夢", "charaJump": "hiromu" },
+    { "charaID": 100, "charaName": "美琴", "charaJump": "c8_mikoto" },
+    { "charaID": 101, "charaName": "黒子", "charaJump": "c8_kuroko" },
+    { "charaID": 102, "charaName": "操祈", "charaJump": "c8_misaki" }
     /*
     ,
     { "charaID": , "charaName": "", "charaJump": "" }

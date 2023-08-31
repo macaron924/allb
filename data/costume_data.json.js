@@ -3796,6 +3796,51 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["ATK", 3000], ["DEF", 3000]],
         "ex": [["風UP", 5]]
+    },
+    {
+        "id": 423,
+        "chara": 100,
+        "yakuwari": 5,
+        "name": "メイドスタイル",
+        "percent": 7.5,
+        "parameter": [["ATK", 1550], ["DEF", 1500]],
+        "ex": [["水UP", 5]]
+    },
+    {
+        "id": 424,
+        "chara": 102,
+        "yakuwari": 6,
+        "name": "メイドスタイル",
+        "percent": 15,
+        "parameter": [["Sp.DEF", 3000], ["Sp.ATK", 3000]],
+        "ex": [["水UP", 5]]
+    },
+    {
+        "id": 425,
+        "chara": 100,
+        "yakuwari": 2,
+        "name": "常盤台中学制服",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 426,
+        "chara": 101,
+        "yakuwari": 4,
+        "name": "常盤台中学制服",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 427,
+        "chara": 102,
+        "yakuwari": 7,
+        "name": "常盤台中学制服",
+        "percent": 15,
+        "parameter": [["Sp.DEF", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 5]]
     }
     /*
     ,
