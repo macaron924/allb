@@ -235,7 +235,7 @@ function makeList() {
 
 // 強調する基準
 const percentBorder = 15
-const totalParameterBorder = 3000
+const totalParameterBorder = 6000
 // 初期化
 let charaArray = [];
 let yakuwariArray = [];
