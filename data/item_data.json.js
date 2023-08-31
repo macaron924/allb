@@ -67,7 +67,7 @@ const itemByTypeJson = {
         { index: "memoria_628_evolution", name: "伝わる鼓動：ピース", link: false },
         { index: "memoria_628_awakening", name: "伝わる鼓動：ジェム", link: false },
         { index: "memoria_661_evolution", name: "楽しいを探して：ピース", link: false },
-        { index: "memoria_661_awakening", name: "楽しいを探して：ジェム", link: false },
+        { index: "memoria_661_awakening", name: "楽しいを探して：ジェム", link: false }
     ],
     gacha_ticket: [ // ガチャチケット
         { index: "gacha-ticket_lily-passport", name: "リリィパスポート★5確定ガチャチケット", link: true },
@@ -154,6 +154,7 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202308-event-2", name: "Twinkle Lilies Party★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202308-event-3", name: "サマー・フェアリーテール★5確定ガチャチケットⅡ", link: false },
         { index: "gacha-ticket_202308-event-4", name: "エレガンス・セッション★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_collabo-toaru-1", name: "とある科学と楯の乙女★5確定ガチャチケットⅠ", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -194,8 +195,10 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202308-2", name: "Twinkle Lilies PartyペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202308-3", name: "サマー・フェアリーテールⅡペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202308-4", name: "エレガンス・セッションペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_collabo-toaru-1", name: "とある科学と楯の乙女ペンダントEX交換券Ⅰ", link: false }
     ],
     exchange_costume: [ // 衣装引換券
+        { index: "exchange_costume_202309", name: "9月衣装引換券", link: true },
         { index: "exchange_costume_202211", name: "衣装引換券11月", link: true },
         { index: "exchange_costume_202301", name: "衣装引換券1月", link: true },
         { index: "exchange_costume_2nd-aniv", name: "2周年祭り衣装引換券", link: true },
@@ -216,7 +219,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_gigant_202308", name: "ギガント級ヒュージ討伐衣装引換券 (8月)", link: true },
         { index: "exchange_costume_ririsama-1", name: "GO!GO!スプラッシュ衣装引換券", link: true },
         { index: "exchange_costume_ririsama-2", name: "トロピカルナイト衣装引換券", link: true },
-        { index: "exchange_costume_ririsama-3", name: "ギガントウェーブ衣装引換券", link: true },
+        { index: "exchange_costume_ririsama-3", name: "ギガントウェーブ衣装引換券", link: true }
     ],
     exchange: [ // メモリア引換券
         { index: "exchange_summer-live-bd", name: "コスト18以上★5セレクトチケットⅠ(サマーライブBD)", link: true },
@@ -265,7 +268,7 @@ const itemByTypeJson = {
         { index: "exchange_ultimate2-select-kouei", name: "2.5周年アルティメットメモリア後衛交換券", link: false },
         // その他
         { index: "exchange_emotional-sozai", name: "エモーショナルメモリア素材引換券", link: false },
-        { index: "exchange_creators-gacha", name: "クリエイターズコラボガチャチケット引換券", link: false },
+        { index: "exchange_creators-gacha", name: "クリエイターズコラボガチャチケット引換券", link: false }
     ],
     medal_bonus: [ // ボーナスメダル
         { index: "medal_bonus_202212", name: "ボーナスメダルⅫ", link: false },
@@ -277,17 +280,19 @@ const itemByTypeJson = {
         { index: "medal_bonus_202306", name: "ボーナスメダルⅥ", link: false },
         { index: "medal_bonus_202307", name: "ボーナスメダルⅦ", link: false },
         { index: "medal_bonus_202308", name: "ボーナスメダルⅧ", link: false },
+        { index: "medal_bonus_202309", name: "ボーナスメダルⅨ", link: false },
         { index: "medal_bonus_collabo-prisma-illya", name: "シスターズ・カラミティボーナスメダル", link: false },
         { index: "medal_bonus_collabo-madoka-magica", name: "マギカ☆ワンダーワールドボーナスメダル", link: false },
         { index: "medal_bonus_collabo-yuyuyu", name: "白百合の章ボーナスメダル", link: false },
-        { index: "medal_bonus_collabo-yuyuyu-2", name: "絆の章ボーナスメダル", link: false },
-        { index: "medal_bonus_202212-costume", name: "衣装交換メダル12月", link: false },
-        { index: "medal_bonus_202303-costume", name: "衣装交換メダル3月", link: false },
-        { index: "medal_bonus_202304-costume", name: "衣装交換メダル4月", link: false },
-        { index: "medal_bonus_202305-costume", name: "衣装交換メダル5月", link: false },
-        { index: "medal_bonus_202306-costume", name: "衣装交換メダル6月", link: false },
-        { index: "medal_bonus_202307-costume", name: "衣装交換メダル7月", link: false },
-        { index: "medal_bonus_202308-costume", name: "衣装交換メダル8月", link: false },
+        { index: "medal_bonus_collabo-yuyuyu-2", name: "絆の章ボーナスメダル", link: true },
+        { index: "medal_bonus_collabo-toaru", name: "とある科学と楯の乙女ボーナスメダル", link: true },
+        { index: "medal_bonus_202212-costume", name: "衣装交換メダル12月", link: true },
+        { index: "medal_bonus_202303-costume", name: "衣装交換メダル3月", link: true },
+        { index: "medal_bonus_202304-costume", name: "衣装交換メダル4月", link: true },
+        { index: "medal_bonus_202305-costume", name: "衣装交換メダル5月", link: true },
+        { index: "medal_bonus_202306-costume", name: "衣装交換メダル6月", link: true },
+        { index: "medal_bonus_202307-costume", name: "衣装交換メダル7月", link: true },
+        { index: "medal_bonus_202308-costume", name: "衣装交換メダル8月", link: true },
         { index: "medal_bonus_202212-yakuwari", name: "レギオンリーグ開催記念役割ガチャメダル12月", link: true },
         { index: "medal_bonus_202301-yakuwari", name: "レギオンリーグ開催記念役割ガチャメダル1月", link: true },
         { index: "medal_bonus_202302-yakuwari", name: "レギオンリーグ開催記念役割ガチャメダル2月", link: true },
@@ -307,7 +312,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_gw", name: "ラスバれ！GWボーナスメダル", link: true },
         { index: "medal_bonus_premium", name: "プレミアボーナスメダル", link: true },
         { index: "medal_bonus_ririsama", name: "2.5周年リリサマ!!ボーナスメダル", link: true },
-        { index: "medal_bonus_new-ch-gran-eple", name: "新章グラン・エプレ編ボーナスメダル", link: true },
+        { index: "medal_bonus_new-ch-gran-eple", name: "新章グラン・エプレ編ボーナスメダル", link: true }
     ],
     other: [
         { index: "coin_sell", name: "無垢なる黄金", link: false },
