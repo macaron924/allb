@@ -51,7 +51,9 @@ const itemByTypeJson = {
         { index: "costume_407_pendant-ex", name: "紅巴/リリティカルサマーαのペンダントEX", link: false },
         { index: "costume_408_pendant-ex", name: "藍/リリティカルサマーαのペンダントEX", link: false },
         { index: "costume_421_pendant-ex", name: "千香瑠/涼風の浴衣αのペンダントEX", link: false },
-        { index: "costume_422_pendant-ex", name: "叶星/涼風の浴衣αのペンダントEX", link: false }
+        { index: "costume_422_pendant-ex", name: "叶星/涼風の浴衣αのペンダントEX", link: false },
+        { index: "costume_431_before", name: "白井黒子/メイドスタイル", link: false },
+        { index: "costume_431_pendant-ex", name: "黒子/メイドスタイルのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -154,7 +156,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202308-event-2", name: "Twinkle Lilies Party★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202308-event-3", name: "サマー・フェアリーテール★5確定ガチャチケットⅡ", link: false },
         { index: "gacha-ticket_202308-event-4", name: "エレガンス・セッション★5確定ガチャチケット", link: false },
-        { index: "gacha-ticket_collabo-toaru-1", name: "とある科学と楯の乙女★5確定ガチャチケットⅠ", link: false }
+        { index: "gacha-ticket_collabo-toaru-1", name: "とある科学と楯の乙女★5確定ガチャチケットⅠ", link: false },
+        { index: "gacha-ticket_collabo-toaru-2", name: "とある科学と楯の乙女★5確定ガチャチケットⅡ", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -195,7 +198,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202308-2", name: "Twinkle Lilies PartyペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202308-3", name: "サマー・フェアリーテールⅡペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202308-4", name: "エレガンス・セッションペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_collabo-toaru-1", name: "とある科学と楯の乙女ペンダントEX交換券Ⅰ", link: false }
+        { index: "exchange_pendant-ex_collabo-toaru-1", name: "とある科学と楯の乙女ペンダントEX交換券Ⅰ", link: false },
+        { index: "exchange_pendant-ex_collabo-toaru-2", name: "とある科学と楯の乙女ペンダントEX交換券Ⅱ", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_202309", name: "9月衣装引換券", link: true },
@@ -230,9 +234,9 @@ const itemByTypeJson = {
         { index: "exchange_memoria_2nd-anniversary-1", name: "2周年祭りぽかぽか★5メモリア引換券", link: true },
         { index: "exchange_memoria_2nd-anniversary-2", name: "2周年祭りどきどき★5メモリア引換券", link: true },
         { index: "exchange_memoria_2nd-anniversary-3", name: "2周年祭りあまあま★5メモリア引換券", link: true },
-        { index: "exchange_premium", name: "プレミア★5メモリア引換券(2周年課金, アルティメットガチャ)", link: true },
-        { index: "exchange_premium-gw", name: "プレミア★5メモリア引換券(GW課金)", link: true },
-        { index: "exchange_premium-ririsama", name: "プレミア★5メモリア引換券(2.5周年課金, アルティメットガチャ)", link: true },
+        { index: "exchange_premium", name: "プレミア★5メモリア引換券", link: true },
+        { index: "exchange_premium-gw", name: "プレミア★5メモリア引換券", link: true },
+        { index: "exchange_premium-ririsama", name: "プレミア★5メモリア引換券", link: true },
         { index: "exchange_memoria_gran-eple", name: "グラン・エプレ★5メモリア引換券", link: true },
         { index: "exchange_memoria_hervarar", name: "ヘルヴォル★5メモリア引換券", link: true },
         { index: "exchange_memoria_yuyu", name: "白井夢結★5メモリア引換券", link: true },
@@ -253,12 +257,15 @@ const itemByTypeJson = {
         { index: "exchange_memoria_zokusei-fire_202308", name: "火属性★5メモリア引換券 (8月)", link: true },
         { index: "exchange_memoria_zokusei-water_202308", name: "水属性★5メモリア引換券 (8月)", link: true },
         { index: "exchange_memoria_zokusei-wind_202308", name: "風属性★5メモリア引換券 (8月)", link: true },
+        { index: "exchange_memoria_zokusei-fire_202309", name: "火属性★5メモリア引換券 (9月)", link: true },
+        { index: "exchange_memoria_zokusei-water_202309", name: "水属性★5メモリア引換券 (9月)", link: true },
+        { index: "exchange_memoria_zokusei-wind_202309", name: "風属性★5メモリア引換券 (9月)", link: true },
         { index: "exchange_refrain", name: "リフレインセレクトチケット", link: true },
         // イベントガチャ交換券
-        { index: "exchange_event-gacha-special", name: "イベントガチャスペシャル交換券 (アルティメット)", link: true },
-        { index: "exchange_event-gacha-special-2", name: "イベントガチャスペシャル交換券 (復刻アルティメット)", link: true },
+        { index: "exchange_event-gacha-special", name: "イベントガチャスペシャル交換券", link: true },
+        { index: "exchange_event-gacha-special-2", name: "イベントガチャスペシャル交換券", link: true },
         { index: "exchange_event-gacha-special-gw", name: "ラスバれ！GWイベントガチャスペシャル交換券", link: true },
-        { index: "exchange_event-gacha-special-ririsama", name: "2.5周年イベントガチャスペシャル交換券 (アルティメット2弾)", link: true },
+        { index: "exchange_event-gacha-special-ririsama", name: "2.5周年イベントガチャスペシャル交換券", link: true },
         // アルティメット交換券
         { index: "exchange_ultimate-select-zenei", name: "アルティメットメモリア前衛交換券", link: false },
         { index: "exchange_ultimate-select-kouei", name: "アルティメットメモリア後衛交換券", link: false },
