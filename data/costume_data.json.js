@@ -3841,6 +3841,42 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["Sp.DEF", 3000], ["DEF", 3000]],
         "ex": [["水UP", 5]]
+    },
+    {
+        "id": 428,
+        "chara": 100,
+        "yakuwari": 4,
+        "name": "ドリーミングアイドル",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 429,
+        "chara": 101,
+        "yakuwari": 5,
+        "name": "ドリーミングアイドル",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 5]]
+    },
+    {
+        "id": 430,
+        "chara": 102,
+        "yakuwari": 2,
+        "name": "ドリーミングアイドル",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 431,
+        "chara": 101,
+        "yakuwari": 1,
+        "name": "メイドスタイル",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
     }
     /*
     ,
