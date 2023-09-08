@@ -53,7 +53,9 @@ const itemByTypeJson = {
         { index: "costume_421_pendant-ex", name: "千香瑠/涼風の浴衣αのペンダントEX", link: false },
         { index: "costume_422_pendant-ex", name: "叶星/涼風の浴衣αのペンダントEX", link: false },
         { index: "costume_431_before", name: "白井黒子/メイドスタイル", link: false },
-        { index: "costume_431_pendant-ex", name: "黒子/メイドスタイルのペンダントEX", link: false }
+        { index: "costume_431_pendant-ex", name: "黒子/メイドスタイルのペンダントEX", link: false },
+        { index: "costume_432_pendant-ex", name: "恋花/マリンセーラーαのペンダントEX", link: false },
+        { index: "costume_433_pendant-ex", name: "瑤/マリンセーラーαのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -319,7 +321,8 @@ const itemByTypeJson = {
         { index: "medal_bonus_gw", name: "ラスバれ！GWボーナスメダル", link: true },
         { index: "medal_bonus_premium", name: "プレミアボーナスメダル", link: true },
         { index: "medal_bonus_ririsama", name: "2.5周年リリサマ!!ボーナスメダル", link: true },
-        { index: "medal_bonus_new-ch-gran-eple", name: "新章グラン・エプレ編ボーナスメダル", link: true }
+        { index: "medal_bonus_new-ch-gran-eple", name: "新章グラン・エプレ編ボーナスメダル", link: true },
+        { index: "medal_bonus_skill", name: "スキル特化メモリアボーナスメダル", link: true }
     ],
     other: [
         { index: "coin_sell", name: "無垢なる黄金", link: false },

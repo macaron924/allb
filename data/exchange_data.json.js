@@ -15,6 +15,19 @@ const exchangeDataJson = [
     },
     */
     {
+        "index": "medal_bonus_skill",
+        "name": "スキル特化メモリアボーナスメダル",
+        "type": "ボーナスメダル",
+        "get": ["ガチャ"],
+        "notice": [],
+        "lineup": {
+            "memoria": [ { "caption": "メモリアのみ", "ratio": 1000, "content": [642, 643, 641, 634, 633, 635, 636, 624, 625, 626, 627, 609, 610, 611, 612, 602, 603, 604, 605, 586, 587, 588, 589, 578, 579, 580, 581, 572, 514, 467, 456, 453] } ],
+            "costume": [],
+            "item": [],
+            "event-ticket": []
+        }
+    },
+    {
         "index": "medal_bonus_202308-costume",
         "name": "衣装交換メダル8月",
         "type": "ボーナスメダル",
