@@ -116,6 +116,7 @@ const itemByTypeJson = {
         { index: "gacha-ticket_ririsama-2", name: "2.5周年トロピカルナイト記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_ririsama-3", name: "2.5周年ギガントウェーブ記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_lohengrin", name: "ローエングリン登場記念★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_cuelebre", name: "クエレブレ登場記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_emotional", name: "エモーショナルメモリア★5確定ガチャチケット", link: false },
         // イベントガチャチケット
         { index: "gacha-ticket_202212-event-1", name: "聖夜へ捧ぐサプライズ★5確定ガチャチケット", link: false },
@@ -159,7 +160,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202308-event-3", name: "サマー・フェアリーテール★5確定ガチャチケットⅡ", link: false },
         { index: "gacha-ticket_202308-event-4", name: "エレガンス・セッション★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_collabo-toaru-1", name: "とある科学と楯の乙女★5確定ガチャチケットⅠ", link: false },
-        { index: "gacha-ticket_collabo-toaru-2", name: "とある科学と楯の乙女★5確定ガチャチケットⅡ", link: false }
+        { index: "gacha-ticket_collabo-toaru-2", name: "とある科学と楯の乙女★5確定ガチャチケットⅡ", link: false },
+        { index: "gacha-ticket_202309-event-1", name: "竜の生まれた日★5確定ガチャチケットⅠ", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -201,7 +203,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202308-3", name: "サマー・フェアリーテールⅡペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202308-4", name: "エレガンス・セッションペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_collabo-toaru-1", name: "とある科学と楯の乙女ペンダントEX交換券Ⅰ", link: false },
-        { index: "exchange_pendant-ex_collabo-toaru-2", name: "とある科学と楯の乙女ペンダントEX交換券Ⅱ", link: false }
+        { index: "exchange_pendant-ex_collabo-toaru-2", name: "とある科学と楯の乙女ペンダントEX交換券Ⅱ", link: false },
+        { index: "exchange_pendant-ex_202309-1", name: "竜の生まれた日ペンダントEX交換券Ⅰ", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_202309", name: "9月衣装引換券", link: true },
@@ -248,6 +251,7 @@ const itemByTypeJson = {
         { index: "exchange_memoria_riri", name: "一柳梨璃メモリア引換券", link: true },
         { index: "exchange_memoria_mai", name: "吉村・Thi・梅メモリア引換券", link: true },
         { index: "exchange_memoria_kazuha", name: "相澤一葉★5メモリア引換券", link: true },
+        { index: "exchange_memoria-with-costume", name: "衣装付きメモリアコレクション引換券", link: true },
         { index: "exchange_memoria_zokusei-fire", name: "火属性★5メモリア引換券 (4月)", link: true },
         { index: "exchange_memoria_zokusei-wind", name: "風属性★5メモリア引換券 (4月)", link: true },
         { index: "exchange_memoria_zokusei-fire_202305", name: "火属性★5メモリア引換券 (5月)", link: true },
