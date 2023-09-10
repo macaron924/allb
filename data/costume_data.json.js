@@ -3895,6 +3895,33 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["ATK", 3000], ["DEF", 3000]],
         "ex": [["水UP", 5]]
+    },
+    {
+        "id": 434,
+        "chara": 72,
+        "yakuwari": 2,
+        "name": "黒紅の竜装",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 435,
+        "chara": 74,
+        "yakuwari": 6,
+        "name": "黒紅の竜装",
+        "percent": 15,
+        "parameter": [["Sp.DEF", 3000], ["Sp.ATK", 3000]],
+        "ex": [["風UP", 5]]
+    },
+    {
+        "id": 436,
+        "chara": 104,
+        "yakuwari": 4,
+        "name": "黒紅の竜装",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["風UP", 3], ["水耐性", 2]]
     }
     /*
     ,
