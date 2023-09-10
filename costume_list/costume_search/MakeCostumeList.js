@@ -159,7 +159,7 @@ function exToString(exArray) {
     let str = "";
     for (let i = 0; i < exArray.length; i++) {
         if (i != 0) str += ", ";
-        str += (exArray[i][0] + ":" + exArray[i][1] + "%");
+        str += ("<nobr>" + exArray[i][0] + ":" + exArray[i][1] + "%</nobr>");
     }
     if (str != "") str = "<span>" + str + "</span>";
     return str;

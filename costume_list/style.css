@@ -80,6 +80,10 @@ table.innerTable tr:first-child>td:last-child {
     font-weight: bold;
 }
 
+table.innerTable tr:last-child>td:last-child {
+    white-space: normal;
+}
+
 table.innerTable td span {
     background-color: #f0c0c0;
 }
