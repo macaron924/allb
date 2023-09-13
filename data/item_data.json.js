@@ -55,7 +55,9 @@ const itemByTypeJson = {
         { index: "costume_431_before", name: "白井黒子/メイドスタイル", link: false },
         { index: "costume_431_pendant-ex", name: "黒子/メイドスタイルのペンダントEX", link: false },
         { index: "costume_432_pendant-ex", name: "恋花/マリンセーラーαのペンダントEX", link: false },
-        { index: "costume_433_pendant-ex", name: "瑤/マリンセーラーαのペンダントEX", link: false }
+        { index: "costume_433_pendant-ex", name: "瑤/マリンセーラーαのペンダントEX", link: false },
+        { index: "costume_439_before", name: "苅谷緋紅/エレンスゲ標準制服", link: false },
+        { index: "costume_439_pendant-ex", name: "緋紅/エレンスゲ標準制服のペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -161,7 +163,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202308-event-4", name: "エレガンス・セッション★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_collabo-toaru-1", name: "とある科学と楯の乙女★5確定ガチャチケットⅠ", link: false },
         { index: "gacha-ticket_collabo-toaru-2", name: "とある科学と楯の乙女★5確定ガチャチケットⅡ", link: false },
-        { index: "gacha-ticket_202309-event-1", name: "竜の生まれた日★5確定ガチャチケットⅠ", link: false }
+        { index: "gacha-ticket_202309-event-1-1", name: "竜の生まれた日★5確定ガチャチケットⅠ", link: false },
+        { index: "gacha-ticket_202309-event-1-2", name: "竜の生まれた日★5確定ガチャチケットⅡ", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -204,7 +207,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202308-4", name: "エレガンス・セッションペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_collabo-toaru-1", name: "とある科学と楯の乙女ペンダントEX交換券Ⅰ", link: false },
         { index: "exchange_pendant-ex_collabo-toaru-2", name: "とある科学と楯の乙女ペンダントEX交換券Ⅱ", link: false },
-        { index: "exchange_pendant-ex_202309-1", name: "竜の生まれた日ペンダントEX交換券Ⅰ", link: false }
+        { index: "exchange_pendant-ex_202309-1-1", name: "竜の生まれた日ペンダントEX交換券Ⅰ", link: false },
+        { index: "exchange_pendant-ex_202309-1-2", name: "竜の生まれた日ペンダントEX交換券Ⅱ", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_202309", name: "9月衣装引換券", link: true },
