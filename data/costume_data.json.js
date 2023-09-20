@@ -3949,6 +3949,51 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["ATK", 3000], ["DEF", 3000]],
         "ex": [["風UP", 5]]
+    },
+    {
+        "id": 440,
+        "chara": 18,
+        "yakuwari": 2,
+        "name": "マルチカラードフラワーα",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 441,
+        "chara": 19,
+        "yakuwari": 6,
+        "name": "マルチカラードフラワーα",
+        "percent": 15,
+        "parameter": [["Sp.DEF", 3000], ["Sp.ATK", 3000]],
+        "ex": [["火UP", 5]]
+    },
+    {
+        "id": 442,
+        "chara": 23,
+        "yakuwari": 4,
+        "name": "セレスティアルサマー",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP(ギガント限定)", 3], ["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 443,
+        "chara": 26,
+        "yakuwari": 2,
+        "name": "セレスティアルサマー",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP(ギガント限定)", 3], ["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 444,
+        "chara": 29,
+        "yakuwari": 7,
+        "name": "セレスティアルサマー",
+        "percent": 15,
+        "parameter": [["Sp.DEF", 3000], ["DEF", 3000]],
+        "ex": [["水UP(ギガント限定)", 5], ["水UP", 5]]
     }
     /*
     ,
