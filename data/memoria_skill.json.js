@@ -338,6 +338,11 @@ const skillJson = [
             "tag": [ {"fx": "通常ダメージ", "val": "大"}, {"fx": "ATK↑", "val": "中"} ]
         },
         {
+            "name": "マイトストライクE Ⅳ+",
+            "effect_detail": "敵2～3体に通常大ダメージを与え、自身のATKとDEFをアップさせる。",
+            "tag": [ {"fx": "通常ダメージ", "val": "大"}, {"fx": "ATK↑", "val": "中"}, {"fx": "DEF↑", "val": "中"} ]
+        },
+        {
             "name": "ガードブレイクB Ⅲ",
             "effect_detail": "敵1～2体に通常大ダメージを与え、敵のDEFをダウンさせる。",
             "tag": [ {"fx": "通常ダメージ", "val": "大"}, {"fx": "DEF↓", "val": "中"} ]
@@ -970,6 +975,11 @@ const skillJson = [
             "name": "Sp.ガードバーストE Ⅳ",
             "effect_detail": "敵2～3体に特殊大ダメージを与え、敵のSp.DEFをダウンさせる。",
             "tag": [ {"fx": "特殊ダメージ", "val": "大"}, {"fx": "Sp.DEF↓", "val": "中"} ]
+        },
+        {
+            "name": "Sp.マイトバーストE Ⅳ+",
+            "effect_detail": "敵2～3体に特殊大ダメージを与え、敵のSp.ATKとSp.DEFをダウンさせる。",
+            "tag": [ {"fx": "特殊ダメージ", "val": "大"}, {"fx": "Sp.ATK↓", "val": "中"}, {"fx": "Sp.DEF↓", "val": "中"} ]
         }
     ],
     [ /* 支援 */
@@ -1109,6 +1119,11 @@ const skillJson = [
             "tag": [ {"fx": "Sp.ATK↑", "val": "大"} ]
         },
         {
+            "name": "Sp.パワーアシストE Ⅳ",
+            "effect_detail": "味方2～3体のSp.ATKを大アップさせる。",
+            "tag": [ {"fx": "Sp.ATK↑", "val": "大"} ]
+        },
+        {
             "name": "水：Sp.パワーアシストB Ⅲ",
             "effect_detail": "味方1～2体のSp.ATKを大アップさせる。さらに味方がオーダースキル「水属性効果増加」を発動中は効果がアップする。",
             "tag": [ {"fx": "Sp.ATK↑", "val": "大"}, {"fx": "オーダー(水/効果アップ)", "val": "中"} ]
@@ -1182,6 +1197,11 @@ const skillJson = [
             "name": "Sp.ウォーターパワーアシストC Ⅲ",
             "effect_detail": "味方1～3体のSp.ATKと水属性攻撃力をアップさせる。",
             "tag": [ {"fx": "Sp.ATK↑", "val": "中"}, {"fx": "水属性攻撃力↑", "val": "中"} ]
+        },
+        {
+            "name": "Sp.ウォーターパワーアシストC Ⅳ",
+            "effect_detail": "味方1～3体のSp.ATKと水属性攻撃力を大アップさせる。",
+            "tag": [ {"fx": "Sp.ATK↑", "val": "大"}, {"fx": "水属性攻撃力↑", "val": "大"} ]
         },
         {
             "name": "Sp.ウィンドパワーアシストB Ⅱ",
@@ -1776,6 +1796,11 @@ const skillJson = [
             "tag": [ {"fx": "DEF↓", "val": "大"} ]
         },
         {
+            "name": "ガードフォールE Ⅳ",
+            "effect_detail": "敵2～3体のDEFを大ダウンさせる。",
+            "tag": [ {"fx": "DEF↓", "val": "大"} ]
+        },
+        {
             "name": "火：ガードフォールB Ⅲ",
             "effect_detail": "敵1～2体のDEFを大ダウンさせる。さらに味方がオーダースキル「火属性効果増加」を発動中は効果がアップする。",
             "tag": [ {"fx": "DEF↓", "val": "大"}, {"fx": "オーダー(火/効果アップ)", "val": "中"} ]
@@ -1823,6 +1848,11 @@ const skillJson = [
         {
             "name": "ウォーターガードフォールB Ⅲ",
             "effect_detail": "敵1～2体のDEFと水属性防御力を大ダウンさせる。",
+            "tag": [ {"fx": "DEF↓", "val": "大"}, {"fx": "水属性防御力↓", "val": "大"} ]
+        },
+        {
+            "name": "ウォーターガードフォールC Ⅳ",
+            "effect_detail": "敵1～3体のDEFと水属性防御力を大ダウンさせる。",
             "tag": [ {"fx": "DEF↓", "val": "大"}, {"fx": "水属性防御力↓", "val": "大"} ]
         },
         {
@@ -1909,6 +1939,11 @@ const skillJson = [
             "name": "Sp.ファイアガードフォールC Ⅲ",
             "effect_detail": "敵1～3体のSp.DEFと火属性防御力をダウンさせる。",
             "tag": [ {"fx": "Sp.DEF↓", "val": "中"}, {"fx": "火属性防御力↓", "val": "中"} ]
+        },
+        {
+            "name": "Sp.カウンターファイアガードフォールC Ⅳ",
+            "effect_detail": "敵1～3体のSp.DEFと火属性防御力を大ダウンさせる。さらに劣勢時は効果が1.5倍になる。",
+            "tag": [ {"fx": "Sp.DEF↓", "val": "大"}, {"fx": "火属性防御力↓", "val": "大"}, {"fx": "劣勢時効果UP", "val": "1.5倍"} ]
         },
         {
             "name": "Sp.ウォーターガードフォールB Ⅱ",
@@ -2266,6 +2301,11 @@ const skillJson = [
             "name": "Sp.ガードヒールD Ⅳ",
             "effect_detail": "味方2体のHPを大回復する。さらに味方のSp.DEFを小アップする。",
             "tag": [ {"fx": "味方回復", "val": "大"}, {"fx": "Sp.DEF↑", "val": "小"} ]
+        },
+        {
+            "name": "Sp.ガードヒールE Ⅳ",
+            "effect_detail": "味方2～3体のHPを大回復する。さらに味方のSp.DEFを小アップする。",
+            "tag": [ {"fx": "味方回復", "val": "中"}, {"fx": "Sp.DEF↑", "val": "小"} ]
         },
         {
             "name": "Sp.ファイアガードヒールC Ⅲ",
