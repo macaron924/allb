@@ -75,7 +75,9 @@ const itemByTypeJson = {
         { index: "memoria_628_evolution", name: "伝わる鼓動：ピース", link: false },
         { index: "memoria_628_awakening", name: "伝わる鼓動：ジェム", link: false },
         { index: "memoria_661_evolution", name: "楽しいを探して：ピース", link: false },
-        { index: "memoria_661_awakening", name: "楽しいを探して：ジェム", link: false }
+        { index: "memoria_661_awakening", name: "楽しいを探して：ジェム", link: false },
+        { index: "memoria_708_evolution", name: "ねこさんこちら：ピース", link: false },
+        { index: "memoria_708_awakening", name: "ねこさんこちら：ジェム", link: false }
     ],
     gacha_ticket: [ // ガチャチケット
         { index: "gacha-ticket_lily-passport", name: "リリィパスポート★5確定ガチャチケット", link: true },
@@ -231,6 +233,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_riri", name: "一柳梨璃衣装引換券", link: true },
         { index: "exchange_costume_mai", name: "吉村・Thi・梅衣装引換券", link: true },
         { index: "exchange_costume_kazuha", name: "相澤一葉衣装引換券", link: true },
+        { index: "exchange_costume_akari", name: "丹羽灯莉衣装引換券", link: true },
         { index: "exchange_costume_koukainama-202301", name: "公開生放送記念!!衣装交換チケット", link: true },
         { index: "exchange_costume_ririsama", name: "2.5周年リリサマ!!衣装引換券", link: true },
         { index: "exchange_costume_gigant", name: "ギガント級ヒュージ討伐衣装引換券", link: true },
@@ -260,6 +263,7 @@ const itemByTypeJson = {
         { index: "exchange_memoria_riri", name: "一柳梨璃メモリア引換券", link: true },
         { index: "exchange_memoria_mai", name: "吉村・Thi・梅メモリア引換券", link: true },
         { index: "exchange_memoria_kazuha", name: "相澤一葉★5メモリア引換券", link: true },
+        { index: "exchange_memoria_akari", name: "丹羽灯莉★5メモリア引換券", link: true },
         { index: "exchange_memoria-with-costume", name: "衣装付きメモリアコレクション引換券", link: true },
         { index: "exchange_memoria_zokusei-fire", name: "火属性★5メモリア引換券 (4月)", link: true },
         { index: "exchange_memoria_zokusei-wind", name: "風属性★5メモリア引換券 (4月)", link: true },
@@ -330,6 +334,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_emotional-5", name: "エモーショナルメモリアボーナスメダルⅤ", link: true },
         { index: "medal_bonus_emotional-6", name: "エモーショナルメモリアボーナスメダルⅥ", link: true },
         { index: "medal_bonus_emotional-7", name: "エモーショナルメモリアボーナスメダルⅦ", link: true },
+        { index: "medal_bonus_emotional-8", name: "エモーショナルメモリアボーナスメダルⅧ", link: true },
         { index: "medal_bonus_peta-max", name: "ペタMAXボーナスメダル", link: true },
         { index: "medal_bonus_gw", name: "ラスバれ！GWボーナスメダル", link: true },
         { index: "medal_bonus_premium", name: "プレミアボーナスメダル", link: true },
