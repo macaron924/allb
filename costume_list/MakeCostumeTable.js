@@ -177,7 +177,7 @@ for (let i = (costumeJson.length - 1); i >= 0; i--) {
 
 // 強調する基準
 const percentBorder = 15;
-const totalParameterBorder = 3000;
+const totalParameterBorder = 6000;
 
 // テーブル生成
 makeTable();
