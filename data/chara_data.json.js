@@ -102,7 +102,10 @@ const charaJson = [
     { "charaID": 101, "charaName": "黒子", "charaJump": "c8_kuroko" },
     { "charaID": 102, "charaName": "操祈", "charaJump": "c8_misaki" },
     { "charaID": 103, "charaName": "緋紅", "charaJump": "higure" },
-    { "charaID": 104, "charaName": "緋紅 (プレステスタ)", "charaJump": "" }
+    { "charaID": 104, "charaName": "緋紅 (プレステスタ)", "charaJump": "" },
+    { "charaID": 105, "charaName": "弥宏", "charaJump": "yahiro" },
+    { "charaID": 106, "charaName": "真", "charaJump": "shin" },
+    { "charaID": 107, "charaName": "夢結 (オーバークロック)", "charaJump": "" }
     /*
     ,
     { "charaID": , "charaName": "", "charaJump": "" }
