@@ -59,7 +59,9 @@ const itemByTypeJson = {
         { index: "costume_439_before", name: "苅谷緋紅/エレンスゲ標準制服", link: false },
         { index: "costume_439_pendant-ex", name: "緋紅/エレンスゲ標準制服のペンダントEX", link: false },
         { index: "costume_440_pendant-ex", name: "灯莉/マルチカラードフラワーαのペンダントEX", link: false },
-        { index: "costume_441_pendant-ex", name: "姫歌/マルチカラードフラワーαのペンダントEX", link: false }
+        { index: "costume_441_pendant-ex", name: "姫歌/マルチカラードフラワーαのペンダントEX", link: false },
+        { index: "costume_448_before", name: "早川弥宏/ピュアリティプロミス", link: false },
+        { index: "costume_448_pendant-ex", name: "弥宏/ピュアリティプロミスのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -170,7 +172,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_collabo-toaru-2", name: "とある科学と楯の乙女★5確定ガチャチケットⅡ", link: false },
         { index: "gacha-ticket_202309-event-1-1", name: "竜の生まれた日★5確定ガチャチケットⅠ", link: false },
         { index: "gacha-ticket_202309-event-1-2", name: "竜の生まれた日★5確定ガチャチケットⅡ", link: false },
-        { index: "gacha-ticket_202309-event-2", name: "サマー・フェアリーテール★5確定ガチャチケットⅢ", link: false }
+        { index: "gacha-ticket_202309-event-2", name: "サマー・フェアリーテール★5確定ガチャチケットⅢ", link: false },
+        { index: "gacha-ticket_202310-event-1", name: "双星のコントラスト★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -215,7 +218,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_collabo-toaru-2", name: "とある科学と楯の乙女ペンダントEX交換券Ⅱ", link: false },
         { index: "exchange_pendant-ex_202309-1-1", name: "竜の生まれた日ペンダントEX交換券Ⅰ", link: false },
         { index: "exchange_pendant-ex_202309-1-2", name: "竜の生まれた日ペンダントEX交換券Ⅱ", link: false },
-        { index: "exchange_pendant-ex_202309-2", name: "サマー・フェアリーテールⅢペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202309-2", name: "サマー・フェアリーテールⅢペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202310-1", name: "双星のコントラストペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_202309", name: "9月衣装引換券", link: true },
@@ -307,6 +311,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_202307", name: "ボーナスメダルⅦ", link: false },
         { index: "medal_bonus_202308", name: "ボーナスメダルⅧ", link: false },
         { index: "medal_bonus_202309", name: "ボーナスメダルⅨ", link: false },
+        { index: "medal_bonus_202310", name: "ボーナスメダルⅩ", link: false },
         { index: "medal_bonus_collabo-prisma-illya", name: "シスターズ・カラミティボーナスメダル", link: false },
         { index: "medal_bonus_collabo-madoka-magica", name: "マギカ☆ワンダーワールドボーナスメダル", link: false },
         { index: "medal_bonus_collabo-yuyuyu", name: "白百合の章ボーナスメダル", link: false },
@@ -369,6 +374,7 @@ const itemByTypeJson = {
         { index: "skill-lm-3", name: "切磋の記憶Ⅲ", link: false },
         { index: "skill-hojo-3", name: "錬成の記憶Ⅲ", link: false },
         { index: "skill-all-3", name: "武功の記憶Ⅲ", link: false },
-        { index: "skip-ticket", name: "スキップチケット", link: false }
+        { index: "skip-ticket", name: "スキップチケット", link: false },
+        { index: "charm_durandal_hy", name: "デュランダルSP.HY", link: false }
     ]
 }
