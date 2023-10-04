@@ -61,7 +61,8 @@ const itemByTypeJson = {
         { index: "costume_440_pendant-ex", name: "灯莉/マルチカラードフラワーαのペンダントEX", link: false },
         { index: "costume_441_pendant-ex", name: "姫歌/マルチカラードフラワーαのペンダントEX", link: false },
         { index: "costume_448_before", name: "早川弥宏/ピュアリティプロミス", link: false },
-        { index: "costume_448_pendant-ex", name: "弥宏/ピュアリティプロミスのペンダントEX", link: false }
+        { index: "costume_448_pendant-ex", name: "弥宏/ピュアリティプロミスのペンダントEX", link: false },
+        { index: "costume_449_pendant-ex", name: "楓/星花の浴衣αのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -298,6 +299,8 @@ const itemByTypeJson = {
         { index: "exchange_ultimate-select-kouei-2", name: "アルティメットメモリア後衛交換券", link: false },
         { index: "exchange_ultimate2-select-zenei", name: "2.5周年アルティメットメモリア前衛交換券", link: false },
         { index: "exchange_ultimate2-select-kouei", name: "2.5周年アルティメットメモリア後衛交換券", link: false },
+        // 新メモリア交換券
+        { index: "exchange_brand-new", name: "BRAND-NEW★5メモリア引換券", link: false },
         // その他
         { index: "exchange_emotional-sozai", name: "エモーショナルメモリア素材引換券", link: false },
         { index: "exchange_creators-gacha", name: "クリエイターズコラボガチャチケット引換券", link: false }
