@@ -320,8 +320,8 @@ const itemByTypeJson = {
         { index: "medal_bonus_collabo-prisma-illya", name: "シスターズ・カラミティボーナスメダル", link: false },
         { index: "medal_bonus_collabo-madoka-magica", name: "マギカ☆ワンダーワールドボーナスメダル", link: false },
         { index: "medal_bonus_collabo-yuyuyu", name: "白百合の章ボーナスメダル", link: false },
-        { index: "medal_bonus_collabo-yuyuyu-2", name: "絆の章ボーナスメダル", link: true },
-        { index: "medal_bonus_collabo-toaru", name: "とある科学と楯の乙女ボーナスメダル", link: true },
+        { index: "medal_bonus_collabo-yuyuyu-2", name: "絆の章ボーナスメダル", link: false },
+        { index: "medal_bonus_collabo-toaru", name: "とある科学と楯の乙女ボーナスメダル", link: false },
         { index: "medal_bonus_202212-costume", name: "衣装交換メダル12月", link: true },
         { index: "medal_bonus_202303-costume", name: "衣装交換メダル3月", link: true },
         { index: "medal_bonus_202304-costume", name: "衣装交換メダル4月", link: true },
@@ -350,7 +350,8 @@ const itemByTypeJson = {
         { index: "medal_bonus_premium", name: "プレミアボーナスメダル", link: true },
         { index: "medal_bonus_ririsama", name: "2.5周年リリサマ!!ボーナスメダル", link: true },
         { index: "medal_bonus_new-ch-gran-eple", name: "新章グラン・エプレ編ボーナスメダル", link: true },
-        { index: "medal_bonus_skill", name: "スキル特化メモリアボーナスメダル", link: true }
+        { index: "medal_bonus_skill", name: "スキル特化メモリアボーナスメダル", link: true },
+        { index: "medal_bonus_skill-202310", name: "スキル特化メモリアボーナスメダル10月", link: true }
     ],
     other: [
         { index: "coin_sell", name: "無垢なる黄金", link: false },
