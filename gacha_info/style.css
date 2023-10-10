@@ -138,6 +138,10 @@ tr>*:last-child {
     font-weight: normal;
 }
 
+.flex_gacha-item.no-display {
+    display: none;
+}
+
 .flex_gacha-item .mini-banner_img {
     height: 11rem;
 }

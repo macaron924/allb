@@ -53,6 +53,10 @@ function parameterFilter(costume) {
     let tag = costume['parameter'];
     let trueCount = 0;
     for (let j = 0; j < parameterSelectionArray.length; j++) {
+        if ((parameterSelectionArray[j][0] == "") && (parameterSelectionArray[j][1] == 0)) {
+            trueCount++;
+            continue;
+        }
         for (let i = 0; i < tag.length; i++) {
             if ((parameterSelectionArray[j][0] == "") && (tag[i][1] >= parameterSelectionArray[j][1])) {
                 trueCount++;
