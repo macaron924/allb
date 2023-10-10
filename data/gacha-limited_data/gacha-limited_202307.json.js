@@ -1210,3 +1210,5 @@ const gachaLimited202307 = [
         ]
     }
 ]
+
+gachaLimitedList.push( { ref: gachaLimited202307, index: 202307 } )

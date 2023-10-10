@@ -50,44 +50,47 @@ function getMedalLinks(medal) {
     return res;
 }
 
-for (let i = 0; i < gachaLimitedList.length; i++) {
-    
-    let list = gachaLimitedList[i]['ref'];/*
-    let year = 0;
-    let month = 0;*/
-    let str = gachaLimitedList[i]['str'];
-    let year = Math.floor(str/100);
-    let month = str - year * 100;
-    
+function makeContent() {
 
-    let group = document.createElement('div');
-    group.className = "gacha-group";
-    group.insertAdjacentHTML("beforeend", `<h2 class="title active"><span>▶</span> ${year}年${month}月</h2>`)
-
-    let flexBox = document.createElement('div');
-    flexBox.className = "flex_gacha-box active";
-
-    for (let j = 0; j < list.length; j++) {
-
-        let start = list[j]['start'];
-        let finish = list[j]['finish'];
-        let banners = getBanner(list[j]['gacha']);
-        let medal = getMedalLinks(list[j]['medal']);
+    for (let i = 0; i < gachaLimitedList.length; i++) {
+        
+        let list = gachaLimitedList[i]['ref'];
+        let index = gachaLimitedList[i]['index'];
+        let year = Math.floor(index/100);
+        let month = index - year * 100;
+        
     
-        let content = `
-        <div class="flex_gacha-item">
-            <table>
-                <tr><td colspan="2">${start} <br>～ ${finish}</td></tr>
-                ${banners}
-                ${medal}
-            </table>
-        </div>
-        `;
+        let group = document.createElement('div');
+        group.className = "gacha-group";
+        group.insertAdjacentHTML("beforeend", `<h2 class="title active"><span>▶</span> ${year}年${month}月</h2>`)
     
-        flexBox.insertAdjacentHTML("beforeend", content);
+        let flexBox = document.createElement('div');
+        flexBox.className = "flex_gacha-box active";
+    
+        for (let j = 0; j < list.length; j++) {
+    
+            let start = list[j]['start'];
+            let finish = list[j]['finish'];
+            let banners = getBanner(list[j]['gacha']);
+            let medal = getMedalLinks(list[j]['medal']);
+        
+            let content = `
+            <div class="flex_gacha-item">
+                <table>
+                    <tr><td colspan="2">${start} <br>～ ${finish}</td></tr>
+                    ${banners}
+                    ${medal}
+                </table>
+            </div>
+            `;
+        
+            flexBox.insertAdjacentHTML("beforeend", content);
+        }
+    
+        group.insertAdjacentElement("beforeend", flexBox)
+    
+        document.getElementById('content').insertAdjacentElement("beforeend", group)
     }
-
-    group.insertAdjacentElement("beforeend", flexBox)
-
-    document.getElementById('content').insertAdjacentElement("beforeend", group)
 }
+
+makeContent();

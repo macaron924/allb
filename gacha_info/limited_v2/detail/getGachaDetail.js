@@ -101,10 +101,10 @@ function addMemoriaList(memoriaArray) {
  * ガチャ情報開始日, 終了日, ボーナスメダル, 内容を取得する関数
  */
 function getGachaData(gachaSelection) {
-    let str = gachaSelection.substr(0, 6);
+    let index = gachaSelection.substr(0, 6);
     let list;
     for (let i = 0; i < gachaLimitedList.length; i++) {
-        if (gachaLimitedList[i]['str'] == str) list = gachaLimitedList[i]['ref'];
+        if (gachaLimitedList[i]['index'] == index) list = gachaLimitedList[i]['ref'];
     }
 
     for (let i = 0; i < list.length; i++) {
