@@ -841,8 +841,8 @@ const costumeJson = [
         "chara": 22,
         "yakuwari": 2,
         "name": "百合ヶ丘標準制服",
-        "percent": 12.5,
-        "parameter": [],
+        "percent": 15,
+        "parameter": [["ATK", 1500]],
         "ex": []
     },
     {
