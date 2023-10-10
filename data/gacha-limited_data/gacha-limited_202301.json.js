@@ -1454,4 +1454,4 @@ const gachaLimited202301 = [
     }
 ]
 
-gachaLimitedList.push( { ref: gachaLimited202301, index: 202301 } )
+gachaLimitedList.push( { ref: gachaLimited202301, index: 202301, active: false } )

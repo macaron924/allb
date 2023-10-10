@@ -58,14 +58,18 @@ function makeContent() {
         let index = gachaLimitedList[i]['index'];
         let year = Math.floor(index/100);
         let month = index - year * 100;
-        
+        let active = "";
+        if (gachaLimitedList[i]['active'] == true) {
+            active = "active";
+        }
     
         let group = document.createElement('div');
         group.className = "gacha-group";
-        group.insertAdjacentHTML("beforeend", `<h2 class="title active"><span>▶</span> ${year}年${month}月</h2>`)
+        group.insertAdjacentHTML("beforeend", `<h2 class="title ${active}"><span>▶</span> ${year}年${month}月</h2>`)
     
         let flexBox = document.createElement('div');
-        flexBox.className = "flex_gacha-box active";
+        flexBox.className = `flex_gacha-box ${active}`;
+        let type = "";
     
         for (let j = 0; j < list.length; j++) {
     
@@ -73,24 +77,28 @@ function makeContent() {
             let finish = list[j]['finish'];
             let banners = getBanner(list[j]['gacha']);
             let medal = getMedalLinks(list[j]['medal']);
-        
+            type = getMedalLinks(list[j]['type']);
+
+            let flexItem = document.createElement('div');
+            flexItem.className = "flex_gacha-item";
             let content = `
-            <div class="flex_gacha-item">
-                <table>
-                    <tr><td colspan="2">${start} <br>～ ${finish}</td></tr>
-                    ${banners}
-                    ${medal}
-                </table>
-            </div>
+            <table>
+                <tr><td colspan="2">${start} <br>～ ${finish}</td></tr>
+                ${banners}
+                ${medal}
+            </table>
             `;
+            flexItem.insertAdjacentHTML("beforeend", content);
         
-            flexBox.insertAdjacentHTML("beforeend", content);
+            gachaBoxList.push( { ref: flexItem, type: type, display: true } )
+            flexBox.insertAdjacentElement("beforeend", flexItem);
         }
-    
+
         group.insertAdjacentElement("beforeend", flexBox)
     
         document.getElementById('content').insertAdjacentElement("beforeend", group)
     }
 }
 
+let gachaBoxList = [];
 makeContent();
