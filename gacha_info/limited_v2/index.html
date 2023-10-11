@@ -30,8 +30,9 @@
         <script src="../../js/menu.js" defer></script>
         <script src="../OpenGachaGroup.js" defer></script>
         <script src="./getGachaList.js" defer></script>
+        <script src="./filterGacha.js" defer></script>
 
-        <title>ガチャ</title>
+        <title>ガチャ一覧 (機能追加試行版)</title>
     </head>
 
     <body>
@@ -39,8 +40,8 @@
         <script>writeHeader(2);</script>
         
         <main>
-            <h1 class="title">ガチャ</h1>
-            <!-- ガチャ種類絞り込み用ボタン
+            <h1 class="title">ガチャ一覧 (機能追加試行版)</h1>
+            <!-- ガチャ種類絞り込み用ボタン -->
             <br>
             <div class="flex_btn-box">
                 <div class="flex_btn-item"><input type="button" class="select-btn" onclick="" value="イベントガチャ"></div>
@@ -62,7 +63,8 @@
                 <div class="flex_btn-item"><input type="button" class="select-btn" onclick="" value="FEVERガチャ(50%)"></div>
                 <div class="flex_btn-item"><input type="button" class="select-btn" onclick="" value="ざくざくフェス"></div>
                 <div class="flex_btn-item"><input type="button" class="select-btn" onclick="" value="その他のガチャ"></div>
-            </div> -->
+            </div>
+            <h2>検索結果：<span id="resultCount">-</span>件</h2>
             <br>
             <div id="content"></div>
         </main>
