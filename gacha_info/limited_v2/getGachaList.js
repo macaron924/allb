@@ -51,6 +51,8 @@ function getMedalLinks(medal) {
 }
 
 function makeContent() {
+    // 検索結果件数を保存する変数
+    let resultCount = 0;
 
     for (let i = 0; i < gachaLimitedList.length; i++) {
         
@@ -77,7 +79,7 @@ function makeContent() {
             let finish = list[j]['finish'];
             let banners = getBanner(list[j]['gacha']);
             let medal = getMedalLinks(list[j]['medal']);
-            type = getMedalLinks(list[j]['type']);
+            type = list[j]['type'];
 
             let flexItem = document.createElement('div');
             flexItem.className = "flex_gacha-item";
@@ -92,12 +94,17 @@ function makeContent() {
         
             gachaBoxList.push( { ref: flexItem, type: type, display: true } )
             flexBox.insertAdjacentElement("beforeend", flexItem);
+            // 検索結果件数カウント
+            resultCount++;
         }
 
         group.insertAdjacentElement("beforeend", flexBox)
     
         document.getElementById('content').insertAdjacentElement("beforeend", group)
     }
+    
+    // 検索結果件数表示
+    document.getElementById('resultCount').replaceChildren(resultCount);
 }
 
 let gachaBoxList = [];
