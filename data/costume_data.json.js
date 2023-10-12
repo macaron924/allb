@@ -4039,6 +4039,33 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["ATK", 3000], ["DEF", 3000]],
         "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 450,
+        "chara": 69,
+        "yakuwari": 7,
+        "name": "サプライズハロウィン",
+        "percent": 15,
+        "parameter": [["Sp.DEF", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 5]]
+    },
+    {
+        "id": 451,
+        "chara": 70,
+        "yakuwari": 3,
+        "name": "サプライズハロウィン",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 452,
+        "chara": 68,
+        "yakuwari": 2,
+        "name": "サプライズハロウィン",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
     }
     /*
     ,
