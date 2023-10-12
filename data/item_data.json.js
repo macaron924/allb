@@ -126,6 +126,7 @@ const itemByTypeJson = {
         { index: "gacha-ticket_ririsama-3", name: "2.5周年ギガントウェーブ記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_lohengrin", name: "ローエングリン登場記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_cuelebre", name: "クエレブレ登場記念★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_halloween", name: "ハッピー！ハロウィン記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_hitotsuyanagi-tai_coupling", name: "一柳隊★5 100%!!カップリング2回ガチャチケット", link: true },
         { index: "gacha-ticket_emotional", name: "エモーショナルメモリア★5確定ガチャチケット", link: false },
         // イベントガチャチケット
@@ -174,7 +175,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202309-event-1-1", name: "竜の生まれた日★5確定ガチャチケットⅠ", link: false },
         { index: "gacha-ticket_202309-event-1-2", name: "竜の生まれた日★5確定ガチャチケットⅡ", link: false },
         { index: "gacha-ticket_202309-event-2", name: "サマー・フェアリーテール★5確定ガチャチケットⅢ", link: false },
-        { index: "gacha-ticket_202310-event-1", name: "双星のコントラスト★5確定ガチャチケット", link: false }
+        { index: "gacha-ticket_202310-event-1", name: "双星のコントラスト★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_202310-event-2", name: "モンスターズ・パニック★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -220,7 +222,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202309-1-1", name: "竜の生まれた日ペンダントEX交換券Ⅰ", link: false },
         { index: "exchange_pendant-ex_202309-1-2", name: "竜の生まれた日ペンダントEX交換券Ⅱ", link: false },
         { index: "exchange_pendant-ex_202309-2", name: "サマー・フェアリーテールⅢペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202310-1", name: "双星のコントラストペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202310-1", name: "双星のコントラストペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202310-2", name: "モンスターズ・パニックペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_202309", name: "9月衣装引換券", link: true },
