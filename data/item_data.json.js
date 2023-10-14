@@ -295,7 +295,6 @@ const itemByTypeJson = {
         { index: "exchange_event-gacha-special-2", name: "イベントガチャスペシャル交換券", link: true },
         { index: "exchange_event-gacha-special-gw", name: "ラスバれ！GWイベントガチャスペシャル交換券", link: true },
         { index: "exchange_event-gacha-special-ririsama", name: "2.5周年イベントガチャスペシャル交換券", link: true },
-        { index: "exchange_event-gacha-special-3", name: "イベントガチャスペシャル交換券", link: true },
         // アルティメット交換券
         { index: "exchange_ultimate-select-zenei", name: "アルティメットメモリア前衛交換券", link: false },
         { index: "exchange_ultimate-select-kouei", name: "アルティメットメモリア後衛交換券", link: false },
@@ -303,8 +302,6 @@ const itemByTypeJson = {
         { index: "exchange_ultimate-select-kouei-2", name: "アルティメットメモリア後衛交換券", link: false },
         { index: "exchange_ultimate2-select-zenei", name: "2.5周年アルティメットメモリア前衛交換券", link: false },
         { index: "exchange_ultimate2-select-kouei", name: "2.5周年アルティメットメモリア後衛交換券", link: false },
-        { index: "exchange_ultimate-select-zenei-3", name: "アルティメットメモリア前衛交換券", link: false },
-        { index: "exchange_ultimate-select-kouei-3", name: "アルティメットメモリア後衛交換券", link: false },
         // 新メモリア交換券
         { index: "exchange_brand-new", name: "BRAND-NEW★5メモリア引換券", link: false },
         // その他
@@ -356,7 +353,6 @@ const itemByTypeJson = {
         { index: "medal_bonus_premium", name: "プレミアボーナスメダル", link: true },
         { index: "medal_bonus_ririsama", name: "2.5周年リリサマ!!ボーナスメダル", link: true },
         { index: "medal_bonus_new-ch-gran-eple", name: "新章グラン・エプレ編ボーナスメダル", link: true },
-        { index: "medal_bonus_premium-2", name: "プレミアボーナスメダル", link: true },
         { index: "medal_bonus_skill", name: "スキル特化メモリアボーナスメダル", link: true },
         { index: "medal_bonus_skill-202310", name: "スキル特化メモリアボーナスメダル10月", link: true }
     ],
