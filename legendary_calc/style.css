@@ -1,0 +1,164 @@
+#calcu_form {
+    background: #ddf3fd;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#input, .info {
+    width: 60rem;
+    max-width: 100%;
+}
+
+#output {
+    width: (100% - 70rem);
+    max-width: 100%;
+}
+
+#calcu_form>div {
+    margin-bottom: 3rem;
+}
+
+dl dt {
+    padding: 0.5rem 0;
+    line-height: 4rem;
+    float: left;
+    padding-right: 1rem;
+}
+
+dl dd {
+    padding: 0.5rem 0;
+    line-height: 4rem;
+    padding-right: 3rem;
+}
+
+dl dd input.box {
+    width: 8rem;
+    text-align: center;
+}
+
+dl dd input.long-box {
+    width: 12rem;
+    text-align: right;
+}
+
+#day_output dl dd {
+    float: left;
+}
+
+#day_output dl dd:last-child {
+    float: initial;
+}
+
+#medal_output dl dd {
+    float: left;
+}
+
+#medal_output dl dd:last-child {
+    float: initial;
+}
+
+#calcu_form span {
+    padding: 1rem;
+}
+
+input, select {
+    border: 0.1rem solid #555555;
+    -webkit-appearance: auto;
+    appearance: auto;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.row_content {
+    padding: 0.5rem 0;
+}
+
+#goal_input {
+    width: 30rem;
+}
+
+#goal_input dd {
+    margin-left: 19rem;
+}
+
+#have_input {
+    width: 24rem;
+}
+
+#have_input dd {
+    margin-left: 9rem;
+}
+
+#calc-btn, .display-btn {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: 0.1rem solid #555555;
+}
+
+#calc-btn {
+    width: 10rem;
+    background-color: #00bfff;
+}
+
+#calc-btn.before-change {
+    background: #ffff99;
+}
+
+.display-btn.active {
+    background-color: #00bfff;
+}
+
+#calc-btn:hover {
+    cursor: pointer;
+}
+
+select {
+    height: 4rem;
+    padding: 0 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 1rem 0;
+}
+
+div.table {
+    margin-top: 1rem;
+    overflow: auto;
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 0.2rem solid #000000;
+}
+
+table th, table td {
+    border: 0.1rem solid #000000;
+    padding: 0.5rem;
+}
+
+table td {
+    text-align: right;
+}
+
+table th {
+    background: #ccf2ff;
+    color: #000000;
+}
+
+table tr.group-start td, table tr.group-start th {
+    border-top: 0.2rem solid #000000;
+}
+
+#need_table, #reward_table {
+    display: none;
+}
+
+#need_table.active, #reward_table.active {
+    display: block;
+}
