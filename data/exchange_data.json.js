@@ -28,7 +28,7 @@ const exchangeDataJson = [
         }
     },
     {
-        "index": "medal_bonus_skill-202310",
+        "index": "medal_bonus_skill_202310",
         "name": "スキル特化メモリアボーナスメダル10月",
         "type": "ボーナスメダル",
         "get": ["ガチャ"],
