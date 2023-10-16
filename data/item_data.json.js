@@ -366,6 +366,7 @@ const itemByTypeJson = {
         { index: "jewel", name: "マギジュエル", link: false },
         { index: "medal_memoria", name: "メモリアメダル", link: false },
         { index: "medal_order", name: "オーダーメダル", link: false },
+        { index: "medal_legendary-battle", name: "レジェンダリーバトルメダル", link: false },
         { index: "medal_pendant-normal", name: "ペンダントメダル", link: false },
         { index: "medal_pendant-premium", name: "プレミアムペンダントメダル", link: false },
         { index: "medal_pendant-royal", name: "ロイヤルペンダントメダル", link: false },

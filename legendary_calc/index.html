@@ -140,27 +140,33 @@
                     <input type="button" id="calc-btn" onclick="calc();" value="計算">
                     <div class="table" id="goal_table">
                         <table>
-                            <tr><th></th><th>個数</th><th>メダル</th><th>パーツⅣ</th><th>パーツⅢ</th><th>パーツⅡ</th><th>パーツⅠ</th></tr>
-                            <tr><th>1ST CHARM</th><td id="goal_charm_1st"></td><td id="goal_medal_charm_1st"></td><td id="goal_parts4_charm_1st"></td><td id="goal_parts3_charm_1st"></td><td id="goal_parts2_charm_1st"></td><td id="goal_parts1_charm_1st"></td></tr>
+                            <tr><th></th><th></th><th>個数</th><th>メダル</th><th>パーツⅣ</th><th>パーツⅢ</th><th>パーツⅡ</th><th>パーツⅠ</th></tr>
+                            <tr class="group-start"><th rowspan="3">＋</th><th>所持</th><td></td><td id="have_medal"></td><td id="have_parts4"></td><td id="have_parts3"></td><td id="have_parts2"></td><td id="have_parts1"></td></tr>
+                            <tr><th>入手</th><td></td><td id="get_medal"></td><td id="get_parts4"></td><td id="get_parts3"></td><td id="get_parts2"></td><td id="get_parts1"></td></tr>
+                            <tr class="important"><th>入手後の所持</th><td></td><td id="after_medal"></td><td id="after_parts4"></td><td id="after_parts3"></td><td id="after_parts2"></td><td id="after_parts1"></td></tr>
+                            <tr class="group-start"><th rowspan="10">－</th><th>1ST CHARM</th><td id="goal_charm_1st"></td><td id="goal_medal_charm_1st"></td><td id="goal_parts4_charm_1st"></td><td id="goal_parts3_charm_1st"></td><td id="goal_parts2_charm_1st"></td><td id="goal_parts1_charm_1st"></td></tr>
                             <tr><th>2ND CHARM</th><td id="goal_charm_2nd"></td><td id="goal_medal_charm_2nd"></td><td id="goal_parts4_charm_2nd"></td><td id="goal_parts3_charm_2nd"></td><td id="goal_parts2_charm_2nd"></td><td id="goal_parts1_charm_2nd"></td></tr>
                             <tr><th>強化版 2ND CHARM</th><td id="goal_charm_2nd_fc01"></td><td id="goal_medal_charm_2nd_fc01"></td><td id="goal_parts4_charm_2nd_fc01"></td><td id="goal_parts3_charm_2nd_fc01"></td><td id="goal_parts2_charm_2nd_fc01"></td><td id="goal_parts1_charm_2nd_fc01"></td></tr>
                             <tr><th>制服のペンダントLv.1</th><td id="goal_costume_1st_lv1"></td><td id="goal_medal_costume_1st_lv1"></td><td id="goal_parts4_costume_1st_lv1"></td><td id="goal_parts3_costume_1st_lv1"></td><td id="goal_parts2_costume_1st_lv1"></td><td id="goal_parts1_costume_1st_lv1"></td></tr>
                             <tr><th>制服のペンダントLv.2</th><td id="goal_costume_1st_lv2"></td><td id="goal_medal_costume_1st_lv2"></td><td id="goal_parts4_costume_1st_lv2"></td><td id="goal_parts3_costume_1st_lv2"></td><td id="goal_parts2_costume_1st_lv2"></td><td id="goal_parts1_costume_1st_lv2"></td></tr>
-                            <tr class="group-start"><th>必要合計</th><td></td><td id="goal_medal"></td><td id="goal_parts4"></td><td id="goal_parts3"></td><td id="goal_parts2"></td><td id="goal_parts1"></td></tr>
-                            <tr><th>所持</th><td></td><td id="have_medal"></td><td id="have_parts4"></td><td id="have_parts3"></td><td id="have_parts2"></td><td id="have_parts1"></td></tr>
-                            <tr><th>獲得合計</th><td></td><td id="get_medal"></td><td id="get_parts4"></td><td id="get_parts3"></td><td id="get_parts2"></td><td id="get_parts1"></td></tr>
-                            <tr><th>獲得後合計</th><td></td><td id="after_medal"></td><td id="after_parts4"></td><td id="after_parts3"></td><td id="after_parts2"></td><td id="after_parts1"></td></tr>
+                            <tr class="important"><th>必要 (交換を除く)</th><td></td><td id="goal_medal"></td><td id="goal_parts4"></td><td id="goal_parts3"></td><td id="goal_parts2"></td><td id="goal_parts1"></td></tr>
                             <tr class="group-start"><th>不足</th><td></td><td id="lack_medal"></td><td id="lack_parts4"></td><td id="lack_parts3"></td><td id="lack_parts2"></td><td id="lack_parts1"></td></tr>
+                            <tr><th>余り</th><td></td><td id="over_medal"></td></tr>
                             <tr><th>交換</th><td></td><td id="exchange_medal"></td><td id="exchange_parts4"></td><td id="exchange_parts3"></td><td id="exchange_parts2"></td><td id="exchange_parts1"></td></tr>
+                            <tr class="important"><th>交換合計</th><td></td><td id="exchange_need"></td></tr>
+                            <tr class="group-start"><th>＝</th><th>不足/余りメダル</th><td colspan="6" id="exchange_lack"></td></tr>
                         </table>
                     </div>
-                    <div id="day_output">
-                        <dl>
-                            <dt>余りメダル：</dt>
+                    <div id="medal_output">
+                        <!-- <dl>
+                            <dt>交換前の余りメダル：</dt>
                             <dd><span id="over_medal">-</span></dd>
-                            <dt>不足交換：</dt>
-                            <dd><span id="lack">-</span></dd>
                         </dl>
+                        <dl>
+                            <dt>＝</dt>
+                            <dd><span id="exchange_need">-</span></dd>
+                            <dd><span id="exchange_lack">-</span></dd>
+                        </dl> -->
                     </div>
                 </div>
                 <div class="info">

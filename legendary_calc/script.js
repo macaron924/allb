@@ -146,24 +146,40 @@ function calc() {
 
     // 不足分のメダル交換
     let exchange_need = 0;
+    let over_medal = 0;
+    let lack_reward = {};
     for (let i = 0; i < reward_index.length; i++) {
+        lack_reward[reward_index[i]] = goal_reward[reward_index[i]] - after_reward[reward_index[i]];
+        if (lack_reward[reward_index[i]] < 0) {
+            document.getElementById(`lack_${reward_index[i]}`).innerText = 0;
+        } else {
+            document.getElementById(`lack_${reward_index[i]}`).innerText = lack_reward[reward_index[i]];
+        }
         if (reward_index[i] != 'medal') {
-            let lack = goal_reward[reward_index[i]] - after_reward[reward_index[i]];
             let exchange = 0;
-            if (lack > 0) {
-                exchange = medal_ratio[reward_index[i]] * lack;
-                exchange_need += exchange;
-            } else {
-                lack = 0;
-            }
-            document.getElementById(`lack_${reward_index[i]}`).innerText = lack;
+            if (lack_reward[reward_index[i]] < 0) lack_reward[reward_index[i]] = 0;
+            exchange = medal_ratio[reward_index[i]] * lack_reward[reward_index[i]];
+            exchange_need += exchange;
             document.getElementById(`exchange_${reward_index[i]}`).innerText = exchange;
         } else {
-            let over_medal = after_reward[reward_index[i]] - goal_reward[reward_index[i]];
-            document.getElementById('over_medal').innerText = over_medal;
+            over_medal = lack_reward[reward_index[i]] * -1;
+            if (lack_reward[reward_index[i]] < 0) {
+                document.getElementById('over_medal').innerText = over_medal;
+            } else {
+                document.getElementById('over_medal').innerText = 0;
+            }
         }
     }
-    document.getElementById('lack').innerText = exchange_need;
+    document.getElementById('exchange_need').innerText = exchange_need;
+    
+    let exchange_lack = goal_reward['medal'] + exchange_need - after_reward['medal'];
+    if (exchange_lack < 0) {
+        document.getElementById('exchange_lack').innerText = exchange_lack * -1 + " 余り";
+        document.getElementById('exchange_lack').className = "plus";
+    } else {
+        document.getElementById('exchange_lack').innerText = exchange_lack + " 不足";
+        document.getElementById('exchange_lack').className = "minus";
+    }
     
     document.getElementById("calc-btn").className = "";
     document.getElementById("calc-btn").value = "反映済み";
