@@ -6,18 +6,12 @@
     justify-content: left;
 }
 
-#input, .info {
-    width: 60rem;
-    max-width: 100%;
-}
-
-#output {
-    width: (100% - 70rem);
-    max-width: 100%;
-}
-
 #calcu_form>div {
     margin-bottom: 3rem;
+}
+
+#calcu_form span {
+    padding: 1rem;
 }
 
 dl dt {
@@ -43,32 +37,32 @@ dl dd input.long-box {
     text-align: right;
 }
 
-#day_output dl dd {
-    float: left;
-}
-
-#day_output dl dd:last-child {
-    float: initial;
-}
-
-#medal_output dl dd {
-    float: left;
-}
-
-#medal_output dl dd:last-child {
-    float: initial;
-}
-
-#calcu_form span {
-    padding: 1rem;
-}
-
 input, select {
     border: 0.1rem solid #555555;
     -webkit-appearance: auto;
     appearance: auto;
     background-color: #ffffff;
     cursor: pointer;
+    height: 4rem;
+    padding: 0 1rem;
+}
+
+#input, .info {
+    width: 64rem;
+    max-width: 100%;
+}
+
+#output {
+    width: (100% - 70rem);
+    max-width: 100%;
+}
+
+#day_output dl dd, #medal_output dl dd {
+    float: left;
+}
+
+#day_output dl dd:last-child , #medal_output dl dd:last-child {
+    float: initial;
 }
 
 .row_content {
@@ -76,19 +70,19 @@ input, select {
 }
 
 #goal_input {
-    width: 30rem;
+    width: 31rem;
 }
 
 #goal_input dd {
-    margin-left: 19rem;
+    margin-left: 20rem;
 }
 
 #have_input {
-    width: 24rem;
+    width: 25rem;
 }
 
 #have_input dd {
-    margin-left: 9rem;
+    margin-left: 10rem;
 }
 
 #calc-btn, .display-btn {
@@ -108,15 +102,6 @@ input, select {
 
 .display-btn.active {
     background-color: #00bfff;
-}
-
-#calc-btn:hover {
-    cursor: pointer;
-}
-
-select {
-    height: 4rem;
-    padding: 0 1rem;
 }
 
 .row {
@@ -153,6 +138,37 @@ table th {
 
 table tr.group-start td, table tr.group-start th {
     border-top: 0.2rem solid #000000;
+}
+
+table tr.group-end td, table tr.group-end th {
+    border-bottom: 0.2rem solid #000000;
+}
+
+table tr.important td, table tr.important th {
+    background: #ffff99;
+    border-bottom: 0.2rem solid #000000;
+}
+
+#goal_table tr:last-child th {
+    padding: 2rem 0.5rem;
+}
+
+#goal_table tr:last-child td {
+    font-size: 2rem;
+    padding: 1.6rem 0.5rem;
+    padding-left: 2rem;
+}
+
+#exchange_lack {
+    text-align: left;
+}
+
+#exchange_lack.plus {
+    color: #0000cc;
+}
+
+#exchange_lack.minus {
+    color: #cc0000;
 }
 
 #need_table, #reward_table {
