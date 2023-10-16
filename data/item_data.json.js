@@ -62,7 +62,8 @@ const itemByTypeJson = {
         { index: "costume_441_pendant-ex", name: "姫歌/マルチカラードフラワーαのペンダントEX", link: false },
         { index: "costume_448_before", name: "早川弥宏/ピュアリティプロミス", link: false },
         { index: "costume_448_pendant-ex", name: "弥宏/ピュアリティプロミスのペンダントEX", link: false },
-        { index: "costume_449_pendant-ex", name: "楓/星花の浴衣αのペンダントEX", link: false }
+        { index: "costume_449_pendant-ex", name: "楓/星花の浴衣αのペンダントEX", link: false },
+        { index: "costume_453_pendant-ex", name: "一葉/ブリッツアングリフαのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -307,6 +308,7 @@ const itemByTypeJson = {
         { index: "exchange_ultimate-select-kouei-3", name: "アルティメットメモリア後衛交換券", link: false },
         // 新メモリア交換券
         { index: "exchange_brand-new", name: "BRAND-NEW★5メモリア引換券", link: false },
+        { index: "exchange_brand-new_202310-2", name: "BRAND-NEW★5メモリア引換券10月Ⅱ", link: false },
         // その他
         { index: "exchange_emotional-sozai", name: "エモーショナルメモリア素材引換券", link: false },
         { index: "exchange_creators-gacha", name: "クリエイターズコラボガチャチケット引換券", link: false }
@@ -358,7 +360,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_new-ch-gran-eple", name: "新章グラン・エプレ編ボーナスメダル", link: true },
         { index: "medal_bonus_premium-2", name: "プレミアボーナスメダル", link: true },
         { index: "medal_bonus_skill", name: "スキル特化メモリアボーナスメダル", link: true },
-        { index: "medal_bonus_skill-202310", name: "スキル特化メモリアボーナスメダル10月", link: true }
+        { index: "medal_bonus_skill_202310", name: "スキル特化メモリアボーナスメダル10月", link: true }
     ],
     other: [
         { index: "coin_sell", name: "無垢なる黄金", link: false },
