@@ -26,6 +26,7 @@ function writeHeader(depth) {
                 <li><a href="${path_prefix}order_list/"><h1>order</h1></a></li>
                 <li><a href="${path_prefix}gacha_info/"><h1>gacha</h1></a></li>
                 <li><a href="${path_prefix}exchange_info/"><h1>exchange</h1></a></li>
+                <li><a href="${path_prefix}legendary_calc/"><h1>legendary</h1></a></li>
                 <li><a href="${path_prefix}other_info/"><h1>other</h1></a></li>
             </ul>
         </div>
