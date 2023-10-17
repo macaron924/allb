@@ -28,16 +28,17 @@
                         <dl>
                             <dt>開始：</dt>
                             <dd>
-                                <input type="number" class="box" id="year1" onchange="inputChange()">年
-                                <input type="number" class="box" id="month1" onchange="inputChange()">月
-                                <input type="number" class="box" id="date1" onchange="inputChange()">日
+                                <input type="number" class="box" id="year1">年
+                                <input type="number" class="box" id="month1">月
+                                <input type="number" class="box" id="date1">日
                                 <nobr>　(<span id="day1">-</span>曜日)</nobr>
+                                <nobr><label for="already_get">既に受け取り済みの場合チェック→ </label><input type="checkbox" id="already_get"></nobr>
                             </dd>
                             <dt>終了：</dt>
                             <dd>
-                                <input type="number" class="box" id="year2" onchange="inputChange()">年
-                                <input type="number" class="box" id="month2" onchange="inputChange()">月
-                                <input type="number" class="box" id="date2" onchange="inputChange()">日
+                                <input type="number" class="box" id="year2">年
+                                <input type="number" class="box" id="month2">月
+                                <input type="number" class="box" id="date2">日
                                 <nobr>　(<span id="day2">-</span>曜日)</nobr>
                             </dd>
                         </dl>
@@ -54,9 +55,9 @@
                         <dl>
                             <dt>往復：</dt>
                             <dd>
-                                <select id="oufuku" onchange="inputChange()">
-                                    <option value="0">なし</option>
-                                    <option value="1">あり</option>
+                                <select id="oufuku">
+                                    <option value="0">しない</option>
+                                    <option value="1">する</option>
                                 </select>
                             </dd>
                         </dl>
@@ -65,14 +66,14 @@
                         <dl>
                             <dt>①</dt>
                             <dd>
-                                <select id="grade1" onchange="inputChange()">
+                                <select id="grade1">
                                     <option value="S">S</option>
                                     <option value="A">A</option>
                                     <option value="B">B</option>
                                     <option value="C">C</option>
                                     <option value="D">D</option>
                                 </select>
-                                <select id="ranking1" onchange="inputChange()">
+                                <select id="ranking1">
                                     <option value="r10">1～10</option>
                                     <option value="r100">～100</option>
                                     <option value="r1000">～1000</option>
@@ -85,14 +86,14 @@
                         <dl>
                             <dt>②</dt>
                             <dd>
-                                <select id="grade2" onchange="inputChange()">
+                                <select id="grade2">
                                     <option value="S">S</option>
                                     <option value="A">A</option>
                                     <option value="B">B</option>
                                     <option value="C">C</option>
                                     <option value="D">D</option>
                                 </select>
-                                <select id="ranking2" onchange="inputChange()">
+                                <select id="ranking2">
                                     <option value="r10">1～10</option>
                                     <option value="r100">～100</option>
                                     <option value="r1000">～1000</option>
@@ -108,30 +109,30 @@
                             <h3>目標</h3>
                             <dl>
                                 <dt>1ST CHARM：</dt>
-                                <dd><input type="number" class="box" id="input_goal_charm_1st" onchange="inputChange()" value="0"></dd>
+                                <dd><input type="number" class="box" id="input_goal_charm_1st" value="0"></dd>
                                 <dt>2ND CHARM：</dt>
-                                <dd><input type="number" class="box" id="input_goal_charm_2nd" onchange="inputChange()" value="0"></dd>
+                                <dd><input type="number" class="box" id="input_goal_charm_2nd" value="0"></dd>
                                 <dt>強化版 2ND CHARM：</dt>
-                                <dd><input type="number" class="box" id="input_goal_charm_2nd_fc01" onchange="inputChange()" value="0"></dd>
+                                <dd><input type="number" class="box" id="input_goal_charm_2nd_fc01" value="0"></dd>
                                 <dt>制服のペンダントLv.1：</dt>
-                                <dd><input type="number" class="box" id="input_goal_costume_1st_lv1" onchange="inputChange()" value="0"></dd>
+                                <dd><input type="number" class="box" id="input_goal_costume_1st_lv1" value="0"></dd>
                                 <dt>制服のペンダントLv.2：</dt>
-                                <dd><input type="number" class="box" id="input_goal_costume_1st_lv2" onchange="inputChange()" value="0"></dd>
+                                <dd><input type="number" class="box" id="input_goal_costume_1st_lv2" value="0"></dd>
                             </dl>
                         </div>
                         <div class="row_content" id="have_input">
                             <h3>所持</h3>
                             <dl>
                                 <dt>メダル：</dt>
-                                <dd><input type="number" class="long-box" id="input_have_medal" onchange="inputChange()" value="0"></dd>
+                                <dd><input type="number" class="long-box" id="input_have_medal" value="0"></dd>
                                 <dt>パーツⅣ：</dt>
-                                <dd><input type="number" class="long-box" id="input_have_parts4" onchange="inputChange()" value="0"></dd>
+                                <dd><input type="number" class="long-box" id="input_have_parts4" value="0"></dd>
                                 <dt>パーツⅢ：</dt>
-                                <dd><input type="number" class="long-box" id="input_have_parts3" onchange="inputChange()" value="0"></dd>
+                                <dd><input type="number" class="long-box" id="input_have_parts3" value="0"></dd>
                                 <dt>パーツⅡ：</dt>
-                                <dd><input type="number" class="long-box" id="input_have_parts2" onchange="inputChange()" value="0"></dd>
+                                <dd><input type="number" class="long-box" id="input_have_parts2" value="0"></dd>
                                 <dt>パーツⅠ：</dt>
-                                <dd><input type="number" class="long-box" id="input_have_parts1" onchange="inputChange()" value="0"></dd>
+                                <dd><input type="number" class="long-box" id="input_have_parts1" value="0"></dd>
                             </dl>
                         </div>
                     </div>
@@ -156,17 +157,6 @@
                             <tr class="important"><th>交換合計</th><td></td><td id="exchange_need"></td></tr>
                             <tr class="group-start"><th>＝</th><th>不足/余りメダル</th><td colspan="6" id="exchange_lack"></td></tr>
                         </table>
-                    </div>
-                    <div id="medal_output">
-                        <!-- <dl>
-                            <dt>交換前の余りメダル：</dt>
-                            <dd><span id="over_medal">-</span></dd>
-                        </dl>
-                        <dl>
-                            <dt>＝</dt>
-                            <dd><span id="exchange_need">-</span></dd>
-                            <dd><span id="exchange_lack">-</span></dd>
-                        </dl> -->
                     </div>
                 </div>
                 <div class="info">
