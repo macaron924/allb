@@ -39,12 +39,40 @@ dl dd input.long-box {
 
 input, select {
     border: 0.1rem solid #555555;
+    border-radius: 0;
     -webkit-appearance: auto;
     appearance: auto;
     background-color: #ffffff;
     cursor: pointer;
     height: 4rem;
     padding: 0 1rem;
+}
+
+input.error, select.error {
+    background-color: #ffff00;
+}
+
+#calc-btn, .display-btn {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: 0.1rem solid #555555;
+}
+
+#calc-btn {
+    width: 10rem;
+    background-color: #00bfff;
+}
+
+#calc-btn.before-change {
+    background: #ffff99;
+}
+
+#calc-btn.error {
+    background: #ffff00;
+}
+
+.display-btn.active {
+    background-color: #00bfff;
 }
 
 #input, .info {
@@ -57,11 +85,11 @@ input, select {
     max-width: 100%;
 }
 
-#day_output dl dd, #medal_output dl dd {
+#day_output dl dd {
     float: left;
 }
 
-#day_output dl dd:last-child , #medal_output dl dd:last-child {
+#day_output dl dd:last-child {
     float: initial;
 }
 
@@ -83,25 +111,6 @@ input, select {
 
 #have_input dd {
     margin-left: 10rem;
-}
-
-#calc-btn, .display-btn {
-    margin: 0.5rem 0;
-    padding: 1rem;
-    border: 0.1rem solid #555555;
-}
-
-#calc-btn {
-    width: 10rem;
-    background-color: #00bfff;
-}
-
-#calc-btn.before-change {
-    background: #ffff99;
-}
-
-.display-btn.active {
-    background-color: #00bfff;
 }
 
 .row {
@@ -145,7 +154,7 @@ table tr.group-end td, table tr.group-end th {
 }
 
 table tr.important td, table tr.important th {
-    background: #ffff99;
+    background: #86e1ff;
     border-bottom: 0.2rem solid #000000;
 }
 
