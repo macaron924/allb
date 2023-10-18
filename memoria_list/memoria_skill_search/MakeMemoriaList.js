@@ -56,36 +56,64 @@ function stringToNumber(str) {
     return -1;
 }
 
-function existInYakuwariArray(yakuwari) {
-    for (let i = 0; i < yakuwariArray.length; i++) {
-        if (yakuwari == yakuwariArray[i]) return i;
+function zokuseiButtonPushAction(zokusei) {
+    for (let i = 0; i < zokuseiArray.length; i++) {
+        if (zokusei == zokuseiArray[i]) {
+            zokuseiArray.splice(i, 1);
+            return i;
+        }
     }
+    zokuseiArray.push(zokusei);
+    return -1;
+}
+
+function legendaryButtonPushAction(legendary) {
+    for (let i = 0; i < legendaryArray.length; i++) {
+        if (legendary == legendaryArray[i]) {
+            legendaryArray.splice(i, 1);
+            return i;
+        }
+    }
+    legendaryArray.push(legendary);
     return -1;
 }
 
 function yakuwariButtonPushAction(yakuwari) {
-    let i = existInYakuwariArray(yakuwari);
-    if (i >= 0) {
-        yakuwariArray.splice(i, 1);
-    } else {
-        yakuwariArray.push(yakuwari);
+    for (let i = 0; i < yakuwariArray.length; i++) {
+        if (yakuwari == yakuwariArray[i]) {
+            yakuwariArray.splice(i, 1);
+            return i;
+        }
     }
-}
-
-function existInRangeArray(range) {
-    for (let i = 0; i < rangeArray.length; i++) {
-        if (range == rangeArray[i]) return i;
-    }
+    yakuwariArray.push(yakuwari);
     return -1;
 }
 
 function rangeButtonPushAction(range) {
-    let i = existInRangeArray(range);
-    if (i >= 0) {
-        rangeArray.splice(i, 1);
-    } else {
-        rangeArray.push(range);
+    for (let i = 0; i < rangeArray.length; i++) {
+        if (range == rangeArray[i]) {
+            rangeArray.splice(i, 1);
+            return i;
+        }
     }
+    rangeArray.push(range);
+    return -1;
+}
+
+function zokuseiFilter(zokusei) {
+    if (zokuseiArray.length == 0) return true;
+    for (let i = 0; i < zokuseiArray.length; i++) {
+        if (zokusei == zokuseiArray[i]) return true;
+    }
+    return false;
+}
+
+function legendaryFilter(legendary) {
+    if (legendaryArray.length == 0) return true;
+    for (let i = 0; i < legendaryArray.length; i++) {
+        if (legendary == legendaryArray[i]) return true;
+    }
+    return false;
 }
 
 function yakuwariFilter(yakuwari) {
@@ -238,12 +266,18 @@ function skillFilter() {
 }
 
 // 個別の条件をまとめて真偽を返す関数
-function allFilter(yakuwari, skillArray, skillRefArray) {
+function allFilter(zokusei, legendary, yakuwari, skillArray, skillRefArray) {
 
-    // まず役割でフィルター
+    // まずレジェンダリーでフィルター
+    if (legendaryFilter(legendary) == false) return false;
+
+    // 属性でフィルター
+    if (zokuseiFilter(zokusei) == false) return false;
+
+    // 役割でフィルター
     if (yakuwariFilter(yakuwari) == false) return false;
 
-    // 次にスキル効果範囲
+    // スキル効果範囲
     let skillName = skillArray[modeSelection];
     if (rangeFilter(skillName) == false) return false;
 
@@ -358,14 +392,16 @@ function filter() {
     for (let i = 0; i < memoriaJsonCopy.length; i++) {
         for (let j = 0; j < memoriaJsonCopy[i]['skill'].length; j++) {
 
-            let yakuwari = memoriaJsonCopy[i]['yakuwari'][j];
-            let skill = memoriaJsonCopy[i]['skill'][j];
+            let zokusei = memoriaJsonCopy[i]['zokusei'];
+            let legendary = memoriaJsonCopy[i]['legendary'];
+            let yakuwari = memoriaJsonCopy[i]['skill'][j]['yakuwari'];
+            let skill = memoriaJsonCopy[i]['skill'][j]['name'];
             let skillRef = memoriaJsonCopy[i]['skillRef'][j];
     
             // 対応tr参照
             const tr = memoriaJsonCopy[i]["tr"][j]
     
-            if (allFilter(yakuwari, skill, skillRef)/*allFilter(yakuwari, skill)*/ == true) {
+            if (allFilter(zokusei, legendary, yakuwari, skill, skillRef) == true) {
                 // 検索結果件数カウント
                 resultCount++;
                 // 表示
@@ -389,40 +425,58 @@ function makeTable() {
     
     // ヘッダーを作成
     let tr = document.createElement('tr');
-    // td要素を生成
+    // th要素を生成
     let thId = document.createElement('th');
     let thName = document.createElement('th');
-    let thVshugeName = document.createElement('th');
-    let thVshugeDetail = document.createElement('th');
-    let thLmName = document.createElement('th');
-    let thLmDetail = document.createElement('th');
-    let thHojoName = document.createElement('th');
-    let thHojoDetail = document.createElement('th');
+    let thYakuwari = document.createElement('th');
+    let thVshuge = document.createElement('th');
+    //let thVshugeName = document.createElement('th');
+    //let thVshugeDetail = document.createElement('th');
+    let thLm = document.createElement('th');
+    //let thLmName = document.createElement('th');
+    //let thLmDetail = document.createElement('th');
+    let thHojo = document.createElement('th');
+    //let thHojoName = document.createElement('th');
+    //let thHojoDetail = document.createElement('th');
     // 各スキル列のclass
-    thVshugeName.className = "vshugeRow";
-    thVshugeDetail.className = "vshugeRow";
-    thLmName.className = "lmRow";
-    thLmDetail.className = "lmRow";
-    thHojoName.className = "hojoRow";
-    thHojoDetail.className = "hojoRow";
+    thVshuge.className = "vshugeRow";
+    thVshuge.colSpan = 2;
+    //thVshugeName.className = "vshugeRow";
+    //thVshugeDetail.className = "vshugeRow";
+    thLm.className = "lmRow";
+    thLm.colSpan = 2;
+    //thLmName.className = "lmRow";
+    //thLmDetail.className = "lmRow";
+    thHojo.className = "hojoRow";
+    thHojo.colSpan = 2;
+    //thHojoName.className = "hojoRow";
+    //thHojoDetail.className = "hojoRow";
     // th要素内にテキストを追加
     thId.textContent = "サムネイル";
     thName.textContent = "メモリア名";
-    thVshugeName.textContent = "対ヒュージスキル名";
-    thVshugeDetail.textContent = "対ヒュージスキル効果";
-    thLmName.textContent = "レギオンマッチスキル名";
-    thLmDetail.textContent = "レギオンマッチスキル効果";
-    thHojoName.textContent = "レギオンマッチ補助スキル名";
-    thHojoDetail.textContent = "レギオンマッチ補助スキル効果";
+    thYakuwari.textContent = "役割";
+    thVshuge.textContent = "対ヒュージスキル";
+    //thVshugeName.textContent = "対ヒュージスキル名";
+    //thVshugeDetail.textContent = "対ヒュージスキル効果";
+    thLm.textContent = "レギオンマッチスキル";
+    //thLmName.textContent = "レギオンマッチスキル名";
+    //thLmDetail.textContent = "レギオンマッチスキル効果";
+    thHojo.textContent = "レギオンマッチ補助スキル";
+    //thHojoName.textContent = "レギオンマッチ補助スキル名";
+    //thHojoDetail.textContent = "レギオンマッチ補助スキル効果";
     // th要素をtr要素の子要素に追加
     tr.appendChild(thId);
     tr.appendChild(thName);
-    tr.appendChild(thVshugeName);
-    tr.appendChild(thVshugeDetail);
-    tr.appendChild(thLmName);
-    tr.appendChild(thLmDetail);
-    tr.appendChild(thHojoName);
-    tr.appendChild(thHojoDetail);
+    tr.appendChild(thYakuwari);
+    tr.appendChild(thVshuge);
+    //tr.appendChild(thVshugeName);
+    //tr.appendChild(thVshugeDetail);
+    tr.appendChild(thLm);
+    //tr.appendChild(thLmName);
+    //tr.appendChild(thLmDetail);
+    tr.appendChild(thHojo);
+    //tr.appendChild(thHojoName);
+    //tr.appendChild(thHojoDetail);
     // tr要素をtable要素の子要素に追加
     table.appendChild(tr);
 
@@ -433,8 +487,9 @@ function makeTable() {
     for (let i = (memoriaJsonCopy.length - 1); i >= 0; i--) {
         for (let j = 0; j < memoriaJsonCopy[i]['skill'].length; j++) {
 
-            let yakuwari = memoriaJsonCopy[i]['yakuwari'][j];
             let skill = memoriaJsonCopy[i]['skill'][j];
+            let skill_names = skill['name'];
+            let skill_yakuwari = skill['yakuwari'];
 
             // 検索結果件数カウント
             resultCount++;
@@ -444,6 +499,7 @@ function makeTable() {
             // td要素を生成
             let tdId = document.createElement('td');
             let tdName = document.createElement('td');
+            let tdYakuwari = document.createElement('td');
             let tdVshugeName = document.createElement('td');
             let tdVshugeDetail = document.createElement('td');
             let tdLmName = document.createElement('td');
@@ -462,43 +518,53 @@ function makeTable() {
             img.src = "../../images/memoria/memoria_" + memoriaJsonCopy[i]['id'] + ".png";
             img.height = 80;
             img.loading = "lazy";
+            let yakuwari_icon = document.createElement('img');
+            yakuwari_icon.src = "../../images/icon/yakuwari_" + skill_yakuwari + ".png";
+            yakuwari_icon.height = 40;
+            yakuwari_icon.loading = "lazy";
             // 画像
             tdId.appendChild(img);
             // メモリア名
             tdName.textContent = memoriaJsonCopy[i]['name'];
+            // 役割アイコン
+            tdYakuwari.appendChild(yakuwari_icon);
             // 対ヒュージスキル
-            let vshuge = getSkillInfoFromName(yakuwari, skill[0]);
+            let vshuge_name = skill_names[0];
+            let vshuge = getSkillInfoFromName(skill_yakuwari, vshuge_name);
             tdVshugeName.classList.add('skill_name');
             if (vshuge == "") {
-                tdVshugeName.innerHTML = "<nobr>" + skill[0] + "</nobr><br>" + "";
+                tdVshugeName.innerHTML = "<nobr>" + vshuge_name + "</nobr><br>" + "";
                 tdVshugeDetail.innerHTML = "";
             } else {
-                tdVshugeName.innerHTML = "<nobr>" + skill[0] + "</nobr><br>" + vshuge['effect_detail'];
+                tdVshugeName.innerHTML = "<nobr>" + vshuge_name + "</nobr><br>" + vshuge['effect_detail'];
                 tdVshugeDetail.innerHTML = createSkillDetailFromName(vshuge['tag']);
             }
             // レギマスキル
-            let lm = getSkillInfoFromName(yakuwari, skill[1]);
+            let lm_name = skill_names[1];
+            let lm = getSkillInfoFromName(skill_yakuwari, lm_name);
             tdLmName.classList.add('skill_name');
             if (lm == "") {
-                tdLmName.innerHTML = "<nobr>" + skill[1] + "</nobr><br>" + "";
+                tdLmName.innerHTML = "<nobr>" + lm_name + "</nobr><br>" + "";
                 tdLmDetail.innerHTML = "";
             } else {
-                tdLmName.innerHTML = "<nobr>" + skill[1] + "</nobr><br>" + lm['effect_detail'];
+                tdLmName.innerHTML = "<nobr>" + lm_name + "</nobr><br>" + lm['effect_detail'];
                 tdLmDetail.innerHTML = createSkillDetailFromName(lm['tag']);
             }
             // 補助スキル
-            let hojo = getHojoSkillInfoFromName(skill[2]);
+            let hojo_name = skill_names[2];
+            let hojo = getHojoSkillInfoFromName(hojo_name);
             tdHojoName.classList.add('skill_name');
             if (hojo == "") {
-                tdHojoName.innerHTML = "<nobr>" + skill[2] + "</nobr><br>" + "";
+                tdHojoName.innerHTML = "<nobr>" + hojo_name + "</nobr><br>" + "";
                 tdHojoDetail.innerHTML = "";
             } else {
-                tdHojoName.innerHTML = "<nobr>" + skill[2] + "</nobr><br>" + hojo['effect_detail'];
+                tdHojoName.innerHTML = "<nobr>" + hojo_name + "</nobr><br>" + hojo['effect_detail'];
                 tdHojoDetail.innerHTML = createHojoSkillDetailFromName(hojo['tag']);
             }
             // td要素をtr要素の子要素に追加
             tr.appendChild(tdId);
             tr.appendChild(tdName);
+            tr.appendChild(tdYakuwari);
             tr.appendChild(tdVshugeName);
             tr.appendChild(tdVshugeDetail);
             tr.appendChild(tdLmName);
@@ -538,6 +604,8 @@ for (let i = 0; i < hojoJsonCopy.length; i++) {
 
 let modeSelection = 1;
 let dualDisplay = true;
+let zokuseiArray = [];
+let legendaryArray = [];
 let yakuwariArray = [];
 let rangeArray = [];
 let damageSelection = 0;

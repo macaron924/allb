@@ -17,6 +17,14 @@
         <link rel="stylesheet" href="../../css/style.css">
         <link rel="stylesheet" href="../style.css">
         <link rel="stylesheet" href="./style.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+        <script src="../../js/menu.js" defer></script>
+        <script src="../../data/memoria_data.json.js" defer></script>
+        <script src="../../data/memoria_skill.json.js" defer></script>
+        <script src="../../data/memoria_hojo.json.js" defer></script>
+        <script src="./MakeMemoriaList.js" defer></script>
+
         <title>メモリアスキル検索</title>
     </head>
 
@@ -38,6 +46,19 @@
                     </select>
                     <input type="checkbox" id="dual-display" checked>
                     <label for="dual-display">両方表示</label>
+                </div>
+                <div class="flex_btn-box">
+                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="legendaryButtonPushAction('ガチャ');" value="ガチャ産L"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="legendaryButtonPushAction('リーグ');" value="リーグ報酬L"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="legendaryButtonPushAction('レギオンボックスガチャ');" value="レギオンボックスガチャ交換L"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="legendaryButtonPushAction('');" value="レジェンダリー以外"></div>
+                </div>
+                <div class="flex_btn-box">
+                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('1');" value="火"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('2');" value="水"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('3');" value="風"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('4');" value="光"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('5');" value="闇"></div>
                 </div>
                 <div class="flex_btn-box">
                     <div class="flex_btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(1);" value="通常単体"></div>
@@ -78,7 +99,7 @@
                     </select>
                 </div>
                 <div>
-                    <label for="effect1">バフ・デバフ①</label>
+                    <label for="effect1-type">バフ・デバフ①</label>
                     <select id="effect1-type">
                         <option value="">(対象を選択)</option>
                         <option value="ATK↑">ATK↑</option>
@@ -121,7 +142,7 @@
                     </select>
                 </div>
                 <div>
-                    <label for="effect2">バフ・デバフ②</label>
+                    <label for="effect2-type">バフ・デバフ②</label>
                     <select id="effect2-type">
                         <option value="">(対象を選択)</option>
                         <option value="ATK↑">ATK↑</option>
@@ -187,6 +208,8 @@
                         <option value="味方の水属性防御力が高いほどUP">味方の水属性防御力が高いほどUP</option>
                         <option value="味方の風属性防御力が高いほどUP">味方の風属性防御力が高いほどUP</option>
                         <option value="敵の火属性攻撃力が低いほどUP">敵の火属性攻撃力が低いほどUP</option>
+                        <option value="敵の水属性攻撃力が低いほどUP">敵の水属性攻撃力が低いほどUP</option>
+                        <option value="敵の風属性攻撃力が低いほどUP">敵の風属性攻撃力が低いほどUP</option>
                         <option value="敵の火属性防御力が低いほどUP">敵の火属性防御力が低いほどUP</option>
                         <option value="敵の水属性防御力が低いほどUP">敵の水属性防御力が低いほどUP</option>
                         <option value="敵の風属性防御力が低いほどUP">敵の風属性防御力が低いほどUP</option>
@@ -196,7 +219,7 @@
                 <hr>
                 <br>
                 <div>
-                    <label for="hojo1">補助スキル①</label>
+                    <label for="hojo1-type">補助スキル①</label>
                     <select id="hojo1-type">
                         <option value="">(対象を選択)</option>
                         <option value="ATK↑">ATK↑</option>
@@ -236,7 +259,7 @@
                     </select>
                 </div>
                 <div>
-                    <label for="hojo2">補助スキル②</label>
+                    <label for="hojo2-type">補助スキル②</label>
                     <select id="hojo2-type">
                         <option value="">(対象を選択)</option>
                         <option value="ATK↑">ATK↑</option>
@@ -285,13 +308,6 @@
             <div id ="maintable" class="all"></div>
         </main>
 
-        <script src="../../js/footer.js"></script>
-
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="../../js/menu.js"></script>
-        <script src="../../data/memoria_data.json.js"></script>
-        <script src="../../data/memoria_skill.json.js"></script>
-        <script src="../../data/memoria_hojo.json.js"></script>
-        <script src="./MakeMemoriaList.js"></script>
+        <script src="../../js/footer.js" defer></script>
     </body>
 </html>
