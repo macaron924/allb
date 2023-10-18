@@ -348,6 +348,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_202306-season", name: "リリィズシーズンガチャメダル6月", link: true },
         { index: "medal_bonus_202307-season", name: "リリィズシーズンガチャメダル7月", link: true },
         { index: "medal_bonus_202308-season", name: "リリィズシーズンガチャメダル8月", link: true },
+        { index: "medal_bonus_202310-season", name: "リリィズシーズンガチャメダル10月", link: true },
         { index: "medal_bonus_emotional-4", name: "エモーショナルメモリアボーナスメダルⅣ", link: true },
         { index: "medal_bonus_emotional-5", name: "エモーショナルメモリアボーナスメダルⅤ", link: true },
         { index: "medal_bonus_emotional-6", name: "エモーショナルメモリアボーナスメダルⅥ", link: true },

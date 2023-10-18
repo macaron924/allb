@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="ja">
     <head>
         <meta http-equiv="content-type" charset="UTF-8">
@@ -16,6 +16,13 @@
         <link rel="stylesheet" href="../css/menu.css">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="./style.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+        <script src="../js/menu.js" defer></script>
+        <script src="../data/costume_data.json.js" defer></script>
+        <script src="../data/chara_data.json.js" defer></script>
+        <script src="./MakeCostumeTable.js" defer></script>
+
         <title>キャラ・役割表</title>
     </head>
 
@@ -25,8 +32,8 @@
 
         <main>
             <h1 class="title">キャラ・役割表</h1>
-            <h2><a href="./season-costume.html">季節衣装の表はこちら</a></h2>
-            <h2><a href="./costume_search/">衣装検索ツールはこちら</a></h2>
+            <h2><a href="./season-costume.html">季節衣装の表</a></h2>
+            <h2><a href="./costume_search/">衣装検索ツール</a></h2>
             <br>
             <div>
                 <input type="button" id="chara-open-btn" class="active" value="キャラJUMP MENU ON/OFF">
@@ -177,11 +184,5 @@
         </main>
 
         <script src="../js/footer.js"></script>
-
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="../js/menu.js"></script>
-        <script src="../data/costume_data.json.js"></script>
-        <script src="../data/chara_data.json.js"></script>
-        <script src="./MakeCostumeTable.js"></script>
     </body>
 </html>
