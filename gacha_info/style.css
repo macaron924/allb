@@ -244,11 +244,11 @@ tr>*:last-child {
     display: none;
 }
 
-.gacha-group .flex_gacha-box.active {
+.gacha-group.active .flex_gacha-box {
     display: flex;
 }
 
-.gacha-group .title.active span {
+.gacha-group.active .title span {
     display: inline-block;
     transform: rotate(90deg);
 }
