@@ -18,42 +18,60 @@ $("#mode-check").click(function () { // モード選択ボタンがクリック�
     filter(); // 即座にfilter実行
 });
 
-// キャラ選択ボタンが押された時
-function charaButtonPushAction(charaId) { 
-    let i = existInSelection(charaId); // 押したものがあるかどうか、あれば位置を返す
-    if (i >= 0) { // あった
-        selectionArray.splice(i, 1); // それを削除
-    } else { // 無かった(-1だった)
-        selectionArray.push(charaId); // 追加
+// イラストタイプ選択ボタンが押された時
+function typeButtonPushAction(type) { 
+    for (let i = 0; i < typeSelectionArray.length; i++) { // 指定したタイプが既に選択されてるかどうか
+        if (type == typeSelectionArray[i]) {
+            typeSelectionArray.splice(i, 1); // あったらそれを削除
+            filter();
+            return i;
+        }
     }
+    typeSelectionArray.push(type); // 無かったら追加
     filter();
-}
-
-// 指定したキャラが既に選択されてるかどうか
-function existInSelection(charaId) {
-    for (let i = 0; i < selectionArray.length; i++) {
-        if (charaId == selectionArray[i]) return i; // あればその位置を返す
-    }
     return -1; // 無ければ-1を返す
 }
 
+// キャラ選択ボタンが押された時
+function charaButtonPushAction(charaId) { 
+    for (let i = 0; i < charaSelectionArray.length; i++) { // 指定したキャラが既に選択されてるかどうか
+        if (charaId == charaSelectionArray[i]) {
+            charaSelectionArray.splice(i, 1); // あったらそれを削除
+            filter();
+            return i;
+        }
+    }
+    charaSelectionArray.push(charaId); // 無かったら追加
+    filter();
+    return -1; // 無ければ-1を返す
+}
+
+// タイプでフィルター
+function typeFilter(type) {
+    if (typeSelectionArray.length == 0) return true;
+    for (let i = 0; i < typeSelectionArray.length; i++) {
+        if (type == typeSelectionArray[i]) return true;
+    }
+    return false;
+}
+
 // 選択したキャラがそのメモリアに全員いるか
-function searchFromArray(memoriaCharaArray) {
+function charaFilter(memoriaCharaArray) {
 
     // 配列の長さが0ならtrue
-    if (selectionArray.length == 0) return true;
+    if (charaSelectionArray.length == 0) return true;
 
     // 選択キャラ"のみ"のメモリアを探すモードオンの時
     if (onlymode == true) {
         // 選択数とメモリアキャラ数が一致しないときfalse
-        if (memoriaCharaArray.length != selectionArray.length) return false;
+        if (memoriaCharaArray.length != charaSelectionArray.length) return false;
     }
 
     // 各メモリアに対し，指定キャラが見つからないときfalse
-    for (let j = 0; j < selectionArray.length; j++) {
+    for (let j = 0; j < charaSelectionArray.length; j++) {
         let flag = false
         for (let i = 0; i < memoriaCharaArray.length; i++) {
-            if (selectionArray[j] == memoriaCharaArray[i]) {
+            if (charaSelectionArray[j] == memoriaCharaArray[i]) {
                 flag = true;
                 break;
             }
@@ -94,11 +112,20 @@ function filter() {
     for (let i = 0; i < memoriaJsonCopy.length; i++) {
 
         // メモリアキャラ取得
-        const memoriaCharaArray = memoriaJsonCopy[i]['chara'];
+        const type = memoriaJsonCopy[i]['illustration']['type'];
+        const memoriaCharaArray = memoriaJsonCopy[i]['illustration']['chara'];
         // 対応tr参照
         const tr = memoriaJsonCopy[i]["tr"]
 
-        if (searchFromArray(memoriaCharaArray) == true) {
+        let judge = false;
+
+        if (typeFilter(type) == true) {
+            if (charaFilter(memoriaCharaArray) == true) {
+                judge = true;
+            }
+        }
+
+        if (judge == true) {
             // 検索結果件数カウント
             resultCount++;
             // 表示
@@ -143,7 +170,7 @@ function makeTable() {
     for (let i = 0; i < memoriaJsonCopy.length; i++) {
         
         // メモリアキャラ取得
-        memoriaCharaArray = memoriaJsonCopy[i]['chara'];
+        memoriaCharaArray = memoriaJsonCopy[i]['illustration']['chara'];
         
         // 検索結果件数カウント
         resultCount++;
@@ -185,5 +212,6 @@ for (let i = 0; i < memoriaJsonCopy.length; i++) {
     memoriaJsonCopy[i]["tr"] = "";
 }
 makeTable();
-let selectionArray = [];
+let charaSelectionArray = [];
+let typeSelectionArray = [];
 let onlymode = false

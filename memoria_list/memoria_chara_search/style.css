@@ -62,11 +62,12 @@
 
 .select-btn {
     background-color: #eee;
-    width: 10rem;
+    min-width: 10rem;
     height: 3rem;
     border: 0.1rem solid #333;
     border-radius: 0.5rem;
     margin: 0.2rem;
+    padding: 0.5rem 1rem;
 }
 
 .select-btn:hover {
