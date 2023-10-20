@@ -15,7 +15,7 @@ function getBanner(gacha) {
 }
 
 function getMedalName(medal) {
-    let medalName = "アイテム";
+    let medalName = "";
     let link = false;
     let medals = itemByTypeJson['medal_bonus'];
     for (let i = 0; i < medals.length; i++) {
@@ -34,8 +34,10 @@ function getMedalLinks(medal) {
             
     let [medalName, link] = getMedalName(medal);
 
-    // リンクがある場合のみ付加
-    if (link == true) {
+    if (medalName == "") { // メダル無し
+        medalImg = ``;
+        medalName = ``;
+    } else if (link == true) { // リンクがある場合のみ付加
         medalImg = `<a href="../../exchange_info/content/?index=${medal}">${medalImg}</a>`;
         medalName = `<a href="../../exchange_info/content/?index=${medal}">${medalName}</a>`;
     }
@@ -67,7 +69,7 @@ function makeContent() {
     
         let group = document.createElement('div');
         group.className = `gacha-group ${active}`;
-        group.insertAdjacentHTML("beforeend", `<h2 class="title"><span>▶</span> ${year}年${month}月</h2>`)
+        group.insertAdjacentHTML("beforeend", `<h2 class="title"><span>▶</span> ${year}年${month}月</h2>`);
     
         let flexBox = document.createElement('div');
         flexBox.className = `flex_gacha-box`;
