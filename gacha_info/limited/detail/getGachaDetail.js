@@ -3,7 +3,7 @@
  */
 function getItemName(item) {
     let itemImg = "";
-    let itemName = "";
+    let itemName = "アイテム";
     let link = "";
     let items;
 
