@@ -1,4 +1,4 @@
-$(document).on('click', '.title', function() {//タイトル要素をクリックしたら
+$(document).on('click', '.gacha-group .title', function() {//タイトル要素をクリックしたら
 	$(this).parent().toggleClass('active');// 自身にもactiveクラスを付与
 });
 
