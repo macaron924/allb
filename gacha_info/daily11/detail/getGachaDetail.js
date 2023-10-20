@@ -101,11 +101,7 @@ function addMemoriaList(memoriaArray) {
  * ガチャ情報開始日, 終了日, ボーナスメダル, 内容を取得する関数
  */
 function getGachaData(gachaSelection) {
-    let index = gachaSelection.substr(0, 6);
-    let list;
-    for (let i = 0; i < gachaLimitedList.length; i++) {
-        if (gachaLimitedList[i]['index'] == index) list = gachaLimitedList[i]['ref'];
-    }
+    let list = gachaDaily11;
 
     for (let i = 0; i < list.length; i++) {
         for (let j = 0; j < list[i]['gacha'].length; j++) {
@@ -371,10 +367,6 @@ if (thisGacha == "") {  // 指定ガチャが見つからなかった
     document.getElementById("title").textContent = gachaName;
 
     // 情報書き込み
-    writeBanner();
-    writeStartFinish();
-    writeGachaBonus();
-    writeBonusTable();
     writeTotalRatio()
     writeLineupNotice()
     writeLineup();
