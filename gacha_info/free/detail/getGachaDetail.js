@@ -125,7 +125,7 @@ function getGachaData(gachaSelection) {
 function writeBanner() {
 
     if (thisGacha['big_banner'] == true) banner = `<img class="banner-big_img" src="../../../images/banner_big/${thisGacha['index']}_big.png">`;
-    else banner = `<img class="banner_img" src="../../../images/banner/${thisGacha['index']}.png">`;
+    else banner = `<img class="banner_img" src="../../../images/banner/${thisGacha['index']}.jpg">`;
 
     document.getElementById("banner").insertAdjacentHTML("beforeend", banner);
 }
