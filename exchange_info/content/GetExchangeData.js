@@ -30,7 +30,7 @@ function addMemoriaList(memoriaArray) {
         // flexitemを生成
         let flexitem = document.createElement('div');
         flexitem.className = "flex_test-item";
-        flexitem.innerHTML = `<img src="../../images/memoria/memoria_${id}.png" loading="lazy"><br>${getMemoriaName(id)}`;
+        flexitem.innerHTML = `<img src="../../images/memoria/memoria_${id}.jpg" loading="lazy"><br>${getMemoriaName(id)}`;
 
         // flexitemをflexboxの子要素に追加
         flexbox.appendChild(flexitem);
@@ -72,7 +72,7 @@ function addCostumeList(costumeArray) {
         // flexitemを生成
         let flexitem = document.createElement('div');
         flexitem.className = "flex_test-item";
-        flexitem.innerHTML = `<img src="../../images/costume/costume_${id}.png" loading="lazy"><br>${getCostumeChara(id)} / ${getCostumeName(id)}`;
+        flexitem.innerHTML = `<img src="../../images/costume/costume_${id}.jpg" loading="lazy"><br>${getCostumeChara(id)} / ${getCostumeName(id)}`;
 
         // flexitemをflexboxの子要素に追加
         flexbox.appendChild(flexitem);
@@ -107,7 +107,7 @@ function addItemList(itemArray) {
         // flexitemを生成
         let flexitem = document.createElement('div');
         flexitem.className = "flex_test-item";
-        let content = `<img src="../../images/item/${id}.png" loading="lazy"><br>${getItemName(id)}`;
+        let content = `<img src="../../images/item/${id}.jpg" loading="lazy"><br>${getItemName(id)}`;
         let link = getItemLink(id);
         if (link != "") content = `<a href="../../gacha_info/${link}">${content}</a>`;
         flexitem.innerHTML = content;
@@ -144,8 +144,7 @@ function addGetWay() {
 function addNotices() {
     let topics = "";
     for (let i = 0; i < thisMedal['notice'].length; i++) {
-        if (i == 0) topics += `<br>`;
-        topics += `${thisMedal['notice'][i]}<br>`;
+        topics += `${thisMedal['notice'][i]}<br><br>`;
     }
     document.getElementById('lineup').insertAdjacentHTML('beforeend', topics);
 }

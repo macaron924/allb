@@ -178,7 +178,7 @@ function makeInnerTable(thisCostume) {
     let td11 = document.createElement('td');
     td11.rowSpan = "4";
     let img = document.createElement('img');
-    img.src = "../../images/costume/costume_" + thisCostume['id'] + ".png";
+    img.src = "../../images/costume/costume_" + thisCostume['id'] + ".jpg";
     img.loading = "lazy";
     td11.appendChild(img);
     tr1.appendChild(td11);

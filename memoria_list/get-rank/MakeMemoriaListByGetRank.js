@@ -156,7 +156,7 @@ function addMemoriaList(memoriaArray) {
         // flexitemを生成
         let flexitem = document.createElement('div');
         flexitem.className = "flex_test-item";
-        flexitem.innerHTML = `<img src="../../images/memoria/memoria_${id}.png" loading="lazy"><br>${getMemoriaName(id)}`;
+        flexitem.innerHTML = `<img src="../../images/memoria/memoria_${id}.jpg" loading="lazy"><br>${getMemoriaName(id)}`;
 
         // flexitemをflexboxの子要素に追加
         flexbox.appendChild(flexitem);
