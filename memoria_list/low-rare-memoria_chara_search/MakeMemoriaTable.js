@@ -74,7 +74,7 @@ function getCharaImg(memoriaCharaArray) {
 
         // サムネ画像要素の追加
         let img = document.createElement('img');
-        img.src = "../../images/chara/chara_" + memoriaCharaArray[i] + ".png"
+        img.src = "../../images/chara/chara_" + memoriaCharaArray[i] + ".jpg"
         img.height = 80;
         img.loading = "lazy";
 
@@ -156,7 +156,7 @@ function makeTable() {
         let tdChara = document.createElement('td');
         // サムネ画像要素の追加
         let img = document.createElement('img');
-        img.src = "../../images/low-rare-memoria/low-rare-memoria_" + lowRareMemoriaJsonCopy[i]['id'] + ".png"
+        img.src = "../../images/low-rare-memoria/low-rare-memoria_" + lowRareMemoriaJsonCopy[i]['id'] + ".jpg"
         img.height = 80;
         img.loading = "lazy";
         // td要素内にテキストを追加

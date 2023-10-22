@@ -8,7 +8,7 @@ for (let i = 0; i < exchangeDataJson.length; i++) {
     content = `
     <div class="flex_medal-item">
         <table>
-            <tr><td><a href="./content/?index=${exchangeDataJson[i]['index']}"><img src="../images/item/${exchangeDataJson[i]['index']}.png"></a></td>
+            <tr><td><a href="./content/?index=${exchangeDataJson[i]['index']}"><img src="../images/item/${exchangeDataJson[i]['index']}.jpg"></a></td>
                 <td><a href="./content/?index=${exchangeDataJson[i]['index']}">${exchangeDataJson[i]['name']}</a></td></tr>
         </table>
     </div>
