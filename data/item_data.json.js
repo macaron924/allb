@@ -177,7 +177,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202309-event-1-2", name: "竜の生まれた日★5確定ガチャチケットⅡ", link: false },
         { index: "gacha-ticket_202309-event-2", name: "サマー・フェアリーテール★5確定ガチャチケットⅢ", link: false },
         { index: "gacha-ticket_202310-event-1", name: "双星のコントラスト★5確定ガチャチケット", link: false },
-        { index: "gacha-ticket_202310-event-2", name: "モンスターズ・パニック★5確定ガチャチケット", link: false }
+        { index: "gacha-ticket_202310-event-2", name: "モンスターズ・パニック★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_202310-event-3", name: "ゴシック・ノスタルジカ★5確定ガチャチケットⅠ", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -224,7 +225,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202309-1-2", name: "竜の生まれた日ペンダントEX交換券Ⅱ", link: false },
         { index: "exchange_pendant-ex_202309-2", name: "サマー・フェアリーテールⅢペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202310-1", name: "双星のコントラストペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202310-2", name: "モンスターズ・パニックペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202310-2", name: "モンスターズ・パニックペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202310-3", name: "ゴシック・ノスタルジカⅠペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_202309", name: "9月衣装引換券", link: true },
@@ -248,6 +250,8 @@ const itemByTypeJson = {
         { index: "exchange_costume_ririsama", name: "2.5周年リリサマ!!衣装引換券", link: true },
         { index: "exchange_costume_gigant", name: "ギガント級ヒュージ討伐衣装引換券", link: true },
         { index: "exchange_costume_gigant_202308", name: "ギガント級ヒュージ討伐衣装引換券 (8月)", link: true },
+        { index: "exchange_costume_gigant_202309", name: "ギガント級ヒュージ討伐衣装引換券 (9月)", link: true },
+        { index: "exchange_costume_gigant_202310", name: "ギガント級ヒュージ討伐衣装引換券 (10月)", link: true },
         { index: "exchange_costume_ririsama-1", name: "GO!GO!スプラッシュ衣装引換券", link: true },
         { index: "exchange_costume_ririsama-2", name: "トロピカルナイト衣装引換券", link: true },
         { index: "exchange_costume_ririsama-3", name: "ギガントウェーブ衣装引換券", link: true }
