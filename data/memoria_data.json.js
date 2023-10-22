@@ -8974,7 +8974,7 @@ const memoriaJson = [
         zokusei: 2,
         legendary: "",
         illustration: { type: "クリエイターズコラボ", chara: [3, 1] },
-        get_rank: "C (推定)",
+        get_rank: "季節 (推定)",
         category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/10/3～)", c3: [""] },
         skill: [
            { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "カウンターパワーストライクB Ⅲ", "攻:ダメージUP/パワーUP Ⅲ"] },
@@ -9074,5 +9074,74 @@ const memoriaJson = [
            { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "Sp.カウンターファイアパワーアシストC Ⅳ", "援:支援UP Ⅳ"] },
            { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "Sp.カウンターパワースマッシュB Ⅲ", "攻:ダメージUP Ⅳ"] }
         ]
+    },
+    {
+        id: 720,
+        name: "廃墟のアンティークドール",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "", chara: [9] },
+        get_rank: "B (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "ゴシック・ノスタルジカ ―失われた刻を探して― / ギガント級ヒュージ討伐 (2023/10/22～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "Sp.ファイアパワースマッシュB Ⅲ+", "攻:Sp.パワーUP Ⅲ"] },
+           { yakuwari: 6, name: ["Sp.ガードフォールC Ⅳ", "Sp.ファイアガードフォールC Ⅳ", "援:Sp.ガードDOWN/副援:火ガードDOWN Ⅲ"] }
+        ]
+    },
+    {
+        id: 721,
+        name: "掲げし長針と短針",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "", chara: [53] },
+        get_rank: "B (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "ゴシック・ノスタルジカ ―失われた刻を探して― / ギガント級ヒュージ討伐 (2023/10/22～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "ファイアパワーストライクB Ⅲ+", "攻:パワーUP Ⅲ"] },
+           { yakuwari: 5, name: ["パワーアシストC Ⅳ", "ファイアパワーアシストC Ⅳ", "援:パワーUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 722,
+        name: "瓦礫の街に咲いてこそ",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "", chara: [20] },
+        get_rank: "B (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "ゴシック・ノスタルジカ ―失われた刻を探して― / ギガント級ヒュージ討伐 (2023/10/22～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 7, name: ["ガードヒールC Ⅲ+", "ファイアガードヒールC Ⅳ", "回:ガードUP Ⅲ"] },
+           { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "火弱：パワーストライクB Ⅲ", "攻:パワーUP Ⅲ"] },
+           { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.ファイアガードバーストB Ⅲ+", "攻:Sp.ガードDOWN Ⅲ"] },
+           { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "火強：Sp.パワーアシストB Ⅲ", "援:Sp.パワーUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 723,
+        name: "雹嵐の如く",
+        zokusei: 1,
+        legendary: "リーグ",
+        illustration: { type: "", chara: [22] },
+        get_rank: "非ガチャ産",
+        category: { c1: "レジェンダリー", c2: "レギオンリーグ", c3: ["2nd"] },
+        skill: [
+           { yakuwari: 6, name: ["WパワーフォールE LG", "WパワーフォールE LG", "援:支援UP Ⅲ"] }
+        ]
     }
+    /*
+    ,
+    {
+        id: ,
+        name: "",
+        zokusei: ,
+        legendary: "",
+        illustration: { type: "", chara: [] },
+        get_rank: "",
+        category: { c1: "", c2: "", c3: [] },
+        skill: [
+           { yakuwari: , name: ["", "", ""] },
+           { yakuwari: , name: ["", "", ""] }
+        ]
+    }
+    */
 ]
