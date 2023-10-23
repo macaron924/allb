@@ -159,7 +159,10 @@ function calc() {
 
     // 期間計算(開始日・終了日ともに含む)
     let already_get = document.getElementById("already_get").checked;
-    if (already_get == true) startDate.setDate(startDate.getDate() + 1);
+    if (already_get == true) {
+        startDate.setDate(startDate.getDate() + 1);
+        startDay = startDate.getDay();
+    }
     let diffMilliSec = finishDate - startDate;
     let diffDays = parseInt(diffMilliSec / 1000 / 60 / 60 / 24) + 1;
     document.getElementById('diffDays').innerText = diffDays;
