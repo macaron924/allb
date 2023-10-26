@@ -9127,6 +9127,34 @@ const memoriaJson = [
         skill: [
            { yakuwari: 6, name: ["WパワーフォールE LG", "WパワーフォールE LG", "援:支援UP Ⅲ"] }
         ]
+    },
+    {
+        id: 724,
+        name: "クリエイターズコラボ-深まる秋の一幕-",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "", chara: [16, 15] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/10/26～)", c3: [""] },
+        skill: [
+           { yakuwari: 2, name: ["水：ガードブレイクB Ⅲ", "カウンターウォーターガードブレイクB Ⅲ+", "攻:ダメージUP Ⅳ"] },
+           { yakuwari: 6, name: ["パワーフォールC Ⅳ", "ウォーターパワーフォールC Ⅳ", "援:パワーDOWN/副援:水パワーDOWN Ⅲ"] }
+        ]
+    },
+    {
+        id: 725,
+        name: "クリエイターズコラボ-落ち葉のリース-",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "", chara: [67, 18] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/10/26～)", c3: [""] },
+        skill: [
+           { yakuwari: 7, name: ["Sp.ガードヒールD Ⅳ", "Sp.カウンターウォーターガードヒールD Ⅳ", "回:回復UP/副援:水ガードUP Ⅲ"] },
+           { yakuwari: 3, name: ["Sp.マイトスマッシュA Ⅳ+", "水弱：Sp.マイトスマッシュA Ⅳ+", "攻:ダメージUP Ⅳ"] },
+           { yakuwari: 4, name: ["水：Sp.パワースマッシュB Ⅲ", "Sp.カウンターウォーターパワースマッシュB Ⅲ+", "攻:ダメージUP/Sp.パワーUP Ⅲ"] },
+           { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "Sp.カウンターパワーアシストC Ⅳ", "援:支援UP Ⅳ"] }
+        ]
     }
     /*
     ,
