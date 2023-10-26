@@ -63,7 +63,8 @@ const itemByTypeJson = {
         { index: "costume_448_before", name: "早川弥宏/ピュアリティプロミス", link: false },
         { index: "costume_448_pendant-ex", name: "弥宏/ピュアリティプロミスのペンダントEX", link: false },
         { index: "costume_449_pendant-ex", name: "楓/星花の浴衣αのペンダントEX", link: false },
-        { index: "costume_453_pendant-ex", name: "一葉/ブリッツアングリフαのペンダントEX", link: false }
+        { index: "costume_453_pendant-ex", name: "一葉/ブリッツアングリフαのペンダントEX", link: false },
+        { index: "costume_457_pendant-ex", name: "高嶺/プリンセスナイトαのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -313,6 +314,7 @@ const itemByTypeJson = {
         // 新メモリア交換券
         { index: "exchange_brand-new", name: "BRAND-NEW★5メモリア引換券", link: false },
         { index: "exchange_brand-new_202310-2", name: "BRAND-NEW★5メモリア引換券10月Ⅱ", link: false },
+        { index: "exchange_brand-new_202310-3", name: "BRAND-NEW★5メモリア引換券10月Ⅲ", link: false },
         // その他
         { index: "exchange_emotional-sozai", name: "エモーショナルメモリア素材引換券", link: false },
         { index: "exchange_creators-gacha", name: "クリエイターズコラボガチャチケット引換券", link: false }
@@ -329,6 +331,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_202308", name: "ボーナスメダルⅧ", link: false },
         { index: "medal_bonus_202309", name: "ボーナスメダルⅨ", link: false },
         { index: "medal_bonus_202310", name: "ボーナスメダルⅩ", link: false },
+        { index: "medal_bonus_202311", name: "ボーナスメダルⅪ", link: false },
         { index: "medal_bonus_collabo-prisma-illya", name: "シスターズ・カラミティボーナスメダル", link: false },
         { index: "medal_bonus_collabo-madoka-magica", name: "マギカ☆ワンダーワールドボーナスメダル", link: false },
         { index: "medal_bonus_collabo-yuyuyu", name: "白百合の章ボーナスメダル", link: false },
