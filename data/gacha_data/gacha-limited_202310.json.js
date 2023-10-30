@@ -1,5 +1,32 @@
 const gachaLimited202310 = [
     {
+        start: "2023/10/30(月) 12:00",
+        finish: "2023/11/1(水) 23:59",
+        type: "マンデーボーナスガチャ",
+        medal: "medal_bonus_202311",
+        gacha: [
+            {
+                index: "20231030_1",
+                name: "マンデーボーナスガチャ",
+                big_banner: true,
+                bonus: {
+                    notice: [
+                        { text: "11回ガチャ1回限定", item: [] },
+                        { text: "ガチャを引くと", item: [ { index: "medal", value: 200}, { index: "skip-ticket", value: 300 }, { index: "goggle-3", value: 5 } ] }
+                    ],
+                    table_header: [],
+                    table_content: []
+                },
+                lineup: {
+                    total_ratio: [5],
+                    notice: ["★5メモリアは半年以内追加のみ"],
+                    pu: [],
+                    else: { caption: "ピックアップ無し", content: [624, 625, 626, 627, 633, 634, 635, 636, 638, 639, 650, 652] }
+                }
+            }
+        ]
+    },
+    {
         start: "2023/10/28(土) 12:00",
         finish: "2023/10/30(月) 23:59",
         type: "限界突破応援属性別ガチャ",

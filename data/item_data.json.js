@@ -230,6 +230,9 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202310-3", name: "ゴシック・ノスタルジカⅠペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
+        { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
+        { index: "exchange_costume_7-2-live-bd", name: "7/2ライブBD発売記念！衣装引換券", link: true },
+        { index: "exchange_costume_unmei-no-trinity", name: "CD「運命のトリニティ」発売記念！衣装引換券", link: true },
         { index: "exchange_costume_202309", name: "9月衣装引換券", link: true },
         { index: "exchange_costume_202211", name: "衣装引換券11月", link: true },
         { index: "exchange_costume_202301", name: "衣装引換券1月", link: true },
@@ -258,6 +261,9 @@ const itemByTypeJson = {
         { index: "exchange_costume_ririsama-3", name: "ギガントウェーブ衣装引換券", link: true }
     ],
     exchange: [ // メモリア引換券
+        { index: "exchange_memoria_toumei-diary", name: "トウメイダイアリーCD発売記念！★5メモリア引換券", link: true },
+        { index: "exchange_memoria_7-2-live-bd", name: "7/2ライブBD発売記念！メモリア引換券", link: true },
+        { index: "exchange_memoria_unmei-no-trinity", name: "ミニアルバム「運命のトリニティ」発売記念！メモリア引換券", link: true },
         { index: "exchange_summer-live-bd", name: "コスト18以上★5セレクトチケットⅠ(サマーライブBD)", link: true },
         { index: "exchange_new-year-2023-1", name: "★5メモリア引換券(プラチナ)", link: true },
         { index: "exchange_new-year-2023-2", name: "★5メモリア引換券(ゴールド)", link: true },
