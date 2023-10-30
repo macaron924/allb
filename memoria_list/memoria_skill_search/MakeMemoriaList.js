@@ -405,10 +405,10 @@ function filter() {
                 // 検索結果件数カウント
                 resultCount++;
                 // 表示
-                tr.style.display = ''
+                tr.style.display = '';
             } else {
                 // 非表示
-                tr.style.display = 'none'
+                tr.style.display = 'none';
             }
         }
     }
