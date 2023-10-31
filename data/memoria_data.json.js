@@ -9155,6 +9155,60 @@ const memoriaJson = [
            { yakuwari: 4, name: ["水：Sp.パワースマッシュB Ⅲ", "Sp.カウンターウォーターパワースマッシュB Ⅲ+", "攻:ダメージUP/Sp.パワーUP Ⅲ"] },
            { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "Sp.カウンターパワーアシストC Ⅳ", "援:支援UP Ⅳ"] }
         ]
+    },
+    {
+        id: 726,
+        name: "海風に吹かれて",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "", chara: [108] },
+        get_rank: "コラボ",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "百合ヶ丘に咲う紫紺の花 (Re:ゼロから始める異世界生活 コラボ) (2023/10/31～)", c3: ["第1弾イベントガチャ"] },
+        skill: [
+           { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.ファイアガードバーストB Ⅲ+", "攻:Sp.ガードDOWN Ⅲ"] },
+           { yakuwari: 7, name: ["Sp.ガードヒールC Ⅲ+", "Sp.ファイアガードヒールC Ⅲ", "回:Sp.ガードUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 727,
+        name: "メイドのご奉仕",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "", chara: [109] },
+        get_rank: "コラボ",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "百合ヶ丘に咲う紫紺の花 (Re:ゼロから始める異世界生活 コラボ) (2023/10/31～)", c3: ["第1弾イベントガチャ"] },
+        skill: [
+           { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "ファイアパワーストライクB Ⅲ+", "攻:パワーUP Ⅲ"] },
+           { yakuwari: 6, name: ["パワーフォールC Ⅳ", "ファイアパワーフォールB Ⅲ", "援:パワーDOWN Ⅲ"] }
+        ]
+    },
+    {
+        id: 728,
+        name: "メイドのうたたね",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "", chara: [110, 109] },
+        get_rank: "コラボ",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "百合ヶ丘に咲う紫紺の花 (Re:ゼロから始める異世界生活 コラボ) (2023/10/31～)", c3: ["第1弾イベントガチャ"] },
+        skill: [
+           { yakuwari: 6, name: ["Sp.パワーフォールC Ⅳ", "Sp.ファイアパワーフォールC Ⅳ", "援:Sp.パワーDOWN Ⅲ"] },
+           { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "火弱：Sp.パワースマッシュB Ⅲ", "攻:Sp.パワーUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 729,
+        name: "素敵なお茶会",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "", chara: [108, 109, 110, 7, 8] },
+        get_rank: "コラボ",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "百合ヶ丘に咲う紫紺の花 (Re:ゼロから始める異世界生活 コラボ) (2023/10/31～)", c3: ["第1弾イベントガチャ"] },
+        skill: [
+           { yakuwari: 5, name: ["パワーアシストC Ⅳ", "ファイアパワーアシストB Ⅲ", "援:支援UP Ⅳ"] },
+           { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "ファイアガードブレイクB Ⅲ+", "攻:ダメージUP/ガードDOWN Ⅲ"] },
+           { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "Sp.ファイアパワースマッシュB Ⅲ+", "攻:Sp.パワーUP Ⅲ"] },
+           { yakuwari: 6, name: ["WパワーフォールD Ⅲ", "火弱：WパワーフォールD Ⅲ", "援:支援UP Ⅳ"] }
+        ]
     }
     /*
     ,
