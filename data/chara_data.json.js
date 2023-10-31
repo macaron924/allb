@@ -106,6 +106,9 @@ const charaJson = [
     { "charaID": 105, "charaName": "弥宏", "charaJump": "yahiro" },
     { "charaID": 106, "charaName": "真", "charaJump": "shin" },
     { "charaID": 107, "charaName": "夢結 (オーバークロック)", "charaJump": "" },
+    { "charaID": 108, "charaName": "エミリア", "charaJump": "c9_emilia" },
+    { "charaID": 109, "charaName": "レム", "charaJump": "c9_rem" },
+    { "charaID": 110, "charaName": "ラム", "charaJump": "c9_ram" },
     { "charaID": 999, "charaName": "美鈴", "charaJump": "" }
     /*
     ,
