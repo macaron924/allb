@@ -4082,7 +4082,7 @@ const costumeJson = [
         "yakuwari": 4,
         "name": "ノクターンミラージュ",
         "percent": 15,
-        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
         "ex": [["火UP", 3], ["風耐性", 2]]
     },
     {
@@ -4111,6 +4111,51 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["ATK", 3000], ["DEF", 3000]],
         "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 458,
+        "chara": 108,
+        "yakuwari": 5,
+        "name": "エミリアのローブ",
+        "percent": 7.5,
+        "parameter": [["ATK", 1550], ["DEF", 1500]],
+        "ex": [["火UP", 5]]
+    },
+    {
+        "id": 459,
+        "chara": 7,
+        "yakuwari": 4,
+        "name": "ラムのメイド服風",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 460,
+        "chara": 108,
+        "yakuwari": 4,
+        "name": "エミリアの服",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 461,
+        "chara": 109,
+        "yakuwari": 2,
+        "name": "レムのメイド服",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 462,
+        "chara": 110,
+        "yakuwari": 6,
+        "name": "ラムのメイド服",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["火UP", 5]]
     }
     /*
     ,
