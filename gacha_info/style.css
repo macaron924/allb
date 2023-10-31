@@ -104,6 +104,7 @@ tr>*:last-child {
     object-fit: contain;
     width: 80rem;
     max-width: 100%;
+    max-height: 44rem;
 }
 
 .mini-banner_img {

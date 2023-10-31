@@ -179,7 +179,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202309-event-2", name: "サマー・フェアリーテール★5確定ガチャチケットⅢ", link: false },
         { index: "gacha-ticket_202310-event-1", name: "双星のコントラスト★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202310-event-2", name: "モンスターズ・パニック★5確定ガチャチケット", link: false },
-        { index: "gacha-ticket_202310-event-3", name: "ゴシック・ノスタルジカ★5確定ガチャチケットⅠ", link: false }
+        { index: "gacha-ticket_202310-event-3", name: "ゴシック・ノスタルジカ★5確定ガチャチケットⅠ", link: false },
+        { index: "gacha-ticket_collabo-rezero-1", name: "百合ヶ丘に咲う紫紺の花★5確定ガチャチケットⅠ", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -227,7 +228,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202309-2", name: "サマー・フェアリーテールⅢペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202310-1", name: "双星のコントラストペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202310-2", name: "モンスターズ・パニックペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202310-3", name: "ゴシック・ノスタルジカⅠペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202310-3", name: "ゴシック・ノスタルジカⅠペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_collabo-rezero-1", name: "百合ヶ丘に咲う紫紺の花ペンダントEX交換券Ⅰ", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -239,6 +241,8 @@ const itemByTypeJson = {
         { index: "exchange_costume_2nd-aniv", name: "2周年祭り衣装引換券", link: true },
         { index: "exchange_costume_gw", name: "GW2023衣装引換券", link: true },
         { index: "exchange_costume_202306", name: "6月衣装引換券", link: true },
+        { index: "exchange_costume_202309", name: "9月衣装引換券", link: true },
+        { index: "exchange_costume_202311", name: "11月衣装引換券", link: true },
         { index: "exchange_costume_gran-eple", name: "グラン・エプレ衣装引換券", link: true },
         { index: "exchange_costume_hervarar", name: "ヘルヴォル衣装引換券", link: true },
         { index: "exchange_costume_yuyu", name: "白井夢結衣装引換券", link: true },
@@ -250,6 +254,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_kazuha", name: "相澤一葉衣装引換券", link: true },
         { index: "exchange_costume_akari", name: "丹羽灯莉衣装引換券", link: true },
         { index: "exchange_costume_chikaru", name: "芹沢千香瑠衣装引換券", link: true },
+        { index: "exchange_costume_kanaho", name: "今叶星衣装引換券", link: true },
         { index: "exchange_costume_koukainama-202301", name: "公開生放送記念!!衣装交換チケット", link: true },
         { index: "exchange_costume_ririsama", name: "2.5周年リリサマ!!衣装引換券", link: true },
         { index: "exchange_costume_gigant", name: "ギガント級ヒュージ討伐衣装引換券", link: true },
@@ -286,6 +291,7 @@ const itemByTypeJson = {
         { index: "exchange_memoria_kazuha", name: "相澤一葉★5メモリア引換券", link: true },
         { index: "exchange_memoria_akari", name: "丹羽灯莉★5メモリア引換券", link: true },
         { index: "exchange_memoria_chikaru", name: "芹沢千香瑠★5メモリア引換券", link: true },
+        { index: "exchange_memoria_kanaho", name: "今叶星★5メモリア引換券", link: true },
         { index: "exchange_memoria-with-costume", name: "衣装付きメモリアコレクション引換券", link: true },
         { index: "exchange_memoria_zokusei-fire", name: "火属性★5メモリア引換券 (4月)", link: true },
         { index: "exchange_memoria_zokusei-wind", name: "風属性★5メモリア引換券 (4月)", link: true },
@@ -343,6 +349,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_collabo-yuyuyu", name: "白百合の章ボーナスメダル", link: false },
         { index: "medal_bonus_collabo-yuyuyu-2", name: "絆の章ボーナスメダル", link: false },
         { index: "medal_bonus_collabo-toaru", name: "とある科学と楯の乙女ボーナスメダル", link: false },
+        { index: "medal_bonus_collabo-rezero", name: "百合ヶ丘に咲う紫紺の花ボーナスメダル", link: false },
         { index: "medal_bonus_202212-costume", name: "衣装交換メダル12月", link: true },
         { index: "medal_bonus_202303-costume", name: "衣装交換メダル3月", link: true },
         { index: "medal_bonus_202304-costume", name: "衣装交換メダル4月", link: true },
