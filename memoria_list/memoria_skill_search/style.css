@@ -168,7 +168,7 @@ select.disabled {
     font-weight: bold;
 }
 
-#maintable th>td:nth-of-type(2), #maintable tr>td:nth-of-type(2) {
+#maintable tr>td:nth-of-type(2) {
     white-space: normal;
 }
 
