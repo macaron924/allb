@@ -64,7 +64,9 @@ const itemByTypeJson = {
         { index: "costume_448_pendant-ex", name: "弥宏/ピュアリティプロミスのペンダントEX", link: false },
         { index: "costume_449_pendant-ex", name: "楓/星花の浴衣αのペンダントEX", link: false },
         { index: "costume_453_pendant-ex", name: "一葉/ブリッツアングリフαのペンダントEX", link: false },
-        { index: "costume_457_pendant-ex", name: "高嶺/プリンセスナイトαのペンダントEX", link: false }
+        { index: "costume_457_pendant-ex", name: "高嶺/プリンセスナイトαのペンダントEX", link: false },
+        { index: "costume_465_before", name: "幼少期レム/幼少期レムの着物", link: false },
+        { index: "costume_465_pendant-ex", name: "幼少期レム/幼少期レムの着物のペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -180,7 +182,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202310-event-1", name: "双星のコントラスト★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202310-event-2", name: "モンスターズ・パニック★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202310-event-3", name: "ゴシック・ノスタルジカ★5確定ガチャチケットⅠ", link: false },
-        { index: "gacha-ticket_collabo-rezero-1", name: "百合ヶ丘に咲う紫紺の花★5確定ガチャチケットⅠ", link: false }
+        { index: "gacha-ticket_collabo-rezero-1", name: "百合ヶ丘に咲う紫紺の花★5確定ガチャチケットⅠ", link: false },
+        { index: "gacha-ticket_collabo-rezero-2", name: "百合ヶ丘に咲う紫紺の花★5確定ガチャチケットⅡ", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -229,7 +232,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202310-1", name: "双星のコントラストペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202310-2", name: "モンスターズ・パニックペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202310-3", name: "ゴシック・ノスタルジカⅠペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_collabo-rezero-1", name: "百合ヶ丘に咲う紫紺の花ペンダントEX交換券Ⅰ", link: false }
+        { index: "exchange_pendant-ex_collabo-rezero-1", name: "百合ヶ丘に咲う紫紺の花ペンダントEX交換券Ⅰ", link: false },
+        { index: "exchange_pendant-ex_collabo-rezero-2", name: "百合ヶ丘に咲う紫紺の花ペンダントEX交換券Ⅱ", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
