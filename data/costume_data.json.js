@@ -4156,6 +4156,33 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
         "ex": [["火UP", 5]]
+    },
+    {
+        "id": 463,
+        "chara": 8,
+        "yakuwari": 7,
+        "name": "レムのメイド服風",
+        "percent": 15,
+        "parameter": [["DEF", 3000], ["Sp.DEF", 3000]],
+        "ex": [["火UP", 5]]
+    },
+    {
+        "id": 464,
+        "chara": 111,
+        "yakuwari": 2,
+        "name": "幼少期ラムの着物",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 465,
+        "chara": 112,
+        "yakuwari": 5,
+        "name": "幼少期レムの着物",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["火UP", 5]]
     }
     /*
     ,
