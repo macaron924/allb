@@ -9133,7 +9133,7 @@ const memoriaJson = [
         name: "クリエイターズコラボ-深まる秋の一幕-",
         zokusei: 2,
         legendary: "",
-        illustration: { type: "", chara: [16, 15] },
+        illustration: { type: "クリエイターズコラボ", chara: [16, 15] },
         get_rank: "C (推定)",
         category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/10/26～)", c3: [""] },
         skill: [
@@ -9146,7 +9146,7 @@ const memoriaJson = [
         name: "クリエイターズコラボ-落ち葉のリース-",
         zokusei: 2,
         legendary: "",
-        illustration: { type: "", chara: [67, 18] },
+        illustration: { type: "クリエイターズコラボ", chara: [67, 18] },
         get_rank: "C (推定)",
         category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/10/26～)", c3: [""] },
         skill: [
@@ -9236,6 +9236,34 @@ const memoriaJson = [
            { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "Sp.ファイアパワースマッシュB Ⅲ+", "攻:ダメージUP/Sp.パワーUP Ⅲ"] },
            { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "Sp.ファイアパワーアシストC Ⅳ", "援:Sp.パワーUP/副援:火パワーUP Ⅲ"] },
            { yakuwari: 7, name: ["Sp.ガードヒールC Ⅲ+", "Sp.ファイアガードヒールC Ⅳ", "回:回復UP/副援:火ガードUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 732,
+        name: "クリエイターズコラボ-秋のそうさく-",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [4, 53] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/11/5～)", c3: [""] },
+        skill: [
+           { yakuwari: 2, name: ["火：パワーストライクB Ⅲ", "カウンターファイアパワーストライクB Ⅲ+", "攻:ダメージUP/パワーUP Ⅲ"] },
+           { yakuwari: 5, name: ["パワーアシストC Ⅳ", "カウンターパワーアシストC Ⅳ", "援:支援UP Ⅳ"] }
+        ]
+    },
+    {
+        id: 733,
+        name: "クリエイターズコラボ-新涼灯火-",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [7, 2] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/11/5～)", c3: [""] },
+        skill: [
+           { yakuwari: 6, name: ["Sp.パワーフォールC Ⅳ", "Sp.カウンターファイアパワーフォールC Ⅳ", "援:支援UP Ⅳ"] },
+           { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "ファイアガードブレイクB Ⅲ+", "攻:ガードDOWN Ⅲ"] },
+           { yakuwari: 4, name: ["火：Sp.ガードバーストB Ⅲ", "Sp.カウンターファイアガードバーストB Ⅲ+", "攻:ダメージUP/Sp.ガードDOWN Ⅲ"] },
+           { yakuwari: 7, name: ["WガードヒールC Ⅳ", "WガードヒールC Ⅳ", "回:回復UP/副援:支援UP Ⅲ"] }
         ]
     }
     /*
