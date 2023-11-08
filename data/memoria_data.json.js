@@ -8342,7 +8342,7 @@ const memoriaJson = [
         zokusei: 1,
         legendary: "",
         illustration: { type: "クリエイターズコラボ", chara: [21, 20] },
-        get_rank: "C (推定)",
+        get_rank: "C",
         category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "クリエイターズコラボ前衛後衛ガチャ (2023/7/28～)", c3: ["前衛ガチャ"] },
         skill: [
            { yakuwari: 4, name: ["火：Sp.パワースマッシュB Ⅲ", "Sp.カウンターパワースマッシュB Ⅲ", "攻:ダメージUP/Sp.パワーUP Ⅲ"] },
@@ -8368,7 +8368,7 @@ const memoriaJson = [
         zokusei: 1,
         legendary: "",
         illustration: { type: "クリエイターズコラボ", chara: [1, 2] },
-        get_rank: "C (推定)",
+        get_rank: "C",
         category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "クリエイターズコラボ前衛後衛ガチャ (2023/7/28～)", c3: ["後衛ガチャ"] },
         skill: [
            { yakuwari: 7, name: ["WガードヒールC Ⅳ", "WカウンターガードヒールC Ⅳ", "回:回復UP/副援:支援UP Ⅲ"] },
@@ -9264,6 +9264,60 @@ const memoriaJson = [
            { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "ファイアガードブレイクB Ⅲ+", "攻:ガードDOWN Ⅲ"] },
            { yakuwari: 4, name: ["火：Sp.ガードバーストB Ⅲ", "Sp.カウンターファイアガードバーストB Ⅲ+", "攻:ダメージUP/Sp.ガードDOWN Ⅲ"] },
            { yakuwari: 7, name: ["WガードヒールC Ⅳ", "WガードヒールC Ⅳ", "回:回復UP/副援:支援UP Ⅲ"] }
+        ]
+    },
+    {
+        id: 734,
+        name: "クリエイターズコラボ-ひそひそナイト-",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [13, 14] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "オータムフェス前衛後衛ガチャ (2023/11/8～)", c3: ["前衛ガチャ"] },
+        skill: [
+           { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "ウォーターパワーストライクB Ⅲ+", "攻:ダメージUP/パワーUP Ⅲ"] },
+           { yakuwari: 5, name: ["パワーアシストC Ⅳ", "ウォーターパワーアシストC Ⅳ", "援:パワーUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 735,
+        name: "クリエイターズコラボ-フレフレリリィ！-",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [2, 1] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "オータムフェス前衛後衛ガチャ (2023/11/8～)", c3: ["後衛ガチャ"] },
+        skill: [
+           { yakuwari: 7, name: ["Sp.ガードヒールC Ⅳ", "Sp.ウォーターガードヒールC Ⅳ", "回:回復UP/副援:水ガードUP Ⅲ"] },
+           { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "水弱：Sp.パワースマッシュB Ⅲ", "攻:Sp.パワーUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 736,
+        name: "クリエイターズコラボ-夢の中で隠れんぼ-",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [12, 11] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "オータムフェス前衛後衛ガチャ (2023/11/8～)", c3: ["後衛ガチャ"] },
+        skill: [
+           { yakuwari: 6, name: ["パワーフォールC Ⅳ", "ウォーターパワーフォールC Ⅳ", "援:パワーDOWN/副援:水パワーDOWN Ⅲ"] },
+           { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "ウォーターガードブレイクB Ⅲ+", "攻:ダメージUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 737,
+        name: "クリエイターズコラボ-はつらつハイタッチ-",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [10, 13] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "オータムフェス前衛後衛ガチャ (2023/11/8～)", c3: ["前衛ガチャ"] },
+        skill: [
+           { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.ウォーターガードバーストB Ⅲ+", "攻:ダメージUP/Sp.ガードDOWN Ⅲ"] },
+           { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "水弱：パワーストライクB Ⅲ", "攻:パワーUP Ⅲ"] },
+           { yakuwari: 6, name: ["Sp.パワーフォールC Ⅳ", "Sp.ウォーターパワーフォールC Ⅳ", "援:支援UP Ⅳ"] },
+           { yakuwari: 7, name: ["ガードヒールC Ⅲ+", "ウォーターガードヒールC Ⅲ", "回:ガードUP Ⅲ"] }
         ]
     }
     /*

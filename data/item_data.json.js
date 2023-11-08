@@ -234,7 +234,9 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202310-2", name: "モンスターズ・パニックペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202310-3", name: "ゴシック・ノスタルジカⅠペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_collabo-rezero-1", name: "百合ヶ丘に咲う紫紺の花ペンダントEX交換券Ⅰ", link: false },
-        { index: "exchange_pendant-ex_collabo-rezero-2", name: "百合ヶ丘に咲う紫紺の花ペンダントEX交換券Ⅱ", link: false }
+        { index: "exchange_pendant-ex_collabo-rezero-2", name: "百合ヶ丘に咲う紫紺の花ペンダントEX交換券Ⅱ", link: false },
+        { index: "exchange_pendant-ex_202311-zenei", name: "オータムフェス前衛ペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202311-kouei", name: "オータムフェス後衛ペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -335,7 +337,8 @@ const itemByTypeJson = {
         { index: "exchange_brand-new_202311-1", name: "BRAND-NEW★5メモリア引換券11月", link: false },
         // その他
         { index: "exchange_emotional-sozai", name: "エモーショナルメモリア素材引換券", link: false },
-        { index: "exchange_creators-gacha", name: "クリエイターズコラボガチャチケット引換券", link: false }
+        { index: "exchange_creators-gacha", name: "クリエイターズコラボガチャチケット引換券", link: false },
+        { index: "exchange_creators-gacha_autumn-fes", name: "クリエイターズコラボガチャチケット引換券", link: false }
     ],
     medal_bonus: [ // ボーナスメダル
         { index: "medal_bonus_202212", name: "ボーナスメダルⅫ", link: false },
