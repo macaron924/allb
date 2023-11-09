@@ -12,10 +12,11 @@
         <meta name="twitter:card" content="summary">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="../images/icon.png">
-        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Noto+Sans+JP&display=swap">
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
         <link rel="stylesheet" href="../css/menu.css">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="./style.css">
@@ -24,6 +25,8 @@
         <script src="../js/menu.js" defer></script>
         <script src="../data/charm_data.json.js" defer></script>
         <script src="./MakeCharmTable.js" defer></script>
+        <script src="./FilterCharmTable.js" defer></script>
+        <script src="./SortCharmTable.js" defer></script>
 
         <title>CHARM一覧</title>
     </head>
@@ -33,49 +36,52 @@
         <script>writeHeader(1);</script>
 
         <main>
+            <div class="breadcrumb"><a href="../">Top</a> > CHARM一覧</div>
             <h1 class="title">CHARM一覧</h1>
-            <br>
-            <h3>
-                レジェンダリーCHARM 2NDの強化版CHARMに関しては、現在調査中のため記載しておりません。<br>
-                また、今後本ページの内容をアップデート予定のため、前述したCHARMに関してはアップデート後に記載予定です。<br>
-                <a href="../charm_list_v2/">→試行版はこちら</a>
-            </h3>
-            <br>
-            <div class="buttonTable">
-                <table>
-                    <tr>
-                        <td><input type="button" class="calc-btn" onclick="sort('分類');" value="分類"></td>
-                        <td><input type="button" class="calc-btn" onclick="sort('実装日r');" value="実装日(昇順)"></td>
-                        <td><input type="button" class="calc-btn" onclick="sort('実装日');" value="実装日(降順)"></td>
-                        <td></td>
-                        <td></td>
-                        <td><input type="button" class="calc-btn" onclick="sort('reset');" value="リセット"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="button" class="calc-btn" onclick="sort('ATK特性');" value="ATK特性"></td>
-                        <td><input type="button" class="calc-btn" onclick="sort('Sp.ATK特性');" value="Sp.ATK特性"></td>
-                        <td><input type="button" class="calc-btn" onclick="sort('DEF特性');" value="DEF特性"></td>
-                        <td><input type="button" class="calc-btn" onclick="sort('Sp.DEF特性');" value="Sp.DEF特性"></td>
-                        <td><input type="button" class="calc-btn" onclick="sort('その他の特性');" value="その他の特性"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="button" class="calc-btn" onclick="sort('ATK');" value="ATK"></td>
-                        <td><input type="button" class="calc-btn" onclick="sort('Sp.ATK');" value="Sp.ATK"></td>
-                        <td><input type="button" class="calc-btn" onclick="sort('DEF');" value="DEF"></td>
-                        <td><input type="button" class="calc-btn" onclick="sort('Sp.DEF');" value="Sp.DEF"></td>
-                        <td><input type="button" class="calc-btn" onclick="sort('DEF+Sp.DEF');" value="DEF+Sp.DEF"></td>
-                        <td><input type="button" class="calc-btn" onclick="sort('total');" value="total"></td>
-                    </tr>
-                </table>
+            <div id="filter-menu_content" class="active">
+                <input type="button" class="select-btn check-only"  value="チェック済みのみ表示">
+                <br>
+                <label>特性モード</label>
+                <input type="button" class="mode-btn mode-vsh" onclick="changeMode('vsh');" value="対ヒュージ">
+                <input type="button" class="mode-btn mode-lm" onclick="changeMode('lm');" value="レギオンマッチ">
+                <br>
+                <br>
+                <label>分類</label>
+                <div class="flex_btn-box">
+                    <div class="flex_btn-item"><input type="button" class="select-btn category"  value="汎用"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn category"  value="レジェンダリー"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn category"  value="専用"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn category"  value="コラボ専用"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn category"  value="円環用サブ"></div>
+                </div>
+                <br>
+                <label>解放条件</label>
+                <div class="flex_btn-box">
+                    <div class="flex_btn-item"><input type="button" class="select-btn getway"  value="なし"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn getway"  value="特定衣装"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn getway"  value="ガチャ"></div>
+                </div>
+                <br>
+                <label>特性</label>
+                <div class="flex_btn-box">
+                    <div class="flex_btn-item"><input type="button" class="select-btn param"  value="ATK▲"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn param"  value="Sp.ATK▲"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn param"  value="DEF▲"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn param"  value="Sp.DEF▲"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn param"  value="ATK▼"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn param"  value="Sp.ATK▼"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn param"  value="DEF▼"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn param"  value="Sp.DEF▼"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn param"  value="回復▲"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn zokusei"  value="火"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn zokusei"  value="水"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn zokusei"  value="風"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn zokusei"  value="光"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn zokusei"  value="闇"></div>
+                </div>
             </div>
-            <table class="sortModeView">
-                <tr>
-                    <td>現在のソート：</td>
-                    <td id="now-sort"></td>
-                </tr>
-            </table>
-            <br>
             <!--テーブル生成位置-->
+            <!--<div class="aaa" id ='aaa'><div class="bbb" id ='bbb'>aaa</div></div>-->
             <div class="maintable" id ='maintable'></div>
         </main>
 

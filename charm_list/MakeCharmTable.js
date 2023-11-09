@@ -2,147 +2,279 @@ function makeTable() {
 
     // table要素を生成
     let table = document.createElement('table');
+    let thead = document.createElement('thead');
+    let tbody = document.createElement('tbody');
     
     // ヘッダーを作成
-    let tr = document.createElement('tr');
-    for (key in jsonCopy[0]) {
-        // th要素を生成
+    let trHead = document.createElement('tr');
+    let thList = ["", "CHARM名", "分類", "ATK", "Sp.ATK", "DEF", "Sp.DEF", "D+SD", "戦闘力", "メモリアスキル効果UP", "パラメータ/回復量特性", "属性特性", "その他の特性", "解放条件", "専用", "実装日"];
+    for (let i in thList) {
         let th = document.createElement('th');
-        // th要素内にテキストを追加
-        th.textContent = key;
-        // th要素をtr要素の子要素に追加
-        tr.appendChild(th);
+        th.textContent = thList[i];
+        if (i == 0 || (3 <= i && i <= 9) || i == 15) th.classList.add('sortEnabled');
+        trHead.appendChild(th);
     }
-    // tr要素をtable要素の子要素に追加
-    table.appendChild(tr);
+    thead.appendChild(trHead);
+    table.appendChild(thead);
     
     // テーブル本体を作成
-    for (let i = 0; i < jsonCopy.length; i++) {
-        // tr要素を生成
+    for (let i = 0; i < charmJsonCopy.length; i++) {
+
         let tr = document.createElement('tr');
-        // th・td部分のループ
-        for (key in jsonCopy[0]) {
-            // td要素を生成
-            let td = document.createElement('td');
-            // ステータスの項目ならstatusクラス(右寄せ)
-            if (key == 'ATK' || key == 'Sp.ATK' 
-            || key == 'DEF' || key == 'Sp.DEF' || 
-            key == 'DEF+Sp.DEF' || key == 'total') {
-                td.className = 'status';
-            }
-            // td要素内にテキストを追加
-            td.textContent = jsonCopy[i][key];
-            // 特性(その他以外)の項目ならcharacteristicクラス(中央寄せ)
-            if (key == 'ATK特性' || key == 'Sp.ATK特性' 
-            || key == 'DEF特性' || key == 'Sp.DEF特性') {
-                td.className = 'characteristic';
+
+        // チェックと画像の列
+        let tdImg = document.createElement('td');
+        tdImg.innerHTML = `<input type="checkbox" class="check" id="check_${charmJsonCopy[i]['index']}">`;
+        let img = document.createElement('img');
+        img.src = "../images/charm/charm_" + charmJsonCopy[i]['index'] + ".jpg"
+        img.height = 80;
+        img.loading = "lazy";
+        tdImg.appendChild(img);
+        tr.appendChild(tdImg);
+
+        // 名前
+        let tdName = document.createElement('td');
+        tdName.textContent = charmJsonCopy[i]['CHARM'];
+        tr.appendChild(tdName);
+
+        // 分類
+        let tdCategory = document.createElement('td');
+        tdCategory.textContent = charmJsonCopy[i]['分類'];
+        tr.appendChild(tdCategory);
+
+        // 各種パラメータ
+        charmJsonCopy[i]['D+SD'] = charmJsonCopy[i]['DEF'] + charmJsonCopy[i]['Sp.DEF'];
+        charmJsonCopy[i]['戦闘力'] = charmJsonCopy[i]['ATK'] + charmJsonCopy[i]['Sp.ATK'] + charmJsonCopy[i]['D+SD'];
+        let tdAtk = document.createElement('td');
+        let tdSpAtk = document.createElement('td');
+        let tdDef = document.createElement('td');
+        let tdSpDef = document.createElement('td');
+        let tdDsD = document.createElement('td');
+        let tdTotal = document.createElement('td');
+        tdAtk.classList.add('num');
+        tdSpAtk.classList.add('num');
+        tdDef.classList.add('num');
+        tdSpDef.classList.add('num');
+        tdDsD.classList.add('num');
+        tdTotal.classList.add('num');
+        tdAtk.textContent = charmJsonCopy[i]['ATK'];
+        tdSpAtk.textContent = charmJsonCopy[i]['Sp.ATK'];
+        tdDef.textContent = charmJsonCopy[i]['DEF'];
+        tdSpDef.textContent = charmJsonCopy[i]['Sp.DEF'];
+        tdDsD.textContent = charmJsonCopy[i]['D+SD'];
+        tdTotal.textContent = charmJsonCopy[i]['戦闘力'];
+        tr.appendChild(tdAtk);
+        tr.appendChild(tdSpAtk);
+        tr.appendChild(tdDef);
+        tr.appendChild(tdSpDef);
+        tr.appendChild(tdDsD);
+        tr.appendChild(tdTotal);
+
+        // 特性
+        let paramList = ['ATK', 'Sp.ATK', 'DEF', 'Sp.DEF', '回復量'];
+        let zokuseiList = ['火', '水', '風', '光', '闇'];
+
+        // 対ヒュージ
+        let tdVshMemoria = document.createElement('td');
+        let tdVshParam = document.createElement('td');
+        let tdVshZokusei = document.createElement('td');
+        let tdVshElse = document.createElement('td');
+        tdVshMemoria.classList.add('vsh');
+        tdVshParam.classList.add('vsh');
+        tdVshZokusei.classList.add('vsh');
+        tdVshElse.classList.add('vsh');
+        tdVshParam.classList.add('characteristic');
+        tdVshZokusei.classList.add('characteristic');
+        tdVshElse.classList.add('characteristic');
+        tdVshMemoria.textContent = `+${charmJsonCopy[i]['特性']['対ヒュージ']['メモリアスキル効果UP']}%`;
+        for (let j in paramList) {
+            if (charmJsonCopy[i]['特性']['対ヒュージ'][paramList[j]] != "") {
+                if (tdVshParam.innerHTML != "") tdVshParam.insertAdjacentHTML('beforeend', '<br>')
+                let span = document.createElement('span');
+                span.innerHTML = `${paramList[j]}${charmJsonCopy[i]['特性']['対ヒュージ'][paramList[j]]}`;
                 // バフの場合
-                if (td.textContent.includes('▲')) { td.classList.add('buff') }
+                if (span.innerHTML.includes('▲')) { span.classList.add('buff'); }
                 // デバフの場合
-                if (td.textContent.includes('▼')) { td.classList.add('debuff') }
+                if (span.innerHTML.includes('▼')) { span.classList.add('debuff'); }
+                tdVshParam.appendChild(span);
             }
-            // td要素をtr要素の子要素に追加
-            tr.appendChild(td);
         }
-        // tr要素をtable要素の子要素に追加
-        table.appendChild(tr);
-    }
-    // 生成したtable要素を追加する
-    document.getElementById('maintable').replaceChildren(table);
-}
-
-//jsonソート
-function sort(mode) {
-    
-    if (mode == 'reset') {
-
-        jsonCopy = JSON.parse(JSON.stringify(charmJson));
-
-    } else if (mode.includes('実装日')) {
-
-        function compare(a, b) {
-            let r = 0;
-
-            let date_aray_a = a['実装日'].split('/');
-            let year_a = parseInt(date_aray_a[0]);
-            let month_a = parseInt(date_aray_a[1]);
-            let day_a = parseInt(date_aray_a[2]);
-
-            let date_aray_b = b['実装日'].split('/');
-            let year_b = parseInt(date_aray_b[0]);
-            let month_b = parseInt(date_aray_b[1]);
-            let day_b = parseInt(date_aray_b[2]);
-
-            let reverse = 1;
-            if (mode.includes('r')) { reverse = -1 }
-
-            if( year_a < year_b ){ r = 1; }
-            else if( year_a > year_b ){ r = -1; }
-            else {
-
-                if( month_a < month_b ){ r = 1; }
-                else if( month_a > month_b ){ r = -1; }
-                else {
-
-                    if( day_a < day_b ){ r = 1; }
-                    else if( day_a > day_b ){ r = -1; }
-
+        for (let j in zokuseiList) {
+            if (charmJsonCopy[i]['特性']['対ヒュージ'][zokuseiList[j]] != "") {
+                if (tdVshZokusei.innerHTML != "") tdVshZokusei.insertAdjacentHTML('beforeend', '<br>')
+                let span = document.createElement('span');
+                span.innerHTML = `${zokuseiList[j]}${charmJsonCopy[i]['特性']['対ヒュージ'][zokuseiList[j]]}`;
+                switch (zokuseiList[j]) {
+                    case '火':
+                        span.classList.add('fire');
+                        break;
+                    case '水':
+                        span.classList.add('water');
+                        break;
+                    case '風':
+                        span.classList.add('wind');
+                        break;
+                    case '光':
+                        span.classList.add('light');
+                        break;
+                    case '闇':
+                        span.classList.add('dark');
+                        break;
                 }
-
+                tdVshZokusei.appendChild(span);
             }
-
-            return r * reverse;
         }
-        jsonCopy.sort( compare );
-
-    } else {
-
-        function compare(a, b) {
-            let r = 0;
-            if( a[mode] < b[mode] ){ r = 1; }
-            else if( a[mode] > b[mode] ){ r = -1; }
+        tdVshElse.textContent = charmJsonCopy[i]['特性']['対ヒュージ']['その他の特性'];
+        tr.appendChild(tdVshMemoria);
+        tr.appendChild(tdVshParam);
+        tr.appendChild(tdVshZokusei);
+        tr.appendChild(tdVshElse);
         
-            return r;
-        }
-        jsonCopy.sort( compare );
-
-    }
-
-    renewNowSort(mode);
-    makeTable();
-}
-
-function renewNowSort(mode) {
-    let str = "";
-    if (mode == "reset") {
-        sortModeArray= [];
-    } else {
-        let indexSearchResult = existInArray(mode);
-        if (existInArray(mode) >= 0) {
-            sortModeArray.splice(indexSearchResult, 1)
-        }
-        sortModeArray.push(mode);
-        let max = sortModeArray.length;
-        for (let i = max - 1; i >= 0; i--) {
-            if (i == max - 1) {
-                str += sortModeArray[i];
-            } else {
-                str += " / ";
-                str += sortModeArray[i];
+        // レギオンマッチ
+        let tdLmMemoria = document.createElement('td');
+        let tdLmParam = document.createElement('td');
+        let tdLmZokusei = document.createElement('td');
+        let tdLmElse = document.createElement('td');
+        tdLmMemoria.classList.add('lm');
+        tdLmParam.classList.add('lm');
+        tdLmZokusei.classList.add('lm');
+        tdLmElse.classList.add('lm');
+        tdLmParam.classList.add('characteristic');
+        tdLmZokusei.classList.add('characteristic');
+        tdLmElse.classList.add('characteristic');
+        tdLmMemoria.textContent = `+${charmJsonCopy[i]['特性']['レギオンマッチ']['メモリアスキル効果UP']}%`;
+        for (let j in paramList) {
+            if (charmJsonCopy[i]['特性']['レギオンマッチ'][paramList[j]] != "") {
+                if (tdLmParam.innerHTML != "") tdLmParam.insertAdjacentHTML('beforeend', '<br>')
+                let span = document.createElement('span');
+                span.innerHTML = `${paramList[j]}${charmJsonCopy[i]['特性']['レギオンマッチ'][paramList[j]]}`;
+                // バフの場合
+                if (span.innerHTML.includes('▲')) { span.classList.add('buff'); }
+                // デバフの場合
+                if (span.innerHTML.includes('▼')) { span.classList.add('debuff'); }
+                tdLmParam.appendChild(span);
             }
         }
-    }
-    document.getElementById('now-sort').textContent = str;
-}
+        for (let j in zokuseiList) {
+            if (charmJsonCopy[i]['特性']['レギオンマッチ'][zokuseiList[j]] != "") {
+                if (tdLmZokusei.innerHTML != "") tdLmZokusei.insertAdjacentHTML('beforeend', '<br>')
+                let span = document.createElement('span');
+                span.innerHTML = `${zokuseiList[j]}${charmJsonCopy[i]['特性']['レギオンマッチ'][zokuseiList[j]]}`;
+                switch (zokuseiList[j]) {
+                    case '火':
+                        span.classList.add('fire');
+                        break;
+                    case '水':
+                        span.classList.add('water');
+                        break;
+                    case '風':
+                        span.classList.add('wind');
+                        break;
+                    case '光':
+                        span.classList.add('light');
+                        break;
+                    case '闇':
+                        span.classList.add('dark');
+                        break;
+                }
+                tdLmZokusei.appendChild(span);
+            }
+        }
+        tdLmElse.textContent = charmJsonCopy[i]['特性']['レギオンマッチ']['その他の特性'];
+        tr.appendChild(tdLmMemoria);
+        tr.appendChild(tdLmParam);
+        tr.appendChild(tdLmZokusei);
+        tr.appendChild(tdLmElse);
+        
+        // 解放条件
+        let tdGet = document.createElement('td');
+        let kaihouBox = document.createElement('div');
+        if (charmJsonCopy[i]['解放条件']['str'] != "") tdGet.innerHTML = `${charmJsonCopy[i]['解放条件']['str']}<br>`;
+        for (let j in charmJsonCopy[i]['解放条件']['costume']) {
+            let img = document.createElement('img');
+            img.src = "../images/costume/costume_" + charmJsonCopy[i]['解放条件']['costume'][j] + ".jpg"
+            img.height = 60;
+            img.loading = "lazy";
+            kaihouBox.appendChild(img);
+        }
+        kaihouBox.classList.add('kaihou');
+        tdGet.appendChild(kaihouBox);
+        tr.appendChild(tdGet);
 
-function existInArray(mode) {
-    for (let i = 0; i < sortModeArray.length; i++) {
-        if (mode == sortModeArray[i]) return i;
+        // 装備可能衣装
+        let tdEquip = document.createElement('td');
+        let senyouBox = document.createElement('div');
+        for (let j in charmJsonCopy[i]['専用']) {
+            let img = document.createElement('img');
+            img.src = "../images/costume/costume_" + charmJsonCopy[i]['専用'][j] + ".jpg"
+            img.height = 60;
+            img.loading = "lazy";
+            senyouBox.appendChild(img);
+        }
+        senyouBox.classList.add('senyou');
+        tdEquip.appendChild(senyouBox);
+        tr.appendChild(tdEquip);
+        
+        // 実装日
+        let tdDate = document.createElement('td');
+        tdDate.textContent = charmJsonCopy[i]['実装日'];
+        tr.appendChild(tdDate);
+
+        // ここまでで生成したtrの参照を保存
+        charmJsonCopy[i]['trRef'] = tr;
+
+        tbody.appendChild(tr);
     }
-    return -1;
+
+    // 生成したtable要素を追加する
+    table.appendChild(tbody);
+    document.getElementById('maintable').appendChild(table);
 }
 
 // 初期化
-let jsonCopy = JSON.parse(JSON.stringify(charmJson));
+let charmJsonCopy = JSON.parse(JSON.stringify(charmJson));
 makeTable();
-let sortModeArray = [];
+
+
+// デフォ特性をレギオンマッチに
+$('.vsh').css({ 'display':'none' });
+$('.lm').css({ 'display':'table-cell' });
+$('.mode-btn.mode-vsh').removeClass('active');
+$('.mode-btn.mode-lm').addClass('active');
+let modeSelection = 'レギオンマッチ';
+
+/*
+// デフォ特性を対ヒュージに
+$('.vsh').css({ 'display':'table-cell' });
+$('.lm').css({ 'display':'none' });
+$('.mode-btn.mode-vsh').addClass('active');
+$('.mode-btn.mode-lm').removeClass('active');
+let modeSelection = '対ヒュージ';
+*/
+/*
+// デフォを両方表示
+$('.vsh').css({ 'display':'table-cell' });
+$('.lm').css({ 'display':'table-cell' });
+$('.mode-btn.mode-vsh').addClass('active');
+$('.mode-btn.mode-lm').addClass('active');
+*/
+
+// モード変更　再並べ替えが必要な場合あり
+function changeMode(mode) {
+    if (mode == 'vsh') {
+        $('.vsh').css({ 'display':'table-cell' });
+        $('.lm').css({ 'display':'none' });
+        $('.mode-btn.mode-vsh').addClass('active');
+        $('.mode-btn.mode-lm').removeClass('active');
+        modeSelection = '対ヒュージ';
+        sort(lastSort, lastOrder);
+    }
+    if (mode == 'lm') {
+        $('.vsh').css({ 'display':'none' });
+        $('.lm').css({ 'display':'table-cell' });
+        $('.mode-btn.mode-vsh').removeClass('active');
+        $('.mode-btn.mode-lm').addClass('active');
+        modeSelection = 'レギオンマッチ';
+        sort(lastSort, lastOrder);
+    }
+}
