@@ -28,6 +28,7 @@ function writeHeader(depth) {
                 <li><a href="${path_prefix}exchange_info/"><h1>exchange</h1></a></li>
                 <li><a href="${path_prefix}legendary_calc/"><h1>legendary</h1></a></li>
                 <li><a href="${path_prefix}other_info/"><h1>other</h1></a></li>
+                <li><a href="${path_prefix}contact/"><h1>お問い合わせ</h1></a></li>
             </ul>
         </div>
     </nav>

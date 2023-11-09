@@ -39,6 +39,11 @@ main {
     font-size: 1.6rem;
 }
 
+main .breadcrumb {
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+}
+
 main a {
     color: #0000bb;
 }
