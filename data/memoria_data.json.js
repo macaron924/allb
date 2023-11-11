@@ -9319,6 +9319,46 @@ const memoriaJson = [
            { yakuwari: 6, name: ["Sp.パワーフォールC Ⅳ", "Sp.ウォーターパワーフォールC Ⅳ", "援:支援UP Ⅳ"] },
            { yakuwari: 7, name: ["ガードヒールC Ⅲ+", "ウォーターガードヒールC Ⅲ", "回:ガードUP Ⅲ"] }
         ]
+    },
+    {
+        id: 738,
+        name: "秘め事☆プールサイド",
+        zokusei: 2,
+        legendary: "ガチャ",
+        illustration: { type: "", chara: [19, 18] },
+        get_rank: "季節 (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "カガヤキ☆アクトレス (2023/11/11～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 4, name: ["水拡：Sp.パワースマッシュB Ⅲ", "水拡：Sp.パワースマッシュB Ⅲ", "攻:ダメージUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 739,
+        name: "シネマティックに煌めいて",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "", chara: [15] },
+        get_rank: "季節 (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "カガヤキ☆アクトレス (2023/11/11～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 7, name: ["Sp.ガードヒールC Ⅲ+", "Sp.ウォーターガードヒールC Ⅲ", "回:Sp.ガードUP Ⅲ"] },
+           { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "水弱：Sp.パワースマッシュB Ⅲ", "攻:Sp.パワーUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 740,
+        name: "神庭の花火師",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "", chara: [70] },
+        get_rank: "季節 (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "カガヤキ☆アクトレス (2023/11/11～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "ウォーターガードブレイクB Ⅲ+", "攻:ガードDOWN Ⅲ"] },
+           { yakuwari: 3, name: ["Sp.マイトスマッシュA Ⅳ+", "Sp.ウォーターパワースマッシュA Ⅳ+", "攻:Sp.パワーUP Ⅲ"] },
+           { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "水強：Sp.パワーアシストB Ⅲ", "援:Sp.パワーUP Ⅲ"] },
+           { yakuwari: 6, name: ["パワーフォールC Ⅳ", "ウォーターパワーフォールB Ⅲ", "援:パワーDOWN Ⅲ"] }
+        ]
     }
     /*
     ,
