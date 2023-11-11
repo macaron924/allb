@@ -184,7 +184,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202310-event-2", name: "モンスターズ・パニック★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202310-event-3", name: "ゴシック・ノスタルジカ★5確定ガチャチケットⅠ", link: false },
         { index: "gacha-ticket_collabo-rezero-1", name: "百合ヶ丘に咲う紫紺の花★5確定ガチャチケットⅠ", link: false },
-        { index: "gacha-ticket_collabo-rezero-2", name: "百合ヶ丘に咲う紫紺の花★5確定ガチャチケットⅡ", link: false }
+        { index: "gacha-ticket_collabo-rezero-2", name: "百合ヶ丘に咲う紫紺の花★5確定ガチャチケットⅡ", link: false },
+        { index: "gacha-ticket_202311-event-1", name: "カガヤキ☆アクトレス★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -236,7 +237,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_collabo-rezero-1", name: "百合ヶ丘に咲う紫紺の花ペンダントEX交換券Ⅰ", link: false },
         { index: "exchange_pendant-ex_collabo-rezero-2", name: "百合ヶ丘に咲う紫紺の花ペンダントEX交換券Ⅱ", link: false },
         { index: "exchange_pendant-ex_202311-zenei", name: "オータムフェス前衛ペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202311-kouei", name: "オータムフェス後衛ペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202311-kouei", name: "オータムフェス後衛ペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202311-1", name: "カガヤキ☆アクトレスペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },

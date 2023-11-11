@@ -4228,6 +4228,33 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
         "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 471,
+        "chara": 19,
+        "yakuwari": 4,
+        "name": "シャイニーアクトレス",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 472,
+        "chara": 15,
+        "yakuwari": 7,
+        "name": "シャイニーアクトレス",
+        "percent": 15,
+        "parameter": [["Sp.DEF", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 5]]
+    },
+    {
+        "id": 473,
+        "chara": 70,
+        "yakuwari": 2,
+        "name": "シャイニーアクトレス",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
     }
     /*
     ,
