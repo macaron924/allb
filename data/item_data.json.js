@@ -67,7 +67,8 @@ const itemByTypeJson = {
         { index: "costume_457_pendant-ex", name: "高嶺/プリンセスナイトαのペンダントEX", link: false },
         { index: "costume_465_before", name: "幼少期レム/幼少期レムの着物", link: false },
         { index: "costume_465_pendant-ex", name: "幼少期レム/幼少期レムの着物のペンダントEX", link: false },
-        { index: "costume_466_pendant-ex", name: "二水/アーセナリーローズαの着物のペンダントEX", link: false }
+        { index: "costume_466_pendant-ex", name: "二水/アーセナリーローズαのペンダントEX", link: false },
+        { index: "costume_474_pendant-ex", name: "藍/オブシダンスーツαのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -337,6 +338,7 @@ const itemByTypeJson = {
         { index: "exchange_brand-new_202310-2", name: "BRAND-NEW★5メモリア引換券10月Ⅱ", link: false },
         { index: "exchange_brand-new_202310-3", name: "BRAND-NEW★5メモリア引換券10月Ⅲ", link: false },
         { index: "exchange_brand-new_202311-1", name: "BRAND-NEW★5メモリア引換券11月", link: false },
+        { index: "exchange_brand-new_202311-2", name: "BRAND-NEW★5メモリア引換券11月Ⅱ", link: false },
         // その他
         { index: "exchange_emotional-sozai", name: "エモーショナルメモリア素材引換券", link: false },
         { index: "exchange_creators-gacha", name: "クリエイターズコラボガチャチケット引換券", link: false },
