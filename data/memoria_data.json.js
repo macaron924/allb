@@ -9359,6 +9359,34 @@ const memoriaJson = [
            { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "水強：Sp.パワーアシストB Ⅲ", "援:Sp.パワーUP Ⅲ"] },
            { yakuwari: 6, name: ["パワーフォールC Ⅳ", "ウォーターパワーフォールB Ⅲ", "援:パワーDOWN Ⅲ"] }
         ]
+    },
+    {
+        id: 741,
+        name: "クリエイターズコラボ-藍の心と秋の空-",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [11, 14] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/11/13～)", c3: [""] },
+        skill: [
+           { yakuwari: 5, name: ["パワーアシストC Ⅳ", "カウンターファイアパワーアシストC Ⅳ", "援:支援UP Ⅳ"] },
+           { yakuwari: 2, name: ["火：ガードブレイクB Ⅲ", "カウンターファイアガードブレイクB Ⅲ+", "攻:ダメージUP/ガードDOWN Ⅲ"] }
+        ]
+    },
+    {
+        id: 742,
+        name: "クリエイターズコラボ-かわいい狩りの秋-",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [74, 73] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/11/13～)", c3: [""] },
+        skill: [
+           { yakuwari: 4, name: ["火：Sp.パワースマッシュB Ⅲ", "Sp.カウンターファイアパワースマッシュB Ⅲ+", "攻:ダメージUP Ⅳ"] },
+           { yakuwari: 2, name: ["火：パワーストライクB Ⅲ", "火：パワーストライクB Ⅲ", "攻:ダメージUP Ⅳ"] },
+           { yakuwari: 6, name: ["Sp.パワーフォールC Ⅳ", "Sp.カウンターファイアパワーフォールC Ⅳ", "援:支援UP Ⅳ"] },
+           { yakuwari: 7, name: ["ガードヒールD Ⅳ", "カウンターファイアガードヒールD Ⅳ", "回:回復UP Ⅳ"] }
+        ]
     }
     /*
     ,
