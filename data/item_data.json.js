@@ -324,6 +324,7 @@ const itemByTypeJson = {
         { index: "exchange_event-gacha-special-gw", name: "ラスバれ！GWイベントガチャスペシャル交換券", link: true },
         { index: "exchange_event-gacha-special-ririsama", name: "2.5周年イベントガチャスペシャル交換券", link: true },
         { index: "exchange_event-gacha-special-3", name: "イベントガチャスペシャル交換券", link: true },
+        { index: "exchange_event-gacha-special-4", name: "イベントガチャスペシャル交換券", link: true },
         // アルティメット交換券
         { index: "exchange_ultimate-select-zenei", name: "アルティメットメモリア前衛交換券", link: false },
         { index: "exchange_ultimate-select-kouei", name: "アルティメットメモリア後衛交換券", link: false },
@@ -333,6 +334,8 @@ const itemByTypeJson = {
         { index: "exchange_ultimate2-select-kouei", name: "2.5周年アルティメットメモリア後衛交換券", link: false },
         { index: "exchange_ultimate-select-zenei-3", name: "アルティメットメモリア前衛交換券", link: false },
         { index: "exchange_ultimate-select-kouei-3", name: "アルティメットメモリア後衛交換券", link: false },
+        { index: "exchange_ultimate2-select-zenei-2", name: "アルティメットメモリア前衛交換券", link: false },
+        { index: "exchange_ultimate2-select-kouei-2", name: "アルティメットメモリア後衛交換券", link: false },
         // 新メモリア交換券
         { index: "exchange_brand-new", name: "BRAND-NEW★5メモリア引換券", link: false },
         { index: "exchange_brand-new_202310-2", name: "BRAND-NEW★5メモリア引換券10月Ⅱ", link: false },
@@ -357,6 +360,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_202309", name: "ボーナスメダルⅨ", link: false },
         { index: "medal_bonus_202310", name: "ボーナスメダルⅩ", link: false },
         { index: "medal_bonus_202311", name: "ボーナスメダルⅪ", link: false },
+        { index: "medal_bonus_202312", name: "ボーナスメダルⅫ", link: false },
         { index: "medal_bonus_collabo-prisma-illya", name: "シスターズ・カラミティボーナスメダル", link: false },
         { index: "medal_bonus_collabo-madoka-magica", name: "マギカ☆ワンダーワールドボーナスメダル", link: false },
         { index: "medal_bonus_collabo-yuyuyu", name: "白百合の章ボーナスメダル", link: false },
@@ -390,9 +394,10 @@ const itemByTypeJson = {
         { index: "medal_bonus_peta-max", name: "ペタMAXボーナスメダル", link: true },
         { index: "medal_bonus_gw", name: "ラスバれ！GWボーナスメダル", link: true },
         { index: "medal_bonus_premium", name: "プレミアボーナスメダル", link: true },
+        { index: "medal_bonus_premium-2", name: "プレミアボーナスメダル", link: true },
+        { index: "medal_bonus_premium-3", name: "プレミアボーナスメダル", link: true },
         { index: "medal_bonus_ririsama", name: "2.5周年リリサマ!!ボーナスメダル", link: true },
         { index: "medal_bonus_new-ch-gran-eple", name: "新章グラン・エプレ編ボーナスメダル", link: true },
-        { index: "medal_bonus_premium-2", name: "プレミアボーナスメダル", link: true },
         { index: "medal_bonus_skill", name: "スキル特化メモリアボーナスメダル", link: true },
         { index: "medal_bonus_skill_202310", name: "スキル特化メモリアボーナスメダル10月", link: true }
     ],
