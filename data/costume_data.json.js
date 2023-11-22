@@ -4264,6 +4264,33 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["ATK", 3000], ["DEF", 3000]],
         "ex": [["火UP", 5]]
+    },
+    {
+        "id": 475,
+        "chara": 56,
+        "yakuwari": 6,
+        "name": "ノクターンミラージュ",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP", 5]]
+    },
+    {
+        "id": 476,
+        "chara": 98,
+        "yakuwari": 2,
+        "name": "ノクターンミラージュ",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 477,
+        "chara": 99,
+        "yakuwari": 4,
+        "name": "ノクターンミラージュ",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
     }
     /*
     ,
