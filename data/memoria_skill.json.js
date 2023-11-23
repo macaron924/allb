@@ -2343,6 +2343,11 @@ const skillJson = [
             "tag": [ {"fx": "味方回復", "val": "中"}, {"fx": "DEF↑", "val": "中"} ]
         },
         {
+            "name": "ガードヒールC Ⅳ",
+            "effect_detail": "味方1～3体のHPを大回復する。さらに味方のDEFを小アップする。",
+            "tag": [ {"fx": "味方回復", "val": "大"}, {"fx": "DEF↑", "val": "小"} ]
+        },
+        {
             "name": "ガードヒールD Ⅲ",
             "effect_detail": "味方2体のHPを回復する。さらに味方のDEFを小アップする。",
             "tag": [ {"fx": "味方回復", "val": "中"}, {"fx": "DEF↑", "val": "小"} ]
