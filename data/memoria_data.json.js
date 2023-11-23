@@ -9428,6 +9428,34 @@ const memoriaJson = [
            { yakuwari: 6, name: ["パワーフォールC Ⅳ", "水弱：パワーフォールB Ⅲ", "援:パワーDOWN Ⅲ"] },
            { yakuwari: 7, name: ["Sp.ガードヒールC Ⅲ+", "Sp.ウォーターガードヒールC Ⅲ", "回:Sp.ガードUP/副援:水ガードUP Ⅲ"] }
         ]
+    },
+    {
+        id: 746,
+        name: "クリエイターズコラボ-小さな音楽会-",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [17, 19] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/11/23～)", c3: [""] },
+        skill: [
+           { yakuwari: 7, name: ["ガードヒールC Ⅳ", "ファイアガードヒールC Ⅳ", "回:ガードUP/副援:火ガードUP Ⅲ"] },
+           { yakuwari: 2, name: ["火：パワーストライクB Ⅲ", "火：パワーストライクB Ⅲ", "攻:ダメージUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 747,
+        name: "クリエイターズコラボ-秋の日に描く面影-",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [69, 68] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/11/23～)", c3: [""] },
+        skill: [
+           { yakuwari: 4, name: ["火：Sp.パワースマッシュB Ⅲ", "火：Sp.パワースマッシュB Ⅲ", "攻:ダメージUP/Sp.パワーUP Ⅲ"] },
+           { yakuwari: 1, name: ["マイトストライクA Ⅳ+", "ファイアパワーストライクA Ⅳ+", "攻:パワーUP/副攻:火パワーUP Ⅲ"] },
+           { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "Sp.ファイアパワーアシストC Ⅳ", "援:Sp.パワーUP/副援:火パワーUP Ⅲ"] },
+           { yakuwari: 6, name: ["パワーフォールC Ⅳ", "ファイアパワーフォールC Ⅳ", "援:パワーDOWN/副援:火パワーDOWN Ⅲ"] }
+        ]
     }
     /*
     ,
