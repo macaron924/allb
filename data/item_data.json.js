@@ -408,7 +408,8 @@ const itemByTypeJson = {
         { index: "medal_bonus_ririsama", name: "2.5周年リリサマ!!ボーナスメダル", link: true },
         { index: "medal_bonus_new-ch-gran-eple", name: "新章グラン・エプレ編ボーナスメダル", link: true },
         { index: "medal_bonus_skill", name: "スキル特化メモリアボーナスメダル", link: true },
-        { index: "medal_bonus_skill_202310", name: "スキル特化メモリアボーナスメダル10月", link: true }
+        { index: "medal_bonus_skill_202310", name: "スキル特化メモリアボーナスメダル10月", link: true },
+        { index: "medal_bonus_skill_202311", name: "スキル特化メモリアボーナスメダル11月", link: true }
     ],
     other: [
         { index: "coin_sell", name: "無垢なる黄金", link: false },

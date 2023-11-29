@@ -1,5 +1,93 @@
 const gachaLimited202311 = [
     {
+        start: "2023/11/28(火) 12:00",
+        finish: "2023/12/11(月) 23:59",
+        type: "スキル特化メモリアガチャ",
+        medal: "medal_bonus_skill_202311",
+        gacha: [
+            {
+                index: "20231128_1-1",
+                name: "スキル特化メモリア前衛ガチャ",
+                big_banner: true,
+                bonus: {
+                    notice: [
+                        { text: "11回ガチャ20回限定", item: [] },
+                        { text: "ガチャを引く毎に", item: [ { index: "medal", value: 100}, { index: "goggle-3", value: 5 } ] }
+                    ],
+                    table_header: ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    table_content: [
+                        { need: [1, 11], item: [ { index: "memoria-level-3", value: 100 } ] },
+                        { need: [2, 22], item: [ { index: "medal_pendant-premium", value: 300 } ] },
+                        { need: [3, 33], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [4, 44], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [5, 55], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [6, 66], item: [ { index: "skill-vshuge-3", value: 30 } ] },
+                        { need: [7, 77], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [8, 88], item: [ { index: "skill-lm-3", value: 30 } ] },
+                        { need: [9, 99], item: [ { index: "memoria-level-3", value: 100 } ] },
+                        { need: [10, 110], item: [ { index: "gacha-ticket_cost18zenei", value: 1 } ] },
+                        { need: [11, 121], item: [ { index: "skill-hojo-3", value: 30 } ] },
+                        { need: [12, 132], item: [ { index: "medal_pendant-premium", value: 300 } ] },
+                        { need: [13, 143], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [14, 154], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [15, 165], item: [ { index: "skill-all-3", value: 30 } ] },
+                        { need: [16, 176], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [17, 187], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [18, 198], item: [ { index: "memoria-level-3", value: 100 } ] },
+                        { need: [19, 209], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [20, 220], item: [ { index: "gacha-ticket_cost20", value: 1 } ] }
+                    ]
+                },
+                lineup: {
+                    total_ratio: [5],
+                    notice: [],
+                    pu: [],
+                    else: { caption: "ピックアップ無し", content: [407, 468, 480, 533, 534, 557, 558, 578, 579, 586, 587, 609, 610, 624, 625, 642, 643, 649, 650, 662, 663] }
+                }
+            },
+            {
+                index: "20231128_1-2",
+                name: "スキル特化メモリア後衛ガチャ",
+                big_banner: true,
+                bonus: {
+                    notice: [
+                        { text: "11回ガチャ20回限定", item: [] },
+                        { text: "ガチャを引く毎に", item: [ { index: "medal", value: 100}, { index: "goggle-3", value: 5 } ] }
+                    ],
+                    table_header: ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    table_content: [
+                        { need: [1, 11], item: [ { index: "memoria-level-3", value: 100 } ] },
+                        { need: [2, 22], item: [ { index: "medal_pendant-premium", value: 300 } ] },
+                        { need: [3, 33], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [4, 44], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [5, 55], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [6, 66], item: [ { index: "skill-vshuge-3", value: 30 } ] },
+                        { need: [7, 77], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [8, 88], item: [ { index: "skill-lm-3", value: 30 } ] },
+                        { need: [9, 99], item: [ { index: "memoria-level-3", value: 100 } ] },
+                        { need: [10, 110], item: [ { index: "gacha-ticket_cost18kouei", value: 1 } ] },
+                        { need: [11, 121], item: [ { index: "skill-hojo-3", value: 30 } ] },
+                        { need: [12, 132], item: [ { index: "medal_pendant-premium", value: 300 } ] },
+                        { need: [13, 143], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [14, 154], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [15, 165], item: [ { index: "skill-all-3", value: 30 } ] },
+                        { need: [16, 176], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [17, 187], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [18, 198], item: [ { index: "memoria-level-3", value: 100 } ] },
+                        { need: [19, 209], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [20, 220], item: [ { index: "gacha-ticket_cost20", value: 1 } ] }
+                    ]
+                },
+                lineup: {
+                    total_ratio: [5],
+                    notice: [],
+                    pu: [],
+                    else: { caption: "ピックアップ無し", content: [400, 526, 559, 560, 561, 577, 580, 581, 589, 611, 612, 626, 627, 638, 641, 651, 652, 664, 665] }
+                }
+            }
+        ]
+    },
+    {
         start: "2023/11/27(月) 12:00",
         finish: "2023/11/29(水) 23:59",
         type: "マンデーボーナスガチャ",
