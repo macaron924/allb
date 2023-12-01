@@ -69,7 +69,9 @@ const itemByTypeJson = {
         { index: "costume_465_pendant-ex", name: "幼少期レム/幼少期レムの着物のペンダントEX", link: false },
         { index: "costume_466_pendant-ex", name: "二水/アーセナリーローズαのペンダントEX", link: false },
         { index: "costume_474_pendant-ex", name: "藍/オブシダンスーツαのペンダントEX", link: false },
-        { index: "costume_478_pendant-ex", name: "紅巴/ビューティフルワールドαのペンダントEX", link: false }
+        { index: "costume_478_pendant-ex", name: "紅巴/ビューティフルワールドαのペンダントEX", link: false },
+        { index: "costume_482_before", name: "富永真/百合ヶ丘標準制服", link: false },
+        { index: "costume_482_pendant-ex", name: "真/百合ヶ丘標準制服のペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -188,7 +190,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_collabo-rezero-1", name: "百合ヶ丘に咲う紫紺の花★5確定ガチャチケットⅠ", link: false },
         { index: "gacha-ticket_collabo-rezero-2", name: "百合ヶ丘に咲う紫紺の花★5確定ガチャチケットⅡ", link: false },
         { index: "gacha-ticket_202311-event-1", name: "カガヤキ☆アクトレス★5確定ガチャチケット", link: false },
-        { index: "gacha-ticket_202311-event-2", name: "ゴシック・ノスタルジカ★5確定ガチャチケットⅡ", link: false }
+        { index: "gacha-ticket_202311-event-2", name: "ゴシック・ノスタルジカ★5確定ガチャチケットⅡ", link: false },
+        { index: "gacha-ticket_202312-event-1", name: "誓いのリコネクト★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -242,7 +245,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202311-zenei", name: "オータムフェス前衛ペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202311-kouei", name: "オータムフェス後衛ペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202311-1", name: "カガヤキ☆アクトレスペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202311-2", name: "ゴシック・ノスタルジカⅡペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202311-2", name: "ゴシック・ノスタルジカⅡペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202312-1", name: "誓いのリコネクトペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -325,6 +329,15 @@ const itemByTypeJson = {
         { index: "exchange_memoria_zokusei-fire_202309", name: "火属性★5メモリア引換券 (9月)", link: true },
         { index: "exchange_memoria_zokusei-water_202309", name: "水属性★5メモリア引換券 (9月)", link: true },
         { index: "exchange_memoria_zokusei-wind_202309", name: "風属性★5メモリア引換券 (9月)", link: true },
+        { index: "exchange_memoria_zokusei-fire_202310", name: "火属性★5メモリア引換券 (10月)", link: true },
+        { index: "exchange_memoria_zokusei-water_202310", name: "水属性★5メモリア引換券 (10月)", link: true },
+        { index: "exchange_memoria_zokusei-wind_202310", name: "風属性★5メモリア引換券 (10月)", link: true },
+        { index: "exchange_memoria_zokusei-fire_202311", name: "火属性★5メモリア引換券 (11月)", link: true },
+        { index: "exchange_memoria_zokusei-water_202311", name: "水属性★5メモリア引換券 (11月)", link: true },
+        { index: "exchange_memoria_zokusei-wind_202311", name: "風属性★5メモリア引換券 (11月)", link: true },
+        { index: "exchange_memoria_zokusei-fire_202312", name: "火属性★5メモリア引換券 (12月)", link: true },
+        { index: "exchange_memoria_zokusei-water_202312", name: "水属性★5メモリア引換券 (12月)", link: true },
+        { index: "exchange_memoria_zokusei-wind_202312", name: "風属性★5メモリア引換券 (12月)", link: true },
         { index: "exchange_refrain", name: "リフレインセレクトチケット", link: true },
         // イベントガチャ交換券
         { index: "exchange_event-gacha-special", name: "イベントガチャスペシャル交換券", link: true },
@@ -352,6 +365,7 @@ const itemByTypeJson = {
         { index: "exchange_brand-new_202311-2", name: "BRAND-NEW★5メモリア引換券11月Ⅱ", link: false },
         { index: "exchange_brand-new_202311-3", name: "BRAND-NEW★5メモリア引換券11月Ⅲ", link: false },
         // その他
+        { index: "exchange_charm_202312-event-1", name: "誓いのリコネクトCHARM引換券", link: false },
         { index: "exchange_emotional-sozai", name: "エモーショナルメモリア素材引換券", link: false },
         { index: "exchange_creators-gacha", name: "クリエイターズコラボガチャチケット引換券", link: false },
         { index: "exchange_creators-gacha_autumn-fes", name: "クリエイターズコラボガチャチケット引換券", link: false }

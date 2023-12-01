@@ -9456,6 +9456,59 @@ const memoriaJson = [
            { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "Sp.ファイアパワーアシストC Ⅳ", "援:Sp.パワーUP/副援:火パワーUP Ⅲ"] },
            { yakuwari: 6, name: ["パワーフォールC Ⅳ", "ファイアパワーフォールC Ⅳ", "援:パワーDOWN/副援:火パワーDOWN Ⅲ"] }
         ]
+    },
+    {
+        id: 748,
+        name: "やがて運命は扉を叩く",
+        zokusei: 1,
+        legendary: "ガチャ",
+        illustration: { type: "", chara: [1, 5, 2, 6] },
+        get_rank: "メインストーリー3章 (未復刻)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "誓いのリコネクト (2023/11/30～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 2, name: ["火拡：パワーストライクB Ⅲ", "火拡：パワーストライクB Ⅲ", "攻:ダメージUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 749,
+        name: "決着の引き金、魂を重ねて",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "", chara: [6, 5] },
+        get_rank: "メインストーリー3章 (未復刻)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "誓いのリコネクト (2023/11/30～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 6, name: ["Sp.パワーフォールC Ⅳ", "Sp.ファイアパワーフォールB Ⅲ", "援:Sp.パワーDOWN Ⅲ"] },
+           { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "火弱：パワーストライクB Ⅲ", "攻:パワーUP Ⅲ"] },
+           { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "Sp.ファイアパワースマッシュB Ⅲ+", "攻:Sp.パワーUP Ⅲ"] },
+           { yakuwari: 7, name: ["Sp.ガードヒールC Ⅲ+", "Sp.ファイアガードヒールC Ⅲ", "回:Sp.ガードUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 750,
+        name: "邪眼解放",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "", chara: [5] },
+        get_rank: "メインストーリー3章 (未復刻)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "誓いのリコネクト (2023/11/30～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "ファイアガードブレイクB Ⅲ+", "攻:ガードDOWN Ⅲ"] },
+           { yakuwari: 5, name: ["パワーアシストC Ⅳ", "火強：パワーアシストB Ⅲ", "援:パワーUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 751,
+        name: "真打ち登場やで！",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "", chara: [106] },
+        get_rank: "メインストーリー3章 (未復刻)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "誓いのリコネクト (2023/11/30～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.ファイアガードバーストB Ⅲ+", "攻:Sp.ガードDOWN Ⅲ"] },
+           { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "Sp.ファイアパワーアシストB Ⅲ", "援:Sp.パワーUP Ⅲ"] }
+        ]
     }
     /*
     ,

@@ -1320,4 +1320,4 @@ const gachaLimited202310 = [
     }
 ]
 
-gachaLimitedList.push( { ref: gachaLimited202310, index: 202310, active: true, group: "" } );
+gachaLimitedList.push( { ref: gachaLimited202310, index: 202310, active: false, group: "" } );
