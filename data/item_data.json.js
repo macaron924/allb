@@ -72,7 +72,8 @@ const itemByTypeJson = {
         { index: "costume_478_pendant-ex", name: "紅巴/ビューティフルワールドαのペンダントEX", link: false },
         { index: "costume_482_before", name: "富永真/百合ヶ丘標準制服", link: false },
         { index: "costume_482_pendant-ex", name: "真/百合ヶ丘標準制服のペンダントEX", link: false },
-        { index: "costume_483_pendant-ex", name: "ミリアム/ムーンライトαのペンダントEX", link: false }
+        { index: "costume_483_pendant-ex", name: "ミリアム/ムーンライトαのペンダントEX", link: false },
+        { index: "costume_484_pendant-ex", name: "神琳/聖夜のプレゼントのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -90,7 +91,9 @@ const itemByTypeJson = {
         { index: "memoria_661_evolution", name: "楽しいを探して：ピース", link: false },
         { index: "memoria_661_awakening", name: "楽しいを探して：ジェム", link: false },
         { index: "memoria_708_evolution", name: "ねこさんこちら：ピース", link: false },
-        { index: "memoria_708_awakening", name: "ねこさんこちら：ジェム", link: false }
+        { index: "memoria_708_awakening", name: "ねこさんこちら：ジェム", link: false },
+        { index: "memoria_754_evolution", name: "箱入り神琳：ピース", link: false },
+        { index: "memoria_754_awakening", name: "箱入り神琳：ジェム", link: false }
     ],
     gacha_ticket: [ // ガチャチケット
         { index: "gacha-ticket_lily-passport", name: "リリィパスポート★5確定ガチャチケット", link: true },
@@ -138,6 +141,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_cuelebre", name: "クエレブレ登場記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_halloween", name: "ハッピー！ハロウィン記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_hitotsuyanagi-tai_coupling", name: "一柳隊★5 100%!!カップリング2回ガチャチケット", link: true },
+        { index: "gacha-ticket_xmas", name: "Xmas記念★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_xmas-kakutei", name: "Xmasメモリア100%!!★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_emotional", name: "エモーショナルメモリア★5確定ガチャチケット", link: false },
         // イベントガチャチケット
         { index: "gacha-ticket_202212-event-1", name: "聖夜へ捧ぐサプライズ★5確定ガチャチケット", link: false },
@@ -247,7 +252,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202311-kouei", name: "オータムフェス後衛ペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202311-1", name: "カガヤキ☆アクトレスペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202311-2", name: "ゴシック・ノスタルジカⅡペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202312-1", name: "誓いのリコネクトペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202312-1", name: "誓いのリコネクトペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_xmas", name: "Xmas記念ペンダントEX交換券", link: true }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -284,7 +290,8 @@ const itemByTypeJson = {
         { index: "exchange_costume_gigant_202311", name: "ギガント級ヒュージ討伐衣装引換券 (11月)", link: true },
         { index: "exchange_costume_ririsama-1", name: "GO!GO!スプラッシュ衣装引換券", link: true },
         { index: "exchange_costume_ririsama-2", name: "トロピカルナイト衣装引換券", link: true },
-        { index: "exchange_costume_ririsama-3", name: "ギガントウェーブ衣装引換券", link: true }
+        { index: "exchange_costume_ririsama-3", name: "ギガントウェーブ衣装引換券", link: true },
+        { index: "exchange_costume_xmas", name: "Xmas記念衣装引換券", link: true }
     ],
     exchange: [ // メモリア引換券
         { index: "exchange_memoria_toumei-diary", name: "トウメイダイアリーCD発売記念！★5メモリア引換券", link: true },
@@ -416,6 +423,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_emotional-6", name: "エモーショナルメモリアボーナスメダルⅥ", link: true },
         { index: "medal_bonus_emotional-7", name: "エモーショナルメモリアボーナスメダルⅦ", link: true },
         { index: "medal_bonus_emotional-8", name: "エモーショナルメモリアボーナスメダルⅧ", link: true },
+        { index: "medal_bonus_emotional-9", name: "エモーショナルメモリアボーナスメダルⅨ", link: true },
         { index: "medal_bonus_peta-max", name: "ペタMAXボーナスメダル", link: true },
         { index: "medal_bonus_gw", name: "ラスバれ！GWボーナスメダル", link: true },
         { index: "medal_bonus_premium", name: "プレミアボーナスメダル", link: true },

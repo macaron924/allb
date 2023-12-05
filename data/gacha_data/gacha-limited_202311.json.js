@@ -208,7 +208,7 @@ const gachaLimited202311 = [
         start: "2023/11/26(日) 12:00",
         finish: "2023/11/28(火) 23:59",
         type: "限界突破応援属性別ガチャ",
-        medal: "medal_bonus_202310",
+        medal: "medal_bonus_202311",
         gacha: [
             {
                 index: "20231126_1-1",
