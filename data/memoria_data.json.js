@@ -9537,6 +9537,22 @@ const memoriaJson = [
            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.カウンターウォーターガードバーストB Ⅲ+", "攻:ダメージUP/Sp.ガードDOWN Ⅲ"] },
            { yakuwari: 7, name: ["ガードヒールC Ⅲ+", "ウォーターガードヒールC Ⅲ", "回:ガードUP/副援:水ガードUP Ⅲ"] }
         ]
+    },
+    {
+        id: 754,
+        name: "Emotional Memoria -箱入り神琳-",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "", chara: [7] },
+        get_rank: "エモーショナルメモリア",
+        category: { c1: "エモーショナルメモリアガチャ", c2: "エモーショナルメモリア -箱入り神琳- ガチャ", c3: [""] },
+        skill: [
+           { yakuwari: 5, name: ["WパワーアシストC Ⅳ", "WカウンターパワーアシストC Ⅳ", "援:支援UP Ⅳ"] },
+           { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "カウンターファイアガードブレイクB Ⅲ+", "攻:ダメージUP/ガードDOWN Ⅲ"] },
+           { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "Sp.カウンターファイアパワースマッシュB Ⅲ+", "攻:ダメージUP/Sp.パワーUP Ⅲ"] },
+           { yakuwari: 6, name: ["パワーフォールC Ⅳ", "カウンターファイアパワーフォールC Ⅳ", "援:支援UP Ⅳ"] },
+           { yakuwari: 7, name: ["Sp.ガードヒールD Ⅳ", "Sp.カウンターファイアガードヒールD Ⅳ", "回:回復UP/副援:火ガードUP Ⅲ"] }
+        ]
     }
     /*
     ,
