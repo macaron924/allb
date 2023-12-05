@@ -1,5 +1,91 @@
 const gachaLimited202312 = [
     {
+        start: "2023/12/5(火) 12:00",
+        finish: "2023/12/25(月) 23:59",
+        type: "エモーショナルメモリアガチャ",
+        medal: "medal_bonus_emotional-9",
+        gacha: [
+            {
+                index: "20231205_1",
+                name: "エモーショナルメモリア-箱入り神琳-ガチャ",
+                big_banner: true,
+                bonus: {
+                    notice: [
+                        { text: "ガチャを引く毎に", item: [ { index: "medal", value: 100}, { index: "goggle-3", value: 5 } ] }
+                    ],
+                    table_header: ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    table_content: [
+                        { need: [1, 11], item: [ { index: "memoria_754_evolution", value: 1 }, { index: "memoria_754_awakening", value: 1 }, { index: "gacha-ticket_xmas", value: 1 }, { index: "medal_pendant-premium", value: 200 } ] },
+                        { need: [2, 22], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [3, 33], item: [ { index: "medal_pendant-royal", value: 100 } ] },
+                        { need: [4, 44], item: [ { index: "gacha-ticket_cost18", value: 1 } ] },
+                        { need: [5, 55], item: [ { index: "costume_484_pendant-ex", value: 1 }, { index: "gacha-ticket_xmas-kakutei", value: 1 }, { index: "exchange_costume_xmas", value: 1 }, { index: "exchange_pendant-ex_xmas", value: 1 }, { index: "medal_pendant-premium", value: 300 }, { index: "medal_pendant-royal", value: 100 } ] },
+                        { need: [6, 66], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [7, 77], item: [ { index: "medal_pendant-royal", value: 100 } ] },
+                        { need: [8, 88], item: [ { index: "skill-all-3", value: 50 } ] },
+                        { need: [9, 99], item: [ { index: "gacha-ticket_cost18", value: 1 } ] },
+                        { need: [10, 110], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [11, 121], item: [ { index: "skill-all-3", value: 50 } ] },
+                        { need: [12, 132], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [13, 143], item: [ { index: "moon", value: 1 } ] },
+                        { need: [14, 154], item: [ { index: "gacha-ticket_cost19", value: 1 } ] },
+                        { need: [15, 165], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [16, 176], item: [ { index: "memoria_754_before", value: 1 } ] },
+                        { need: [17, 187], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [18, 198], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [19, 209], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [20, 220], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [21, 231], item: [ { index: "skill-all-3", value: 50 } ] },
+                        { need: [22, 242], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [23, 253], item: [ { index: "moon", value: 1 } ] },
+                        { need: [24, 264], item: [ { index: "gacha-ticket_cost19", value: 1 } ] },
+                        { need: [25, 275], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [26, 286], item: [ { index: "memoria_754_before", value: 1 } ] },
+                        { need: [27, 297], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [28, 308], item: [ { index: "medal_pendant-premium", value: 100 } ] },
+                        { need: [29, 319], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [30, 330], item: [ { index: "skip-ticket", value: 100 } ] }
+                    ]
+                },
+                lineup: {
+                    total_ratio: [5],
+                    notice: [],
+                    pu: [
+                        { caption: "新規メモリアピックアップ", ratio: [1.000], content: [754] }
+                    ],
+                    else: { caption: "その他", content: [43, 57, 64, 74, 75, 80, 81, 76, 88, 96, 97, 98, 99, 100, 112, 113, 118, 121, 130, 128, 129, 137, 132, 156, 162, 173, 174, 175, 176, 186, 191, 192, 193, 190, 198, 202, 203, 208, 213, 214, 215, 286, 287, 299, 300, 318, 320, 319, 321, 334, 335, 336, 337, 352, 353, 354, 355, 367, 368, 369, 370, 379, 380, 381, 382, 386, 387, 388, 389, 398, 399, 400, 401, 406, 407, 408, 409, 418, 419, 420, 421, 427, 428, 429, 430, 444, 445, 446, 447, 448, 454, 455, 456, 457, 458, 467, 468, 469, 470, 471, 480, 481, 482, 483, 484, 498, 499, 500, 501, 502, 533, 534, 535, 536, 548, 549, 550, 551, 552, 557, 558, 559, 560, 561, 578, 579, 580, 581, 586, 587, 588, 589, 602, 603, 604, 605, 609, 610, 611, 612, 624, 625, 626, 627, 633, 634, 635, 636] }
+                }
+            }
+        ]
+    },
+    {
+        start: "2023/12/4(月) 12:00",
+        finish: "2023/12/6(水) 23:59",
+        type: "マンデーボーナスガチャ",
+        medal: "medal_bonus_202312",
+        gacha: [
+            {
+                index: "20231204_1",
+                name: "マンデーボーナスガチャ",
+                big_banner: true,
+                bonus: {
+                    notice: [
+                        { text: "11回ガチャ1回限定", item: [] },
+                        { text: "ガチャを引くと", item: [ { index: "medal", value: 200}, { index: "skip-ticket", value: 300 }, { index: "goggle-3", value: 5 } ] }
+                    ],
+                    table_header: [],
+                    table_content: []
+                },
+                lineup: {
+                    total_ratio: [5],
+                    notice: ["★5メモリアは半年以内追加のみ"],
+                    pu: [],
+                    else: { caption: "ピックアップ無し", content: [663, 665, 684, 686] }
+                }
+            }
+        ]
+    },
+    {
         start: "2023/12/3(日) 12:00",
         finish: "2023/12/12(火) 23:59",
         type: "BRAND-NEWメモリアガチャ",
