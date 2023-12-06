@@ -242,7 +242,8 @@ function writeBonusTable() {
             // リンクがある場合のみ付加
             if (link != "") item = `<a href="../../../${link}">${item}</a>`;
 
-            if (j != 0) tdContent += `<br>`;
+            // divに入れる
+            item = `<div>${item}</div>`;
 
             tdContent += item;
         }
