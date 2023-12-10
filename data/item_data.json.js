@@ -104,8 +104,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_cost19", name: "コスト19以上★5ガチャチケット", link: true },
         { index: "gacha-ticket_cost20", name: "コスト20以上★5ガチャチケット", link: true },
         { index: "gacha-ticket_awakening", name: "覚醒メモリア★5確定ガチャチケット", link: true },
-        { index: "gacha-ticket_cost17awakening", name: "コスト17以上覚醒★5確定ガチャチケット", link: true },
-        { index: "gacha-ticket_cost18awakening", name: "コスト18以上覚醒★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_cost17awakening", name: "コスト17以上覚醒★5ガチャチケット", link: true },
+        { index: "gacha-ticket_cost18awakening", name: "コスト18以上覚醒★5ガチャチケット", link: true },
         { index: "gacha-ticket_cost18zenei", name: "前衛コスト18以上ガチャチケット", link: true },
         { index: "gacha-ticket_cost18kouei", name: "後衛コスト18以上ガチャチケット", link: true },
         { index: "gacha-ticket_costume", name: "衣装開放★5確定ガチャチケット", link: true },
@@ -197,7 +197,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_collabo-rezero-2", name: "百合ヶ丘に咲う紫紺の花★5確定ガチャチケットⅡ", link: false },
         { index: "gacha-ticket_202311-event-1", name: "カガヤキ☆アクトレス★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202311-event-2", name: "ゴシック・ノスタルジカ★5確定ガチャチケットⅡ", link: false },
-        { index: "gacha-ticket_202312-event-1", name: "誓いのリコネクト★5確定ガチャチケット", link: false }
+        { index: "gacha-ticket_202312-event-1", name: "誓いのリコネクト★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_202312-event-2", name: "極天に集いし花々★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -253,6 +254,7 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202311-1", name: "カガヤキ☆アクトレスペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202311-2", name: "ゴシック・ノスタルジカⅡペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202312-1", name: "誓いのリコネクトペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202312-2", name: "極天に集いし花々ペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_xmas", name: "Xmas記念ペンダントEX交換券", link: true }
     ],
     exchange_costume: [ // 衣装引換券
@@ -464,6 +466,7 @@ const itemByTypeJson = {
         { index: "skill-hojo-3", name: "錬成の記憶Ⅲ", link: false },
         { index: "skill-all-3", name: "武功の記憶Ⅲ", link: false },
         { index: "skip-ticket", name: "スキップチケット", link: false },
-        { index: "charm_durandal_hy", name: "デュランダルSP.HY", link: false }
+        { index: "charm_144_star3", name: "デュランダルSP.HY", link: false },
+        { index: "charm_162_star3", name: "ムラマサ・ブレード", link: false }
     ]
 }
