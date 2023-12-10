@@ -4354,6 +4354,33 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
         "ex": [["火UP", 5]]
+    },
+    {
+        "id": 485,
+        "chara": 114,
+        "yakuwari": 5,
+        "name": "SSセイクリッド",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP", 5]]
+    },
+    {
+        "id": 486,
+        "chara": 115,
+        "yakuwari": 4,
+        "name": "百合ヶ丘標準制服",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 487,
+        "chara": 69,
+        "yakuwari": 2,
+        "name": "カーレッジブロッサム",
+        "percent": 15,
+        "parameter": [["ATK", 3000], ["DEF", 3000]],
+        "ex": [["水UP", 3], ["火耐性", 2]]
     }
     /*
     ,

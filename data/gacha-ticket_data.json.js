@@ -122,7 +122,7 @@ const gachaTicketJson = [
         }
     },
     {
-        "name": "コスト17以上覚醒★5確定ガチャチケット",
+        "name": "コスト17以上覚醒★5ガチャチケット",
         "index": "cost17awakening",
         "lineup": {
             "topic": [],
@@ -136,7 +136,7 @@ const gachaTicketJson = [
         }
     },
     {
-        "name": "コスト18以上覚醒★5確定ガチャチケット",
+        "name": "コスト18以上覚醒★5ガチャチケット",
         "index": "cost18awakening",
         "lineup": {
             "topic": [],
