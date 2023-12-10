@@ -39,9 +39,9 @@
             <div class="breadcrumb"><a href="../../">Top</a> > <a href="../">メモリア</a> > メモリアスキル検索</div>
             <h1 class="title">メモリアスキル検索</h1>
             <div>
-                <input type="button" id="menu-open-btn" class="active" value="絞り込みMENU ON/OFF">
+                <input type="button" id="menu-open-btn" class="" value="絞り込みMENU ON/OFF">
             </div>
-            <div id="filter-menu_content" class="active">
+            <div id="filter-menu_content" class="">
                 <div>
                     <label for="mode">検索モード</label>
                     <select id="mode">
@@ -51,179 +51,215 @@
                     <input type="checkbox" id="dual-display" checked>
                     <label for="dual-display">両方表示</label>
                 </div>
-                <div class="flex_btn-box">
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="legendaryButtonPushAction('ガチャ');" value="ガチャ産L"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="legendaryButtonPushAction('リーグ');" value="リーグ報酬L"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="legendaryButtonPushAction('レギオンボックスガチャ');" value="レギオンボックスガチャ交換L"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="legendaryButtonPushAction('');" value="レジェンダリー以外"></div>
+                <div class="filter-box">
+                    <div class="filter-title">レジェンダリー</div>
+                    <div class="flex_btn-box">
+                        <div class="flex_btn-item"><input type="button" class="select-btn" onclick="legendaryButtonPushAction('ガチャ');" value="ガチャ産L"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn" onclick="legendaryButtonPushAction('リーグ');" value="リーグ報酬L"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn" onclick="legendaryButtonPushAction('レギオンボックスガチャ');" value="レギオンボックスガチャ交換L"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn" onclick="legendaryButtonPushAction('');" value="レジェンダリー以外"></div>
+                    </div>
                 </div>
-                <div class="flex_btn-box">
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('1');" value="火"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('2');" value="水"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('3');" value="風"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('4');" value="光"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('5');" value="闇"></div>
+                <div class="filter-box">
+                    <div class="filter-title">属性</div>
+                    <div class="flex_btn-box">
+                        <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('1');" value="火"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('2');" value="水"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('3');" value="風"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('4');" value="光"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn" onclick="zokuseiButtonPushAction('5');" value="闇"></div>
+                    </div>
                 </div>
-                <div class="flex_btn-box">
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(1);" value="通常単体"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(2);" value="通常範囲"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(3);" value="特殊単体"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(4);" value="特殊範囲"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(5);" value="支援"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(6);" value="妨害"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="yakuwariButtonPushAction(7);" value="回復"></div>
+                <div class="filter-box">
+                    <div class="filter-title">役割</div>
+                    <div class="flex_btn-box">
+                        <div class="flex_btn-item">
+                            <button class="select-btn" onclick="yakuwariButtonPushAction(1);">
+                                <img src="./../../images/icon/yakuwari_1.jpg" height="16">通常単体
+                            </button>
+                        </div>
+                        <div class="flex_btn-item">
+                            <button class="select-btn" onclick="yakuwariButtonPushAction(2);">
+                                <img src="./../../images/icon/yakuwari_2.jpg" height="16">通常範囲
+                            </button>
+                        </div>
+                        <div class="flex_btn-item">
+                            <button class="select-btn" onclick="yakuwariButtonPushAction(3);">
+                                <img src="./../../images/icon/yakuwari_3.jpg" height="16">特殊単体
+                            </button>
+                        </div>
+                        <div class="flex_btn-item">
+                            <button class="select-btn" onclick="yakuwariButtonPushAction(4);">
+                                <img src="./../../images/icon/yakuwari_4.jpg" height="16">特殊範囲
+                            </button>
+                        </div>
+                        <div class="flex_btn-item">
+                            <button class="select-btn" onclick="yakuwariButtonPushAction(5);">
+                                <img src="./../../images/icon/yakuwari_5.jpg" height="16">支援
+                            </button>
+                        </div>
+                        <div class="flex_btn-item">
+                            <button class="select-btn" onclick="yakuwariButtonPushAction(6);">
+                                <img src="./../../images/icon/yakuwari_6.jpg" height="16">妨害
+                            </button>
+                        </div>
+                        <div class="flex_btn-item">
+                            <button class="select-btn" onclick="yakuwariButtonPushAction(7);">
+                                <img src="./../../images/icon/yakuwari_7.jpg" height="16">回復
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="flex_btn-box">
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('A');" value="1"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('B');" value="1～2"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('C');" value="1～3"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('D');" value="2"></div>
-                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('E');" value="2～3"></div>
+                <div class="filter-box">
+                    <div class="filter-title">効果範囲</div>
+                    <div class="flex_btn-box">
+                        <div class="flex_btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('A');" value="1"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('B');" value="1～2"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('C');" value="1～3"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('D');" value="2"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn" onclick="rangeButtonPushAction('E');" value="2～3"></div>
+                    </div>
                 </div>
-                <div>
-                    <label for="damage">ダメージ</label>
-                    <select id="damage">
-                        <option value="">(効果量を選択)</option>
-                        <option value="小">小～</option>
-                        <option value="中">中～</option>
-                        <option value="大">大～</option>
-                        <option value="特大">特大～</option>
-                        <option value="超特大">超特大～</option>
-                    </select>
+                <div class="filter-box">
+                    <div class="filter-title">ダメージ</div>
+                    <div class="flex_btn-box">
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn damage" value="小"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn damage" value="中"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn damage" value="大"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn damage" value="特大"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn damage" value="超特大"></div>
+                    </div>
                 </div>
-                <div>
-                    <label for="heal">回復　　</label>
-                    <select id="heal">
-                        <option value="">(効果量を選択)</option>
-                        <option value="小">小～</option>
-                        <option value="中">中～</option>
-                        <option value="大">大～</option>
-                        <option value="特大">特大～</option>
-                        <option value="超特大">超特大～</option>
-                    </select>
+                <div class="filter-box">
+                    <div class="filter-title">回復</div>
+                    <div class="flex_btn-box">
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn heal" value="小"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn heal" value="中"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn heal" value="大"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn heal" value="特大"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn heal" value="超特大"></div>
+                    </div>
                 </div>
-                <div>
-                    <label for="effect1-type">バフ・デバフ①</label>
+                <div class="filter-box">
+                    <div class="filter-title">バフ・デバフ①</div>
                     <select id="effect1-type">
                         <option value="">(対象を選択)</option>
                         <option value="ATK↑">ATK↑</option>
                         <option value="Sp.ATK↑">Sp.ATK↑</option>
                         <option value="DEF↑">DEF↑</option>
                         <option value="Sp.DEF↑">Sp.DEF↑</option>
-                        <option value="火属性攻撃力↑">火属性攻撃力↑</option>
-                        <option value="火属性防御力↑">火属性防御力↑</option>
-                        <option value="水属性攻撃力↑">水属性攻撃力↑</option>
-                        <option value="水属性防御力↑">水属性防御力↑</option>
-                        <option value="風属性攻撃力↑">風属性攻撃力↑</option>
-                        <option value="風属性防御力↑">風属性防御力↑</option>
-                        <option value="光属性攻撃力↑">光属性攻撃力↑</option>
-                        <option value="光属性防御力↑">光属性防御力↑</option>
-                        <option value="闇属性攻撃力↑">闇属性攻撃力↑</option>
-                        <option value="闇属性防御力↑">闇属性防御力↑</option>
+                        <option value="火攻↑">火攻↑</option>
+                        <option value="火防↑">火防↑</option>
+                        <option value="水攻↑">水攻↑</option>
+                        <option value="水防↑">水防↑</option>
+                        <option value="風攻↑">風攻↑</option>
+                        <option value="風防↑">風防↑</option>
+                        <option value="光攻↑">光攻↑</option>
+                        <option value="光防↑">光防↑</option>
+                        <option value="闇攻↑">闇攻↑</option>
+                        <option value="闇防↑">闇防↑</option>
                         <option value="最大HP↑">最大HP↑</option>
                         <option value="ATK↓">ATK↓</option>
                         <option value="Sp.ATK↓">Sp.ATK↓</option>
                         <option value="DEF↓">DEF↓</option>
                         <option value="Sp.DEF↓">Sp.DEF↓</option>
-                        <option value="火属性攻撃力↓">火属性攻撃力↓</option>
-                        <option value="火属性防御力↓">火属性防御力↓</option>
-                        <option value="水属性攻撃力↓">水属性攻撃力↓</option>
-                        <option value="水属性防御力↓">水属性防御力↓</option>
-                        <option value="風属性攻撃力↓">風属性攻撃力↓</option>
-                        <option value="風属性防御力↓">風属性防御力↓</option>
-                        <option value="光属性攻撃力↓">光属性攻撃力↓</option>
-                        <option value="光属性防御力↓">光属性防御力↓</option>
-                        <option value="闇属性攻撃力↓">闇属性攻撃力↓</option>
-                        <option value="闇属性防御力↓">闇属性防御力↓</option>
+                        <option value="火攻↓">火攻↓</option>
+                        <option value="火防↓">火防↓</option>
+                        <option value="水攻↓">水攻↓</option>
+                        <option value="水防↓">水防↓</option>
+                        <option value="風攻↓">風攻↓</option>
+                        <option value="風防↓">風防↓</option>
+                        <option value="光攻↓">光攻↓</option>
+                        <option value="光防↓">光防↓</option>
+                        <option value="闇攻↓">闇攻↓</option>
+                        <option value="闇防↓">闇防↓</option>
                     </select>
-                    <select id="effect1-value">
-                        <option value="">(効果量を選択)</option>
-                        <option value="小">小～</option>
-                        <option value="中">中～</option>
-                        <option value="大">大～</option>
-                        <option value="特大">特大～</option>
-                        <option value="超特大">超特大～</option>
-                    </select>
+                    <div class="flex_btn-box disable">
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn effect1" value="小"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn effect1" value="中"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn effect1" value="大"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn effect1" value="特大"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn effect1" value="超特大"></div>
+                    </div>
                 </div>
-                <div>
-                    <label for="effect2-type">バフ・デバフ②</label>
+                <div class="filter-box">
+                    <div class="filter-title">バフ・デバフ②</div>
                     <select id="effect2-type">
                         <option value="">(対象を選択)</option>
                         <option value="ATK↑">ATK↑</option>
                         <option value="Sp.ATK↑">Sp.ATK↑</option>
                         <option value="DEF↑">DEF↑</option>
                         <option value="Sp.DEF↑">Sp.DEF↑</option>
-                        <option value="火属性攻撃力↑">火属性攻撃力↑</option>
-                        <option value="火属性防御力↑">火属性防御力↑</option>
-                        <option value="水属性攻撃力↑">水属性攻撃力↑</option>
-                        <option value="水属性防御力↑">水属性防御力↑</option>
-                        <option value="風属性攻撃力↑">風属性攻撃力↑</option>
-                        <option value="風属性防御力↑">風属性防御力↑</option>
-                        <option value="光属性攻撃力↑">光属性攻撃力↑</option>
-                        <option value="光属性防御力↑">光属性防御力↑</option>
-                        <option value="闇属性攻撃力↑">闇属性攻撃力↑</option>
-                        <option value="闇属性防御力↑">闇属性防御力↑</option>
+                        <option value="火攻↑">火攻↑</option>
+                        <option value="火防↑">火防↑</option>
+                        <option value="水攻↑">水攻↑</option>
+                        <option value="水防↑">水防↑</option>
+                        <option value="風攻↑">風攻↑</option>
+                        <option value="風防↑">風防↑</option>
+                        <option value="光攻↑">光攻↑</option>
+                        <option value="光防↑">光防↑</option>
+                        <option value="闇攻↑">闇攻↑</option>
+                        <option value="闇防↑">闇防↑</option>
                         <option value="最大HP↑">最大HP↑</option>
                         <option value="ATK↓">ATK↓</option>
                         <option value="Sp.ATK↓">Sp.ATK↓</option>
                         <option value="DEF↓">DEF↓</option>
                         <option value="Sp.DEF↓">Sp.DEF↓</option>
-                        <option value="火属性攻撃力↓">火属性攻撃力↓</option>
-                        <option value="火属性防御力↓">火属性防御力↓</option>
-                        <option value="水属性攻撃力↓">水属性攻撃力↓</option>
-                        <option value="水属性防御力↓">水属性防御力↓</option>
-                        <option value="風属性攻撃力↓">風属性攻撃力↓</option>
-                        <option value="風属性防御力↓">風属性防御力↓</option>
-                        <option value="光属性攻撃力↓">光属性攻撃力↓</option>
-                        <option value="光属性防御力↓">光属性防御力↓</option>
-                        <option value="闇属性攻撃力↓">闇属性攻撃力↓</option>
-                        <option value="闇属性防御力↓">闇属性防御力↓</option>
+                        <option value="火攻↓">火攻↓</option>
+                        <option value="火防↓">火防↓</option>
+                        <option value="水攻↓">水攻↓</option>
+                        <option value="水防↓">水防↓</option>
+                        <option value="風攻↓">風攻↓</option>
+                        <option value="風防↓">風防↓</option>
+                        <option value="光攻↓">光攻↓</option>
+                        <option value="光防↓">光防↓</option>
+                        <option value="闇攻↓">闇攻↓</option>
+                        <option value="闇防↓">闇防↓</option>
                     </select>
-                    <select id="effect2-value">
-                        <option value="">(効果量を選択)</option>
-                        <option value="小">小～</option>
-                        <option value="中">中～</option>
-                        <option value="大">大～</option>
-                        <option value="特大">特大～</option>
-                        <option value="超特大">超特大～</option>
-                    </select>
+                    <div class="flex_btn-box disable">
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn effect2" value="小"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn effect2" value="中"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn effect2" value="大"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn effect2" value="特大"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn effect2" value="超特大"></div>
+                    </div>
                 </div>
-                <div>
-                    <label for="effect-up">効果/範囲UP</label>
+                <div class="filter-box">
+                    <div class="filter-title">効果/範囲UP</div>
                     <select id="effect-up">
                         <option value="">(効果を選択)</option>
-                        <option value="編成数(火/効果アップ)">編成数(火/効果アップ)</option>
-                        <option value="編成数(水/効果アップ)">編成数(水/効果アップ)</option>
-                        <option value="編成数(風/効果アップ)">編成数(風/効果アップ)</option>
-                        <option value="オーダー(火/効果アップ)">オーダー(火/効果アップ)</option>
-                        <option value="オーダー(水/効果アップ)">オーダー(水/効果アップ)</option>
-                        <option value="オーダー(風/効果アップ)">オーダー(風/効果アップ)</option>
-                        <option value="オーダー(光/効果アップ)">オーダー(光/効果アップ)</option>
-                        <option value="オーダー(闇/効果アップ)">オーダー(闇/効果アップ)</option>
-                        <option value="オーダー(火/対象範囲UP)">オーダー(火/対象範囲UP)</option>
-                        <option value="オーダー(水/対象範囲UP)">オーダー(水/対象範囲UP)</option>
-                        <option value="オーダー(風/対象範囲UP)">オーダー(風/対象範囲UP)</option>
+                        <option value="火メモリア編成数が多いほどアップ">火メモリア編成数が多いほどアップ</option>
+                        <option value="水メモリア編成数が多いほどアップ">水メモリア編成数が多いほどアップ</option>
+                        <option value="風メモリア編成数が多いほどアップ">風メモリア編成数が多いほどアップ</option>
+                        <option value="火オーダー中効果アップ">火オーダー中効果アップ</option>
+                        <option value="水オーダー中効果アップ">水オーダー中効果アップ</option>
+                        <option value="風オーダー中効果アップ">風オーダー中効果アップ</option>
+                        <option value="光オーダー中効果アップ">光オーダー中効果アップ</option>
+                        <option value="闇オーダー中効果アップ">闇オーダー中効果アップ</option>
+                        <option value="火オーダー中対象範囲アップ (2体)">火オーダー中対象範囲アップ (2体)</option>
+                        <option value="水オーダー中対象範囲アップ (2体)">水オーダー中対象範囲アップ (2体)</option>
+                        <option value="風オーダー中対象範囲アップ (2体)">風オーダー中対象範囲アップ (2体)</option>
                         <option value="チャージ">チャージ</option>
-                        <option value="劣勢時効果UP">劣勢時効果UP</option>
-                        <option value="味方の火属性攻撃力が高いほどUP">味方の火属性攻撃力が高いほどUP</option>
-                        <option value="味方の水属性攻撃力が高いほどUP">味方の水属性攻撃力が高いほどUP</option>
-                        <option value="味方の風属性攻撃力が高いほどUP">味方の風属性攻撃力が高いほどUP</option>
-                        <option value="味方の火属性防御力が高いほどUP">味方の火属性防御力が高いほどUP</option>
-                        <option value="味方の水属性防御力が高いほどUP">味方の水属性防御力が高いほどUP</option>
-                        <option value="味方の風属性防御力が高いほどUP">味方の風属性防御力が高いほどUP</option>
-                        <option value="敵の火属性攻撃力が低いほどUP">敵の火属性攻撃力が低いほどUP</option>
-                        <option value="敵の水属性攻撃力が低いほどUP">敵の水属性攻撃力が低いほどUP</option>
-                        <option value="敵の風属性攻撃力が低いほどUP">敵の風属性攻撃力が低いほどUP</option>
-                        <option value="敵の火属性防御力が低いほどUP">敵の火属性防御力が低いほどUP</option>
-                        <option value="敵の水属性防御力が低いほどUP">敵の水属性防御力が低いほどUP</option>
-                        <option value="敵の風属性防御力が低いほどUP">敵の風属性防御力が低いほどUP</option>
+                        <option value="劣勢時1.5倍">劣勢時1.5倍</option>
+                        <option value="味方の火攻が高いほどアップ">味方の火攻が高いほどアップ</option>
+                        <option value="味方の水攻が高いほどアップ">味方の水攻が高いほどアップ</option>
+                        <option value="味方の風攻が高いほどアップ">味方の風攻が高いほどアップ</option>
+                        <option value="味方の火防が高いほどアップ">味方の火防が高いほどアップ</option>
+                        <option value="味方の水防が高いほどアップ">味方の水防が高いほどアップ</option>
+                        <option value="味方の風防が高いほどアップ">味方の風防が高いほどアップ</option>
+                        <option value="敵の火攻が低いほどアップ">敵の火攻が低いほどアップ</option>
+                        <option value="敵の水攻が低いほどアップ">敵の水攻が低いほどアップ</option>
+                        <option value="敵の風攻が低いほどアップ">敵の風攻が低いほどアップ</option>
+                        <option value="敵の火防が低いほどアップ">敵の火防が低いほどアップ</option>
+                        <option value="敵の水防が低いほどアップ">敵の水防が低いほどアップ</option>
+                        <option value="敵の風防が低いほどアップ">敵の風防が低いほどアップ</option>
                     </select>
                 </div>
                 <br>
                 <hr>
                 <br>
-                <div>
-                    <label for="hojo1-type">補助スキル①</label>
+                <div class="filter-box">
+                    <div class="filter-title">補助スキル①</div>
                     <select id="hojo1-type">
                         <option value="">(対象を選択)</option>
                         <option value="ATK↑">ATK↑</option>
@@ -240,30 +276,29 @@
                         <option value="MP消費↓">MP消費↓</option>
                         <option value="マッチPt獲得量↑(通常単体)">マッチPt獲得量↑(通常単体)</option>
                         <option value="マッチPt獲得量↑(特殊単体)">マッチPt獲得量↑(特殊単体)</option>
-                        <option value="火属性攻撃力↑">火属性攻撃力↑</option>
-                        <option value="火属性防御力↑">火属性防御力↑</option>
-                        <option value="水属性攻撃力↑">水属性攻撃力↑</option>
-                        <option value="水属性防御力↑">水属性防御力↑</option>
-                        <option value="風属性攻撃力↑">風属性攻撃力↑</option>
-                        <option value="風属性防御力↑">風属性防御力↑</option>
-                        <option value="火属性攻撃力↓">火属性攻撃力↓</option>
-                        <option value="火属性防御力↓">火属性防御力↓</option>
-                        <option value="水属性攻撃力↓">水属性攻撃力↓</option>
-                        <option value="水属性防御力↓">水属性防御力↓</option>
-                        <option value="風属性攻撃力↓">風属性攻撃力↓</option>
-                        <option value="風属性防御力↓">風属性防御力↓</option>
+                        <option value="火攻↑">火攻↑</option>
+                        <option value="火防↑">火防↑</option>
+                        <option value="水攻↑">水攻↑</option>
+                        <option value="水防↑">水防↑</option>
+                        <option value="風攻↑">風攻↑</option>
+                        <option value="風防↑">風防↑</option>
+                        <option value="火攻↓">火攻↓</option>
+                        <option value="火防↓">火防↓</option>
+                        <option value="水攻↓">水攻↓</option>
+                        <option value="水防↓">水防↓</option>
+                        <option value="風攻↓">風攻↓</option>
+                        <option value="風防↓">風防↓</option>
                     </select>
-                    <select id="hojo1-value">
-                        <option value="">(効果量を選択)</option>
-                        <option value="小">小～</option>
-                        <option value="中">中～</option>
-                        <option value="大">大～</option>
-                        <option value="特大">特大～</option>
-                        <option value="超特大">超特大～</option>
-                    </select>
+                    <div class="flex_btn-box disable">
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn hojo1" value="小"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn hojo1" value="中"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn hojo1" value="大"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn hojo1" value="特大"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn hojo1" value="超特大"></div>
+                    </div>
                 </div>
-                <div>
-                    <label for="hojo2-type">補助スキル②</label>
+                <div class="filter-box">
+                    <div class="filter-title">補助スキル②</div>
                     <select id="hojo2-type">
                         <option value="">(対象を選択)</option>
                         <option value="ATK↑">ATK↑</option>
@@ -280,27 +315,26 @@
                         <option value="MP消費↓">MP消費↓</option>
                         <option value="マッチPt獲得量↑(通常単体)">マッチPt獲得量↑(通常単体)</option>
                         <option value="マッチPt獲得量↑(特殊単体)">マッチPt獲得量↑(特殊単体)</option>
-                        <option value="火属性攻撃力↑">火属性攻撃力↑</option>
-                        <option value="火属性防御力↑">火属性防御力↑</option>
-                        <option value="水属性攻撃力↑">水属性攻撃力↑</option>
-                        <option value="水属性防御力↑">水属性防御力↑</option>
-                        <option value="風属性攻撃力↑">風属性攻撃力↑</option>
-                        <option value="風属性防御力↑">風属性防御力↑</option>
-                        <option value="火属性攻撃力↓">火属性攻撃力↓</option>
-                        <option value="火属性防御力↓">火属性防御力↓</option>
-                        <option value="水属性攻撃力↓">水属性攻撃力↓</option>
-                        <option value="水属性防御力↓">水属性防御力↓</option>
-                        <option value="風属性攻撃力↓">風属性攻撃力↓</option>
-                        <option value="風属性防御力↓">風属性防御力↓</option>
+                        <option value="火攻↑">火攻↑</option>
+                        <option value="火防↑">火防↑</option>
+                        <option value="水攻↑">水攻↑</option>
+                        <option value="水防↑">水防↑</option>
+                        <option value="風攻↑">風攻↑</option>
+                        <option value="風防↑">風防↑</option>
+                        <option value="火攻↓">火攻↓</option>
+                        <option value="火防↓">火防↓</option>
+                        <option value="水攻↓">水攻↓</option>
+                        <option value="水防↓">水防↓</option>
+                        <option value="風攻↓">風攻↓</option>
+                        <option value="風防↓">風防↓</option>
                     </select>
-                    <select id="hojo2-value">
-                        <option value="">(効果量を選択)</option>
-                        <option value="小">小～</option>
-                        <option value="中">中～</option>
-                        <option value="大">大～</option>
-                        <option value="特大">特大～</option>
-                        <option value="超特大">超特大～</option>
-                    </select>
+                    <div class="flex_btn-box disable">
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn hojo2" value="小"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn hojo2" value="中"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn hojo2" value="大"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn hojo2" value="特大"></div>
+                        <div class="flex_btn-item"><input type="button" class="select-btn val-btn hojo2" value="超特大"></div>
+                    </div>
                 </div>
                 <br>
                 <div>
