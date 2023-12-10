@@ -9553,6 +9553,59 @@ const memoriaJson = [
            { yakuwari: 6, name: ["パワーフォールC Ⅳ", "カウンターファイアパワーフォールC Ⅳ", "援:支援UP Ⅳ"] },
            { yakuwari: 7, name: ["Sp.ガードヒールD Ⅳ", "Sp.カウンターファイアガードヒールD Ⅳ", "回:回復UP/副援:火ガードUP Ⅲ"] }
         ]
+    },
+    {
+        id: 755,
+        name: "流星のトリニティ",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "", chara: [1, 2, 10, 71, 15, 68] },
+        get_rank: "メインストーリー3章 (未復刻)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "極天に集いし花々 (2023/12/10～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 6, name: ["WパワーフォールB Ⅲ", "WカウンターパワーフォールB Ⅲ", "援:支援UP Ⅳ"] }
+        ]
+    },
+    {
+        id: 756,
+        name: "聖眼解放",
+        zokusei: 2,
+        legendary: "ガチャ",
+        illustration: { type: "", chara: [74] },
+        get_rank: "メインストーリー3章 (未復刻)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "極天に集いし花々 (2023/12/10～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "水強：Sp.パワーアシストB Ⅲ", "援:Sp.パワーUP Ⅲ"] },
+           { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "ウォーターパワーストライクB Ⅲ+", "攻:パワーUP Ⅲ"] },
+           { yakuwari: 3, name: ["Sp.マイトスマッシュA Ⅳ+", "Sp.ウォーターパワースマッシュA Ⅳ+", "攻:Sp.パワーUP Ⅲ"] },
+           { yakuwari: 7, name: ["ガードヒールC Ⅲ+", "ウォーターガードヒールC Ⅳ", "回:ガードUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 757,
+        name: "悠久なるノスフェラトゥ",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "", chara: [115] },
+        get_rank: "メインストーリー3章 (未復刻)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "極天に集いし花々 (2023/12/10～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "水：Sp.パワースマッシュB Ⅲ", "攻:Sp.パワーUP Ⅲ"] },
+           { yakuwari: 6, name: ["Sp.パワーフォールC Ⅳ", "Sp.ウォーターパワーフォールC Ⅳ", "援:Sp.パワーDOWN Ⅲ"] }
+        ]
+    },
+    {
+        id: 758,
+        name: "清廉なる赤き衝動",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "", chara: [69] },
+        get_rank: "メインストーリー3章 (未復刻)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "極天に集いし花々 (2023/12/10～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "ウォーターガードブレイクB Ⅲ+", "攻:ダメージUP Ⅳ"] },
+           { yakuwari: 5, name: ["パワーアシストC Ⅳ", "ウォーターパワーアシストC Ⅳ", "援:パワーUP Ⅲ"] }
+        ]
     }
     /*
     ,
