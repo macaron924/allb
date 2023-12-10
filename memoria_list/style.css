@@ -65,3 +65,8 @@ h3.category-2 {
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
+
+
+.memoria_img, .chara_img {
+    height: 8rem;
+}

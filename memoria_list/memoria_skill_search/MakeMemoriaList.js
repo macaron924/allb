@@ -1,59 +1,126 @@
-$("#menu-open-btn").click(function () { // キャラ選択表示ボタンがクリックされたら
-    $(this).toggleClass('active'); // 自身にactiveクラスを付与
-    $("#filter-menu_content").toggleClass('active'); // chara_listにactiveクラスを付与(リストopen)
+$("#menu-open-btn").click(function () { // 絞り込み選択表示ボタンクリック時
+    $(this).toggleClass('active');
+    $("#filter-menu_content").toggleClass('active');
 });
 
-$(".select-btn").click(function () { // 選択ボタンがクリックされたら
-    $(this).toggleClass('active'); // 自身にactiveクラスを付与(色付け)
+$(".select-btn").click(function () { // 選択ボタンクリック時
+    $(this).toggleClass('active');
     document.getElementById("filter-btn").className = "not-changed";
     document.getElementById("filter-btn").value = "未反映";
 });
 
-$("#dual-display").click(function () { // モード切替ボタンがクリックされたら
+$("#dual-display").click(function () { // モード切替ボタンクリック時
     document.getElementById("filter-btn").className = "not-changed";
     document.getElementById("filter-btn").value = "未反映";
 });
 
-$("select").change(function () { // プルダウンがクリックされたら
+$("select").change(function () { // プルダウンクリック時
     document.getElementById("filter-btn").className = "not-changed";
     document.getElementById("filter-btn").value = "未反映";
+    if (this.value == "") {
+        $(this).next(".flex_btn-box").addClass("disable");
+    } else {
+        $(this).next(".flex_btn-box").removeClass("disable");
+    }
 });
 
-$("#filter-btn").click(function () { // フィルターボタンがクリックされたら
-    $("#filter-menu").toggleClass('active'); // filter-menuにactiveクラスを付与
+$("#filter-btn").click(function () { // フィルターボタンクリック時
+    $("#filter-menu").toggleClass('active');
+});
+
+$(".damage").click(function () {
+    let val = this.value;
+    for (let i = 0; i < damageSelection.length; i++) {
+        if (val == damageSelection[i]) {
+            damageSelection.splice(i, 1);
+            return i;
+        }
+    }
+    damageSelection.push(this.value);
+    return -1;
+});
+
+$(".heal").click(function () {
+    let val = this.value;
+    for (let i = 0; i < healSelection.length; i++) {
+        if (val == healSelection[i]) {
+            healSelection.splice(i, 1);
+            return i;
+        }
+    }
+    healSelection.push(this.value);
+    return -1;
+});
+
+$(".effect1").click(function () {
+    let val = this.value;
+    for (let i = 0; i < effect1Val.length; i++) {
+        if (val == effect1Val[i]) {
+            effect1Val.splice(i, 1);
+            return i;
+        }
+    }
+    effect1Val.push(this.value);
+    return -1;
+});
+
+$(".effect2").click(function () {
+    let val = this.value;
+    for (let i = 0; i < effect2Val.length; i++) {
+        if (val == effect2Val[i]) {
+            effect2Val.splice(i, 1);
+            return i;
+        }
+    }
+    effect2Val.push(this.value);
+    return -1;
+});
+
+$(".hojo1").click(function () {
+    let val = this.value;
+    for (let i = 0; i < hojo1Val.length; i++) {
+        if (val == hojo1Val[i]) {
+            hojo1Val.splice(i, 1);
+            return i;
+        }
+    }
+    hojo1Val.push(this.value);
+    return -1;
+});
+
+$(".hojo2").click(function () {
+    let val = this.value;
+    for (let i = 0; i < hojo2Val.length; i++) {
+        if (val == hojo2Val[i]) {
+            hojo2Val.splice(i, 1);
+            return i;
+        }
+    }
+    hojo2Val.push(this.value);
+    return -1;
 });
 
 // 実行ボタンを押した時
 function runButtonPushAction() {
+
+    document.getElementById("filter-btn").value = "実行中...";
 
     // 現在の条件選択を読み取り
     effectSelectionArray = [];
     hojoSelectionArray = [];
     modeSelection = parseInt(document.getElementById("mode").value);
     dualDisplay = document.getElementById("dual-display").checked;
-    damageSelection = stringToNumber(document.getElementById("damage").value);
-    healSelection = stringToNumber(document.getElementById("heal").value);
-    effectSelectionArray.push([document.getElementById("effect1-type").value, stringToNumber(document.getElementById("effect1-value").value)]);
-    effectSelectionArray.push([document.getElementById("effect2-type").value, stringToNumber(document.getElementById("effect2-value").value)]);
+    effectSelectionArray.push([document.getElementById("effect1-type").value, effect1Val]);
+    effectSelectionArray.push([document.getElementById("effect2-type").value, effect2Val]);
     effectUpSelection = document.getElementById("effect-up").value;
-    hojoSelectionArray.push([document.getElementById("hojo1-type").value, stringToNumber(document.getElementById("hojo1-value").value)]);
-    hojoSelectionArray.push([document.getElementById("hojo2-type").value, stringToNumber(document.getElementById("hojo2-value").value)]);
+    hojoSelectionArray.push([document.getElementById("hojo1-type").value, hojo1Val]);
+    hojoSelectionArray.push([document.getElementById("hojo2-type").value, hojo2Val]);
 
     skillFilter(); // スキル側のフィルター実行
     hojoFilter(); // 補助スキル側のフィルター実行
     filter();
     document.getElementById("filter-btn").className = "";
     document.getElementById("filter-btn").value = "反映済み";
-}
-
-function stringToNumber(str) {
-    if (str == "") return 0;
-    if (str == "小") return 1;
-    if (str == "中") return 2;
-    if (str == "大") return 3;
-    if (str == "特大") return 4;
-    if (str == "超特大") return 5;
-    return -1;
 }
 
 function zokuseiButtonPushAction(zokusei) {
@@ -133,11 +200,11 @@ function rangeFilter(skillName) {
 }
 
 function damageFilter(skillInfo) {
-    if (stringToNumber(damageSelection) == 0) return true;
+    if (damageSelection.length == 0) return true;
     let tag = skillInfo['tag'];
     for (let i = 0; i < tag.length; i++) {
         if (tag[i]['fx'].includes('ダメージ')) {
-            if (stringToNumber(tag[i]['val']) >= damageSelection) return true;
+            if (damageSelection.includes(tag[i]['val'])) return true;
             else return false;
         }
     }
@@ -145,11 +212,11 @@ function damageFilter(skillInfo) {
 }
 
 function healFilter(skillInfo) {
-    if (stringToNumber(healSelection) == 0) return true;
+    if (healSelection.length == 0) return true;
     let tag = skillInfo['tag'];
     for (let i = 0; i < tag.length; i++) {
         if (tag[i]['fx'].includes('回復')) {
-            if (stringToNumber(tag[i]['val']) >= healSelection) return true;
+            if (healSelection.includes(tag[i]['val'])) return true;
             else return false;
         }
     }
@@ -160,13 +227,22 @@ function effectFilter(skillInfo) {
     let tag = skillInfo['tag'];
     let trueCount = 0;
     for (let j = 0; j < effectSelectionArray.length; j++) {
+        if (effectSelectionArray[j][0] == "") {
+            trueCount++;
+            continue;
+        }
         for (let i = 0; i < tag.length; i++) {
-            if ((effectSelectionArray[j][0] == "") && (stringToNumber(tag[i]['val']) >= effectSelectionArray[j][1])) {
-                trueCount++;
-                break;
-            } else if ((tag[i]['fx'] == effectSelectionArray[j][0]) && (stringToNumber(tag[i]['val']) >= effectSelectionArray[j][1])) {
-                trueCount++;
-                break;
+            switch (true) {
+                case effectSelectionArray[j][0] != tag[i]['fx']:
+                    continue;
+                case effectSelectionArray[j][1].length == 0:
+                    trueCount++;
+                    break;
+                case effectSelectionArray[j][1].includes(tag[i]['val']):
+                    trueCount++;
+                    break;
+                default:
+                    continue;
             }
         }
     }
@@ -176,9 +252,9 @@ function effectFilter(skillInfo) {
 
 function effectUpFilter(skillInfo) {
     if (effectUpSelection == "") return true;
-    let tag = skillInfo['tag'];
+    let tag = skillInfo['tag2'];
     for (let i = 0; i < tag.length; i++) {
-        if (tag[i]['fx'] == effectUpSelection) {
+        if (tag[i] == effectUpSelection) {
             return true;
         }
     }
@@ -190,18 +266,21 @@ function hojoEffectFilter(hojoInfo) {
     let tag = hojoInfo['tag'];
     for (let j = 0; j < hojoSelectionArray.length; j++) {
         let flag = false;
-        if (hojoSelectionArray[j][0] == "" && hojoSelectionArray[j][1] == 0) { // 種別・効果量未指定のとき
+        if (hojoSelectionArray[j][0] == "") {
             flag = true;
-            break;
         }
         for (let i = 0; i < tag.length; i++) {
-            if ((hojoSelectionArray[j][0] == "") && (stringToNumber(tag[i][2]) >= hojoSelectionArray[j][1])) { // 種別未指定かつ効果量が指定以上
-                flag = true;
-                break;
-            }
-            if ((tag[i][1] == hojoSelectionArray[j][0]) && (stringToNumber(tag[i][2]) >= hojoSelectionArray[j][1])) { // 種別一致かつ効果量が指定以上
-                flag = true;
-                break;
+            switch (true) {
+                case hojoSelectionArray[j][0] != tag[i][1]:
+                    continue;
+                case hojoSelectionArray[j][1].length == 0:
+                    flag = true;
+                    break;
+                case hojoSelectionArray[j][1].includes(tag[i][2]):
+                    flag = true;
+                    break;
+                default:
+                    continue;
             }
         }
         if (flag == false) return false;
@@ -332,7 +411,7 @@ function getHojoSkillInfoFromName(skillName) {
 }
 
 // タグから文字列に(スキル)
-function skillTagToString(tag) {
+function skillTagToString(tag, tag2) {
     let str = "";
     for (let i = 0; i < tag.length; i++) {
         if (i != 0) str += "<br>";
@@ -340,13 +419,17 @@ function skillTagToString(tag) {
         str += "・";
         str += tag[i]['val'];
     }
+    for (let i = 0; i < tag2.length; i++) {
+        str += "<br>";
+        str += tag2[i];
+    }
     return str;
 }
 
 // スキル詳細を生成
-function createSkillDetailFromName(tag) {
+function createSkillDetailFromName(tag, tag2) {
     if (tag == "") return "";
-    return skillTagToString(tag);
+    return skillTagToString(tag, tag2);
 }
 
 // タグから文字列に(補助)
@@ -430,53 +513,29 @@ function makeTable() {
     let thName = document.createElement('th');
     let thYakuwari = document.createElement('th');
     let thVshuge = document.createElement('th');
-    //let thVshugeName = document.createElement('th');
-    //let thVshugeDetail = document.createElement('th');
     let thLm = document.createElement('th');
-    //let thLmName = document.createElement('th');
-    //let thLmDetail = document.createElement('th');
     let thHojo = document.createElement('th');
-    //let thHojoName = document.createElement('th');
-    //let thHojoDetail = document.createElement('th');
     // 各スキル列のclass
     thVshuge.className = "vshugeRow";
     thVshuge.colSpan = 2;
-    //thVshugeName.className = "vshugeRow";
-    //thVshugeDetail.className = "vshugeRow";
     thLm.className = "lmRow";
     thLm.colSpan = 2;
-    //thLmName.className = "lmRow";
-    //thLmDetail.className = "lmRow";
     thHojo.className = "hojoRow";
     thHojo.colSpan = 2;
-    //thHojoName.className = "hojoRow";
-    //thHojoDetail.className = "hojoRow";
     // th要素内にテキストを追加
     thId.textContent = "サムネイル";
     thName.textContent = "メモリア名";
     thYakuwari.textContent = "役割";
     thVshuge.textContent = "対ヒュージスキル";
-    //thVshugeName.textContent = "対ヒュージスキル名";
-    //thVshugeDetail.textContent = "対ヒュージスキル効果";
     thLm.textContent = "レギオンマッチスキル";
-    //thLmName.textContent = "レギオンマッチスキル名";
-    //thLmDetail.textContent = "レギオンマッチスキル効果";
     thHojo.textContent = "レギオンマッチ補助スキル";
-    //thHojoName.textContent = "レギオンマッチ補助スキル名";
-    //thHojoDetail.textContent = "レギオンマッチ補助スキル効果";
     // th要素をtr要素の子要素に追加
     tr.appendChild(thId);
     tr.appendChild(thName);
     tr.appendChild(thYakuwari);
     tr.appendChild(thVshuge);
-    //tr.appendChild(thVshugeName);
-    //tr.appendChild(thVshugeDetail);
     tr.appendChild(thLm);
-    //tr.appendChild(thLmName);
-    //tr.appendChild(thLmDetail);
     tr.appendChild(thHojo);
-    //tr.appendChild(thHojoName);
-    //tr.appendChild(thHojoDetail);
     // tr要素をtable要素の子要素に追加
     table.appendChild(tr);
 
@@ -516,11 +575,11 @@ function makeTable() {
             // サムネ画像要素の追加
             let img = document.createElement('img');
             img.src = "../../images/memoria/memoria_" + memoriaJsonCopy[i]['id'] + ".jpg";
-            img.height = 80;
+            img.className = "memoria_img";
             img.loading = "lazy";
             let yakuwari_icon = document.createElement('img');
             yakuwari_icon.src = "../../images/icon/yakuwari_" + skill_yakuwari + ".jpg";
-            yakuwari_icon.height = 40;
+            yakuwari_icon.className = "yakuwari_img";
             yakuwari_icon.loading = "lazy";
             // 画像
             tdId.appendChild(img);
@@ -537,7 +596,7 @@ function makeTable() {
                 tdVshugeDetail.innerHTML = "";
             } else {
                 tdVshugeName.innerHTML = "<nobr>" + vshuge_name + "</nobr><br>" + vshuge['effect_detail'];
-                tdVshugeDetail.innerHTML = createSkillDetailFromName(vshuge['tag']);
+                tdVshugeDetail.innerHTML = createSkillDetailFromName(vshuge['tag'], vshuge['tag2']);
             }
             // レギマスキル
             let lm_name = skill_names[1];
@@ -548,7 +607,7 @@ function makeTable() {
                 tdLmDetail.innerHTML = "";
             } else {
                 tdLmName.innerHTML = "<nobr>" + lm_name + "</nobr><br>" + lm['effect_detail'];
-                tdLmDetail.innerHTML = createSkillDetailFromName(lm['tag']);
+                tdLmDetail.innerHTML = createSkillDetailFromName(lm['tag'], lm['tag2']);
             }
             // 補助スキル
             let hojo_name = skill_names[2];
@@ -608,9 +667,13 @@ let zokuseiArray = [];
 let legendaryArray = [];
 let yakuwariArray = [];
 let rangeArray = [];
-let damageSelection = 0;
-let healSelection = 0;
+let damageSelection = [];
+let healSelection = [];
 let effectSelectionArray = [];
 let effectUpSelection = "";
 let hojoSelectionArray = [];
+let effect1Val = [];
+let effect2Val = [];
+let hojo1Val = [];
+let hojo2Val = [];
 makeTable();
