@@ -192,7 +192,7 @@ const gachaTicketJson = [
         }
     },
     {
-        "name": "コスト18以上衣装開放★5確定ガチャチケット",
+        "name": "コスト18以上衣装開放★5ガチャチケット",
         "index": "cost18costume",
         "lineup": {
             "topic": [],
