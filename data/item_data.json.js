@@ -109,7 +109,7 @@ const itemByTypeJson = {
         { index: "gacha-ticket_cost18zenei", name: "前衛コスト18以上ガチャチケット", link: true },
         { index: "gacha-ticket_cost18kouei", name: "後衛コスト18以上ガチャチケット", link: true },
         { index: "gacha-ticket_costume", name: "衣装開放★5確定ガチャチケット", link: true },
-        { index: "gacha-ticket_cost18costume", name: "コスト18以上衣装開放★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_cost18costume", name: "コスト18以上衣装開放★5ガチャチケット", link: true },
         { index: "gacha-ticket_zokusei-fire", name: "火属性★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_zokusei-water", name: "水属性★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_zokusei-wind", name: "風属性★5確定ガチャチケット", link: true },
