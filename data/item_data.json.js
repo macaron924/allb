@@ -73,7 +73,8 @@ const itemByTypeJson = {
         { index: "costume_482_before", name: "富永真/百合ヶ丘標準制服", link: false },
         { index: "costume_482_pendant-ex", name: "真/百合ヶ丘標準制服のペンダントEX", link: false },
         { index: "costume_483_pendant-ex", name: "ミリアム/ムーンライトαのペンダントEX", link: false },
-        { index: "costume_484_pendant-ex", name: "神琳/聖夜のプレゼントのペンダントEX", link: false }
+        { index: "costume_484_pendant-ex", name: "神琳/聖夜のプレゼントのペンダントEX", link: false },
+        { index: "costume_488_pendant-ex", name: "雨嘉/グロリアスカラーαのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -375,6 +376,7 @@ const itemByTypeJson = {
         { index: "exchange_brand-new_202311-2", name: "BRAND-NEW★5メモリア引換券11月Ⅱ", link: false },
         { index: "exchange_brand-new_202311-3", name: "BRAND-NEW★5メモリア引換券11月Ⅲ", link: false },
         { index: "exchange_brand-new_202312-1", name: "BRAND-NEW★5メモリア引換券12月", link: false },
+        { index: "exchange_brand-new_202312-2", name: "BRAND-NEW★5メモリア引換券12月Ⅱ", link: false },
         // その他
         { index: "exchange_charm_202312-event-1", name: "誓いのリコネクトCHARM引換券", link: false },
         { index: "exchange_emotional-sozai", name: "エモーショナルメモリア素材引換券", link: false },

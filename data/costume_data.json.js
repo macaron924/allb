@@ -4381,6 +4381,15 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["ATK", 3000], ["DEF", 3000]],
         "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 488,
+        "chara": 8,
+        "yakuwari": 4,
+        "name": "グロリアスカラーα",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["火UP", 3], ["風耐性", 2]]
     }
     /*
     ,
