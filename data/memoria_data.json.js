@@ -4277,7 +4277,7 @@ const memoriaJson = [
         get_rank: "非ガチャ産",
         category: { c1: "レジェンダリー", c2: "レギオンリーグ", c3: ["2nd"] },
         skill: [
-           { yakuwari: 2, name: ["ガードブレイクD LG", "ガードブレイクD LG", "攻:ダメージUP Ⅲ"] }
+           { yakuwari: 2, name: ["ガードブレイクD LG", "ガードブレイクD LG", "攻:ダメージUP/ガードDOWN Ⅲ"] }
         ]
     },
     {
