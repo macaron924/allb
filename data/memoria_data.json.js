@@ -8612,7 +8612,7 @@ const memoriaJson = [
         zokusei: 3,
         legendary: "",
         illustration: { type: "クリエイターズコラボ", chara: [4, 3] },
-        get_rank: "C (推定)",
+        get_rank: "C",
         category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "クリエイターズコラボ前衛後衛ガチャ (2023/8/23～)", c3: ["前衛ガチャ"] },
         skill: [
            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.カウンターガードバーストB Ⅲ", "攻:ダメージUP/Sp.ガードDOWN Ⅲ"] },
@@ -8638,7 +8638,7 @@ const memoriaJson = [
         zokusei: 3,
         legendary: "",
         illustration: { type: "クリエイターズコラボ", chara: [70, 69] },
-        get_rank: "C (推定)",
+        get_rank: "C",
         category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "クリエイターズコラボ前衛後衛ガチャ (2023/8/23～)", c3: ["後衛ガチャ"] },
         skill: [
            { yakuwari: 7, name: ["Sp.ガードヒールC Ⅳ", "Sp.ウォーターガードヒールC Ⅳ+", "回:回復UP/副援:支援UP Ⅲ"] },
@@ -9605,6 +9605,34 @@ const memoriaJson = [
         skill: [
            { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "ウォーターガードブレイクB Ⅲ+", "攻:ダメージUP Ⅳ"] },
            { yakuwari: 5, name: ["パワーアシストC Ⅳ", "ウォーターパワーアシストC Ⅳ", "援:パワーUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 759,
+        name: "クリエイターズコラボ-ツリーを飾る指先-",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [8, 1] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/12/13～)", c3: [""] },
+        skill: [
+           { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.カウンターファイアガードバーストB Ⅲ+", "攻:ダメージUP Ⅳ"] },
+           { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "Sp.カウンターファイアパワーアシストC Ⅳ", "援:支援UP Ⅳ"] }
+        ]
+    },
+    {
+        id: 760,
+        name: "クリエイターズコラボ-白きホーリーナイト-",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [15, 16] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/12/13～)", c3: [""] },
+        skill: [
+           { yakuwari: 7, name: ["Sp.ガードヒールC Ⅳ", "Sp.カウンターファイアガードヒールC Ⅳ", "回:Sp.ガードUP/副援:火ガードUP Ⅲ"] },
+           { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "カウンターファイアパワーストライクB Ⅲ+", "攻:ダメージUP/パワーUP Ⅲ"] },
+           { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "火弱：Sp.パワースマッシュB Ⅲ", "攻:ダメージUP Ⅳ"] },
+           { yakuwari: 6, name: ["パワーフォールC Ⅳ", "カウンターファイアパワーフォールC Ⅳ", "援:支援UP Ⅳ"] }
         ]
     }
     /*
