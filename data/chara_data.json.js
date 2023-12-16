@@ -114,6 +114,8 @@ const charaJson = [
     { "charaID": 113, "charaName": "鶴紗 (邪眼)", "charaJump": "" },
     { "charaID": 114, "charaName": "結爾 (聖眼)", "charaJump": "" },
     { "charaID": 115, "charaName": "祇恵良", "charaJump": "shiera" },
+    { "charaID": 116, "charaName": "貞花", "charaJump": "" },
+    { "charaID": 117, "charaName": "日羽梨", "charaJump": "" },
     { "charaID": 999, "charaName": "美鈴", "charaJump": "" }
     /*
     ,
