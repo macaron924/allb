@@ -9634,6 +9634,22 @@ const memoriaJson = [
            { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "火弱：Sp.パワースマッシュB Ⅲ", "攻:ダメージUP Ⅳ"] },
            { yakuwari: 6, name: ["パワーフォールC Ⅳ", "カウンターファイアパワーフォールC Ⅳ", "援:支援UP Ⅳ"] }
         ]
+    },
+    {
+        id: 761,
+        name: "新たな闘いの幕開け",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "静止画", chara: [116, 4, 117, 40] },
+        get_rank: "非ガチャ産",
+        category: { c1: "ミッション、ログインボーナス等", c2: "期間限定", c3: ["舞台新章応援"] },
+        skill: [
+           { yakuwari: 2, name: ["パワーストライクB Ⅲ", "パワーストライクB Ⅲ", "攻:パワーUP Ⅲ"] },
+           { yakuwari: 4, name: ["Sp.パワースマッシュB Ⅲ", "Sp.パワースマッシュB Ⅲ", "攻:Sp.パワーUP Ⅲ"] },
+           { yakuwari: 5, name: ["パワーアシストB Ⅲ", "パワーアシストB Ⅲ", "援:パワーUP Ⅲ"] },
+           { yakuwari: 6, name: ["Sp.パワーフォールB Ⅲ", "Sp.パワーフォールB Ⅲ", "援:Sp.パワーDOWN Ⅲ"] },
+           { yakuwari: 7, name: ["ガードヒールB Ⅲ", "ガードヒールB Ⅲ", "回:ガードUP Ⅲ"] }
+        ]
     }
     /*
     ,
