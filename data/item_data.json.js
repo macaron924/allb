@@ -144,6 +144,7 @@ const itemByTypeJson = {
         { index: "gacha-ticket_hitotsuyanagi-tai_coupling", name: "一柳隊★5 100%!!カップリング2回ガチャチケット", link: true },
         { index: "gacha-ticket_xmas", name: "Xmas記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_xmas-kakutei", name: "Xmasメモリア100%!!★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_stage-new-ch", name: "舞台「アサルトリリィ・新章」記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_emotional", name: "エモーショナルメモリア★5確定ガチャチケット", link: false },
         // イベントガチャチケット
         { index: "gacha-ticket_202212-event-1", name: "聖夜へ捧ぐサプライズ★5確定ガチャチケット", link: false },
@@ -325,6 +326,7 @@ const itemByTypeJson = {
         { index: "exchange_memoria_kanaho", name: "今叶星★5メモリア引換券", link: true },
         { index: "exchange_memoria_yo", name: "初鹿野瑤★5メモリア引換券", link: true },
         { index: "exchange_memoria_miliam", name: "ミリアム★5メモリア引換券", link: true },
+        { index: "exchange_memoria_xmas", name: "Xmas記念メモリア引換券", link: true },
         { index: "exchange_memoria-with-costume", name: "衣装付きメモリアコレクション引換券", link: true },
         { index: "exchange_memoria_zokusei-fire", name: "火属性★5メモリア引換券 (4月)", link: true },
         { index: "exchange_memoria_zokusei-wind", name: "風属性★5メモリア引換券 (4月)", link: true },
