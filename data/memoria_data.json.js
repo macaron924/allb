@@ -9650,6 +9650,34 @@ const memoriaJson = [
            { yakuwari: 6, name: ["Sp.パワーフォールB Ⅲ", "Sp.パワーフォールB Ⅲ", "援:Sp.パワーDOWN Ⅲ"] },
            { yakuwari: 7, name: ["ガードヒールB Ⅲ", "ガードヒールB Ⅲ", "回:ガードUP Ⅲ"] }
         ]
+    },
+    {
+        id: 762,
+        name: "クリエイターズコラボ-相合い傘越しの虹-",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [17, 16] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "ウィンターフェスガチャ (2023/12/17～)", c3: [""] },
+        skill: [
+           { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "ファイアガードブレイクB Ⅲ+", "攻:ダメージUP Ⅳ"] },
+           { yakuwari: 7, name: ["ガードヒールC Ⅳ", "ファイアガードヒールC Ⅳ", "回:回復UP/副援:支援UP Ⅲ"] }
+        ]
+    },
+    {
+        id: 763,
+        name: "クリエイターズコラボ-雨上がりレインボー-",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [18, 19] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "ウィンターフェスガチャ (2023/12/17～)", c3: [""] },
+        skill: [
+           { yakuwari: 6, name: ["Sp.パワーフォールC Ⅳ", "Sp.ファイアパワーフォールC Ⅳ", "援:Sp.パワーDOWN/副援:火パワーDOWN Ⅲ"] },
+           { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "火弱：パワーストライクB Ⅲ", "攻:ダメージUP/パワーUP Ⅲ"] },
+           { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "Sp.ファイアパワースマッシュB Ⅲ+", "攻:ダメージUP Ⅳ"] },
+           { yakuwari: 5, name: ["パワーアシストC Ⅳ", "ファイアパワーアシストC Ⅳ", "援:支援UP/副援:火パワーUP Ⅲ"] }
+        ]
     }
     /*
     ,
