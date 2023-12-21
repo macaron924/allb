@@ -74,7 +74,9 @@ const itemByTypeJson = {
         { index: "costume_482_pendant-ex", name: "真/百合ヶ丘標準制服のペンダントEX", link: false },
         { index: "costume_483_pendant-ex", name: "ミリアム/ムーンライトαのペンダントEX", link: false },
         { index: "costume_484_pendant-ex", name: "神琳/聖夜のプレゼントのペンダントEX", link: false },
-        { index: "costume_488_pendant-ex", name: "雨嘉/グロリアスカラーαのペンダントEX", link: false }
+        { index: "costume_488_pendant-ex", name: "雨嘉/グロリアスカラーαのペンダントEX", link: false },
+        { index: "costume_494_before", name: "牧野美岳/ホーリーナイトキャット", link: false },
+        { index: "costume_494_pendant-ex", name: "美岳/ホーリーナイトキャットのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -131,6 +133,17 @@ const itemByTypeJson = {
         { index: "gacha-ticket_shien-creators", name: "クリエイターズコラボ支援★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_bougai-creators", name: "クリエイターズコラボ妨害★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_kaifuku-creators", name: "クリエイターズコラボ回復★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_kangei-daily", name: "歓迎CPデイリー★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_kangei-tsuujou", name: "歓迎CP通常前衛★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_kangei-tokushu", name: "歓迎CP特殊前衛★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_kangei-shien", name: "歓迎CP支援★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_kangei-bougai", name: "歓迎CP妨害★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_kangei-kaifuku", name: "歓迎CP回復★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_kangei2023-tsuujou", name: "歓迎CP通常前衛★5確定ガチャチケット2023", link: true },
+        { index: "gacha-ticket_kangei2023-tokushu", name: "歓迎CP特殊前衛★5確定ガチャチケット2023", link: true },
+        { index: "gacha-ticket_kangei2023-shien", name: "歓迎CP支援★5確定ガチャチケット2023", link: true },
+        { index: "gacha-ticket_kangei2023-bougai", name: "歓迎CP妨害★5確定ガチャチケット2023", link: true },
+        { index: "gacha-ticket_kangei2023-kaifuku", name: "歓迎CP回復★5確定ガチャチケット2023", link: true },
         { index: "gacha-ticket_zakuzaku", name: "★5 100%!!ざくざく11回ガチャチケット", link: true },
         { index: "gacha-ticket_odaiba", name: "御台場女学校★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_ludojyo", name: "私立ルドビコ女学院★5確定ガチャチケット", link: true },
@@ -200,7 +213,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202311-event-1", name: "カガヤキ☆アクトレス★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202311-event-2", name: "ゴシック・ノスタルジカ★5確定ガチャチケットⅡ", link: false },
         { index: "gacha-ticket_202312-event-1", name: "誓いのリコネクト★5確定ガチャチケット", link: false },
-        { index: "gacha-ticket_202312-event-2", name: "極天に集いし花々★5確定ガチャチケット", link: false }
+        { index: "gacha-ticket_202312-event-2", name: "極天に集いし花々★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_202312-event-3", name: "聖夜の竜星★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -258,7 +272,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202312-1", name: "誓いのリコネクトペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202312-2", name: "極天に集いし花々ペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_xmas", name: "Xmas記念ペンダントEX交換券", link: true },
-        { index: "exchange_pendant-ex_202312-winter", name: "ウィンターフェスペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202312-winter", name: "ウィンターフェスペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202312-3", name: "聖夜の竜星ペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -286,6 +301,8 @@ const itemByTypeJson = {
         { index: "exchange_costume_kanaho", name: "今叶星衣装引換券", link: true },
         { index: "exchange_costume_yo", name: "初鹿野瑤衣装引換券", link: true },
         { index: "exchange_costume_miliam", name: "ミリアム衣装引換券", link: true },
+        { index: "exchange_costume_fumi", name: "二水衣装引換券", link: true },
+        { index: "exchange_costume_yujia", name: "雨嘉衣装引換券", link: true },
         { index: "exchange_costume_koukainama-202301", name: "公開生放送記念!!衣装交換チケット", link: true },
         { index: "exchange_costume_ririsama", name: "2.5周年リリサマ!!衣装引換券", link: true },
         { index: "exchange_costume_gigant", name: "ギガント級ヒュージ討伐衣装引換券", link: true },
@@ -327,6 +344,8 @@ const itemByTypeJson = {
         { index: "exchange_memoria_kanaho", name: "今叶星★5メモリア引換券", link: true },
         { index: "exchange_memoria_yo", name: "初鹿野瑤★5メモリア引換券", link: true },
         { index: "exchange_memoria_miliam", name: "ミリアム★5メモリア引換券", link: true },
+        { index: "exchange_memoria_fumi", name: "二水★5メモリア引換券", link: true },
+        { index: "exchange_memoria_yujia", name: "雨嘉★5メモリア引換券", link: true },
         { index: "exchange_memoria_xmas", name: "Xmas記念メモリア引換券", link: true },
         { index: "exchange_memoria-with-costume", name: "衣装付きメモリアコレクション引換券", link: true },
         { index: "exchange_memoria_zokusei-fire", name: "火属性★5メモリア引換券 (4月)", link: true },
@@ -385,7 +404,9 @@ const itemByTypeJson = {
         { index: "exchange_emotional-sozai", name: "エモーショナルメモリア素材引換券", link: false },
         { index: "exchange_creators-gacha", name: "クリエイターズコラボガチャチケット引換券", link: false },
         { index: "exchange_creators-gacha_autumn-fes", name: "クリエイターズコラボガチャチケット引換券", link: false },
-        { index: "exchange_creators-gacha_winter-fes", name: "クリエイターズコラボガチャチケット引換券", link: false }
+        { index: "exchange_creators-gacha_winter-fes", name: "クリエイターズコラボガチャチケット引換券", link: false },
+        { index: "exchange_kangei-yakuwari-gacha", name: "歓迎CP役割別ガチャチケット引換券", link: false },
+        { index: "exchange_kangei-yakuwari-gacha-2023", name: "歓迎CP役割別ガチャチケット2023引換券", link: false }
     ],
     medal_bonus: [ // ボーナスメダル
         { index: "medal_bonus_202212", name: "ボーナスメダルⅫ", link: false },

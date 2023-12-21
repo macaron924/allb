@@ -8742,7 +8742,7 @@ const memoriaJson = [
         zokusei: 2,
         legendary: "",
         illustration: { type: "クリエイターズコラボ", chara: [12, 14] },
-        get_rank: "C (推定)",
+        get_rank: "C",
         category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "クリエイターズコラボ前衛後衛ガチャ (2023/9/5～)", c3: ["前衛ガチャ"] },
         skill: [
            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.カウンターガードバーストB Ⅲ", "攻:ダメージUP/Sp.ガードDOWN Ⅲ"] },
@@ -8755,7 +8755,7 @@ const memoriaJson = [
         zokusei: 2,
         legendary: "",
         illustration: { type: "クリエイターズコラボ", chara: [7, 8] },
-        get_rank: "C (推定)",
+        get_rank: "C",
         category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "クリエイターズコラボ前衛後衛ガチャ (2023/9/5～)", c3: ["前衛ガチャ"] },
         skill: [
            { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "カウンターガードブレイクB Ⅲ", "攻:ダメージUP/ガードDOWN Ⅲ"] },
@@ -8768,7 +8768,7 @@ const memoriaJson = [
         zokusei: 2,
         legendary: "",
         illustration: { type: "クリエイターズコラボ", chara: [13, 11] },
-        get_rank: "C (推定)",
+        get_rank: "C",
         category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "クリエイターズコラボ前衛後衛ガチャ (2023/9/5～)", c3: ["後衛ガチャ"] },
         skill: [
            { yakuwari: 6, name: ["パワーフォールC Ⅳ", "カウンターファイアパワーフォールC Ⅳ", "援:支援UP Ⅳ"] },
@@ -9677,6 +9677,49 @@ const memoriaJson = [
            { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "火弱：パワーストライクB Ⅲ", "攻:ダメージUP/パワーUP Ⅲ"] },
            { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "Sp.ファイアパワースマッシュB Ⅲ+", "攻:ダメージUP Ⅳ"] },
            { yakuwari: 5, name: ["パワーアシストC Ⅳ", "ファイアパワーアシストC Ⅳ", "援:支援UP/副援:火パワーUP Ⅲ"] }
+        ]
+    }
+    ,
+    {
+        id: 764,
+        name: "聖夜の竜星",
+        zokusei: 1,
+        legendary: "ガチャ",
+        illustration: { type: "", chara: [71, 72] },
+        get_rank: "季節 (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "聖夜の竜星 (2023/12/20～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 5, name: ["WパワーアシストB Ⅲ", "WカウンターパワーアシストB Ⅲ", "援:支援UP Ⅳ"] }
+        ]
+    }
+    ,
+    {
+        id: 765,
+        name: "聖夜のスニーキングミッション",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "", chara: [73] },
+        get_rank: "季節 (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "聖夜の竜星 (2023/12/20～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "ウォーターガードブレイクB Ⅲ+", "攻:ダメージUP Ⅳ"] },
+           { yakuwari: 6, name: ["パワーフォールC Ⅳ", "ウォーターパワーフォールC Ⅳ", "援:パワーDOWN Ⅲ"] }
+        ]
+    }
+    ,
+    {
+        id: 766,
+        name: "約束のサンタクロース",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "", chara: [103] },
+        get_rank: "季節 (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "聖夜の竜星 (2023/12/20～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 7, name: ["Sp.ガードヒールC Ⅳ", "Sp.ウォーターガードヒールC Ⅳ", "回:Sp.ガードUP Ⅲ"] },
+           { yakuwari: 1, name: ["マイトストライクA Ⅳ+", "ウォーターパワーストライクA Ⅳ+", "攻:パワーUP Ⅲ"] },
+           { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.ウォーターガードバーストB Ⅲ+", "攻:Sp.ガードDOWN/副攻:水ガードDOWN Ⅲ"] },
+           { yakuwari: 5, name: ["パワーアシストC Ⅳ", "水強：パワーアシストB Ⅲ", "援:パワーUP Ⅲ"] }
         ]
     }
     /*
