@@ -206,6 +206,14 @@ const hojoJson = [
             ]
         },
         {
+            "name": "攻:Sp.ガードDOWN/副攻:水ガードDOWN Ⅲ",
+            "effect_detail": "攻撃時、一定確率で敵のSp.DEFを特大ダウンさせる。さらに、水属性防御力を大ダウンさせる。",
+            "tag": [
+                ['攻撃時', 'Sp.DEF↓', '特大'],
+                ['攻撃時', '水防↓', '大']
+            ]
+        },
+        {
             "name": "攻:WパワーDOWN Ⅱ",
             "effect_detail": "攻撃時、一定確率で敵のATKとSp.ATKを大ダウンさせる。",
             "tag": [
