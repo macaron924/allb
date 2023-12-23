@@ -9721,6 +9721,34 @@ const memoriaJson = [
            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.ウォーターガードバーストB Ⅲ+", "攻:Sp.ガードDOWN/副攻:水ガードDOWN Ⅲ"] },
            { yakuwari: 5, name: ["パワーアシストC Ⅳ", "水強：パワーアシストB Ⅲ", "援:パワーUP Ⅲ"] }
         ]
+    },
+    {
+        id: 767,
+        name: "クリエイターズコラボ-聖夜のデュオ-",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [19, 17] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/12/22～)", c3: [""] },
+        skill: [
+           { yakuwari: 6, name: ["Sp.パワーフォールC Ⅳ", "火：Sp.ファイアパワーフォールC Ⅳ", "援:支援UP Ⅳ"] },
+           { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "火：Sp.ファイアパワースマッシュB Ⅲ+", "攻:ダメージUP/Sp.パワーUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 768,
+        name: "クリエイターズコラボ-サンタを待ちながら-",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [10, 11] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2023/12/22～)", c3: [""] },
+        skill: [
+           { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "火：ファイアパワーストライクB Ⅲ+", "攻:ダメージUP/パワーUP Ⅲ"] },
+           { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.カウンターファイアガードバーストB Ⅲ+", "攻:ダメージUP Ⅳ"] },
+           { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "火：Sp.ファイアパワーアシストC Ⅳ", "援:支援UP/副援:火パワーUP Ⅲ"] },
+           { yakuwari: 7, name: ["ガードヒールC Ⅳ", "火：ファイアガードヒールC Ⅳ", "回:回復UP/副援:支援UP Ⅲ"] }
+        ]
     }
     /*
     ,
