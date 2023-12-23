@@ -274,7 +274,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202312-2", name: "極天に集いし花々ペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_xmas", name: "Xmas記念ペンダントEX交換券", link: true },
         { index: "exchange_pendant-ex_202312-winter", name: "ウィンターフェスペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202312-3", name: "聖夜の竜星ペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202312-3", name: "聖夜の竜星ペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_xmas-cuelebre", name: "Xmas記念クエレブレペンダントEX交換券", link: true }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -348,6 +349,7 @@ const itemByTypeJson = {
         { index: "exchange_memoria_fumi", name: "二水★5メモリア引換券", link: true },
         { index: "exchange_memoria_yujia", name: "雨嘉★5メモリア引換券", link: true },
         { index: "exchange_memoria_xmas", name: "Xmas記念メモリア引換券", link: true },
+        { index: "exchange_memoria_xmas-cuelebre", name: "Xmas記念クエレブレ引換券", link: true },
         { index: "exchange_memoria-with-costume", name: "衣装付きメモリアコレクション引換券", link: true },
         { index: "exchange_memoria_zokusei-fire", name: "火属性★5メモリア引換券 (4月)", link: true },
         { index: "exchange_memoria_zokusei-wind", name: "風属性★5メモリア引換券 (4月)", link: true },

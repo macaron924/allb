@@ -549,6 +549,19 @@ const exchangeDataJson = [
         }
     },
     {
+        "index": "exchange_memoria_xmas-cuelebre",
+        "name": "Xmas記念クエレブレ引換券",
+        "type": "メモリア/衣装引換券",
+        "get": ["ガチャ"],
+        "notice": [],
+        "lineup": {
+            "memoria": [ { "caption": "メモリアのみ", "ratio": 1, "content": [700, 701, 697, 698, 699, 644, 645, 646, 597, 598, 599] } ],
+            "costume": [ { "caption": "衣装", "ratio": 1, "content": [437, 438, 434, 435, 436, 387, 388, 351, 352] } ],
+            "item": [],
+            "event-ticket": []
+        }
+    },
+    {
         "index": "exchange_memoria_fumi",
         "name": "二水★5メモリア引換券",
         "type": "メモリア引換券",
@@ -1673,9 +1686,22 @@ const exchangeDataJson = [
         }
     },
     {
+        "index": "exchange_pendant-ex_xmas-cuelebre",
+        "name": "Xmas記念クエレブレペンダントEX交換券",
+        "type": "ペンダントEX交換券",
+        "get": ["ガチャ"],
+        "notice": [],
+        "lineup": {
+            "memoria": [],
+            "costume": [ { "caption": "以下の衣装のEXペンダント", "ratio": 1, "content": [434, 435, 436, 437, 438, 351, 352, 387, 388] } ],
+            "item": [],
+            "event-ticket": []
+        }
+    },
+    {
         "index": "exchange_pendant-ex_xmas",
         "name": "Xmas記念ペンダントEX交換券",
-        "type": "イベントガチャスペシャル交換券",
+        "type": "ペンダントEX交換券",
         "get": ["ガチャ"],
         "notice": [],
         "lineup": {

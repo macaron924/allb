@@ -1,5 +1,53 @@
 const gachaLimited202312 = [
     {
+        start: "2023/12/23(土) 12:00",
+        finish: "2023/12/31(日) 23:59",
+        type: "その他のガチャ",
+        medal: "medal_bonus_202312",
+        gacha: [
+            {
+                index: "20231223_1",
+                name: "Xmas記念クエレブレコレクションガチャ",
+                big_banner: true,
+                bonus: {
+                    notice: [
+                        { text: "11回ガチャ20回限定", item: [] },
+                        { text: "ガチャを引く毎に", item: [ { index: "medal", value: 100}, { index: "goggle-3", value: 5 } ] }
+                    ],
+                    table_header: ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    table_content: [
+                        { need: [1, 11], item: [ { index: "medal_pendant-premium", value: 300 } ] },
+                        { need: [2, 22], item: [ { index: "gacha-ticket_cost19", value: 1 } ] },
+                        { need: [3, 33], item: [ { index: "medal_pendant-royal", value: 100 } ] },
+                        { need: [4, 44], item: [ { index: "gacha-ticket_cost20", value: 1 } ] },
+                        { need: [5, 55], item: [ { index: "exchange_pendant-ex_xmas-cuelebre", value: 1 } ] },
+                        { need: [6, 66], item: [ { index: "medal_pendant-premium", value: 50 } ] },
+                        { need: [7, 77], item: [ { index: "skill-all-3", value: 30 } ] },
+                        { need: [8, 88], item: [ { index: "exchange_memoria_xmas-cuelebre", value: 1 } ] },
+                        { need: [9, 99], item: [ { index: "medal_pendant-premium", value: 300 } ] },
+                        { need: [10, 110], item: [ { index: "gacha-ticket_cost19", value: 1 } ] },
+                        { need: [11, 121], item: [ { index: "exchange_pendant-ex_xmas-cuelebre", value: 1 } ] },
+                        { need: [12, 132], item: [ { index: "medal_pendant-premium", value: 50 } ] },
+                        { need: [13, 143], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [14, 154], item: [ { index: "exchange_memoria_xmas-cuelebre", value: 1 } ] },
+                        { need: [15, 165], item: [ { index: "medal_pendant-premium", value: 300 } ] },
+                        { need: [16, 176], item: [ { index: "gacha-ticket_cost19", value: 1 } ] },
+                        { need: [17, 187], item: [ { index: "exchange_pendant-ex_xmas-cuelebre", value: 1 } ] },
+                        { need: [18, 198], item: [ { index: "medal_pendant-premium", value: 50 } ] },
+                        { need: [19, 209], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [20, 220], item: [ { index: "exchange_memoria_xmas-cuelebre", value: 1 } ] }
+                    ]
+                },
+                lineup: {
+                    total_ratio: [6],
+                    notice: [],
+                    pu: [],
+                    else: { caption: "ピックアップ無し", content: [597, 598, 599, 644, 645, 646, 697, 698, 699, 700, 701] }
+                }
+            }
+        ]
+    },
+    {
         start: "2023/12/22(金) 12:00",
         finish: "2023/12/30(土) 23:59",
         type: "BRAND-NEWメモリアガチャ",
