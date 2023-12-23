@@ -32,6 +32,7 @@ function getItemName(item) {
             break;
         case item.startsWith('exchange_pendant-ex'):
             items = itemByTypeJson['exchange_pendant_ex'];
+            link = `exchange_info/content/?index=${item}`;
             break;
         case item.startsWith('exchange_costume'):
             items = itemByTypeJson['exchange_costume'];
