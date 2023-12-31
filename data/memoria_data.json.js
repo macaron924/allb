@@ -7489,7 +7489,7 @@ const memoriaJson = [
         zokusei: 2,
         legendary: "",
         illustration: { type: "", chara: [72] },
-        get_rank: "メインストーリー3章 (未復刻)",
+        get_rank: "メインストーリー3章",
         category: { c1: "メダル/ギガント級討伐イベント", c2: "竜のシャナと楯の乙女 (2023/4/30～)", c3: ["第1弾イベントガチャ"] },
         skill: [
            { yakuwari: 6, name: ["Sp.パワーフォールC Ⅳ", "Sp.ファイアパワーフォールB Ⅲ", "援:Sp.パワーDOWN Ⅲ"] },
@@ -7502,7 +7502,7 @@ const memoriaJson = [
         zokusei: 2,
         legendary: "",
         illustration: { type: "", chara: [73] },
-        get_rank: "メインストーリー3章 (未復刻)",
+        get_rank: "メインストーリー3章",
         category: { c1: "メダル/ギガント級討伐イベント", c2: "竜のシャナと楯の乙女 (2023/4/30～)", c3: ["第1弾イベントガチャ"] },
         skill: [
            { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "ウォーターパワーストライクB Ⅲ+", "攻:パワーUP Ⅲ"] },
@@ -7515,7 +7515,7 @@ const memoriaJson = [
         zokusei: 2,
         legendary: "",
         illustration: { type: "", chara: [71, 10] },
-        get_rank: "メインストーリー3章 (未復刻)",
+        get_rank: "メインストーリー3章",
         category: { c1: "メダル/ギガント級討伐イベント", c2: "竜のシャナと楯の乙女 (2023/4/30～)", c3: ["第1弾イベントガチャ"] },
         skill: [
            { yakuwari: 7, name: ["ガードヒールC Ⅲ", "ファイアガードヒールC Ⅲ", "回:ガードUP Ⅲ"] },
@@ -8098,7 +8098,7 @@ const memoriaJson = [
         zokusei: 2,
         legendary: "",
         illustration: { type: "", chara: [71] },
-        get_rank: "メインストーリー3章 (未復刻)",
+        get_rank: "メインストーリー3章",
         category: { c1: "メダル/ギガント級討伐イベント", c2: "深炎のスキャルドメール (2023/6/30～)", c3: ["イベントガチャ"] },
         skill: [
            { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "ウォーターパワーストライクB Ⅲ+", "攻:パワーUP Ⅲ"] },
@@ -8111,7 +8111,7 @@ const memoriaJson = [
         zokusei: 2,
         legendary: "",
         illustration: { type: "", chara: [74] },
-        get_rank: "メインストーリー3章 (未復刻)",
+        get_rank: "メインストーリー3章",
         category: { c1: "メダル/ギガント級討伐イベント", c2: "深炎のスキャルドメール (2023/6/30～)", c3: ["イベントガチャ"] },
         skill: [
            { yakuwari: 7, name: ["Sp.ガードヒールD Ⅳ", "Sp.ファイアガードヒールD Ⅳ", "回:Sp.ガードUP Ⅲ"] },
@@ -8124,7 +8124,7 @@ const memoriaJson = [
         zokusei: 2,
         legendary: "ガチャ",
         illustration: { type: "", chara: [10, 71] },
-        get_rank: "メインストーリー3章 (未復刻)",
+        get_rank: "メインストーリー3章",
         category: { c1: "メダル/ギガント級討伐イベント", c2: "深炎のスキャルドメール (2023/6/30～)", c3: ["イベントガチャ"] },
         skill: [
            { yakuwari: 6, name: ["水：WパワーフォールB Ⅲ", "水：WパワーフォールB Ⅲ", "援:支援UP Ⅳ"] }
@@ -8561,7 +8561,7 @@ const memoriaJson = [
         zokusei: 1,
         legendary: "ガチャ",
         illustration: { type: "", chara: [57] },
-        get_rank: "B (推定)",
+        get_rank: "レジェンダリーを含むイベント (推定)",
         category: { c1: "メダル/ギガント級討伐イベント", c2: "エレガンス・セッション (2023/8/20～)", c3: ["イベントガチャ"] },
         skill: [
            { yakuwari: 4, name: ["火：Sp.パワースマッシュB Ⅲ", "火：Sp.パワースマッシュB Ⅲ", "攻:ダメージUP Ⅳ"] }
@@ -8573,7 +8573,7 @@ const memoriaJson = [
         zokusei: 1,
         legendary: "",
         illustration: { type: "", chara: [98] },
-        get_rank: "B (推定)",
+        get_rank: "レジェンダリーを含むイベント (推定)",
         category: { c1: "メダル/ギガント級討伐イベント", c2: "エレガンス・セッション (2023/8/20～)", c3: ["イベントガチャ"] },
         skill: [
            { yakuwari: 7, name: ["Sp.ガードヒールD Ⅳ", "風強：ヒールD Ⅳ", "回:回復UP/副援:風ガードUP Ⅲ"] },
@@ -8586,7 +8586,7 @@ const memoriaJson = [
         zokusei: 1,
         legendary: "",
         illustration: { type: "", chara: [99] },
-        get_rank: "B (推定)",
+        get_rank: "レジェンダリーを含むイベント (推定)",
         category: { c1: "メダル/ギガント級討伐イベント", c2: "エレガンス・セッション (2023/8/20～)", c3: ["イベントガチャ"] },
         skill: [
            { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "火弱：パワーストライクB Ⅲ", "攻:パワーUP Ⅲ"] },
@@ -8781,7 +8781,7 @@ const memoriaJson = [
         zokusei: 3,
         legendary: "ガチャ",
         illustration: { type: "", chara: [72, 71] },
-        get_rank: "B (推定)",
+        get_rank: "レジェンダリーを含むイベント (推定)",
         category: { c1: "メダル/ギガント級討伐イベント", c2: "竜の生まれた日 (2023/9/10～)", c3: ["第1弾イベントガチャ"] },
         skill: [
            { yakuwari: 2, name: ["風拡：ガードブレイクB Ⅲ", "風拡：ガードブレイクB Ⅲ", "攻:ダメージUP Ⅳ"] }
@@ -8793,7 +8793,7 @@ const memoriaJson = [
         zokusei: 3,
         legendary: "",
         illustration: { type: "", chara: [74] },
-        get_rank: "B (推定)",
+        get_rank: "レジェンダリーを含むイベント (推定)",
         category: { c1: "メダル/ギガント級討伐イベント", c2: "竜の生まれた日 (2023/9/10～)", c3: ["第1弾イベントガチャ"] },
         skill: [
            { yakuwari: 6, name: ["Sp.ガードフォールC Ⅳ", "風弱：Sp.ガードフォールB Ⅲ", "援:Sp.ガードDOWN Ⅲ"] },
@@ -8806,7 +8806,7 @@ const memoriaJson = [
         zokusei: 3,
         legendary: "",
         illustration: { type: "", chara: [103] },
-        get_rank: "B (推定)",
+        get_rank: "レジェンダリーを含むイベント (推定)",
         category: { c1: "メダル/ギガント級討伐イベント", c2: "竜の生まれた日 (2023/9/10～)", c3: ["第1弾イベントガチャ"] },
         skill: [
            { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "風弱：Sp.パワースマッシュB Ⅲ", "攻:Sp.パワーUP Ⅲ"] },
@@ -8819,7 +8819,7 @@ const memoriaJson = [
         zokusei: 3,
         legendary: "",
         illustration: { type: "", chara: [71] },
-        get_rank: "B (推定)",
+        get_rank: "レジェンダリーを含むイベント (推定)",
         category: { c1: "メダル/ギガント級討伐イベント", c2: "竜の生まれた日 (2023/9/10～)", c3: ["第2弾イベントガチャ (2023/9/13～)"] },
         skill: [
            { yakuwari: 7, name: ["ガードヒールD Ⅳ", "ウォーターガードヒールD Ⅳ", "回:回復UP Ⅳ"] },
@@ -8832,7 +8832,7 @@ const memoriaJson = [
         zokusei: 3,
         legendary: "",
         illustration: { type: "", chara: [73, 74] },
-        get_rank: "B (推定)",
+        get_rank: "レジェンダリーを含むイベント (推定)",
         category: { c1: "メダル/ギガント級討伐イベント", c2: "竜の生まれた日 (2023/9/10～)", c3: ["第2弾イベントガチャ (2023/9/13～)"] },
         skill: [
            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.ウィンドガードバーストB Ⅲ+", "攻:ダメージUP Ⅳ"] },
@@ -9748,6 +9748,47 @@ const memoriaJson = [
            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.カウンターファイアガードバーストB Ⅲ+", "攻:ダメージUP Ⅳ"] },
            { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "火：Sp.ファイアパワーアシストC Ⅳ", "援:支援UP/副援:火パワーUP Ⅲ"] },
            { yakuwari: 7, name: ["ガードヒールC Ⅳ", "火：ファイアガードヒールC Ⅳ", "回:回復UP/副援:支援UP Ⅲ"] }
+        ]
+    },
+    {
+        id: 769,
+        name: "龍の威纏う女帝",
+        zokusei: 1,
+        legendary: "ガチャ",
+        illustration: { type: "", chara: [12] },
+        get_rank: "季節 (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "龍炎舞踊のエージェント (2023/12/31～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 7, name: ["WガードヒールD Ⅳ", "WカウンターガードヒールD Ⅳ", "回:回復UP Ⅳ"] }
+        ]
+    },
+    {
+        id: 770,
+        name: "炎龍を宿す舞人",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "", chara: [13] },
+        get_rank: "季節 (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "龍炎舞踊のエージェント (2023/12/31～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "火：Sp.ファイアパワースマッシュB Ⅲ+", "攻:Sp.パワーUP/副攻:火パワーUP Ⅲ"] },
+           { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "Sp.ファイアパワーアシストC Ⅳ", "援:Sp.パワーUP/副援:火パワーUP Ⅲ"] },
+           { yakuwari: 6, name: ["パワーフォールC Ⅳ", "ファイアパワーフォールC Ⅳ", "援:パワーDOWN Ⅲ"] }
+        ]
+    },
+    {
+        id: 771,
+        name: "恵みもたらす食神",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "", chara: [14] },
+        get_rank: "季節 (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "龍炎舞踊のエージェント (2023/12/31～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 6, name: ["Sp.パワーフォールC Ⅳ", "Sp.ウォーターパワーフォールC Ⅳ", "援:Sp.パワーDOWN/副援:水パワーDOWN Ⅲ"] },
+           { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "ウォーターガードブレイクB Ⅲ+", "攻:ダメージUP Ⅳ"] },
+           { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.ウォーターパワーバーストB Ⅲ+", "攻:Sp.パワーDOWN Ⅲ"] },
+           { yakuwari: 7, name: ["ガードヒールC Ⅳ", "ウォーターガードヒールC Ⅳ", "回:ガードUP Ⅲ"] }
         ]
     }
     /*
