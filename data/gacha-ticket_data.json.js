@@ -389,7 +389,7 @@ const gachaTicketJson = [
     },
     {
         "name": "クリエイターズコラボ通常前衛★5確定ガチャチケット",
-        "index": "tsuujou-creators",
+        "index": "creators-tsuujou",
         "lineup": {
             "topic": [],
             "total-ratio": 100,
@@ -400,7 +400,7 @@ const gachaTicketJson = [
     },
     {
         "name": "クリエイターズコラボ特殊前衛★5確定ガチャチケット",
-        "index": "tokushu-creators",
+        "index": "creators-tokushu",
         "lineup": {
             "topic": [],
             "total-ratio": 100,
@@ -411,7 +411,7 @@ const gachaTicketJson = [
     },
     {
         "name": "クリエイターズコラボ支援★5確定ガチャチケット",
-        "index": "shien-creators",
+        "index": "creators-shien",
         "lineup": {
             "topic": [],
             "total-ratio": 100,
@@ -422,7 +422,7 @@ const gachaTicketJson = [
     },
     {
         "name": "クリエイターズコラボ妨害★5確定ガチャチケット",
-        "index": "bougai-creators",
+        "index": "creators-bougai",
         "lineup": {
             "topic": [],
             "total-ratio": 100,
@@ -433,7 +433,7 @@ const gachaTicketJson = [
     },
     {
         "name": "クリエイターズコラボ回復★5確定ガチャチケット",
-        "index": "kaifuku-creators",
+        "index": "creators-kaifuku",
         "lineup": {
             "topic": [],
             "total-ratio": 100,
