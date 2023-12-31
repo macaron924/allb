@@ -4453,6 +4453,33 @@ const costumeJson = [
         "percent": 15,
         "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
         "ex": [["火UP", 5]]
+    },
+    {
+        "id": 496,
+        "chara": 12,
+        "yakuwari": 7,
+        "name": "SPYチャイナフォーム",
+        "percent": 15,
+        "parameter": [["Sp.DEF", 3000], ["DEF", 3000]],
+        "ex": [["火UP", 5]]
+    },
+    {
+        "id": 497,
+        "chara": 13,
+        "yakuwari": 4,
+        "name": "SPYチャイナフォーム",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 498,
+        "chara": 14,
+        "yakuwari": 6,
+        "name": "SPYチャイナフォーム",
+        "percent": 15,
+        "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]],
+        "ex": [["水UP", 5]]
     }
     /*
     ,
