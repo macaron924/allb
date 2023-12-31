@@ -3,6 +3,37 @@ $("#menu-open-btn").click(function () { // 絞り込み選択表示ボタンク�
     $("#filter-menu_content").toggleClass('active');
 });
 
+$("#exchange-menu-open-btn").click(function () { // 絞り込み選択表示ボタンクリック時
+    $(this).toggleClass('active');
+    $("#exchange-menu_content").toggleClass('active');
+});
+
+$("#exchange-category").change(function () {
+    let val = this.value;
+    getExchangeList(val);
+});
+
+function getExchangeList(val) {
+    document.getElementById("exchange-select").innerHTML = "";
+    let str = "";
+    switch(val) {
+        case "メダル":
+            for (let i in exchangeDataJson) {
+                if (exchangeDataJson[i]["type"] == "ボーナスメダル") {
+                    str = `<option value="${exchangeDataJson[i]["index"]}">${exchangeDataJson[i]["name"]}</option>`;
+                    document.getElementById("exchange-select").insertAdjacentHTML("beforeend", str);
+                }
+            }
+        case "引換券":
+            for (let i in exchangeDataJson) {
+                if (exchangeDataJson[i]["type"].includes("メモリア")) {
+                    str = `<option value="${exchangeDataJson[i]["index"]}">${exchangeDataJson[i]["name"]}</option>`;
+                    document.getElementById("exchange-select").insertAdjacentHTML("beforeend", str);
+                }
+            }
+    }
+}
+
 $(".select-btn").click(function () { // 選択ボタンクリック時
     $(this).toggleClass('active');
     document.getElementById("filter-btn").className = "not-changed";
@@ -115,12 +146,26 @@ function runButtonPushAction() {
     effectUpSelection = document.getElementById("effect-up").value;
     hojoSelectionArray.push([document.getElementById("hojo1-type").value, hojo1Val]);
     hojoSelectionArray.push([document.getElementById("hojo2-type").value, hojo2Val]);
+    
+    exchangeSelection = document.getElementById("exchange-select").value;
 
     skillFilter(); // スキル側のフィルター実行
     hojoFilter(); // 補助スキル側のフィルター実行
     filter();
     document.getElementById("filter-btn").className = "";
     document.getElementById("filter-btn").value = "反映済み";
+}
+
+function getExchangeLineup() {
+    let lineup = [];
+    for (let i in exchangeDataJson) {
+        if (exchangeDataJson[i]["index"] == exchangeSelection) {
+            for  (let j in exchangeDataJson[i]["lineup"]["memoria"]) {
+                lineup = lineup.concat(exchangeDataJson[i]["lineup"]["memoria"][j]["content"]);
+            }
+        }
+    }
+    return lineup;
 }
 
 function zokuseiButtonPushAction(zokusei) {
@@ -471,18 +516,35 @@ function filter() {
 
     // 検索結果件数を保存する変数
     let resultCount = 0;
+    let lineup = getExchangeLineup();
 
     for (let i = 0; i < memoriaJsonCopy.length; i++) {
+
+        let existInLineup = true;
+        if (exchangeSelection != "") {
+            if (lineup.includes(memoriaJsonCopy[i]['id'])) {
+                existInLineup = true;
+            } else {
+                existInLineup = false;
+            }
+        }
+
         for (let j = 0; j < memoriaJsonCopy[i]['skill'].length; j++) {
+    
+            // 対応tr参照
+            const tr = memoriaJsonCopy[i]["tr"][j];
+
+            if (existInLineup == false) {
+                // 非表示
+                tr.style.display = 'none';
+                continue;
+            }
 
             let zokusei = memoriaJsonCopy[i]['zokusei'];
             let legendary = memoriaJsonCopy[i]['legendary'];
             let yakuwari = memoriaJsonCopy[i]['skill'][j]['yakuwari'];
             let skill = memoriaJsonCopy[i]['skill'][j]['name'];
             let skillRef = memoriaJsonCopy[i]['skillRef'][j];
-    
-            // 対応tr参照
-            const tr = memoriaJsonCopy[i]["tr"][j]
     
             if (allFilter(zokusei, legendary, yakuwari, skill, skillRef) == true) {
                 // 検索結果件数カウント
@@ -676,4 +738,5 @@ let effect1Val = [];
 let effect2Val = [];
 let hojo1Val = [];
 let hojo2Val = [];
+let exchangeSelection = "";
 makeTable();

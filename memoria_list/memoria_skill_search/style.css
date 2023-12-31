@@ -2,14 +2,28 @@
 
 #menu-open-btn {
     background-color: #eee;
-    width: 22rem;
-    height: 3rem;
     border: 0.1rem solid #333333;
     border-radius: 0.5rem;
     margin: 0.2rem;
+    padding: 0.5rem;
 }
 
 #menu-open-btn.active {
+    background-color: #00bfff;
+}
+
+
+/*交換所メニューボタンの表示切替*/
+
+#exchange-menu-open-btn {
+    background-color: #eee;
+    border: 0.1rem solid #333333;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+    padding: 0.5rem;
+}
+
+#exchange-menu-open-btn.active {
     background-color: #00bfff;
 }
 
@@ -20,7 +34,7 @@
     margin-left: 3rem;
 }
 
-#filter-menu_content {
+#filter-menu_content, #exchange-menu_content {
     display: none;
     background: #ccf2ff;
     border: solid #00bfff;
@@ -31,7 +45,7 @@
     overflow: auto;
 }
 
-#filter-menu_content.active {
+#filter-menu_content.active, #exchange-menu_content.active {
     display: block;
 }
 
@@ -53,7 +67,8 @@
     height: 3rem;
     border: 0.1rem solid #333333;
     border-radius: 0.5rem;
-    margin-top: 1rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 
 #filter-btn.not-changed {
