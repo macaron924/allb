@@ -95,6 +95,9 @@ function getCharaMaxRow(charaIndex) {
 
 // キャラ名取得
 function getCharaName(charaIndex) {
+    if (charaJson[charaIndex]["specialSkill"] != "") {
+        charaJson[charaIndex]['charaName'] = `${charaJson[charaIndex]['charaName']} (${charaJson[charaIndex]["specialSkill"]})`;
+    }
     return charaJson[charaIndex]['charaName'];
 }
 
@@ -154,17 +157,11 @@ function makeTable() {
 
 
 // キャラ表示順
-const charaDisplay = [
-    1, 30, 2, 107, 3, 4, 5, 55, 113, 6, 7, 8, 9, 35, 20, 
-    21, 22, 23, 24, 25, 26, 27, 28, 29, 
-    116, 117, 
-    53, 54, 56, 57, 98, 99, 105, 106, 115, 
-    10, 95, 11, 84, 12, 96, 13, 14, 71, 93, 72, 85, 73, 86, 74, 94, 114, 103, 104, 
-    15, 16, 17, 18, 19, 67, 68, 69, 70, 
-    40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 34, 
-    31, 32, 33, 36, 37, 38, 39, 50, 51, 52, 58, 59, 60, 61, 62, 63, 64, 65, 66, 75, 76, 77, 78, 79, 80, 87, 88, 89, 90, 91, 92, 100, 101, 102, 108, 109, 112, 110, 111, 
-    81, 82, 83, 97
-]
+let charaDisplay = []
+
+for (let i in charaBelongJson) {
+    charaDisplay = charaDisplay.concat(charaBelongJson[i]["chara"]);
+}
 
 // 多次元配列定義
 const maxChara = charaDisplay.length;
