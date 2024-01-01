@@ -162,6 +162,9 @@ const itemByTypeJson = {
         { index: "gacha-ticket_emotional", name: "エモーショナルメモリア★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_new-year", name: "正月記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_new-year-kakutei", name: "正月メモリア100%!!★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_new-year-cost20costume", name: "正月記念!!衣装解放コスト20以上★5ガチャチケット", link: true },
+        { index: "gacha-ticket_new-year-cost21", name: "正月記念!!コスト21以上★5ガチャチケット", link: true },
+        { index: "gacha-ticket_new-year-cost21costume", name: "正月記念!!衣装解放コスト21以上★5ガチャチケット", link: true },
         // イベントガチャチケット
         { index: "gacha-ticket_202212-event-1", name: "聖夜へ捧ぐサプライズ★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202212-event-2", name: "凍て空の流星★5確定ガチャチケットⅡ", link: false },
@@ -279,7 +282,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202312-winter", name: "ウィンターフェスペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202312-3", name: "聖夜の竜星ペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_xmas-cuelebre", name: "Xmas記念クエレブレペンダントEX交換券", link: true },
-        { index: "exchange_pendant-ex_202401-1", name: "龍炎舞踊のエージェントペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202401-1", name: "龍炎舞踊のエージェントペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_new-year-2024", name: "新春ペンダントEX交換券", link: true }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -309,6 +313,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_miliam", name: "ミリアム衣装引換券", link: true },
         { index: "exchange_costume_fumi", name: "二水衣装引換券", link: true },
         { index: "exchange_costume_yujia", name: "雨嘉衣装引換券", link: true },
+        { index: "exchange_costume_kaede", name: "楓衣装引換券", link: true },
         { index: "exchange_costume_koukainama-202301", name: "公開生放送記念!!衣装交換チケット", link: true },
         { index: "exchange_costume_ririsama", name: "2.5周年リリサマ!!衣装引換券", link: true },
         { index: "exchange_costume_gigant", name: "ギガント級ヒュージ討伐衣装引換券", link: true },
@@ -320,7 +325,9 @@ const itemByTypeJson = {
         { index: "exchange_costume_ririsama-2", name: "トロピカルナイト衣装引換券", link: true },
         { index: "exchange_costume_ririsama-3", name: "ギガントウェーブ衣装引換券", link: true },
         { index: "exchange_costume_xmas", name: "Xmas記念衣装引換券", link: true },
-        { index: "exchange_costume_new-year", name: "2024年新春記念衣装引換券", link: true }
+        { index: "exchange_costume_new-year", name: "2024年新春記念衣装引換券", link: true },
+        { index: "exchange_costume_new-year-2024-premium", name: "新春プレミア衣装引換券", link: true },
+        { index: "exchange_costume_new-year-2024-normal", name: "新春衣装引換券", link: true }
     ],
     exchange: [ // メモリア引換券
         { index: "exchange_memoria_toumei-diary", name: "トウメイダイアリーCD発売記念！★5メモリア引換券", link: true },
@@ -331,6 +338,9 @@ const itemByTypeJson = {
         { index: "exchange_new-year-2023-2", name: "★5メモリア引換券(ゴールド)", link: true },
         { index: "exchange_new-year-2023-3", name: "★5メモリア引換券(シルバー)", link: true },
         { index: "exchange_new-year-2023-4", name: "★5メモリア引換券(ブロンズ)", link: true },
+        { index: "exchange_memoria_new-year-2024-ultimate", name: "新春アルティメット★5メモリア引換券", link: true },
+        { index: "exchange_memoria_new-year-2024-premium", name: "新春プレミア★5メモリア引換券", link: true },
+        { index: "exchange_memoria_new-year-2024-normal", name: "新春★5メモリア引換券", link: true },
         { index: "exchange_memoria_2nd-anniversary-1", name: "2周年祭りぽかぽか★5メモリア引換券", link: true },
         { index: "exchange_memoria_2nd-anniversary-2", name: "2周年祭りどきどき★5メモリア引換券", link: true },
         { index: "exchange_memoria_2nd-anniversary-3", name: "2周年祭りあまあま★5メモリア引換券", link: true },
@@ -353,6 +363,7 @@ const itemByTypeJson = {
         { index: "exchange_memoria_miliam", name: "ミリアム★5メモリア引換券", link: true },
         { index: "exchange_memoria_fumi", name: "二水★5メモリア引換券", link: true },
         { index: "exchange_memoria_yujia", name: "雨嘉★5メモリア引換券", link: true },
+        { index: "exchange_memoria_kaede", name: "楓★5メモリア引換券", link: true },
         { index: "exchange_memoria_xmas", name: "Xmas記念メモリア引換券", link: true },
         { index: "exchange_memoria-with-costume", name: "衣装付きメモリアコレクション引換券", link: true },
         { index: "exchange_memoria_zokusei-fire", name: "火属性★5メモリア引換券 (4月)", link: true },
@@ -477,6 +488,7 @@ const itemByTypeJson = {
     other: [
         { index: "coin_sell", name: "無垢なる黄金", link: false },
         { index: "goggle-3", name: "アーセナルゴーグルⅢ", link: false },
+        { index: "keep-bolt", name: "キープボルト", link: false },
         { index: "jewel", name: "マギジュエル", link: false },
         { index: "medal_memoria", name: "メモリアメダル", link: false },
         { index: "medal_order", name: "オーダーメダル", link: false },
@@ -496,6 +508,9 @@ const itemByTypeJson = {
         { index: "pack_fukubukuro-2023-2", name: "赤の福袋", link: false },
         { index: "pack_fukubukuro-2023-3", name: "白の福袋", link: false },
         { index: "pack_fukubukuro-2023-3_no-pay", name: "白の福袋 (無課金)", link: false },
+        { index: "pack_fukubukuro-2024-1", name: "プラチナDX福袋2024", link: false },
+        { index: "pack_fukubukuro-2024-2", name: "ゴールド福袋2024", link: false },
+        { index: "pack_fukubukuro-2024-3", name: "シルバー福袋2024", link: false },
         { index: "parts_legendary", name: "レジェンダリーパーツⅢ", link: false },
         { index: "ramune", name: "ラムネ", link: false },
         { index: "skill-vshuge-3", name: "対敵の記憶Ⅲ", link: false },
