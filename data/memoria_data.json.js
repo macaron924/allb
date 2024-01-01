@@ -9790,7 +9790,23 @@ const memoriaJson = [
            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.ウォーターパワーバーストB Ⅲ+", "攻:Sp.パワーDOWN Ⅲ"] },
            { yakuwari: 7, name: ["ガードヒールC Ⅳ", "ウォーターガードヒールC Ⅳ", "回:ガードUP Ⅲ"] }
         ]
-    }
+    },
+    {
+        id: 772,
+        name: "辰年ニューイヤー",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "静止画", chara: [25, 21] },
+        get_rank: "非ガチャ産",
+        category: { c1: "ミッション、ログインボーナス等", c2: "期間限定", c3: ["お正月記念"] },
+        skill: [
+            { yakuwari: 7, name: ["Sp.ガードヒールB Ⅲ", "Sp.ガードヒールB Ⅲ", "回:Sp.ガードUP Ⅲ"] },
+            { yakuwari: 2, name: ["パワーストライクB Ⅲ", "パワーストライクB Ⅲ", "攻:パワーUP Ⅲ"] },
+            { yakuwari: 4, name: ["Sp.パワースマッシュB Ⅲ", "Sp.パワースマッシュB Ⅲ", "攻:Sp.パワーUP Ⅲ"] },
+            { yakuwari: 5, name: ["Sp.パワーアシストB Ⅲ", "Sp.パワーアシストB Ⅲ", "援:パワーUP Ⅲ"] },
+            { yakuwari: 6, name: ["パワーフォールB Ⅲ", "パワーフォールB Ⅲ", "援:パワーDOWN Ⅲ"] }
+        ]
+    },
     /*
     ,
     {
