@@ -3,28 +3,20 @@ $(document).on('click', '.belong', function() {//タイトル要素をクリッ�
 	$(findElm).toggleClass('close'); // closeクラスを付与
 	$(this).toggleClass('close'); // 自身にもcloseクラスを付与
 });
-
+/*
 $(document).on('click', 'button', function() { // 選択ボタンがクリックされたら
-    $(this).toggleClass('active'); // 自身にactiveクラスを付与(色付け)
     let value = this.value;
-    charaButtonPushAction(value);
-    document.getElementById("filter-btn").className = "not-changed";
-    document.getElementById("filter-btn").value = "未反映";
-});
+    location.href = value;
+});*/
 
 function getChara(charaID) {
     for (let i in charaJson) {
         if (charaID == charaJson[i]["charaID"]) {
             let charaName = charaJson[i]["charaName"];
-            if (charaJson[i]["playable"] == false) {
-                return [charaName, false];
-            } else {
-                if (charaJson[i]["specialSkill"] != "") charaName = `${charaName} (${charaJson[i]["specialSkill"]})`;
-                return [charaName, true];
-            }
+            return [charaName, charaJson[i]["charaJump"]];
         }
     }
-    return ["", true];
+    return ["", ""];
 }
 
 let charaList = document.createElement('div');
@@ -40,10 +32,10 @@ for (let i in charaBelongJson) {
     buttonBox.className = "flex_btn-box";
     for (let j in charaBelongJson[i]["chara"]) {
 
-        let [name, playable] = getChara(charaBelongJson[i]["chara"][j]);
-        if (playable == false) continue;
+        let [name, jump] = getChara(charaBelongJson[i]["chara"][j]);
+        if (jump == "") continue;
     
-        let buttonBoxItem = `<div class="flex_btn-item"><button value="${charaBelongJson[i]["chara"][j]}"><img src="./../../images/chara/chara_${charaBelongJson[i]["chara"][j]}.jpg"><p>${name}</p></button></div>`;
+        let buttonBoxItem = `<div class="flex_btn-item"><a href=#${jump} value="${jump}"><img src="./../images/chara/chara_${charaBelongJson[i]["chara"][j]}.jpg"><p>${name}</p></a></div>`;
         buttonBox.insertAdjacentHTML("beforeend", buttonBoxItem);
     }
     charaList.appendChild(buttonBox);
