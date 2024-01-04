@@ -9807,6 +9807,34 @@ const memoriaJson = [
             { yakuwari: 6, name: ["パワーフォールB Ⅲ", "パワーフォールB Ⅲ", "援:パワーDOWN Ⅲ"] }
         ]
     },
+    {
+        id: 773,
+        name: "クリエイターズコラボ-ふたりだけの夜-",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [6, 5] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "新春!!BRAND-NEWメモリアガチャ (2024/1/4～)", c3: [""] },
+        skill: [
+           { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "水拡：ウォーターパワーストライクB Ⅲ+", "攻:ダメージUP Ⅳ"] },
+           { yakuwari: 5, name: ["パワーアシストC Ⅳ", "カウンターウォーターパワーアシストC Ⅳ", "援:支援UP Ⅳ"] }
+        ]
+    },
+    {
+        id: 774,
+        name: "クリエイターズコラボ-満たされる時間-",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "クリエイターズコラボ", chara: [21, 25] },
+        get_rank: "C (推定)",
+        category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "新春!!BRAND-NEWメモリアガチャ (2024/1/4～)", c3: [""] },
+        skill: [
+           { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "火：Sp.ファイアパワースマッシュB Ⅲ+", "攻:ダメージUP Ⅳ"] },
+           { yakuwari: 1, name: ["マイトブレイクA Ⅳ+", "ファイアガードブレイクA Ⅳ+", "攻:ガードDOWN/副攻:火ガードDOWN Ⅲ"] },
+           { yakuwari: 6, name: ["火：WパワーフォールC Ⅳ", "火：WパワーフォールC Ⅳ", "援:支援UP Ⅳ"] },
+           { yakuwari: 7, name: ["Sp.ガードヒールC Ⅳ", "火：Sp.ファイアガードヒールC Ⅳ", "回:回復UP/副援:支援UP Ⅲ"] }
+        ]
+    }
     /*
     ,
     {

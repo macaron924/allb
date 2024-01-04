@@ -77,7 +77,8 @@ const itemByTypeJson = {
         { index: "costume_488_pendant-ex", name: "雨嘉/グロリアスカラーαのペンダントEX", link: false },
         { index: "costume_494_before", name: "牧野美岳/ホーリーナイトキャット", link: false },
         { index: "costume_494_pendant-ex", name: "美岳/ホーリーナイトキャットのペンダントEX", link: false },
-        { index: "costume_495_pendant-ex", name: "姫歌/プリンセスナイトαのペンダントEX", link: false }
+        { index: "costume_495_pendant-ex", name: "姫歌/プリンセスナイトαのペンダントEX", link: false },
+        { index: "costume_499_pendant-ex", name: "梅/ムーンライトαのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -418,6 +419,7 @@ const itemByTypeJson = {
         { index: "exchange_brand-new_202312-1", name: "BRAND-NEW★5メモリア引換券12月", link: false },
         { index: "exchange_brand-new_202312-2", name: "BRAND-NEW★5メモリア引換券12月Ⅱ", link: false },
         { index: "exchange_brand-new_202312-3", name: "BRAND-NEW★5メモリア引換券12月Ⅲ", link: false },
+        { index: "exchange_brand-new_202401-1", name: "BRAND-NEW★5メモリア引換券1月", link: false },
         // その他
         { index: "exchange_xmas-cuelebre", name: "Xmas記念クエレブレ引換券", link: true },
         { index: "exchange_charm_202312-event-1", name: "誓いのリコネクトCHARM引換券", link: false },
