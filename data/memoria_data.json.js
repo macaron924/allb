@@ -9834,6 +9834,48 @@ const memoriaJson = [
            { yakuwari: 6, name: ["火：WパワーフォールC Ⅳ", "火：WパワーフォールC Ⅳ", "援:支援UP Ⅳ"] },
            { yakuwari: 7, name: ["Sp.ガードヒールC Ⅳ", "火：Sp.ファイアガードヒールC Ⅳ", "回:回復UP/副援:支援UP Ⅲ"] }
         ]
+    },
+    {
+        id: 775,
+        name: "決着に繋ぐ一打",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "", chara: [54] },
+        get_rank: "B (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "ゴシック・ノスタルジカ ―可惜夜に響く鐘― / ギガント級ヒュージ討伐 (2024/1/6～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 7, name: ["ガードヒールC Ⅳ", "ファイアガードヒールC Ⅳ", "回:ガードUP Ⅲ"] },
+           { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "ファイアパワーストライクB Ⅲ+", "攻:パワーUP Ⅲ"] },
+           { yakuwari: 3, name: ["Sp.マイトスマッシュA Ⅳ+", "Sp.ファイアパワースマッシュA Ⅳ+", "攻:Sp.パワーUP/副攻:火パワーUP Ⅲ"] },
+           { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "Sp.ファイアパワーアシストC Ⅳ", "援:Sp.パワーUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 776,
+        name: "廃墟のワンダーランド",
+        zokusei: 2,
+        legendary: "",
+        illustration: { type: "", chara: [4] },
+        get_rank: "B (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "ゴシック・ノスタルジカ ―可惜夜に響く鐘― / ギガント級ヒュージ討伐 (2024/1/6～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 6, name: ["パワーフォールC Ⅳ", "ウォーターパワーフォールC Ⅳ", "援:パワーDOWN Ⅲ"] },
+           { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "カウンターウォーターパワーストライクB Ⅲ+", "攻:パワーUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 777,
+        name: "夜会を彩る花",
+        zokusei: 1,
+        legendary: "",
+        illustration: { type: "", chara: [17] },
+        get_rank: "B (推定)",
+        category: { c1: "メダル/ギガント級討伐イベント", c2: "ゴシック・ノスタルジカ ―可惜夜に響く鐘― / ギガント級ヒュージ討伐 (2024/1/6～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 5, name: ["パワーアシストC Ⅳ", "ファイアパワーアシストC Ⅳ", "援:パワーUP Ⅲ"] },
+           { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.ファイアガードバーストB Ⅲ+", "攻:Sp.ガードDOWN Ⅲ"] },
+           { yakuwari: 7, name: ["Sp.ガードヒールC Ⅳ", "Sp.ファイアガードヒールC Ⅳ", "回:Sp.ガードUP Ⅲ"] }
+        ]
     }
     /*
     ,
