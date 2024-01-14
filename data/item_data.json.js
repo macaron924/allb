@@ -319,6 +319,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_yujia", name: "雨嘉衣装引換券", link: true },
         { index: "exchange_costume_kaede", name: "楓衣装引換券", link: true },
         { index: "exchange_costume_koukainama-202301", name: "公開生放送記念!!衣装交換チケット", link: true },
+        { index: "exchange_costume_koukainama-202401", name: "公開生放送2024記念!!衣装交換チケット", link: true },
         { index: "exchange_costume_ririsama", name: "2.5周年リリサマ!!衣装引換券", link: true },
         { index: "exchange_costume_gigant", name: "ギガント級ヒュージ討伐衣装引換券", link: true },
         { index: "exchange_costume_gigant_202308", name: "ギガント級ヒュージ討伐衣装引換券 (8月)", link: true },
