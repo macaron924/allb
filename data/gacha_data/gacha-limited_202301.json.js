@@ -909,7 +909,7 @@ const gachaLimited202301 = [
                 bonus: {
                     notice: [
                         { text: "11回ガチャ1回限定", item: [] },
-                        { text: "ガチャを引くと", item: [ { index: "medal", value: 200}, { index: "medal_pendant-premium", value: 125 }, { index: "exchange_costume_koukainama-202301", value: 1 }, { index: "goggle-3", value: 5 } ] }
+                        { text: "ガチャを引くと", item: [ { index: "medal", value: 100}, { index: "medal_pendant-premium", value: 125 }, { index: "exchange_costume_koukainama-202301", value: 1 }, { index: "goggle-3", value: 5 } ] }
                     ],
                     table_header: [],
                     table_content: []
