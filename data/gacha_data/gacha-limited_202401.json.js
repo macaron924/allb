@@ -1,5 +1,143 @@
 const gachaLimited202401 = [
     {
+        start: "2024/1/20(土) 12:00",
+        finish: "2024/2/11(日) 11:59",
+        type: "イベントガチャ",
+        medal: "medal_bonus_202402",
+        gacha: [
+            {
+                index: "20240120_1",
+                name: "Dreamin'☆Celebration イベントガチャ",
+                big_banner: true,
+                bonus: {
+                    notice: [
+                        { text: "1回ガチャで", item: [ { index: "medal", value: 10 } ] },
+                        { text: "11回ガチャで", item: [ { index: "medal", value: 100}, { index: "goggle-3", value: 5 } ] }
+                    ],
+                    table_header: ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    table_content: [
+                        { need: [1, 11], item: [ { index: "memoria-level-3", value: 100 } ] },
+                        { need: [2, 22], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [3, 33], item: [ { index: "medal_pendant-royal", value: 100 } ] },
+                        { need: [4, 44], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [5, 55], item: [ { index: "exchange_pendant-ex_202402-1", value: 1 } ] },
+                        { need: [6, 66], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [7, 77], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [8, 88], item: [ { index: "moon", value: 1 } ] },
+                        { need: [9, 99], item: [ { index: "gacha-ticket_cost18awakening", value: 1 } ] },
+                        { need: [10, 110], item: [ { index: "exchange_pendant-ex_202402-1", value: 1 } ] },
+                        { need: [11, 121], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [12, 132], item: [ { index: "gacha-ticket_202402-event-1", value: 1 } ] },
+                        { need: [13, 143], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [14, 154], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [15, 165], item: [ { index: "exchange_pendant-ex_202402-1", value: 1 } ] },
+                        { need: [16, 176], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [17, 187], item: [ { index: "moon", value: 1 } ] },
+                        { need: [18, 198], item: [ { index: "gacha-ticket_cost19", value: 1 } ] },
+                        { need: [19, 209], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [20, 220], item: [ { index: "exchange_pendant-ex_202402-1", value: 1 } ] },
+                        { need: [21, 231], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [22, 242], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [23, 253], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [24, 264], item: [ { index: "gacha-ticket_202402-event-1", value: 1 } ] },
+                        { need: [25, 275], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [26, 286], item: [ { index: "gacha-ticket_cost19", value: 1 } ] },
+                        { need: [27, 297], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [28, 308], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [29, 319], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [30, 330], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [31, 341], item: [ { index: "moon", value: 1 } ] },
+                        { need: [32, 352], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [33, 363], item: [ { index: "gacha-ticket_cost19", value: 1 } ] },
+                        { need: [34, 374], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [35, 385], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [36, 396], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [37, 407], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [38, 418], item: [ { index: "gacha-ticket_202402-event-1", value: 1 } ] },
+                        { need: [39, 429], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [40, 440], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [41, 451], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [42, 462], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [43, 473], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [44, 484], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [45, 495], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [46, 506], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [47, 517], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [48, 528], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [49, 539], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [50, 550], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [51, 561], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [52, 572], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [53, 583], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [54, 594], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [55, 605], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [56, 616], item: [ { index: "medal_pendant-premium", value: 25 } ] },
+                        { need: [57, 627], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [58, 638], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [59, 649], item: [ { index: "skip-ticket", value: 100 } ] },
+                        { need: [60, 660], item: [ { index: "skip-ticket", value: 100 } ] }
+                    ]
+                },
+                lineup: {
+                    total_ratio: [6],
+                    notice: [],
+                    pu: [
+                        { caption: "ピックアップ", ratio: [0.400], content: [781, 782, 783, 784] }
+                    ],
+                    else: { caption: "その他", content: [43, 57, 64, 74, 75, 80, 81, 76, 88, 96, 97, 98, 99, 100, 112, 113, 118, 121, 130, 128, 129, 137, 132, 156, 162, 173, 174, 175, 176, 186, 191, 192, 193, 190, 198, 202, 203, 208, 213, 214, 215, 286, 287, 299, 300, 318, 320, 319, 321, 334, 335, 336, 337, 352, 353, 354, 355, 367, 368, 369, 370, 379, 380, 381, 382, 386, 387, 388, 389, 398, 399, 400, 401, 406, 407, 408, 409, 418, 419, 420, 421, 427, 428, 429, 430, 444, 445, 446, 447, 448, 454, 455, 456, 457, 458, 467, 468, 469, 470, 471, 480, 481, 482, 483, 484, 498, 499, 500, 501, 502, 533, 534, 535, 536, 548, 549, 550, 551, 552, 557, 558, 559, 560, 561, 578, 579, 580, 581, 586, 587, 588, 589, 602, 603, 604, 605, 609, 610, 611, 612, 624, 625, 626, 627, 633, 634, 635, 636, 650, 652, 663, 665] }
+                }
+            }
+        ]
+    },
+    {
+        start: "2024/1/20(日) 12:00",
+        finish: "2024/1/30(火) 23:59",
+        type: "ざくざくフェス",
+        medal: "medal_bonus_dream",
+        gacha: [
+            {
+                index: "20240120_2-1",
+                name: "3rd Anniv. DREAM 記念前衛ざくざくフェス",
+                big_banner: true,
+                bonus: {
+                    notice: [
+                        { text: "11回ガチャ10回限定", item: [] },
+                        { text: "ガチャを引く毎に", item: [ { index: "medal", value: 100}, { index: "goggle-3", value: 5 } ] },
+                        { text: "メモリアメダル無し", item: [] }
+                    ],
+                    table_header: [],
+                    table_content: []
+                },
+                lineup: {
+                    total_ratio: [100],
+                    notice: ["★5メモリアはコスト19以上のみ"],
+                    pu: [],
+                    else: { caption: "ピックアップ無し", content: [392, 395, 397, 398, 399, 404, 411, 406, 407, 414, 415, 416, 418, 419, 431, 427, 428, 444, 445, 449, 451, 452, 454, 455, 467, 468, 480, 481, 498, 499, 504, 539, 533, 534, 548, 549, 564, 557, 558, 566, 567, 578, 579, 586, 587, 592, 602, 603, 609, 610, 615, 624, 625, 633, 634, 639, 650, 663] }
+                }
+            },
+            {
+                index: "20240120_2-2",
+                name: "3rd Anniv. DREAM 記念後衛ざくざくフェス",
+                big_banner: true,
+                bonus: {
+                    notice: [
+                        { text: "11回ガチャ10回限定", item: [] },
+                        { text: "ガチャを引く毎に", item: [ { index: "medal", value: 100}, { index: "goggle-3", value: 5 } ] },
+                        { text: "メモリアメダル無し", item: [] }
+                    ],
+                    table_header: [],
+                    table_content: []
+                },
+                lineup: {
+                    total_ratio: [100],
+                    notice: ["★5メモリアはコスト19以上のみ"],
+                    pu: [],
+                    else: { caption: "ピックアップ無し", content: [391, 394, 396, 400, 401, 402, 403, 405, 410, 408, 409, 420, 421, 432, 429, 430, 446, 447, 448, 453, 456, 457, 458, 461, 469, 470, 471, 474, 475, 482, 483, 484, 500, 501, 502, 505, 538, 535, 536, 550, 551, 552, 559, 560, 561, 568, 569, 570, 580, 581, 588, 589, 591, 604, 605, 611, 612, 614, 626, 627, 635, 636, 638, 652, 665] }
+                }
+            }
+        ]
+    },
+    {
         start: "2024/1/15(月) 12:00",
         finish: "2024/1/17(水) 23:59",
         type: "マンデーボーナスガチャ",
