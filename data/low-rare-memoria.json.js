@@ -380,5 +380,6 @@ const lowRareMemoriaJson = [
     { "id": 379, "name": "勝利の景色", "chara": [1, 15, 10] },
     { "id": 380, "name": "二水誕生日2023", "chara": [4] },
     { "id": 381, "name": "雨嘉誕生日2023", "chara": [8] },
-    { "id": 382, "name": "楓誕生日2024", "chara": [3] }
+    { "id": 382, "name": "楓誕生日2024", "chara": [3] },
+    { "id": 383, "name": "3rd Anniversary -PRECIOUS DREAM-", "chara": [1, 2, 35] }
 ]

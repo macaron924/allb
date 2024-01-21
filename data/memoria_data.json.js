@@ -2075,7 +2075,7 @@ const memoriaJson = [
         id: 224,
         name: "リワード・マイセルフ",
         zokusei: 1, cost: 17, costume: 0, legendary: "", illustration: { type: "", chara: [9] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2021", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2021", c3: [""] },
         skill: [
            { yakuwari: 5, name: ["パワーアシストC Ⅳ", "パワーアシストC Ⅳ", "援:パワーUP Ⅱ"] },
            { yakuwari: 2, name: ["ガードブレイクB Ⅲ", "ガードブレイクB Ⅲ", "攻:パワーUP Ⅱ"] }
@@ -2181,7 +2181,7 @@ const memoriaJson = [
         id: 235,
         name: "情熱の取材前夜！",
         zokusei: 1, cost: 17, costume: 0, legendary: "", illustration: { type: "", chara: [4] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2021", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2021", c3: [""] },
         skill: [
            { yakuwari: 1, name: ["マイトストライクA Ⅳ+", "マイトストライクA Ⅳ+", "攻:パワーUP Ⅱ"] },
            { yakuwari: 7, name: ["ガードヒールC Ⅲ", "ガードヒールC Ⅲ", "回:ガードUP Ⅱ"] }
@@ -2191,7 +2191,7 @@ const memoriaJson = [
         id: 236,
         name: "あなたに傘を",
         zokusei: 2, cost: 17, costume: 0, legendary: "", illustration: { type: "", chara: [8] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2021", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2021", c3: [""] },
         skill: [
            { yakuwari: 6, name: ["Sp.ガードフォールC Ⅳ", "Sp.ガードフォールC Ⅳ", "援:Sp.ガードDOWN Ⅱ"] },
            { yakuwari: 3, name: ["Sp.パワースマッシュA Ⅲ+", "Sp.パワースマッシュA Ⅲ+", "攻:Sp.パワーUP Ⅱ"] }
@@ -2608,7 +2608,7 @@ const memoriaJson = [
         id: 280,
         name: "真夜中のクリエイター",
         zokusei: 5, cost: 18, costume: 0, legendary: "", illustration: { type: "", chara: [19] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 4, name: ["Sp.ガードバーストB Ⅲ", "Sp.ガードバーストB Ⅲ", "攻:ダメージUP Ⅲ"] },
            { yakuwari: 5, name: ["闇：Sp.パワーアシストB Ⅲ", "闇：Sp.パワーアシストB Ⅲ", "援:Sp.パワーUP Ⅲ"] }
@@ -2718,7 +2718,7 @@ const memoriaJson = [
         id: 291,
         name: "キラキラアイスクリーム！",
         zokusei: 5, cost: 18, costume: 0, legendary: "", illustration: { type: "", chara: [11] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 2, name: ["パワーストライクB Ⅲ", "パワーストライクB Ⅲ", "攻:パワーUP Ⅲ"] },
            { yakuwari: 7, name: ["チャージヒールD Ⅱ", "チャージヒールD Ⅱ", "回:パワーUP Ⅲ"] }
@@ -2818,7 +2818,7 @@ const memoriaJson = [
         id: 301,
         name: "愛しき人との待ち合わせ",
         zokusei: 4, cost: 18, costume: 0, legendary: "", illustration: { type: "", chara: [2] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 2, name: ["チャージストライクB Ⅱ", "チャージストライクB Ⅱ", "攻:パワーUP Ⅲ"] },
            { yakuwari: 7, name: ["パワーヒールD Ⅲ", "パワーヒールD Ⅲ", "回:回復UP Ⅲ"] }
@@ -2977,7 +2977,7 @@ const memoriaJson = [
         id: 317,
         name: "足踏み健康ロードの悲劇",
         zokusei: 5, cost: 18, costume: 0, legendary: "", illustration: { type: "", chara: [12] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 2, name: ["チャージストライクB Ⅱ", "チャージストライクB Ⅱ", "攻:ガードDOWN Ⅲ"] },
            { yakuwari: 6, name: ["闇：パワーフォールB Ⅲ", "闇：パワーフォールB Ⅲ", "援:パワーDOWN Ⅲ"] }
@@ -3053,7 +3053,7 @@ const memoriaJson = [
         id: 325,
         name: "昼下がりのラプソディー",
         zokusei: 4, cost: 18, costume: 0, legendary: "", illustration: { type: "", chara: [16] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 4, name: ["ディファースマッシュB Ⅲ+", "ディファースマッシュB Ⅲ+", "攻:Sp.ガードUP Ⅲ"] },
            { yakuwari: 7, name: ["WガードヒールC Ⅲ", "WガードヒールC Ⅲ", "回:回復UP Ⅲ"] }
@@ -3133,7 +3133,7 @@ const memoriaJson = [
         id: 333,
         name: "尊みの探求者",
         zokusei: 5, cost: 19, costume: 0, legendary: "", illustration: { type: "", chara: [17] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 6, name: ["闇：Sp.パワーフォールB Ⅲ", "闇：Sp.パワーフォールB Ⅲ", "援:支援UP Ⅲ"] },
            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.マイトバーストB Ⅲ+", "攻:Sp.ガードDOWN Ⅲ"] }
@@ -3233,7 +3233,7 @@ const memoriaJson = [
         id: 343,
         name: "クローバー・クラウン",
         zokusei: 5, cost: 19, costume: 0, legendary: "", illustration: { type: "", chara: [1] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.マイトバーストB Ⅲ+", "攻:Sp.ガードDOWN Ⅲ"] },
            { yakuwari: 7, name: ["WパワーヒールC Ⅲ", "WパワーヒールC Ⅲ", "回:回復UP Ⅲ"] }
@@ -3419,7 +3419,7 @@ const memoriaJson = [
         id: 362,
         name: "楽しいを探しに行こう！",
         zokusei: 4, cost: 19, costume: 0, legendary: "", illustration: { type: "", chara: [6] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "ダークパワーブレイクB Ⅲ", "攻:パワーDOWN Ⅲ"] },
            { yakuwari: 6, name: ["パワーフォールC Ⅳ", "ダークパワーフォールB Ⅱ", "援:パワーDOWN Ⅲ"] }
@@ -3574,7 +3574,7 @@ const memoriaJson = [
         id: 378,
         name: "夏の海とかき氷",
         zokusei: 5, cost: 19, costume: 0, legendary: "", illustration: { type: "", chara: [10] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 2, name: ["ガードブレイクB Ⅲ", "ダークガードブレイクB Ⅲ", "攻:パワーUP Ⅲ"] },
            { yakuwari: 6, name: ["闇：ガードフォールB Ⅲ", "ダークガードフォールB Ⅱ", "援:ガードDOWN Ⅲ"] }
@@ -3904,7 +3904,7 @@ const memoriaJson = [
         id: 413,
         name: "ダイスキをキャンバスに",
         zokusei: 2, cost: 19, costume: 0, legendary: "", illustration: { type: "", chara: [18] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 5, name: ["パワーアシストC Ⅳ", "ウォーターパワーアシストC Ⅲ", "援:支援UP Ⅲ"] },
            { yakuwari: 2, name: ["マイトブレイクB Ⅲ+", "マイトブレイクB Ⅲ+", "攻:パワーUP Ⅲ"] }
@@ -3944,7 +3944,7 @@ const memoriaJson = [
         id: 417,
         name: "秋空ピクニック",
         zokusei: 2, cost: 19, costume: 0, legendary: "", illustration: { type: "", chara: [14] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 4, name: ["Sp.パワースマッシュB Ⅲ", "Sp.ウォーターパワースマッシュB Ⅲ", "攻:Sp.パワーUP Ⅲ"] },
            { yakuwari: 7, name: ["Sp.ガードヒールC Ⅲ+", "Sp.ウォーターガードヒールC Ⅲ", "回:Sp.ガードUP Ⅲ"] }
@@ -4122,7 +4122,7 @@ const memoriaJson = [
         id: 435,
         name: "ワイン色の思い出",
         zokusei: 3, cost: 19, costume: 0, legendary: "", illustration: { type: "", chara: [15] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.マイトバーストB Ⅲ+", "攻:Sp.ガードDOWN Ⅲ"] },
            { yakuwari: 6, name: ["風：WガードフォールB Ⅲ", "風：WガードフォールB Ⅲ", "援:WガードDOWN Ⅲ"] }
@@ -4272,7 +4272,7 @@ const memoriaJson = [
         id: 450,
         name: "縄跳びトレーニング",
         zokusei: 2, cost: 19, costume: 0, legendary: "", illustration: { type: "", chara: [13] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 5, name: ["パワーアシストC Ⅳ", "ウォーターパワーアシストC Ⅲ", "援:パワーUP Ⅲ"] },
            { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "ウォーターパワーストライクB Ⅲ+", "攻:パワーUP Ⅲ"] }
@@ -4402,7 +4402,7 @@ const memoriaJson = [
         id: 463,
         name: "レンズ越しの視点",
         zokusei: 2, cost: 19, costume: 0, legendary: "", illustration: { type: "", chara: [9] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "Sp.ウォーターパワースマッシュB Ⅲ+", "攻:Sp.パワーUP Ⅲ"] },
            { yakuwari: 5, name: ["Sp.ガードアシストD Ⅲ", "Sp.ガードライフアシストD Ⅱ", "援:Sp.ガードUP Ⅲ"] }
@@ -4542,7 +4542,7 @@ const memoriaJson = [
         id: 477,
         name: "ふーみんにインタビュー",
         zokusei: 3, cost: 20, costume: 0, legendary: "", illustration: { type: "", chara: [4] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 7, name: ["Sp.ガードヒールC Ⅲ+", "Sp.ウィンドガードヒールC Ⅲ", "回:Sp.ガードUP Ⅲ"] },
            { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "Sp.マイトスマッシュB Ⅲ+", "攻:Sp.パワーUP Ⅲ"] }
@@ -4561,7 +4561,7 @@ const memoriaJson = [
         id: 479,
         name: "懐かしくて、優しい味",
         zokusei: 3, cost: 20, costume: 0, legendary: "", illustration: { type: "", chara: [8] },
-        get_rank: "誕生日", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
+        get_rank: "A", category: { c1: "誕生日/誕生月ガチャ", c2: "2022", c3: [""] },
         skill: [
            { yakuwari: 5, name: ["Sp.パワーアシストC Ⅳ", "Sp.ウィンドパワーアシストC Ⅲ", "援:Sp.パワーUP Ⅲ"] },
            { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅲ+", "Sp.マイトスマッシュB Ⅲ+", "攻:Sp.パワーUP Ⅲ"] }
@@ -7566,6 +7566,65 @@ const memoriaJson = [
            { yakuwari: 2, name: ["マイトストライクB Ⅲ+", "水：ウォーターパワーストライクB Ⅲ+", "攻:ダメージUP/パワーUP Ⅲ"] },
            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅲ+", "Sp.カウンターウォーターガードバーストB Ⅲ+", "攻:ダメージUP Ⅳ"] },
            { yakuwari: 7, name: ["ガードヒールC Ⅳ", "水：ウォーターガードヒールC Ⅳ", "回:回復UP Ⅳ"] }
+        ]
+    },
+    {
+        id: 780,
+        name: "3rd Anniversary DREAM",
+        zokusei: 2, cost: 18, costume: 0, legendary: "", illustration: { type: "静止画", chara: [1, 21, 15, 68, 10, 71] },
+        get_rank: "非ガチャ産", category: { c1: "ミッション、ログインボーナス等", c2: "HA、AN無料/ボックスガチャ", c3: ["3周年"] },
+        skill: [
+           { yakuwari: 4, name: ["Sp.ガードバーストB Ⅲ", "Sp.ガードバーストB Ⅲ", "攻:Sp.ガードDOWN Ⅲ"] },
+           { yakuwari: 2, name: ["ガードブレイクB Ⅲ", "ガードブレイクB Ⅲ", "攻:ガードDOWN Ⅲ"] },
+           { yakuwari: 5, name: ["パワーアシストB Ⅲ", "パワーアシストB Ⅲ", "援:パワーUP Ⅲ"] },
+           { yakuwari: 6, name: ["Sp.ガードフォールB Ⅲ", "Sp.ガードフォールB Ⅲ", "援:Sp.ガードDOWN Ⅲ"] },
+           { yakuwari: 7, name: ["ガードヒールC Ⅲ", "ガードヒールC Ⅲ", "回:ガードUP Ⅲ"] }
+        ]
+    },
+    {
+        id: 781,
+        name: "夢のようなひとときを",
+        zokusei: 2, cost: 24, costume: 513, legendary: "ガチャ", illustration: { type: "", chara: [1, 2] },
+        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "Dreamin'☆Celebration (2024/1/20～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 2, name: ["マイトストライクB Ⅳ+", "ウォーターパワーストライクB Ⅳ+", "攻:ダメージUP/パワーUP Ⅳ"] },
+           { yakuwari: 1, name: ["マイトストライクA Ⅴ+", "ウォーターパワーストライクA Ⅴ+", "攻:パワーUP/副攻:水パワーUP Ⅳ"] },
+           { yakuwari: 5, name: ["マイトアシストE Ⅳ", "ウォーターパワーアシストE Ⅳ", "援:支援UP/副援:水パワーUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 782,
+        name: "尊みエスコート",
+        zokusei: 2, cost: 24, costume: 514, legendary: "ガチャ", illustration: { type: "", chara: [15, 16, 17] },
+        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "Dreamin'☆Celebration (2024/1/20～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 6, name: ["Sp.マイトフォールE Ⅳ", "Sp.ウォーターパワーフォールE Ⅳ", "援:支援UP/Sp.パワーDOWN Ⅳ"] },
+           { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅳ+", "Sp.ウォーターパワースマッシュB Ⅳ+", "攻:ダメージUP/Sp.パワーUP Ⅳ"] },
+           { yakuwari: 7, name: ["Sp.ガードヒールC Ⅴ", "Sp.ウォーターガードヒールC Ⅴ", "回:回復UP/副援:水ガードUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 783,
+        name: "月影のロマンス",
+        zokusei: 2, cost: 22, costume: 515, legendary: "", illustration: { type: "", chara: [10, 12] },
+        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "Dreamin'☆Celebration (2024/1/20～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 7, name: ["ガードヒールE Ⅳ", "ウォーターガードヒールE Ⅳ", "回:ガードUP/副援:水ガードUP Ⅳ"] },
+           { yakuwari: 2, name: ["マイトブレイクD Ⅲ+", "ウォーターガードブレイクD Ⅲ+", "攻:ダメージUP/ガードDOWN Ⅳ"] },
+           { yakuwari: 4, name: ["Sp.マイトバーストB Ⅳ+", "Sp.ウォーターパワーバーストB Ⅳ+", "攻:Sp.マイトDOWN Ⅳ"] },
+           { yakuwari: 6, name: ["WパワーフォールE Ⅳ", "WパワーフォールE Ⅳ", "援:WパワーDOWN Ⅳ"] }
+        ]
+    },
+    {
+        id: 784,
+        name: "熱に浮かされて",
+        zokusei: 2, cost: 22, costume: 516, legendary: "", illustration: { type: "", chara: [7, 8] },
+        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "Dreamin'☆Celebration (2024/1/20～)", c3: ["イベントガチャ"] },
+        skill: [
+           { yakuwari: 4, name: ["Sp.マイトバーストD Ⅲ+", "Sp.ウォーターガードバーストD Ⅲ+", "攻:ダメージUP/Sp.ガードDOWN Ⅳ"] },
+           { yakuwari: 2, name: ["マイトストライクB Ⅳ+", "ウォーターパワーストライクB Ⅳ+", "攻:マイトUP Ⅳ"] },
+           { yakuwari: 5, name: ["WパワーアシストE Ⅳ", "WパワーアシストE Ⅳ", "援:WパワーUP Ⅳ"] },
+           { yakuwari: 6, name: ["マイトフォールE Ⅳ", "マイトフォールE Ⅳ", "援:支援UP/パワーDOWN Ⅳ"] }
         ]
     }
     /*

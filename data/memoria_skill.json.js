@@ -363,6 +363,12 @@ const skillJson = [
             "tag2": []
         },
         {
+            "name": "ウォーターパワーストライクB Ⅳ+",
+            "effect_detail": "敵1～2体に通常特大ダメージを与え、自身のATKと水属性攻撃力をアップさせる。",
+            "tag": [ {"fx": "通常ダメージ", "val": "特大"}, {"fx": "ATK↑", "val": "中"}, {"fx": "水攻↑", "val": "中"} ],
+            "tag2": []
+        },
+        {
             "name": "水：ウォーターパワーストライクB Ⅲ+",
             "effect_detail": "敵1～2体に通常大ダメージを与え、自身のATKと水属性攻撃力をアップさせる。さらに味方がオーダースキル「水属性効果増加」を発動中は効果がアップする。",
             "tag": [ {"fx": "通常ダメージ", "val": "大"}, {"fx": "ATK↑", "val": "中"}, {"fx": "水攻↑", "val": "中"} ],
@@ -420,6 +426,12 @@ const skillJson = [
             "name": "マイトストライクB Ⅲ+",
             "effect_detail": "敵1～2体に通常大ダメージを与え、自身のATKとDEFをアップさせる。",
             "tag": [ {"fx": "通常ダメージ", "val": "大"}, {"fx": "ATK↑", "val": "中"}, {"fx": "DEF↑", "val": "中"} ],
+            "tag2": []
+        },
+        {
+            "name": "マイトストライクB Ⅳ+",
+            "effect_detail": "敵1～2体に通常特大ダメージを与え、自身のATKとDEFをアップさせる。",
+            "tag": [ {"fx": "通常ダメージ", "val": "特大"}, {"fx": "ATK↑", "val": "中"}, {"fx": "DEF↑", "val": "中"} ],
             "tag2": []
         },
         {
@@ -636,6 +648,18 @@ const skillJson = [
             "name": "ガードブレイクD LG",
             "effect_detail": "敵2体に通常大ダメージを与え、敵のDEFをダウンさせる。",
             "tag": [ {"fx": "通常ダメージ", "val": "大"}, {"fx": "DEF↓", "val": "中"} ],
+            "tag2": []
+        },
+        {
+            "name": "ウォーターガードブレイクD Ⅲ+",
+            "effect_detail": "敵2体に通常大ダメージを与え、敵のDEFと水属性防御力をダウンさせる。",
+            "tag": [ {"fx": "通常ダメージ", "val": "大"}, {"fx": "DEF↓", "val": "中"}, {"fx": "水防↓", "val": "中"} ],
+            "tag2": []
+        },
+        {
+            "name": "マイトブレイクD Ⅲ+",
+            "effect_detail": "敵2体に通常大ダメージを与え、敵のATKとDEFをダウンさせる。",
+            "tag": [ {"fx": "通常ダメージ", "val": "大"}, {"fx": "ATK↓", "val": "中"}, {"fx": "DEF↓", "val": "中"} ],
             "tag2": []
         },
         {
@@ -1033,6 +1057,12 @@ const skillJson = [
             "tag2": []
         },
         {
+            "name": "Sp.ウォーターパワースマッシュB Ⅳ+",
+            "effect_detail": "敵1～2体に特殊特大ダメージを与え、自身のSp.ATKと水属性攻撃力をアップさせる。",
+            "tag": [ {"fx": "特殊ダメージ", "val": "特大"}, {"fx": "Sp.ATK↑", "val": "中"}, {"fx": "水攻↑", "val": "中"} ],
+            "tag2": []
+        },
+        {
             "name": "Sp.ウィンドパワースマッシュB Ⅲ",
             "effect_detail": "敵1～2体に特殊大ダメージを与え、自身のSp.ATKと風属性攻撃力を小アップさせる。",
             "tag": [ {"fx": "特殊ダメージ", "val": "大"}, {"fx": "Sp.ATK↑", "val": "小"}, {"fx": "風攻↑", "val": "小"} ],
@@ -1078,6 +1108,12 @@ const skillJson = [
             "name": "Sp.マイトスマッシュB Ⅲ+",
             "effect_detail": "敵1～2体に特殊大ダメージを与え、自身のSp.ATKとSp.DEFをアップさせる。",
             "tag": [ {"fx": "特殊ダメージ", "val": "大"}, {"fx": "Sp.ATK↑", "val": "中"}, {"fx": "Sp.DEF↑", "val": "中"} ],
+            "tag2": []
+        },
+        {
+            "name": "Sp.マイトスマッシュB Ⅳ+",
+            "effect_detail": "敵1～2体に特殊特大ダメージを与え、自身のSp.ATKとSp.DEFをアップさせる。",
+            "tag": [ {"fx": "特殊ダメージ", "val": "特大"}, {"fx": "Sp.ATK↑", "val": "中"}, {"fx": "Sp.DEF↑", "val": "中"} ],
             "tag2": []
         },
         {
@@ -1138,6 +1174,12 @@ const skillJson = [
             "name": "Sp.ウォーターパワーバーストB Ⅲ+",
             "effect_detail": "敵1～2体に特殊大ダメージを与え、敵のSp.ATKと水属性攻撃力をダウンさせる。",
             "tag": [ {"fx": "特殊ダメージ", "val": "大"}, {"fx": "Sp.ATK↓", "val": "中"}, {"fx": "水攻↓", "val": "中"} ],
+            "tag2": []
+        },
+        {
+            "name": "Sp.ウォーターパワーバーストB Ⅳ+",
+            "effect_detail": "敵1～2体に特殊特大ダメージを与え、敵のSp.ATKと水属性攻撃力をダウンさせる。",
+            "tag": [ {"fx": "特殊ダメージ", "val": "特大"}, {"fx": "Sp.ATK↓", "val": "中"}, {"fx": "水攻↓", "val": "中"} ],
             "tag2": []
         },
         {
@@ -1255,6 +1297,12 @@ const skillJson = [
             "tag2": []
         },
         {
+            "name": "Sp.マイトバーストB Ⅳ+",
+            "effect_detail": "敵1～2体に特殊特大ダメージを与え、敵のSp.ATKとSp.DEFをダウンさせる。",
+            "tag": [ {"fx": "特殊ダメージ", "val": "特大"}, {"fx": "Sp.ATK↓", "val": "中"}, {"fx": "Sp.DEF↓", "val": "中"} ],
+            "tag2": []
+        },
+        {
             "name": "[風攻火防]マイトバーストB Ⅲ+",
             "effect_detail": "敵1～2体に特殊大ダメージを与え、敵の風属性攻撃力と火属性防御力をダウンさせる。",
             "tag": [ {"fx": "特殊ダメージ", "val": "大"}, {"fx": "風攻↓", "val": "中"}, {"fx": "火防↓", "val": "中"} ],
@@ -1267,9 +1315,21 @@ const skillJson = [
             "tag2": []
         },
         {
+            "name": "Sp.ウォーターガードバーストD Ⅲ+",
+            "effect_detail": "敵2体に特殊大ダメージを与え、敵のSp.DEFと水属性防御力をダウンさせる。",
+            "tag": [ {"fx": "特殊ダメージ", "val": "大"}, {"fx": "Sp.DEF↓", "val": "中"}, {"fx": "水防↓", "val": "中"} ],
+            "tag2": []
+        },
+        {
             "name": "Sp.ガードバーストD LG",
             "effect_detail": "敵2体に特殊大ダメージを与え、敵のSp.DEFをダウンさせる。",
             "tag": [ {"fx": "特殊ダメージ", "val": "大"}, {"fx": "Sp.DEF↓", "val": "中"} ],
+            "tag2": []
+        },
+        {
+            "name": "Sp.マイトバーストD Ⅲ+",
+            "effect_detail": "敵2体に特殊大ダメージを与え、敵のSp.ATKとSp.DEFをダウンさせる。",
+            "tag": [ {"fx": "特殊ダメージ", "val": "大"}, {"fx": "Sp.ATK↓", "val": "中"}, {"fx": "Sp.DEF↓", "val": "中"} ],
             "tag2": []
         },
         {
@@ -1427,6 +1487,12 @@ const skillJson = [
         {
             "name": "ウォーターパワーアシストC Ⅳ",
             "effect_detail": "味方1～3体のATKと水属性攻撃力を大アップさせる。",
+            "tag": [ {"fx": "ATK↑", "val": "大"}, {"fx": "水攻↑", "val": "大"} ],
+            "tag2": []
+        },
+        {
+            "name": "ウォーターパワーアシストE Ⅳ",
+            "effect_detail": "味方2～3体のATKと水属性攻撃力を大アップさせる。",
             "tag": [ {"fx": "ATK↑", "val": "大"}, {"fx": "水攻↑", "val": "大"} ],
             "tag2": []
         },
@@ -1815,6 +1881,12 @@ const skillJson = [
             "tag2": []
         },
         {
+            "name": "WパワーアシストE Ⅳ",
+            "effect_detail": "味方2～3体のATKとSp.ATKを大アップさせる。",
+            "tag": [ {"fx": "ATK↑", "val": "大"}, {"fx": "Sp.ATK↑", "val": "大"} ],
+            "tag2": []
+        },
+        {
             "name": "水：WパワーアシストB Ⅲ",
             "effect_detail": "味方1～2体のATKとSp.ATKを大アップさせる。さらに味方がオーダースキル「水属性効果増加」を発動中は効果がアップする。",
             "tag": [ {"fx": "ATK↑", "val": "大"}, {"fx": "Sp.ATK↑", "val": "大"} ],
@@ -1931,6 +2003,12 @@ const skillJson = [
         {
             "name": "マイトアシストB Ⅲ",
             "effect_detail": "味方1～2体のATKとDEFを大アップさせる。",
+            "tag": [ {"fx": "ATK↑", "val": "大"}, {"fx": "DEF↑", "val": "大"} ],
+            "tag2": []
+        },
+        {
+            "name": "マイトアシストE Ⅳ",
+            "effect_detail": "味方2～3体のATKとDEFを大アップさせる。",
             "tag": [ {"fx": "ATK↑", "val": "大"}, {"fx": "DEF↑", "val": "大"} ],
             "tag2": []
         },
@@ -2345,6 +2423,12 @@ const skillJson = [
             "tag2": []
         },
         {
+            "name": "Sp.ウォーターパワーフォールE Ⅳ",
+            "effect_detail": "敵2～3体のSp.ATKと水属性攻撃力を大ダウンさせる。",
+            "tag": [ {"fx": "Sp.ATK↓", "val": "大"}, {"fx": "水攻↓", "val": "大"} ],
+            "tag2": []
+        },
+        {
             "name": "水：Sp.ウォーターパワーフォールC Ⅳ",
             "effect_detail": "敵1～3体のSp.ATKと水属性攻撃力を大ダウンさせる。さらに味方がオーダースキル「水属性効果増加」を発動中は効果がアップする。",
             "tag": [ {"fx": "Sp.ATK↓", "val": "大"}, {"fx": "水攻↓", "val": "大"} ],
@@ -2645,6 +2729,12 @@ const skillJson = [
             "tag2": []
         },
         {
+            "name": "WパワーフォールE Ⅳ",
+            "effect_detail": "敵2～3体のATKとSp.ATKを大ダウンさせる。",
+            "tag": [ {"fx": "ATK↓", "val": "大"}, {"fx": "Sp.ATK↓", "val": "大"} ],
+            "tag2": []
+        },
+        {
             "name": "火：WパワーフォールB Ⅲ",
             "effect_detail": "敵1～2体のATKとSp.ATKを大ダウンさせる。さらに味方がオーダースキル「火属性効果増加」を発動中は効果がアップする。",
             "tag": [ {"fx": "ATK↓", "val": "大"}, {"fx": "Sp.ATK↓", "val": "大"} ],
@@ -2747,6 +2837,12 @@ const skillJson = [
             "tag2": []
         },
         {
+            "name": "マイトフォールE Ⅳ",
+            "effect_detail": "敵2～3体のATKとDEFを大ダウンさせる。",
+            "tag": [ {"fx": "ATK↓", "val": "大"}, {"fx": "DEF↓", "val": "大"} ],
+            "tag2": []
+        },
+        {
             "name": "Sp.マイトフォールA Ⅲ",
             "effect_detail": "敵1体のSp.ATKとSp.DEFを大ダウンさせる。",
             "tag": [ {"fx": "Sp.ATK↓", "val": "大"}, {"fx": "Sp.DEF↓", "val": "大"} ],
@@ -2755,6 +2851,12 @@ const skillJson = [
         {
             "name": "Sp.マイトフォールB Ⅲ",
             "effect_detail": "敵1～2体のSp.ATKとSp.DEFを大ダウンさせる。",
+            "tag": [ {"fx": "Sp.ATK↓", "val": "大"}, {"fx": "Sp.DEF↓", "val": "大"} ],
+            "tag2": []
+        },
+        {
+            "name": "Sp.マイトフォールE Ⅳ",
+            "effect_detail": "敵2～3体のSp.ATKとSp.DEFを大ダウンさせる。",
             "tag": [ {"fx": "Sp.ATK↓", "val": "大"}, {"fx": "Sp.DEF↓", "val": "大"} ],
             "tag2": []
         },
@@ -2941,6 +3043,12 @@ const skillJson = [
             "tag2": []
         },
         {
+            "name": "ガードヒールE Ⅳ",
+            "effect_detail": "味方2～3体のHPを大回復する。さらに味方のDEFを小アップする。",
+            "tag": [ {"fx": "味方回復", "val": "大"}, {"fx": "DEF↑", "val": "小"} ],
+            "tag2": []
+        },
+        {
             "name": "ファイアガードヒールC Ⅲ",
             "effect_detail": "味方1～3体のHPを回復する。さらに味方のDEFと火属性防御力を小アップする。",
             "tag": [ {"fx": "味方回復", "val": "中"}, {"fx": "DEF↑", "val": "小"}, {"fx": "火防↑", "val": "小"} ],
@@ -2991,6 +3099,12 @@ const skillJson = [
         {
             "name": "ウォーターガードヒールD Ⅳ",
             "effect_detail": "味方2体のHPを大回復する。さらに味方のDEFと水属性防御力を小アップする。",
+            "tag": [ {"fx": "味方回復", "val": "大"}, {"fx": "DEF↑", "val": "小"}, {"fx": "水防↑", "val": "小"} ],
+            "tag2": []
+        },
+        {
+            "name": "ウォーターガードヒールE Ⅳ",
+            "effect_detail": "味方2～3体のHPを大回復する。さらに味方のDEFと水属性防御力を小アップする。",
             "tag": [ {"fx": "味方回復", "val": "大"}, {"fx": "DEF↑", "val": "小"}, {"fx": "水防↑", "val": "小"} ],
             "tag2": []
         },
@@ -3058,6 +3172,12 @@ const skillJson = [
             "name": "Sp.ガードヒールC Ⅳ",
             "effect_detail": "味方1～3体のHPを大回復する。さらに味方のSp.DEFを小アップする。",
             "tag": [ {"fx": "味方回復", "val": "大"}, {"fx": "Sp.DEF↑", "val": "小"} ],
+            "tag2": []
+        },
+        {
+            "name": "Sp.ガードヒールC Ⅴ",
+            "effect_detail": "味方1～3体のHPを特大回復する。さらに味方のSp.DEFを小アップする。",
+            "tag": [ {"fx": "味方回復", "val": "特大"}, {"fx": "Sp.DEF↑", "val": "小"} ],
             "tag2": []
         },
         {
@@ -3148,6 +3268,12 @@ const skillJson = [
             "name": "Sp.ウォーターガードヒールC Ⅳ+",
             "effect_detail": "味方1～3体のHPを大回復する。さらに味方のSp.DEFと水属性防御力をアップする。",
             "tag": [ {"fx": "味方回復", "val": "大"}, {"fx": "Sp.DEF↑", "val": "中"}, {"fx": "水防↑", "val": "中"} ],
+            "tag2": []
+        },
+        {
+            "name": "Sp.ウォーターガードヒールC Ⅴ",
+            "effect_detail": "味方1～3体のHPを特大回復する。さらに味方のSp.DEFと水属性防御力を小アップする。",
+            "tag": [ {"fx": "味方回復", "val": "特大"}, {"fx": "Sp.DEF↑", "val": "小"}, {"fx": "水防↑", "val": "小"} ],
             "tag2": []
         },
         {
