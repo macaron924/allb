@@ -59,6 +59,18 @@ $("#filter-btn").click(function () { // フィルターボタンクリック時
     $("#filter-menu").toggleClass('active');
 });
 
+$(".cost").click(function () {
+    let val = this.value;
+    for (let i = 0; i < costArray.length; i++) {
+        if (val == costArray[i]) {
+            costArray.splice(i, 1);
+            return i;
+        }
+    }
+    costArray.push(this.value);
+    return -1;
+});
+
 $(".damage").click(function () {
     let val = this.value;
     for (let i = 0; i < damageSelection.length; i++) {
@@ -210,6 +222,14 @@ function rangeButtonPushAction(range) {
     }
     rangeArray.push(range);
     return -1;
+}
+
+function costFilter(cost) {
+    if (costArray.length == 0) return true;
+    for (let i = 0; i < costArray.length; i++) {
+        if (cost == costArray[i]) return true;
+    }
+    return false;
 }
 
 function zokuseiFilter(zokusei) {
@@ -390,13 +410,16 @@ function skillFilter() {
 }
 
 // 個別の条件をまとめて真偽を返す関数
-function allFilter(zokusei, legendary, yakuwari, skillArray, skillRefArray) {
+function allFilter(zokusei, cost, legendary, yakuwari, skillArray, skillRefArray) {
 
     // まずレジェンダリーでフィルター
     if (legendaryFilter(legendary) == false) return false;
 
     // 属性でフィルター
     if (zokuseiFilter(zokusei) == false) return false;
+
+    // コストでフィルター
+    if (costFilter(cost) == false) return false;
 
     // 役割でフィルター
     if (yakuwariFilter(yakuwari) == false) return false;
@@ -541,12 +564,13 @@ function filter() {
             }
 
             let zokusei = memoriaJsonCopy[i]['zokusei'];
+            let cost = memoriaJsonCopy[i]['cost'];
             let legendary = memoriaJsonCopy[i]['legendary'];
             let yakuwari = memoriaJsonCopy[i]['skill'][j]['yakuwari'];
             let skill = memoriaJsonCopy[i]['skill'][j]['name'];
             let skillRef = memoriaJsonCopy[i]['skillRef'][j];
     
-            if (allFilter(zokusei, legendary, yakuwari, skill, skillRef) == true) {
+            if (allFilter(zokusei, cost, legendary, yakuwari, skill, skillRef) == true) {
                 // 検索結果件数カウント
                 resultCount++;
                 // 表示
@@ -725,6 +749,7 @@ for (let i = 0; i < hojoJsonCopy.length; i++) {
 
 let modeSelection = 1;
 let dualDisplay = true;
+let costArray = []
 let zokuseiArray = [];
 let legendaryArray = [];
 let yakuwariArray = [];
