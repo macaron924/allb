@@ -24,7 +24,9 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
         <script src="../../js/menu.js" defer></script>
         <script src="../../data/low-rare-memoria.json.js" defer></script>
+        <script src="../../data/chara_data.json.js" defer></script>
         <script src="./MakeMemoriaTable.js" defer></script>
+        <script src="./MakeCharaList.js" defer></script>
 
         <title>低レアリティメモリアキャラ検索</title>
     </head>
@@ -44,6 +46,7 @@
                 <label for="mode-check">選択キャラ"のみ"のメモリアを探す</label>
             </div>
             <div id="chara_list" class="active">
+                <!--
                 <h3 class="category"><span>▶</span> 百合ヶ丘女学院／一柳隊</h3>
                 <div class="flex_chara-btn-box">
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(1);" value="梨璃"></div>
@@ -211,7 +214,7 @@
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(112);" value="幼少期レム"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(110);" value="ラム"></div>
                     <div class="flex_chara-btn-item"><input type="button" class="select-btn" onclick="charaButtonPushAction(111);" value="幼少期ラム"></div>
-                </div>
+                </div>-->
             </div>
             <!--テーブル生成位置-->
             <h2>検索結果：<span id="resultCount"></span>件</h2>
