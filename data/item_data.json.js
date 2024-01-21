@@ -224,7 +224,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202312-event-2", name: "極天に集いし花々★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202312-event-3", name: "聖夜の竜星★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202401-event-1", name: "龍炎舞踊のエージェント★5確定ガチャチケット", link: false },
-        { index: "gacha-ticket_202401-event-2", name: "ゴシック・ノスタルジカ★5確定ガチャチケットⅢ", link: false }
+        { index: "gacha-ticket_202401-event-2", name: "ゴシック・ノスタルジカ★5確定ガチャチケットⅢ", link: false },
+        { index: "gacha-ticket_202402-event-1", name: "Dreamin'☆Celebration★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -287,7 +288,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_xmas-cuelebre", name: "Xmas記念クエレブレペンダントEX交換券", link: true },
         { index: "exchange_pendant-ex_202401-1", name: "龍炎舞踊のエージェントペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_new-year-2024", name: "新春ペンダントEX交換券", link: true },
-        { index: "exchange_pendant-ex_202401-2", name: "ゴシック・ノスタルジカⅢペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202401-2", name: "ゴシック・ノスタルジカⅢペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202402-1", name: "Dreamin'☆CelebrationペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -330,6 +332,10 @@ const itemByTypeJson = {
         { index: "exchange_costume_ririsama-1", name: "GO!GO!スプラッシュ衣装引換券", link: true },
         { index: "exchange_costume_ririsama-2", name: "トロピカルナイト衣装引換券", link: true },
         { index: "exchange_costume_ririsama-3", name: "ギガントウェーブ衣装引換券", link: true },
+        { index: "exchange_costume_dream", name: "3rdAnniv.DREAM!衣装引換券", link: true },
+        { index: "exchange_costume_dream-1", name: "3rdAnniv.DREAMプレシャス衣装引換券", link: true },
+        { index: "exchange_costume_dream-shiori", name: "汐里/セイクリッドドリーム衣装引換券", link: true },
+        { index: "exchange_costume_dream-soraha", name: "天葉/ドリーミィパレード衣装引換券", link: true },
         { index: "exchange_costume_xmas", name: "Xmas記念衣装引換券", link: true },
         { index: "exchange_costume_new-year", name: "2024年新春記念衣装引換券", link: true },
         { index: "exchange_costume_new-year-2024-premium", name: "新春プレミア衣装引換券", link: true },
@@ -451,6 +457,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_202311", name: "ボーナスメダルⅪ", link: false },
         { index: "medal_bonus_202312", name: "ボーナスメダルⅫ", link: false },
         { index: "medal_bonus_202401", name: "ボーナスメダルⅠ", link: false },
+        { index: "medal_bonus_202402", name: "ボーナスメダルⅡ", link: false },
         { index: "medal_bonus_collabo-prisma-illya", name: "シスターズ・カラミティボーナスメダル", link: false },
         { index: "medal_bonus_collabo-madoka-magica", name: "マギカ☆ワンダーワールドボーナスメダル", link: false },
         { index: "medal_bonus_collabo-yuyuyu", name: "白百合の章ボーナスメダル", link: false },
@@ -488,6 +495,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_premium-2", name: "プレミアボーナスメダル", link: true },
         { index: "medal_bonus_premium-3", name: "プレミアボーナスメダル", link: true },
         { index: "medal_bonus_ririsama", name: "2.5周年リリサマ!!ボーナスメダル", link: true },
+        { index: "medal_bonus_dream", name: "3rd Anniv.記念ボーナスメダル", link: true },
         { index: "medal_bonus_new-ch-gran-eple", name: "新章グラン・エプレ編ボーナスメダル", link: true },
         { index: "medal_bonus_skill", name: "スキル特化メモリアボーナスメダル", link: true },
         { index: "medal_bonus_skill_202310", name: "スキル特化メモリアボーナスメダル10月", link: true },
