@@ -40,7 +40,7 @@
 
 /*ボタンのためのflex*/
 
-.flex_chara-btn-box {
+.flex_btn-box {
     background-color: #ccf2ff;
     padding: 0.5rem;
     display: flex;
@@ -48,7 +48,7 @@
     justify-content: left;
 }
 
-.flex_chara-btn-item {
+.flex_btn-item {
     padding: 0;
     color: #000;
     margin: 0;
@@ -149,6 +149,54 @@
     transform: rotate(0deg);
 }
 
-.flex_chara-btn-box.close {
+.flex_btn-box.close {
     display: none;
+}
+
+
+
+button {
+    background-color: #eee;
+    width: 12rem;
+    border: 0.1rem solid #333333;
+    border-radius: 0.5rem;
+    margin: 0.2rem;
+    height: calc(100% - 0.4rem);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button.active {
+    background-color: #00bfff;
+}
+
+button img {
+    width: 6rem;
+    height: 6rem;
+    margin: 0.2rem;
+}
+
+button img.yakuwari-img {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+button p {
+    margin: 0.2rem;
+}
+
+.belong {
+    cursor: pointer;
+}
+
+.belong span {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.belong.close span {
+    display: inline-block;
+    transform: rotate(0deg);
 }
