@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head prefix="og: https://ogp.me/ns#">
+        <meta http-equiv="content-type" charset="UTF-8">
+        <meta http-equiv="Cache-Control" content="no-store">
+        <meta property="og:url" content="https://macaron924.github.io/allb/memoria_list/memoria_gacha_search/">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="メモリア→ガチャ検索">
+        <meta property="og:description" content="メモリアを指定してガチャを検索するツールです。">
+        <meta property="og:site_name" content="はっぴーゆにこーん☆">
+        <meta property="og:image" content="https://macaron924.github.io/allb/images/icon.png">
+        <meta name="twitter:card" content="summary">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../../images/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Noto+Sans+JP&display=swap">
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="../../css/menu.css">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="./style.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+        <script src="../../js/menu.js" defer></script>
+        <script src="../../data/memoria_data.json.js" defer></script>
+        <script src="../..//data/gacha-ticket_data.json.js" defer></script>
+        <script src="./getTicketList.js" defer></script>
+
+        <title>メモリア→ガチャ検索</title>
+    </head>
+
+    <body>
+        <script src="../../js/header.js"></script>
+        <script>writeHeader(2);</script>
+
+        <main>
+            <div class="breadcrumb"><a href="../../">Top</a> > <a href="../">メモリア</a> > メモリア→ガチャ検索</div>
+            <h1 class="title">メモリア→ガチャ検索</h1>
+            <div>
+                <input type="button" id="memoria-open-btn" class="active" value="メモリア選択MENU ON/OFF">
+            </div>
+            <div id="memoria_list" class="flex_test-box active"></div>
+            <br>
+            <div id="result" class="active">
+                <img id="result_img" src="../../images/no-image.png">
+                <h2 id="result_name"></h2>
+                <div id="result_content" class="flex_ticket-box"></div>
+            </div>
+        </main>
+
+        <script src="../../js/footer.js"></script>
+    </body>
+</html>
