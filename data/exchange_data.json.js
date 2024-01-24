@@ -1792,7 +1792,7 @@ const exchangeDataJson = [
         }
     },
     {
-        "index": "exchange_costume_2nd-aniv",
+        "index": "exchange_costume_2nd-anniv",
         "name": "2周年祭り衣装引換券",
         "type": "衣装引換券",
         "get": ["課金(160円, 販売期間:2023/1/20～2023/2/28)"],
