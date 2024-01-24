@@ -147,6 +147,11 @@ const itemByTypeJson = {
         { index: "gacha-ticket_kangei2023-shien", name: "歓迎CP支援★5確定ガチャチケット2023", link: true },
         { index: "gacha-ticket_kangei2023-bougai", name: "歓迎CP妨害★5確定ガチャチケット2023", link: true },
         { index: "gacha-ticket_kangei2023-kaifuku", name: "歓迎CP回復★5確定ガチャチケット2023", link: true },
+        { index: "gacha-ticket_3rd-anniv-tsuujou", name: "3rd Anniv.通常前衛★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_3rd-anniv-tokushu", name: "3rd Anniv.特殊前衛★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_3rd-anniv-shien", name: "3rd Anniv.支援★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_3rd-anniv-bougai", name: "3rd Anniv.妨害★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_3rd-anniv-kaifuku", name: "3rd Anniv.回復★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_zakuzaku", name: "★5 100%!!ざくざく11回ガチャチケット", link: true },
         { index: "gacha-ticket_odaiba", name: "御台場女学校★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_ludojyo", name: "私立ルドビコ女学院★5確定ガチャチケット", link: true },
@@ -289,7 +294,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202401-1", name: "龍炎舞踊のエージェントペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_new-year-2024", name: "新春ペンダントEX交換券", link: true },
         { index: "exchange_pendant-ex_202401-2", name: "ゴシック・ノスタルジカⅢペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202402-1", name: "Dreamin'☆CelebrationペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202402-1", name: "Dreamin'☆CelebrationペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202402-1-2", name: "3rd Anniv. YUJIA & AKARIペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -298,7 +304,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_202309", name: "9月衣装引換券", link: true },
         { index: "exchange_costume_202211", name: "衣装引換券11月", link: true },
         { index: "exchange_costume_202301", name: "衣装引換券1月", link: true },
-        { index: "exchange_costume_2nd-aniv", name: "2周年祭り衣装引換券", link: true },
+        { index: "exchange_costume_2nd-anniv", name: "2周年祭り衣装引換券", link: true },
         { index: "exchange_costume_gw", name: "GW2023衣装引換券", link: true },
         { index: "exchange_costume_202306", name: "6月衣装引換券", link: true },
         { index: "exchange_costume_202309", name: "9月衣装引換券", link: true },
@@ -334,8 +340,9 @@ const itemByTypeJson = {
         { index: "exchange_costume_ririsama-3", name: "ギガントウェーブ衣装引換券", link: true },
         { index: "exchange_costume_dream", name: "3rdAnniv.DREAM!衣装引換券", link: true },
         { index: "exchange_costume_dream-1", name: "3rdAnniv.DREAMプレシャス衣装引換券", link: true },
-        { index: "exchange_costume_dream-shiori", name: "汐里/セイクリッドドリーム衣装引換券", link: true },
-        { index: "exchange_costume_dream-soraha", name: "天葉/ドリーミィパレード衣装引換券", link: true },
+        { index: "exchange_costume_dream-shiori", name: "汐里/セイクリッドドリーム衣装引換券", link: false },
+        { index: "exchange_costume_dream-soraha", name: "天葉/ドリーミィパレード衣装引換券", link: false },
+        { index: "exchange_costume_dream-takane", name: "高嶺/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_xmas", name: "Xmas記念衣装引換券", link: true },
         { index: "exchange_costume_new-year", name: "2024年新春記念衣装引換券", link: true },
         { index: "exchange_costume_new-year-2024-premium", name: "新春プレミア衣装引換券", link: true },
@@ -440,7 +447,8 @@ const itemByTypeJson = {
         { index: "exchange_creators-gacha_autumn-fes", name: "クリエイターズコラボガチャチケット引換券", link: false },
         { index: "exchange_creators-gacha_winter-fes", name: "クリエイターズコラボガチャチケット引換券", link: false },
         { index: "exchange_kangei-yakuwari-gacha", name: "歓迎CP役割別ガチャチケット引換券", link: false },
-        { index: "exchange_kangei-yakuwari-gacha-2023", name: "歓迎CP役割別ガチャチケット2023引換券", link: false }
+        { index: "exchange_kangei-yakuwari-gacha-2023", name: "歓迎CP役割別ガチャチケット2023引換券", link: false },
+        { index: "exchange_3rd-anniv-yakuwari-gacha", name: "3rd Anniv.役割別ガチャチケット引換券", link: false }
     ],
     medal_bonus: [ // ボーナスメダル
         { index: "medal_bonus_202212", name: "ボーナスメダルⅫ", link: false },
