@@ -1,6 +1,6 @@
 const gachaDaily11 = [
     {
-        start: "",
+        start: "2023/8/1(火) 5:00",
         finish: "",
         type: "",
         medal: "",
@@ -24,7 +24,7 @@ const gachaDaily11 = [
         ]
     },
     {
-        start: "",
+        start: "2023/2/1(水) 5:00",
         finish: "",
         type: "",
         medal: "",
@@ -48,7 +48,7 @@ const gachaDaily11 = [
         ]
     },
     {
-        start: "",
+        start: "2022/12/1(木) 5:00",
         finish: "",
         type: "",
         medal: "",

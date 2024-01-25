@@ -59,6 +59,23 @@ for (let i in gachaFree) {
     }
 }
 
+let daily11ContentList = [];
+for (let i in gachaDaily11) {
+    let start = gachaDaily11[i]['start'];
+    for (let j in gachaDaily11[i]['gacha']) {
+        let index = gachaDaily11[i]['gacha'][j]['index'];
+        let name = gachaDaily11[i]['gacha'][j]['name'];
+        let content = [];
+        let pu = gachaDaily11[i]['gacha'][j]['lineup']['pu'];
+        let other = gachaDaily11[i]['gacha'][j]['lineup']['else'];
+        for (let k in pu) {
+            content = content.concat(pu[k]['content']);
+        }
+        content = content.concat(other['content']);
+        daily11ContentList.push( { start: start, index: index, name: name, content: content } );
+    }
+}
+
 for (let i in memoriaJson) {
     let img = document.createElement("img");
     img.src = `../../images/memoria/memoria_${memoriaJson[i]["id"]}.jpg`;
@@ -118,13 +135,38 @@ if (memoriaSelection == null) {
         }
         if (judge3 == false) text3 += "該当なし";
 
+        let text4 = "";
+        let judge4 = false;
+        for (let j in daily11ContentList) {
+            if (daily11ContentList[j]["content"].includes(memoriaJson[i]["id"])) {
+                text4 += `
+                <div class="flex_gacha-item">
+                <table>
+                    <tr><td>${daily11ContentList[j]['start']}</td></tr>
+                    <tr><td><a href="../../gacha_info/daily11/detail/?index=${daily11ContentList[j]['index']}"><img src="../../images/banner/daily11.jpg"></a></td></tr>
+                </table></div>
+                `;
+                judge4 = true;
+            }
+        }
+        if (judge4 == false) text4 += "該当なし";
+
         document.getElementById("result_img").src = `../../images/memoria/memoria_${memoriaJson[i]['id']}.jpg`;
         document.getElementById("result_name").innerHTML = `${memoriaJson[i]['name']}`;
         document.getElementById("result_ticket").insertAdjacentHTML("beforeend", text);
         document.getElementById("result_gacha").insertAdjacentHTML("beforeend", text2);
         document.getElementById("result_free").insertAdjacentHTML("beforeend", text3);
+        document.getElementById("result_daily11").insertAdjacentHTML("beforeend", text4);
         break;
     }
     document.getElementById("memoria-open-btn").classList.remove("active");
     document.getElementById("memoria_list").classList.remove("active");
 }
+
+
+const images = document.querySelectorAll('img');
+images.forEach((image) => {
+    image.addEventListener('error',() => {
+        image.setAttribute('src', '../../images/no-image.png');
+    });
+});
