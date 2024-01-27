@@ -2623,6 +2623,51 @@ const costumeJson = [
         "id": 525,
         "chara": 16, "yakuwari": 3, "name": "ドリーミィパレード(特殊単体)",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 526,
+        "chara": 11, "yakuwari": 7, "name": "ドリーミィパレード",
+        "percent": 15, "parameter": [["Sp.DEF", 3000], ["DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 527,
+        "chara": 2, "yakuwari": 2, "name": "ドリーミィパレード",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 528,
+        "chara": 12, "yakuwari": 2, "name": "ドリーミィパレード(通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 529,
+        "chara": 12, "yakuwari": 4, "name": "ドリーミィパレード(特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 530,
+        "chara": 12, "yakuwari": 5, "name": "ドリーミィパレード(支援)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 531,
+        "chara": 12, "yakuwari": 6, "name": "ドリーミィパレード(妨害)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 532,
+        "chara": 12, "yakuwari": 7, "name": "ドリーミィパレード(回復)",
+        "percent": 15, "parameter": [["Sp.DEF", 3000], ["DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 533,
+        "chara": 12, "yakuwari": 1, "name": "ドリーミィパレード(通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 534,
+        "chara": 12, "yakuwari": 3, "name": "ドリーミィパレード(特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
     }
     /*
     ,
