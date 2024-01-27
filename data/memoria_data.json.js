@@ -7647,6 +7647,27 @@ const memoriaJson = [
             { yakuwari: 6, name: ["マイトフォールE Ⅳ", "マイトフォールE Ⅳ", "援:マイトDOWN Ⅳ"] },
             { yakuwari: 7, name: ["ガードヒールC Ⅴ", "ファイアガードヒールC Ⅴ", "回:ガードUP/副援:火ガードUP Ⅳ"] }
         ]
+    },
+    {
+        id: 787,
+        name: "ようとちかるとらん・ラン・RUN♬",
+        zokusei: 2, cost: 24, costume: 526, legendary: "ガチャ", illustration: { type: "", chara: [11, 13, 14] },
+        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "Dreamin'☆Celebration (2024/1/20～)", c3: ["3rd Anniv. DREAM Party - YUYU & RAN / YO / CHIKARU -ガチャ (2024/1/26～) (特効はバトルパーティのみ)"] },
+        skill: [
+            { yakuwari: 7, name: ["Sp.ガードヒールE Ⅳ", "Sp.カウンターウォーターガードヒールE Ⅳ", "回:回復UP/Sp.ガードUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 788,
+        name: "褪せない夜",
+        zokusei: 1, cost: 22, costume: 527, legendary: "", illustration: { type: "", chara: [2] },
+        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "Dreamin'☆Celebration (2024/1/20～)", c3: ["3rd Anniv. DREAM Party - YUYU & RAN / YO / CHIKARU -ガチャ (2024/1/26～) (特効はバトルパーティのみ)"] },
+        skill: [
+            { yakuwari: 2, name: ["マイトストライクD Ⅲ+", "ファイアパワーストライクD Ⅲ+", "攻:ダメージUP/副攻:火パワーUP Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅳ+", "Sp.ファイアガードバーストB Ⅳ+", "攻:Sp.ガードDOWN/副攻:火ガードDOWN Ⅳ"] },
+            { yakuwari: 5, name: ["マイトアシストE Ⅳ", "ファイアパワーアシストE Ⅳ", "援:パワーUP/副援:火パワーUP Ⅳ"] },
+            { yakuwari: 6, name: ["Sp.マイトフォールE Ⅳ", "Sp.ファイアパワーフォールE Ⅳ", "援:Sp.パワーDOWN/副援:火パワーDOWN Ⅳ"] }
+        ]
     }
     /*
     ,
