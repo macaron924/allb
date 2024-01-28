@@ -7668,6 +7668,19 @@ const memoriaJson = [
             { yakuwari: 5, name: ["マイトアシストE Ⅳ", "ファイアパワーアシストE Ⅳ", "援:パワーUP/副援:火パワーUP Ⅳ"] },
             { yakuwari: 6, name: ["Sp.マイトフォールE Ⅳ", "Sp.ファイアパワーフォールE Ⅳ", "援:Sp.パワーDOWN/副援:火パワーDOWN Ⅳ"] }
         ]
+    },
+    {
+        id: 789,
+        name: "Emotional Memoria -見つめてシンパシー-",
+        zokusei: 2, cost: 22, costume: 535, legendary: "", illustration: { type: "", chara: [71] },
+        get_rank: "エモーショナルメモリア", category: { c1: "エモーショナルメモリアガチャ", c2: "エモーショナルメモリア -見つめてシンパシー- ガチャ", c3: [""] },
+        skill: [
+            { yakuwari: 2, name: ["マイトストライクD Ⅲ+", "カウンターウォーターパワーストライクD Ⅲ+", "攻:ダメージUP/パワーUP Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅳ+", "Sp.カウンターウォーターガードバーストB Ⅳ+", "攻:ダメージUP/Sp.ガードDOWN Ⅳ"] },
+            { yakuwari: 5, name: ["マイトアシストE Ⅳ", "カウンターウォーターパワーアシストE Ⅳ", "援:支援UP/副援:水パワーUP Ⅳ"] },
+            { yakuwari: 6, name: ["Sp.マイトフォールE Ⅳ", "Sp.カウンターウォーターパワーフォールE Ⅳ", "援:支援UP/副援:水パワーDOWN Ⅳ"] },
+            { yakuwari: 7, name: ["Sp.ガードヒールC Ⅴ", "Sp.カウンターウォーターガードヒールC Ⅴ", "回:回復UP/副援:水ガードUP Ⅳ"] }
+        ]
     }
     /*
     ,
