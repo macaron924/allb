@@ -15,6 +15,22 @@ const exchangeDataJson = [
     },
     */
     {
+        "index": "medal_bonus_emotional-10",
+        "name": "エモーショナルメモリアボーナスメダルⅩ",
+        "type": "ボーナスメダル",
+        "get": ["ガチャ"],
+        "notice": [],
+        "lineup": {
+            "memoria": [ { "caption": "メモリアのみ", "ratio": 1000, "content": [789, 312, 348, 363, 523, 571] } ],
+            "costume": [ { "caption": "衣装", "ratio": 1000, "content": [535] } ],
+            "item": [
+                { "caption": "ガチャチケット", "ratio": 1000, "content": ["gacha-ticket_zokusei-fire", "gacha-ticket_zokusei-water", "gacha-ticket_zokusei-wind", "gacha-ticket_zokusei-light", "gacha-ticket_zokusei-dark"] },
+                { "caption": "素材", "ratio": 300, "content": ["memoria_312_evolution", "memoria_312_awakening", "memoria_348_evolution", "memoria_348_awakening", "memoria_363_evolution", "memoria_363_awakening", "memoria_523_evolution", "memoria_523_awakening", "memoria_571_evolution", "memoria_571_awakening"] }
+            ],
+            "event-ticket": []
+        }
+    },
+    {
         "index": "medal_bonus_dream",
         "name": "3rd Anniv.記念ボーナスメダル",
         "type": "ボーナスメダル",
@@ -1839,6 +1855,19 @@ const exchangeDataJson = [
         "lineup": {
             "memoria": [],
             "costume": [ { "caption": "衣装", "ratio": 1, "content": [53, 60, 73, 85, 116, 114, 115, 118, 119, 120, 91, 92, 93, 102, 103, 108, 109, 110, 112, 113, 121, 122, 123, 124, 125, 126, 127, 128, 130, 131, 132, 134, 138, 137, 143, 144, 156, 155, 162, 163, 164] } ],
+            "item": [],
+            "event-ticket": []
+        }
+    },
+    {
+        "index": "exchange_pendant-ex_dream",
+        "name": "3rd Anniv.DREAM!ペンダントEX交換券",
+        "type": "ペンダントEX交換券",
+        "get": ["ガチャ"],
+        "notice": [],
+        "lineup": {
+            "memoria": [],
+            "costume": [ { "caption": "以下の衣装のEXペンダント", "ratio": 1, "content": [380, 381, 382, 378, 379, 371, 372, 360, 361, 362, 356, 357, 358, 353, 354, 351, 352, 350, 347, 348, 344, 345, 346, 340, 341, 342, 337, 338, 334, 335, 336, 331, 332, 328, 329, 330, 326, 324, 325, 313, 314, 309, 310, 311, 306, 307, 303, 304, 299, 300, 297, 298, 294, 293, 295, 296, 288, 290, 289, 287, 283, 285, 286, 271, 272, 268, 269, 264, 265, 266, 262, 263, 261, 259, 252, 249, 250, 246, 245, 244, 240, 242, 239, 236, 238, 233, 230, 231, 232, 225, 226, 227] } ],
             "item": [],
             "event-ticket": []
         }

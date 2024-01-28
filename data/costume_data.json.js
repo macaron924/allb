@@ -2668,6 +2668,11 @@ const costumeJson = [
         "id": 534,
         "chara": 12, "yakuwari": 3, "name": "ドリーミィパレード(特殊単体)",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 535,
+        "chara": 71, "yakuwari": 2, "name": "ドリーミィパレード",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
     }
     /*
     ,
