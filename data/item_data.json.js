@@ -79,7 +79,8 @@ const itemByTypeJson = {
         { index: "costume_494_pendant-ex", name: "美岳/ホーリーナイトキャットのペンダントEX", link: false },
         { index: "costume_495_pendant-ex", name: "姫歌/プリンセスナイトαのペンダントEX", link: false },
         { index: "costume_499_pendant-ex", name: "梅/ムーンライトαのペンダントEX", link: false },
-        { index: "costume_503_pendant-ex", name: "汐里/水夕会試作隊服αのペンダントEX", link: false }
+        { index: "costume_503_pendant-ex", name: "汐里/水夕会試作隊服αのペンダントEX", link: false },
+        { index: "costume_535_pendant-ex", name: "優珂/ドリーミィパレードのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -99,7 +100,9 @@ const itemByTypeJson = {
         { index: "memoria_708_evolution", name: "ねこさんこちら：ピース", link: false },
         { index: "memoria_708_awakening", name: "ねこさんこちら：ジェム", link: false },
         { index: "memoria_754_evolution", name: "箱入り神琳：ピース", link: false },
-        { index: "memoria_754_awakening", name: "箱入り神琳：ジェム", link: false }
+        { index: "memoria_754_awakening", name: "箱入り神琳：ジェム", link: false },
+        { index: "memoria_789_evolution", name: "見つめてシンパシー：ピース", link: false },
+        { index: "memoria_789_awakening", name: "見つめてシンパシー：ジェム", link: false }
     ],
     gacha_ticket: [ // ガチャチケット
         { index: "gacha-ticket_lily-passport", name: "リリィパスポート★5確定ガチャチケット", link: true },
@@ -166,7 +169,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_xmas", name: "Xmas記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_xmas-kakutei", name: "Xmasメモリア100%!!★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_stage-new-ch", name: "舞台「アサルトリリィ・新章」記念★5確定ガチャチケット", link: true },
-        { index: "gacha-ticket_emotional", name: "エモーショナルメモリア★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_emotional", name: "エモーショナルメモリア★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_emotional-include", name: "エモーショナルメモリア入り!!★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_new-year", name: "正月記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_new-year-kakutei", name: "正月メモリア100%!!★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_new-year-cost20costume", name: "正月記念!!衣装解放コスト20以上★5ガチャチケット", link: true },
@@ -296,7 +300,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202401-2", name: "ゴシック・ノスタルジカⅢペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202402-1", name: "Dreamin'☆CelebrationペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202402-1-2", name: "3rd Anniv. YUJIA & AKARIペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202402-1-3", name: "3rd Anniv. YUYU & RANペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202402-1-3", name: "3rd Anniv. YUYU & RANペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_dream", name: "3rd Anniv.DREAM!ペンダントEX交換券", link: true }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -499,6 +504,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_emotional-7", name: "エモーショナルメモリアボーナスメダルⅦ", link: true },
         { index: "medal_bonus_emotional-8", name: "エモーショナルメモリアボーナスメダルⅧ", link: true },
         { index: "medal_bonus_emotional-9", name: "エモーショナルメモリアボーナスメダルⅨ", link: true },
+        { index: "medal_bonus_emotional-10", name: "エモーショナルメモリアボーナスメダルⅩ", link: true },
         { index: "medal_bonus_peta-max", name: "ペタMAXボーナスメダル", link: true },
         { index: "medal_bonus_gw", name: "ラスバれ！GWボーナスメダル", link: true },
         { index: "medal_bonus_premium", name: "プレミアボーナスメダル", link: true },
