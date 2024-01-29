@@ -1,5 +1,5 @@
 /*ボタンのためのflex-box*/
-
+/*
 .flex_btn-box {
     background-color: #ccf2ff;
     padding: 0.5rem;
@@ -20,12 +20,12 @@
 
 .flex_btn-item input.active{
     background-color: #00bfff;
-}
+}*/
 
 
 /*ボタン*/
-
-.select-btn, .open-close-btn {
+/*
+.open-close-btn {
     background-color: #eee;
     border: 0.1rem solid #333333;
     border-radius: 0.5rem;
@@ -33,10 +33,22 @@
     margin: 0.5rem;
 }
 
-.select-btn:hover, .open-close-btn:hover {
+.open-close-btn:hover {
+    cursor: pointer;
+}*/
+
+.select-btn {
+    /*background-color: #eee;
+    border: 0.1rem solid #333333;
+    border-radius: 0.5rem;
+    padding: 1rem;*/
+    margin: 0.5rem;
+}
+/*
+.select-btn:hover {
     cursor: pointer;
 }
 
 .select-btn.active {
     background-color: #00bfff;
-}
+}*/

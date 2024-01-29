@@ -1,4 +1,4 @@
-#default-sort-btn {
+/*#default-sort-btn {
     background-color: #eee;
     width: 10rem;
     height: 3rem;
@@ -22,7 +22,7 @@
 
 #date-sort-btn.active {
     background-color: #00bfff;
-}
+}*/
 
 
 hr {
@@ -252,4 +252,11 @@ tr>*:last-child {
 .gacha-group.active .title span {
     display: inline-block;
     transform: rotate(90deg);
+}
+
+
+/* ガチャチケ */
+
+#ticket-lineup .flex_memoria-box{
+    margin-bottom: 1rem;
 }

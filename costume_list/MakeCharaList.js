@@ -35,7 +35,7 @@ for (let i in charaBelongJson) {
         let [name, jump] = getChara(charaBelongJson[i]["chara"][j]);
         if (jump == "") continue;
     
-        let buttonBoxItem = `<div class="flex_btn-item"><a href=#${jump} value="${jump}"><img src="./../images/chara/chara_${charaBelongJson[i]["chara"][j]}.jpg"><p>${name}</p></a></div>`;
+        let buttonBoxItem = `<div class="flex_btn-item"><a href=#${jump} class="chara" value="${jump}"><img src="./../images/chara/chara_${charaBelongJson[i]["chara"][j]}.jpg"><p>${name}</p></a></div>`;
         buttonBox.insertAdjacentHTML("beforeend", buttonBoxItem);
     }
     charaList.appendChild(buttonBox);

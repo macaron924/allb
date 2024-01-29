@@ -79,7 +79,7 @@ for (let i in gachaDaily11) {
 for (let i in memoriaJson) {
     let img = document.createElement("img");
     img.src = `../../images/memoria/memoria_${memoriaJson[i]["id"]}.jpg`;
-    let flexitem = `<div class="flex_test-item"><a href="./?memoriaID=${memoriaJson[i]["id"]}"><img src="../../images/memoria/memoria_${memoriaJson[i]['id']}.jpg" loading="lazy"><br>${memoriaJson[i]['name']}</a></div>`;
+    let flexitem = `<div class="flex_memoria-item"><a href="./?memoriaID=${memoriaJson[i]["id"]}"><img src="../../images/memoria/memoria_${memoriaJson[i]['id']}.jpg" loading="lazy"><br>${memoriaJson[i]['name']}</a></div>`;
     document.getElementById("memoria_list").insertAdjacentHTML("beforeend", flexitem);
 }
 

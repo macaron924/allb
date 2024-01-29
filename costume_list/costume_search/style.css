@@ -1,5 +1,5 @@
 /*メニューボタンの表示切替*/
-
+/*
 #menu-open-btn {
     background-color: #eee;
     width: 22rem;
@@ -11,7 +11,7 @@
 
 #menu-open-btn.active {
     background-color: #00bfff;
-}
+}*/
 
 
 /*絞り込みメニュー*/
@@ -34,9 +34,9 @@
 #filter-btn {
     width: 100%;
     background: #00bfff;
-    height: 3rem;
+    /*height: 3rem;
     border: 0.1rem solid #333333;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem;*/
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -60,7 +60,7 @@
     margin-top: 1rem;
     margin-left: 0.5rem;
 }
-
+/*
 #chara-open-btn {
     background-color: #eee;
     width: 22rem;
@@ -72,8 +72,8 @@
 
 #chara-open-btn.active {
     background-color: #00bfff;
-}
-
+}*/
+/*
 select {
     background: #ffffff;
     height: 3rem;
@@ -90,9 +90,10 @@ select, label {
 select.disabled {
     background-color: #868686;
     pointer-events: none;
-}
+}*/
 
 /*ボタンのためのflex-box*/
+/*
 
 .flex_btn-box {
     background-color: #ccf2ff;
@@ -109,10 +110,11 @@ select.disabled {
     text-align: center;
     font-size: 1.5rem;
     font-weight: normal;
-}
+}*/
 
 
 /*ボタン*/
+/*
 
 .select-btn {
     background-color: #eee;
@@ -129,7 +131,7 @@ select.disabled {
 
 .select-btn.active {
     background-color: #00bfff;
-}
+}*/
 
 
 /*衣装データのflexbox*/
@@ -196,7 +198,7 @@ img {
     display: inline-block;
     transform: rotate(0deg);
 }
-
+/*
 .flex_btn-box.close {
     display: none;
 }
@@ -233,7 +235,7 @@ button img.yakuwari-img {
 
 button p {
     margin: 0.2rem;
-}
+}*/
 
 .belong {
     cursor: pointer;

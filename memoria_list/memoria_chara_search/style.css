@@ -4,6 +4,11 @@
     padding: 1rem;
 }
 
+#mode-check {
+    height: 2rem;
+    width: 2rem;
+}
+
 
 /*キャラボタンの表示切替*/
 
@@ -23,7 +28,7 @@
     margin-top: 1rem;
     margin-left: 0.5rem;
 }
-
+/*
 #chara-open-btn {
     background-color: #eee;
     width: 22rem;
@@ -35,10 +40,11 @@
 
 #chara-open-btn.active {
     background-color: #00bfff;
-}
+}*/
 
 
 /*ボタンのためのflex*/
+/*
 
 .flex_btn-box {
     background-color: #ccf2ff;
@@ -55,10 +61,11 @@
     text-align: center;
     font-size: 1.5rem;
     font-weight: normal;
-}
+}*/
 
 
 /*ボタン*/
+/*
 
 .select-btn {
     background-color: #eee;
@@ -76,7 +83,7 @@
 
 .select-btn.active {
     background-color: #00bfff;
-}
+}*/
 
 
 /*メインの表*/
@@ -149,17 +156,13 @@
     display: inline-block;
     transform: rotate(0deg);
 }
-
+/*
 .flex_btn-box.close {
     display: none;
-}
-
-.flex_btn-box.close {
-    display: none;
-}
+}*/
 
 
-
+/*
 button {
     background-color: #eee;
     width: 12rem;
@@ -190,7 +193,7 @@ button img.yakuwari-img {
 
 button p {
     margin: 0.2rem;
-}
+}*/
 
 .belong {
     cursor: pointer;

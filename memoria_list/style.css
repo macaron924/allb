@@ -32,7 +32,7 @@ html {
 }
 
 
-
+/*
 select {
     background: #ffffff;
     border: 0.1rem solid #333333;
@@ -49,7 +49,7 @@ select, label {
 select.disabled {
     background-color: #868686;
     pointer-events: none;
-}
+}*/
 
 
 
@@ -72,14 +72,14 @@ h3.category-2 {
 }
 
 
-.flex_test-item {
+.flex_memoria-item {
     position: relative;
 }
 
-.flex_test-item .switch-icon {
+.flex_memoria-item .switch-icon {
     cursor: pointer;
 }
-.flex_test-item .switch-icon::before {
+.flex_memoria-item .switch-icon::before {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f553";
@@ -91,7 +91,7 @@ h3.category-2 {
     left: -0.5rem;
     padding: 1.5rem;
 }
-.flex_test-item .switch-icon::after {
+.flex_memoria-item .switch-icon::after {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     content: "\f021";
@@ -102,22 +102,22 @@ h3.category-2 {
     left: 2rem;
 }
 
-.flex_test-item .memoria, .flex_test-item .costume {
+.flex_memoria-item .memoria, .flex_memoria-item .costume {
     background-color: #ffffff;
 }
 
-.flex_test-item .costume {
+.flex_memoria-item .costume {
     display: none;
 }
 
-.flex_test-item .costume.active {
+.flex_memoria-item .costume.active {
     display: block;
 }
 
-.flex_test-item .memoria {
+.flex_memoria-item .memoria {
     display: none;
 }
 
-.flex_test-item .memoria.active {
+.flex_memoria-item .memoria.active {
     display: block;
 }

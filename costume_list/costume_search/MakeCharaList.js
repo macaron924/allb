@@ -43,7 +43,7 @@ for (let i in charaBelongJson) {
         let [name, playable] = getChara(charaBelongJson[i]["chara"][j]);
         if (playable == false) continue;
     
-        let buttonBoxItem = `<div class="flex_btn-item"><button value="${charaBelongJson[i]["chara"][j]}"><img src="./../../images/chara/chara_${charaBelongJson[i]["chara"][j]}.jpg"><p>${name}</p></button></div>`;
+        let buttonBoxItem = `<div class="flex_btn-item"><button class="chara" value="${charaBelongJson[i]["chara"][j]}"><img src="./../../images/chara/chara_${charaBelongJson[i]["chara"][j]}.jpg"><p>${name}</p></button></div>`;
         buttonBox.insertAdjacentHTML("beforeend", buttonBoxItem);
     }
     charaList.appendChild(buttonBox);
