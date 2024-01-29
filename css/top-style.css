@@ -1,10 +1,18 @@
+/* トップページのヘッダー */
+
 header {
     height: 9rem;
 }
 
+
+/* トップページのバナー */
+
 .top-banner {
     width: 100%;
 }
+
+
+/* トップページのメニュー */
 
 .flex_menu-box {
     display: flex;

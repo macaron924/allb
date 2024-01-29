@@ -159,7 +159,7 @@ function getMemoriaName(id) {
 function addMemoriaList(memoriaArray) {
     // flexboxを生成
     let flexbox = document.createElement('div');
-    flexbox.className = "flex_test-box";
+    flexbox.className = "flex_memoria-box";
     
     // テーブル本体を作成
     for (let i = 0; i < memoriaArray.length; i++) {
@@ -167,7 +167,7 @@ function addMemoriaList(memoriaArray) {
 
         // flexitemを生成
         let flexitem = document.createElement('div');
-        flexitem.className = "flex_test-item";
+        flexitem.className = "flex_memoria-item";
         flexitem.innerHTML = `<img src="../../images/memoria/memoria_${id}.jpg" loading="lazy"><br>${getMemoriaName(id)}`;
 
         // flexitemをflexboxの子要素に追加

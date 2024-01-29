@@ -21,7 +21,7 @@ function getMemoriaName(id) {
 function addMemoriaList(memoriaArray) {
     // flexboxを生成
     let flexbox = document.createElement('div');
-    flexbox.className = "flex_test-box content";
+    flexbox.className = "flex_memoria-box content";
     
     // flexbox本体を作成
     for (let i = 0; i < memoriaArray.length; i++) {
@@ -29,7 +29,7 @@ function addMemoriaList(memoriaArray) {
 
         // flexitemを生成
         let flexitem = document.createElement('div');
-        flexitem.className = "flex_test-item";
+        flexitem.className = "flex_memoria-item";
         flexitem.innerHTML = `<img src="../../images/memoria/memoria_${id}.jpg" loading="lazy"><br>${getMemoriaName(id)}`;
 
         // flexitemをflexboxの子要素に追加
@@ -63,7 +63,7 @@ function getCostumeName(id) {
 function addCostumeList(costumeArray) {
     // flexboxを生成
     let flexbox = document.createElement('div');
-    flexbox.className = "flex_test-box content";
+    flexbox.className = "flex_memoria-box content";
     
     // flexbox本体を作成
     for (let i = 0; i < costumeArray.length; i++) {
@@ -71,7 +71,7 @@ function addCostumeList(costumeArray) {
 
         // flexitemを生成
         let flexitem = document.createElement('div');
-        flexitem.className = "flex_test-item";
+        flexitem.className = "flex_memoria-item";
         flexitem.innerHTML = `<img src="../../images/costume/costume_${id}.jpg" loading="lazy"><br>${getCostumeChara(id)} / ${getCostumeName(id)}`;
 
         // flexitemをflexboxの子要素に追加
@@ -98,7 +98,7 @@ function getItemLink(id) {
 function addItemList(itemArray) {
     // flexboxを生成
     let flexbox = document.createElement('div');
-    flexbox.className = "flex_test-box content";
+    flexbox.className = "flex_memoria-box content";
     
     // flexbox本体を作成
     for (let i = 0; i < itemArray.length; i++) {
@@ -106,7 +106,7 @@ function addItemList(itemArray) {
 
         // flexitemを生成
         let flexitem = document.createElement('div');
-        flexitem.className = "flex_test-item";
+        flexitem.className = "flex_memoria-item";
         let content = `<img src="../../images/item/${id}.jpg" loading="lazy"><br>${getItemName(id)}`;
         let link = getItemLink(id);
         if (link != "") content = `<a href="../../gacha_info/${link}">${content}</a>`;

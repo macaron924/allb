@@ -16,33 +16,8 @@ label {
     padding: 0.5rem;
 }
 
-/*ボタンのための表*/
-
-.buttonTable {
-    font-size: 1.6rem;
-    font-weight: bold;
-    overflow: auto;
-    width: max-content;
-    max-width: 100%;
-}
-
-.buttonTable table {
-    border: 0;
-}
-
-.buttonTable td {
-    padding: 0.2rem;
-}
-
-.sortModeView {
-    font-size: 2rem;
-}
-
-.sortModeView td:first-child {
-    word-break: keep-all;
-}
-
 /*ボタンのためのflex-box*/
+/*
 
 .flex_btn-box {
     background-color: #ccf2ff;
@@ -59,10 +34,11 @@ label {
     text-align: center;
     font-size: 1.5rem;
     font-weight: normal;
-}
+}*/
 
 
 /*選択ボタン*/
+/*
 
 .select-btn {
     background-color: #eee;
@@ -78,7 +54,7 @@ label {
 
 .select-btn.active {
     background-color: #00bfff;
-}
+}*/
 
 
 /*ボタン*/
@@ -88,15 +64,15 @@ label {
     border: 0.1rem solid #333;
     border-radius: 0.5rem;
     margin: 0.2rem;
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: #eee;
 }
-
+/*
 .mode-btn {
     border: 0.1rem solid #333;
     border-radius: 0.5rem;
     margin: 0.2rem;
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: #eee;
 }
 
@@ -107,7 +83,7 @@ label {
 
 .mode-btn.active {
     background-color: #00bfff;
-}
+}*/
 
 
 /*メインの表*/

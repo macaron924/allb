@@ -88,7 +88,7 @@ table.innerTable td span {
     background-color: #f0c0c0;
 }
 
-
+/*
 #chara-open-btn {
     background-color: #eee;
     width: 22rem;
@@ -100,7 +100,7 @@ table.innerTable td span {
 
 #chara-open-btn.active {
     background-color: #00bfff;
-}
+}*/
 
 #chara_list {
     display: none;
@@ -137,6 +137,7 @@ table.innerTable td span {
 }
 
 /*ボタンのためのflex-box*/
+/*
 
 .flex_btn-box {
     background-color: #ccf2ff;
@@ -177,7 +178,7 @@ table.innerTable td span {
 
 .flex_btn-box a p {
     margin: 0.2rem;
-}
+}*/
 
 .belong {
     cursor: pointer;
