@@ -76,6 +76,9 @@ h3.category-2 {
     position: relative;
 }
 
+.flex_test-item .switch-icon {
+    cursor: pointer;
+}
 .flex_test-item .switch-icon::after {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
@@ -84,9 +87,9 @@ h3.category-2 {
     font-size: 2rem;
     color: #F87F9F;
     text-shadow: 0 0 1rem #000000;
-    top: 1rem;
-    left: 1rem;
-    cursor: pointer;
+    top: -0.5rem;
+    left: -0.5rem;
+    padding: 1.5rem;
 }
 
 .flex_test-item .memoria, .flex_test-item .costume {
