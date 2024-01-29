@@ -70,3 +70,41 @@ h3.category-2 {
 .memoria_img, .chara_img {
     height: 8rem;
 }
+
+
+.flex_test-item {
+    position: relative;
+}
+
+.flex_test-item .switch-icon::after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f553";
+    position: absolute;
+    font-size: 2rem;
+    color: #F87F9F;
+    text-shadow: 0 0 1rem #000000;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+}
+
+.flex_test-item .memoria, .flex_test-item .costume {
+    background-color: #ffffff;
+}
+
+.flex_test-item .costume {
+    display: none;
+}
+
+.flex_test-item .costume.active {
+    display: block;
+}
+
+.flex_test-item .memoria {
+    display: none;
+}
+
+.flex_test-item .memoria.active {
+    display: block;
+}
