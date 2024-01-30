@@ -24,6 +24,7 @@ for (let i in exchangeDataJson) {
     let index = exchangeDataJson[i]["index"];
     let content = [];
     for (let j in exchangeDataJson[i]["lineup"]["costume"]) {
+        if (exchangeDataJson[i]["lineup"]["costume"][j]["caption"].includes("EXペンダント")) continue;
         content = content.concat(exchangeDataJson[i]["lineup"]["costume"][j]["content"]);
     }
     exchangeContentList.push( { name: name, index: index, content: content } )
