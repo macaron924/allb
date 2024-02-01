@@ -7681,13 +7681,47 @@ const memoriaJson = [
             { yakuwari: 6, name: ["Sp.マイトフォールE Ⅳ", "Sp.カウンターウォーターパワーフォールE Ⅳ", "援:支援UP/副援:水パワーDOWN Ⅳ"] },
             { yakuwari: 7, name: ["Sp.ガードヒールC Ⅴ", "Sp.カウンターウォーターガードヒールC Ⅴ", "回:回復UP/副援:水ガードUP Ⅳ"] }
         ]
+    },
+    {
+        id: 790,
+        name: "アトラクティヴ・キャンドル",
+        zokusei: 1, cost: 24, costume: 543, legendary: "ガチャ", illustration: { type: "", chara: [41, 40] },
+        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "幻想スリリング・パーティ (2024/1/31～)", c3: ["イベントガチャ"] },
+        skill: [
+            { yakuwari: 4, name: ["Sp.マイトバーストD Ⅲ+", "Sp.ファイアガードバーストD Ⅲ+", "攻:ダメージUP/Sp.ガードDOWN Ⅳ"] },
+            { yakuwari: 2, name: ["マイトストライクB Ⅳ+", "ファイアパワーストライクB Ⅳ+", "攻:ダメージUP/パワーUP Ⅳ"] },
+            { yakuwari: 5, name: ["Sp.パワーアシストE Ⅳ", "Sp.ファイアパワーアシストE Ⅳ", "援:支援UP/副援:火パワーUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 791,
+        name: "メルヘンチック・ヒロイン",
+        zokusei: 2, cost: 22, costume: 544, legendary: "", illustration: { type: "", chara: [45, 46] },
+        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "幻想スリリング・パーティ (2024/1/31～)", c3: ["イベントガチャ"] },
+        skill: [
+            { yakuwari: 5, name: ["パワーアシストE Ⅳ", "ウォーターパワーアシストE Ⅳ", "援:パワーUP/副援:水パワーUP Ⅳ"] },
+            { yakuwari: 2, name: ["マイトブレイクB Ⅳ+", "ウォーターガードブレイクB Ⅳ+", "攻:ガードDOWN/副攻:水ガードDOWN Ⅳ"] },
+            { yakuwari: 6, name: ["Sp.パワーフォールE Ⅳ", "Sp.ウォーターパワーフォールE Ⅳ", "援:Sp.パワーDOWN/副援:水パワーDOWN Ⅳ"] }
+        ]
+    },
+    {
+        id: 792,
+        name: "幻惑の麗姫",
+        zokusei: 1, cost: 22, costume: 545, legendary: "", illustration: { type: "", chara: [115] },
+        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "幻想スリリング・パーティ (2024/1/31～)", c3: ["イベントガチャ"] },
+        skill: [
+            { yakuwari: 2, name: ["マイトブレイクD Ⅲ+", "ファイアガードブレイクD Ⅲ+", "攻:ガードDOWN/副攻:火ガードDOWN Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅳ+", "Sp.ファイアパワースマッシュB Ⅳ+", "攻:Sp.パワーUP/副攻:火パワーUP Ⅳ"] },
+            { yakuwari: 5, name: ["パワーアシストE Ⅳ", "ファイアパワーアシストE Ⅳ", "援:パワーUP/副援:火パワーUP Ⅳ"] },
+            { yakuwari: 7, name: ["Sp.ガードヒールC Ⅴ", "Sp.ファイアガードヒールC Ⅴ", "回:Sp.ガードUP/副援:火ガードUP Ⅳ"] }
+        ]
     }
     /*
     ,
     {
         id: ,
         name: "",
-        zokusei: , cost: 16, costume: 0, legendary: "", illustration: { type: "", chara: [] },
+        zokusei: , cost: , costume: 0, legendary: "", illustration: { type: "", chara: [] },
         get_rank: "", category: { c1: "", c2: "", c3: [] },
         skill: [
             { yakuwari: , name: ["", "", ""] },
