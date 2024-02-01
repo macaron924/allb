@@ -117,6 +117,7 @@ const charaJson = [
     { charaID: 115, charaName: "祇恵良", charaFullName:"高松祇恵良", charaJump: "shiera", specialSkill:"", playable: true },
     { charaID: 116, charaName: "貞花", charaFullName:"貞花", charaJump: "", specialSkill:"", playable: false },
     { charaID: 117, charaName: "日羽梨", charaFullName:"日羽梨", charaJump: "", specialSkill:"", playable: false },
+    { charaID: 998, charaName: "八雲校長", charaFullName:"八雲校長", charaJump: "", specialSkill:"", playable: false },
     { charaID: 999, charaName: "美鈴", charaFullName:"美鈴", charaJump: "", specialSkill:"", playable: false }
     /*
     ,
@@ -128,9 +129,10 @@ const charaBelongJson = [
     { belong: "百合ヶ丘女学院／一柳隊", playable: true, chara: [1, 30, 2, 107, 3, 4, 5, 55, 113, 6, 7, 8, 9, 35] },
     { belong: "百合ヶ丘女学院／アールヴヘイム", playable: true, chara: [21, 22, 23, 24, 25, 26, 27, 28, 29] },
     { belong: "百合ヶ丘女学院／サングリーズル", playable: false, chara: [116, 117] },
-    { belong: "百合ヶ丘女学院／その他", playable: true, chara: [20, 53, 54, 56, 57, 98, 99, 105, 106, 115] },
+    { belong: "百合ヶ丘女学院／その他", playable: true, chara: [20, 53, 54, 56, 57, 98, 99, 105, 106, 115, 999] },
     { belong: "エレンスゲ女学園／ヘルヴォル", playable: true, chara: [10, 95, 11, 84, 12, 96, 13, 14] },
     { belong: "エレンスゲ女学園／クエレブレ", playable: true, chara: [71, 93, 72, 85, 73, 86, 74, 94, 114, 103, 104] },
+    { belong: "エレンスゲ女学園／その他", playable: false, chara: [998] },
     { belong: "神庭女子藝術高校／グラン・エプレ", playable: true, chara: [15, 16, 17, 18, 19, 67, 68, 69, 70] },
     { belong: "御台場女学校", playable: true, chara: [40, 41, 42, 43, 44] },
     { belong: "私立ルドビコ女学院", playable: true, chara: [45, 46, 47, 48, 49] },

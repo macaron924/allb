@@ -106,6 +106,13 @@ function getCharaJump(charaIndex) {
     return charaJson[charaIndex]['charaJump'];
 }
 
+function getCharaIndex(charaId) {
+    for (let i in charaDisplaySorted) {
+        if (charaDisplaySorted[i] == charaId) return i;
+    }
+    return null;
+}
+
 // メイン表の作成
 function makeTable() {
     
@@ -124,7 +131,7 @@ function makeTable() {
     
     // テーブル本体を作成
     for (let i = 0; i < charaRoleArray.length; i++) {
-        let charaIndex = charaDisplay[i] - 1; // 表示順取得
+        let charaIndex = getCharaIndex(charaDisplay[i]); // 表示順取得
         let maxRow = getCharaMaxRow(charaIndex);
         for (let charaRowIndex = 0; charaRowIndex < maxRow; charaRowIndex++) {
             // 行作成
@@ -157,11 +164,16 @@ function makeTable() {
 
 
 // キャラ表示順
-let charaDisplay = []
+let charaDisplay = [];
+let charaDisplaySorted = [];
 
 for (let i in charaBelongJson) {
     charaDisplay = charaDisplay.concat(charaBelongJson[i]["chara"]);
+    charaDisplaySorted = charaDisplaySorted.concat(charaBelongJson[i]["chara"]);
 }
+
+let f = function (a, b) { return a - b; }
+charaDisplaySorted.sort(f)
 
 // 多次元配列定義
 const maxChara = charaDisplay.length;
