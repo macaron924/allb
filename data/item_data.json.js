@@ -234,7 +234,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202312-event-3", name: "聖夜の竜星★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202401-event-1", name: "龍炎舞踊のエージェント★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202401-event-2", name: "ゴシック・ノスタルジカ★5確定ガチャチケットⅢ", link: false },
-        { index: "gacha-ticket_202402-event-1", name: "Dreamin'☆Celebration★5確定ガチャチケット", link: false }
+        { index: "gacha-ticket_202402-event-1", name: "Dreamin'☆Celebration★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_202402-event-2", name: "幻想スリリング・パーティ★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -301,7 +302,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202402-1", name: "Dreamin'☆CelebrationペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202402-1-2", name: "3rd Anniv. YUJIA & AKARIペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202402-1-3", name: "3rd Anniv. YUYU & RANペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_dream", name: "3rd Anniv.DREAM!ペンダントEX交換券", link: true }
+        { index: "exchange_pendant-ex_dream", name: "3rd Anniv.DREAM!ペンダントEX交換券", link: true },
+        { index: "exchange_pendant-ex_202402-2", name: "幻想スリリング・パーティペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -346,10 +348,13 @@ const itemByTypeJson = {
         { index: "exchange_costume_ririsama-3", name: "ギガントウェーブ衣装引換券", link: true },
         { index: "exchange_costume_dream", name: "3rdAnniv.DREAM!衣装引換券", link: true },
         { index: "exchange_costume_dream-1", name: "3rdAnniv.DREAMプレシャス衣装引換券", link: true },
+        { index: "exchange_costume_dream-2", name: "3rdAnniv.DREAMミスティック衣装引換券", link: true },
         { index: "exchange_costume_dream-shiori", name: "汐里/セイクリッドドリーム衣装引換券", link: false },
         { index: "exchange_costume_dream-soraha", name: "天葉/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-takane", name: "高嶺/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-renka", name: "恋花/ドリーミィパレード衣装引換券", link: false },
+        { index: "exchange_costume_dream-sachie", name: "幸恵/ドリーミィパレード衣装引換券", link: false },
+        { index: "exchange_costume_dream-kiito", name: "純/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_xmas", name: "Xmas記念衣装引換券", link: true },
         { index: "exchange_costume_new-year", name: "2024年新春記念衣装引換券", link: true },
         { index: "exchange_costume_new-year-2024-premium", name: "新春プレミア衣装引換券", link: true },
