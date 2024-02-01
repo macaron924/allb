@@ -1379,6 +1379,19 @@ const exchangeDataJson = [
         }
     },
     {
+        "index": "exchange_costume_dream-2",
+        "name": "3rdAnniv.DREAMミスティック衣装引換券",
+        "type": "衣装引換券",
+        "get": ["配布", "3rd Anniv. DREAM ミスティック引換券 交換所"],
+        "notice": [],
+        "lineup": {
+            "memoria": [],
+            "costume": [ { "caption": "衣装", "ratio": 1, "content": [361, 330, 267, 266, 250, 251, 249, 244, 242, 241, 240, 239, 234, 228, 227, 226, 225, 214, 209, 208, 195, 194, 196, 189, 178, 164, 163, 162, 132, 131, 130, 123, 122, 109, 102, 99, 93, 84, 83, 70, 69, 59, 58, 57, 44, 43, 42, 41, 40, 14, 13, 12, 11, 10] } ],
+            "item": [],
+            "event-ticket": []
+        }
+    },
+    {
         "index": "exchange_costume_dream-1",
         "name": "3rdAnniv.DREAMプレシャス衣装引換券",
         "type": "衣装引換券",
