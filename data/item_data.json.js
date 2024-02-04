@@ -303,7 +303,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202402-1-2", name: "3rd Anniv. YUJIA & AKARIペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202402-1-3", name: "3rd Anniv. YUYU & RANペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_dream", name: "3rd Anniv.DREAM!ペンダントEX交換券", link: true },
-        { index: "exchange_pendant-ex_202402-2", name: "幻想スリリング・パーティペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202402-2", name: "幻想スリリング・パーティペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202402-2-2", name: "3rd Anniv. MATSURI & SHINペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -355,6 +356,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_dream-renka", name: "恋花/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-sachie", name: "幸恵/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-kiito", name: "純/ドリーミィパレード衣装引換券", link: false },
+        { index: "exchange_costume_dream-yahiro", name: "弥宏/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_xmas", name: "Xmas記念衣装引換券", link: true },
         { index: "exchange_costume_new-year", name: "2024年新春記念衣装引換券", link: true },
         { index: "exchange_costume_new-year-2024-premium", name: "新春プレミア衣装引換券", link: true },
