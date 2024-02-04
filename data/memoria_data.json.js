@@ -7715,6 +7715,27 @@ const memoriaJson = [
             { yakuwari: 5, name: ["パワーアシストE Ⅳ", "ファイアパワーアシストE Ⅳ", "援:パワーUP/副援:火パワーUP Ⅳ"] },
             { yakuwari: 7, name: ["Sp.ガードヒールC Ⅴ", "Sp.ファイアガードヒールC Ⅴ", "回:Sp.ガードUP/副援:火ガードUP Ⅳ"] }
         ]
+    },
+    {
+        id: 793,
+        name: "優美な花に誘われて",
+        zokusei: 1, cost: 24, costume: 553, legendary: "ガチャ", illustration: { type: "", chara: [106, 105] },
+        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "幻想スリリング・パーティ (2024/1/31～)", c3: ["3rd Anniv. DREAM Party -MATSURI & SHIN / YAHIRO -ガチャ (2024/1/26～) (特効は共闘バトル後半のみ)"] },
+        skill: [
+            { yakuwari: 6, name: ["WパワーフォールE Ⅳ", "WカウンターパワーフォールE Ⅳ", "援:支援UP/副援:火パワーDOWN Ⅳ"] }
+        ]
+    },
+    {
+        id: 794,
+        name: "瞳の中のステラ",
+        zokusei: 2, cost: 22, costume: 554, legendary: "", illustration: { type: "", chara: [54] },
+        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "幻想スリリング・パーティ (2024/1/31～)", c3: ["3rd Anniv. DREAM Party -MATSURI & SHIN / YAHIRO -ガチャ (2024/1/26～) (特効は共闘バトル後半のみ)"] },
+        skill: [
+            { yakuwari: 7, name: ["ガードヒールC Ⅴ", "ウォーターガードヒールC Ⅴ", "回:回復UP/副援:水ガードUP Ⅳ"] },
+            { yakuwari: 2, name: ["マイトストライクB Ⅳ+", "ウォーターパワーストライクB Ⅳ+", "攻:ダメージUP/パワーUP Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトバーストD Ⅲ+", "Sp.ウォーターガードバーストD Ⅲ+", "攻:ダメージUP/Sp.ガードDOWN Ⅳ"] },
+            { yakuwari: 5, name: ["Sp.パワーアシストE Ⅳ", "Sp.ウォーターパワーアシストE Ⅳ", "援:支援UP/Sp.パワーUP Ⅳ"] }
+        ]
     }
     /*
     ,
