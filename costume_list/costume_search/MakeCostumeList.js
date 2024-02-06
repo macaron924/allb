@@ -14,7 +14,8 @@ $("#chara-open-btn").click(function () { // キャラ選択表示ボタンがク
 });
 
 $(".select-btn").click(function () { // 選択ボタンがクリックされたら
-    $(this).toggleClass('active'); // 自身にactiveクラスを付与(色付け)
+    $(this).classList.contains('active') ? $(this).classList.remove('active') : $(this).classList.add('active');
+    //$(this).toggleClass('active'); // 自身にactiveクラスを付与(色付け)
     document.getElementById("filter-btn").className = "not-changed";
     document.getElementById("filter-btn").value = "未反映";
 });
