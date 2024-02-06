@@ -357,6 +357,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_dream-sachie", name: "幸恵/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-kiito", name: "純/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-yahiro", name: "弥宏/ドリーミィパレード衣装引換券", link: false },
+        { index: "exchange_costume_dream-kureha", name: "紅巴/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_xmas", name: "Xmas記念衣装引換券", link: true },
         { index: "exchange_costume_new-year", name: "2024年新春記念衣装引換券", link: true },
         { index: "exchange_costume_new-year-2024-premium", name: "新春プレミア衣装引換券", link: true },
