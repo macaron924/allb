@@ -7736,6 +7736,19 @@ const memoriaJson = [
             { yakuwari: 4, name: ["Sp.マイトバーストD Ⅲ+", "Sp.ウォーターガードバーストD Ⅲ+", "攻:ダメージUP/Sp.ガードDOWN Ⅳ"] },
             { yakuwari: 5, name: ["Sp.パワーアシストE Ⅳ", "Sp.ウォーターパワーアシストE Ⅳ", "援:支援UP/Sp.パワーUP Ⅳ"] }
         ]
+    },
+    {
+        id: 795,
+        name: "出撃！リリィサバイバル",
+        zokusei: 1, cost: 18, costume: 0, legendary: "", illustration: { type: "静止画", chara: [1] },
+        get_rank: "非ガチャ産", category: { c1: "ミッション、ログインボーナス等", c2: "期間限定", c3: ["リリィサバイバル開催記念"] },
+        skill: [
+            { yakuwari: 5, name: ["Sp.パワーアシストB Ⅲ", "Sp.パワーアシストB Ⅲ", "援:Sp.パワーUP Ⅲ"] },
+            { yakuwari: 2, name: ["パワーストライクB Ⅲ", "パワーストライクB Ⅲ", "攻:パワーUP Ⅲ"] },
+            { yakuwari: 4, name: ["Sp.パワースマッシュB Ⅲ", "Sp.パワースマッシュB Ⅲ", "攻:Sp.パワーUP Ⅲ"] },
+            { yakuwari: 6, name: ["パワーフォールB Ⅲ", "パワーフォールB Ⅲ", "援:パワーDOWN Ⅲ"] },
+            { yakuwari: 7, name: ["Sp.ガードヒールC Ⅲ", "Sp.ガードヒールC Ⅲ", "回:Sp.ガードUP Ⅲ"] }
+        ]
     }
     /*
     ,
