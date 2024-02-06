@@ -4,7 +4,7 @@ $(document).on('click', '.belong', function() {//タイトル要素をクリッ�
 	$(this).toggleClass('close'); // 自身にもcloseクラスを付与
 });
 
-$(document).on('click', 'button', function() { // 選択ボタンがクリックされたら
+$(document).on('click', 'button.chara', function() { // 選択ボタンがクリックされたら
     $(this).toggleClass('active'); // 自身にactiveクラスを付与(色付け)
     let value = this.value;
     charaButtonPushAction(value);
