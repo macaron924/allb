@@ -4,7 +4,7 @@ $(document).on('click', '.belong', function() {//タイトル要素をクリッ�
 	$(this).toggleClass('close'); // 自身にもcloseクラスを付与
 });
 /*
-$(document).on('click', 'button', function() { // 選択ボタンがクリックされたら
+$(document).on('click', 'button.chara', function() { // 選択ボタンがクリックされたら
     let value = this.value;
     location.href = value;
 });*/
