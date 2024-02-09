@@ -564,6 +564,7 @@ const itemByTypeJson = {
         { index: "skill-hojo-3", name: "錬成の記憶Ⅲ", link: false },
         { index: "skill-all-3", name: "武功の記憶Ⅲ", link: false },
         { index: "skip-ticket", name: "スキップチケット", link: false },
+        { index: "lp-card-4", name: "LPカードⅣ", link: false },
         { index: "charm_144_star3", name: "デュランダルSP.HY", link: false },
         { index: "charm_162_star3", name: "ムラマサ・ブレード", link: false }
     ]
