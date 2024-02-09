@@ -506,6 +506,7 @@ function hojoTagToString(tag) {
     for (let i = 0; i < tag.length; i++) {
         if (i != 0) str += "<br>";
         for (let j = 0; j < tag[i].length; j++) {
+            if (tag[i][j] == "") continue;
             if (j != 0) str += "・";
             str += tag[i][j];
         }

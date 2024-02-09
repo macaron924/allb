@@ -7749,6 +7749,56 @@ const memoriaJson = [
             { yakuwari: 6, name: ["パワーフォールB Ⅲ", "パワーフォールB Ⅲ", "援:パワーDOWN Ⅲ"] },
             { yakuwari: 7, name: ["Sp.ガードヒールC Ⅲ", "Sp.ガードヒールC Ⅲ", "回:Sp.ガードUP Ⅲ"] }
         ]
+    },
+    {
+        id: 796,
+        name: "Ultimate Memoria -至宝の煌き-",
+        zokusei: 2, cost: 27, costume: 0, legendary: "", illustration: { type: "", chara: [3] },
+        get_rank: "アルティメットメモリア", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "アルティメットメモリア前衛後衛ガチャ (2024/2/6～)", c3: ["前衛ガチャ"] },
+        skill: [
+            { yakuwari: 2, name: ["水：パワーストライクD Ⅳ", "カウンタートライパワーストライクD Ⅳ+", "コ:効果範囲+1"] },
+            { yakuwari: 7, name: ["ガードヒールE Ⅴ", "カウンタートライガードヒールE Ⅴ", "コ:効果範囲+1"] }
+        ]
+    },
+    {
+        id: 797,
+        name: "Ultimate Memoria -日輪背負う天使-",
+        zokusei: 1, cost: 27, costume: 0, legendary: "", illustration: { type: "", chara: [57] },
+        get_rank: "アルティメットメモリア", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "アルティメットメモリア前衛後衛ガチャ (2024/2/6～)", c3: ["後衛ガチャ"] },
+        skill: [
+            { yakuwari: 6, name: ["パワーフォールE Ⅴ", "カウンタートライパワーフォールE Ⅴ", "コ:効果範囲+1"] },
+            { yakuwari: 2, name: ["火：ガードブレイクD Ⅳ", "カウンタートライガードブレイクD Ⅳ+", "コ:効果範囲+1"] }
+        ]
+    },
+    {
+        id: 798,
+        name: "Ultimate Memoria -閑雅なる氷帝-",
+        zokusei: 1, cost: 27, costume: 0, legendary: "", illustration: { type: "", chara: [56] },
+        get_rank: "アルティメットメモリア", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "アルティメットメモリア前衛後衛ガチャ (2024/2/6～)", c3: ["後衛ガチャ"] },
+        skill: [
+            { yakuwari: 7, name: ["Sp.ガードヒールE Ⅴ", "Sp.カウンタートライガードヒールE Ⅴ", "コ:効果範囲+1"] },
+            { yakuwari: 4, name: ["火：Sp.パワースマッシュD Ⅳ", "Sp.カウンタートライパワースマッシュD Ⅳ+", "コ:効果範囲+1"] }
+        ]
+    },
+    {
+        id: 799,
+        name: "Ultimate Memoria -戦場の一番星-",
+        zokusei: 2, cost: 27, costume: 0, legendary: "", illustration: { type: "", chara: [70] },
+        get_rank: "アルティメットメモリア", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "アルティメットメモリア前衛後衛ガチャ (2024/2/6～)", c3: ["後衛ガチャ"] },
+        skill: [
+            { yakuwari: 5, name: ["WパワーアシストE Ⅴ", "WカウンターパワーアシストE Ⅴ", "コ:効果範囲+1"] },
+            { yakuwari: 3, name: ["Sp.マイトスマッシュA Ⅴ+", "Sp.カウンタートライパワースマッシュA Ⅴ+", "コ:効果範囲+1"] }
+        ]
+    },
+    {
+        id: 800,
+        name: "Ultimate Memoria -変幻自在のtrickster-",
+        zokusei: 2, cost: 27, costume: 0, legendary: "", illustration: { type: "", chara: [73] },
+        get_rank: "アルティメットメモリア", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "アルティメットメモリア前衛後衛ガチャ (2024/2/6～)", c3: ["前衛ガチャ"] },
+        skill: [
+            { yakuwari: 4, name: ["水：Sp.ガードバーストD Ⅳ", "Sp.カウンタートライガードバーストD Ⅳ+", "コ:効果範囲+1"] },
+            { yakuwari: 6, name: ["Sp.パワーフォールE Ⅴ", "Sp.カウンタートライパワーフォールE Ⅴ", "コ:効果範囲+1"] }
+        ]
     }
     /*
     ,
