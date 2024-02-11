@@ -73,7 +73,8 @@ const eventGachaTicketJson = [
     { "name": "龍炎舞踊のエージェント", "lineup": [775, 776, 777] },
     { "name": "ゴシック・ノスタルジカⅢ", "lineup": [769, 770, 771] },
     { "name": "Dreamin'☆Celebration", "lineup": [781, 782, 783, 784] },
-    { "name": "幻想スリリング・パーティ", "lineup": [790, 791, 792] }
+    { "name": "幻想スリリング・パーティ", "lineup": [790, 791, 792] },
+    { "name": "もふもふバレンタイン", "lineup": [803, 804, 805] }
     /*
     ,
     { "name": "", "lineup": [] }

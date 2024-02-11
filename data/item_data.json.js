@@ -177,6 +177,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_new-year-cost20costume", name: "正月記念!!衣装解放コスト20以上★5ガチャチケット", link: true },
         { index: "gacha-ticket_new-year-cost21", name: "正月記念!!コスト21以上★5ガチャチケット", link: true },
         { index: "gacha-ticket_new-year-cost21costume", name: "正月記念!!衣装解放コスト21以上★5ガチャチケット", link: true },
+        { index: "gacha-ticket_valentine", name: "バレンタイン記念★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_valentine-kakutei", name: "バレンタインメモリア100%!!★5確定ガチャチケット", link: true },
         // イベントガチャチケット
         { index: "gacha-ticket_202212-event-1", name: "聖夜へ捧ぐサプライズ★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202212-event-2", name: "凍て空の流星★5確定ガチャチケットⅡ", link: false },
@@ -236,7 +238,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202401-event-1", name: "龍炎舞踊のエージェント★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202401-event-2", name: "ゴシック・ノスタルジカ★5確定ガチャチケットⅢ", link: false },
         { index: "gacha-ticket_202402-event-1", name: "Dreamin'☆Celebration★5確定ガチャチケット", link: false },
-        { index: "gacha-ticket_202402-event-2", name: "幻想スリリング・パーティ★5確定ガチャチケット", link: false }
+        { index: "gacha-ticket_202402-event-2", name: "幻想スリリング・パーティ★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_202402-event-3", name: "もふもふバレンタイン★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -305,7 +308,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202402-1-3", name: "3rd Anniv. YUYU & RANペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_dream", name: "3rd Anniv.DREAM!ペンダントEX交換券", link: true },
         { index: "exchange_pendant-ex_202402-2", name: "幻想スリリング・パーティペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202402-2-2", name: "3rd Anniv. MATSURI & SHINペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202402-2-2", name: "3rd Anniv. MATSURI & SHINペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202402-3", name: "もふもふバレンタインペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -352,6 +356,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_dream", name: "3rdAnniv.DREAM!衣装引換券", link: true },
         { index: "exchange_costume_dream-1", name: "3rdAnniv.DREAMプレシャス衣装引換券", link: true },
         { index: "exchange_costume_dream-2", name: "3rdAnniv.DREAMミスティック衣装引換券", link: true },
+        { index: "exchange_costume_dream-3", name: "3rdAnniv.DREAMスウィーティ衣装引換券", link: true },
         { index: "exchange_costume_dream-shiori", name: "汐里/セイクリッドドリーム衣装引換券", link: false },
         { index: "exchange_costume_dream-soraha", name: "天葉/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-takane", name: "高嶺/ドリーミィパレード衣装引換券", link: false },
@@ -360,10 +365,12 @@ const itemByTypeJson = {
         { index: "exchange_costume_dream-kiito", name: "純/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-yahiro", name: "弥宏/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-kureha", name: "紅巴/ドリーミィパレード衣装引換券", link: false },
+        { index: "exchange_costume_dream-akehi", name: "秋日/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_xmas", name: "Xmas記念衣装引換券", link: true },
         { index: "exchange_costume_new-year", name: "2024年新春記念衣装引換券", link: true },
         { index: "exchange_costume_new-year-2024-premium", name: "新春プレミア衣装引換券", link: true },
-        { index: "exchange_costume_new-year-2024-normal", name: "新春衣装引換券", link: true }
+        { index: "exchange_costume_new-year-2024-normal", name: "新春衣装引換券", link: true },
+        { index: "exchange_costume_valentine", name: "2024年バレンタイン記念衣装引換券", link: true }
     ],
     exchange: [ // メモリア引換券
         { index: "exchange_memoria_toumei-diary", name: "トウメイダイアリーCD発売記念！★5メモリア引換券", link: true },
