@@ -2843,6 +2843,61 @@ const costumeJson = [
         "id": 569,
         "chara": 18, "yakuwari": 4, "name": "ビューティフルワールドα",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 570,
+        "chara": 9, "yakuwari": 1, "name": "メイドドリーム",
+        "percent": 7.5, "parameter": [["ATK", 1050], ["DEF", 1500]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 571,
+        "chara": 68, "yakuwari": 2, "name": "ドリーミィパレード(通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 572,
+        "chara": 68, "yakuwari": 4, "name": "ドリーミィパレード(特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 573,
+        "chara": 68, "yakuwari": 5, "name": "ドリーミィパレード(支援)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 574,
+        "chara": 68, "yakuwari": 6, "name": "ドリーミィパレード(妨害)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 575,
+        "chara": 68, "yakuwari": 7, "name": "ドリーミィパレード(回復)",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 576,
+        "chara": 68, "yakuwari": 1, "name": "ドリーミィパレード(通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 577,
+        "chara": 68, "yakuwari": 3, "name": "ドリーミィパレード(特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 578,
+        "chara": 19, "yakuwari": 4, "name": "もふもふバレンタイン",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 579,
+        "chara": 67, "yakuwari": 2, "name": "もふもふバレンタイン",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 580,
+        "chara": 69, "yakuwari": 5, "name": "もふもふバレンタイン",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
     }
     /*
     ,
