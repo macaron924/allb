@@ -7720,7 +7720,7 @@ const memoriaJson = [
         id: 793,
         name: "優美な花に誘われて",
         zokusei: 1, cost: 24, costume: 553, legendary: "ガチャ", illustration: { type: "", chara: [106, 105] },
-        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "幻想スリリング・パーティ (2024/1/31～)", c3: ["3rd Anniv. DREAM Party -MATSURI & SHIN / YAHIRO -ガチャ (2024/1/26～) (特効は共闘バトル後半のみ)"] },
+        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "幻想スリリング・パーティ (2024/1/31～)", c3: ["3rd Anniv. DREAM Party -MATSURI & SHIN / YAHIRO -ガチャ (2024/2/3～) (特効は共闘バトル後半のみ)"] },
         skill: [
             { yakuwari: 6, name: ["WパワーフォールE Ⅳ", "WカウンターパワーフォールE Ⅳ", "援:支援UP/副援:火パワーDOWN Ⅳ"] }
         ]
@@ -7729,7 +7729,7 @@ const memoriaJson = [
         id: 794,
         name: "瞳の中のステラ",
         zokusei: 2, cost: 22, costume: 554, legendary: "", illustration: { type: "", chara: [54] },
-        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "幻想スリリング・パーティ (2024/1/31～)", c3: ["3rd Anniv. DREAM Party -MATSURI & SHIN / YAHIRO -ガチャ (2024/1/26～) (特効は共闘バトル後半のみ)"] },
+        get_rank: "3周年", category: { c1: "メダル/ギガント級討伐イベント", c2: "幻想スリリング・パーティ (2024/1/31～)", c3: ["3rd Anniv. DREAM Party -MATSURI & SHIN / YAHIRO -ガチャ (2024/2/3～) (特効は共闘バトル後半のみ)"] },
         skill: [
             { yakuwari: 7, name: ["ガードヒールC Ⅴ", "ウォーターガードヒールC Ⅴ", "回:回復UP/副援:水ガードUP Ⅳ"] },
             { yakuwari: 2, name: ["マイトストライクB Ⅳ+", "ウォーターパワーストライクB Ⅳ+", "攻:ダメージUP/パワーUP Ⅳ"] },
@@ -7821,6 +7821,40 @@ const memoriaJson = [
             { yakuwari: 2, name: ["マイトブレイクD Ⅲ+", "ウォーターガードブレイクD Ⅲ+", "攻:ダメージUP/ガードDOWN Ⅳ"] },
             { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅳ+", "Sp.ウォーターパワースマッシュB Ⅳ+", "攻:ダメージUP/Sp.パワーUP Ⅳ"] },
             { yakuwari: 6, name: ["パワーフォールE Ⅳ", "ウォーターパワーフォールE Ⅳ", "援:支援UP/副援:水パワーDOWN Ⅳ"] }
+        ]
+    },
+    {
+        id: 803,
+        name: "お出迎え♡スウィートハート",
+        zokusei: 1, cost: 22, costume: 578, legendary: "", illustration: { type: "", chara: [19, 67, 69] },
+        get_rank: "季節 (推定)", category: { c1: "メダル/ギガント級討伐イベント", c2: "もふもふバレンタイン (2024/2/11～)", c3: ["イベントガチャ"] },
+        skill: [
+            { yakuwari: 4, name: ["Sp.マイトスマッシュD Ⅲ+", "Sp.ファイアパワースマッシュD Ⅲ+", "攻:Sp.パワーUP/副攻:火パワーUP Ⅳ"] },
+            { yakuwari: 6, name: ["パワーフォールE Ⅳ", "ファイアパワーフォールE Ⅳ", "援:パワーDOWN/副援:火パワーDOWN Ⅳ"] },
+            { yakuwari: 7, name: ["ガードヒールE Ⅳ", "ファイアガードヒールE Ⅳ", "回:ガードUP/副援:火ガードUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 804,
+        name: "すうぃ～と♡にゃんだふる",
+        zokusei: 2, cost: 24, costume: 579, legendary: "ガチャ", illustration: { type: "", chara: [67] },
+        get_rank: "季節 (推定)", category: { c1: "メダル/ギガント級討伐イベント", c2: "もふもふバレンタイン (2024/2/11～)", c3: ["イベントガチャ"] },
+        skill: [
+            { yakuwari: 2, name: ["マイトブレイクB Ⅳ+", "ウォーターガードブレイクB Ⅳ+", "攻:ダメージUP/ガードDOWN Ⅳ"] },
+            { yakuwari: 5, name: ["パワーアシストE Ⅳ", "ウォーターパワーアシストE Ⅳ", "援:支援UP/パワーUP Ⅳ"] },
+            { yakuwari: 7, name: ["ガードヒールC Ⅴ", "ウォーターガードヒールC Ⅴ", "回:回復UP/副援:水ガードUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 805,
+        name: "すずめ♡あらもーど",
+        zokusei: 2, cost: 22, costume: 580, legendary: "", illustration: { type: "", chara: [69] },
+        get_rank: "季節 (推定)", category: { c1: "メダル/ギガント級討伐イベント", c2: "もふもふバレンタイン (2024/2/11～)", c3: ["イベントガチャ"] },
+        skill: [
+            { yakuwari: 5, name: ["Sp.パワーアシストE Ⅳ", "Sp.ウォーターパワーアシストE Ⅳ", "援:Sp.パワーUP/副援:水パワーUP Ⅳ"] },
+            { yakuwari: 2, name: ["マイトストライクB Ⅳ+", "ウォーターパワーストライクB Ⅳ+", "攻:マイトUP Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅳ+", "Sp.ウォーターパワースマッシュB Ⅳ+", "攻:Sp.パワーUP/副攻:水パワーUP Ⅳ"] },
+            { yakuwari: 7, name: ["Sp.ガードヒールC Ⅴ", "Sp.ウォーターガードヒールC Ⅴ", "回:Sp.ガードUP/副援:水ガードUP Ⅳ"] }
         ]
     }
     /*
