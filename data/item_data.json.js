@@ -81,7 +81,8 @@ const itemByTypeJson = {
         { index: "costume_499_pendant-ex", name: "梅/ムーンライトαのペンダントEX", link: false },
         { index: "costume_503_pendant-ex", name: "汐里/水夕会試作隊服αのペンダントEX", link: false },
         { index: "costume_535_pendant-ex", name: "優珂/ドリーミィパレードのペンダントEX", link: false },
-        { index: "costume_569_pendant-ex", name: "灯莉/ビューティフルワールドαのペンダントEX", link: false }
+        { index: "costume_569_pendant-ex", name: "灯莉/ビューティフルワールドαのペンダントEX", link: false },
+        { index: "costume_581_pendant-ex", name: "千香瑠/エレガンスストライカーαのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -341,6 +342,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_yujia", name: "雨嘉衣装引換券", link: true },
         { index: "exchange_costume_kaede", name: "楓衣装引換券", link: true },
         { index: "exchange_costume_shenlin", name: "神琳衣装引換券", link: true },
+        { index: "exchange_costume_tazusa", name: "鶴紗衣装引換券", link: true },
         { index: "exchange_costume_koukainama-202301", name: "公開生放送記念!!衣装交換チケット", link: true },
         { index: "exchange_costume_koukainama-202401", name: "公開生放送2024記念!!衣装交換チケット", link: true },
         { index: "exchange_costume_ririsama", name: "2.5周年リリサマ!!衣装引換券", link: true },
@@ -409,6 +411,7 @@ const itemByTypeJson = {
         { index: "exchange_memoria_yujia", name: "雨嘉★5メモリア引換券", link: true },
         { index: "exchange_memoria_kaede", name: "楓★5メモリア引換券", link: true },
         { index: "exchange_memoria_shenlin", name: "神琳★5メモリア引換券", link: true },
+        { index: "exchange_memoria_tazusa", name: "鶴紗★5メモリア引換券", link: true },
         { index: "exchange_memoria_xmas", name: "Xmas記念メモリア引換券", link: true },
         { index: "exchange_memoria-with-costume", name: "衣装付きメモリアコレクション引換券", link: true },
         { index: "exchange_memoria_zokusei-fire", name: "火属性★5メモリア引換券 (4月)", link: true },
@@ -469,6 +472,7 @@ const itemByTypeJson = {
         { index: "exchange_brand-new_202401-1", name: "BRAND-NEW★5メモリア引換券1月", link: false },
         { index: "exchange_brand-new_202401-2", name: "BRAND-NEW★5メモリア引換券1月Ⅱ", link: false },
         { index: "exchange_brand-new_202402-1", name: "BRAND-NEW★5メモリア引換券2月", link: false },
+        { index: "exchange_brand-new_202402-2", name: "BRAND-NEW★5メモリア引換券2月Ⅱ", link: false },
         // その他
         { index: "exchange_xmas-cuelebre", name: "Xmas記念クエレブレ引換券", link: true },
         { index: "exchange_charm_202312-event-1", name: "誓いのリコネクトCHARM引換券", link: false },
