@@ -308,6 +308,7 @@ function writeLineup() {
 
         for (let j = 0; j < total.length; j++) {
             total[j] -= (ratio[j] * content.length);
+            total[j] = Math.round(total[j] * 1000) / 1000;
         }
         
         let ratioStr = "";
