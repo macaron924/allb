@@ -44,7 +44,7 @@
 
 /* マウスオーバー時 */
 #g-nav li:hover {
-  background: #91e3ff;
+    background: #91e3ff;
 }
 
 /*リストのレイアウト設定*/
@@ -91,8 +91,8 @@
     height: 0.3rem;
     border-radius: 0.2rem;
     background-color: #666;
-      width: 45%;
-  }
+    width: 45%;
+}
 
 .openbtn span:nth-of-type(1) {
     top:1.5rem;    

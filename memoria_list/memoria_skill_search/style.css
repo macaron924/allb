@@ -1,33 +1,3 @@
-/*メニューボタンの表示切替*/
-/*
-#menu-open-btn {
-    background-color: #eee;
-    border: 0.1rem solid #333333;
-    border-radius: 0.5rem;
-    margin: 0.2rem;
-    padding: 0.5rem;
-}
-
-#menu-open-btn.active {
-    background-color: #00bfff;
-}*/
-
-
-/*交換所メニューボタンの表示切替*/
-/*
-#exchange-menu-open-btn {
-    background-color: #eee;
-    border: 0.1rem solid #333333;
-    border-radius: 0.5rem;
-    margin: 0.2rem;
-    padding: 0.5rem;
-}
-
-#exchange-menu-open-btn.active {
-    background-color: #00bfff;
-}*/
-
-
 /*絞り込みメニュー*/
 
 #dual-display {
@@ -67,9 +37,6 @@
 #filter-btn {
     width: 100%;
     background: #00bfff;
-    /*height: 3rem;
-    border: 0.1rem solid #333333;
-    border-radius: 0.5rem;*/
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
@@ -77,43 +44,6 @@
 #filter-btn.not-changed {
     background: #ffff99;
 }
-/*
-select {
-    cursor: pointer;
-    background: #ffffff;
-    border: 0.1rem solid #333333;
-    border-radius: 0.5rem;
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
-    padding: 0.5rem;
-    font-size: 1.6rem;
-    height: min-content;
-}
-
-select.disabled {
-    background-color: #868686;
-    pointer-events: none;
-}*/
-
-/*ボタンのためのflex-box*/
-/*
-
-.flex_btn-box {
-    background-color: #ccf2ff;
-    padding: 0.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-}
-
-.flex_btn-item {
-    padding: 0;
-    color: #000000;
-    margin: 0;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: normal;
-}*/
 
 .flex_btn-box.disable .flex_btn-item .select-btn {
     color: #999999;
@@ -123,32 +53,6 @@ select.disabled {
 .flex_btn-box.disable .flex_btn-item .select-btn.active {
     background: #77ddff;
 }
-
-
-/*ボタン*/
-/*
-
-.select-btn {
-    background-color: #eee;
-    height: 3rem;
-    min-width: 10rem;
-    border: 0.1rem solid #333333;
-    border-radius: 0.5rem;
-    margin: 0.2rem;
-    padding: 0.5rem 1rem;
-}
-
-.select-btn.val-btn {
-    min-width: max-content;
-}
-
-.select-btn:hover {
-    cursor: pointer;
-}
-
-.select-btn.active {
-    background-color: #00bfff;
-}*/
 
 
 /*メインの表*/

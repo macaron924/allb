@@ -16,46 +16,6 @@ label {
     padding: 0.5rem;
 }
 
-/*ボタンのためのflex-box*/
-/*
-
-.flex_btn-box {
-    background-color: #ccf2ff;
-    padding: 0.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-}
-
-.flex_btn-item {
-    padding: 0;
-    color: #000000;
-    margin: 0;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: normal;
-}*/
-
-
-/*選択ボタン*/
-/*
-
-.select-btn {
-    background-color: #eee;
-    border: 0.1rem solid #333333;
-    border-radius: 0.5rem;
-    margin: 0.2rem;
-    padding: 1rem;
-}
-
-.select-btn:hover {
-    cursor: pointer;
-}
-
-.select-btn.active {
-    background-color: #00bfff;
-}*/
-
 
 /*ボタン*/
 
@@ -67,23 +27,6 @@ label {
     padding: 0.5rem;
     background-color: #eee;
 }
-/*
-.mode-btn {
-    border: 0.1rem solid #333;
-    border-radius: 0.5rem;
-    margin: 0.2rem;
-    padding: 0.5rem;
-    background-color: #eee;
-}
-
-.calc-btn:hover, .mode-btn:hover {
-    cursor: pointer;
-    background-color: #eee;
-}
-
-.mode-btn.active {
-    background-color: #00bfff;
-}*/
 
 
 /*メインの表*/

@@ -32,26 +32,6 @@ html {
 }
 
 
-/*
-select {
-    background: #ffffff;
-    border: 0.1rem solid #333333;
-    border-radius: 0.5rem;
-}
-
-select, label {
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
-    padding: 0.5rem;
-    font-size: 2rem;
-}
-
-select.disabled {
-    background-color: #868686;
-    pointer-events: none;
-}*/
-
-
 
 h2.category-1 {
     border: #00bfff solid 0.1rem;
