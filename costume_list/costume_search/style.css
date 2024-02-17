@@ -1,19 +1,3 @@
-/*メニューボタンの表示切替*/
-/*
-#menu-open-btn {
-    background-color: #eee;
-    width: 22rem;
-    height: 3rem;
-    border: 0.1rem solid #333333;
-    border-radius: 0.5rem;
-    margin: 0.2rem;
-}
-
-#menu-open-btn.active {
-    background-color: #00bfff;
-}*/
-
-
 /*絞り込みメニュー*/
 
 #filter-menu_content {
@@ -34,9 +18,6 @@
 #filter-btn {
     width: 100%;
     background: #00bfff;
-    /*height: 3rem;
-    border: 0.1rem solid #333333;
-    border-radius: 0.5rem;*/
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -60,78 +41,6 @@
     margin-top: 1rem;
     margin-left: 0.5rem;
 }
-/*
-#chara-open-btn {
-    background-color: #eee;
-    width: 22rem;
-    height: 3rem;
-    border: 0.1rem solid #333333;
-    border-radius: 0.5rem;
-    margin: 0.2rem;
-}
-
-#chara-open-btn.active {
-    background-color: #00bfff;
-}*/
-/*
-select {
-    background: #ffffff;
-    height: 3rem;
-    border: 0.1rem solid #333333;
-    border-radius: 0.5rem;
-}
-
-select, label {
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
-    padding: 0.5rem;
-}
-
-select.disabled {
-    background-color: #868686;
-    pointer-events: none;
-}*/
-
-/*ボタンのためのflex-box*/
-/*
-
-.flex_btn-box {
-    background-color: #ccf2ff;
-    padding: 0.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-}
-
-.flex_btn-item {
-    padding: 0;
-    color: #000000;
-    margin: 0;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: normal;
-}*/
-
-
-/*ボタン*/
-/*
-
-.select-btn {
-    background-color: #eee;
-    width: 12rem;
-    height: 3rem;
-    border: 0.1rem solid #333333;
-    border-radius: 0.5rem;
-    margin: 0.2rem;
-}
-
-.select-btn:hover {
-    cursor: pointer;
-}
-
-.select-btn.active {
-    background-color: #00bfff;
-}*/
 
 
 /*衣装データのflexbox*/
@@ -198,44 +107,6 @@ img {
     display: inline-block;
     transform: rotate(0deg);
 }
-/*
-.flex_btn-box.close {
-    display: none;
-}
-
-
-
-button {
-    background-color: #eee;
-    width: 12rem;
-    border: 0.1rem solid #333333;
-    border-radius: 0.5rem;
-    margin: 0.2rem;
-    height: calc(100% - 0.4rem);
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-button.active {
-    background-color: #00bfff;
-}
-
-button img {
-    width: 6rem;
-    height: 6rem;
-    margin: 0.2rem;
-}
-
-button img.yakuwari-img {
-    width: 1.6rem;
-    height: 1.6rem;
-}
-
-button p {
-    margin: 0.2rem;
-}*/
 
 .belong {
     cursor: pointer;
