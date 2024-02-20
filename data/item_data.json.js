@@ -180,6 +180,7 @@ const itemByTypeJson = {
         { index: "gacha-ticket_new-year-cost21costume", name: "正月記念!!衣装解放コスト21以上★5ガチャチケット", link: true },
         { index: "gacha-ticket_valentine", name: "バレンタイン記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_valentine-kakutei", name: "バレンタインメモリア100%!!★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_alfheim", name: "アールヴヘイム★5確定ガチャチケット", link: true },
         // イベントガチャチケット
         { index: "gacha-ticket_202212-event-1", name: "聖夜へ捧ぐサプライズ★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202212-event-2", name: "凍て空の流星★5確定ガチャチケットⅡ", link: false },

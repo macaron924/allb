@@ -1,5 +1,32 @@
 const gachaLimited202402 = [
     {
+        start: "2024/2/19(月) 12:00",
+        finish: "2024/2/21(水) 23:59",
+        type: "マンデーボーナスガチャ",
+        medal: "medal_bonus_202402",
+        gacha: [
+            {
+                index: "20240219_1",
+                name: "マンデーボーナスガチャ",
+                big_banner: true,
+                bonus: {
+                    notice: [
+                        { text: "11回ガチャ1回限定", item: [] },
+                        { text: "ガチャを引くと", item: [ { index: "medal", value: 200}, { index: "skip-ticket", value: 300 }, { index: "goggle-3", value: 5 } ] }
+                    ],
+                    table_header: [],
+                    table_content: []
+                },
+                lineup: {
+                    total_ratio: [5],
+                    notice: ["★5メモリアは半年以内追加のみ"],
+                    pu: [],
+                    else: { caption: "ピックアップ無し", content: [713, 718, 719, 724, 725, 732, 733, 741, 742, 746, 747] }
+                }
+            }
+        ]
+    },
+    {
         start: "2024/2/16(金) 12:00",
         finish: "2024/2/18(日) 23:59",
         type: "お疲れ様ガチャ",
