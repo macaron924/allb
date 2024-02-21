@@ -7879,6 +7879,32 @@ const memoriaJson = [
             { yakuwari: 4, name: ["Sp.マイトバーストB Ⅳ+", "Sp.ウィンドガードバーストB Ⅳ+", "攻:ダメージUP/Sp.ガードDOWN Ⅳ"] },
             { yakuwari: 7, name: ["Sp.ガードヒールE Ⅳ", "Sp.ウィンドガードヒールE Ⅳ", "回:回復UP/副援:支援UP Ⅳ"] }
         ]
+    },
+    {
+        id: 808,
+        name: "クリエイターズコラボ-芽吹く心-",
+        zokusei: 1, cost: 22, costume: 582, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [5, 11] },
+        get_rank: "C (推定)", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "ギガント級共闘戦 - APOCALYPSE -応援BRAND-NEWメモリアガチャ (2024/2/22～)", c3: [""] },
+        skill: [
+            { yakuwari: 4, name: ["Sp.マイトバーストE Ⅴ+", "Sp.ファイアガードバーストB Ⅳ+", "攻:ダメージUP/副攻:火ガードDOWN Ⅳ"] },
+            { yakuwari: 1, name: ["マイトストライクA Ⅵ+", "ファイアパワーストライクA Ⅴ+", "攻:ダメージUP/パワーUP Ⅳ"] },
+            { yakuwari: 2, name: ["マイトストライクE Ⅴ+", "ファイアパワーストライクB Ⅳ+", "攻:ダメージUP/パワーUP Ⅳ"] },
+            { yakuwari: 5, name: ["パワーアシストE Ⅴ", "ファイアパワーアシストE Ⅳ", "援:支援UP/パワーUP Ⅳ"] },
+            { yakuwari: 6, name: ["パワーフォールE Ⅴ", "ファイアパワーフォールE Ⅳ", "援:支援UP/副援:火パワーDOWN Ⅳ"] }
+        ]
+    },
+    {
+        id: 809,
+        name: "クリエイターズコラボ-色とりどりの遊蝶花-",
+        zokusei: 1, cost: 22, costume: 0, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [27, 28] },
+        get_rank: "C (推定)", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "ギガント級共闘戦 - APOCALYPSE -応援BRAND-NEWメモリアガチャ (2024/2/22～)", c3: [""] },
+        skill: [
+            { yakuwari: 5, name: ["Sp.パワーアシストE Ⅴ", "Sp.ファイアパワーアシストE Ⅳ", "援:支援UP/副援:火パワーUP Ⅳ"] },
+            { yakuwari: 2, name: ["マイトブレイクE Ⅴ+", "ファイアガードブレイクB Ⅳ+", "攻:ダメージUP/ガードDOWN Ⅳ"] },
+            { yakuwari: 3, name: ["Sp.マイトスマッシュA Ⅵ+", "Sp.ファイアパワースマッシュA Ⅴ+", "攻:ダメージUP/Sp.パワーUP Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトスマッシュE Ⅴ+", "Sp.ファイアパワースマッシュB Ⅳ+", "攻:ダメージUP/副攻:火パワーUP Ⅳ"] },
+            { yakuwari: 7, name: ["ガードヒールE Ⅴ", "ファイアガードヒールC Ⅴ", "回:回復UP/副援:火ガードUP Ⅳ"] }
+        ]
     }
     /*
     ,
