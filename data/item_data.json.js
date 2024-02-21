@@ -82,7 +82,8 @@ const itemByTypeJson = {
         { index: "costume_503_pendant-ex", name: "汐里/水夕会試作隊服αのペンダントEX", link: false },
         { index: "costume_535_pendant-ex", name: "優珂/ドリーミィパレードのペンダントEX", link: false },
         { index: "costume_569_pendant-ex", name: "灯莉/ビューティフルワールドαのペンダントEX", link: false },
-        { index: "costume_581_pendant-ex", name: "千香瑠/エレガンスストライカーαのペンダントEX", link: false }
+        { index: "costume_581_pendant-ex", name: "千香瑠/エレガンスストライカーαのペンダントEX", link: false },
+        { index: "costume_582_pendant-ex", name: "鶴紗/ナイトルージュαのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -181,6 +182,7 @@ const itemByTypeJson = {
         { index: "gacha-ticket_valentine", name: "バレンタイン記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_valentine-kakutei", name: "バレンタインメモリア100%!!★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_alfheim", name: "アールヴヘイム★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_dream-2", name: "3rd Anniv.ミスティック記念★5確定ガチャチケット", link: true },
         // イベントガチャチケット
         { index: "gacha-ticket_202212-event-1", name: "聖夜へ捧ぐサプライズ★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202212-event-2", name: "凍て空の流星★5確定ガチャチケットⅡ", link: false },
@@ -474,6 +476,7 @@ const itemByTypeJson = {
         { index: "exchange_brand-new_202401-2", name: "BRAND-NEW★5メモリア引換券1月Ⅱ", link: false },
         { index: "exchange_brand-new_202402-1", name: "BRAND-NEW★5メモリア引換券2月", link: false },
         { index: "exchange_brand-new_202402-2", name: "BRAND-NEW★5メモリア引換券2月Ⅱ", link: false },
+        { index: "exchange_brand-new_202402-3", name: "BRAND-NEW★5メモリア引換券2月Ⅲ", link: false },
         // その他
         { index: "exchange_xmas-cuelebre", name: "Xmas記念クエレブレ引換券", link: true },
         { index: "exchange_charm_202312-event-1", name: "誓いのリコネクトCHARM引換券", link: false },
