@@ -2908,6 +2908,11 @@ const costumeJson = [
         "id": 582,
         "chara": 5, "yakuwari": 4, "name": "ナイトルージュα",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP(ギガント限定)", 3], ["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 583,
+        "chara": 34, "yakuwari": 7, "name": "王家修練服α",
+        "percent": 15, "parameter": [["Sp.DEF", 3000], ["DEF", 3000]], "ex": [["水UP", 5]]
     }
     /*
     ,
