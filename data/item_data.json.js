@@ -83,7 +83,8 @@ const itemByTypeJson = {
         { index: "costume_535_pendant-ex", name: "優珂/ドリーミィパレードのペンダントEX", link: false },
         { index: "costume_569_pendant-ex", name: "灯莉/ビューティフルワールドαのペンダントEX", link: false },
         { index: "costume_581_pendant-ex", name: "千香瑠/エレガンスストライカーαのペンダントEX", link: false },
-        { index: "costume_582_pendant-ex", name: "鶴紗/ナイトルージュαのペンダントEX", link: false }
+        { index: "costume_582_pendant-ex", name: "鶴紗/ナイトルージュαのペンダントEX", link: false },
+        { index: "costume_583_pendant-ex", name: "莉芬/王家修練服αのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -486,6 +487,7 @@ const itemByTypeJson = {
         { index: "exchange_creators-gacha", name: "クリエイターズコラボガチャチケット引換券", link: false },
         { index: "exchange_creators-gacha_autumn-fes", name: "クリエイターズコラボガチャチケット引換券", link: false },
         { index: "exchange_creators-gacha_winter-fes", name: "クリエイターズコラボガチャチケット引換券", link: false },
+        { index: "exchange_creators-gacha_winter-fes_202402", name: "クリエイターズコラボガチャチケット引換券", link: false },
         { index: "exchange_kangei-yakuwari-gacha", name: "歓迎CP役割別ガチャチケット引換券", link: false },
         { index: "exchange_kangei-yakuwari-gacha-2023", name: "歓迎CP役割別ガチャチケット2023引換券", link: false },
         { index: "exchange_3rd-anniv-yakuwari-gacha", name: "3rd Anniv.役割別ガチャチケット引換券", link: false }
@@ -506,6 +508,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_202312", name: "ボーナスメダルⅫ", link: false },
         { index: "medal_bonus_202401", name: "ボーナスメダルⅠ", link: false },
         { index: "medal_bonus_202402", name: "ボーナスメダルⅡ", link: false },
+        { index: "medal_bonus_202403", name: "ボーナスメダルⅢ", link: false },
         { index: "medal_bonus_collabo-prisma-illya", name: "シスターズ・カラミティボーナスメダル", link: false },
         { index: "medal_bonus_collabo-madoka-magica", name: "マギカ☆ワンダーワールドボーナスメダル", link: false },
         { index: "medal_bonus_collabo-yuyuyu", name: "白百合の章ボーナスメダル", link: false },
