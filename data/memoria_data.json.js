@@ -7884,7 +7884,7 @@ const memoriaJson = [
         id: 808,
         name: "クリエイターズコラボ-芽吹く心-",
         zokusei: 1, cost: 22, costume: 582, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [5, 11] },
-        get_rank: "C (推定)", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "ギガント級共闘戦 - APOCALYPSE -応援BRAND-NEWメモリアガチャ (2024/2/22～)", c3: [""] },
+        get_rank: "C (推定)", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "ギガント級共闘戦 - APOCALYPSE -応援BRAND-NEWメモリアガチャ (2024/2/20～)", c3: [""] },
         skill: [
             { yakuwari: 4, name: ["Sp.マイトバーストE Ⅴ+", "Sp.ファイアガードバーストB Ⅳ+", "攻:ダメージUP/副攻:火ガードDOWN Ⅳ"] },
             { yakuwari: 1, name: ["マイトストライクA Ⅵ+", "ファイアパワーストライクA Ⅴ+", "攻:ダメージUP/パワーUP Ⅳ"] },
@@ -7897,13 +7897,36 @@ const memoriaJson = [
         id: 809,
         name: "クリエイターズコラボ-色とりどりの遊蝶花-",
         zokusei: 1, cost: 22, costume: 0, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [27, 28] },
-        get_rank: "C (推定)", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "ギガント級共闘戦 - APOCALYPSE -応援BRAND-NEWメモリアガチャ (2024/2/22～)", c3: [""] },
+        get_rank: "C (推定)", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "ギガント級共闘戦 - APOCALYPSE -応援BRAND-NEWメモリアガチャ (2024/2/20～)", c3: [""] },
         skill: [
             { yakuwari: 5, name: ["Sp.パワーアシストE Ⅴ", "Sp.ファイアパワーアシストE Ⅳ", "援:支援UP/副援:火パワーUP Ⅳ"] },
             { yakuwari: 2, name: ["マイトブレイクE Ⅴ+", "ファイアガードブレイクB Ⅳ+", "攻:ダメージUP/ガードDOWN Ⅳ"] },
             { yakuwari: 3, name: ["Sp.マイトスマッシュA Ⅵ+", "Sp.ファイアパワースマッシュA Ⅴ+", "攻:ダメージUP/Sp.パワーUP Ⅳ"] },
             { yakuwari: 4, name: ["Sp.マイトスマッシュE Ⅴ+", "Sp.ファイアパワースマッシュB Ⅳ+", "攻:ダメージUP/副攻:火パワーUP Ⅳ"] },
             { yakuwari: 7, name: ["ガードヒールE Ⅴ", "ファイアガードヒールC Ⅴ", "回:回復UP/副援:火ガードUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 810,
+        name: "クリエイターズコラボ-丸底鍋の既視感-",
+        zokusei: 2, cost: 22, costume: 583, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [34, 7] },
+        get_rank: "C (推定)", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "ウィンターフェスガチャ (2024/2/23～)", c3: [""] },
+        skill: [
+            { yakuwari: 7, name: ["Sp.ガードヒールE Ⅳ", "Sp.ウォーターガードヒールE Ⅳ", "回:回復UP/副援:水ガードUP Ⅳ"] },
+            { yakuwari: 2, name: ["マイトストライクD Ⅲ+", "ウォーターパワーストライクD Ⅲ+", "攻:ダメージUP/副攻:水パワーUP Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅳ+", "Sp.ウォーターガードバーストB Ⅳ+", "攻:ダメージUP/Sp.ガードDOWN Ⅳ"] },
+            { yakuwari: 6, name: ["Sp.パワーフォールE Ⅳ", "Sp.ウォーターパワーフォールE Ⅳ", "援:支援UP/副援:水パワーDOWN Ⅳ"] }
+        ]
+    },
+    {
+        id: 811,
+        name: "クリエイターズコラボ-屋台で一杯-",
+        zokusei: 3, cost: 22, costume: 0, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [68, 12] },
+        get_rank: "C (推定)", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "ウィンターフェスガチャ (2024/2/23～)", c3: [""] },
+        skill: [
+            { yakuwari: 4, name: ["Sp.マイトスマッシュD Ⅲ+", "風：Sp.ウィンドパワースマッシュD Ⅲ+", "攻:ダメージUP/Sp.パワーUP Ⅳ"] },
+            { yakuwari: 5, name: ["パワーアシストE Ⅳ", "ウィンドパワーアシストE Ⅳ", "援:支援UP/副援:風パワーUP Ⅳ"] },
+            { yakuwari: 7, name: ["WガードヒールE Ⅳ", "WカウンターガードヒールE Ⅳ", "回:回復UP/副援:支援UP Ⅳ"] }
         ]
     }
     /*
