@@ -15,6 +15,28 @@
     display: block;
 }
 
+#filter-menu_content .filter-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#filter-menu_content .filter-title {
+    white-space: nowrap;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+#filter-menu_content .filter-group.disable {
+    color: #999999;
+}
+
+#filter-menu_content .filter-group.disable select {
+    color: #999999;
+    border-color: #999999;
+}
+
 #filter-btn {
     width: 100%;
     background: #00bfff;
@@ -74,6 +96,11 @@
     background-color: transparent;
     font-size: 1.6rem;
     height: 2.5rem;
+    line-height: 1.5;
+}
+
+.flex_costume-item table tr:first-child>td:first-child {
+    vertical-align: top;
 }
 
 .flex_costume-item table tr:first-child>td:last-child {
