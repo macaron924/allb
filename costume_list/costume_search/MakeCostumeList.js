@@ -27,13 +27,29 @@ $("#dual-display").click(function () { // モード切替ボタンがクリッ�
 $("select").change(function () { // プルダウンがクリックされたら
     document.getElementById("filter-btn").className = "not-changed";
     document.getElementById("filter-btn").value = "未反映";
+    if (this.value == "") {
+        $(this).next(".filter-group").addClass("disable");
+    } else {
+        $(this).next(".filter-group").removeClass("disable");
+    }
 });
 
 function runButtonPushAction() {
-    parameterSelectionArray = [];
-    percentSelection = document.getElementById("percent").value;
-    parameterSelectionArray.push([document.getElementById("parameter1-type").value, parseInt(document.getElementById("parameter1-value").value)]);
-    parameterSelectionArray.push([document.getElementById("parameter2-type").value, parseInt(document.getElementById("parameter2-value").value)]);
+    percentSelection = [
+        document.getElementById("percent-min").value, 
+        document.getElementById("percent-max").value
+    ];
+    parameterSelectionArray = [
+        [
+            document.getElementById("parameter1-type").value, 
+            document.getElementById("parameter1-min").value, 
+            document.getElementById("parameter1-max").value
+        ],[
+            document.getElementById("parameter2-type").value, 
+            document.getElementById("parameter2-min").value, 
+            document.getElementById("parameter2-max").value
+        ]
+    ];
     exSelection = document.getElementById("ex").value;
     
     makeList();
@@ -42,32 +58,56 @@ function runButtonPushAction() {
 }
 
 function percentFilter(costume) {
+    let percent = costume['percent'];
+    if (percentSelection[0] != "") {
+        let min = parseInt(percentSelection[0]);
+        if (percent < min) {
+            return false;
+        }
+    }
+    if (percentSelection[1] != "") {
+        let max = parseInt(percentSelection[1]);
+        if (percent >= max) {
+            return false;
+        }
+    }
+    return true;
+    /*
     if (percentSelection == 0) return true;
     let percent = costume['percent'];
     if (percent == "") return true;
     if (percent >= percentSelection) return true;
-    return false;
+    return false;*/
 }
 
 function parameterFilter(costume) {
     let tag = costume['parameter'];
     let trueCount = 0;
     for (let j = 0; j < parameterSelectionArray.length; j++) {
-        if ((parameterSelectionArray[j][0] == "") && (parameterSelectionArray[j][1] == 0)) {
+        if (parameterSelectionArray[j][0] == "") {
             trueCount++;
             continue;
         }
         for (let i = 0; i < tag.length; i++) {
-            if ((parameterSelectionArray[j][0] == "") && (tag[i][1] >= parameterSelectionArray[j][1])) {
-                trueCount++;
-                break;
-            } else if ((tag[i][0] == parameterSelectionArray[j][0]) && (tag[i][1] >= parameterSelectionArray[j][1])) {
-                trueCount++;
-                break;
+            if (parameterSelectionArray[j][0] != tag[i][0]) {
+                continue;
             }
+            if (parameterSelectionArray[j][1] != "") {
+                let min = parseInt(parameterSelectionArray[j][1]);
+                if (tag[i][1] < min) {
+                    continue;
+                }
+            }
+            if (parameterSelectionArray[j][2] != "") {
+                let max = parseInt(parameterSelectionArray[j][2]);
+                if (tag[i][1] >= max) {
+                    continue;
+                }
+            }
+            trueCount++;
         }
     }
-    if (trueCount == parameterSelectionArray.length) return true;
+    if (trueCount == 2) return true;
     return false;
 }
 
@@ -218,8 +258,12 @@ function makeList() {
     flexbox.className = "flex_costume-box";
     
     // テーブル本体を作成
+    let resultCount = 0;
     for (let i = (costumeJson.length - 1); i >= 0; i--) {
         if (filter(costumeJson[i]) == true) {
+            
+            resultCount++;
+            
             // flexitemを生成
             let flexitem = document.createElement('div');
             flexitem.className = "flex_costume-item";
@@ -235,6 +279,9 @@ function makeList() {
     }
     // 生成したflexboxを追加する
     document.getElementById('mainbox').replaceChildren(flexbox);
+    
+    // 検索結果件数表示
+    document.getElementById('resultCount').replaceChildren(resultCount);
 }
 
 // 強調する基準
@@ -243,7 +290,10 @@ const totalParameterBorder = 6000
 // 初期化
 let charaArray = [];
 let yakuwariArray = [];
-let percentSelection = 0;
-let parameterSelectionArray = [];
+let percentSelection = ["", ""];
+let parameterSelectionArray = [
+    ["", "", ""],
+    ["", "", ""]
+];
 let exSelection = "";
 makeList();

@@ -83,19 +83,30 @@
                         </button>
                     </div>
                 </div>
-                <div>
-                    <label for="percent">固有%</label>
-                    <select id="percent">
-                        <option value="">(効果量を選択)</option>
-                        <option value="5">5～</option>
-                        <option value="7.5">7.5～</option>
-                        <option value="10">10～</option>
-                        <option value="12.5">12.5～</option>
-                        <option value="15">15～</option>
-                    </select>
+                <div class="filter-box">
+                    <div class="filter-title">固有%</div>
+                    <div class="filter-group">
+                        <select id="percent-min">
+                            <option value="">(下限なし)</option>
+                            <option value="5">5</option>
+                            <option value="7.5">7.5</option>
+                            <option value="10">10</option>
+                            <option value="12.5">12.5</option>
+                            <option value="15">15</option>
+                        </select>
+                        ～
+                        <select id="percent-max">
+                            <option value="">(上限なし)</option>
+                            <option value="5">5</option>
+                            <option value="7.5">7.5</option>
+                            <option value="10">10</option>
+                            <option value="12.5">12.5</option>
+                            <option value="15">15</option>
+                        </select>
+                    </div>
                 </div>
-                <div>
-                    <label for="parameter1">固有パラメータ①</label>
+                <div class="filter-box">
+                    <div class="filter-title">固有パラメータ①</div>
                     <select id="parameter1-type">
                         <option value="">(対象を選択)</option>
                         <option value="ATK">ATK</option>
@@ -103,17 +114,31 @@
                         <option value="DEF">DEF</option>
                         <option value="Sp.DEF">Sp.DEF</option>
                     </select>
-                    <select id="parameter1-value">
-                        <option value="0">(効果量を選択)</option>
-                        <option value="1">1～</option>
-                        <option value="50">50～</option>
-                        <option value="500">500～</option>
-                        <option value="1500">1500～</option>
-                        <option value="3000">3000～</option>
-                    </select>
+                    <div class="filter-group disable">
+                        　
+                        <select id="parameter1-min">
+                            <option value="">(下限なし)</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="50">50</option>
+                            <option value="500">500</option>
+                            <option value="1500">1500</option>
+                            <option value="3000">3000</option>
+                        </select>
+                        以上
+                        <select id="parameter1-max">
+                            <option value="">(上限なし)</option>
+                            <option value="1">1</option>
+                            <option value="50">50</option>
+                            <option value="500">500</option>
+                            <option value="1500">1500</option>
+                            <option value="3000">3000</option>
+                        </select>
+                        未満
+                    </div>
                 </div>
-                <div>
-                    <label for="parameter2">固有パラメータ②</label>
+                <div class="filter-box">
+                    <div class="filter-title">固有パラメータ②</div>
                     <select id="parameter2-type">
                         <option value="">(対象を選択)</option>
                         <option value="ATK">ATK</option>
@@ -121,17 +146,31 @@
                         <option value="DEF">DEF</option>
                         <option value="Sp.DEF">Sp.DEF</option>
                     </select>
-                    <select id="parameter2-value">
-                        <option value="0">(効果量を選択)</option>
-                        <option value="1">1～</option>
-                        <option value="50">50～</option>
-                        <option value="500">500～</option>
-                        <option value="1500">1500～</option>
-                        <option value="3000">3000～</option>
-                    </select>
+                    <div class="filter-group disable">
+                        　
+                        <select id="parameter2-min">
+                            <option value="">(下限なし)</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="50">50</option>
+                            <option value="500">500</option>
+                            <option value="1500">1500</option>
+                            <option value="3000">3000</option>
+                        </select>
+                        以上
+                        <select id="parameter2-max">
+                            <option value="">(上限なし)</option>
+                            <option value="1">1</option>
+                            <option value="50">50</option>
+                            <option value="500">500</option>
+                            <option value="1500">1500</option>
+                            <option value="3000">3000</option>
+                        </select>
+                        未満
+                    </div>
                 </div>
-                <div>
-                    <label for="ex">EXリリィスキル</label>
+                <div class="filter-box">
+                    <div class="filter-title">EXリリィスキル</div>
                     <select id="ex">
                         <option value="">(効果を選択)</option>
                         <option value="火UP">火UP</option>
@@ -154,6 +193,7 @@
                 </div>
             </div>
             <!--flexbox生成位置-->
+            <h2>検索結果：<span id="resultCount"></span>件</h2>
             <div class="mainbox" id ='mainbox'></div>
         </main>
 
