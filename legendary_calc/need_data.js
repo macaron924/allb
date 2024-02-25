@@ -1,4 +1,4 @@
-const item_index = ['charm_1st', 'charm_2nd', 'charm_2nd_fc01', 'costume_1st_lv1', 'costume_1st_lv2']
+const item_index = ["charm_1st", "charm_2nd", "charm_2nd_fc01", "costume_1st_lv1", "costume_1st_lv2"]
 
 const need = {
     charm_1st:       { medal: 0,     parts4: 0,   parts3: 0,    parts2: 710,  parts1: 1500 },

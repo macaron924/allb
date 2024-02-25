@@ -1,7 +1,7 @@
-$(document).on('click', '#memoria-open-btn', function() {
+$(document).on("click", "#memoria-open-btn", function() {
 	let findElm = $(this).next(".flex_btn-box");
-	$('#memoria_list').toggleClass('active');
-	$(this).toggleClass('active');
+	$("#memoria_list").toggleClass("active");
+	$(this).toggleClass("active");
 });
 
 // URLパラメータ取得
@@ -9,7 +9,7 @@ const url = new URL(window.location.href);
 const params = url.searchParams;
 
 // indexのパラメータ取得
-const memoriaSelection = params.get('memoriaID');
+const memoriaSelection = params.get("memoriaID");
 
 let exchangeContentList = [];
 for (let i in exchangeDataJson) {
@@ -25,7 +25,7 @@ for (let i in exchangeDataJson) {
 for (let i in memoriaJson) {
     let img = document.createElement("img");
     img.src = `../../images/memoria/memoria_${memoriaJson[i]["id"]}.jpg`;
-    let flexitem = `<div class="flex_memoria-item"><a href="./?memoriaID=${memoriaJson[i]["id"]}"><img src="../../images/memoria/memoria_${memoriaJson[i]['id']}.jpg" loading="lazy"><br>${memoriaJson[i]['name']}</a></div>`;
+    let flexitem = `<div class="flex_memoria-item"><a href="./?memoriaID=${memoriaJson[i]["id"]}"><img src="../../images/memoria/memoria_${memoriaJson[i]["id"]}.jpg" loading="lazy"><br>${memoriaJson[i]["name"]}</a></div>`;
     document.getElementById("memoria_list").insertAdjacentHTML("beforeend", flexitem);
 }
 
@@ -40,8 +40,8 @@ if (memoriaSelection == null) {
                 text += `
                 <div class="flex_medal-item">
                 <table>
-                    <tr><td rowspan="2"><a href="../../exchange_info/content/?index=${exchangeContentList[j]['index']}"><img src="../../images/item/${exchangeContentList[j]['index']}.jpg"></a></td>
-                        <td><a href="../../exchange_info/content/?index=${exchangeContentList[j]['index']}">${exchangeContentList[j]['name']}</a></td></tr>
+                    <tr><td rowspan="2"><a href="../../exchange_info/content/?index=${exchangeContentList[j]["index"]}"><img src="../../images/item/${exchangeContentList[j]["index"]}.jpg"></a></td>
+                        <td><a href="../../exchange_info/content/?index=${exchangeContentList[j]["index"]}">${exchangeContentList[j]["name"]}</a></td></tr>
                 </table></div>
                 `;
                 judge = true;
@@ -49,8 +49,8 @@ if (memoriaSelection == null) {
         }
         if (judge == false) text += "該当なし";
 
-        document.getElementById("result_img").src = `../../images/memoria/memoria_${memoriaJson[i]['id']}.jpg`;
-        document.getElementById("result_name").innerHTML = `${memoriaJson[i]['name']}`;
+        document.getElementById("result_img").src = `../../images/memoria/memoria_${memoriaJson[i]["id"]}.jpg`;
+        document.getElementById("result_name").innerHTML = `${memoriaJson[i]["name"]}`;
         document.getElementById("result_ticket").insertAdjacentHTML("beforeend", text);
         break;
     }
@@ -59,9 +59,9 @@ if (memoriaSelection == null) {
 }
 
 
-const images = document.querySelectorAll('img');
+const images = document.querySelectorAll("img");
 images.forEach((image) => {
-    image.addEventListener('error',() => {
-        image.setAttribute('src', '../../images/no-image.png');
+    image.addEventListener("error",() => {
+        image.setAttribute("src", "../../images/no-image.png");
     });
 });

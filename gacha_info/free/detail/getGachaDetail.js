@@ -7,52 +7,52 @@ function getItemName(item) {
     let link = "";
     let items;
 
-    if (item.startsWith('memoria') && item.endsWith('before')) {
+    if (item.startsWith("memoria") && item.endsWith("before")) {
         let itemImg = "memoria_before/" + item;
-        let array = item.split('_');
+        let array = item.split("_");
         let id = parseInt(array[1]);
         itemName = `★5メモリア「${getMemoriaName(id)}」`;
         return [itemImg, itemName, link];
     }
 
     switch (true) {
-        case item.startsWith('costume'):
-            items = itemByTypeJson['costume_sozai'];
+        case item.startsWith("costume"):
+            items = itemByTypeJson["costume_sozai"];
             break;
-        case item.startsWith('memoria_') && item.endsWith('evolution'):
-            items = itemByTypeJson['memoria_sozai'];
+        case item.startsWith("memoria_") && item.endsWith("evolution"):
+            items = itemByTypeJson["memoria_sozai"];
             break;
-        case item.startsWith('memoria_') && item.endsWith('awakening'):
-            items = itemByTypeJson['memoria_sozai'];
+        case item.startsWith("memoria_") && item.endsWith("awakening"):
+            items = itemByTypeJson["memoria_sozai"];
             break;
-        case item.startsWith('gacha-ticket'):
-            items = itemByTypeJson['gacha_ticket'];
-            let index = item.substring(item.indexOf('gacha-ticket_') + 'gacha-ticket_'.length);
+        case item.startsWith("gacha-ticket"):
+            items = itemByTypeJson["gacha_ticket"];
+            let index = item.substring(item.indexOf("gacha-ticket_") + "gacha-ticket_".length);
             link = `gacha_info/ticket/?index=${index}`;
             break;
-        case item.startsWith('exchange_pendant-ex'):
-            items = itemByTypeJson['exchange_pendant_ex'];
+        case item.startsWith("exchange_pendant-ex"):
+            items = itemByTypeJson["exchange_pendant_ex"];
             break;
-        case item.startsWith('exchange_costume'):
-            items = itemByTypeJson['exchange_costume'];
+        case item.startsWith("exchange_costume"):
+            items = itemByTypeJson["exchange_costume"];
             link = `exchange_info/content/?index=${item}`;
             break;
-        case item.startsWith('exchange'):
-            items = itemByTypeJson['exchange'];
+        case item.startsWith("exchange"):
+            items = itemByTypeJson["exchange"];
             link = `exchange_info/content/?index=${item}`;
             break;
-        case item.startsWith('medal_bonus'):
-            items = itemByTypeJson['medal_bonus'];
+        case item.startsWith("medal_bonus"):
+            items = itemByTypeJson["medal_bonus"];
             link = `exchange_info/content/?index=${item}`;
             break;
-        default: items = itemByTypeJson['other'];
+        default: items = itemByTypeJson["other"];
     }
 
     for (let i = 0; i < items.length; i++) {
-        if (items[i]['index'] == item) {
+        if (items[i]["index"] == item) {
             itemImg = `item/${item}`;
-            itemName = items[i]['name'];
-            if (items[i]['link'] == false) link = "";
+            itemName = items[i]["name"];
+            if (items[i]["link"] == false) link = "";
             break;
         }
     }
@@ -65,7 +65,7 @@ function getItemName(item) {
 function getMemoriaName(id) {
 
     for (let i = 0; i < memoriaJson.length; i++) {
-        if (memoriaJson[i]['id'] == id) return memoriaJson[i]['name'];
+        if (memoriaJson[i]["id"] == id) return memoriaJson[i]["name"];
     }
     return "";
 }
@@ -76,7 +76,7 @@ function getMemoriaName(id) {
 function addMemoriaList(memoriaArray) {
 
     // flexboxを生成
-    let flexbox = document.createElement('div');
+    let flexbox = document.createElement("div");
     flexbox.className = "flex_memoria-box";
     
     // 中身を作成
@@ -86,7 +86,7 @@ function addMemoriaList(memoriaArray) {
         let name = getMemoriaName(id);
 
         // flexitemを生成
-        let flexitem = document.createElement('div');
+        let flexitem = document.createElement("div");
         flexitem.className = "flex_memoria-item";
         flexitem.innerHTML = `<img src="../../../images/memoria/memoria_${id}.jpg" loading="lazy"><br>${name}`;
 
@@ -104,14 +104,14 @@ function getGachaData(gachaSelection) {
     let list = gachaFree;
 
     for (let i = 0; i < list.length; i++) {
-        for (let j = 0; j < list[i]['gacha'].length; j++) {
-            if (list[i]['gacha'][j]['index'] == gachaSelection) {
+        for (let j = 0; j < list[i]["gacha"].length; j++) {
+            if (list[i]["gacha"][j]["index"] == gachaSelection) {
 
                 return [
-                    list[i]['start'], 
-                    list[i]['finish'], 
-                    list[i]['medal'], 
-                    list[i]['gacha'][j]
+                    list[i]["start"], 
+                    list[i]["finish"], 
+                    list[i]["medal"], 
+                    list[i]["gacha"][j]
                 ];
             }
         }
@@ -124,8 +124,8 @@ function getGachaData(gachaSelection) {
  */
 function writeBanner() {
 
-    if (thisGacha['big_banner'] == true) banner = `<img class="banner-big_img" src="../../../images/banner_big/${thisGacha['index']}_big.jpg">`;
-    else banner = `<img class="banner_img" src="../../../images/banner/${thisGacha['index']}.jpg">`;
+    if (thisGacha["big_banner"] == true) banner = `<img class="banner-big_img" src="../../../images/banner_big/${thisGacha["index"]}_big.jpg">`;
+    else banner = `<img class="banner_img" src="../../../images/banner/${thisGacha["index"]}.jpg">`;
 
     document.getElementById("banner").insertAdjacentHTML("beforeend", banner);
 }
@@ -143,20 +143,20 @@ function writeStartFinish() {
  */
 function writeGachaBonus() {
 
-    let noticeArray = thisGacha['bonus']['notice'];
+    let noticeArray = thisGacha["bonus"]["notice"];
     for (let i = 0; i < noticeArray.length; i++) {
 
-        let p = document.createElement('p');
+        let p = document.createElement("p");
 
-        let notice = `${noticeArray[i]['text']}<br>`;
-        for (let j = 0; j < noticeArray[i]['item'].length; j++) {
+        let notice = `${noticeArray[i]["text"]}<br>`;
+        for (let j = 0; j < noticeArray[i]["item"].length; j++) {
 
-            let itemIndex = noticeArray[i]['item'][j]['index'];
-            if (noticeArray[i]['item'][j]['index'] == "medal") itemIndex = medal;
+            let itemIndex = noticeArray[i]["item"][j]["index"];
+            if (noticeArray[i]["item"][j]["index"] == "medal") itemIndex = medal;
             
             let [itemImg, itemName, link] = getItemName(itemIndex);
 
-            let value = noticeArray[i]['item'][j]['value'];
+            let value = noticeArray[i]["item"][j]["value"];
 
             let item = `<img class="item_img" src="../../../images/${itemImg}.jpg">${itemName} ×${value}<br>`;
             
@@ -185,12 +185,12 @@ function writeBonusTable() {
         for (let i = 0; i < usedItemArray.length; i++) {
 
             let thisItem = usedItemArray[i];
-            if (index == thisItem['index']) {
+            if (index == thisItem["index"]) {
 
                 let itemIndex = index;
-                let itemImg = thisItem['img'];
-                let itemName = thisItem['name'];
-                let link = thisItem['link'];
+                let itemImg = thisItem["img"];
+                let itemName = thisItem["name"];
+                let link = thisItem["link"];
 
                 return [itemImg, itemName, link];
             }
@@ -204,31 +204,31 @@ function writeBonusTable() {
         return [itemImg, itemName, link];
     }
 
-    let table = document.createElement('table');
+    let table = document.createElement("table");
 
-    let tableHeaderArray = thisGacha['bonus']['table_header'];
-    let trHeader = document.createElement('tr');
+    let tableHeaderArray = thisGacha["bonus"]["table_header"];
+    let trHeader = document.createElement("tr");
     for (let i = 0; i < tableHeaderArray.length; i++) {
         let td = `<th>${tableHeaderArray[i]}</th>`;
         trHeader.insertAdjacentHTML("beforeend", td);
     }
     table.appendChild(trHeader);
 
-    let tableContentArray = thisGacha['bonus']['table_content'];
+    let tableContentArray = thisGacha["bonus"]["table_content"];
     for (let i = 0; i < tableContentArray.length; i++) {
 
-        let tr = document.createElement('tr');
+        let tr = document.createElement("tr");
 
-        for (let j = 0; j < tableContentArray[i]['need'].length; j++) {
-            let td = `<td>${tableContentArray[i]['need'][j]}</td>`;
+        for (let j = 0; j < tableContentArray[i]["need"].length; j++) {
+            let td = `<td>${tableContentArray[i]["need"][j]}</td>`;
             tr.insertAdjacentHTML("beforeend", td);
         }
 
         let tdContent = "";
-        for (let j = 0; j < tableContentArray[i]['item'].length; j++) {
+        for (let j = 0; j < tableContentArray[i]["item"].length; j++) {
             
-            let itemIndex = tableContentArray[i]['item'][j]['index'];
-            let value = tableContentArray[i]['item'][j]['value']
+            let itemIndex = tableContentArray[i]["item"][j]["index"];
+            let value = tableContentArray[i]["item"][j]["value"]
 
             let [itemImg, itemName, link] = getItemFromUsedList(itemIndex);
 
@@ -256,7 +256,7 @@ function writeBonusTable() {
  */
 function writeTotalRatio() {
 
-    let total = thisGacha['lineup']['total_ratio'];
+    let total = thisGacha["lineup"]["total_ratio"];
 
     let ratioStr = "";
     if (total.length == 1) ratioStr = ` ★5出現率${total[0]}%`;
@@ -274,10 +274,10 @@ function writeTotalRatio() {
  */
 function writeLineupNotice() {
 
-    let noticeArray = thisGacha['lineup']['notice'];
+    let noticeArray = thisGacha["lineup"]["notice"];
     for (let i = 0; i < noticeArray.length; i++) {
 
-        let p = document.createElement('p');
+        let p = document.createElement("p");
 
         let notice = `${noticeArray[i]}<br>`;
 
@@ -291,13 +291,13 @@ function writeLineupNotice() {
  */
 function writeLineup() {
 
-    let total = thisGacha['lineup']['total_ratio'];
+    let total = thisGacha["lineup"]["total_ratio"];
 
-    for (let i = 0; i < thisGacha['lineup']['pu'].length; i++) {
+    for (let i = 0; i < thisGacha["lineup"]["pu"].length; i++) {
 
-        let caption = thisGacha['lineup']['pu'][i]['caption'];
-        let ratio = thisGacha['lineup']['pu'][i]['ratio'];
-        let content = thisGacha['lineup']['pu'][i]['content'];
+        let caption = thisGacha["lineup"]["pu"][i]["caption"];
+        let ratio = thisGacha["lineup"]["pu"][i]["ratio"];
+        let content = thisGacha["lineup"]["pu"][i]["content"];
 
         for (let j = 0; j < total.length; j++) {
             total[j] -= (ratio[j] * content.length);
@@ -316,11 +316,11 @@ function writeLineup() {
         document.getElementById("lineup").insertAdjacentHTML("beforeend", captionStr);
 
         let memoriaList = addMemoriaList(content);
-        document.getElementById('lineup').appendChild(memoriaList);
+        document.getElementById("lineup").appendChild(memoriaList);
     }
 
-    let caption = thisGacha['lineup']['else']['caption'];
-    let content = thisGacha['lineup']['else']['content'];
+    let caption = thisGacha["lineup"]["else"]["caption"];
+    let content = thisGacha["lineup"]["else"]["content"];
     let ratio = [];
     for (let j = 0; j < total.length; j++) {
         ratio.push(total[j] / content.length);
@@ -338,7 +338,7 @@ function writeLineup() {
     document.getElementById("lineup").insertAdjacentHTML("beforeend", captionStr);
 
     let memoriaList = addMemoriaList(content);
-    document.getElementById('lineup').appendChild(memoriaList);
+    document.getElementById("lineup").appendChild(memoriaList);
 }
 
 
@@ -347,7 +347,7 @@ const url = new URL(window.location.href);
 const params = url.searchParams;
 
 // indexのパラメータ取得
-const gachaSelection = params.get('index');
+const gachaSelection = params.get("index");
 
 // 指定ガチャのデータを取得
 const [start, finish, medal, thisGacha] = getGachaData(gachaSelection);
@@ -362,7 +362,7 @@ if (thisGacha == "") {  // 指定ガチャが見つからなかった
 } else {  // 見つかった
 
     // ガチャ名取得とタイトル反映
-    const gachaName = thisGacha['name'];
+    const gachaName = thisGacha["name"];
     document.title = gachaName;
     document.getElementById("title").textContent = gachaName;
 
@@ -378,9 +378,9 @@ if (thisGacha == "") {  // 指定ガチャが見つからなかった
 
 
 
-const images = document.querySelectorAll('img');
+const images = document.querySelectorAll("img");
 images.forEach((image) => {
-    image.addEventListener('error',() => {
-        image.setAttribute('src', '../../../images/no-image.png');
+    image.addEventListener("error",() => {
+        image.setAttribute("src", "../../../images/no-image.png");
     });
 });
