@@ -1,5 +1,97 @@
 const gachaLimited202402 = [
     {
+        start: "2024/2/25(日) 12:00",
+        finish: "2024/2/27(火) 23:59",
+        type: "限界突破応援属性別ガチャ",
+        medal: "medal_bonus_202402",
+        gacha: [
+            {
+                index: "20240225_1-1",
+                name: "3日間限定!! 限界突破応援 火属性ガチャ",
+                big_banner: true,
+                bonus: {
+                    notice: [
+                        { text: "11回ガチャ8回限定", item: [] },
+                        { text: "ガチャを引く毎に", item: [ { index: "medal", value: 100}, { index: "goggle-3", value: 5 } ] }
+                    ],
+                    table_header: ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    table_content: [
+                        { need: [1, 11], item: [ { index: "skip-ticket", value: 300 } ] },
+                        { need: [2, 22], item: [ { index: "moon-fire", value: 1 } ] },
+                        { need: [3, 33], item: [ { index: "gacha-ticket_cost17", value: 1 } ] },
+                        { need: [4, 44], item: [ { index: "gacha-ticket_zokusei-fire", value: 1 } ] },
+                        { need: [5, 55], item: [ { index: "moon-fire", value: 1 } ] },
+                        { need: [6, 66], item: [ { index: "gacha-ticket_cost18", value: 1 } ] },
+                        { need: [7, 77], item: [ { index: "gacha-ticket_zokusei-fire", value: 1 } ] },
+                        { need: [8, 88], item: [ { index: "moon", value: 1 } ] }
+                    ]
+                },
+                lineup: {
+                    total_ratio: [5],
+                    notice: ["★5メモリアはコスト18以上のみ"],
+                    pu: [],
+                    else: { caption: "ピックアップ無し", content: [123, 148, 149, 173, 170, 171, 172, 174, 176, 202, 203, 204, 206, 220, 221, 261, 262, 263, 264, 504, 505, 538, 539, 533, 534, 535, 536, 557, 558, 559, 560, 561, 578, 579, 580, 581, 586, 587, 588, 589, 591, 592, 609, 610, 611, 612, 663, 665] }
+                }
+            },
+            {
+                index: "20240225_1-2",
+                name: "3日間限定!! 限界突破応援 水属性ガチャ",
+                big_banner: true,
+                bonus: {
+                    notice: [
+                        { text: "11回ガチャ8回限定", item: [] },
+                        { text: "ガチャを引く毎に", item: [ { index: "medal", value: 100}, { index: "goggle-3", value: 5 } ] }
+                    ],
+                    table_header: ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    table_content: [
+                        { need: [1, 11], item: [ { index: "skip-ticket", value: 300 } ] },
+                        { need: [2, 22], item: [ { index: "moon-water", value: 1 } ] },
+                        { need: [3, 33], item: [ { index: "gacha-ticket_cost17", value: 1 } ] },
+                        { need: [4, 44], item: [ { index: "gacha-ticket_zokusei-water", value: 1 } ] },
+                        { need: [5, 55], item: [ { index: "moon-water", value: 1 } ] },
+                        { need: [6, 66], item: [ { index: "gacha-ticket_cost18", value: 1 } ] },
+                        { need: [7, 77], item: [ { index: "gacha-ticket_zokusei-water", value: 1 } ] },
+                        { need: [8, 88], item: [ { index: "moon", value: 1 } ] }
+                    ]
+                },
+                lineup: {
+                    total_ratio: [5],
+                    notice: ["★5メモリアはコスト18以上のみ"],
+                    pu: [],
+                    else: { caption: "ピックアップ無し", content: [153, 155, 169, 175, 186, 190, 198, 216, 218, 232, 233, 391, 392, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 410, 411, 406, 407, 408, 409, 414, 415, 416, 418, 419, 420, 421, 431, 432, 427, 428, 429, 430, 445, 446, 451, 452, 453, 454, 457, 468, 469, 471, 474, 475, 480, 483, 624, 625, 626, 627, 638, 639, 650, 652, 695] }
+                }
+            },
+            {
+                index: "20240225_1-3",
+                name: "3日間限定!! 限界突破応援 風属性ガチャ",
+                big_banner: true,
+                bonus: {
+                    notice: [
+                        { text: "11回ガチャ8回限定", item: [] },
+                        { text: "ガチャを引く毎に", item: [ { index: "medal", value: 100}, { index: "goggle-3", value: 5 } ] }
+                    ],
+                    table_header: ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    table_content: [
+                        { need: [1, 11], item: [ { index: "skip-ticket", value: 300 } ] },
+                        { need: [2, 22], item: [ { index: "moon-wind", value: 1 } ] },
+                        { need: [3, 33], item: [ { index: "gacha-ticket_cost17", value: 1 } ] },
+                        { need: [4, 44], item: [ { index: "gacha-ticket_zokusei-wind", value: 1 } ] },
+                        { need: [5, 55], item: [ { index: "moon-wind", value: 1 } ] },
+                        { need: [6, 66], item: [ { index: "gacha-ticket_cost18", value: 1 } ] },
+                        { need: [7, 77], item: [ { index: "gacha-ticket_zokusei-wind", value: 1 } ] },
+                        { need: [8, 88], item: [ { index: "moon", value: 1 } ] }
+                    ]
+                },
+                lineup: {
+                    total_ratio: [5],
+                    notice: ["★5メモリアはコスト18以上のみ"],
+                    pu: [],
+                    else: { caption: "ピックアップ無し", content: [158, 159, 161, 162, 191, 192, 187, 188, 189, 193, 208, 209, 210, 211, 213, 214, 215, 250, 251, 444, 447, 448, 449, 455, 456, 458, 461, 467, 470, 481, 482, 484, 498, 499, 500, 501, 502, 548, 549, 550, 551, 552, 564, 566, 567, 568, 569, 570, 602, 603, 604, 605, 614, 615, 633, 634, 635, 636, 684, 686] }
+                }
+            }
+        ]
+    },
+    {
         start: "2024/2/23(金) 12:00",
         finish: "2024/3/4(月) 23:59",
         type: "その他のガチャ",
