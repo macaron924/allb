@@ -1,15 +1,15 @@
 function getGachaData(gachaSelection) {
     for (let i = 0; i < gachaTicketJson.length; i++) {
-        if (gachaTicketJson[i]['index'] == gachaSelection) return gachaTicketJson[i];
+        if (gachaTicketJson[i]["index"] == gachaSelection) return gachaTicketJson[i];
     }
     return "";
 }
 
 function getWholeInfo() {
-    let totalRatio = thisGacha['lineup']['total-ratio'];
+    let totalRatio = thisGacha["lineup"]["total-ratio"];
     let volume = 0;
-    for (let i = 0; i < thisGacha['lineup']['else'].length; i++) {
-        volume += thisGacha['lineup']['else'][i]['content'].length;
+    for (let i = 0; i < thisGacha["lineup"]["else"].length; i++) {
+        volume += thisGacha["lineup"]["else"][i]["content"].length;
     }
     let individualRatio = totalRatio / volume;
     let individualRatioString = (Math.floor(individualRatio * 1000) / 1000).toFixed(3);
@@ -27,14 +27,14 @@ function addTopics(topicArray) {
 
 function getMemoriaName(id) {
     for (let i = 0; i < memoriaJson.length; i++) {
-        if (memoriaJson[i]['id'] == id) return memoriaJson[i]['name'];
+        if (memoriaJson[i]["id"] == id) return memoriaJson[i]["name"];
     }
     return "";
 }
 
 function addMemoriaList(memoriaArray) {
     // flexboxを生成
-    let flexbox = document.createElement('div');
+    let flexbox = document.createElement("div");
     flexbox.className = "flex_memoria-box";
     
     // テーブル本体を作成
@@ -42,7 +42,7 @@ function addMemoriaList(memoriaArray) {
         id = memoriaArray[i];
 
         // flexitemを生成
-        let flexitem = document.createElement('div');
+        let flexitem = document.createElement("div");
         flexitem.className = "flex_memoria-item";
         flexitem.innerHTML = `<img src="../../images/memoria/memoria_${id}.jpg" loading="lazy"><br>${getMemoriaName(id)}`;
 
@@ -54,12 +54,12 @@ function addMemoriaList(memoriaArray) {
 }
 
 function addLineup() {
-    let topics = addTopics(thisGacha['lineup']['topic']);
-    document.getElementById('lineup').insertAdjacentHTML('beforeend', topics);
-    for (let i = 0; i < thisGacha['lineup']['else'].length; i++) {
-        let caption = `<br><h3>${thisGacha['lineup']['else'][i]['date']} ${thisGacha['lineup']['else'][i]['caption']} :</h3>`;
-        document.getElementById('lineup').insertAdjacentHTML('beforeend', caption);
-        document.getElementById('lineup').appendChild(addMemoriaList(thisGacha['lineup']['else'][i]['content']));
+    let topics = addTopics(thisGacha["lineup"]["topic"]);
+    document.getElementById("lineup").insertAdjacentHTML("beforeend", topics);
+    for (let i = 0; i < thisGacha["lineup"]["else"].length; i++) {
+        let caption = `<br><h3>${thisGacha["lineup"]["else"][i]["date"]} ${thisGacha["lineup"]["else"][i]["caption"]} :</h3>`;
+        document.getElementById("lineup").insertAdjacentHTML("beforeend", caption);
+        document.getElementById("lineup").appendChild(addMemoriaList(thisGacha["lineup"]["else"][i]["content"]));
     }
 }
 
@@ -69,7 +69,7 @@ const url = new URL(window.location.href);
 const params = url.searchParams;
 
 // indexのパラメータ取得
-const gachaSelection = params.get('index');
+const gachaSelection = params.get("index");
 
 // 指定ガチャのデータを取得
 const thisGacha = getGachaData(gachaSelection);
@@ -84,7 +84,7 @@ if (thisGacha == "") {  // 指定ガチャが見つからなかった
 } else {  // 見つかった
 
     // ガチャ名取得とタイトル反映
-    const gachaName = thisGacha['name'];
+    const gachaName = thisGacha["name"];
     document.title = gachaName;
     document.getElementById("title").textContent = gachaName;
 

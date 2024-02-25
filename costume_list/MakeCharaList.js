@@ -1,10 +1,10 @@
-$(document).on('click', '.belong', function() {//タイトル要素をクリックしたら
+$(document).on("click", ".belong", function() {//タイトル要素をクリックしたら
 	let findElm = $(this).next(".flex_btn-box"); // 直後のアコーディオンを行うエリアを取得し
-	$(findElm).toggleClass('close'); // closeクラスを付与
-	$(this).toggleClass('close'); // 自身にもcloseクラスを付与
+	$(findElm).toggleClass("close"); // closeクラスを付与
+	$(this).toggleClass("close"); // 自身にもcloseクラスを付与
 });
 /*
-$(document).on('click', 'button.chara', function() { // 選択ボタンがクリックされたら
+$(document).on("click", "button.chara", function() { // 選択ボタンがクリックされたら
     let value = this.value;
     location.href = value;
 });*/
@@ -19,16 +19,16 @@ function getChara(charaID) {
     return ["", ""];
 }
 
-let charaList = document.createElement('div');
+let charaList = document.createElement("div");
 for (let i in charaBelongJson) {
 
     if (charaBelongJson[i]["playable"] == false) continue;
 
-    let caption = document.createElement('h3');
+    let caption = document.createElement("h3");
     caption.className = "belong";
     caption.innerHTML = `<span>▶</span> ${charaBelongJson[i]["belong"]}`;
     charaList.appendChild(caption);
-    let buttonBox = document.createElement('div');
+    let buttonBox = document.createElement("div");
     buttonBox.className = "flex_btn-box";
     for (let j in charaBelongJson[i]["chara"]) {
 

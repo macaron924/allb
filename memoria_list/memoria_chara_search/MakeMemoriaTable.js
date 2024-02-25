@@ -1,16 +1,16 @@
 $(".category").click(function () {//タイトル要素をクリックしたら
 	let findElm = $(this).next(".flex_chara-btn-box");//直後のアコーディオンを行うエリアを取得し
-	$(findElm).toggleClass('close');// closeクラスを付与
-	$(this).toggleClass('close');// 自身にもcloseクラスを付与
+	$(findElm).toggleClass("close");// closeクラスを付与
+	$(this).toggleClass("close");// 自身にもcloseクラスを付与
 });
 
 $("#chara-open-btn").click(function () { // キャラ選択表示ボタンがクリックされたら
-    $(this).toggleClass('active'); // 自身にactiveクラスを付与
-    $("#chara_list").toggleClass('active'); // chara_listにactiveクラスを付与(リストopen)
+    $(this).toggleClass("active"); // 自身にactiveクラスを付与
+    $("#chara_list").toggleClass("active"); // chara_listにactiveクラスを付与(リストopen)
 });
 
 $(".select-btn").click(function () { // キャラ選択ボタンがクリックされたら
-    $(this).toggleClass('active'); // 自身にactiveクラスを付与(色付け)
+    $(this).toggleClass("active"); // 自身にactiveクラスを付与(色付け)
 });
 
 $("#mode-check").click(function () { // モード選択ボタンがクリックされたら
@@ -85,13 +85,13 @@ function charaFilter(memoriaCharaArray) {
 function getCharaImg(memoriaCharaArray) {
 
     // td要素を生成
-    let tdChara = document.createElement('td');
+    let tdChara = document.createElement("td");
 
     // キャラサムネ追加
     for (let i = 0; i < memoriaCharaArray.length; i++) {
 
         // サムネ画像要素の追加
-        let img = document.createElement('img');
+        let img = document.createElement("img");
         img.src = "../../images/chara/chara_" + memoriaCharaArray[i] + ".jpg"
         img.className = "chara_img";
         img.loading = "lazy";
@@ -112,8 +112,8 @@ function filter() {
     for (let i = 0; i < memoriaJsonCopy.length; i++) {
 
         // メモリアキャラ取得
-        const type = memoriaJsonCopy[i]['illustration']['type'];
-        const memoriaCharaArray = memoriaJsonCopy[i]['illustration']['chara'];
+        const type = memoriaJsonCopy[i]["illustration"]["type"];
+        const memoriaCharaArray = memoriaJsonCopy[i]["illustration"]["chara"];
         // 対応tr参照
         const tr = memoriaJsonCopy[i]["tr"]
 
@@ -129,29 +129,29 @@ function filter() {
             // 検索結果件数カウント
             resultCount++;
             // 表示
-            tr.style.display = ''
+            tr.style.display = ""
         } else {
             // 非表示
-            tr.style.display = 'none'
+            tr.style.display = "none"
         }
     }
 
     // 検索結果件数表示
-    document.getElementById('resultCount').replaceChildren(resultCount);
+    document.getElementById("resultCount").replaceChildren(resultCount);
 }
 
 // テーブル作成
 function makeTable() {
     
     // table要素を生成
-    let table = document.createElement('table');
+    let table = document.createElement("table");
     
     // ヘッダーを作成
-    let tr = document.createElement('tr');
+    let tr = document.createElement("tr");
     // td要素を生成
-    let thId = document.createElement('th');
-    let thName = document.createElement('th');
-    let thChara = document.createElement('th');
+    let thId = document.createElement("th");
+    let thName = document.createElement("th");
+    let thChara = document.createElement("th");
     // th要素内にテキストを追加
     thId.textContent = "サムネイル";
     thName.textContent = "メモリア名";
@@ -170,25 +170,25 @@ function makeTable() {
     for (let i = 0; i < memoriaJsonCopy.length; i++) {
         
         // メモリアキャラ取得
-        memoriaCharaArray = memoriaJsonCopy[i]['illustration']['chara'];
+        memoriaCharaArray = memoriaJsonCopy[i]["illustration"]["chara"];
         
         // 検索結果件数カウント
         resultCount++;
         
         // tr要素を生成
-        let tr = document.createElement('tr');
+        let tr = document.createElement("tr");
         // td要素を生成
-        let tdId = document.createElement('td');
-        let tdName = document.createElement('td');
-        let tdChara = document.createElement('td');
+        let tdId = document.createElement("td");
+        let tdName = document.createElement("td");
+        let tdChara = document.createElement("td");
         // サムネ画像要素の追加
-        let img = document.createElement('img');
-        img.src = "../../images/memoria/memoria_" + memoriaJsonCopy[i]['id'] + ".jpg"
+        let img = document.createElement("img");
+        img.src = "../../images/memoria/memoria_" + memoriaJsonCopy[i]["id"] + ".jpg"
         img.className = "memoria_img";
         img.loading = "lazy";
         // td要素内にテキストを追加
         tdId.appendChild(img);
-        tdName.textContent = memoriaJsonCopy[i]['name'];
+        tdName.textContent = memoriaJsonCopy[i]["name"];
         tdChara = getCharaImg(memoriaCharaArray);
         // td要素をtr要素の子要素に追加
         tr.appendChild(tdId);
@@ -200,10 +200,10 @@ function makeTable() {
         memoriaJsonCopy[i]["tr"] = tr;
     }
     // 生成したtable要素を追加する
-    document.getElementById('maintable').replaceChildren(table);
+    document.getElementById("maintable").replaceChildren(table);
     
     // 検索結果件数表示
-    document.getElementById('resultCount').replaceChildren(resultCount);
+    document.getElementById("resultCount").replaceChildren(resultCount);
 }
 
 // 初期化

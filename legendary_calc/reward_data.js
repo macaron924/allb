@@ -1,6 +1,6 @@
-const reward_index = ['medal', 'parts4', 'parts3', 'parts2', 'parts1'];
-const grade_index = ['S', 'A', 'B', 'C', 'D'];
-const ranking_index = ['r10', 'r100', 'r1000', 'r10000', 'r100000'];
+const reward_index = ["medal", "parts4", "parts3", "parts2", "parts1"];
+const grade_index = ["S", "A", "B", "C", "D"];
+const ranking_index = ["r10", "r100", "r1000", "r10000", "r100000"];
 
 let daily_reward = {
     S: { medal: 1200, parts4: 0, parts3: 20, parts2: 50, parts1: 100 },

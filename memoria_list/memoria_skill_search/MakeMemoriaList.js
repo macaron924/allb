@@ -1,11 +1,11 @@
 $("#menu-open-btn").click(function () { // 絞り込み選択表示ボタンクリック時
-    $(this).toggleClass('active');
-    $("#filter-menu_content").toggleClass('active');
+    $(this).toggleClass("active");
+    $("#filter-menu_content").toggleClass("active");
 });
 
 $("#exchange-menu-open-btn").click(function () { // 絞り込み選択表示ボタンクリック時
-    $(this).toggleClass('active');
-    $("#exchange-menu_content").toggleClass('active');
+    $(this).toggleClass("active");
+    $("#exchange-menu_content").toggleClass("active");
 });
 
 $("#exchange-category").change(function () {
@@ -35,7 +35,7 @@ function getExchangeList(val) {
 }
 
 $(".select-btn").click(function () { // 選択ボタンクリック時
-    $(this).toggleClass('active');
+    $(this).toggleClass("active");
     document.getElementById("filter-btn").className = "not-changed";
     document.getElementById("filter-btn").value = "未反映";
 });
@@ -56,7 +56,7 @@ $("select").change(function () { // プルダウンクリック時
 });
 
 $("#filter-btn").click(function () { // フィルターボタンクリック時
-    $("#filter-menu").toggleClass('active');
+    $("#filter-menu").toggleClass("active");
 });
 
 $(".cost").click(function () {
@@ -266,10 +266,10 @@ function rangeFilter(skillName) {
 
 function damageFilter(skillInfo) {
     if (damageSelection.length == 0) return true;
-    let tag = skillInfo['tag'];
+    let tag = skillInfo["tag"];
     for (let i = 0; i < tag.length; i++) {
-        if (tag[i]['fx'].includes('ダメージ')) {
-            if (damageSelection.includes(tag[i]['val'])) return true;
+        if (tag[i]["fx"].includes("ダメージ")) {
+            if (damageSelection.includes(tag[i]["val"])) return true;
             else return false;
         }
     }
@@ -278,10 +278,10 @@ function damageFilter(skillInfo) {
 
 function healFilter(skillInfo) {
     if (healSelection.length == 0) return true;
-    let tag = skillInfo['tag'];
+    let tag = skillInfo["tag"];
     for (let i = 0; i < tag.length; i++) {
-        if (tag[i]['fx'].includes('回復')) {
-            if (healSelection.includes(tag[i]['val'])) return true;
+        if (tag[i]["fx"].includes("回復")) {
+            if (healSelection.includes(tag[i]["val"])) return true;
             else return false;
         }
     }
@@ -289,7 +289,7 @@ function healFilter(skillInfo) {
 }
 
 function effectFilter(skillInfo) {
-    let tag = skillInfo['tag'];
+    let tag = skillInfo["tag"];
     let trueCount = 0;
     for (let j = 0; j < effectSelectionArray.length; j++) {
         if (effectSelectionArray[j][0] == "") {
@@ -298,12 +298,12 @@ function effectFilter(skillInfo) {
         }
         for (let i = 0; i < tag.length; i++) {
             switch (true) {
-                case effectSelectionArray[j][0] != tag[i]['fx']:
+                case effectSelectionArray[j][0] != tag[i]["fx"]:
                     continue;
                 case effectSelectionArray[j][1].length == 0:
                     trueCount++;
                     break;
-                case effectSelectionArray[j][1].includes(tag[i]['val']):
+                case effectSelectionArray[j][1].includes(tag[i]["val"]):
                     trueCount++;
                     break;
                 default:
@@ -317,7 +317,7 @@ function effectFilter(skillInfo) {
 
 function effectUpFilter(skillInfo) {
     if (effectUpSelection == "") return true;
-    let tag = skillInfo['tag2'];
+    let tag = skillInfo["tag2"];
     for (let i = 0; i < tag.length; i++) {
         if (tag[i] == effectUpSelection) {
             return true;
@@ -328,7 +328,7 @@ function effectUpFilter(skillInfo) {
 
 // 各補助スキルの効果が条件に合うかどうかを判定する関数
 function hojoEffectFilter(hojoInfo) {
-    let tag = hojoInfo['tag'];
+    let tag = hojoInfo["tag"];
     for (let j = 0; j < hojoSelectionArray.length; j++) {
         let flag = false;
         if (hojoSelectionArray[j][0] == "") {
@@ -358,11 +358,11 @@ function hojoFilter() {
     for (let i = 0; i < hojoJsonCopy.length; i++) {
         let hojoJson = hojoJsonCopy[i];
         for (let j = 0; j < hojoJson.length; j++) {
-            let hojoInfo = getHojoSkillInfoFromName(hojoJson[j]['name']);
+            let hojoInfo = getHojoSkillInfoFromName(hojoJson[j]["name"]);
             if (hojoEffectFilter(hojoInfo) == false) { // 補助スキル効果のフィルター
-                hojoJson[j]['filter'] = false;
+                hojoJson[j]["filter"] = false;
             } else {
-                hojoJson[j]['filter'] = true;
+                hojoJson[j]["filter"] = true;
             }
         }
     }
@@ -387,24 +387,24 @@ function skillFilter() {
         if (skillJson == "") break;
 
         for (let j = 0; j < skillJson.length; j++) {
-            let skillInfo = getSkillInfoFromName(yakuwariArray_copy[i], skillJson[j]['name']);
+            let skillInfo = getSkillInfoFromName(yakuwariArray_copy[i], skillJson[j]["name"]);
             if (damageFilter(skillInfo) == false) { // ダメージ種別と大きさのフィルター
-                skillJson[j]['filter'] = false;
+                skillJson[j]["filter"] = false;
                 continue;
             }
             if (healFilter(skillInfo) == false) { // 回復種別(自身か味方か)と大きさのフィルター
-                skillJson[j]['filter'] = false;
+                skillJson[j]["filter"] = false;
                 continue;
             }
             if (effectFilter(skillInfo) == false) { // バフ・デバフ種別と大きさのフィルター
-                skillJson[j]['filter'] = false;
+                skillJson[j]["filter"] = false;
                 continue;
             }
             if (effectUpFilter(skillInfo) == false) { // 効果量・範囲アップの種別フィルター
-                skillJson[j]['filter'] = false;
+                skillJson[j]["filter"] = false;
                 continue;
             }
-            skillJson[j]['filter'] = true; // 全部クリアの場合だけ真
+            skillJson[j]["filter"] = true; // 全部クリアの場合だけ真
         }
     }
 }
@@ -430,12 +430,12 @@ function allFilter(zokusei, cost, legendary, yakuwari, skillArray, skillRefArray
 
     // スキル効果内容
     let skillInfo = skillRefArray[modeSelection]; // スキル情報取得
-    if (skillInfo['filter'] == false) return false; // スキル側のfilter参照して偽なら偽
+    if (skillInfo["filter"] == false) return false; // スキル側のfilter参照して偽なら偽
     
     // レギマモードのとき補助スキルも
     if (modeSelection == 1) {
         let hojoInfo = skillRefArray[2]; // 補助スキル情報取得
-        if (hojoInfo['filter'] == false) return false; // 補助スキル側のfilter参照して偽なら偽
+        if (hojoInfo["filter"] == false) return false; // 補助スキル側のfilter参照して偽なら偽
     }
 
     // 全ての条件をクリアした場合のみ真
@@ -447,7 +447,7 @@ function getSkillInfoFromName(yakuwari, skillName) {
     let skillJson = getSkillsFromYakuwari(yakuwari); // 役割をもとに探索する対象を限定する
     if (skillJson == "") return "";
     for (let i = 0; i < skillJson.length; i++) { // 名前が一致するスキルを探す
-        if (skillName == skillJson[i]['name']) return skillJson[i]; // 名前が一致したらそれを返す
+        if (skillName == skillJson[i]["name"]) return skillJson[i]; // 名前が一致したらそれを返す
     }
     return "";
 }
@@ -473,7 +473,7 @@ function getHojoSkillInfoFromName(skillName) {
             hojoJson = "";
     }
     for (let i = 0; i < hojoJson.length; i++) { // 名前が一致するスキルを探す
-        if (skillName == hojoJson[i]['name']) return hojoJson[i]; // 名前が一致したらそれを返す
+        if (skillName == hojoJson[i]["name"]) return hojoJson[i]; // 名前が一致したらそれを返す
     }
     return "";
 }
@@ -483,9 +483,9 @@ function skillTagToString(tag, tag2) {
     let str = "";
     for (let i = 0; i < tag.length; i++) {
         if (i != 0) str += "<br>";
-        str += tag[i]['fx'];
+        str += tag[i]["fx"];
         str += "・";
-        str += tag[i]['val'];
+        str += tag[i]["val"];
     }
     for (let i = 0; i < tag2.length; i++) {
         str += "<br>";
@@ -524,17 +524,17 @@ function createHojoSkillDetailFromName(tag) {
 function filter() {
 
     if (dualDisplay == true) {
-        document.getElementById('maintable').className = "all";
+        document.getElementById("maintable").className = "all";
     } else {
         switch (modeSelection) {
             case 0:
-                document.getElementById('maintable').className = "vshuge";
+                document.getElementById("maintable").className = "vshuge";
                 break;
             case 1:
-                document.getElementById('maintable').className = "lm";
+                document.getElementById("maintable").className = "lm";
                 break;
             default:
-                document.getElementById('maintable').className = "all";
+                document.getElementById("maintable").className = "all";
         }
     }
 
@@ -546,62 +546,62 @@ function filter() {
 
         let existInLineup = true;
         if (exchangeSelection != "") {
-            if (lineup.includes(memoriaJsonCopy[i]['id'])) {
+            if (lineup.includes(memoriaJsonCopy[i]["id"])) {
                 existInLineup = true;
             } else {
                 existInLineup = false;
             }
         }
 
-        for (let j = 0; j < memoriaJsonCopy[i]['skill'].length; j++) {
+        for (let j = 0; j < memoriaJsonCopy[i]["skill"].length; j++) {
     
             // 対応tr参照
             const tr = memoriaJsonCopy[i]["tr"][j];
 
             if (existInLineup == false) {
                 // 非表示
-                tr.style.display = 'none';
+                tr.style.display = "none";
                 continue;
             }
 
-            let zokusei = memoriaJsonCopy[i]['zokusei'];
-            let cost = memoriaJsonCopy[i]['cost'];
-            let legendary = memoriaJsonCopy[i]['legendary'];
-            let yakuwari = memoriaJsonCopy[i]['skill'][j]['yakuwari'];
-            let skill = memoriaJsonCopy[i]['skill'][j]['name'];
-            let skillRef = memoriaJsonCopy[i]['skillRef'][j];
+            let zokusei = memoriaJsonCopy[i]["zokusei"];
+            let cost = memoriaJsonCopy[i]["cost"];
+            let legendary = memoriaJsonCopy[i]["legendary"];
+            let yakuwari = memoriaJsonCopy[i]["skill"][j]["yakuwari"];
+            let skill = memoriaJsonCopy[i]["skill"][j]["name"];
+            let skillRef = memoriaJsonCopy[i]["skillRef"][j];
     
             if (allFilter(zokusei, cost, legendary, yakuwari, skill, skillRef) == true) {
                 // 検索結果件数カウント
                 resultCount++;
                 // 表示
-                tr.style.display = '';
+                tr.style.display = "";
             } else {
                 // 非表示
-                tr.style.display = 'none';
+                tr.style.display = "none";
             }
         }
     }
 
     // 検索結果件数表示
-    document.getElementById('resultCount').replaceChildren(resultCount);
+    document.getElementById("resultCount").replaceChildren(resultCount);
 }
 
 // テーブル作成
 function makeTable() {
 
     // table要素を生成
-    let table = document.createElement('table');
+    let table = document.createElement("table");
     
     // ヘッダーを作成
-    let tr = document.createElement('tr');
+    let tr = document.createElement("tr");
     // th要素を生成
-    let thId = document.createElement('th');
-    let thName = document.createElement('th');
-    let thYakuwari = document.createElement('th');
-    let thVshuge = document.createElement('th');
-    let thLm = document.createElement('th');
-    let thHojo = document.createElement('th');
+    let thId = document.createElement("th");
+    let thName = document.createElement("th");
+    let thYakuwari = document.createElement("th");
+    let thVshuge = document.createElement("th");
+    let thLm = document.createElement("th");
+    let thHojo = document.createElement("th");
     // 各スキル列のclass
     thVshuge.className = "vshugeRow";
     thVshuge.colSpan = 2;
@@ -631,27 +631,27 @@ function makeTable() {
     
     // テーブル本体を作成
     for (let i = (memoriaJsonCopy.length - 1); i >= 0; i--) {
-        for (let j = 0; j < memoriaJsonCopy[i]['skill'].length; j++) {
+        for (let j = 0; j < memoriaJsonCopy[i]["skill"].length; j++) {
 
-            let skill = memoriaJsonCopy[i]['skill'][j];
-            let skill_names = skill['name'];
-            let skill_yakuwari = skill['yakuwari'];
+            let skill = memoriaJsonCopy[i]["skill"][j];
+            let skill_names = skill["name"];
+            let skill_yakuwari = skill["yakuwari"];
 
             // 検索結果件数カウント
             resultCount++;
 
             // tr要素を生成
-            let tr = document.createElement('tr');
+            let tr = document.createElement("tr");
             // td要素を生成
-            let tdId = document.createElement('td');
-            let tdName = document.createElement('td');
-            let tdYakuwari = document.createElement('td');
-            let tdVshugeName = document.createElement('td');
-            let tdVshugeDetail = document.createElement('td');
-            let tdLmName = document.createElement('td');
-            let tdLmDetail = document.createElement('td');
-            let tdHojoName = document.createElement('td');
-            let tdHojoDetail = document.createElement('td');
+            let tdId = document.createElement("td");
+            let tdName = document.createElement("td");
+            let tdYakuwari = document.createElement("td");
+            let tdVshugeName = document.createElement("td");
+            let tdVshugeDetail = document.createElement("td");
+            let tdLmName = document.createElement("td");
+            let tdLmDetail = document.createElement("td");
+            let tdHojoName = document.createElement("td");
+            let tdHojoDetail = document.createElement("td");
             // 各スキル列のclass
             tdVshugeName.className = "vshugeRow";
             tdVshugeDetail.className = "vshugeRow";
@@ -660,52 +660,52 @@ function makeTable() {
             tdHojoName.className = "hojoRow";
             tdHojoDetail.className = "hojoRow";
             // サムネ画像要素の追加
-            let img = document.createElement('img');
-            img.src = "../../images/memoria/memoria_" + memoriaJsonCopy[i]['id'] + ".jpg";
+            let img = document.createElement("img");
+            img.src = "../../images/memoria/memoria_" + memoriaJsonCopy[i]["id"] + ".jpg";
             img.className = "memoria_img";
             img.loading = "lazy";
-            let yakuwari_icon = document.createElement('img');
+            let yakuwari_icon = document.createElement("img");
             yakuwari_icon.src = "../../images/icon/yakuwari_" + skill_yakuwari + ".jpg";
             yakuwari_icon.className = "yakuwari_img";
             yakuwari_icon.loading = "lazy";
             // 画像
             tdId.appendChild(img);
             // メモリア名
-            tdName.textContent = memoriaJsonCopy[i]['name'];
+            tdName.textContent = memoriaJsonCopy[i]["name"];
             // 役割アイコン
             tdYakuwari.appendChild(yakuwari_icon);
             // 対ヒュージスキル
             let vshuge_name = skill_names[0];
             let vshuge = getSkillInfoFromName(skill_yakuwari, vshuge_name);
-            tdVshugeName.classList.add('skill_name');
+            tdVshugeName.classList.add("skill_name");
             if (vshuge == "") {
                 tdVshugeName.innerHTML = "<nobr>" + vshuge_name + "</nobr><br>" + "";
                 tdVshugeDetail.innerHTML = "";
             } else {
-                tdVshugeName.innerHTML = "<nobr>" + vshuge_name + "</nobr><br>" + vshuge['effect_detail'];
-                tdVshugeDetail.innerHTML = createSkillDetailFromName(vshuge['tag'], vshuge['tag2']);
+                tdVshugeName.innerHTML = "<nobr>" + vshuge_name + "</nobr><br>" + vshuge["effect_detail"];
+                tdVshugeDetail.innerHTML = createSkillDetailFromName(vshuge["tag"], vshuge["tag2"]);
             }
             // レギマスキル
             let lm_name = skill_names[1];
             let lm = getSkillInfoFromName(skill_yakuwari, lm_name);
-            tdLmName.classList.add('skill_name');
+            tdLmName.classList.add("skill_name");
             if (lm == "") {
                 tdLmName.innerHTML = "<nobr>" + lm_name + "</nobr><br>" + "";
                 tdLmDetail.innerHTML = "";
             } else {
-                tdLmName.innerHTML = "<nobr>" + lm_name + "</nobr><br>" + lm['effect_detail'];
-                tdLmDetail.innerHTML = createSkillDetailFromName(lm['tag'], lm['tag2']);
+                tdLmName.innerHTML = "<nobr>" + lm_name + "</nobr><br>" + lm["effect_detail"];
+                tdLmDetail.innerHTML = createSkillDetailFromName(lm["tag"], lm["tag2"]);
             }
             // 補助スキル
             let hojo_name = skill_names[2];
             let hojo = getHojoSkillInfoFromName(hojo_name);
-            tdHojoName.classList.add('skill_name');
+            tdHojoName.classList.add("skill_name");
             if (hojo == "") {
                 tdHojoName.innerHTML = "<nobr>" + hojo_name + "</nobr><br>" + "";
                 tdHojoDetail.innerHTML = "";
             } else {
-                tdHojoName.innerHTML = "<nobr>" + hojo_name + "</nobr><br>" + hojo['effect_detail'];
-                tdHojoDetail.innerHTML = createHojoSkillDetailFromName(hojo['tag']);
+                tdHojoName.innerHTML = "<nobr>" + hojo_name + "</nobr><br>" + hojo["effect_detail"];
+                tdHojoDetail.innerHTML = createHojoSkillDetailFromName(hojo["tag"]);
             }
             // td要素をtr要素の子要素に追加
             tr.appendChild(tdId);
@@ -725,10 +725,10 @@ function makeTable() {
         }
     }
     // 生成したtable要素を追加する
-    document.getElementById('maintable').replaceChildren(table);
+    document.getElementById("maintable").replaceChildren(table);
     
     // 検索結果件数表示
-    document.getElementById('resultCount').replaceChildren(resultCount);
+    document.getElementById("resultCount").replaceChildren(resultCount);
 }
 
 // 初期化

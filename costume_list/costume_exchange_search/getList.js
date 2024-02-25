@@ -1,12 +1,12 @@
-$(document).on('click', '#costume-open-btn', function() {
+$(document).on("click", "#costume-open-btn", function() {
 	let findElm = $(this).next(".flex_btn-box");
-	$('#costume_list').toggleClass('active');
-	$(this).toggleClass('active');
+	$("#costume_list").toggleClass("active");
+	$(this).toggleClass("active");
 });
 
 function getCharaName(charaID) {
     for (let i = 0; i < charaJson.length; i++) {
-        if (charaJson[i]['charaID'] == charaID) return charaJson[i]['charaName'];
+        if (charaJson[i]["charaID"] == charaID) return charaJson[i]["charaName"];
     }
     return "";
 }
@@ -16,7 +16,7 @@ const url = new URL(window.location.href);
 const params = url.searchParams;
 
 // indexのパラメータ取得
-const costumeSelection = params.get('costumeID');
+const costumeSelection = params.get("costumeID");
 
 let exchangeContentList = [];
 for (let i in exchangeDataJson) {
@@ -34,7 +34,7 @@ for (let i in costumeJson) {
     let img = document.createElement("img");
     img.src = `../../images/costume/costume_${costumeJson[i]["id"]}.jpg`;
     let charaName = getCharaName(costumeJson[i]["chara"]);
-    let flexitem = `<div class="flex_memoria-item"><a href="./?costumeID=${costumeJson[i]["id"]}"><img src="../../images/costume/costume_${costumeJson[i]['id']}.jpg" loading="lazy"><br>${charaName} / ${costumeJson[i]['name']}</a></div>`;
+    let flexitem = `<div class="flex_memoria-item"><a href="./?costumeID=${costumeJson[i]["id"]}"><img src="../../images/costume/costume_${costumeJson[i]["id"]}.jpg" loading="lazy"><br>${charaName} / ${costumeJson[i]["name"]}</a></div>`;
     document.getElementById("costume_list").insertAdjacentHTML("beforeend", flexitem);
 }
 
@@ -49,8 +49,8 @@ if (costumeSelection == null) {
                 text += `
                 <div class="flex_medal-item">
                 <table>
-                    <tr><td rowspan="2"><a href="../../exchange_info/content/?index=${exchangeContentList[j]['index']}"><img src="../../images/item/${exchangeContentList[j]['index']}.jpg"></a></td>
-                        <td><a href="../../exchange_info/content/?index=${exchangeContentList[j]['index']}">${exchangeContentList[j]['name']}</a></td></tr>
+                    <tr><td rowspan="2"><a href="../../exchange_info/content/?index=${exchangeContentList[j]["index"]}"><img src="../../images/item/${exchangeContentList[j]["index"]}.jpg"></a></td>
+                        <td><a href="../../exchange_info/content/?index=${exchangeContentList[j]["index"]}">${exchangeContentList[j]["name"]}</a></td></tr>
                 </table></div>
                 `;
                 judge = true;
@@ -59,8 +59,8 @@ if (costumeSelection == null) {
         if (judge == false) text += "該当なし";
 
         let charaName = getCharaName(costumeJson[i]["chara"]);
-        document.getElementById("result_img").src = `../../images/costume/costume_${costumeJson[i]['id']}.jpg`;
-        document.getElementById("result_name").innerHTML = `${charaName} / ${costumeJson[i]['name']}`;
+        document.getElementById("result_img").src = `../../images/costume/costume_${costumeJson[i]["id"]}.jpg`;
+        document.getElementById("result_name").innerHTML = `${charaName} / ${costumeJson[i]["name"]}`;
         document.getElementById("result_ticket").insertAdjacentHTML("beforeend", text);
         break;
     }
@@ -69,9 +69,9 @@ if (costumeSelection == null) {
 }
 
 
-const images = document.querySelectorAll('img');
+const images = document.querySelectorAll("img");
 images.forEach((image) => {
-    image.addEventListener('error',() => {
-        image.setAttribute('src', '../../images/no-image.png');
+    image.addEventListener("error",() => {
+        image.setAttribute("src", "../../images/no-image.png");
     });
 });
