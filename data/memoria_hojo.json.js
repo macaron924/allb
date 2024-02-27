@@ -111,6 +111,11 @@ const hojoJson = [
             tag: [ ["前衛から攻撃時", "Sp.ATK↑", "大"], ["前衛から攻撃時", "Sp.DEF↑", "大"] ]
         },
         {
+            name: "攻:Sp.マイトUP Ⅳ",
+            effect_detail: "前衛から攻撃時、一定確率で自身のSp.ATKとSp.DEFを超特大アップさせる。",
+            tag: [ ["前衛から攻撃時", "Sp.ATK↑", "超特大"], ["前衛から攻撃時", "Sp.DEF↑", "超特大"] ]
+        },
+        {
             name: "攻:パワーDOWN Ⅱ",
             effect_detail: "攻撃時、一定確率で敵のATKを大ダウンさせる。",
             tag: [ ["攻撃時", "ATK↓", "大"] ]
@@ -194,6 +199,11 @@ const hojoJson = [
             name: "攻:マイトDOWN Ⅱ",
             effect_detail: "攻撃時、一定確率で敵のATKとDEFを大ダウンさせる。",
             tag: [ ["攻撃時", "ATK↓", "大"], ["攻撃時", "DEF↓", "大"] ]
+        },
+        {
+            name: "攻:マイトDOWN Ⅳ",
+            effect_detail: "攻撃時、一定確率で敵のATKとDEFを超特大ダウンさせる。",
+            tag: [ ["攻撃時", "ATK↓", "超特大"], ["攻撃時", "DEF↓", "超特大"] ]
         },
         {
             name: "攻:Sp.マイトDOWN Ⅱ",
@@ -408,6 +418,11 @@ const hojoJson = [
             tag: [ ["支援/妨害時", "ATK↑", "大"], ["支援/妨害時", "DEF↑", "大"] ]
         },
         {
+            name: "援:マイトUP Ⅳ",
+            effect_detail: "支援/妨害時、一定確率で味方前衛1体のATKとDEFを大アップさせる。",
+            tag: [ ["支援/妨害時", "ATK↑", "超特大"], ["支援/妨害時", "DEF↑", "超特大"] ]
+        },
+        {
             name: "援:Sp.マイトUP Ⅱ",
             effect_detail: "支援/妨害時、一定確率で味方前衛1体のSp.ATKとSp.DEFを大アップさせる。",
             tag: [ ["支援/妨害時", "Sp.ATK↑", "大"], ["支援/妨害時", "Sp.DEF↑", "大"] ]
@@ -416,6 +431,11 @@ const hojoJson = [
             name: "援:Sp.マイトUP Ⅲ",
             effect_detail: "支援/妨害時、一定確率で味方前衛1体のSp.ATKとSp.DEFを特大アップさせる。",
             tag: [ ["支援/妨害時", "Sp.ATK↑", "特大"], ["支援/妨害時", "Sp.DEF↑", "特大"] ]
+        },
+        {
+            name: "援:Sp.マイトUP Ⅳ",
+            effect_detail: "支援/妨害時、一定確率で味方前衛1体のSp.ATKとSp.DEFを超特大アップさせる。",
+            tag: [ ["支援/妨害時", "Sp.ATK↑", "超特大"], ["支援/妨害時", "Sp.DEF↑", "超特大"] ]
         },
         {
             name: "援:火パワーUP Ⅲ",
@@ -546,6 +566,11 @@ const hojoJson = [
             name: "援:Sp.マイトDOWN Ⅱ",
             effect_detail: "支援/妨害時、一定確率で敵前衛1体のSp.ATKとSp.DEFを大ダウンさせる。",
             tag: [ ["支援/妨害時", "Sp.ATK↓", "大"], ["支援/妨害時", "Sp.DEF↓", "大"] ]
+        },
+        {
+            name: "援:Sp.マイトDOWN Ⅳ",
+            effect_detail: "支援/妨害時、一定確率で敵前衛1体のSp.ATKとSp.DEFを超特大ダウンさせる。",
+            tag: [ ["支援/妨害時", "Sp.ATK↓", "超特大"], ["支援/妨害時", "Sp.DEF↓", "超特大"] ]
         },
         {
             name: "援:ディファーDOWN Ⅱ",

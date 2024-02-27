@@ -7484,11 +7484,11 @@ const memoriaJson = [
         zokusei: 1, cost: 18, costume: 0, legendary: "", illustration: { type: "静止画", chara: [25, 21] },
         get_rank: "非ガチャ産", category: { c1: "ミッション、ログインボーナス等", c2: "期間限定", c3: ["お正月記念"] },
         skill: [
-             { yakuwari: 7, name: ["Sp.ガードヒールB Ⅲ", "Sp.ガードヒールB Ⅲ", "回:Sp.ガードUP Ⅲ"] },
-             { yakuwari: 2, name: ["パワーストライクB Ⅲ", "パワーストライクB Ⅲ", "攻:パワーUP Ⅲ"] },
-             { yakuwari: 4, name: ["Sp.パワースマッシュB Ⅲ", "Sp.パワースマッシュB Ⅲ", "攻:Sp.パワーUP Ⅲ"] },
-             { yakuwari: 5, name: ["Sp.パワーアシストB Ⅲ", "Sp.パワーアシストB Ⅲ", "援:パワーUP Ⅲ"] },
-             { yakuwari: 6, name: ["パワーフォールB Ⅲ", "パワーフォールB Ⅲ", "援:パワーDOWN Ⅲ"] }
+            { yakuwari: 7, name: ["Sp.ガードヒールB Ⅲ", "Sp.ガードヒールB Ⅲ", "回:Sp.ガードUP Ⅲ"] },
+            { yakuwari: 2, name: ["パワーストライクB Ⅲ", "パワーストライクB Ⅲ", "攻:パワーUP Ⅲ"] },
+            { yakuwari: 4, name: ["Sp.パワースマッシュB Ⅲ", "Sp.パワースマッシュB Ⅲ", "攻:Sp.パワーUP Ⅲ"] },
+            { yakuwari: 5, name: ["Sp.パワーアシストB Ⅲ", "Sp.パワーアシストB Ⅲ", "援:パワーUP Ⅲ"] },
+            { yakuwari: 6, name: ["パワーフォールB Ⅲ", "パワーフォールB Ⅲ", "援:パワーDOWN Ⅲ"] }
         ]
     },
     {
@@ -7927,6 +7927,45 @@ const memoriaJson = [
             { yakuwari: 4, name: ["Sp.マイトスマッシュD Ⅲ+", "風：Sp.ウィンドパワースマッシュD Ⅲ+", "攻:ダメージUP/Sp.パワーUP Ⅳ"] },
             { yakuwari: 5, name: ["パワーアシストE Ⅳ", "ウィンドパワーアシストE Ⅳ", "援:支援UP/副援:風パワーUP Ⅳ"] },
             { yakuwari: 7, name: ["WガードヒールE Ⅳ", "WカウンターガードヒールE Ⅳ", "回:回復UP/副援:支援UP Ⅳ"] }
+        ]
+    },
+    {
+        id: 812,
+        name: "ラスバレライブ記念メモリア～一柳隊～",
+        zokusei: 1, cost: 22, costume: 0, legendary: "", illustration: { type: "静止画", chara: [1, 2, 3, 4, 5, 6, 7, 8, 9] },
+        get_rank: "非ガチャ産", category: { c1: "シリアルコード", c2: "2024年2月ライブ記念", c3: [""] },
+        skill: [
+            { yakuwari: 2, name: ["マイトストライクB Ⅳ+", "マイトストライクB Ⅳ+", "攻:マイトUP Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅳ+", "Sp.マイトスマッシュB Ⅳ+", "攻:Sp.マイトUP Ⅳ"] },
+            { yakuwari: 5, name: ["マイトアシストE Ⅳ", "マイトアシストE Ⅳ", "援:マイトUP Ⅳ"] },
+            { yakuwari: 6, name: ["マイトフォールE Ⅳ", "マイトフォールE Ⅳ", "援:マイトDOWN Ⅳ"] },
+            { yakuwari: 7, name: ["ガードヒールE Ⅳ", "ガードヒールE Ⅳ", "回:ガードUP/副援:火ガードUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 813,
+        name: "ラスバレライブ記念メモリア～ヘルヴォル～",
+        zokusei: 1, cost: 22, costume: 0, legendary: "", illustration: { type: "静止画", chara: [10, 11, 12, 13, 14] },
+        get_rank: "非ガチャ産", category: { c1: "シリアルコード", c2: "2024年2月ライブ記念", c3: [""] },
+        skill: [
+            { yakuwari: 6, name: ["Sp.マイトフォールE Ⅳ", "Sp.マイトフォールE Ⅳ", "援:Sp.マイトDOWN Ⅳ"] },
+            { yakuwari: 2, name: ["マイトブレイクB Ⅳ+", "マイトブレイクB Ⅳ+", "攻:マイトDOWN Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅳ+", "Sp.マイトバーストB Ⅳ+", "攻:Sp.マイトDOWN Ⅳ"] },
+            { yakuwari: 5, name: ["Sp.マイトアシストE Ⅳ", "Sp.マイトアシストE Ⅳ", "援:Sp.マイトUP Ⅳ"] },
+            { yakuwari: 7, name: ["Sp.ガードヒールE Ⅳ", "Sp.ガードヒールE Ⅳ", "回:Sp.ガードUP/副援:火ガードUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 814,
+        name: "ラスバレライブ記念メモリア～グラン・エプレ～",
+        zokusei: 1, cost: 22, costume: 0, legendary: "", illustration: { type: "静止画", chara: [15, 16, 17, 18, 19] },
+        get_rank: "非ガチャ産", category: { c1: "シリアルコード", c2: "2024年2月ライブ記念", c3: [""] },
+        skill: [
+            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅳ+", "Sp.マイトバーストB Ⅳ+", "攻:Sp.マイトDOWN Ⅳ"] },
+            { yakuwari: 2, name: ["マイトストライクB Ⅳ+", "マイトストライクB Ⅳ+", "攻:マイトUP Ⅳ"] },
+            { yakuwari: 5, name: ["Sp.マイトアシストE Ⅳ", "Sp.マイトアシストE Ⅳ", "援:Sp.マイトUP Ⅳ"] },
+            { yakuwari: 6, name: ["マイトフォールE Ⅳ", "マイトフォールE Ⅳ", "援:マイトDOWN Ⅳ"] },
+            { yakuwari: 7, name: ["ガードヒールE Ⅳ", "ガードヒールE Ⅳ", "回:ガードUP/副援:火ガードUP Ⅳ"] }
         ]
     }
     /*

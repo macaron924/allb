@@ -2913,6 +2913,21 @@ const costumeJson = [
         "id": 583,
         "chara": 34, "yakuwari": 7, "name": "王家修練服α",
         "percent": 15, "parameter": [["Sp.DEF", 3000], ["DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 584,
+        "chara": 1, "yakuwari": 2, "name": "Dreamin’☆Party",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 585,
+        "chara": 10, "yakuwari": 6, "name": "Dreamin’☆Party",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5]]
+    },
+    {
+        "id": 586,
+        "chara": 15, "yakuwari": 4, "name": "Dreamin’☆Party",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
     }
     /*
     ,
