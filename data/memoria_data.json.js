@@ -7967,6 +7967,76 @@ const memoriaJson = [
             { yakuwari: 6, name: ["マイトフォールE Ⅳ", "マイトフォールE Ⅳ", "援:マイトDOWN Ⅳ"] },
             { yakuwari: 7, name: ["ガードヒールE Ⅳ", "ガードヒールE Ⅳ", "回:ガードUP/副援:火ガードUP Ⅳ"] }
         ]
+    },
+    {
+        id: 815,
+        name: "祝福の庭園",
+        zokusei: 2, cost: 24, costume: 0, legendary: "ガチャ", illustration: { type: "", chara: [118, 21] },
+        get_rank: "メインストーリー4章 (未復刻)", category: { c1: "メダル/ギガント級討伐イベント", c2: "絶海のワールプール (2024/2/29～)", c3: ["イベントガチャ"] },
+        skill: [
+            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅳ+", "Sp.ウォーターガードバーストB Ⅳ+", "攻:ダメージUP/Sp.ガードDOWN Ⅳ"] },
+            { yakuwari: 2, name: ["マイトストライクD Ⅲ+", "ウォーターパワーストライクD Ⅲ+", "攻:ダメージUP/パワーUP Ⅳ"] },
+            { yakuwari: 6, name: ["WパワーフォールE Ⅳ", "WパワーフォールE Ⅳ", "援:支援UP/副援:水パワーDOWN Ⅳ"] }
+        ]
+    },
+    {
+        id: 816,
+        name: "光翼の覇者",
+        zokusei: 2, cost: 22, costume: 587, legendary: "", illustration: { type: "", chara: [21] },
+        get_rank: "メインストーリー4章 (未復刻)", category: { c1: "メダル/ギガント級討伐イベント", c2: "絶海のワールプール (2024/2/29～)", c3: ["イベントガチャ"] },
+        skill: [
+            { yakuwari: 5, name: ["パワーアシストE Ⅳ", "ウォーターパワーアシストE Ⅳ", "援:支援UP/副援:水パワーUP Ⅳ"] },
+            { yakuwari: 2, name: ["マイトブレイクB Ⅳ+", "ウォーターガードブレイクB Ⅳ+", "攻:ガードDOWN/副攻:水ガードDOWN Ⅳ"] },
+            { yakuwari: 7, name: ["ガードヒールC Ⅴ", "ウォーターガードヒールC Ⅴ", "回:ガードUP/副援:水ガードUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 817,
+        name: "百合の園の聖女",
+        zokusei: 1, cost: 22, costume: 588, legendary: "", illustration: { type: "", chara: [118] },
+        get_rank: "メインストーリー4章 (未復刻)", category: { c1: "メダル/ギガント級討伐イベント", c2: "絶海のワールプール (2024/2/29～)", c3: ["イベントガチャ"] },
+        skill: [
+            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅳ+", "Sp.ファイアガードバーストB Ⅳ+", "攻:Sp.ガードDOWN/副攻:火ガードDOWN Ⅳ"] },
+            { yakuwari: 3, name: ["Sp.マイトスマッシュA Ⅴ+", "Sp.ファイアパワースマッシュA Ⅴ+", "攻:Sp.パワーUP/副攻:火パワーUP Ⅳ"] },
+            { yakuwari: 5, name: ["Sp.パワーアシストE Ⅳ", "Sp.ファイアパワーアシストE Ⅳ", "援:Sp.パワーUP/副援:火パワーUP Ⅳ"] },
+            { yakuwari: 7, name: ["Sp.ガードヒールC Ⅴ", "Sp.ファイアガードヒールC Ⅴ", "回:回復UP/副援:火ガードUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 818,
+        name: "聖剣の三女神",
+        zokusei: 2, cost: 22, costume: 0, legendary: "", illustration: { type: "", chara: [21, 118, 25] },
+        get_rank: "メインストーリー4章 (未復刻)", category: { c1: "メダル/ギガント級討伐イベント", c2: "絶海のワールプール (2024/2/29～)", c3: ["イベントガチャ"] },
+        skill: [
+            { yakuwari: 6, name: ["パワーフォールE Ⅳ", "ウォーターパワーフォールE Ⅳ", "援:パワーDOWN/副援:水パワーDOWN Ⅳ"] },
+            { yakuwari: 1, name: ["マイトストライクA Ⅴ+", "ウォーターパワーストライクA Ⅴ+", "攻:パワーUP/副攻:水パワーUP Ⅳ"] },
+            { yakuwari: 2, name: ["マイトストライクB Ⅳ+", "ウォーターパワーストライクB Ⅳ+", "攻:パワーUP/副攻:水パワーUP Ⅳ"] },
+            { yakuwari: 7, name: ["Sp.ガードヒールE Ⅳ", "Sp.ウォーターガードヒールE Ⅳ", "回:Sp.ガードUP/副援:水ガードUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 819,
+        name: "紅蓮の狂姫士",
+        zokusei: 1, cost: 22, costume: 589, legendary: "", illustration: { type: "", chara: [23] },
+        get_rank: "メインストーリー4章 (未復刻)", category: { c1: "メダル/ギガント級討伐イベント", c2: "絶海のワールプール (2024/2/29～)", c3: ["白百合の十二聖剣 記念 亜羅椰＆樟美ガチャ (2024/3/3～) (特効なし)"] },
+        skill: [
+            { yakuwari: 2, name: ["マイトブレイクB Ⅳ+", "ファイアガードブレイクB Ⅳ+", "攻:ダメージUP/ガードDOWN Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトスマッシュD Ⅲ+", "Sp.ファイアパワースマッシュD Ⅲ+", "攻:ダメージUP/Sp.パワーUP Ⅳ"] },
+            { yakuwari: 5, name: ["Sp.パワーアシストE Ⅳ", "Sp.ファイアパワーアシストE Ⅳ", "援:支援UP/副援:火パワーUP Ⅳ"] },
+            { yakuwari: 6, name: ["Sp.マイトフォールE Ⅳ", "Sp.マイトフォールE Ⅳ", "援:Sp.マイトDOWN Ⅳ"] }
+        ]
+    },
+    {
+        id: 820,
+        name: "妖精の恩寵を受けし者",
+        zokusei: 2, cost: 22, costume: 590, legendary: "", illustration: { type: "", chara: [25] },
+        get_rank: "メインストーリー4章 (未復刻)", category: { c1: "メダル/ギガント級討伐イベント", c2: "絶海のワールプール (2024/2/29～)", c3: ["白百合の十二聖剣 記念 亜羅椰＆樟美ガチャ (2024/3/3～) (特効なし)"] },
+        skill: [
+            { yakuwari: 6, name: ["Sp.パワーフォールE Ⅳ", "Sp.ウォーターパワーフォールE Ⅳ", "援:支援UP/副援:水パワーDOWN Ⅳ"] },
+            { yakuwari: 1, name: ["マイトブレイクA Ⅴ+", "ウォーターガードブレイクA Ⅴ+", "攻:ガードDOWN/副攻:水ガードDOWN Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅳ+", "Sp.マイトスマッシュB Ⅳ+", "攻:Sp.マイトUP Ⅳ"] },
+            { yakuwari: 7, name: ["ガードヒールC Ⅴ", "ウォーターガードヒールC Ⅴ", "回:回復UP/副援:支援UP Ⅳ"] }
+        ]
     }
     /*
     ,
