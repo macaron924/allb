@@ -246,7 +246,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202401-event-2", name: "ゴシック・ノスタルジカ★5確定ガチャチケットⅢ", link: false },
         { index: "gacha-ticket_202402-event-1", name: "Dreamin'☆Celebration★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202402-event-2", name: "幻想スリリング・パーティ★5確定ガチャチケット", link: false },
-        { index: "gacha-ticket_202402-event-3", name: "もふもふバレンタイン★5確定ガチャチケット", link: false }
+        { index: "gacha-ticket_202402-event-3", name: "もふもふバレンタイン★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_202403-event-1", name: "絶海のワールプール★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -316,7 +317,9 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_dream", name: "3rd Anniv.DREAM!ペンダントEX交換券", link: true },
         { index: "exchange_pendant-ex_202402-2", name: "幻想スリリング・パーティペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202402-2-2", name: "3rd Anniv. MATSURI & SHINペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202402-3", name: "もふもふバレンタインペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202402-3", name: "もふもふバレンタインペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202403-1", name: "絶海のワールプールペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202403-1-2", name: "亜羅椰＆樟美ペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -349,6 +352,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_kaede", name: "楓衣装引換券", link: true },
         { index: "exchange_costume_shenlin", name: "神琳衣装引換券", link: true },
         { index: "exchange_costume_tazusa", name: "鶴紗衣装引換券", link: true },
+        { index: "exchange_costume_himeka", name: "姫歌衣装引換券", link: true },
         { index: "exchange_costume_koukainama-202301", name: "公開生放送記念!!衣装交換チケット", link: true },
         { index: "exchange_costume_koukainama-202401", name: "公開生放送2024記念!!衣装交換チケット", link: true },
         { index: "exchange_costume_ririsama", name: "2.5周年リリサマ!!衣装引換券", link: true },
@@ -375,6 +379,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_dream-yahiro", name: "弥宏/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-kureha", name: "紅巴/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-akehi", name: "秋日/ドリーミィパレード衣装引換券", link: false },
+        { index: "exchange_costume_uniform-wakana", name: "若菜/百合ヶ丘標準制服衣装引換券", link: false },
         { index: "exchange_costume_dreamin-party", name: "Dreamin’☆Party衣装引換券", link: false },
         { index: "exchange_costume_xmas", name: "Xmas記念衣装引換券", link: true },
         { index: "exchange_costume_new-year", name: "2024年新春記念衣装引換券", link: true },
@@ -420,6 +425,7 @@ const itemByTypeJson = {
         { index: "exchange_memoria_kaede", name: "楓★5メモリア引換券", link: true },
         { index: "exchange_memoria_shenlin", name: "神琳★5メモリア引換券", link: true },
         { index: "exchange_memoria_tazusa", name: "鶴紗★5メモリア引換券", link: true },
+        { index: "exchange_memoria_himeka", name: "姫歌★5メモリア引換券", link: true },
         { index: "exchange_memoria_xmas", name: "Xmas記念メモリア引換券", link: true },
         { index: "exchange_memoria-with-costume", name: "衣装付きメモリアコレクション引換券", link: true },
         { index: "exchange_memoria_zokusei-fire", name: "火属性★5メモリア引換券 (4月)", link: true },
@@ -445,6 +451,9 @@ const itemByTypeJson = {
         { index: "exchange_memoria_zokusei-fire_202312", name: "火属性★5メモリア引換券 (12月)", link: true },
         { index: "exchange_memoria_zokusei-water_202312", name: "水属性★5メモリア引換券 (12月)", link: true },
         { index: "exchange_memoria_zokusei-wind_202312", name: "風属性★5メモリア引換券 (12月)", link: true },
+        { index: "exchange_memoria_zokusei-fire_202402", name: "火属性★5メモリア引換券 (2月)", link: true },
+        { index: "exchange_memoria_zokusei-water_202402", name: "水属性★5メモリア引換券 (2月)", link: true },
+        { index: "exchange_memoria_zokusei-wind_202402", name: "風属性★5メモリア引換券 (2月)", link: true },
         { index: "exchange_refrain", name: "リフレインセレクトチケット", link: true },
         // イベントガチャ交換券
         { index: "exchange_event-gacha-special", name: "イベントガチャスペシャル交換券", link: true },
@@ -492,6 +501,7 @@ const itemByTypeJson = {
         { index: "exchange_creators-gacha_winter-fes_202402", name: "クリエイターズコラボガチャチケット引換券", link: false },
         { index: "exchange_kangei-yakuwari-gacha", name: "歓迎CP役割別ガチャチケット引換券", link: false },
         { index: "exchange_kangei-yakuwari-gacha-2023", name: "歓迎CP役割別ガチャチケット2023引換券", link: false },
+        { index: "exchange_yakuwari-gacha", name: "役割別ガチャチケット引換券", link: false },
         { index: "exchange_3rd-anniv-yakuwari-gacha", name: "3rd Anniv.役割別ガチャチケット引換券", link: false }
     ],
     medal_bonus: [ // ボーナスメダル
@@ -590,6 +600,7 @@ const itemByTypeJson = {
         { index: "skip-ticket", name: "スキップチケット", link: false },
         { index: "lp-card-4", name: "LPカードⅣ", link: false },
         { index: "charm_144_star3", name: "デュランダルSP.HY", link: false },
-        { index: "charm_162_star3", name: "ムラマサ・ブレード", link: false }
+        { index: "charm_162_star3", name: "ムラマサ・ブレード", link: false },
+        { index: "charm_169_star3", name: "グラムSP.MW", link: false }
     ]
 }
