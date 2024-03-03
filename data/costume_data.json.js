@@ -2928,6 +2928,61 @@ const costumeJson = [
         "id": 586,
         "chara": 15, "yakuwari": 4, "name": "Dreamin’☆Party",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 587,
+        "chara": 121, "yakuwari": 5, "name": "黄昏の聖装",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 588,
+        "chara": 122, "yakuwari": 4, "name": "黄昏の聖装",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 589,
+        "chara": 123, "yakuwari": 2, "name": "黄昏の聖装",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 590,
+        "chara": 124, "yakuwari": 6, "name": "黄昏の聖装",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 591,
+        "chara": 118, "yakuwari": 2, "name": "百合ヶ丘標準制服(通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 592,
+        "chara": 118, "yakuwari": 4, "name": "百合ヶ丘標準制服(特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 593,
+        "chara": 118, "yakuwari": 5, "name": "百合ヶ丘標準制服(支援)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 594,
+        "chara": 118, "yakuwari": 6, "name": "百合ヶ丘標準制服(妨害)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 595,
+        "chara": 118, "yakuwari": 7, "name": "百合ヶ丘標準制服(回復)",
+        "percent": 15, "parameter": [["Sp.DEF", 3000], ["DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 596,
+        "chara": 118, "yakuwari": 1, "name": "百合ヶ丘標準制服(通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 597,
+        "chara": 118, "yakuwari": 3, "name": "百合ヶ丘標準制服(特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
     }
     /*
     ,
