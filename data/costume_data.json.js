@@ -2988,6 +2988,26 @@ const costumeJson = [
         "id": 598,
         "chara": 20, "yakuwari": 2, "name": "メイドホワイトデーα",
         "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 599,
+        "chara": 15, "yakuwari": 6, "name": "マルチカラードフラワーα",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 600,
+        "chara": 68, "yakuwari": 7, "name": "もふもふホワイトデー",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5]]
+    },
+    {
+        "id": 601,
+        "chara": 70, "yakuwari": 4, "name": "もふもふホワイトデー",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 602,
+        "chara": 16, "yakuwari": 2, "name": "もふもふホワイトデー",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
     }
     /*
     ,
