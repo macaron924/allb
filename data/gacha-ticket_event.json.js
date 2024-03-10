@@ -75,7 +75,8 @@ const eventGachaTicketJson = [
     { "name": "Dreamin'☆Celebration", "lineup": [781, 782, 783, 784] },
     { "name": "幻想スリリング・パーティ", "lineup": [790, 791, 792] },
     { "name": "もふもふバレンタイン", "lineup": [803, 804, 805] },
-    { "name": "絶海のワールプール", "lineup": [815, 816, 817, 818] }
+    { "name": "絶海のワールプール", "lineup": [815, 816, 817, 818] },
+    { "name": "もふもふホワイトデー", "lineup": [825, 826, 827] }
     /*
     ,
     { "name": "", "lineup": [] }
