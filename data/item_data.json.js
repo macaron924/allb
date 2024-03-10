@@ -85,7 +85,8 @@ const itemByTypeJson = {
         { index: "costume_581_pendant-ex", name: "千香瑠/エレガンスストライカーαのペンダントEX", link: false },
         { index: "costume_582_pendant-ex", name: "鶴紗/ナイトルージュαのペンダントEX", link: false },
         { index: "costume_583_pendant-ex", name: "莉芬/王家修練服αのペンダントEX", link: false },
-        { index: "costume_598_pendant-ex", name: "百由/メイドホワイトデーαのペンダントEX", link: false }
+        { index: "costume_598_pendant-ex", name: "百由/メイドホワイトデーαのペンダントEX", link: false },
+        { index: "costume_599_pendant-ex", name: "叶星/マルチカラードフラワーαのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -187,6 +188,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_alfheim", name: "アールヴヘイム★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_dream-2", name: "3rd Anniv.ミスティック記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_dream-3", name: "3rd Anniv.スウィーティ記念★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_white-day", name: "ホワイトデー記念★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_white-day-kakutei", name: "ホワイトデーメモリア100%!!★5確定ガチャチケット", link: true },
         // イベントガチャチケット
         { index: "gacha-ticket_202212-event-1", name: "聖夜へ捧ぐサプライズ★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202212-event-2", name: "凍て空の流星★5確定ガチャチケットⅡ", link: false },
@@ -248,7 +251,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202402-event-1", name: "Dreamin'☆Celebration★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202402-event-2", name: "幻想スリリング・パーティ★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202402-event-3", name: "もふもふバレンタイン★5確定ガチャチケット", link: false },
-        { index: "gacha-ticket_202403-event-1", name: "絶海のワールプール★5確定ガチャチケット", link: false }
+        { index: "gacha-ticket_202403-event-1", name: "絶海のワールプール★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_202403-event-2", name: "もふもふホワイトデー★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -320,7 +324,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202402-2-2", name: "3rd Anniv. MATSURI & SHINペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202402-3", name: "もふもふバレンタインペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202403-1", name: "絶海のワールプールペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202403-1-2", name: "亜羅椰＆樟美ペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202403-1-2", name: "亜羅椰＆樟美ペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202403-2", name: "もふもふホワイトデーペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -386,7 +391,8 @@ const itemByTypeJson = {
         { index: "exchange_costume_new-year", name: "2024年新春記念衣装引換券", link: true },
         { index: "exchange_costume_new-year-2024-premium", name: "新春プレミア衣装引換券", link: true },
         { index: "exchange_costume_new-year-2024-normal", name: "新春衣装引換券", link: true },
-        { index: "exchange_costume_valentine", name: "2024年バレンタイン記念衣装引換券", link: true }
+        { index: "exchange_costume_valentine", name: "2024年バレンタイン記念衣装引換券", link: true },
+        { index: "exchange_costume_white-day", name: "2024年ホワイトデー記念衣装引換券", link: true }
     ],
     exchange: [ // メモリア引換券
         { index: "exchange_memoria_toumei-diary", name: "トウメイダイアリーCD発売記念！★5メモリア引換券", link: true },
@@ -493,6 +499,7 @@ const itemByTypeJson = {
         { index: "exchange_brand-new_202402-2", name: "BRAND-NEW★5メモリア引換券2月Ⅱ", link: false },
         { index: "exchange_brand-new_202402-3", name: "BRAND-NEW★5メモリア引換券2月Ⅲ", link: false },
         { index: "exchange_brand-new_202403-1", name: "BRAND-NEW★5メモリア引換券3月", link: false },
+        { index: "exchange_brand-new_202403-2", name: "BRAND-NEW★5メモリア引換券3月Ⅱ", link: false },
         // その他
         { index: "exchange_xmas-cuelebre", name: "Xmas記念クエレブレ引換券", link: true },
         { index: "exchange_charm_202312-event-1", name: "誓いのリコネクトCHARM引換券", link: false },
