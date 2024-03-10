@@ -8061,6 +8061,64 @@ const memoriaJson = [
             { yakuwari: 2, name: ["マイトブレイクB Ⅳ+", "水：ウォーターガードブレイクB Ⅳ+", "攻:ダメージUP/副攻:水ガードDOWN Ⅳ"] },
             { yakuwari: 5, name: ["パワーアシストE Ⅳ", "ウォーターパワーアシストE Ⅳ", "援:支援UP/副援:水パワーUP Ⅳ"] }
         ]
+    },
+    {
+        id: 823,
+        name: "クリエイターズコラボ-尊みティータイム-",
+        zokusei: 2, cost: 22, costume: 599, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [15, 17] },
+        get_rank: "C (推定)", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2024/3/8～)", c3: [""] },
+        skill: [
+            { yakuwari: 6, name: ["Sp.パワーフォールE Ⅳ", "Sp.ウォーターパワーフォールE Ⅳ", "援:支援UP/副援:水パワーDOWN Ⅳ"] },
+            { yakuwari: 2, name: ["マイトストライクB Ⅳ+", "水：ウォーターパワーストライクB Ⅳ+", "攻:ダメージUP/パワーUP Ⅳ"] },
+            { yakuwari: 3, name: ["Sp.マイトスマッシュA Ⅴ+", "Sp.ウォーターパワースマッシュA Ⅴ+", "攻:ダメージUP/Sp.パワーUP Ⅳ"] },
+            { yakuwari: 5, name: ["パワーアシストE Ⅳ", "ウォーターパワーアシストE Ⅳ", "援:支援UP/副援:水パワーUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 824,
+        name: "クリエイターズコラボ-ふたりだけのお茶会-",
+        zokusei: 1, cost: 22, costume: 0, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [2, 1] },
+        get_rank: "C (推定)", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "BRAND-NEWメモリアガチャ (2024/3/8～)", c3: [""] },
+        skill: [
+            { yakuwari: 2, name: ["マイトストライクB Ⅳ+", "ファイアパワーストライクB Ⅳ+", "攻:ダメージUP/パワーUP Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅳ+", "火：Sp.ファイアガードバーストB Ⅳ+", "攻:ダメージUP/Sp.ガードDOWN Ⅳ"] },
+            { yakuwari: 5, name: ["Sp.パワーアシストE Ⅳ", "Sp.ファイアパワーアシストE Ⅳ", "回:回復UP/副援:火ガードUP Ⅳ"] },
+            { yakuwari: 7, name: ["Sp.ガードヒールC Ⅴ", "Sp.ファイアガードヒールC Ⅴ", "回:回復UP/副援:火ガードUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 825,
+        name: "Good sleeping Girl",
+        zokusei: 1, cost: 24, costume: 600, legendary: "ガチャ", illustration: { type: "", chara: [68, 69] },
+        get_rank: "季節 (推定)", category: { c1: "メダル/ギガント級討伐イベント", c2: "もふもふホワイトデー (2024/3/9～)", c3: ["イベントガチャ"] },
+        skill: [
+            { yakuwari: 7, name: ["ガードヒールE Ⅳ", "ファイアガードヒールE Ⅳ", "回:回復UP/副援:支援UP Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅳ+", "Sp.ファイアパワースマッシュB Ⅳ+", "攻:ダメージUP/副攻:火パワーUP Ⅳ"] },
+            { yakuwari: 5, name: ["Sp.パワーアシストE Ⅳ", "Sp.ファイアパワーアシストE Ⅳ", "援:支援UP/副援:火パワーUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 826,
+        name: "コンコン♡ダンス",
+        zokusei: 1, cost: 22, costume: 601, legendary: "", illustration: { type: "", chara: [70] },
+        get_rank: "季節 (推定)", category: { c1: "メダル/ギガント級討伐イベント", c2: "もふもふホワイトデー (2024/3/9～)", c3: ["イベントガチャ"] },
+        skill: [
+            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅳ+", "Sp.ファイアガードバーストB Ⅳ+", "攻:Sp.ガードDOWN/副攻:火ガードDOWN Ⅳ"] },
+            { yakuwari: 5, name: ["パワーアシストE Ⅳ", "ファイアパワーアシストE Ⅳ", "援:パワーUP/副援:火パワーUP Ⅳ"] },
+            { yakuwari: 6, name: ["マイトフォールE Ⅳ", "マイトフォールE Ⅳ", "援:マイトDOWN Ⅳ"] }
+        ]
+    },
+    {
+        id: 827,
+        name: "高嶺の甘い花",
+        zokusei: 2, cost: 22, costume: 602, legendary: "", illustration: { type: "", chara: [16] },
+        get_rank: "季節 (推定)", category: { c1: "メダル/ギガント級討伐イベント", c2: "もふもふホワイトデー (2024/3/9～)", c3: ["イベントガチャ"] },
+        skill: [
+            { yakuwari: 2, name: ["マイトブレイクB Ⅳ+", "ウォーターガードブレイクB Ⅳ+", "攻:ダメージUP/副攻:水ガードDOWN Ⅳ"] },
+            { yakuwari: 1, name: ["マイトストライクA Ⅴ+", "ウォーターパワーストライクA Ⅴ+", "攻:パワーUP/副攻:水パワーUP Ⅳ"] },
+            { yakuwari: 6, name: ["パワーフォールE Ⅳ", "ウォーターパワーフォールE Ⅳ", "援:支援UP/副援:水パワーDOWN Ⅳ"] },
+            { yakuwari: 7, name: ["Sp.ガードヒールE Ⅳ", "Sp.ウォーターガードヒールE Ⅳ", "回:Sp.ガードUP/副援:水ガードUP Ⅳ"] }
+        ]
     }
     /*
     ,
