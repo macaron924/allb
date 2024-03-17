@@ -3013,6 +3013,26 @@ const costumeJson = [
         "id": 603,
         "chara": 13, "yakuwari": 4, "name": "華麗なるエージェントα",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 604,
+        "chara": 1, "yakuwari": 4, "name": "シークレットビーチ",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP(ギガント限定)", 3], ["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 605,
+        "chara": 2, "yakuwari": 6, "name": "シークレットビーチ",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP(ギガント限定)", 5], ["水UP", 5]]
+    },
+    {
+        "id": 606,
+        "chara": 54, "yakuwari": 5, "name": "シークレットビーチ",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP(ギガント限定)", 5], ["火UP", 5]]
+    },
+    {
+        "id": 607,
+        "chara": 10, "yakuwari": 2, "name": "シークレットビーチ",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP(ギガント限定)", 3], ["水UP", 3], ["火耐性", 2]]
     }
     /*
     ,
