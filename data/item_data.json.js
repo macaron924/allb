@@ -326,7 +326,9 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202402-3", name: "もふもふバレンタインペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202403-1", name: "絶海のワールプールペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202403-1-2", name: "亜羅椰＆樟美ペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202403-2", name: "もふもふホワイトデーペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202403-2", name: "もふもふホワイトデーペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202403-zenei", name: "Spring Splash Vacation!!前衛ペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202403-kouei", name: "Spring Splash Vacation!!後衛ペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -369,7 +371,8 @@ const itemByTypeJson = {
         { index: "exchange_costume_gigant_202310", name: "ギガント級ヒュージ討伐衣装引換券 (10月)", link: true },
         { index: "exchange_costume_gigant_202311", name: "ギガント級ヒュージ討伐衣装引換券 (11月)", link: true },
         { index: "exchange_costume_gigant_202401", name: "ギガント級ヒュージ討伐衣装引換券 (1月)", link: true },
-        { index: "exchange_costume_gigant-2", name: "ギガント級ヒュージ討伐衣装引換券 (2月)", link: true },
+        { index: "exchange_costume_gigant-2", name: "ギガント級ヒュージ討伐衣装引換券Ver.2 (2月)", link: true },
+        { index: "exchange_costume_gigant-3", name: "ギガント級ヒュージ討伐衣装引換券Ver.3 (3月)", link: true },
         { index: "exchange_costume_ririsama-1", name: "GO!GO!スプラッシュ衣装引換券", link: true },
         { index: "exchange_costume_ririsama-2", name: "トロピカルナイト衣装引換券", link: true },
         { index: "exchange_costume_ririsama-3", name: "ギガントウェーブ衣装引換券", link: true },
