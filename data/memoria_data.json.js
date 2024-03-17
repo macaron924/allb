@@ -8143,6 +8143,50 @@ const memoriaJson = [
             { yakuwari: 4, name: ["Sp.マイトスマッシュB Ⅳ+", "Sp.カウンターウィンドパワースマッシュB Ⅳ+", "攻:ダメージUP/Sp.パワーUP Ⅳ"] },
             { yakuwari: 7, name: ["ガードヒールC Ⅴ", "ウィンドガードヒールC Ⅴ", "回:回復UP/副援:風ガードUP Ⅳ"] }
         ]
+    },
+    {
+        id: 830,
+        name: "クリエイターズコラボ-背伸びでお披露目-",
+        zokusei: 1, cost: 22, costume: 604, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [1, 5] },
+        get_rank: "レジェンダリーのない限定イベント (推定)", category: { c1: "メダル/ギガント級討伐イベント", c2: "Spring Splash Vacation!! (2024/3/16～)", c3: ["前衛イベントガチャ"] },
+        skill: [
+            { yakuwari: 4, name: ["Sp.マイトスマッシュD Ⅴ+", "火：Sp.ファイアパワースマッシュD Ⅲ+", "攻:ダメージUP/副攻:火パワーUP Ⅳ"] },
+            { yakuwari: 3, name: ["Sp.マイトスマッシュA Ⅵ+", "Sp.ファイアパワースマッシュA Ⅴ+", "攻:ダメージUP/Sp.パワーUP Ⅳ"] },
+            { yakuwari: 6, name: ["WパワーフォールE Ⅴ", "WパワーフォールE Ⅳ", "援:支援UP/副援:火パワーDOWN Ⅳ"] }
+        ]
+    },
+    {
+        id: 831,
+        name: "クリエイターズコラボ-いつも傍らに-",
+        zokusei: 2, cost: 22, costume: 605, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [2, 6] },
+        get_rank: "レジェンダリーのない限定イベント (推定)", category: { c1: "メダル/ギガント級討伐イベント", c2: "Spring Splash Vacation!! (2024/3/16～)", c3: ["前衛イベントガチャ"] },
+        skill: [
+            { yakuwari: 6, name: ["Sp.パワーフォールE Ⅴ", "水：Sp.ウォーターパワーフォールE Ⅳ", "援:支援UP/副援:水パワーDOWN Ⅳ"] },
+            { yakuwari: 2, name: ["マイトブレイクE Ⅴ+", "ウォーターガードブレイクB Ⅳ+", "攻:ダメージUP/ガードDOWN Ⅳ"] },
+            { yakuwari: 5, name: ["パワーアシストE Ⅴ", "ウォーターパワーアシストE Ⅳ", "援:支援UP/副援:水パワーUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 832,
+        name: "クリエイターズコラボ-幻想に揺蕩う夜-",
+        zokusei: 1, cost: 22, costume: 606, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [54, 2] },
+        get_rank: "レジェンダリーのない限定イベント (推定)", category: { c1: "メダル/ギガント級討伐イベント", c2: "Spring Splash Vacation!! (2024/3/16～)", c3: ["後衛イベントガチャ"] },
+        skill: [
+            { yakuwari: 5, name: ["Sp.パワーアシストE Ⅴ", "Sp.ファイアパワーアシストE Ⅳ", "援:支援UP/副援:火パワーUP Ⅳ"] },
+            { yakuwari: 1, name: ["マイトストライクA Ⅵ+", "ファイアパワーストライクA Ⅴ+", "攻:ダメージUP/パワーUP Ⅳ"] },
+            { yakuwari: 7, name: ["ガードヒールE Ⅴ", "火：ファイアガードヒールC Ⅴ", "回:回復UP/副援:火ガードUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 833,
+        name: "クリエイターズコラボ-夢色トワイライト-",
+        zokusei: 2, cost: 22, costume: 607, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [10, 12] },
+        get_rank: "レジェンダリーのない限定イベント (推定)", category: { c1: "メダル/ギガント級討伐イベント", c2: "Spring Splash Vacation!! (2024/3/16～)", c3: ["後衛イベントガチャ"] },
+        skill: [
+            { yakuwari: 2, name: ["マイトストライクD Ⅴ+", "水：ウォーターパワーストライクD Ⅲ+", "攻:ダメージUP/副攻:水パワーUP Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトバーストE Ⅴ+", "Sp.ウォーターガードバーストB Ⅳ+", "攻:ダメージUP/Sp.ガードDOWN Ⅳ"] },
+            { yakuwari: 7, name: ["Sp.ガードヒールE Ⅴ", "Sp.ウォーターガードヒールC Ⅴ", "回:回復UP/副援:水ガードUP Ⅳ"] }
+        ]
     }
     /*
     ,
