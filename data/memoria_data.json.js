@@ -6425,8 +6425,8 @@ const memoriaJson = [
         zokusei: 2, cost: 26, costume: 0, legendary: "", illustration: { type: "", chara: [28] },
         get_rank: "アルティメットメモリア", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "アルティメットメモリア前衛後衛ガチャ (2023/8/4～)", c3: ["前衛ガチャ"] },
         skill: [
-            { yakuwari: 2, name: ["水：パワーストライクB Ⅲ", "水：パワーストライクB Ⅲ", "攻:ダメージUP Ⅳ+"] },
-            { yakuwari: 6, name: ["WガードフォールD Ⅲ", "WガードフォールD Ⅲ", "援:支援UP Ⅳ+"] }
+            { yakuwari: 2, name: ["水：パワーストライクD Ⅳ", "水：トライパワーストライクD Ⅳ+", "攻:ダメージUP Ⅳ+"] },
+            { yakuwari: 6, name: ["WガードフォールE Ⅴ", "WカウンターガードフォールE Ⅴ", "援:支援UP Ⅳ+"] }
         ]
     },
     {
@@ -6435,8 +6435,8 @@ const memoriaJson = [
         zokusei: 2, cost: 26, costume: 0, legendary: "", illustration: { type: "", chara: [27] },
         get_rank: "アルティメットメモリア", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "アルティメットメモリア前衛後衛ガチャ (2023/8/4～)", c3: ["前衛ガチャ"] },
         skill: [
-            { yakuwari: 4, name: ["水：Sp.パワースマッシュB Ⅲ", "水：Sp.パワースマッシュB Ⅲ", "攻:ダメージUP Ⅳ+"] },
-            { yakuwari: 5, name: ["WガードアシストD Ⅲ", "WガードアシストD Ⅲ", "援:支援UP Ⅳ+"] }
+            { yakuwari: 4, name: ["水：Sp.パワースマッシュD Ⅳ", "水：Sp.トライパワースマッシュD Ⅳ+", "攻:ダメージUP Ⅳ+"] },
+            { yakuwari: 5, name: ["WガードアシストE Ⅴ", "WカウンターガードアシストE Ⅴ", "援:支援UP Ⅳ+"] }
         ]
     },
     {
@@ -6445,8 +6445,8 @@ const memoriaJson = [
         zokusei: 1, cost: 26, costume: 0, legendary: "", illustration: { type: "", chara: [25] },
         get_rank: "アルティメットメモリア", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "アルティメットメモリア前衛後衛ガチャ (2023/8/4～)", c3: ["後衛ガチャ"] },
         skill: [
-            { yakuwari: 5, name: ["WパワーアシストD Ⅲ", "WパワーアシストD Ⅲ", "援:支援UP Ⅳ+"] },
-            { yakuwari: 4, name: ["火：Sp.ガードバーストB Ⅲ", "火：Sp.ガードバーストB Ⅲ", "攻:ダメージUP Ⅳ+"] }
+            { yakuwari: 5, name: ["WパワーアシストE Ⅴ", "WカウンターパワーアシストE Ⅴ", "援:支援UP Ⅳ+"] },
+            { yakuwari: 4, name: ["火：Sp.ガードバーストD Ⅳ", "火：Sp.トライガードバーストD Ⅳ+", "攻:ダメージUP Ⅳ+"] }
         ]
     },
     {
@@ -6455,8 +6455,8 @@ const memoriaJson = [
         zokusei: 1, cost: 26, costume: 0, legendary: "", illustration: { type: "", chara: [53] },
         get_rank: "アルティメットメモリア", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "アルティメットメモリア前衛後衛ガチャ (2023/8/4～)", c3: ["後衛ガチャ"] },
         skill: [
-            { yakuwari: 6, name: ["WパワーフォールD Ⅲ", "WパワーフォールD Ⅲ", "援:支援UP Ⅳ+"] },
-            { yakuwari: 2, name: ["火：ガードブレイクB Ⅲ", "火：ガードブレイクB Ⅲ", "攻:ダメージUP Ⅳ+"] }
+            { yakuwari: 6, name: ["WパワーフォールE Ⅴ", "WカウンターパワーフォールE Ⅴ", "援:支援UP Ⅳ+"] },
+            { yakuwari: 2, name: ["火：ガードブレイクD Ⅳ", "火：トライガードブレイクD Ⅳ+", "攻:ダメージUP Ⅳ+"] }
         ]
     },
     {
@@ -6465,8 +6465,8 @@ const memoriaJson = [
         zokusei: 2, cost: 26, costume: 0, legendary: "", illustration: { type: "", chara: [22] },
         get_rank: "アルティメットメモリア", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "アルティメットメモリア前衛後衛ガチャ (2023/8/4～)", c3: ["後衛ガチャ"] },
         skill: [
-            { yakuwari: 7, name: ["ヒールD Ⅳ", "リカバーヒールD Ⅳ", "回:回復UP Ⅳ+"] },
-            { yakuwari: 1, name: ["マイトストライクA Ⅴ+", "ウォーターパワーストライクA Ⅴ+", "攻:ダメージUP Ⅳ+"] }
+            { yakuwari: 7, name: ["ヒールE Ⅴ", "リカバーヒールE Ⅴ", "回:回復UP/副援:トライガードUP Ⅳ+"] },
+            { yakuwari: 1, name: ["マイトストライクA Ⅴ+", "カウンタートライパワーストライクA Ⅴ+", "攻:ダメージUP Ⅳ+"] }
         ]
     },
     {
