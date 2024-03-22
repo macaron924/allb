@@ -396,7 +396,8 @@ const itemByTypeJson = {
         { index: "exchange_costume_new-year-2024-premium", name: "新春プレミア衣装引換券", link: true },
         { index: "exchange_costume_new-year-2024-normal", name: "新春衣装引換券", link: true },
         { index: "exchange_costume_valentine", name: "2024年バレンタイン記念衣装引換券", link: true },
-        { index: "exchange_costume_white-day", name: "2024年ホワイトデー記念衣装引換券", link: true }
+        { index: "exchange_costume_white-day", name: "2024年ホワイトデー記念衣装引換券", link: true },
+        { index: "exchange_costume_premium-202403", name: "プレミア衣装引換券", link: true }
     ],
     exchange: [ // メモリア引換券
         { index: "exchange_memoria_toumei-diary", name: "トウメイダイアリーCD発売記念！★5メモリア引換券", link: true },
@@ -417,6 +418,7 @@ const itemByTypeJson = {
         { index: "exchange_premium-gw", name: "プレミア★5メモリア引換券", link: true },
         { index: "exchange_premium-ririsama", name: "プレミア★5メモリア引換券", link: true },
         { index: "exchange_premium-dream", name: "プレミア★5メモリア引換券", link: true },
+        { index: "exchange_premium-202403", name: "プレミア★5メモリア引換券", link: true },
         { index: "exchange_memoria_gran-eple", name: "グラン・エプレ★5メモリア引換券", link: true },
         { index: "exchange_memoria_hervarar", name: "ヘルヴォル★5メモリア引換券", link: true },
         { index: "exchange_memoria_yuyu", name: "白井夢結★5メモリア引換券", link: true },
@@ -474,6 +476,7 @@ const itemByTypeJson = {
         { index: "exchange_event-gacha-special-3", name: "イベントガチャスペシャル交換券", link: true },
         { index: "exchange_event-gacha-special-4", name: "イベントガチャスペシャル交換券", link: true },
         { index: "exchange_event-gacha-special-dream", name: "3rd Anniv.イベントガチャスペシャル交換券", link: true },
+        { index: "exchange_event-gacha-special-5", name: "イベントガチャスペシャル交換券", link: true },
         // アルティメット交換券
         { index: "exchange_ultimate-select-zenei", name: "アルティメットメモリア前衛交換券", link: false },
         { index: "exchange_ultimate-select-kouei", name: "アルティメットメモリア後衛交換券", link: false },
@@ -487,6 +490,8 @@ const itemByTypeJson = {
         { index: "exchange_ultimate2-select-kouei-2", name: "アルティメットメモリア後衛交換券", link: false },
         { index: "exchange_ultimate3-select-zenei", name: "3rd Anniv.アルティメットメモリア前衛交換券", link: false },
         { index: "exchange_ultimate3-select-kouei", name: "3rd Anniv.アルティメットメモリア後衛交換券", link: false },
+        { index: "exchange_ultimate2-select-zenei-3", name: "アルティメットメモリア前衛交換券", link: false },
+        { index: "exchange_ultimate2-select-kouei-3", name: "アルティメットメモリア後衛交換券", link: false },
         // 新メモリア交換券
         { index: "exchange_brand-new", name: "BRAND-NEW★5メモリア引換券", link: false },
         { index: "exchange_brand-new_202310-2", name: "BRAND-NEW★5メモリア引換券10月Ⅱ", link: false },
@@ -535,6 +540,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_202401", name: "ボーナスメダルⅠ", link: false },
         { index: "medal_bonus_202402", name: "ボーナスメダルⅡ", link: false },
         { index: "medal_bonus_202403", name: "ボーナスメダルⅢ", link: false },
+        { index: "medal_bonus_202404", name: "ボーナスメダルⅣ", link: false },
         { index: "medal_bonus_collabo-prisma-illya", name: "シスターズ・カラミティボーナスメダル", link: false },
         { index: "medal_bonus_collabo-madoka-magica", name: "マギカ☆ワンダーワールドボーナスメダル", link: false },
         { index: "medal_bonus_collabo-yuyuyu", name: "白百合の章ボーナスメダル", link: false },
