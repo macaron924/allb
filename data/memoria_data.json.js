@@ -8187,6 +8187,40 @@ const memoriaJson = [
             { yakuwari: 4, name: ["Sp.マイトバーストE Ⅴ+", "Sp.ウォーターガードバーストB Ⅳ+", "攻:ダメージUP/Sp.ガードDOWN Ⅳ"] },
             { yakuwari: 7, name: ["Sp.ガードヒールE Ⅴ", "Sp.ウォーターガードヒールC Ⅴ", "回:回復UP/副援:水ガードUP Ⅳ"] }
         ]
+    },
+    {
+        id: 834,
+        name: "クリエイターズコラボ-おはようございます-",
+        zokusei: 1, cost: 22, costume: 0, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [7, 8] },
+        get_rank: "C (推定)", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "スプリングフェスガチャ (2024/3/24～)", c3: [""] },
+        skill: [
+            { yakuwari: 7, name: ["ガードヒールE Ⅳ", "ファイアガードヒールE Ⅳ", "回:回復UP/副援:火ガードUP Ⅳ"] },
+            { yakuwari: 2, name: ["マイトストライクB Ⅳ+", "ファイアパワーストライクB Ⅳ+", "攻:ダメージUP/パワーUP Ⅳ"] },
+            { yakuwari: 4, name: ["Sp.マイトバーストB Ⅳ+", "火：Sp.ファイアガードバーストB Ⅳ+", "攻:ダメージUP/Sp.ガードDOWN Ⅳ"] },
+            { yakuwari: 5, name: ["Sp.パワーアシストE Ⅳ", "Sp.ファイアパワーアシストE Ⅳ", "援:支援UP/副援:火パワーUP Ⅳ"] }
+        ]
+    },
+    {
+        id: 835,
+        name: "クリエイターズコラボ-よしよし、いいこ-",
+        zokusei: 3, cost: 22, costume: 0, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [11, 14] },
+        get_rank: "C (推定)", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "スプリングフェスガチャ (2024/3/24～)", c3: [""] },
+        skill: [
+            { yakuwari: 4, name: ["Sp.マイトバーストD Ⅲ+", "Sp.カウンターウィンドガードバーストD Ⅲ+", "攻:ダメージUP/副攻:風ガードDOWN Ⅳ"] },
+            { yakuwari: 5, name: ["WパワーアシストE Ⅳ", "WカウンターパワーアシストE Ⅳ", "援:支援UP/副援:風パワーUP Ⅳ"] },
+            { yakuwari: 6, name: ["WパワーフォールE Ⅳ", "WカウンターパワーフォールE Ⅳ", "援:支援UP/副援:風パワーDOWN Ⅳ"] }
+        ]
+    },
+    {
+        id: 836,
+        name: "クリエイターズコラボ-永遠の約束-",
+        zokusei: 2, cost: 22, costume: 0, legendary: "", illustration: { type: "クリエイターズコラボ", chara: [16, 15] },
+        get_rank: "C (推定)", category: { c1: "前衛後衛/役割別/クリエイターズコラボガチャ", c2: "スプリングフェスガチャ (2024/3/24～)", c3: [""] },
+        skill: [
+            { yakuwari: 2, name: ["マイトブレイクD Ⅲ+", "水：ウォーターガードブレイクD Ⅲ+", "攻:ダメージUP/副攻:水ガードDOWN Ⅳ"] },
+            { yakuwari: 6, name: ["Sp.パワーフォールE Ⅳ", "Sp.ウォーターパワーフォールE Ⅳ", "援:支援UP/副援:水パワーDOWN Ⅳ"] },
+            { yakuwari: 7, name: ["Sp.ガードヒールC Ⅴ", "水：Sp.ウォーターガードヒールC Ⅴ", "回:回復UP/副援:支援UP Ⅳ"] }
+        ]
     }
     /*
     ,
