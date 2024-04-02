@@ -118,18 +118,20 @@
         { "charaID": 116, "charaName": "貞花", "charaFullName":"貞花", "charaJump": "", "specialSkill":"", "playable": false },
         { "charaID": 117, "charaName": "日羽梨", "charaFullName":"日羽梨", "charaJump": "", "specialSkill":"", "playable": false },
         { "charaID": 118, "charaName": "若菜", "charaFullName":"槇若菜", "charaJump": "wakana", "specialSkill":"", "playable": true },
-        { "charaID": 119, "charaName": "乃彩", "charaFullName":"毛綱乃彩", "charaJump": "", "specialSkill":"", "playable": false },
+        { "charaID": 119, "charaName": "乃彩", "charaFullName":"毛綱乃彩", "charaJump": "noa", "specialSkill":"", "playable": true },
         { "charaID": 120, "charaName": "綺更", "charaFullName":"岡田綺更", "charaJump": "", "specialSkill":"", "playable": false },
         { "charaID": 121, "charaName": "天葉", "charaFullName":"天野天葉", "charaJump": "", "specialSkill":"エルヴンヘリオスフィア", "playable": true },
         { "charaID": 122, "charaName": "若菜", "charaFullName":"槇若菜", "charaJump": "", "specialSkill":"エルヴンレジスタ", "playable": true },
         { "charaID": 123, "charaName": "亜羅椰", "charaFullName":"遠藤亜羅椰", "charaJump": "", "specialSkill":"Eフェイズトランセンデンス", "playable": true },
         { "charaID": 124, "charaName": "樟美", "charaFullName":"江川樟美", "charaJump": "", "specialSkill":"エルヴンファンタズム", "playable": true },
+        { "charaID": 125, "charaName": "弥宙", "charaFullName":"金箱弥宙", "charaJump": "", "specialSkill":"エルヴンレジスタ", "playable": true },
+        { "charaID": 126, "charaName": "乃彩", "charaFullName":"毛綱乃彩", "charaJump": "", "specialSkill":"エルヴンラプラス", "playable": true },
         { "charaID": 998, "charaName": "八雲校長", "charaFullName":"八雲校長", "charaJump": "", "specialSkill":"", "playable": false },
         { "charaID": 999, "charaName": "美鈴", "charaFullName":"美鈴", "charaJump": "", "specialSkill":"", "playable": false }
         
     ],[
         { "belong": "百合ヶ丘女学院／一柳隊", "playable": true, "chara": [1, 30, 2, 107, 3, 4, 5, 55, 113, 6, 7, 8, 9, 35] },
-        { "belong": "百合ヶ丘女学院／アールヴヘイム", "playable": true, "chara": [21, 121, 22, 23, 123, 24, 25, 124, 26, 27, 28, 29, 118, 122, 119, 120] },
+        { "belong": "百合ヶ丘女学院／アールヴヘイム", "playable": true, "chara": [21, 121, 22, 23, 123, 24, 25, 124, 26, 125, 27, 28, 127, 29, 118, 122, 119, 126, 120] },
         { "belong": "百合ヶ丘女学院／サングリーズル", "playable": false, "chara": [116, 117] },
         { "belong": "百合ヶ丘女学院／その他", "playable": true, "chara": [20, 53, 54, 56, 57, 98, 99, 105, 106, 115, 999] },
         { "belong": "エレンスゲ女学園／ヘルヴォル", "playable": true, "chara": [10, 95, 11, 84, 12, 96, 13, 14] },
