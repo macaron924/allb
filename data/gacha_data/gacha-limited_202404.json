@@ -1,4 +1,4 @@
-const gachaLimited202404 = [
+[
     {
         "start": "2024/4/1(月) 12:00",
         "finish": "2024/4/3(水) 23:59",
@@ -25,7 +25,5 @@ const gachaLimited202404 = [
                 }
             }
         ]
-    },
+    }
 ]
-
-gachaLimitedList.push( { "ref": gachaLimited202404, "index": 202404, "active": true, "group": "" } );

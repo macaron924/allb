@@ -11,6 +11,13 @@ function getCharaName(charaID) {
     return "";
 }
 
+// データ取得
+const charaDataTemp = loadData("../../data/chara_data.json");
+const charaJson = charaDataTemp[0];
+const charaBelongJson = charaDataTemp[1];
+const costumeJson = loadData("../../data/costume_data.json");
+const exchangeDataJson = loadData("../../data/exchange_data.json");
+
 // URLパラメータ取得
 const url = new URL(window.location.href);
 const params = url.searchParams;
