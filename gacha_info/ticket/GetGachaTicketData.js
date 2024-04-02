@@ -63,6 +63,10 @@ function addLineup() {
     }
 }
 
+// データ取得
+const gachaTicketJson = loadData("../../data/gacha-ticket_data.json");
+const memoriaJson = loadData("../../data/memoria_data.json");
+
 
 // URLパラメータ取得
 const url = new URL(window.location.href);

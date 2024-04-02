@@ -341,6 +341,9 @@ function writeLineup() {
     document.getElementById("lineup").appendChild(memoriaList);
 }
 
+// データ取得
+const gachaFree = loadData("../../../data/gacha_data/gacha-free.json");
+const memoriaJson = loadData("../../../data/memoria_data.json")
 
 // URLパラメータ取得
 const url = new URL(window.location.href);

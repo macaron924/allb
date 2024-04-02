@@ -1,7 +1,4 @@
 const itemJson = [
-    /*
-    { "index": "", "name": "", "link": "" },
-    */
     { "index": "gacha-ticket_zokusei-fire", "name": "火属性★5確定ガチャチケット", "link": "ticket/?index=zokusei-fire" },
     { "index": "gacha-ticket_zokusei-water", "name": "水属性★5確定ガチャチケット", "link": "ticket/?index=zokusei-water" },
     { "index": "gacha-ticket_zokusei-wind", "name": "風属性★5確定ガチャチケット", "link": "ticket/?index=zokusei-wind" },
@@ -20,10 +17,6 @@ const itemJson = [
 ]
 
 const itemByTypeJson = {
-    /*
-    { index: "", name: "", link: false },
-    */
-
     costume_sozai: [ // ガチャボーナス衣装・ペンダント
         { index: "costume_287_pendant-ex", name: "鶴紗/望月兎着のペンダントEX", link: false },
         { index: "costume_301_before", name: "一柳結梨/百合ヶ丘訓練制服", link: false },

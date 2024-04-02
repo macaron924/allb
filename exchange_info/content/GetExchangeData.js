@@ -4,6 +4,16 @@ $(document).on("click", ".category", function() {//タイトル要素をクリ�
 	$(this).toggleClass("close");// 自身にもcloseクラスを付与
 });
 
+//データ取得
+const exchangeDataJson = loadData("../../data/exchange_data.json");
+const memoriaJson = loadData("../../data/memoria_data.json");
+const costumeJson = loadData("../../data/costume_data.json");
+const charaDataTemp = loadData("../../data/chara_data.json");
+const charaJson = charaDataTemp[0];
+const charaBelongJson = charaDataTemp[1];
+const eventGachaTicketJson = loadData("../../data/gacha-ticket_event.json");
+
+
 function getMedalData(medalSelection) {
     for (let i = 0; i < exchangeDataJson.length; i++) {
         if (exchangeDataJson[i]["index"] == medalSelection) return exchangeDataJson[i];
