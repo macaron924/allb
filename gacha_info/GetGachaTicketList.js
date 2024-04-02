@@ -36,6 +36,8 @@ function compare(a, b) {
 
     return 1;
 }
+// データ取得
+const gachaTicketJson = loadData("../data/gacha-ticket_data.json");
 
 let gachaTicketJsonCopy = JSON.parse(JSON.stringify(gachaTicketJson));
 for (let i = 0; i < gachaTicketJsonCopy.length; i++) {

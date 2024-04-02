@@ -4,6 +4,9 @@ $(".category").click(function () {//タイトル要素をクリックしたら
 	$(this).toggleClass("close");// 自身にもcloseクラスを付与
 });
 
+// データ取得
+const exchangeDataJson = loadData("../data/exchange_data.json");
+
 for (let i = 0; i < exchangeDataJson.length; i++) {
     content = `
     <div class="flex_medal-item">

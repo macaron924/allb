@@ -231,6 +231,9 @@ function makeTable() {
     document.getElementById("maintable").appendChild(table);
 }
 
+// データ取得
+const charmJson = loadData("../data/charm_data.json");
+
 // 初期化
 let charmJsonCopy = JSON.parse(JSON.stringify(charmJson));
 makeTable();

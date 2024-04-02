@@ -731,6 +731,12 @@ function makeTable() {
     document.getElementById("resultCount").replaceChildren(resultCount);
 }
 
+// データ取得
+const exchangeDataJson = loadData("../../data/exchange_data.json");
+const memoriaJson = loadData("../../data/memoria_data.json");
+const skillJson = loadData("../../data/memoria_skill.json");
+const hojoJson = loadData("../../data/memoria_hojo.json");
+
 // 初期化
 let memoriaJsonCopy = JSON.parse(JSON.stringify(memoriaJson));
 for (let i = 0; i < memoriaJsonCopy.length; i++) {

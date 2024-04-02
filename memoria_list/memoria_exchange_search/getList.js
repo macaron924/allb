@@ -4,6 +4,10 @@ $(document).on("click", "#memoria-open-btn", function() {
 	$(this).toggleClass("active");
 });
 
+// データ取得
+const memoriaJson = loadData("../../data/memoria_data.json");
+const exchangeDataJson = loadData("../../data/exchange_data.json");
+
 // URLパラメータ取得
 const url = new URL(window.location.href);
 const params = url.searchParams;

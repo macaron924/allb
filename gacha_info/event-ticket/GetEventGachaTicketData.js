@@ -34,4 +34,8 @@ function addLineup() {
     }
 }
 
+// データ取得
+const eventGachaTicketJson = loadData("../../data/gacha-ticket_event.json");
+const memoriaJson = loadData("../../data/memoria_data.json");
+
 addLineup()

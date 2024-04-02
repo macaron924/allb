@@ -92,5 +92,8 @@ function makeContent() {
     document.getElementById("content").insertAdjacentElement("beforeend", group);
 }
 
+// データ取得
+const gachaFree = loadData("../../data/gacha_data/gacha-free.json");
+
 let gachaBoxList = [];
 makeContent();

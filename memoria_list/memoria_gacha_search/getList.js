@@ -4,6 +4,14 @@ $(document).on("click", "#memoria-open-btn", function() {
 	$(this).toggleClass("active");
 });
 
+// データ取得
+const memoriaJson = loadData("../../data/memoria_data.json");
+const gachaTicketJson = loadData("../../data/gacha-ticket_data.json");
+const gachaDaily11 = loadData("../../data/gacha_data/gacha-daily11.json");
+const gachaFree = loadData("../../data/gacha_data/gacha-free.json");
+const gachaLimitedList = getLimitedGachaData(2);
+
+
 // URLパラメータ取得
 const url = new URL(window.location.href);
 const params = url.searchParams;
