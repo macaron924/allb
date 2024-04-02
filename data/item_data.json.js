@@ -253,7 +253,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202402-event-2", name: "幻想スリリング・パーティ★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202402-event-3", name: "もふもふバレンタイン★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202403-event-1", name: "絶海のワールプール★5確定ガチャチケット", link: false },
-        { index: "gacha-ticket_202403-event-2", name: "もふもふホワイトデー★5確定ガチャチケット", link: false }
+        { index: "gacha-ticket_202403-event-2", name: "もふもふホワイトデー★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_202404-event-1", name: "溟海のブルーローズ★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -328,7 +329,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202403-1-2", name: "亜羅椰＆樟美ペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202403-2", name: "もふもふホワイトデーペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202403-zenei", name: "Spring Splash Vacation!!前衛ペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202403-kouei", name: "Spring Splash Vacation!!後衛ペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202403-kouei", name: "Spring Splash Vacation!!後衛ペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202404-1", name: "溟海のブルーローズペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -398,7 +400,9 @@ const itemByTypeJson = {
         { index: "exchange_costume_new-year-2024-normal", name: "新春衣装引換券", link: true },
         { index: "exchange_costume_valentine", name: "2024年バレンタイン記念衣装引換券", link: true },
         { index: "exchange_costume_white-day", name: "2024年ホワイトデー記念衣装引換券", link: true },
-        { index: "exchange_costume_premium-202403", name: "プレミア衣装引換券", link: true }
+        { index: "exchange_costume_premium-202403", name: "プレミア衣装引換券", link: true },
+        { index: "exchange_costume_elven-noa", name: "毛綱乃彩/黄昏の聖装アドバンス衣装引換券", link: false },
+        { index: "exchange_costume_ad-pendant", name: "ADペンダントメダルセレクトチケット", link: true }
     ],
     exchange: [ // メモリア引換券
         { index: "exchange_memoria_toumei-diary", name: "トウメイダイアリーCD発売記念！★5メモリア引換券", link: true },
@@ -524,7 +528,8 @@ const itemByTypeJson = {
         { index: "exchange_kangei-yakuwari-gacha", name: "歓迎CP役割別ガチャチケット引換券", link: false },
         { index: "exchange_kangei-yakuwari-gacha-2023", name: "歓迎CP役割別ガチャチケット2023引換券", link: false },
         { index: "exchange_yakuwari-gacha", name: "役割別ガチャチケット引換券", link: false },
-        { index: "exchange_3rd-anniv-yakuwari-gacha", name: "3rd Anniv.役割別ガチャチケット引換券", link: false }
+        { index: "exchange_3rd-anniv-yakuwari-gacha", name: "3rd Anniv.役割別ガチャチケット引換券", link: false },
+        { index: "exchange_pendant_elven-noa", name: "毛綱乃彩/黄昏の聖装ADペンダント交換券", link: false }
     ],
     medal_bonus: [ // ボーナスメダル
         { index: "medal_bonus_202212", name: "ボーナスメダルⅫ", link: false },
@@ -599,6 +604,7 @@ const itemByTypeJson = {
         { index: "medal_pendant-normal", name: "ペンダントメダル", link: false },
         { index: "medal_pendant-premium", name: "プレミアムペンダントメダル", link: false },
         { index: "medal_pendant-royal", name: "ロイヤルペンダントメダル", link: false },
+        { index: "medal_pendant-ad", name: "ADペンダントメダル", link: false },
         { index: "memoria-level-3", name: "少女の日記Ⅲ", link: false },
         { index: "moon", name: "メモリアムーン", link: false },
         { index: "moon-fire", name: "火のメモリアムーン", link: false },
@@ -624,6 +630,7 @@ const itemByTypeJson = {
         { index: "lp-card-4", name: "LPカードⅣ", link: false },
         { index: "charm_144_star3", name: "デュランダルSP.HY", link: false },
         { index: "charm_162_star3", name: "ムラマサ・ブレード", link: false },
-        { index: "charm_169_star3", name: "グラムSP.MW", link: false }
+        { index: "charm_169_star3", name: "グラムSP.MW", link: false },
+        { index: "charm_171_star3", name: "クリューサーオールSP.MN", link: false }
     ]
 }
