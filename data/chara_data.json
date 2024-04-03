@@ -126,6 +126,7 @@
         { "charaID": 124, "charaName": "樟美", "charaFullName":"江川樟美", "charaJump": "", "specialSkill":"エルヴンファンタズム", "playable": true },
         { "charaID": 125, "charaName": "弥宙", "charaFullName":"金箱弥宙", "charaJump": "", "specialSkill":"エルヴンレジスタ", "playable": true },
         { "charaID": 126, "charaName": "乃彩", "charaFullName":"毛綱乃彩", "charaJump": "", "specialSkill":"エルヴンラプラス", "playable": true },
+        { "charaID": 127, "charaName": "月詩", "charaFullName":"高須賀月詩", "charaJump": "", "specialSkill":"エルヴンサークリットブレス", "playable": true },
         { "charaID": 998, "charaName": "八雲校長", "charaFullName":"八雲校長", "charaJump": "", "specialSkill":"", "playable": false },
         { "charaID": 999, "charaName": "美鈴", "charaFullName":"美鈴", "charaJump": "", "specialSkill":"", "playable": false }
         
