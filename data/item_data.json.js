@@ -80,7 +80,8 @@ const itemByTypeJson = {
         { index: "costume_583_pendant-ex", name: "莉芬/王家修練服αのペンダントEX", link: false },
         { index: "costume_598_pendant-ex", name: "百由/メイドホワイトデーαのペンダントEX", link: false },
         { index: "costume_599_pendant-ex", name: "叶星/マルチカラードフラワーαのペンダントEX", link: false },
-        { index: "costume_603_pendant-ex", name: "瑤/華麗なるエージェントαのペンダントEX", link: false }
+        { index: "costume_603_pendant-ex", name: "瑤/華麗なるエージェントαのペンダントEX", link: false },
+        { index: "costume_612_pendant-ex", name: "茜/黄昏の聖装のペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -386,6 +387,8 @@ const itemByTypeJson = {
         { index: "exchange_costume_dream-kureha", name: "紅巴/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-akehi", name: "秋日/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_uniform-wakana", name: "若菜/百合ヶ丘標準制服衣装引換券", link: false },
+        { index: "exchange_costume_uniform-noa", name: "乃彩/百合ヶ丘標準制服衣装引換券", link: false },
+        { index: "exchange_costume_elven-noa", name: "毛綱乃彩/黄昏の聖装アドバンス衣装引換券", link: false },
         { index: "exchange_costume_dreamin-party", name: "Dreamin’☆Party衣装引換券", link: false },
         { index: "exchange_costume_xmas", name: "Xmas記念衣装引換券", link: true },
         { index: "exchange_costume_new-year", name: "2024年新春記念衣装引換券", link: true },
@@ -394,7 +397,6 @@ const itemByTypeJson = {
         { index: "exchange_costume_valentine", name: "2024年バレンタイン記念衣装引換券", link: true },
         { index: "exchange_costume_white-day", name: "2024年ホワイトデー記念衣装引換券", link: true },
         { index: "exchange_costume_premium-202403", name: "プレミア衣装引換券", link: true },
-        { index: "exchange_costume_elven-noa", name: "毛綱乃彩/黄昏の聖装アドバンス衣装引換券", link: false },
         { index: "exchange_costume_ad-pendant", name: "ADペンダントメダルセレクトチケット", link: true }
     ],
     exchange: [ // メモリア引換券
@@ -521,6 +523,7 @@ const itemByTypeJson = {
         { index: "exchange_kangei-yakuwari-gacha", name: "歓迎CP役割別ガチャチケット引換券", link: false },
         { index: "exchange_kangei-yakuwari-gacha-2023", name: "歓迎CP役割別ガチャチケット2023引換券", link: false },
         { index: "exchange_yakuwari-gacha", name: "役割別ガチャチケット引換券", link: false },
+        { index: "exchange_yakuwari-gacha_202404", name: "役割別ガチャチケット引換券4月", link: false },
         { index: "exchange_3rd-anniv-yakuwari-gacha", name: "3rd Anniv.役割別ガチャチケット引換券", link: false },
         { index: "exchange_pendant_elven-noa", name: "毛綱乃彩/黄昏の聖装ADペンダント交換券", link: false }
     ],
