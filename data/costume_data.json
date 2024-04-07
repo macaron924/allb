@@ -3093,5 +3093,10 @@
         "id": 619,
         "chara": 119, "yakuwari": 3, "name": "百合ヶ丘標準制服(特殊単体)",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    {
+        "id": 620,
+        "chara": 7, "yakuwari": 2, "name": "ブリリアントスピカα",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
     }
 ]
