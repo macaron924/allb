@@ -40,6 +40,11 @@ let categories = [
         "content": []
     },
     {
+        "c1": "アルティメットメモリアガチャ",
+        "index": "ultimate",
+        "content": []
+    },
+    {
         "c1": "その他のガチャ",
         "index": "other",
         "content": []
