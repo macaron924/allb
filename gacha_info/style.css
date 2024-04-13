@@ -95,7 +95,7 @@ tr>*:last-child {
 .flex_gacha-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     align-items: flex-start;
 }
 
@@ -157,7 +157,7 @@ tr>*:last-child {
 .flex_ticket-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 }
 
 .flex_ticket-item {

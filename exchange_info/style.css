@@ -22,7 +22,7 @@ img.item_img {
 .flex_medal-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     align-items: flex-start;
 }
 
