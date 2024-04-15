@@ -74,6 +74,7 @@ table.innerTable td {
     font-size: 1.6rem;
     height: 2.5rem;
     width: auto;
+    line-height: 1.5;
 }
 
 table.innerTable tr:first-child>td:last-child {
