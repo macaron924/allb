@@ -86,8 +86,8 @@ for (let i in gachaDaily11) {
 
 for (let i in memoriaJson) {
     let img = document.createElement("img");
-    img.src = `../../images/memoria/memoria_${memoriaJson[i]["id"]}.jpg`;
-    let flexitem = `<div class="flex_memoria-item"><a href="./?memoriaID=${memoriaJson[i]["id"]}"><img src="../../images/memoria/memoria_${memoriaJson[i]["id"]}.jpg" loading="lazy"><br>${memoriaJson[i]["name"]}</a></div>`;
+    img.src = `../../images/memoria/memoria_${memoriaJson[i]["id"]}.webp`;
+    let flexitem = `<div class="flex_memoria-item"><a href="./?memoriaID=${memoriaJson[i]["id"]}"><img src="../../images/memoria/memoria_${memoriaJson[i]["id"]}.webp" loading="lazy"><br>${memoriaJson[i]["name"]}</a></div>`;
     document.getElementById("memoria_list").insertAdjacentHTML("beforeend", flexitem);
 }
 
@@ -102,7 +102,7 @@ if (memoriaSelection == null) {
                 text += `
                 <div class="flex_ticket-item">
                 <table>
-                    <tr><td rowspan="2"><a href="../../gacha_info/ticket/?index=${ticketContentList[j]["index"]}"><img src="../../images/item/gacha-ticket_${ticketContentList[j]["index"]}.jpg"></a></td>
+                    <tr><td rowspan="2"><a href="../../gacha_info/ticket/?index=${ticketContentList[j]["index"]}"><img src="../../images/item/gacha-ticket_${ticketContentList[j]["index"]}.webp"></a></td>
                         <td><a href="../../gacha_info/ticket/?index=${ticketContentList[j]["index"]}">${ticketContentList[j]["name"]}</a></td></tr>
                 </table></div>
                 `;
@@ -119,7 +119,7 @@ if (memoriaSelection == null) {
                 <div class="flex_gacha-item">
                 <table>
                     <tr><td>${gachaContentList[j]["start"]}</td></tr>
-                    <tr><td><a href="../../gacha_info/limited/detail/?index=${gachaContentList[j]["index"]}"><img src="../../images/banner/${gachaContentList[j]["index"]}.jpg"></a></td></tr>
+                    <tr><td><a href="../../gacha_info/limited/detail/?index=${gachaContentList[j]["index"]}"><img src="../../images/banner/${gachaContentList[j]["index"]}.webp"></a></td></tr>
                 </table></div>
                 `;
                 judge2 = true;
@@ -135,7 +135,7 @@ if (memoriaSelection == null) {
                 <div class="flex_gacha-item">
                 <table>
                     <tr><td>${freeContentList[j]["start"]}</td></tr>
-                    <tr><td><a href="../../gacha_info/free/detail/?index=${freeContentList[j]["index"]}"><img src="../../images/banner/${freeContentList[j]["index"]}.jpg"></a></td></tr>
+                    <tr><td><a href="../../gacha_info/free/detail/?index=${freeContentList[j]["index"]}"><img src="../../images/banner/${freeContentList[j]["index"]}.webp"></a></td></tr>
                 </table></div>
                 `;
                 judge3 = true;
@@ -151,7 +151,7 @@ if (memoriaSelection == null) {
                 <div class="flex_gacha-item">
                 <table>
                     <tr><td>${daily11ContentList[j]["start"]}</td></tr>
-                    <tr><td><a href="../../gacha_info/daily11/detail/?index=${daily11ContentList[j]["index"]}"><img src="../../images/banner/daily11.jpg"></a></td></tr>
+                    <tr><td><a href="../../gacha_info/daily11/detail/?index=${daily11ContentList[j]["index"]}"><img src="../../images/banner/daily11.webp"></a></td></tr>
                 </table></div>
                 `;
                 judge4 = true;
@@ -159,7 +159,7 @@ if (memoriaSelection == null) {
         }
         if (judge4 == false) text4 += "該当なし";
 
-        document.getElementById("result_img").src = `../../images/memoria/memoria_${memoriaJson[i]["id"]}.jpg`;
+        document.getElementById("result_img").src = `../../images/memoria/memoria_${memoriaJson[i]["id"]}.webp`;
         document.getElementById("result_name").innerHTML = `${memoriaJson[i]["name"]}`;
         document.getElementById("result_ticket").insertAdjacentHTML("beforeend", text);
         document.getElementById("result_gacha").insertAdjacentHTML("beforeend", text2);

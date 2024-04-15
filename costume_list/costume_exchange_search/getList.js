@@ -39,9 +39,9 @@ for (let i in exchangeDataJson) {
 
 for (let i in costumeJson) {
     let img = document.createElement("img");
-    img.src = `../../images/costume/costume_${costumeJson[i]["id"]}.jpg`;
+    img.src = `../../images/costume/costume_${costumeJson[i]["id"]}.webp`;
     let charaName = getCharaName(costumeJson[i]["chara"]);
-    let flexitem = `<div class="flex_memoria-item"><a href="./?costumeID=${costumeJson[i]["id"]}"><img src="../../images/costume/costume_${costumeJson[i]["id"]}.jpg" loading="lazy"><br>${charaName} / ${costumeJson[i]["name"]}</a></div>`;
+    let flexitem = `<div class="flex_memoria-item"><a href="./?costumeID=${costumeJson[i]["id"]}"><img src="../../images/costume/costume_${costumeJson[i]["id"]}.webp" loading="lazy"><br>${charaName} / ${costumeJson[i]["name"]}</a></div>`;
     document.getElementById("costume_list").insertAdjacentHTML("beforeend", flexitem);
 }
 
@@ -56,7 +56,7 @@ if (costumeSelection == null) {
                 text += `
                 <div class="flex_medal-item">
                 <table>
-                    <tr><td rowspan="2"><a href="../../exchange_info/content/?index=${exchangeContentList[j]["index"]}"><img src="../../images/item/${exchangeContentList[j]["index"]}.jpg"></a></td>
+                    <tr><td rowspan="2"><a href="../../exchange_info/content/?index=${exchangeContentList[j]["index"]}"><img src="../../images/item/${exchangeContentList[j]["index"]}.webp"></a></td>
                         <td><a href="../../exchange_info/content/?index=${exchangeContentList[j]["index"]}">${exchangeContentList[j]["name"]}</a></td></tr>
                 </table></div>
                 `;
@@ -66,7 +66,7 @@ if (costumeSelection == null) {
         if (judge == false) text += "該当なし";
 
         let charaName = getCharaName(costumeJson[i]["chara"]);
-        document.getElementById("result_img").src = `../../images/costume/costume_${costumeJson[i]["id"]}.jpg`;
+        document.getElementById("result_img").src = `../../images/costume/costume_${costumeJson[i]["id"]}.webp`;
         document.getElementById("result_name").innerHTML = `${charaName} / ${costumeJson[i]["name"]}`;
         document.getElementById("result_ticket").insertAdjacentHTML("beforeend", text);
         break;

@@ -5,7 +5,7 @@ function getBanner(gacha) {
         <tr>
             <td colspan="2">
                 <a href="./detail/?index=${gacha[i]["index"]}">
-                    <img class="mini-banner_img" src="../../images/banner/${gacha[i]["index"]}.jpg">
+                    <img class="mini-banner_img" src="../../images/banner/${gacha[i]["index"]}.webp">
                 </a>
             </td>
         </tr>
@@ -30,7 +30,7 @@ function getMedalName(medal) {
 
 function getMedalLinks(medal) {
 
-    let medalImg = `<img class="item_img" src="../../images/item/${medal}.jpg">`;
+    let medalImg = `<img class="item_img" src="../../images/item/${medal}.webp">`;
             
     let [medalName, link] = getMedalName(medal);
 

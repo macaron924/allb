@@ -40,7 +40,7 @@ function addMemoriaList(memoriaArray) {
         // flexitemを生成
         let flexitem = document.createElement("div");
         flexitem.className = "flex_memoria-item";
-        flexitem.innerHTML = `<img src="../../images/memoria/memoria_${id}.jpg" loading="lazy"><br>${getMemoriaName(id)}`;
+        flexitem.innerHTML = `<img src="../../images/memoria/memoria_${id}.webp" loading="lazy"><br>${getMemoriaName(id)}`;
 
         // flexitemをflexboxの子要素に追加
         flexbox.appendChild(flexitem);
@@ -82,7 +82,7 @@ function addCostumeList(costumeArray) {
         // flexitemを生成
         let flexitem = document.createElement("div");
         flexitem.className = "flex_memoria-item";
-        flexitem.innerHTML = `<img src="../../images/costume/costume_${id}.jpg" loading="lazy"><br>${getCostumeChara(id)} / ${getCostumeName(id)}`;
+        flexitem.innerHTML = `<img src="../../images/costume/costume_${id}.webp" loading="lazy"><br>${getCostumeChara(id)} / ${getCostumeName(id)}`;
 
         // flexitemをflexboxの子要素に追加
         flexbox.appendChild(flexitem);
@@ -117,7 +117,7 @@ function addItemList(itemArray) {
         // flexitemを生成
         let flexitem = document.createElement("div");
         flexitem.className = "flex_memoria-item";
-        let content = `<img src="../../images/item/${id}.jpg" loading="lazy"><br>${getItemName(id)}`;
+        let content = `<img src="../../images/item/${id}.webp" loading="lazy"><br>${getItemName(id)}`;
         let link = getItemLink(id);
         if (link != "") content = `<a href="../../gacha_info/${link}">${content}</a>`;
         flexitem.innerHTML = content;

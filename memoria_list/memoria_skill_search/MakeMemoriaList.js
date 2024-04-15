@@ -661,11 +661,11 @@ function makeTable() {
             tdHojoDetail.className = "hojoRow";
             // サムネ画像要素の追加
             let img = document.createElement("img");
-            img.src = "../../images/memoria/memoria_" + memoriaJsonCopy[i]["id"] + ".jpg";
+            img.src = "../../images/memoria/memoria_" + memoriaJsonCopy[i]["id"] + ".webp";
             img.className = "memoria_img";
             img.loading = "lazy";
             let yakuwari_icon = document.createElement("img");
-            yakuwari_icon.src = "../../images/icon/yakuwari_" + skill_yakuwari + ".jpg";
+            yakuwari_icon.src = "../../images/icon/yakuwari_" + skill_yakuwari + ".webp";
             yakuwari_icon.className = "yakuwari_img";
             yakuwari_icon.loading = "lazy";
             // 画像

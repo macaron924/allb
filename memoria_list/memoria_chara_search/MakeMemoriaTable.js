@@ -92,7 +92,7 @@ function getCharaImg(memoriaCharaArray) {
 
         // サムネ画像要素の追加
         let img = document.createElement("img");
-        img.src = "../../images/chara/chara_" + memoriaCharaArray[i] + ".jpg"
+        img.src = "../../images/chara/chara_" + memoriaCharaArray[i] + ".webp"
         img.className = "chara_img";
         img.loading = "lazy";
 
@@ -183,7 +183,7 @@ function makeTable() {
         let tdChara = document.createElement("td");
         // サムネ画像要素の追加
         let img = document.createElement("img");
-        img.src = "../../images/memoria/memoria_" + memoriaJsonCopy[i]["id"] + ".jpg"
+        img.src = "../../images/memoria/memoria_" + memoriaJsonCopy[i]["id"] + ".webp"
         img.className = "memoria_img";
         img.loading = "lazy";
         // td要素内にテキストを追加

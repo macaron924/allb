@@ -51,7 +51,7 @@ for (let i = 0; i < gachaTicketJsonCopy.length; i++) {
     item.className = "flex_ticket-item"
     content = `
     <table>
-        <tr><td rowspan="2"><a href="./ticket/?index=${gachaTicketJsonCopy[i]["index"]}"><img src="../images/item/gacha-ticket_${gachaTicketJsonCopy[i]["index"]}.jpg"></a></td>
+        <tr><td rowspan="2"><a href="./ticket/?index=${gachaTicketJsonCopy[i]["index"]}"><img src="../images/item/gacha-ticket_${gachaTicketJsonCopy[i]["index"]}.webp"></a></td>
             <td><a href="./ticket/?index=${gachaTicketJsonCopy[i]["index"]}">${gachaTicketJsonCopy[i]["name"]}</a></td></tr>
         <tr><td>※${gachaTicketJsonCopy[i]["lineup"]["else"][0]["date"]} ${gachaTicketJsonCopy[i]["lineup"]["else"][0]["caption"]}</td></tr>
     </table>

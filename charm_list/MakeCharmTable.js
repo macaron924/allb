@@ -26,7 +26,7 @@ function makeTable() {
         let tdImg = document.createElement("td");
         tdImg.innerHTML = `<input type="checkbox" class="check" id="check_${charmJsonCopy[i]["index"]}">`;
         let img = document.createElement("img");
-        img.src = "../images/charm/charm_" + charmJsonCopy[i]["index"] + ".jpg"
+        img.src = "../images/charm/charm_" + charmJsonCopy[i]["index"] + ".webp"
         img.height = 80;
         img.loading = "lazy";
         tdImg.appendChild(img);
@@ -192,7 +192,7 @@ function makeTable() {
         if (charmJsonCopy[i]["解放条件"]["str"] != "") tdGet.innerHTML = `${charmJsonCopy[i]["解放条件"]["str"]}<br>`;
         for (let j in charmJsonCopy[i]["解放条件"]["costume"]) {
             let img = document.createElement("img");
-            img.src = "../images/costume/costume_" + charmJsonCopy[i]["解放条件"]["costume"][j] + ".jpg"
+            img.src = "../images/costume/costume_" + charmJsonCopy[i]["解放条件"]["costume"][j] + ".webp"
             img.height = 60;
             img.loading = "lazy";
             kaihouBox.appendChild(img);
@@ -206,7 +206,7 @@ function makeTable() {
         let senyouBox = document.createElement("div");
         for (let j in charmJsonCopy[i]["専用"]) {
             let img = document.createElement("img");
-            img.src = "../images/costume/costume_" + charmJsonCopy[i]["専用"][j] + ".jpg"
+            img.src = "../images/costume/costume_" + charmJsonCopy[i]["専用"][j] + ".webp"
             img.height = 60;
             img.loading = "lazy";
             senyouBox.appendChild(img);

@@ -36,13 +36,13 @@ function addMemoriaList() {
         let flexitem = document.createElement("div");
         flexitem.className = "flex_memoria-item";
 
-        let innerHtml = `<div class="memoria active"><img src="../images/memoria/memoria_${memoriaJson[i]["id"]}.jpg" loading="lazy"><br>${memoriaJson[i]["name"]}</div>`;
+        let innerHtml = `<div class="memoria active"><img src="../images/memoria/memoria_${memoriaJson[i]["id"]}.webp" loading="lazy"><br>${memoriaJson[i]["name"]}</div>`;
 
         let costumeId = memoriaJson[i]["costume"];
         if (costumeId > 0) {
             let costumeChara = getCostumeChara(costumeId);
             let costumeName = getCostumeName(costumeId);
-            innerHtml += `<div class="costume"><img src="../images/costume/costume_${costumeId}.jpg" loading="lazy"><br>${costumeChara} / ${costumeName}</div>`;
+            innerHtml += `<div class="costume"><img src="../images/costume/costume_${costumeId}.webp" loading="lazy"><br>${costumeChara} / ${costumeName}</div>`;
             innerHtml = `<div class="switch-icon"></div>` + innerHtml;
         }
 

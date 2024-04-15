@@ -88,7 +88,7 @@ function addMemoriaList(memoriaArray) {
         // flexitemを生成
         let flexitem = document.createElement("div");
         flexitem.className = "flex_memoria-item";
-        flexitem.innerHTML = `<img src="../../../images/memoria/memoria_${id}.jpg" loading="lazy"><br>${name}`;
+        flexitem.innerHTML = `<img src="../../../images/memoria/memoria_${id}.webp" loading="lazy"><br>${name}`;
 
         // flexitemをflexboxの子要素に追加
         flexbox.appendChild(flexitem);
@@ -124,8 +124,8 @@ function getGachaData(gachaSelection) {
  */
 function writeBanner() {
 
-    if (thisGacha["big_banner"] == true) banner = `<img class="banner-big_img" src="../../../images/banner_big/${thisGacha["index"]}_big.jpg">`;
-    else banner = `<img class="banner_img" src="../../../images/banner/${thisGacha["index"]}.jpg">`;
+    if (thisGacha["big_banner"] == true) banner = `<img class="banner-big_img" src="../../../images/banner_big/${thisGacha["index"]}_big.webp">`;
+    else banner = `<img class="banner_img" src="../../../images/banner/${thisGacha["index"]}.webp">`;
 
     document.getElementById("banner").insertAdjacentHTML("beforeend", banner);
 }
@@ -158,7 +158,7 @@ function writeGachaBonus() {
 
             let value = noticeArray[i]["item"][j]["value"];
 
-            let item = `<img class="item_img" src="../../../images/${itemImg}.jpg">${itemName} ×${value}<br>`;
+            let item = `<img class="item_img" src="../../../images/${itemImg}.webp">${itemName} ×${value}<br>`;
             
             // リンクがある場合のみ付加
             if (link != "") item = `<a href="../../../${link}">${item}</a>`;
@@ -232,7 +232,7 @@ function writeBonusTable() {
 
             let [itemImg, itemName, link] = getItemFromUsedList(itemIndex);
 
-            let item = `<img class="item_img" src="../../../images/${itemImg}.jpg">${itemName} ×${value}`;
+            let item = `<img class="item_img" src="../../../images/${itemImg}.webp">${itemName} ×${value}`;
             
             // リンクがある場合のみ付加
             if (link != "") item = `<a href="../../../${link}">${item}</a>`;
