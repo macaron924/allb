@@ -83,7 +83,9 @@ const itemByTypeJson = {
         { index: "costume_603_pendant-ex", name: "瑤/華麗なるエージェントαのペンダントEX", link: false },
         { index: "costume_612_pendant-ex", name: "茜/黄昏の聖装のペンダントEX", link: false },
         { index: "costume_620_pendant-ex", name: "神琳/ブリリアントスピカαのペンダントEX", link: false },
-        { index: "costume_621_pendant-ex", name: "一葉/マリンセーラーαのペンダントEX", link: false }
+        { index: "costume_621_pendant-ex", name: "一葉/マリンセーラーαのペンダントEX", link: false },
+        { index: "costume_623_before", name: "森本結爾/ハピネスロリータ", link: false },
+        { index: "costume_623_pendant-ad", name: "結爾/ハピネスロリータのADペンダント", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -250,7 +252,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202402-event-3", name: "もふもふバレンタイン★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202403-event-1", name: "絶海のワールプール★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202403-event-2", name: "もふもふホワイトデー★5確定ガチャチケット", link: false },
-        { index: "gacha-ticket_202404-event-1", name: "溟海のブルーローズ★5確定ガチャチケット", link: false }
+        { index: "gacha-ticket_202404-event-1", name: "溟海のブルーローズ★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_202404-event-2", name: "アトラクト・ラヴァーズ★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -326,7 +329,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202403-2", name: "もふもふホワイトデーペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202403-zenei", name: "Spring Splash Vacation!!前衛ペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202403-kouei", name: "Spring Splash Vacation!!後衛ペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202404-1", name: "溟海のブルーローズペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202404-1", name: "溟海のブルーローズペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202404-2", name: "アトラクト・ラヴァーズペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
