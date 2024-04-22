@@ -3118,5 +3118,15 @@
         "id": 624,
         "chara": 71, "yakuwari": 6, "name": "ハピネスロリータ",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 625,
+        "chara": 72, "yakuwari": 5, "name": "ドリーミングアイドル",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    {
+        "id": 626,
+        "chara": 103, "yakuwari": 2, "name": "ドリーミングアイドル",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
     }
 ]
