@@ -85,7 +85,8 @@ const itemByTypeJson = {
         { index: "costume_620_pendant-ex", name: "神琳/ブリリアントスピカαのペンダントEX", link: false },
         { index: "costume_621_pendant-ex", name: "一葉/マリンセーラーαのペンダントEX", link: false },
         { index: "costume_623_before", name: "森本結爾/ハピネスロリータ", link: false },
-        { index: "costume_623_pendant-ad", name: "結爾/ハピネスロリータのADペンダント", link: false }
+        { index: "costume_623_pendant-ad", name: "結爾/ハピネスロリータのADペンダント", link: false },
+        { index: "costume_627_pendant-ex", name: "高嶺/マルチカラードフラワーαのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -525,6 +526,7 @@ const itemByTypeJson = {
         { index: "exchange_brand-new_202403-3", name: "BRAND-NEW★5メモリア引換券3月Ⅲ", link: false },
         { index: "exchange_brand-new_202404-1", name: "BRAND-NEW★5メモリア引換券4月", link: false },
         { index: "exchange_brand-new_202404-2", name: "BRAND-NEW★5メモリア引換券4月Ⅱ", link: false },
+        { index: "exchange_brand-new_202404-3", name: "BRAND-NEW★5メモリア引換券4月Ⅲ", link: false },
         // その他
         { index: "exchange_xmas-cuelebre", name: "Xmas記念クエレブレ引換券", link: true },
         { index: "exchange_charm_202312-event-1", name: "誓いのリコネクトCHARM引換券", link: false },
