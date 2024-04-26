@@ -3687,7 +3687,7 @@
         "zokusei": 4, "cost": 21, "costume": 0, "legendary": "リーグ", "illustration": { "type": "", "chara": [26] },
         "get_rank": "非ガチャ産", "category": { "c1": "レジェンダリー", "c2": "レギオンリーグ", "c3": ["2nd"] },
         "skill": [
-            { "yakuwari": 4, "name": ["Sp.ガードバーストD LG", "Sp.ガードバーストD LG", "攻:ダメージUP Ⅲ"] }
+            { "yakuwari": 4, "name": ["Sp.ガードバーストD LG", "Sp.ガードバーストD LG", "攻:ダメージUP/Sp.ガードDOWN Ⅲ"] }
         ]
     },
     {
@@ -4115,7 +4115,7 @@
         "zokusei": 3, "cost": 21, "costume": 0, "legendary": "リーグ", "illustration": { "type": "", "chara": [24] },
         "get_rank": "非ガチャ産", "category": { "c1": "レジェンダリー", "c2": "レギオンリーグ", "c3": ["2nd"] },
         "skill": [
-            { "yakuwari": 6, "name": ["WパワーフォールE LG", "WパワーフォールE LG", "援:支援UP Ⅲ"] }
+            { "yakuwari": 6, "name": ["WパワーフォールE LG", "WパワーフォールE LG", "援:支援UP/パワーDOWN Ⅲ"] }
         ]
     },
     {
@@ -4554,7 +4554,7 @@
         "zokusei": 3, "cost": 21, "costume": 0, "legendary": "リーグ", "illustration": { "type": "", "chara": [29] },
         "get_rank": "非ガチャ産", "category": { "c1": "レジェンダリー", "c2": "レギオンリーグ", "c3": ["2nd"] },
         "skill": [
-            { "yakuwari": 1, "name": ["パワーストライクA LG+", "パワーストライクA LG+", "攻:ダメージUP Ⅲ"] }
+            { "yakuwari": 1, "name": ["パワーストライクA LG+", "パワーストライクA LG+", "攻:ダメージUP/パワーUP Ⅲ"] }
         ]
     },
     {
