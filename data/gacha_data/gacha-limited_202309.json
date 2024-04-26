@@ -21,7 +21,7 @@
                         { "need": [3, 33], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
                         { "need": [4, 44], "item": [ { "index": "exchange_pendant-ex_202310-1", "value": 1 } ] },
                         { "need": [5, 55], "item": [ { "index": "costume_448_before", "value": 1 } ] },
-                        { "need": [6, 66], "item": [ { "index": "charm_durandal_hy", "value": 1 } ] },
+                        { "need": [6, 66], "item": [ { "index": "charm_144_star3", "value": 1 } ] },
                         { "need": [7, 77], "item": [ { "index": "medal_pendant-premium", "value": 25 } ] },
                         { "need": [8, 88], "item": [ { "index": "moon", "value": 1 } ] },
                         { "need": [9, 99], "item": [ { "index": "gacha-ticket_cost18awakening", "value": 1 } ] },
