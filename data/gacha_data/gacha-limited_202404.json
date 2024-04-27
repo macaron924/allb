@@ -1,5 +1,178 @@
 [
     {
+        "start": "2024/4/27(土) 12:00",
+        "finish": "2024/5/16(木) 23:59",
+        "type": "ざくざくフェス",
+        "medal": "medal_bonus_202405",
+        "gacha": [
+            {
+                "index": "20240427_1-1",
+                "name": "通常前衛 GW記念超ざくざくフェス",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "11回ガチャ10回限定", "item": [] },
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] },
+                        { "text": "メモリアメダル無し", "item": [] }
+                    ],
+                    "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_content": [
+                        { "need": [1, 11], "item": [ { "index": "exchange_costume_gw-2024", "value": 1 } ] },
+                        { "need": [2, 22], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [3, 33], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [4, 44], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [5, 55], "item": [ { "index": "moon", "value": 1 } ] },
+                        { "need": [6, 66], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [7, 77], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
+                        { "need": [8, 88], "item": [ { "index": "gacha-ticket_cost20", "value": 1 } ] },
+                        { "need": [9, 99], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [10, 110], "item": [ { "index": "moon", "value": 1 } ] }
+                    ]
+                },
+                "lineup": {
+                    "total_ratio": [100],
+                    "notice": ["★5メモリアは2023年登場のみ"],
+                    "pu": [
+                        { "caption": "ピックアップ", "ratio": [1.157], "content": [749, 745, 742, 737, 733, 722, 747, 746, 741, 736, 700, 696, 685, 668, 665, 659, 655, 651, 641, 635, 627, 612, 607, 604, 599, 595, 588, 584, 580, 574, 538, 529, 527, 497, 492, 748, 750, 744, 740, 734, 732, 724, 721, 718, 717, 712, 711, 706, 702, 697, 695, 683, 682, 675, 669, 662, 657, 653, 649, 647, 644, 642, 634, 625, 609, 606, 602, 601, 598, 592, 586, 578, 576, 566, 557, 555, 548, 539, 533, 524, 513, 509, 504, 498, 494, 493] }
+                    ],
+                    "else": { "caption": "その他", "content": [518, 521, 670, 673, 674] }
+                }
+            },
+            {
+                "index": "20240427_1-2",
+                "name": "特殊前衛 GW記念超ざくざくフェス",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "11回ガチャ10回限定", "item": [] },
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] },
+                        { "text": "メモリアメダル無し", "item": [] }
+                    ],
+                    "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_content": [
+                        { "need": [1, 11], "item": [ { "index": "exchange_costume_gw-2024", "value": 1 } ] },
+                        { "need": [2, 22], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [3, 33], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [4, 44], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [5, 55], "item": [ { "index": "moon", "value": 1 } ] },
+                        { "need": [6, 66], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [7, 77], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
+                        { "need": [8, 88], "item": [ { "index": "gacha-ticket_cost20", "value": 1 } ] },
+                        { "need": [9, 99], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [10, 110], "item": [ { "index": "moon", "value": 1 } ] }
+                    ]
+                },
+                "lineup": {
+                    "total_ratio": [100],
+                    "notice": ["★5メモリアは2023年登場のみ"],
+                    "pu": [
+                        { "caption": "ピックアップ", "ratio": [1.094], "content": [749, 733, 722, 717, 740, 725, 743, 739, 735, 719, 713, 707, 704, 698, 686, 681, 677, 664, 660, 652, 645, 638, 636, 626, 614, 611, 605, 600, 597, 591, 589, 581, 577, 573, 554, 530, 528, 514, 512, 505, 496, 491, 751, 747, 745, 742, 738, 737, 720, 716, 710, 705, 703, 701, 699, 694, 684, 680, 676, 667, 663, 658, 654, 650, 648, 643, 639, 633, 624, 615, 610, 608, 603, 596, 594, 587, 583, 579, 572, 567, 564, 558, 549, 534, 531, 525, 517, 508, 499, 495, 490] }
+                    ],
+                    "else": { "caption": "その他", "content": [519, 520, 522, 671, 672] }
+                }
+            },
+            {
+                "index": "20240427_1-3",
+                "name": "支援 GW記念超ざくざくフェス",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "11回ガチャ10回限定", "item": [] },
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] },
+                        { "text": "メモリアメダル無し", "item": [] }
+                    ],
+                    "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_content": [
+                        { "need": [1, 11], "item": [ { "index": "exchange_costume_gw-2024", "value": 1 } ] },
+                        { "need": [2, 22], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [3, 33], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [4, 44], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [5, 55], "item": [ { "index": "moon", "value": 1 } ] },
+                        { "need": [6, 66], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [7, 77], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
+                        { "need": [8, 88], "item": [ { "index": "gacha-ticket_cost20", "value": 1 } ] },
+                        { "need": [9, 99], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [10, 110], "item": [ { "index": "moon", "value": 1 } ] }
+                    ]
+                },
+                "lineup": {
+                    "total_ratio": [100],
+                    "notice": ["★5メモリアは2023年登場のみ"],
+                    "pu": [
+                        { "caption": "ピックアップ", "ratio": [1.605], "content": [747, 740, 725, 722, 717, 751, 750, 744, 734, 732, 721, 712, 710, 705, 702, 701, 699, 694, 684, 682, 667, 662, 654, 650, 644, 643, 634, 625, 603, 598, 587, 583, 578, 572, 564, 504, 493, 741, 719, 685, 677, 666, 638, 627, 614, 612, 595, 591, 588, 580, 574, 568, 559, 553, 550, 535, 529, 528, 526, 512, 500, 496] }
+                    ],
+                    "else": { "caption": "その他", "content": [518, 521, 671, 672] }
+                }
+            },
+            {
+                "index": "20240427_1-4",
+                "name": "妨害 GW記念超ざくざくフェス",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "11回ガチャ10回限定", "item": [] },
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] },
+                        { "text": "メモリアメダル無し", "item": [] }
+                    ],
+                    "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_content": [
+                        { "need": [1, 11], "item": [ { "index": "exchange_costume_gw-2024", "value": 1 } ] },
+                        { "need": [2, 22], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [3, 33], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [4, 44], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [5, 55], "item": [ { "index": "moon", "value": 1 } ] },
+                        { "need": [6, 66], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [7, 77], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
+                        { "need": [8, 88], "item": [ { "index": "gacha-ticket_cost20", "value": 1 } ] },
+                        { "need": [9, 99], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [10, 110], "item": [ { "index": "moon", "value": 1 } ] }
+                    ]
+                },
+                "lineup": {
+                    "total_ratio": [100],
+                    "notice": ["★5メモリアは2023年登場のみ"],
+                    "pu": [
+                        { "caption": "ピックアップ", "ratio": [1.632], "content": [747, 745, 742, 740, 737, 718, 717, 724, 720, 716, 706, 676, 653, 649, 648, 642, 639, 633, 624, 610, 602, 601, 594, 592, 586, 579, 576, 539, 531, 524, 517, 513, 495, 749, 743, 736, 733, 713, 709, 704, 698, 696, 668, 664, 659, 651, 646, 635, 607, 605, 597, 589, 584, 581, 573, 569, 560, 554, 551, 501, 492] }
+                    ],
+                    "else": { "caption": "その他", "content": [519, 520, 670, 673] }
+                }
+            },
+            {
+                "index": "20240427_1-5",
+                "name": "回復 GW記念超ざくざくフェス",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "11回ガチャ10回限定", "item": [] },
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] },
+                        { "text": "メモリアメダル無し", "item": [] }
+                    ],
+                    "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_content": [
+                        { "need": [1, 11], "item": [ { "index": "exchange_costume_gw-2024", "value": 1 } ] },
+                        { "need": [2, 22], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [3, 33], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [4, 44], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [5, 55], "item": [ { "index": "moon", "value": 1 } ] },
+                        { "need": [6, 66], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [7, 77], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
+                        { "need": [8, 88], "item": [ { "index": "gacha-ticket_cost20", "value": 1 } ] },
+                        { "need": [9, 99], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [10, 110], "item": [ { "index": "moon", "value": 1 } ] }
+                    ]
+                },
+                "lineup": {
+                    "total_ratio": [100],
+                    "notice": ["★5メモリアは2023年登場のみ"],
+                    "pu": [
+                        { "caption": "ピックアップ", "ratio": [1.777], "content": [749, 745, 742, 737, 733, 718, 711, 703, 695, 683, 675, 669, 663, 647, 615, 609, 608, 555, 525, 746, 739, 735, 725, 722, 715, 707, 700, 686, 681, 665, 660, 655, 652, 645, 641, 636, 626, 611, 604, 600, 599, 582, 577, 575, 570, 561, 552, 538, 536, 530, 527, 514, 505, 502, 497, 491] }
+                    ],
+                    "else": { "caption": "その他", "content": [522, 674] }
+                }
+            }
+        ]
+    },
+    {
         "start": "2024/4/25(木) 12:00",
         "finish": "2024/4/27(土) 23:59",
         "type": "お疲れ様ガチャ",
