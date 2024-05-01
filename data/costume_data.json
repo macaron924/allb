@@ -3133,5 +3133,20 @@
         "id": 627,
         "chara": 16, "yakuwari": 4, "name": "マルチカラードフラワーα",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 628,
+        "chara": 129, "yakuwari": 2, "name": "勇者服(大満開)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 629,
+        "chara": 88, "yakuwari": 5, "name": "勇者服(満開)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5]]
+    },
+    {
+        "id": 630,
+        "chara": 91, "yakuwari": 4, "name": "勇者服(満開)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
     }
 ]
