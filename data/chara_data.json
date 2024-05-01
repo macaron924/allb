@@ -128,6 +128,7 @@
         { "charaID": 126, "charaName": "乃彩", "charaFullName":"毛綱乃彩", "charaJump": "", "specialSkill":"エルヴンラプラス", "playable": true },
         { "charaID": 127, "charaName": "月詩", "charaFullName":"高須賀月詩", "charaJump": "", "specialSkill":"エルヴンサークリットブレス", "playable": true },
         { "charaID": 128, "charaName": "茜", "charaFullName":"渡邉茜", "charaJump": "", "specialSkill":"エルヴンテスタメント", "playable": true },
+        { "charaID": 129, "charaName": "友奈", "charaFullName":"結城友奈", "charaJump": "", "specialSkill":"勇者は根性！", "playable": true },
         { "charaID": 998, "charaName": "八雲校長", "charaFullName":"八雲校長", "charaJump": "", "specialSkill":"", "playable": false },
         { "charaID": 999, "charaName": "美鈴", "charaFullName":"美鈴", "charaJump": "", "specialSkill":"", "playable": false }
         
@@ -151,7 +152,7 @@
         { "belong": "コラボ／ガールズアンドパンツァー", "playable": true, "chara": [58, 59, 60, 61, 62, 63] },
         { "belong": "コラボ／プリズマ☆イリヤ", "playable": true, "chara": [64, 65, 66] },
         { "belong": "コラボ／魔法少女まどか☆マギカ", "playable": true, "chara": [75, 76, 77, 78, 79, 80] },
-        { "belong": "コラボ／結城友奈は勇者である", "playable": true, "chara": [87, 88, 89, 90, 91, 92] },
+        { "belong": "コラボ／結城友奈は勇者である", "playable": true, "chara": [87, 129, 88, 89, 90, 91, 92] },
         { "belong": "コラボ／とある科学の超電磁砲", "playable": true, "chara": [100, 101, 102] },
         { "belong": "コラボ／Re:ゼロから始める異世界生活", "playable": true, "chara": [108, 109, 112, 110, 111] }
     ]
