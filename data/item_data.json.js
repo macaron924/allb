@@ -258,7 +258,10 @@ const itemByTypeJson = {
         { index: "gacha-ticket_202404-event-1", name: "溟海のブルーローズ★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202404-event-2", name: "アトラクト・ラヴァーズ★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202405-event-1", name: "激唱のブーステッドデュオ★5確定ガチャチケット", link: false },
-        { index: "gacha-ticket_collabo-yuyuyu-4", name: "勇花が紡ぐ大樹の奇跡★5確定ガチャチケット", link: false }
+        { index: "gacha-ticket_collabo-yuyuyu-4", name: "勇花が紡ぐ大樹の奇跡★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_collabo-yuyuyu-1_202405", name: "白百合の章★5確定ガチャチケットⅠ", link: false },
+        { index: "gacha-ticket_collabo-yuyuyu-2_202405", name: "白百合の章★5確定ガチャチケットⅡ", link: false },
+        { index: "gacha-ticket_collabo-yuyuyu-3_202405", name: "絆の章★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -337,7 +340,10 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_202404-1", name: "溟海のブルーローズペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202404-2", name: "アトラクト・ラヴァーズペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202405-1", name: "激唱のブーステッドデュオペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_collabo-yuyuyu-4", name: "勇花が紡ぐ大樹の奇跡ペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_collabo-yuyuyu-4", name: "勇花が紡ぐ大樹の奇跡ペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_collabo-yuyuyu-1_202405", name: "白百合の章ペンダントEX交換券Ⅰ", link: false },
+        { index: "exchange_pendant-ex_collabo-yuyuyu-2_202405", name: "白百合の章ペンダントEX交換券Ⅱ", link: false },
+        { index: "exchange_pendant-ex_collabo-yuyuyu-3_202405", name: "絆の章ペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -568,7 +574,9 @@ const itemByTypeJson = {
         { index: "medal_bonus_collabo-prisma-illya", name: "シスターズ・カラミティボーナスメダル", link: false },
         { index: "medal_bonus_collabo-madoka-magica", name: "マギカ☆ワンダーワールドボーナスメダル", link: false },
         { index: "medal_bonus_collabo-yuyuyu", name: "白百合の章ボーナスメダル", link: false },
+        { index: "medal_bonus_collabo-yuyuyu-1_202405", name: "白百合の章ボーナスメダル", link: false },
         { index: "medal_bonus_collabo-yuyuyu-2", name: "絆の章ボーナスメダル", link: false },
+        { index: "medal_bonus_collabo-yuyuyu-2_202405", name: "絆の章ボーナスメダル", link: false },
         { index: "medal_bonus_collabo-yuyuyu-3", name: "勇花が紡ぐ大樹の奇跡ボーナスメダル", link: false },
         { index: "medal_bonus_collabo-toaru", name: "とある科学と楯の乙女ボーナスメダル", link: false },
         { index: "medal_bonus_collabo-rezero", name: "百合ヶ丘に咲う紫紺の花ボーナスメダル", link: false },
