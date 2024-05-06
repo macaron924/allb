@@ -3148,5 +3148,50 @@
         "id": 630,
         "chara": 91, "yakuwari": 4, "name": "勇者服(満開)",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 631,
+        "chara": 90, "yakuwari": 7, "name": "勇者服(満開)",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5]]
+    },
+    {
+        "id": 632,
+        "chara": 92, "yakuwari": 2, "name": "勇者服(満開)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 633,
+        "chara": 89, "yakuwari": 2, "name": "勇者服(満開/通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 634,
+        "chara": 89, "yakuwari": 4, "name": "勇者服(満開/特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 635,
+        "chara": 89, "yakuwari": 5, "name": "勇者服(満開/支援)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["風UP", 5]]
+    },
+    {
+        "id": 636,
+        "chara": 89, "yakuwari": 6, "name": "勇者服(満開/妨害)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["風UP", 5]]
+    },
+    {
+        "id": 637,
+        "chara": 89, "yakuwari": 7, "name": "勇者服(満開/回復)",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    {
+        "id": 638,
+        "chara": 89, "yakuwari": 1, "name": "勇者服(満開/通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 639,
+        "chara": 89, "yakuwari": 3, "name": "勇者服(満開/特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
     }
 ]
