@@ -546,6 +546,7 @@ const itemByTypeJson = {
         { index: "exchange_creators-gacha_winter-fes", name: "クリエイターズコラボガチャチケット引換券", link: false },
         { index: "exchange_creators-gacha_winter-fes_202402", name: "クリエイターズコラボガチャチケット引換券", link: false },
         { index: "exchange_creators-gacha_202404", name: "クリエイターズコラボガチャチケット引換券4月", link: false },
+        { index: "exchange_creators-gacha_202405", name: "クリエイターズコラボガチャチケット引換券5月", link: false },
         { index: "exchange_kangei-yakuwari-gacha", name: "歓迎CP役割別ガチャチケット引換券", link: false },
         { index: "exchange_kangei-yakuwari-gacha-2023", name: "歓迎CP役割別ガチャチケット2023引換券", link: false },
         { index: "exchange_yakuwari-gacha", name: "役割別ガチャチケット引換券", link: false },
