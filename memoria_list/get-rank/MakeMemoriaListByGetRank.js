@@ -90,7 +90,7 @@ let ranks = [
         "content": []
     },
     {
-        "rank": "2023秋衣装のクリエイターズコラボ衣装",
+        "rank": "2023秋以降のクリエイターズコラボ衣装",
         "index": "creators_costume",
         "summary": "マンデーボーナスガチャには一定期間入るがその後の復刻が少ない。",
         "content": []
