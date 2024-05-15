@@ -5305,7 +5305,7 @@
         "zokusei": 1, "cost": 21, "costume": 0, "legendary": "リーグ", "illustration": { "type": "", "chara": [27] },
         "get_rank": "非ガチャ産", "category": { "c1": "レジェンダリー", "c2": "レギオンリーグ", "c3": ["2nd"] },
         "skill": [
-            { "yakuwari": 5, "name": ["WガードアシストE LG", "WガードアシストE LG", "援:支援UP Ⅲ"] }
+            { "yakuwari": 5, "name": ["WガードアシストE LG", "WガードアシストE LG", "援:支援UP/ガードUP Ⅲ"] }
         ]
     },
     {
