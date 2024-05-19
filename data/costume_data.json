@@ -3203,5 +3203,55 @@
         "id": 641,
         "chara": 14, "yakuwari": 6, "name": "マリンセーラー",
         "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 5]]
+    },
+    {
+        "id": 642,
+        "chara": 130, "yakuwari": 2, "name": "B.C.プロトタイプ(通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 643,
+        "chara": 130, "yakuwari": 4, "name": "B.C.プロトタイプ(特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 644,
+        "chara": 130, "yakuwari": 5, "name": "B.C.プロトタイプ(支援)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["風UP", 5]]
+    },
+    {
+        "id": 645,
+        "chara": 130, "yakuwari": 6, "name": "B.C.プロトタイプ(妨害)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["風UP", 5]]
+    },
+    {
+        "id": 646,
+        "chara": 130, "yakuwari": 7, "name": "B.C.プロトタイプ(回復)",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    {
+        "id": 647,
+        "chara": 130, "yakuwari": 1, "name": "B.C.プロトタイプ(通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 648,
+        "chara": 130, "yakuwari": 3, "name": "B.C.プロトタイプ(特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 649,
+        "chara": 131, "yakuwari": 4, "name": "バトルクロス",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5], ["水耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    {
+        "id": 650,
+        "chara": 131, "yakuwari": 2, "name": "B.C.プロトタイプ",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 5], ["風耐性", 5], ["火メモリア補助発動率UP", 2]]
+    },
+    {
+        "id": 651,
+        "chara": 132, "yakuwari": 6, "name": "B.C.プロトタイプ",
+        "percent": 15, "parameter": [["DEF", 3000], ["ATK", 3000]], "ex": [["火UP", 5]]
     }
 ]
