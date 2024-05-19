@@ -133,6 +133,14 @@ function makeTable() {
     for (let i = 0; i < charaRoleArray.length; i++) {
         let charaIndex = getCharaIndex(charaDisplay[i]); // 表示順取得
         let maxRow = getCharaMaxRow(charaIndex);
+        if (maxRow == 0) {
+            // 行作成
+            let tr = document.createElement("tr");
+            tr.id = getCharaJump(charaIndex);
+            tr.className = "charaBottom";
+            document.getElementById("maintable").appendChild(tr);
+            continue
+        }
         for (let charaRowIndex = 0; charaRowIndex < maxRow; charaRowIndex++) {
             // 行作成
             let tr = document.createElement("tr");
@@ -142,7 +150,7 @@ function makeTable() {
                 let th = document.createElement("th");
                 th.innerHTML = getCharaName(charaIndex);
                 th.rowSpan = maxRow;
-                th.id = getCharaJump(charaIndex);
+                tr.id = getCharaJump(charaIndex);
                 tr.appendChild(th);
             }
             // 役割ごと
