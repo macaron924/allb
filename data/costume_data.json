@@ -582,7 +582,7 @@
     {
         "id": 117,
         "chara": 25, "yakuwari": 7, "name": "百合ヶ丘標準制服",
-        "percent": 12.5, "parameter": [], "ex": []
+        "percent": 15, "parameter": [["DEF", 1500]], "ex": []
     },
     {
         "id": 118,
@@ -3253,5 +3253,10 @@
         "id": 651,
         "chara": 132, "yakuwari": 6, "name": "B.C.プロトタイプ",
         "percent": 15, "parameter": [["DEF", 3000], ["ATK", 3000]], "ex": [["火UP", 5]]
+    },
+    {
+        "id": 652,
+        "chara": 67, "yakuwari": 5, "name": "マルチカラードフラワー",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP(ギガント限定)", 5], ["火UP", 5]]
     }
 ]
