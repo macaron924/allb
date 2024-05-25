@@ -90,7 +90,9 @@ const itemByTypeJson = {
         { index: "costume_640_pendant-ex", name: "ミリアム/ファンシーフラワーのペンダントEX", link: false },
         { index: "costume_641_pendant-ex", name: "千香瑠/マリンセーラーのペンダントEX", link: false },
         { index: "costume_651_pendant-ex", name: "楓/B.C.プロトタイプのペンダントEX", link: false },
-        { index: "costume_652_pendant-ex", name: "悠夏/マルチカラードフラワーのペンダントEX", link: false }
+        { index: "costume_652_pendant-ex", name: "悠夏/マルチカラードフラワーのペンダントEX", link: false },
+        { index: "costume_655_before", name: "定盛姫歌/ドリーミィパレード", link: false },
+        { index: "costume_655_pendant-ad", name: "姫歌/ドリーミィパレードのADペンダント", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -350,7 +352,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_collabo-yuyuyu-1_202405", name: "白百合の章ペンダントEX交換券Ⅰ", link: false },
         { index: "exchange_pendant-ex_collabo-yuyuyu-2_202405", name: "白百合の章ペンダントEX交換券Ⅱ", link: false },
         { index: "exchange_pendant-ex_collabo-yuyuyu-3_202405", name: "絆の章ペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_collabo-yuyuyu-5", name: "園子＆樹ペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_collabo-yuyuyu-5", name: "園子＆樹ペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202405-dream-fes", name: "3rd Anniv. DREAMフェスペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
