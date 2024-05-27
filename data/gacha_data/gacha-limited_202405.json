@@ -1,5 +1,32 @@
 [
     {
+        "start": "2024/5/27(月) 12:00",
+        "finish": "2024/5/29(水) 23:59",
+        "type": "マンデーボーナスガチャ",
+        "medal": "medal_bonus_202405",
+        "gacha": [
+            {
+                "index": "20240527_1",
+                "name": "マンデーボーナスガチャ",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "11回ガチャ1回限定", "item": [] },
+                        { "text": "ガチャを引くと", "item": [ { "index": "medal", "value": 200}, { "index": "skip-ticket", "value": 300 }, { "index": "goggle-3", "value": 5 } ] }
+                    ],
+                    "table_header": [],
+                    "table_content": []
+                },
+                "lineup": {
+                    "total_ratio": [5],
+                    "notice": ["★5メモリアは半年以内追加のみ"],
+                    "pu": [],
+                    "else": { "caption": "ピックアップ無し", "content": [773, 774, 778, 779, 801, 802, 806, 807] }
+                }
+            }
+        ]
+    },
+    {
         "start": "2024/5/26(日) 12:00",
         "finish": "2024/5/28(火) 23:59",
         "type": "限界突破応援属性別ガチャ",
