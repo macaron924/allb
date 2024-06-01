@@ -92,7 +92,8 @@ const itemByTypeJson = {
         { index: "costume_651_pendant-ex", name: "楓/B.C.プロトタイプのペンダントEX", link: false },
         { index: "costume_652_pendant-ex", name: "悠夏/マルチカラードフラワーのペンダントEX", link: false },
         { index: "costume_655_before", name: "定盛姫歌/ドリーミィパレード", link: false },
-        { index: "costume_655_pendant-ad", name: "姫歌/ドリーミィパレードのADペンダント", link: false }
+        { index: "costume_655_pendant-ad", name: "姫歌/ドリーミィパレードのADペンダント", link: false },
+        { index: "costume_656_pendant-ex", name: "依奈/黄昏の聖装のペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -269,7 +270,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_collabo-yuyuyu-1_202405", name: "白百合の章★5確定ガチャチケットⅠ", link: false },
         { index: "gacha-ticket_collabo-yuyuyu-2_202405", name: "白百合の章★5確定ガチャチケットⅡ", link: false },
         { index: "gacha-ticket_collabo-yuyuyu-3_202405", name: "絆の章★5確定ガチャチケット", link: false },
-        { index: "gacha-ticket_202405-event-2", name: "暴姫のカンパニュラ★5確定ガチャチケット", link: false }
+        { index: "gacha-ticket_202405-event-2", name: "暴姫のカンパニュラ★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_202406-event-1", name: "追憶のリグレット★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -410,9 +412,11 @@ const itemByTypeJson = {
         { index: "exchange_costume_dream-3", name: "3rdAnniv.DREAMスウィーティ衣装引換券", link: true },
         { index: "exchange_costume_dream-shiori", name: "汐里/セイクリッドドリーム衣装引換券", link: false },
         { index: "exchange_costume_dream-soraha", name: "天葉/ドリーミィパレード衣装引換券", link: false },
+        { index: "exchange_costume_dream-soraha_202406", name: "天葉/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-takane", name: "高嶺/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-renka", name: "恋花/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-sachie", name: "幸恵/ドリーミィパレード衣装引換券", link: false },
+        { index: "exchange_costume_dream-sachie_202406", name: "幸恵/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-kiito", name: "純/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-yahiro", name: "弥宏/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-kureha", name: "紅巴/ドリーミィパレード衣装引換券", link: false },
@@ -423,6 +427,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_yuyuyu-mankai-karin", name: "夏凜/勇者服(満開)衣装引換券", link: false },
         { index: "exchange_costume_elven-noa", name: "毛綱乃彩/黄昏の聖装アドバンス衣装引換券", link: false },
         { index: "exchange_costume_202405-event-2", name: "暴姫のカンパニュラAD衣装引換券", link: false },
+        { index: "exchange_costume_202406-event-1", name: "追憶のリグレットAD衣装引換券", link: false },
         { index: "exchange_costume_dreamin-party", name: "Dreamin’☆Party衣装引換券", link: false },
         { index: "exchange_costume_xmas", name: "Xmas記念衣装引換券", link: true },
         { index: "exchange_costume_new-year", name: "2024年新春記念衣装引換券", link: true },
@@ -570,7 +575,8 @@ const itemByTypeJson = {
         { index: "exchange_3rd-anniv-yakuwari-gacha", name: "3rd Anniv.役割別ガチャチケット引換券", link: false },
         { index: "exchange_gw-2024-yakuwari-gacha", name: "GW2024役割別ガチャチケット引換券", link: false },
         { index: "exchange_pendant_elven-noa", name: "毛綱乃彩/黄昏の聖装ADペンダント交換券", link: false },
-        { index: "exchange_pendant_202405-event-2", name: "暴姫のカンパニュラADペンダント交換券", link: false }
+        { index: "exchange_pendant_202405-event-2", name: "暴姫のカンパニュラADペンダント交換券", link: false },
+        { index: "exchange_pendant_202406-event-1", name: "追憶のリグレットADペンダント交換券", link: false }
     ],
     medal_bonus: [ // ボーナスメダル
         { index: "medal_bonus_202212", name: "ボーナスメダルⅫ", link: false },
@@ -591,6 +597,7 @@ const itemByTypeJson = {
         { index: "medal_bonus_202403", name: "ボーナスメダルⅢ", link: false },
         { index: "medal_bonus_202404", name: "ボーナスメダルⅣ", link: false },
         { index: "medal_bonus_202405", name: "ボーナスメダルⅤ", link: false },
+        { index: "medal_bonus_202406", name: "ボーナスメダルⅥ", link: false },
         { index: "medal_bonus_collabo-prisma-illya", name: "シスターズ・カラミティボーナスメダル", link: false },
         { index: "medal_bonus_collabo-madoka-magica", name: "マギカ☆ワンダーワールドボーナスメダル", link: false },
         { index: "medal_bonus_collabo-yuyuyu", name: "白百合の章ボーナスメダル", link: false },
@@ -677,6 +684,7 @@ const itemByTypeJson = {
         { index: "charm_162_star3", name: "ムラマサ・ブレード", link: false },
         { index: "charm_169_star3", name: "グラムSP.MW", link: false },
         { index: "charm_171_star3", name: "クリューサーオールSP.MN", link: false },
-        { index: "charm_197_star3", name: "ティルフィングMCC-B", link: false }
+        { index: "charm_197_star3", name: "ティルフィングMCC-B", link: false },
+        { index: "charm_198_star3", name: "グラムSP.OK", link: false }
     ]
 }
