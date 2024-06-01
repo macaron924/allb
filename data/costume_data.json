@@ -3273,5 +3273,20 @@
         "id": 655,
         "chara": 19, "yakuwari": 5, "name": "ドリーミィパレード",
         "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["水耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    {
+        "id": 656,
+        "chara": 134, "yakuwari": 3, "name": "黄昏の聖装",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 657,
+        "chara": 133, "yakuwari": 2, "name": "百合ヶ丘標準制服",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["水耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    {
+        "id": 658,
+        "chara": 135, "yakuwari": 4, "name": "黄昏の聖装",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5], ["風耐性", 5], ["火メモリア補助発動率UP", 2]]
     }
 ]
