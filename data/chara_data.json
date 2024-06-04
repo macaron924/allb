@@ -135,12 +135,14 @@
         { "charaID": 133, "charaName": "紫恵楽", "charaFullName":"多田紫恵楽", "charaJump": "shiera", "specialSkill":"", "playable": true },
         { "charaID": 134, "charaName": "依奈", "charaFullName":"番匠谷依奈", "charaJump": "", "specialSkill":"エルヴンサークリットブレス", "playable": true },
         { "charaID": 135, "charaName": "綺更", "charaFullName":"岡田綺更", "charaJump": "", "specialSkill":"エルヴンゼノンパラドキサ", "playable": true },
+        { "charaID": 136, "charaName": "辰姫", "charaFullName":"森辰姫", "charaJump": "", "specialSkill":"Eルナティックトランサー", "playable": true },
+        { "charaID": 137, "charaName": "壱", "charaFullName":"田中壱", "charaJump": "", "specialSkill":"エルヴンマギプロヴィデンス", "playable": true },
         { "charaID": 998, "charaName": "八雲校長", "charaFullName":"八雲校長", "charaJump": "", "specialSkill":"", "playable": false },
         { "charaID": 999, "charaName": "美鈴", "charaFullName":"美鈴", "charaJump": "", "specialSkill":"", "playable": false }
         
     ],[
         { "belong": "百合ヶ丘女学院／一柳隊", "playable": true, "chara": [1, 30, 2, 107, 3, 132, 4, 130, 5, 55, 113, 6, 7, 8, 9, 35] },
-        { "belong": "百合ヶ丘女学院／アールヴヘイム", "playable": true, "chara": [21, 121, 22, 134, 23, 123, 24, 25, 124, 26, 125, 27, 128, 28, 127, 29, 118, 122, 119, 126, 120, 135] },
+        { "belong": "百合ヶ丘女学院／アールヴヘイム", "playable": true, "chara": [21, 121, 22, 134, 23, 123, 24, 137, 25, 124, 26, 125, 27, 128, 28, 127, 29, 136, 118, 122, 119, 126, 120, 135] },
         { "belong": "百合ヶ丘女学院／サングリーズル", "playable": true, "chara": [116, 117, 131] },
         { "belong": "百合ヶ丘女学院／その他", "playable": true, "chara": [20, 53, 54, 56, 57, 98, 99, 105, 106, 133, 115, 999] },
         { "belong": "エレンスゲ女学園／ヘルヴォル", "playable": true, "chara": [10, 95, 11, 84, 12, 96, 13, 14] },
