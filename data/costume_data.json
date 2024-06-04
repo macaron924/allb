@@ -3288,5 +3288,50 @@
         "id": 658,
         "chara": 135, "yakuwari": 4, "name": "黄昏の聖装",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5], ["風耐性", 5], ["火メモリア補助発動率UP", 2]]
+    },
+    {
+        "id": 659,
+        "chara": 136, "yakuwari": 5, "name": "黄昏の聖装",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5]]
+    },
+    {
+        "id": 660,
+        "chara": 137, "yakuwari": 4, "name": "黄昏の聖装",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    {
+        "id": 661,
+        "chara": 120, "yakuwari": 2, "name": "百合ヶ丘標準制服(通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 662,
+        "chara": 120, "yakuwari": 4, "name": "百合ヶ丘標準制服(特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 663,
+        "chara": 120, "yakuwari": 5, "name": "百合ヶ丘標準制服(支援)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["火UP", 5]]
+    },
+    {
+        "id": 664,
+        "chara": 120, "yakuwari": 6, "name": "百合ヶ丘標準制服(妨害)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["火UP", 5]]
+    },
+    {
+        "id": 665,
+        "chara": 120, "yakuwari": 7, "name": "百合ヶ丘標準制服(回復)",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5]]
+    },
+    {
+        "id": 666,
+        "chara": 120, "yakuwari": 1, "name": "百合ヶ丘標準制服(通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    {
+        "id": 667,
+        "chara": 120, "yakuwari": 3, "name": "百合ヶ丘標準制服(特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
     }
 ]
