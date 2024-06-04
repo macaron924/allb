@@ -12,9 +12,10 @@ function getLimitedGachaData ( depth ) {
     }
     const gachaLimitedList = [];
     
+    gachaLimitedList.push( { ref: loadData(path + "data/gacha_data/gacha-limited_202406.json"), index: 202406, active: true, group: "" } );
     gachaLimitedList.push( { ref: loadData(path + "data/gacha_data/gacha-limited_202405.json"), index: 202405, active: true, group: "" } );
-    gachaLimitedList.push( { ref: loadData(path + "data/gacha_data/gacha-limited_202404.json"), index: 202404, active: true, group: "" } );
-    gachaLimitedList.push( { ref: loadData(path + "data/gacha_data/gacha-limited_202403.json"), index: 202403, active: true, group: "" } );
+    gachaLimitedList.push( { ref: loadData(path + "data/gacha_data/gacha-limited_202404.json"), index: 202404, active: false, group: "" } );
+    gachaLimitedList.push( { ref: loadData(path + "data/gacha_data/gacha-limited_202403.json"), index: 202403, active: false, group: "" } );
     gachaLimitedList.push( { ref: loadData(path + "data/gacha_data/gacha-limited_202402.json"), index: 202402, active: false, group: "" } );
     gachaLimitedList.push( { ref: loadData(path + "data/gacha_data/gacha-limited_202401.json"), index: 202401, active: false, group: "" } );
     gachaLimitedList.push( { ref: loadData(path + "data/gacha_data/gacha-limited_202312.json"), index: 202312, active: false, group: "" } );
