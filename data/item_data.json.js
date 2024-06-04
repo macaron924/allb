@@ -355,7 +355,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_collabo-yuyuyu-2_202405", name: "白百合の章ペンダントEX交換券Ⅱ", link: false },
         { index: "exchange_pendant-ex_collabo-yuyuyu-3_202405", name: "絆の章ペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_collabo-yuyuyu-5", name: "園子＆樹ペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202405-dream-fes", name: "3rd Anniv. DREAMフェスペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202405-dream-fes", name: "3rd Anniv. DREAMフェスペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202406-1-2", name: "辰姫＆壱ペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -424,6 +425,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_bc-fumi", name: "二水/B.C.プロトタイプ衣装引換券", link: false },
         { index: "exchange_costume_uniform-wakana", name: "若菜/百合ヶ丘標準制服衣装引換券", link: false },
         { index: "exchange_costume_uniform-noa", name: "乃彩/百合ヶ丘標準制服衣装引換券", link: false },
+        { index: "exchange_costume_uniform-kisara", name: "綺更/百合ヶ丘標準制服衣装引換券", link: false },
         { index: "exchange_costume_yuyuyu-mankai-karin", name: "夏凜/勇者服(満開)衣装引換券", link: false },
         { index: "exchange_costume_elven-noa", name: "毛綱乃彩/黄昏の聖装アドバンス衣装引換券", link: false },
         { index: "exchange_costume_202405-event-2", name: "暴姫のカンパニュラAD衣装引換券", link: false },
@@ -572,6 +574,7 @@ const itemByTypeJson = {
         { index: "exchange_yakuwari-gacha", name: "役割別ガチャチケット引換券", link: false },
         { index: "exchange_yakuwari-gacha_202404", name: "役割別ガチャチケット引換券4月", link: false },
         { index: "exchange_yakuwari-gacha_202405", name: "役割別ガチャチケット引換券5月", link: false },
+        { index: "exchange_yakuwari-gacha_202406", name: "役割別ガチャチケット引換券6月", link: false },
         { index: "exchange_3rd-anniv-yakuwari-gacha", name: "3rd Anniv.役割別ガチャチケット引換券", link: false },
         { index: "exchange_gw-2024-yakuwari-gacha", name: "GW2024役割別ガチャチケット引換券", link: false },
         { index: "exchange_pendant_elven-noa", name: "毛綱乃彩/黄昏の聖装ADペンダント交換券", link: false },
@@ -685,6 +688,7 @@ const itemByTypeJson = {
         { index: "charm_169_star3", name: "グラムSP.MW", link: false },
         { index: "charm_171_star3", name: "クリューサーオールSP.MN", link: false },
         { index: "charm_197_star3", name: "ティルフィングMCC-B", link: false },
-        { index: "charm_198_star3", name: "グラムSP.OK", link: false }
+        { index: "charm_198_star3", name: "グラムSP.OK", link: false },
+        { index: "charm_201_star3", name: "デュランダルSP.TS", link: false }
     ]
 }
