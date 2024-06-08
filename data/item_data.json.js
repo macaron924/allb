@@ -93,7 +93,13 @@ const itemByTypeJson = {
         { index: "costume_652_pendant-ex", name: "悠夏/マルチカラードフラワーのペンダントEX", link: false },
         { index: "costume_655_before", name: "定盛姫歌/ドリーミィパレード", link: false },
         { index: "costume_655_pendant-ad", name: "姫歌/ドリーミィパレードのADペンダント", link: false },
-        { index: "costume_656_pendant-ex", name: "依奈/黄昏の聖装のペンダントEX", link: false }
+        { index: "costume_656_pendant-ex", name: "依奈/黄昏の聖装のペンダントEX", link: false },
+        { index: "costume_668_before", name: "飯島恋花/おやすみスタイル", link: false },
+        { index: "costume_668_pendant-ad", name: "恋花/おやすみスタイルのADペンダント", link: false },
+        { index: "costume_669_pendant-ex", name: "梨璃/おやすみスタイルのペンダントEX", link: false },
+        { index: "costume_670_pendant-ex", name: "夢結/おやすみスタイルのペンダントEX", link: false },
+        { index: "costume_671_before", name: "定盛姫歌/おやすみスタイル", link: false },
+        { index: "costume_671_pendant-ad", name: "姫歌/おやすみスタイルのADペンダント", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -200,6 +206,7 @@ const itemByTypeJson = {
         { index: "gacha-ticket_gw", name: "GW記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_idol-kakutei", name: "アイドルメモリア100%!!★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_stage-new-ch-2", name: "舞台「アサルトリリィ・新章」記念★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_life-assist", name: "ライフアシストスキル★5確定ガチャチケット", link: true },
         // イベントガチャチケット
         { index: "gacha-ticket_202212-event-1", name: "聖夜へ捧ぐサプライズ★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202212-event-2", name: "凍て空の流星★5確定ガチャチケットⅡ", link: false },
