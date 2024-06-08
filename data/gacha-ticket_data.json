@@ -955,6 +955,17 @@
         }
     },
     {
+        "name": "ライフアシストスキル★5確定ガチャチケット",
+        "index": "life-assist",
+        "lineup": {
+            "topic": [],
+            "total-ratio": 100,
+            "else": [
+                { "date": "2024/6/6", "caption": "新規登場", "content": [453, 456, 463, 473, 537, 572] }
+            ]
+        }
+    },
+    {
         "name": "御台場女学校★5確定ガチャチケット",
         "index": "odaiba",
         "lineup": {
