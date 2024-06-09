@@ -207,6 +207,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_idol-kakutei", name: "アイドルメモリア100%!!★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_stage-new-ch-2", name: "舞台「アサルトリリィ・新章」記念★5確定ガチャチケット", link: true },
         { index: "gacha-ticket_life-assist", name: "ライフアシストスキル★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_wedding", name: "ウェディング記念★5確定ガチャチケット", link: true },
+        { index: "gacha-ticket_wedding-kakutei", name: "ウェディングメモリア100%!!★5確定ガチャチケット", link: true },
         // イベントガチャチケット
         { index: "gacha-ticket_202212-event-1", name: "聖夜へ捧ぐサプライズ★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202212-event-2", name: "凍て空の流星★5確定ガチャチケットⅡ", link: false },
@@ -278,7 +280,8 @@ const itemByTypeJson = {
         { index: "gacha-ticket_collabo-yuyuyu-2_202405", name: "白百合の章★5確定ガチャチケットⅡ", link: false },
         { index: "gacha-ticket_collabo-yuyuyu-3_202405", name: "絆の章★5確定ガチャチケット", link: false },
         { index: "gacha-ticket_202405-event-2", name: "暴姫のカンパニュラ★5確定ガチャチケット", link: false },
-        { index: "gacha-ticket_202406-event-1", name: "追憶のリグレット★5確定ガチャチケット", link: false }
+        { index: "gacha-ticket_202406-event-1", name: "追憶のリグレット★5確定ガチャチケット", link: false },
+        { index: "gacha-ticket_202406-event-2", name: "ドレスアップ・ハッピネス★5確定ガチャチケット", link: false }
     ],
     exchange_pendant_ex: [ // EX交換券
         { index: "exchange_pendant-ex_202212-1", name: "聖夜へ捧ぐサプライズペンダントEX交換券", link: false },
@@ -363,7 +366,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant-ex_collabo-yuyuyu-3_202405", name: "絆の章ペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_collabo-yuyuyu-5", name: "園子＆樹ペンダントEX交換券", link: false },
         { index: "exchange_pendant-ex_202405-dream-fes", name: "3rd Anniv. DREAMフェスペンダントEX交換券", link: false },
-        { index: "exchange_pendant-ex_202406-1-2", name: "辰姫＆壱ペンダントEX交換券", link: false }
+        { index: "exchange_pendant-ex_202406-1-2", name: "辰姫＆壱ペンダントEX交換券", link: false },
+        { index: "exchange_pendant-ex_202406-2", name: "ドレスアップ・ハッピネスペンダントEX交換券", link: false }
     ],
     exchange_costume: [ // 衣装引換券
         { index: "exchange_costume_toumei-diary", name: "トウメイダイアリーCD発売記念！衣装引換券", link: true },
@@ -435,6 +439,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_uniform-kisara", name: "綺更/百合ヶ丘標準制服衣装引換券", link: false },
         { index: "exchange_costume_yuyuyu-mankai-karin", name: "夏凜/勇者服(満開)衣装引換券", link: false },
         { index: "exchange_costume_elven-noa", name: "毛綱乃彩/黄昏の聖装アドバンス衣装引換券", link: false },
+        { index: "exchange_costume_wedding-yujia-shenlin", name: "神琳＆雨嘉/ミラージュマリアージュアドバンス衣装引換券", link: false },
         { index: "exchange_costume_202405-event-2", name: "暴姫のカンパニュラAD衣装引換券", link: false },
         { index: "exchange_costume_202406-event-1", name: "追憶のリグレットAD衣装引換券", link: false },
         { index: "exchange_costume_dreamin-party", name: "Dreamin’☆Party衣装引換券", link: false },
@@ -444,6 +449,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_new-year-2024-normal", name: "新春衣装引換券", link: true },
         { index: "exchange_costume_valentine", name: "2024年バレンタイン記念衣装引換券", link: true },
         { index: "exchange_costume_white-day", name: "2024年ホワイトデー記念衣装引換券", link: true },
+        { index: "exchange_costume_wedding", name: "2024年ウェディング記念衣装引換券", link: true },
         { index: "exchange_costume_premium-202403", name: "プレミア衣装引換券", link: true },
         { index: "exchange_costume_ad-pendant", name: "ADペンダントメダルセレクトチケット", link: true }
     ],
@@ -585,6 +591,7 @@ const itemByTypeJson = {
         { index: "exchange_3rd-anniv-yakuwari-gacha", name: "3rd Anniv.役割別ガチャチケット引換券", link: false },
         { index: "exchange_gw-2024-yakuwari-gacha", name: "GW2024役割別ガチャチケット引換券", link: false },
         { index: "exchange_pendant_elven-noa", name: "毛綱乃彩/黄昏の聖装ADペンダント交換券", link: false },
+        { index: "exchange_pendant_wedding-yujia-shenlin", name: "神琳＆雨嘉/ミラージュマリアージュADペンダント交換券", link: false },
         { index: "exchange_pendant_202405-event-2", name: "暴姫のカンパニュラADペンダント交換券", link: false },
         { index: "exchange_pendant_202406-event-1", name: "追憶のリグレットADペンダント交換券", link: false }
     ],
