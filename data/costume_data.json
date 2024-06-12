@@ -3373,5 +3373,10 @@
         "id": 675,
         "chara": 23, "yakuwari": 6, "name": "ミラージュマリアージュ",
         "percent": 15, "parameter": [["DEF", 3000], ["ATK", 3000]], "ex": [["火UP", 5]]
+    },
+    {
+        "id": 676,
+        "chara": 14, "yakuwari": 2, "name": "ミラージュマリアージュ",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
     }
 ]
