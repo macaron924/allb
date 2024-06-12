@@ -99,7 +99,8 @@ const itemByTypeJson = {
         { index: "costume_669_pendant-ex", name: "梨璃/おやすみスタイルのペンダントEX", link: false },
         { index: "costume_670_pendant-ex", name: "夢結/おやすみスタイルのペンダントEX", link: false },
         { index: "costume_671_before", name: "定盛姫歌/おやすみスタイル", link: false },
-        { index: "costume_671_pendant-ad", name: "姫歌/おやすみスタイルのADペンダント", link: false }
+        { index: "costume_671_pendant-ad", name: "姫歌/おやすみスタイルのADペンダント", link: false },
+        { index: "costume_676_pendant-ex", name: "千香瑠/ミラージュマリアージュのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -432,7 +433,9 @@ const itemByTypeJson = {
         { index: "exchange_costume_dream-kiito", name: "純/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-yahiro", name: "弥宏/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-kureha", name: "紅巴/ドリーミィパレード衣装引換券", link: false },
+        { index: "exchange_costume_dream-kureha_202406", name: "紅巴/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_dream-akehi", name: "秋日/ドリーミィパレード衣装引換券", link: false },
+        { index: "exchange_costume_dream-akehi_202406", name: "秋日/ドリーミィパレード衣装引換券", link: false },
         { index: "exchange_costume_bc-fumi", name: "二水/B.C.プロトタイプ衣装引換券", link: false },
         { index: "exchange_costume_uniform-wakana", name: "若菜/百合ヶ丘標準制服衣装引換券", link: false },
         { index: "exchange_costume_uniform-noa", name: "乃彩/百合ヶ丘標準制服衣装引換券", link: false },
@@ -572,6 +575,7 @@ const itemByTypeJson = {
         { index: "exchange_brand-new_202405-1", name: "BRAND-NEW★5メモリア引換券5月", link: false },
         { index: "exchange_brand-new_202405-2", name: "BRAND-NEW★5メモリア引換券5月Ⅱ", link: false },
         { index: "exchange_brand-new_202405-3", name: "BRAND-NEW★5メモリア引換券5月Ⅲ", link: false },
+        { index: "exchange_brand-new_202406-1", name: "BRAND-NEW★5メモリア引換券6月", link: false },
         // その他
         { index: "exchange_xmas-cuelebre", name: "Xmas記念クエレブレ引換券", link: true },
         { index: "exchange_charm_202312-event-1", name: "誓いのリコネクトCHARM引換券", link: false },
