@@ -445,6 +445,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_wedding-yujia-shenlin", name: "神琳＆雨嘉/ミラージュマリアージュアドバンス衣装引換券", link: false },
         { index: "exchange_costume_202405-event-2", name: "暴姫のカンパニュラAD衣装引換券", link: false },
         { index: "exchange_costume_202406-event-1", name: "追憶のリグレットAD衣装引換券", link: false },
+        { index: "exchange_costume_202406-event-3", name: "Cherish Lily’s WeddingAD衣装引換券", link: false },
         { index: "exchange_costume_dreamin-party", name: "Dreamin’☆Party衣装引換券", link: false },
         { index: "exchange_costume_xmas", name: "Xmas記念衣装引換券", link: true },
         { index: "exchange_costume_new-year", name: "2024年新春記念衣装引換券", link: true },
@@ -580,6 +581,7 @@ const itemByTypeJson = {
         { index: "exchange_brand-new_202405-2", name: "BRAND-NEW★5メモリア引換券5月Ⅱ", link: false },
         { index: "exchange_brand-new_202405-3", name: "BRAND-NEW★5メモリア引換券5月Ⅲ", link: false },
         { index: "exchange_brand-new_202406-1", name: "BRAND-NEW★5メモリア引換券6月", link: false },
+        { index: "exchange_event-memoria_202406-3", name: "Cherish Lily’s Wedding★5メモリア引換券", link: false },
         // その他
         { index: "exchange_xmas-cuelebre", name: "Xmas記念クエレブレ引換券", link: true },
         { index: "exchange_charm_202312-event-1", name: "誓いのリコネクトCHARM引換券", link: false },
@@ -601,7 +603,8 @@ const itemByTypeJson = {
         { index: "exchange_pendant_elven-noa", name: "毛綱乃彩/黄昏の聖装ADペンダント交換券", link: false },
         { index: "exchange_pendant_wedding-yujia-shenlin", name: "神琳＆雨嘉/ミラージュマリアージュADペンダント交換券", link: false },
         { index: "exchange_pendant_202405-event-2", name: "暴姫のカンパニュラADペンダント交換券", link: false },
-        { index: "exchange_pendant_202406-event-1", name: "追憶のリグレットADペンダント交換券", link: false }
+        { index: "exchange_pendant_202406-event-1", name: "追憶のリグレットADペンダント交換券", link: false },
+        { index: "exchange_pendant_202406-event-3", name: "Cherish Lily’s WeddingADペンダント交換券", link: false }
     ],
     medal_bonus: [ // ボーナスメダル
         { index: "medal_bonus_202212", name: "ボーナスメダルⅫ", link: false },
