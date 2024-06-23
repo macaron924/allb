@@ -100,7 +100,8 @@ const itemByTypeJson = {
         { index: "costume_670_pendant-ex", name: "夢結/おやすみスタイルのペンダントEX", link: false },
         { index: "costume_671_before", name: "定盛姫歌/おやすみスタイル", link: false },
         { index: "costume_671_pendant-ad", name: "姫歌/おやすみスタイルのADペンダント", link: false },
-        { index: "costume_676_pendant-ex", name: "千香瑠/ミラージュマリアージュのペンダントEX", link: false }
+        { index: "costume_676_pendant-ex", name: "千香瑠/ミラージュマリアージュのペンダントEX", link: false },
+        { index: "costume_679_pendant-ex", name: "梨璃/淑女の嗜みαのペンダントEX", link: false }
     ],
     memoria_sozai: [ // メモリア素材
         { index: "memoria_312_evolution", name: "癒しの露天風呂：ピース", link: false },
@@ -440,6 +441,7 @@ const itemByTypeJson = {
         { index: "exchange_costume_uniform-wakana", name: "若菜/百合ヶ丘標準制服衣装引換券", link: false },
         { index: "exchange_costume_uniform-noa", name: "乃彩/百合ヶ丘標準制服衣装引換券", link: false },
         { index: "exchange_costume_uniform-kisara", name: "綺更/百合ヶ丘標準制服衣装引換券", link: false },
+        { index: "exchange_costume_uniform-hibari", name: "日羽梨/百合ヶ丘標準制服衣装引換券", link: false },
         { index: "exchange_costume_yuyuyu-mankai-karin", name: "夏凜/勇者服(満開)衣装引換券", link: false },
         { index: "exchange_costume_elven-noa", name: "毛綱乃彩/黄昏の聖装アドバンス衣装引換券", link: false },
         { index: "exchange_costume_wedding-yujia-shenlin", name: "神琳＆雨嘉/ミラージュマリアージュアドバンス衣装引換券", link: false },
@@ -581,6 +583,7 @@ const itemByTypeJson = {
         { index: "exchange_brand-new_202405-2", name: "BRAND-NEW★5メモリア引換券5月Ⅱ", link: false },
         { index: "exchange_brand-new_202405-3", name: "BRAND-NEW★5メモリア引換券5月Ⅲ", link: false },
         { index: "exchange_brand-new_202406-1", name: "BRAND-NEW★5メモリア引換券6月", link: false },
+        { index: "exchange_brand-new_202406-2", name: "BRAND-NEW★5メモリア引換券6月Ⅱ", link: false },
         { index: "exchange_event-memoria_202406-3", name: "Cherish Lily’s Wedding★5メモリア引換券", link: false },
         // その他
         { index: "exchange_xmas-cuelebre", name: "Xmas記念クエレブレ引換券", link: true },
