@@ -18,18 +18,18 @@ function getExchangeList(val) {
     let str = "";
     switch (val) {
         case "メダル":
-            for (let i in exchangeDataJson) {
-                if (exchangeDataJson[i]["type"] == "ボーナスメダル") {
-                    str = `<option value="${exchangeDataJson[i]["index"]}">${exchangeDataJson[i]["name"]}</option>`;
-                    document.getElementById("exchange-select").insertAdjacentHTML("beforeend", str);
-                }
+            for (let i in exchangeDataJson["medal_bonus"]) {
+                str = `<option value="${exchangeDataJson["medal_bonus"][i]["index"]}">${exchangeDataJson["medal_bonus"][i]["name"]}</option>`;
+                document.getElementById("exchange-select").insertAdjacentHTML("beforeend", str);
             }
         case "引換券":
-            for (let i in exchangeDataJson) {
-                if (exchangeDataJson[i]["type"].includes("メモリア")) {
-                    str = `<option value="${exchangeDataJson[i]["index"]}">${exchangeDataJson[i]["name"]}</option>`;
-                    document.getElementById("exchange-select").insertAdjacentHTML("beforeend", str);
-                }
+            for (let i in exchangeDataJson["exchange_memoria"]) {
+                str = `<option value="${exchangeDataJson["exchange_memoria"][i]["index"]}">${exchangeDataJson["exchange_memoria"][i]["name"]}</option>`;
+                document.getElementById("exchange-select").insertAdjacentHTML("beforeend", str);
+            }
+            for (let i in exchangeDataJson["exchange"]) {
+                str = `<option value="${exchangeDataJson["exchange"][i]["index"]}">${exchangeDataJson["exchange"][i]["name"]}</option>`;
+                document.getElementById("exchange-select").insertAdjacentHTML("beforeend", str);
             }
     }
 }
@@ -170,10 +170,22 @@ function runButtonPushAction() {
 
 function getExchangeLineup() {
     let lineup = [];
-    for (let i in exchangeDataJson) {
-        if (exchangeDataJson[i]["index"] == exchangeSelection) {
-            for (let j in exchangeDataJson[i]["lineup"]["memoria"]) {
-                lineup = lineup.concat(exchangeDataJson[i]["lineup"]["memoria"][j]["content"]);
+    let list = null;
+    switch (true) {
+        case exchangeSelection.startsWith("medal_bonus"):
+            list = exchangeDataJson["medal_bonus"];
+            break;
+        case exchangeSelection.startsWith("exchange_memoria"):
+            list = exchangeDataJson["exchange_memoria"];
+            break;
+        case exchangeSelection.startsWith("exchange"):
+            list = exchangeDataJson["exchange"];
+            break;
+    }
+    for (let i in list) {
+        if (list[i]["index"] == exchangeSelection) {
+            for (let j in list[i]["lineup"]["memoria"]) {
+                lineup = lineup.concat(list[i]["lineup"]["memoria"][j]["content"]);
             }
         }
     }
@@ -546,7 +558,7 @@ function filter() {
 
         let existInLineup = true;
         if (exchangeSelection != "") {
-            if (lineup.includes(id)) {
+            if (lineup.includes(parseInt(id))) {
                 existInLineup = true;
             } else {
                 existInLineup = false;
