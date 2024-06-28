@@ -197,7 +197,7 @@ function getTicketBox(obj, depth) {
     let date = `※${obj["date"]} ${obj["caption"]}`;
 
     let flexitem = document.createElement("div");
-    flexitem.className = "flex_medal-item";
+    flexitem.className = "flex_ticket-item";
     
     let imgDiv = document.createElement("div");
     let linkImg = document.createElement("a");

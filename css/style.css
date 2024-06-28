@@ -212,14 +212,14 @@ main a:hover {
 
 /*チケットデータのflexbox*/
 
-.flex_medal-box {
+.flex_medal-box, .flex_ticket-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
     align-items: flex-start;
 }
 
-.flex_medal-item {
+.flex_medal-item, .flex_ticket-item {
     padding: 1rem;
     color: #000;
     background-color: #fff;
@@ -233,18 +233,18 @@ main a:hover {
     min-height: 7.4rem;
 }
 
-.flex_medal-item>div:first-child {
+.flex_medal-item>div:first-child, .flex_ticket-item>div:first-child {
     width: 5.5rem;
     text-align: left;
     float: left;
 }
 
-.flex_medal-item>div:last-child {
+.flex_medal-item>div:last-child, .flex_ticket-item>div:last-child {
     text-align: left;
     overflow: hidden;
 }
 
-.flex_medal-item img {
+.flex_medal-item img, .flex_ticket-item img {
     width: 5rem;
     height: 5rem;
     vertical-align: middle;
