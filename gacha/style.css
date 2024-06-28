@@ -1,0 +1,183 @@
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+th {
+    background-color: #00bfff;
+    border-right: 0.1rem solid #000;
+    border-bottom: 0.2rem solid #000;
+}
+
+td {
+    border-right: 0.1rem solid #999;
+    border-bottom: 0.1rem solid #999;
+    text-align: left;
+    vertical-align: middle;
+}
+
+tr:first-child>th {
+    border-top: 0.2rem solid #000;
+    position: sticky;
+    top: 0;
+}
+
+tr:last-child>* {
+    border-bottom: 0.2rem solid #000;
+}
+
+tr>*:first-child {
+    border-left: 0.2rem solid #000;
+}
+
+tr>*:last-child {
+    border-right: 0.2rem solid #000;
+}
+
+.bonus-list, .step-list {
+    overflow: auto;
+    max-height: 41rem;
+    width: max-content;
+    max-width: 100%;
+}
+
+.step-list tr.kugiri>td {
+    border-bottom: 0.2rem solid #000;
+}
+
+.bonus-list tr>td, .step-list tr>td{
+    text-align: right;
+}
+
+.bonus-list tr>td:last-child, .step-list tr>td:last-child {
+    text-align: left;
+}
+
+.bonus-list td a, .step-list td a {
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+.gacha-list {
+    overflow: auto;
+    width: max-content;
+    height: calc(100vh - 16rem);
+    width: 100%;
+    scroll-padding-top: 3.2rem;
+}
+
+.banner_img {
+    object-fit: contain;
+    height: 15rem;
+    max-width: 100%;
+}
+
+.banner-big_img {
+    object-fit: contain;
+    width: 80rem;
+    max-width: 100%;
+    max-height: 44rem;
+}
+
+.mini-banner_img {
+    vertical-align: middle;
+}
+
+.item_img {
+    width: 5rem;
+    height: 5rem;
+    vertical-align: middle;
+    margin: 0.1rem;
+    margin-right: 0.5rem;
+}
+
+.flex_gacha-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.flex_gacha-item {
+    padding: 1rem;
+    color: #000;
+    background-color: #fff;
+    margin: 0.5rem;
+    width: 40rem;
+    border: 0.2rem solid #91e3ff;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.flex_gacha-item.no-display {
+    display: none;
+}
+
+.flex_gacha-item .mini-banner_img {
+    height: 11rem;
+}
+
+.flex_gacha-item .item_img {
+    margin: 0;
+}
+
+.flex_gacha-item table {
+    margin: 0;
+    padding: 0;
+}
+
+.flex_gacha-item table td {
+    padding: 0;
+    border: solid 0;
+    text-align: left;
+    white-space: normal;
+    background-color: transparent;
+}
+
+.flex_gacha-item table td a {
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+.flex_gacha-item table tr:first-child>td {
+    text-align: center;
+}
+
+.flex_gacha-item table tr:last-child>td:first-child {
+    width: 5.5rem;
+}
+
+
+
+.gacha-group {
+    margin-bottom: 2.4rem;
+}
+
+.gacha-group .title {
+    cursor: pointer;
+    background: #88e1ff;
+}
+
+.gacha-group .flex_gacha-box {
+    display: none;
+}
+
+.gacha-group.active .flex_gacha-box {
+    display: flex;
+}
+
+.gacha-group.active .title span {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+
+/* ガチャチケ */
+
+#ticket-lineup .flex_memoria-box{
+    margin-bottom: 1rem;
+}

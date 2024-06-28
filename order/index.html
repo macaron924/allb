@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta http-equiv="content-type" charset="UTF-8">
+        <meta property="og:url" content="https://macaron924.github.io/allb/order/">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="オーダー一覧">
+        <meta property="og:description" content="オーダーを効果ごとにまとめたページです。">
+        <meta property="og:site_name" content="はっぴーゆにこーん☆">
+        <meta property="og:image" content="https://macaron924.github.io/allb/images/icon.png">
+        <meta name="twitter:card" content="summary">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../images/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Noto+Sans+JP&display=swap">
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="../css/menu.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="./style.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+        <script src="../js/menu.js" defer></script>
+
+        <title>オーダー一覧</title>
+    </head>
+    
+    <body>
+        <script src="../js/header.js"></script>
+        <script>writeHeader(1);</script>
+        
+        <main>
+            <div class="breadcrumb"><a href="../">Top</a> > オーダー</div>
+            <h1 class="title">オーダー一覧</h1>
+            <p class="order-category">
+                属性：
+                <a href="#fire">火</a> /
+                <a href="#water">水</a> /
+                <a href="#wind">風</a> /
+                <a href="#light">光</a> /
+                <a href="#dark">闇</a> /
+                <a href="#firewind">火風</a> /
+                <a href="#lightdark">光闇</a>
+                <br>
+                攻防：
+                <a href="#ASA-up">攻バフ</a> /
+                <a href="#DSD-up">防バフ</a> /
+                <a href="#ASA-down">攻デバフ</a> /
+                <a href="#DSD-down">防デバフ</a>
+                <br>
+                劣勢時：
+                <a href="#flag">旗</a>
+                <br>
+                属性盾：
+                <a href="#fire-shield">火</a> /
+                <a href="#water-shield">水</a> /
+                <a href="#wind-shield">風</a>
+                <br>
+                MP系：
+                <a href="#MP-keigen">軽減</a> /
+                <a href="#MP-kaifuku">回復</a>
+                <br>
+                補助スキル：
+                <a href="#hojo-up">覚醒</a> /
+                <a href="#hojo-down">覚醒妨害</a>
+                <br>
+                通特盾：
+                <a href="#tsuujou-shield">通常</a> /
+                <a href="#tokushu-shield">特殊</a>
+                <br>
+                リセット系：
+                <a href="#order-reset">オーダー使用回数</a> /
+                <a href="#unit-reset">ユニットチェンジ回数</a>
+                <br>
+                属性攻防：
+                <a href="#zokusei-attack-up">攻バフ</a> /
+                <a href="#zokusei-defense-up">防バフ</a> /
+                <a href="#zokusei-attack-down">攻デバフ</a> /
+                <a href="#zokusei-defense-down">防デバフ</a>
+                <br>
+                オーダー時間操作：
+                <a href="#kasoku">加速</a> /
+                <a href="#ayatsuri">操り</a>
+                <br>
+                役職効果アップ:
+                <a href="#shien-up">支えの波動</a> / 
+                <a href="#bougai-up">妨げの波動</a>
+                <br>
+                役職効果ダウン:
+                <a href="#shien-down">支えの破却</a> / 
+                <a href="#bougai-down">妨げの破却</a>
+            </p>
+            <br>
+            <div class="example">
+                <table>
+                    <tr>
+                        <th>画像</th>
+                        <th>課金</th>
+                        <th>名前</th>
+                        <th>対ヒュージ効果</th>
+                        <th>対ヒュージ時間</th>
+                        <th>レギマ効果</th>
+                        <th>レギマ時間</th>
+                    </tr>
+                    <tr id="fire">
+                        <td><img src="../images/order/order_1.webp"></td>
+                        <td></td>
+                        <td>火炎の心得</td>
+                        <td>火：大増加</td>
+                        <td>10+20</td>
+                        <td>火：大増加<br>水被ダメージ増加</td>
+                        <td>40+110</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_10.webp"></td>
+                        <td></td>
+                        <td>火烈なる布陣</td>
+                        <td>火：特大増加</td>
+                        <td>10+20</td>
+                        <td>火：特大増加<br>水被ダメージ増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_12.webp"></td>
+                        <td>〇</td>
+                        <td>朱雀炎武</td>
+                        <td>火：特大増加</td>
+                        <td>10+20</td>
+                        <td>火：特大増加<br>水被ダメージ増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_159.webp"></td>
+                        <td></td>
+                        <td>業火の軍勢</td>
+                        <td>火：超特大増加</td>
+                        <td>10+20</td>
+                        <td>火：超特大増加</td>
+                        <td>20+130</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_160.webp"></td>
+                        <td>〇</td>
+                        <td>鳳凰炎天</td>
+                        <td>火：超特大増加</td>
+                        <td>10+20</td>
+                        <td>火：超特大増加</td>
+                        <td>20+130</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_47.webp"></td>
+                        <td>〇</td>
+                        <td>女帝蝶の火継</td>
+                        <td>火：特大増加<br>ロング</td>
+                        <td>10+60</td>
+                        <td>火：特大増加<br>水被ダメージ増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_44.webp"></td>
+                        <td></td>
+                        <td>焔の勇猛</td>
+                        <td>火：特大増加</td>
+                        <td>10+20</td>
+                        <td>火　通常・後衛：特大増加<br>火　特殊　　　：増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_45.webp"></td>
+                        <td>〇</td>
+                        <td>劫火の勇猛</td>
+                        <td>火：特大増加</td>
+                        <td>10+20</td>
+                        <td>火　通常・後衛：特大増加<br>火　特殊　　　：増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_55.webp"></td>
+                        <td></td>
+                        <td>輝炎の神秘</td>
+                        <td>火：特大増加</td>
+                        <td>10+20</td>
+                        <td>火　特殊・後衛：特大増加<br>火　通常　　　：増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_57.webp"></td>
+                        <td>〇</td>
+                        <td>煌炎の神秘</td>
+                        <td>火：特大増加</td>
+                        <td>10+20</td>
+                        <td>火　特殊・後衛：特大増加<br>火　通常　　　：増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr id="water">
+                        <td><img src="../images/order/order_2.webp"></td>
+                        <td></td>
+                        <td>流水の心得</td>
+                        <td>水：大増加</td>
+                        <td>10+20</td>
+                        <td>水：大増加<br>風被ダメージ増加</td>
+                        <td>40+110</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_13.webp"></td>
+                        <td></td>
+                        <td>氷結の布陣</td>
+                        <td>水：特大増加</td>
+                        <td>10+20</td>
+                        <td>水：特大増加<br>風被ダメージ増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_14.webp"></td>
+                        <td>〇</td>
+                        <td>水神の怒り</td>
+                        <td>水：特大増加</td>
+                        <td>10+20</td>
+                        <td>水：特大増加<br>風被ダメージ増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_37.webp"></td>
+                        <td>〇</td>
+                        <td>天鳴雨の波紋</td>
+                        <td>水：特大増加<br>ロング</td>
+                        <td>10+60</td>
+                        <td>水：特大増加<br>風被ダメージ増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_52.webp"></td>
+                        <td></td>
+                        <td>大水の勇猛</td>
+                        <td>水：特大増加</td>
+                        <td>10+20</td>
+                        <td>水　通常・後衛：特大増加<br>水　特殊　　　：増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_54.webp"></td>
+                        <td>〇</td>
+                        <td>溟海の勇猛</td>
+                        <td>水：特大増加</td>
+                        <td>10+20</td>
+                        <td>水　通常・後衛：特大増加<br>水　特殊　　　：増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_39.webp"></td>
+                        <td></td>
+                        <td>氷霧の息吹</td>
+                        <td>水：特大増加</td>
+                        <td>10+20</td>
+                        <td>水　特殊・後衛：特大増加<br>水　通常　　　：増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_43.webp"></td>
+                        <td>〇</td>
+                        <td>雪獄の息吹</td>
+                        <td>水：特大増加</td>
+                        <td>10+20</td>
+                        <td>水　特殊・後衛：特大増加<br>水　通常　　　：増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr id="wind">
+                        <td><img src="../images/order/order_3.webp"></td>
+                        <td></td>
+                        <td>疾風の心得</td>
+                        <td>風：大増加</td>
+                        <td>10+20</td>
+                        <td>風：大増加<br>火被ダメージ増加</td>
+                        <td>40+110</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_8.webp"></td>
+                        <td></td>
+                        <td>絶風大破の陣</td>
+                        <td>風：特大増加</td>
+                        <td>10+20</td>
+                        <td>風：特大増加<br>火被ダメージ増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_9.webp"></td>
+                        <td>〇</td>
+                        <td>天翼のしらべ</td>
+                        <td>風：特大増加</td>
+                        <td>10+20</td>
+                        <td>風：特大増加<br>火被ダメージ増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_42.webp"></td>
+                        <td>〇</td>
+                        <td>神渡しの風巻き</td>
+                        <td>風：特大増加<br>ロング</td>
+                        <td>10+60</td>
+                        <td>風：特大増加<br>火被ダメージ増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_56.webp"></td>
+                        <td></td>
+                        <td>羽翼の勇猛</td>
+                        <td>風：特大増加</td>
+                        <td>10+20</td>
+                        <td>風　通常・後衛：特大増加<br>風　特殊　　　：増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_58.webp"></td>
+                        <td>〇</td>
+                        <td>霊鳥の勇猛</td>
+                        <td>風：特大増加</td>
+                        <td>10+20</td>
+                        <td>風　通常・後衛：特大増加<br>風　特殊　　　：増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_51.webp"></td>
+                        <td></td>
+                        <td>風薙の神秘</td>
+                        <td>風：特大増加</td>
+                        <td>10+20</td>
+                        <td>風　特殊・後衛：特大増加<br>風　通常　　　：増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_53.webp"></td>
+                        <td>〇</td>
+                        <td>裂空の神秘</td>
+                        <td>風：特大増加</td>
+                        <td>10+20</td>
+                        <td>風　特殊・後衛：特大増加<br>風　通常　　　：増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr id="light">
+                        <td><img src="../images/order/order_89.webp"></td>
+                        <td></td>
+                        <td>神光の心得</td>
+                        <td>光：特大増加</td>
+                        <td>10+40</td>
+                        <td>光：特大増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_91.webp"></td>
+                        <td>〇</td>
+                        <td>玲瓏光艶</td>
+                        <td>光：特大増加</td>
+                        <td>10+40</td>
+                        <td>光：特大増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_76.webp"></td>
+                        <td></td>
+                        <td>極光と陽炎の心得</td>
+                        <td>光：特大増加<br>火：増加</td>
+                        <td>10+20</td>
+                        <td>光：特大増加<br>火：増加</td>
+                        <td>15+60</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_78.webp"></td>
+                        <td>〇</td>
+                        <td>光背火翼</td>
+                        <td>光：特大増加<br>火：増加</td>
+                        <td>10+20</td>
+                        <td>光：特大増加<br>火：増加</td>
+                        <td>15+60</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_77.webp"></td>
+                        <td></td>
+                        <td>陽光と漣の心得</td>
+                        <td>光：特大増加<br>水：増加</td>
+                        <td>10+20</td>
+                        <td>光：特大増加<br>水：増加</td>
+                        <td>15+60</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_79.webp"></td>
+                        <td>〇</td>
+                        <td>天光銀波</td>
+                        <td>光：特大増加<br>水：増加</td>
+                        <td>10+20</td>
+                        <td>光：特大増加<br>水：増加</td>
+                        <td>15+60</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_81.webp"></td>
+                        <td></td>
+                        <td>剣光と疾風の心得</td>
+                        <td>光：特大増加<br>風：増加</td>
+                        <td>10+20</td>
+                        <td>光：特大増加<br>風：増加</td>
+                        <td>15+60</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_82.webp"></td>
+                        <td>〇</td>
+                        <td>光華廻風</td>
+                        <td>光：特大増加<br>風：増加</td>
+                        <td>10+20</td>
+                        <td>光：特大増加<br>風：増加</td>
+                        <td>15+60</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_80.webp"></td>
+                        <td>〇</td>
+                        <td>清暉恒風</td>
+                        <td>光風：増加</td>
+                        <td>5+80</td>
+                        <td>味方前衛ATK/Sp.ATK：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr id="dark">
+                        <td><img src="../images/order/order_90.webp"></td>
+                        <td></td>
+                        <td>宵闇の心得</td>
+                        <td>闇：特大増加</td>
+                        <td>10+40</td>
+                        <td>闇：特大増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_92.webp"></td>
+                        <td>〇</td>
+                        <td>暗碧無双</td>
+                        <td>闇：特大増加</td>
+                        <td>10+40</td>
+                        <td>闇：特大増加</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_70.webp"></td>
+                        <td></td>
+                        <td>漆黒と烈火の心得</td>
+                        <td>闇：特大増加<br>火：増加</td>
+                        <td>10+20</td>
+                        <td>闇：特大増加<br>火：増加</td>
+                        <td>15+60</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_72.webp"></td>
+                        <td>〇</td>
+                        <td>暗黒業火</td>
+                        <td>闇：特大増加<br>火：増加</td>
+                        <td>10+20</td>
+                        <td>闇：特大増加<br>火：増加</td>
+                        <td>15+60</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_71.webp"></td>
+                        <td></td>
+                        <td>石墨と奔流の心得</td>
+                        <td>闇：特大増加<br>水：増加</td>
+                        <td>10+20</td>
+                        <td>闇：特大増加<br>水：増加</td>
+                        <td>15+60</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_73.webp"></td>
+                        <td>〇</td>
+                        <td>黒碑水鏡</td>
+                        <td>闇：特大増加<br>水：増加</td>
+                        <td>10+20</td>
+                        <td>闇：特大増加<br>水：増加</td>
+                        <td>15+60</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_74.webp"></td>
+                        <td></td>
+                        <td>深闇と烈風の心得</td>
+                        <td>闇：特大増加<br>風：増加</td>
+                        <td>10+20</td>
+                        <td>闇：特大増加<br>風：増加</td>
+                        <td>15+60</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_75.webp"></td>
+                        <td>〇</td>
+                        <td>黒貂威風</td>
+                        <td>闇：特大増加<br>風：増加</td>
+                        <td>10+20</td>
+                        <td>闇：特大増加<br>風：増加</td>
+                        <td>15+60</td>
+                    </tr>
+                    <tr id="firewind">
+                        <td><img src="../images/order/order_161.webp"></td>
+                        <td></td>
+                        <td>紅蓮と暴風の極意</td>
+                        <td>火風：超特大増加</td>
+                        <td>10+20</td>
+                        <td>火風：超特大増加</td>
+                        <td>10+65</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_162.webp"></td>
+                        <td>〇</td>
+                        <td>劫火凶風</td>
+                        <td>火風：超特大増加</td>
+                        <td>10+20</td>
+                        <td>火風：超特大増加</td>
+                        <td>10+65</td>
+                    </tr>
+                    <tr id="lightdark">
+                        <td><img src="../images/order/order_87.webp"></td>
+                        <td></td>
+                        <td>光陰の心得</td>
+                        <td>光闇：特大増加</td>
+                        <td>10+20</td>
+                        <td>光闇：特大増加</td>
+                        <td>15+60</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_88.webp"></td>
+                        <td>〇</td>
+                        <td>陰陽二律</td>
+                        <td>光闇：特大増加</td>
+                        <td>10+20</td>
+                        <td>光闇：特大増加</td>
+                        <td>15+60</td>
+                    </tr>
+                    <tr id="ASA-up">
+                        <td><img src="../images/order/order_4.webp"></td>
+                        <td></td>
+                        <td>攻勢強化の剣</td>
+                        <td>味方ATK/Sp.ATK：大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛ATK/Sp.ATK：大上昇</td>
+                        <td>30+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_29.webp"></td>
+                        <td></td>
+                        <td>攻勢激化の豪剣</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛ATK/Sp.ATK：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_32.webp"></td>
+                        <td>〇</td>
+                        <td>攻勢激化の聖剣</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛ATK/Sp.ATK：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_131.webp"></td>
+                        <td>〇</td>
+                        <td>熾烈攻勢の聖剣</td>
+                        <td>味方ATK/Sp.ATK：超特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛ATK/Sp.ATK：超特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr id="DSD-up">
+                        <td><img src="../images/order/order_5.webp"></td>
+                        <td></td>
+                        <td>守勢強化の盾</td>
+                        <td>味方DEF/Sp.DEF：大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛DEF/Sp.DEF：大上昇</td>
+                        <td>30+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_33.webp"></td>
+                        <td></td>
+                        <td>守勢強化の壁</td>
+                        <td>味方DEF/Sp.DEF：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛DEF/Sp.DEF：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_35.webp"></td>
+                        <td>〇</td>
+                        <td>守勢強化の鉄壁</td>
+                        <td>味方DEF/Sp.DEF：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛DEF/Sp.DEF：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_138.webp"></td>
+                        <td>〇</td>
+                        <td>堅硬守勢の防壁</td>
+                        <td>味方DEF/Sp.DEF：超特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛DEF/Sp.DEF：超特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr id="ASA-down">
+                        <td><img src="../images/order/order_6.webp"></td>
+                        <td></td>
+                        <td>刀縛りの蔦</td>
+                        <td>敵ATK/Sp.ATK：大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛ATK/Sp.ATK：大減少</td>
+                        <td>30+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_31.webp"></td>
+                        <td></td>
+                        <td>豪剣縛りの蔦</td>
+                        <td>敵ATK/Sp.ATK：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛ATK/Sp.ATK：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_34.webp"></td>
+                        <td>〇</td>
+                        <td>聖剣縛りの蔦</td>
+                        <td>敵ATK/Sp.ATK：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛ATK/Sp.ATK：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr id="DSD-down">
+                        <td><img src="../images/order/order_7.webp"></td>
+                        <td></td>
+                        <td>敵陣防壁破壊</td>
+                        <td>敵DEF/Sp.DEF：大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛DEF/Sp.DEF：大減少</td>
+                        <td>30+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_36.webp"></td>
+                        <td></td>
+                        <td>敵城防壁破壊</td>
+                        <td>敵DEF/Sp.DEF：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛DEF/Sp.DEF：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_38.webp"></td>
+                        <td>〇</td>
+                        <td>敵城砦鉄壁破壊</td>
+                        <td>敵DEF/Sp.DEF：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛DEF/Sp.DEF：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_11.webp"></td>
+                        <td></td>
+                        <td>決死の御旗</td>
+                        <td>味方ATK/Sp.ATK：大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛スキル効果：大増加<br>※劣勢時のみ</td>
+                        <td>40+110</td>
+                    </tr>
+                    <tr id="flag">
+                        <td><img src="../images/order/order_15.webp"></td>
+                        <td></td>
+                        <td>不屈の御旗</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛スキル効果：特大増加<br>※劣勢時のみ</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_16.webp"></td>
+                        <td>〇</td>
+                        <td>革命の御旗</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛スキル効果：特大増加<br>※劣勢時のみ</td>
+                        <td>30+120</td>
+                    </tr>
+                    <tr id="fire-shield">
+                        <td><img src="../images/order/order_17.webp"></td>
+                        <td></td>
+                        <td>火除けの盾</td>
+                        <td>味方DEF/Sp.DEF：大上昇</td>
+                        <td>10+0</td>
+                        <td>敵火：大減少<br>※回復を除く<br>※味方ポイントが敵の1/2以下で即終了</td>
+                        <td>30+70</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_61.webp"></td>
+                        <td></td>
+                        <td>火烈の盾</td>
+                        <td>味方DEF/Sp.DEF：特大増加</td>
+                        <td>10+0</td>
+                        <td>敵火：特大減少<br>※回復を除く<br>※味方ポイントが敵の1/2以下で即終了</td>
+                        <td>20+100</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_64.webp"></td>
+                        <td>〇</td>
+                        <td>朱雀の御盾</td>
+                        <td>味方DEF/Sp.DEF：特大増加</td>
+                        <td>10+0</td>
+                        <td>敵火：特大減少<br>※回復を除く<br>※味方ポイントが敵の1/2以下で即終了</td>
+                        <td>20+100</td>
+                    </tr>
+                    <tr id="water-shield">
+                        <td><img src="../images/order/order_18.webp"></td>
+                        <td></td>
+                        <td>水払いの盾</td>
+                        <td>味方DEF/Sp.DEF：大上昇</td>
+                        <td>10+0</td>
+                        <td>敵水：大減少<br>※回復を除く<br>※味方ポイントが敵の1/2以下で即終了</td>
+                        <td>30+70</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_62.webp"></td>
+                        <td></td>
+                        <td>氷結の盾</td>
+                        <td>味方DEF/Sp.DEF：特大増加</td>
+                        <td>10+0</td>
+                        <td>敵水：特大減少<br>※回復を除く<br>※味方ポイントが敵の1/2以下で即終了</td>
+                        <td>20+100</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_65.webp"></td>
+                        <td>〇</td>
+                        <td>水神の御盾</td>
+                        <td>味方DEF/Sp.DEF：特大増加</td>
+                        <td>10+0</td>
+                        <td>敵水：特大減少<br>※回復を除く<br>※味方ポイントが敵の1/2以下で即終了</td>
+                        <td>20+100</td>
+                    </tr>
+                    <tr id="wind-shield">
+                        <td><img src="../images/order/order_19.webp"></td>
+                        <td></td>
+                        <td>風止めの盾</td>
+                        <td>味方DEF/Sp.DEF：大上昇</td>
+                        <td>10+0</td>
+                        <td>敵風：大減少<br>※回復を除く<br>※味方ポイントが敵の1/2以下で即終了</td>
+                        <td>30+70</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_63.webp"></td>
+                        <td></td>
+                        <td>絶風の盾</td>
+                        <td>味方DEF/Sp.DEF：特大増加</td>
+                        <td>10+0</td>
+                        <td>敵風：特大減少<br>※回復を除く<br>※味方ポイントが敵の1/2以下で即終了</td>
+                        <td>20+100</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_66.webp"></td>
+                        <td>〇</td>
+                        <td>天翼の御盾</td>
+                        <td>味方DEF/Sp.DEF：特大増加</td>
+                        <td>10+0</td>
+                        <td>敵風：特大減少<br>※回復を除く<br>※味方ポイントが敵の1/2以下で即終了</td>
+                        <td>20+100</td>
+                    </tr>
+                    <tr id="MP-keigen">
+                        <td><img src="../images/order/order_20.webp"></td>
+                        <td></td>
+                        <td>魔減の展開</td>
+                        <td>味方全体消費MP大軽減</td>
+                        <td>10+20</td>
+                        <td>味方全体消費MP大軽減</td>
+                        <td>30+70</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_69.webp"></td>
+                        <td>〇</td>
+                        <td>魔縮領域</td>
+                        <td>味方全体消費MP特大軽減</td>
+                        <td>10+20</td>
+                        <td>味方全体消費MP特大軽減</td>
+                        <td>20+80</td>
+                    </tr>
+                    <tr id="MP-kaifuku">
+                        <td><img src="../images/order/order_21.webp"></td>
+                        <td></td>
+                        <td>広域魔導強化の陣</td>
+                        <td>味方全体MP30%回復</td>
+                        <td>15+0</td>
+                        <td>味方全体MP30%回復</td>
+                        <td>30+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_67.webp"></td>
+                        <td></td>
+                        <td>広域魔導復古の策</td>
+                        <td>味方全体MP40%回復</td>
+                        <td>15+0</td>
+                        <td>味方全体MP40%回復</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_68.webp"></td>
+                        <td>〇</td>
+                        <td>広域魔導凱旋</td>
+                        <td>味方全体MP40%回復</td>
+                        <td>15+0</td>
+                        <td>味方全体MP40%回復</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_22.webp"></td>
+                        <td></td>
+                        <td>前衛魔導強化の陣</td>
+                        <td>味方全体MP30%回復</td>
+                        <td>15+0</td>
+                        <td>味方前衛MP70%回復</td>
+                        <td>30+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_23.webp"></td>
+                        <td></td>
+                        <td>後衛魔導強化の陣</td>
+                        <td>味方全体MP30%回復</td>
+                        <td>15+0</td>
+                        <td>味方後衛MP70%回復</td>
+                        <td>30+0</td>
+                    </tr>
+                    <tr id="hojo-up">
+                        <td><img src="../images/order/order_24.webp"></td>
+                        <td></td>
+                        <td>覚醒の明星</td>
+                        <td>味方ATK/Sp.ATK：大上昇</td>
+                        <td>10+0</td>
+                        <td>味方全体補助スキル発動率大増加</td>
+                        <td>30+70</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_26.webp"></td>
+                        <td></td>
+                        <td>覚醒の三日月</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方全体補助スキル発動率特大増加</td>
+                        <td>20+80</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_28.webp"></td>
+                        <td>〇</td>
+                        <td>覚醒の日輪</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方全体補助スキル発動率特大増加</td>
+                        <td>20+80</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_143.webp"></td>
+                        <td></td>
+                        <td>覚醒の満月</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方全体補助スキル発動率超特大増加</td>
+                        <td>20+90</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_145.webp"></td>
+                        <td>〇</td>
+                        <td>覚醒の大天光</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方全体補助スキル発動率超特大増加</td>
+                        <td>20+90</td>
+                    </tr>
+                    <tr id="hojo-down">
+                        <td><img src="../images/order/order_25.webp"></td>
+                        <td></td>
+                        <td>覚醒妨害</td>
+                        <td>味方DEF/Sp.DEF：大上昇</td>
+                        <td>10+0</td>
+                        <td>敵全体補助スキル発動率大減少<br>残り2分未満で即終了<br>※相手が補助スキル発動率上昇オーダー使用時、効果増加</td>
+                        <td>30+70</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_27.webp"></td>
+                        <td></td>
+                        <td>三日月の覚醒妨害</td>
+                        <td>味方DEF/Sp.DEF：特大上昇</td>
+                        <td>10+0</td>
+                        <td>敵全体補助スキル発動率特大減少<br>残り2分未満で即終了<br>※相手が補助スキル発動率上昇オーダー使用時、効果増加</td>
+                        <td>20+80</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_30.webp"></td>
+                        <td>〇</td>
+                        <td>日輪の覚醒妨害</td>
+                        <td>味方DEF/Sp.DEF：特大上昇</td>
+                        <td>10+0</td>
+                        <td>敵全体補助スキル発動率特大減少<br>残り2分未満で即終了<br>※相手が補助スキル発動率上昇オーダー使用時、効果増加</td>
+                        <td>20+80</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_144.webp"></td>
+                        <td></td>
+                        <td>満月の覚醒妨害</td>
+                        <td>味方DEF/Sp.DEF：特大上昇</td>
+                        <td>10+0</td>
+                        <td>敵全体補助スキル発動率超特大減少<br>残り2分未満で即終了<br>※相手が補助スキル発動率上昇オーダー使用時、効果増加</td>
+                        <td>20+90</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_146.webp"></td>
+                        <td>〇</td>
+                        <td>大天光の覚醒妨害</td>
+                        <td>味方DEF/Sp.DEF：特大上昇</td>
+                        <td>10+0</td>
+                        <td>敵全体補助スキル発動率超特大減少<br>残り2分未満で即終了<br>※相手が補助スキル発動率上昇オーダー使用時、効果増加</td>
+                        <td>20+90</td>
+                    </tr>
+                    <tr id="tsuujou-shield">
+                        <td><img src="../images/order/order_40.webp"></td>
+                        <td></td>
+                        <td>衝撃返しの盾</td>
+                        <td>通常ダメージ大軽減</td>
+                        <td>10+20</td>
+                        <td>通常ダメージ大軽減</td>
+                        <td>30+90</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_41.webp"></td>
+                        <td>〇</td>
+                        <td>衝撃返しの鉄壁</td>
+                        <td>通常ダメージ大軽減</td>
+                        <td>10+20</td>
+                        <td>通常ダメージ大軽減</td>
+                        <td>30+90</td>
+                    </tr>
+                    <tr id="tokushu-shield">
+                        <td><img src="../images/order/order_46.webp"></td>
+                        <td></td>
+                        <td>特異返しの盾</td>
+                        <td>特殊ダメージ大軽減</td>
+                        <td>10+20</td>
+                        <td>特殊ダメージ大軽減</td>
+                        <td>30+90</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_48.webp"></td>
+                        <td>〇</td>
+                        <td>特異返しの鉄壁</td>
+                        <td>特殊ダメージ大軽減</td>
+                        <td>10+20</td>
+                        <td>特殊ダメージ大軽減</td>
+                        <td>30+90</td>
+                    </tr>
+                    <tr id="order-reset">
+                        <td><img src="../images/order/order_49.webp"></td>
+                        <td></td>
+                        <td>回帰の砂時計</td>
+                        <td>味方DEF/Sp.DEF：特大増加</td>
+                        <td>10+0</td>
+                        <td>自身以外味方オーダー回数リセット</td>
+                        <td>30+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_50.webp"></td>
+                        <td>〇</td>
+                        <td>刻戻りのクロノグラフ</td>
+                        <td>味方DEF/Sp.DEF：特大増加</td>
+                        <td>10+0</td>
+                        <td>自身以外味方オーダー回数リセット</td>
+                        <td>30+0</td>
+                    </tr>
+                    <tr id="unit-reset">
+                        <td><img src="../images/order/order_59.webp"></td>
+                        <td></td>
+                        <td>広域再編の策</td>
+                        <td>味方DEF/Sp.DEF：特大増加</td>
+                        <td>10+0</td>
+                        <td>味方全体ユニットチェンジ回数リセット</td>
+                        <td>30+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_60.webp"></td>
+                        <td>〇</td>
+                        <td>広域再編の陣</td>
+                        <td>味方DEF/Sp.DEF：特大増加</td>
+                        <td>10+0</td>
+                        <td>味方全体ユニットチェンジ回数リセット</td>
+                        <td>30+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_83.webp"></td>
+                        <td></td>
+                        <td>前衛再編の策</td>
+                        <td>味方DEF/Sp.DEF：特大増加</td>
+                        <td>10+0</td>
+                        <td>味方前衛ユニットチェンジ回数リセット</td>
+                        <td>15+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_85.webp"></td>
+                        <td>〇</td>
+                        <td>前衛再編の陣</td>
+                        <td>味方DEF/Sp.DEF：特大増加</td>
+                        <td>10+0</td>
+                        <td>味方前衛ユニットチェンジ回数リセット</td>
+                        <td>15+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_84.webp"></td>
+                        <td></td>
+                        <td>後衛再編の策</td>
+                        <td>味方DEF/Sp.DEF：特大増加</td>
+                        <td>10+0</td>
+                        <td>味方後衛ユニットチェンジ回数リセット</td>
+                        <td>15+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_86.webp"></td>
+                        <td>〇</td>
+                        <td>後衛再編の陣</td>
+                        <td>味方DEF/Sp.DEF：特大増加</td>
+                        <td>10+0</td>
+                        <td>味方後衛ユニットチェンジ回数リセット</td>
+                        <td>15+0</td>
+                    </tr>
+                    <tr id="zokusei-attack-up">
+                        <td><img src="../images/order/order_93.webp"></td>
+                        <td></td>
+                        <td>光刃激化の豪剣</td>
+                        <td>味方光攻撃力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛光攻撃力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_101.webp"></td>
+                        <td>〇</td>
+                        <td>光刃激化の聖剣</td>
+                        <td>味方光攻撃力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛光攻撃力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_95.webp"></td>
+                        <td></td>
+                        <td>闇刃激化の豪剣</td>
+                        <td>味方闇攻撃力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛闇攻撃力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_103.webp"></td>
+                        <td>〇</td>
+                        <td>闇刃激化の聖剣</td>
+                        <td>味方闇攻撃力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛闇攻撃力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_109.webp"></td>
+                        <td></td>
+                        <td>水刃激化の豪剣</td>
+                        <td>味方水攻撃力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛水攻撃力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_113.webp"></td>
+                        <td>〇</td>
+                        <td>水刃激化の聖剣</td>
+                        <td>味方水攻撃力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛水攻撃力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_119.webp"></td>
+                        <td></td>
+                        <td>風刃激化の豪剣</td>
+                        <td>味方風攻撃力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛風攻撃力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_121.webp"></td>
+                        <td>〇</td>
+                        <td>風刃激化の聖剣</td>
+                        <td>味方風攻撃力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛風攻撃力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_129.webp"></td>
+                        <td></td>
+                        <td>炎刃激化の豪剣</td>
+                        <td>味方火攻撃力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛火攻撃力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_132.webp"></td>
+                        <td>〇</td>
+                        <td>炎刃激化の聖剣</td>
+                        <td>味方火攻撃力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛火攻撃力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr id="zokusei-defense-up">
+                        <td><img src="../images/order/order_94.webp"></td>
+                        <td></td>
+                        <td>光鎧強化の壁</td>
+                        <td>味方光防御力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛光防御力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_102.webp"></td>
+                        <td>〇</td>
+                        <td>光鎧強化の鉄壁</td>
+                        <td>味方光防御力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛光防御力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_96.webp"></td>
+                        <td></td>
+                        <td>闇鎧強化の壁</td>
+                        <td>味方闇防御力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛闇防御力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_104.webp"></td>
+                        <td>〇</td>
+                        <td>闇鎧強化の鉄壁</td>
+                        <td>味方闇防御力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛闇防御力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_111.webp"></td>
+                        <td></td>
+                        <td>水鎧強化の壁</td>
+                        <td>味方水防御力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛水防御力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_115.webp"></td>
+                        <td>〇</td>
+                        <td>水鎧強化の鉄壁</td>
+                        <td>味方水防御力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛水防御力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_155.webp"></td>
+                        <td></td>
+                        <td>水鎧強化の城壁</td>
+                        <td>味方水防御力：超特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛水防御力：超特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_157.webp"></td>
+                        <td>〇</td>
+                        <td>水鎧強化の大城壁</td>
+                        <td>味方水防御力：超特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛水防御力：超特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_124.webp"></td>
+                        <td></td>
+                        <td>風鎧強化の壁</td>
+                        <td>味方風防御力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛風防御力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_127.webp"></td>
+                        <td>〇</td>
+                        <td>風鎧強化の鉄壁</td>
+                        <td>味方風防御力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛風防御力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_134.webp"></td>
+                        <td></td>
+                        <td>炎鎧強化の壁</td>
+                        <td>味方火防御力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛火防御力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_136.webp"></td>
+                        <td>〇</td>
+                        <td>炎鎧強化の鉄壁</td>
+                        <td>味方火防御力：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛火防御力：特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_151.webp"></td>
+                        <td></td>
+                        <td>炎鎧強化の城壁</td>
+                        <td>味方火防御力：超特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛火防御力：超特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_153.webp"></td>
+                        <td>〇</td>
+                        <td>炎鎧強化の大城壁</td>
+                        <td>味方火防御力：超特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方前衛火防御力：超特大上昇</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr id="zokusei-attack-down">
+                        <td><img src="../images/order/order_97.webp"></td>
+                        <td></td>
+                        <td>光刃縛りの蔦</td>
+                        <td>敵光攻撃力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛光攻撃力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_105.webp"></td>
+                        <td>〇</td>
+                        <td>光刃縛りの大蔦</td>
+                        <td>敵光攻撃力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛光攻撃力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_99.webp"></td>
+                        <td></td>
+                        <td>闇刃縛りの蔦</td>
+                        <td>敵闇攻撃力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛闇攻撃力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_107.webp"></td>
+                        <td>〇</td>
+                        <td>闇刃縛りの大蔦</td>
+                        <td>敵闇攻撃力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛闇攻撃力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_112.webp"></td>
+                        <td></td>
+                        <td>水刃縛りの蔦</td>
+                        <td>敵水攻撃力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛水攻撃力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_116.webp"></td>
+                        <td>〇</td>
+                        <td>水刃縛りの大蔦</td>
+                        <td>敵水攻撃力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛水攻撃力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_156.webp"></td>
+                        <td></td>
+                        <td>水刃縛りの棘蔦</td>
+                        <td>敵水攻撃力：超特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛水攻撃力：超特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_158.webp"></td>
+                        <td>〇</td>
+                        <td>水刃縛りの大棘蔦</td>
+                        <td>敵水攻撃力：超特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛水攻撃力：超特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_125.webp"></td>
+                        <td></td>
+                        <td>風刃縛りの蔦</td>
+                        <td>敵風攻撃力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛風攻撃力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_128.webp"></td>
+                        <td>〇</td>
+                        <td>風刃縛りの大蔦</td>
+                        <td>敵風攻撃力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛風攻撃力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_135.webp"></td>
+                        <td></td>
+                        <td>炎刃縛りの蔦</td>
+                        <td>敵火攻撃力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛火攻撃力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_137.webp"></td>
+                        <td>〇</td>
+                        <td>炎刃縛りの大蔦</td>
+                        <td>敵火攻撃力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛火攻撃力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_152.webp"></td>
+                        <td></td>
+                        <td>炎刃縛りの棘蔦</td>
+                        <td>敵火攻撃力：超特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛火攻撃力：超特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_154.webp"></td>
+                        <td>〇</td>
+                        <td>炎刃縛りの大棘蔦</td>
+                        <td>敵火攻撃力：超特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛火攻撃力：超特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr id="zokusei-defense-down">
+                        <td><img src="../images/order/order_98.webp"></td>
+                        <td></td>
+                        <td>光鎧の壁破壊</td>
+                        <td>敵光防御力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛光防御力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_106.webp"></td>
+                        <td>〇</td>
+                        <td>光鎧の鉄壁破壊</td>
+                        <td>敵光防御力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛光防御力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_100.webp"></td>
+                        <td></td>
+                        <td>闇鎧の壁破壊</td>
+                        <td>敵闇防御力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛闇防御力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_108.webp"></td>
+                        <td>〇</td>
+                        <td>闇鎧の鉄壁破壊</td>
+                        <td>敵闇防御力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛闇防御力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_110.webp"></td>
+                        <td></td>
+                        <td>水鎧の壁破壊</td>
+                        <td>敵水防御力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛水防御力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_114.webp"></td>
+                        <td>〇</td>
+                        <td>水鎧の鉄壁破壊</td>
+                        <td>敵水防御力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛水防御力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_120.webp"></td>
+                        <td></td>
+                        <td>風鎧の壁破壊</td>
+                        <td>敵風防御力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛風防御力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_122.webp"></td>
+                        <td>〇</td>
+                        <td>風鎧の鉄壁破壊</td>
+                        <td>敵風防御力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛風防御力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/order/order_130.webp"></td>
+                        <td></td>
+                        <td>炎鎧の壁破壊</td>
+                        <td>敵火防御力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛火防御力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_133.webp"></td>
+                        <td>〇</td>
+                        <td>炎鎧の鉄壁破壊</td>
+                        <td>敵火防御力：特大減少</td>
+                        <td>10+0</td>
+                        <td>敵前衛火防御力：特大減少</td>
+                        <td>20+0</td>
+                    </tr>
+                    <tr id="kasoku">
+                        <td><img src="../images/order/order_117.webp"></td>
+                        <td></td>
+                        <td>戦術加速の策</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方：次に使うオーダーの準備時間を5秒に変更</td>
+                        <td>5+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_118.webp"></td>
+                        <td>〇</td>
+                        <td>戦術加速の陣</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方：次に使うオーダーの準備時間を5秒に変更</td>
+                        <td>5+0</td>
+                    </tr>
+                    <tr id="ayatsuri">
+                        <td><img src="../images/order/order_123.webp"></td>
+                        <td></td>
+                        <td>操りの時計</td>
+                        <td>味方DEF/Sp.DEF：特大上昇</td>
+                        <td>10+0</td>
+                        <td>敵：次に使うオーダーの効果時間を60秒に変更<br>効果時間0秒オーダーには適用されない<br>60秒以下なら変更されず効果終了</td>
+                        <td>30+0</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_126.webp"></td>
+                        <td>〇</td>
+                        <td>定めの時辰儀</td>
+                        <td>味方DEF/Sp.DEF：特大上昇</td>
+                        <td>10+0</td>
+                        <td>敵：次に使うオーダーの効果時間を60秒に変更<br>効果時間0秒オーダーには適用されない<br>60秒以下なら変更されず効果終了</td>
+                        <td>30+0</td>
+                    </tr>
+                    <tr id="shien-up">
+                        <td><img src="../images/order/order_139.webp"></td>
+                        <td></td>
+                        <td>支えの波動</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方支援メモリアスキル効果：特大増加</td>
+                        <td>20+80</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_141.webp"></td>
+                        <td>〇</td>
+                        <td>支えの祝福</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方支援メモリアスキル効果：特大増加</td>
+                        <td>20+80</td>
+                    </tr>
+                    <tr id="bougai-up">
+                        <td><img src="../images/order/order_140.webp"></td>
+                        <td></td>
+                        <td>妨げの波動</td>
+                        <td>味方DEF/Sp.DEF：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方妨害メモリアスキル効果：特大増加</td>
+                        <td>20+80</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_142.webp"></td>
+                        <td>〇</td>
+                        <td>妨げの祝福</td>
+                        <td>味方DEF/Sp.DEF：特大上昇</td>
+                        <td>10+0</td>
+                        <td>味方妨害メモリアスキル効果：特大増加</td>
+                        <td>20+80</td>
+                    </tr>
+                    <tr id="shien-down">
+                        <td><img src="../images/order/order_147.webp"></td>
+                        <td></td>
+                        <td>支えの破却</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>敵支援メモリアスキル効果：特大減少</td>
+                        <td>20+80</td>
+                    </tr>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_149.webp"></td>
+                        <td>〇</td>
+                        <td>支えの反動</td>
+                        <td>味方ATK/Sp.ATK：特大上昇</td>
+                        <td>10+0</td>
+                        <td>敵支援メモリアスキル効果：特大減少</td>
+                        <td>20+80</td>
+                    </tr>
+                    <tr id="bougai-down">
+                        <td><img src="../images/order/order_148.webp"></td>
+                        <td></td>
+                        <td>妨げの破却</td>
+                        <td>味方DEF/Sp.DEF：特大上昇</td>
+                        <td>10+0</td>
+                        <td>敵妨害メモリアスキル効果：特大減少</td>
+                        <td>20+80</td>
+                    <tr class="paid">
+                        <td><img src="../images/order/order_150.webp"></td>
+                        <td>〇</td>
+                        <td>妨げの反動</td>
+                        <td>味方DEF/Sp.DEF：特大上昇</td>
+                        <td>10+0</td>
+                        <td>敵妨害メモリアスキル効果：特大減少</td>
+                        <td>20+80</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+
+        <script src="../js/footer.js"></script>
+    </body>
+</html>

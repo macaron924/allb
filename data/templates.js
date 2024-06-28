@@ -1,14 +1,13 @@
 // chara_data.json
 /*
     ,
-    { "charaID": , "charaName": "", "charaFullName":"", "charaJump": "", "specialSkill":"", "playable": true }
+    "id": { "charaName": "", "charaFullName":"", "charaJump": "", "specialSkill":"", "playable": true }
     */
 
 // charm_data.json
 /*
     ,
-    {
-        "index": ,
+    "id": {
         "CHARM": "", "分類": "",
         "解放条件": { "str": "", "costume": [] }, "専用": [], "実装日": "",
         "ATK": , "Sp.ATK": , "DEF": , "Sp.DEF": ,
@@ -22,8 +21,7 @@
 // costume_data.json
 /*
     ,
-    {
-        "id": ,
+    "id": {
         "chara": , "yakuwari": , "name": "",
         "percent": 15, "parameter": [["", ], ["", ]], "ex": [["UP", 3], ["耐性", 2]]
     }
@@ -49,8 +47,7 @@
 // memoria_data.json
 /*
     ,
-    {
-        "id": ,
+    "id": {
         "name": "",
         "zokusei": , "cost": , "costume": , "legendary": "", "illustration": { "type": "", "chara": [] },
         "get_rank": "", "category": { "c1": "", "c2": "", "c3": [] },

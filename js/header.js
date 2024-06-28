@@ -10,7 +10,7 @@ function writeHeader(depth) {
     const path_prefix = getPathPrefix(depth);
     let subtitle = "";
     if (depth == 0) subtitle = "<h3>―マカロンのラスバレまとめサイト―</h3>";
-    
+
     document.body.insertAdjacentHTML("beforeend", `
     <header>
     <h1><a href="${path_prefix}">はっぴーゆにこーん☆</a></h1>${subtitle}
@@ -20,14 +20,14 @@ function writeHeader(depth) {
             <ul>
                 <li><a href="${path_prefix}"><h1>Top</h1></a></li>
                 <br><hr><br>
-                <li><a href="${path_prefix}memoria_list/"><h1>memoria</h1></a></li>
-                <li><a href="${path_prefix}costume_list/"><h1>costume</h1></a></li>
-                <li><a href="${path_prefix}charm_list/"><h1>charm</h1></a></li>
-                <li><a href="${path_prefix}order_list/"><h1>order</h1></a></li>
-                <li><a href="${path_prefix}gacha_info/"><h1>gacha</h1></a></li>
-                <li><a href="${path_prefix}exchange_info/"><h1>exchange</h1></a></li>
-                <li><a href="${path_prefix}legendary_calc/"><h1>legendary</h1></a></li>
-                <li><a href="${path_prefix}other_info/"><h1>other</h1></a></li>
+                <li><a href="${path_prefix}memoria/"><h1>memoria</h1></a></li>
+                <li><a href="${path_prefix}costume/"><h1>costume</h1></a></li>
+                <li><a href="${path_prefix}charm/"><h1>charm</h1></a></li>
+                <li><a href="${path_prefix}order/"><h1>order</h1></a></li>
+                <li><a href="${path_prefix}gacha/"><h1>gacha</h1></a></li>
+                <li><a href="${path_prefix}exchange/"><h1>exchange</h1></a></li>
+                <li><a href="${path_prefix}legendary/"><h1>legendary</h1></a></li>
+                <li><a href="${path_prefix}other/"><h1>other</h1></a></li>
                 <li><a href="${path_prefix}contact/"><h1>お問い合わせ</h1></a></li>
             </ul>
         </div>

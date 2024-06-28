@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta http-equiv="content-type" charset="UTF-8">
+        <meta property="og:url" content="https://macaron924.github.io/allb/memoria/detail/">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="メモリア詳細">
+        <meta property="og:description" content="メモリアの詳細ページです。">
+        <meta property="og:site_name" content="はっぴーゆにこーん☆">
+        <meta property="og:image" content="https://macaron924.github.io/allb/images/icon.png">
+        <meta name="twitter:card" content="summary">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../../images/icon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Noto+Sans+JP&display=swap">
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="../../css/menu.css">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="./../style.css">
+        <link rel="stylesheet" href="./style.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+        <script src="../../js/menu.js" defer></script>
+        <script src="../../js/utils.js" defer></script>
+        <script src="../GetMemoriaData.js" defer></script>
+        <script src="./getList.js" defer></script>
+
+        <title>メモリア詳細</title>
+    </head>
+
+    <body>
+        <script src="../../js/header.js"></script>
+        <script>writeHeader(2);</script>
+
+        <main>
+            <div class="breadcrumb"><a href="../../">Top</a> > <a href="../">メモリア</a> > 詳細</div>
+            <h1 class="title">メモリア詳細</h1>
+            <div>
+                <input type="button" id="memoria-open-btn" class="active" value="メモリア選択MENU ON/OFF">
+            </div>
+            <div id="memoria_list" class="flex_memoria-box active"></div>
+            <br>
+            <div id="result" class="active">
+                <img id="result_img" src="../../images/no-image.png">
+                <h2 id="result_name"></h2>
+                <hr>
+                <div>
+                    <button id="button_info" class="mode-btn active" value="info">メモリア詳細</button>
+                    <button id="button_gachas" class="mode-btn" value="gachas">ガチャ</button>
+                    <button id="button_exchanges" class="mode-btn" value="exchanges">交換所</button>
+                </div>
+                <div id="result_info" class="active">
+                    準備中
+                </div>
+                <div id="result_gachas">
+                    <h2>ガチャチケット</h2>
+                    <div id="result_ticket" class="flex_ticket-box"></div>
+                    <hr>
+                    <h2>恒常無料ガチャ</h2>
+                    <div id="result_daily11" class="flex_gacha-box"></div>
+                    <hr>
+                    <h2>キャンペーン無料ガチャ</h2>
+                    <div id="result_free" class="flex_gacha-box"></div>
+                    <hr>
+                    <h2>マギジュエル消費ガチャ</h2>
+                    <div id="result_gacha" class="flex_gacha-box"></div>
+                </div>
+                <div id="result_exchanges">
+                    <h2>交換所</h2>
+                    <div id="result_exchange" class="flex_medal-box"></div>
+                </div>
+            </div>
+        </main>
+
+        <script src="../../js/footer.js"></script>
+    </body>
+</html>

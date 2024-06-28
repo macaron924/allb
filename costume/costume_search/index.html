@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head prefix="og: https://ogp.me/ns#">
+        <meta http-equiv="content-type" charset="UTF-8">
+        <meta property="og:url" content="https://macaron924.github.io/allb/costume/costume_search/">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="衣装検索">
+        <meta property="og:description" content="衣装を絞り込めるツールです。">
+        <meta property="og:site_name" content="はっぴーゆにこーん☆">
+        <meta property="og:image" content="https://macaron924.github.io/allb/images/icon.png">
+        <meta name="twitter:card" content="summary">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../../images/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Noto+Sans+JP&display=swap">
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="../../css/menu.css">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="./../style.css">
+        <link rel="stylesheet" href="./style.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+        <script src="../../js/menu.js" defer></script>
+        <script src="../../js/utils.js" defer></script>
+        <script src="../getCostumeDetail.js" defer></script>
+        <script src="./../DataLoader.js" defer></script>
+        <script src="./MakeCostumeList.js" defer></script>
+        <script src="./MakeCharaList.js" defer></script>
+
+        <title>衣装検索</title>
+    </head>
+
+    <body>
+        <script src="../../js/header.js"></script>
+        <script>writeHeader(2);</script>
+
+        <main>
+            <div class="breadcrumb"><a href="../../">Top</a> > <a href="../">衣装</a> > 衣装検索</div>
+            <h1 class="title">衣装検索</h1>
+            <div>
+                <input type="button" id="menu-open-btn" class="active" value="絞り込みMENU ON/OFF">
+            </div>
+            <div id="filter-menu_content" class="active">
+                <div>
+                    <input type="button" id="chara-open-btn" value="キャラ選択MENU ON/OFF">
+                </div>
+                <div id="chara_list"></div>
+                <br>
+                <div class="flex_btn-box">
+                    <div class="flex_btn-item">
+                        <button class="select-btn" onclick="yakuwariButtonPushAction(1);">
+                            <img class="yakuwari-img" src="./../../images/icon/yakuwari_1.webp" height="16">通常単体
+                        </button>
+                    </div>
+                    <div class="flex_btn-item">
+                        <button class="select-btn" onclick="yakuwariButtonPushAction(2);">
+                            <img class="yakuwari-img" src="./../../images/icon/yakuwari_2.webp" height="16">通常範囲
+                        </button>
+                    </div>
+                    <div class="flex_btn-item">
+                        <button class="select-btn" onclick="yakuwariButtonPushAction(3);">
+                            <img class="yakuwari-img" src="./../../images/icon/yakuwari_3.webp" height="16">特殊単体
+                        </button>
+                    </div>
+                    <div class="flex_btn-item">
+                        <button class="select-btn" onclick="yakuwariButtonPushAction(4);">
+                            <img class="yakuwari-img" src="./../../images/icon/yakuwari_4.webp" height="16">特殊範囲
+                        </button>
+                    </div>
+                    <div class="flex_btn-item">
+                        <button class="select-btn" onclick="yakuwariButtonPushAction(5);">
+                            <img class="yakuwari-img" src="./../../images/icon/yakuwari_5.webp" height="16">支援
+                        </button>
+                    </div>
+                    <div class="flex_btn-item">
+                        <button class="select-btn" onclick="yakuwariButtonPushAction(6);">
+                            <img class="yakuwari-img" src="./../../images/icon/yakuwari_6.webp" height="16">妨害
+                        </button>
+                    </div>
+                    <div class="flex_btn-item">
+                        <button class="select-btn" onclick="yakuwariButtonPushAction(7);">
+                            <img class="yakuwari-img" src="./../../images/icon/yakuwari_7.webp" height="16">回復
+                        </button>
+                    </div>
+                </div>
+                <div class="filter-box">
+                    <div class="filter-title">固有%</div>
+                    <div class="filter-group">
+                        <select id="percent-min">
+                            <option value="">(下限なし)</option>
+                            <option value="5">5</option>
+                            <option value="7.5">7.5</option>
+                            <option value="10">10</option>
+                            <option value="12.5">12.5</option>
+                            <option value="15">15</option>
+                        </select>
+                        以上
+                        <select id="percent-max">
+                            <option value="">(上限なし)</option>
+                            <option value="5">5</option>
+                            <option value="7.5">7.5</option>
+                            <option value="10">10</option>
+                            <option value="12.5">12.5</option>
+                            <option value="15">15</option>
+                        </select>
+                        未満
+                    </div>
+                </div>
+                <div class="filter-box">
+                    <div class="filter-title">固有パラメータ①</div>
+                    <select id="parameter1-type">
+                        <option value="">(対象を選択)</option>
+                        <option value="ATK">ATK</option>
+                        <option value="Sp.ATK">Sp.ATK</option>
+                        <option value="DEF">DEF</option>
+                        <option value="Sp.DEF">Sp.DEF</option>
+                    </select>
+                    <div class="filter-group disable">
+                        　
+                        <select id="parameter1-min">
+                            <option value="">(下限なし)</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="50">50</option>
+                            <option value="500">500</option>
+                            <option value="1500">1500</option>
+                            <option value="3000">3000</option>
+                        </select>
+                        以上
+                        <select id="parameter1-max">
+                            <option value="">(上限なし)</option>
+                            <option value="1">1</option>
+                            <option value="50">50</option>
+                            <option value="500">500</option>
+                            <option value="1500">1500</option>
+                            <option value="3000">3000</option>
+                        </select>
+                        未満
+                    </div>
+                </div>
+                <div class="filter-box">
+                    <div class="filter-title">固有パラメータ②</div>
+                    <select id="parameter2-type">
+                        <option value="">(対象を選択)</option>
+                        <option value="ATK">ATK</option>
+                        <option value="Sp.ATK">Sp.ATK</option>
+                        <option value="DEF">DEF</option>
+                        <option value="Sp.DEF">Sp.DEF</option>
+                    </select>
+                    <div class="filter-group disable">
+                        　
+                        <select id="parameter2-min">
+                            <option value="">(下限なし)</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="50">50</option>
+                            <option value="500">500</option>
+                            <option value="1500">1500</option>
+                            <option value="3000">3000</option>
+                        </select>
+                        以上
+                        <select id="parameter2-max">
+                            <option value="">(上限なし)</option>
+                            <option value="1">1</option>
+                            <option value="50">50</option>
+                            <option value="500">500</option>
+                            <option value="1500">1500</option>
+                            <option value="3000">3000</option>
+                        </select>
+                        未満
+                    </div>
+                </div>
+                <div class="filter-box">
+                    <div class="filter-title">EXリリィスキル</div>
+                    <select id="ex">
+                        <option value="">(効果を選択)</option>
+                        <option value="火UP">火UP</option>
+                        <option value="水UP">水UP</option>
+                        <option value="風UP">風UP</option>
+                        <option value="光UP">光UP</option>
+                        <option value="闇UP">闇UP</option>
+                        <option value="火耐性">火耐性</option>
+                        <option value="水耐性">水耐性</option>
+                        <option value="風耐性">風耐性</option>
+                        <option value="光耐性">光耐性</option>
+                        <option value="闇耐性">闇耐性</option>
+                        <option value="火UP(ギガント限定)">火UP(ギガント限定)</option>
+                        <option value="水UP(ギガント限定)">水UP(ギガント限定)</option>
+                        <option value="火メモリア補助発動率UP">火メモリア補助発動率UP</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <input type="button" id="filter-btn" onclick="runButtonPushAction();" value="実行">
+                </div>
+            </div>
+            <!--flexbox生成位置-->
+            <h2>検索結果：<span id="resultCount"></span>件</h2>
+            <div class="mainbox" id ='mainbox'></div>
+        </main>
+
+        <script src="../../js/footer.js"></script>
+    </body>
+</html>
