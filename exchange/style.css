@@ -1,0 +1,47 @@
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.jump-list {
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+
+img.item_img {
+    width: 4rem;
+    height: 4rem;
+    border: 0.1rem solid #00bfff;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+
+/*boxの表示/非表示切替*/
+
+.category {
+    background: #ffffff;
+    border: solid #88e1ff;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.category span {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.category.close span {
+    display: inline-block;
+    transform: rotate(0deg);
+}
+
+.content {
+    margin-bottom: 2rem;
+}
+
+.content.close {
+    display: none;
+}

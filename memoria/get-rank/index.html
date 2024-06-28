@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta http-equiv="content-type" charset="UTF-8">
+        <meta property="og:url" content="https://macaron924.github.io/allb/memoria/get-rank/">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="メモリア入手難易度ランキング">
+        <meta property="og:description" content="メモリアの入手難易度を独自にまとめてみたページです。">
+        <meta property="og:site_name" content="はっぴーゆにこーん☆">
+        <meta property="og:image" content="https://macaron924.github.io/allb/images/icon.png">
+        <meta name="twitter:card" content="summary">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../../images/icon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Noto+Sans+JP&display=swap">
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="../../css/menu.css">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="./../style.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+        <script src="../../js/menu.js" defer></script>
+        <script src="../../js/utils.js" defer></script>
+        <script src="../GetMemoriaData.js" defer></script>
+        <script src="./MakeMemoriaListByGetRank.js" defer></script>
+
+        <title>メモリア入手難易度ランキング</title>
+    </head>
+
+    <body>
+        <script src="../../js/header.js"></script>
+        <script>writeHeader(2);</script>
+
+        <main>
+            <div class="breadcrumb"><a href="../../">Top</a> > <a href="../">メモリア</a> > 入手難易度ランキング</div>
+            <h1 class="title">メモリア入手難易度ランキング</h1>
+            <br>
+            ※このランキングは現時点での排出傾向とそこからの推測によるランキングです。今後入手が急に困難になる, または容易になることもありえます。<br>
+            ※限定扱いメモリアの入手難易度は上下が激しいためランク付けを廃止しました。<br>
+            <br>
+            <hr>
+            <br>
+            <div>
+                <label for="jump">ランク</label>
+                <select id="jump" onChange="location.href=value;">
+                    <option value="">(ランクを選択)</option>
+                </select>
+            </div>
+            <div id="list"></div>
+        </main>
+
+        <script src="../../js/footer.js"></script>
+    </body>
+</html>
+

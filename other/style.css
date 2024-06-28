@@ -1,0 +1,63 @@
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.category0 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.category1 {
+    background-color: #fff;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border: #00bfff solid 0.2rem;
+}
+
+.category2 {
+    background-color: #fff;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.1rem;
+    border: #00bfff solid 0.1rem;
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
+}
+
+img.item_img {
+    width: 5rem;
+    height: 5rem;
+    border: 0.1rem solid #00bfff;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+img.border-pink {
+    border: 0.5rem solid #ff00ff;
+}
+
+img.border-gold {
+    border: 0.5rem solid #cfb000;
+}
+
+img.border-silver {
+    border: 0.5rem solid #aaaaaa;
+}
+
+img.border-bronze {
+    border: 0.5rem solid #e48339;
+}
+
+.no-border tr>td{
+    border: 0;
+    vertical-align: top;
+    padding-bottom: 0.2rem;
+}

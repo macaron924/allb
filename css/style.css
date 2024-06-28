@@ -119,7 +119,7 @@ main a:hover {
 
 /* メモリア等のflexbox */
 
-.flex_memoria-box {
+.flex_memoria-box, .flex_costume-box {
     background-color: #ccf2ff;
     padding: 0.5rem;
     display: flex;
@@ -127,7 +127,7 @@ main a:hover {
     justify-content: left;
 }
 
-.flex_memoria-item {
+.flex_memoria-item, .flex_costume-item {
     word-break: break-all;
     padding: 0.5rem;
     color: #000;
@@ -140,17 +140,114 @@ main a:hover {
     font-weight: normal;
 }
 
-.flex_memoria-item img {
+.flex_memoria-item img, .flex_costume-item img {
     width: 10rem;
     height: 10rem;
     margin-bottom: 0.5rem;
 }
 
-.flex_memoria-item-after {
+.flex_memoria-item-after, .flex_costume-item-after {
     padding: 0.5rem;
     margin: 0.5rem;
     border-radius: 0.5rem;
     width: 11rem;
+}
+
+
+.memoria_img, .chara_img {
+    height: 8rem;
+}
+
+
+.flex_memoria-item {
+    position: relative;
+}
+
+.flex_memoria-item .switch-icon {
+    cursor: pointer;
+}
+.flex_memoria-item .switch-icon::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f553";
+    position: absolute;
+    font-size: 2rem;
+    color: #F87F9F;
+    text-shadow: 0 0 1rem #000000;
+    top: -0.5rem;
+    left: -0.5rem;
+    padding: 1.5rem;
+}
+.flex_memoria-item .switch-icon::after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f021";
+    position: absolute;
+    font-size: 1.5rem;
+    color: #ffffff;
+    top: 1.5rem;
+    left: 2rem;
+}
+
+.flex_memoria-item .memoria, .flex_memoria-item .costume {
+    background-color: #ffffff;
+}
+
+.flex_memoria-item .costume {
+    display: none;
+}
+
+.flex_memoria-item .costume.active {
+    display: block;
+}
+
+.flex_memoria-item .memoria {
+    display: none;
+}
+
+.flex_memoria-item .memoria.active {
+    display: block;
+}
+
+
+/*チケットデータのflexbox*/
+
+.flex_medal-box, .flex_ticket-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.flex_medal-item, .flex_ticket-item {
+    padding: 1rem;
+    color: #000;
+    background-color: #fff;
+    margin: 0.5rem;
+    width: 40rem;
+    border: 0.2rem solid #91e3ff;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: normal;
+    min-height: 7.4rem;
+}
+
+.flex_medal-item>div:first-child, .flex_ticket-item>div:first-child {
+    width: 5.5rem;
+    text-align: left;
+    float: left;
+}
+
+.flex_medal-item>div:last-child, .flex_ticket-item>div:last-child {
+    text-align: left;
+    overflow: hidden;
+}
+
+.flex_medal-item img, .flex_ticket-item img {
+    width: 5rem;
+    height: 5rem;
+    vertical-align: middle;
 }
 
 

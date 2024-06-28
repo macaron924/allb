@@ -1,0 +1,135 @@
+/*絞り込みメニュー*/
+
+#dual-display {
+    margin-left: 3rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+#filter-menu_content, #exchange-menu_content {
+    display: none;
+    background: #ccf2ff;
+    border: solid #00bfff;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    height: max-content;
+    max-height: calc(100% - 10rem);
+    overflow: auto;
+}
+
+#filter-menu_content.active, #exchange-menu_content.active {
+    display: block;
+}
+
+#filter-menu_content .filter-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#filter-menu_content .filter-title {
+    white-space: nowrap;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+#filter-btn {
+    width: 100%;
+    background: #00bfff;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+#filter-btn.not-changed {
+    background: #ffff99;
+}
+
+.flex_btn-box.disable .flex_btn-item .select-btn {
+    color: #999999;
+    border-color: #999999;
+}
+
+.flex_btn-box.disable .flex_btn-item .select-btn.active {
+    background: #77ddff;
+}
+
+
+/*メインの表*/
+
+#maintable {
+    overflow: auto;
+    width: 100%;
+    font-size: 1.2rem;
+    border: 0.1rem solid #000000;
+}
+
+#maintable th {
+    background-color: #00bfff;
+    border-right: 0.1rem solid #000000;
+    border-bottom: 0.2rem solid #000000;
+}
+
+#maintable td {
+    text-align: left;
+    vertical-align: middle;
+    border-right: 0.1rem solid #999999;
+    border-bottom: 0.1rem solid #999999;
+    max-width: 50rem;
+    line-height: 1.6rem;
+}
+
+#maintable tr>td:first-child {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+#maintable tr:first-child>th {
+    border-top: 0.2rem solid #000000;
+    border-bottom: 0.2rem solid #000000;
+    position: sticky;
+    top: 0;
+}
+
+#maintable tr:last-child>* {
+    border-bottom: 0.2rem solid #000000;
+}
+
+#maintable tr>*:first-child {
+    border-left: 0.2rem solid #000000;
+    border-right: 0.2rem solid #000000;
+    position: sticky;
+    left: 0;
+}
+
+#maintable tr>*:last-child {
+    border-right: 0.2rem solid #000000;
+}
+
+#maintable .yakuwari_img {
+    height: 4rem;
+}
+
+#maintable td.skill_name {
+    white-space: normal;
+}
+
+#maintable td.skill_name::first-line {
+    font-weight: bold;
+}
+
+#maintable tr>td:nth-of-type(2) {
+    white-space: normal;
+}
+
+#maintable.vshuge .lmRow, #maintable.vshuge .hojoRow {
+    display: none;
+}
+
+#maintable.lm .vshugeRow {
+    display: none;
+}

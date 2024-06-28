@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head prefix="og: https://ogp.me/ns#">
+        <meta http-equiv="content-type" charset="UTF-8">
+        <meta property="og:url" content="https://macaron924.github.io/allb/memoria/memoria_chara_search/">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="メモリアキャラ検索">
+        <meta property="og:description" content="キャラを複数選択してメモリアを絞り込めるツールです。">
+        <meta property="og:site_name" content="はっぴーゆにこーん☆">
+        <meta property="og:image" content="https://macaron924.github.io/allb/images/icon.png">
+        <meta name="twitter:card" content="summary">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../../images/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Noto+Sans+JP&display=swap">
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="../../css/menu.css">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="./style.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+        <script src="../../js/menu.js" defer></script>
+        <script src="../../js/utils.js" defer></script>
+        <script src="./DataLoader.js" defer></script>
+        <script src="./MakeMemoriaTable.js" defer></script>
+        <script src="./MakeCharaList.js" defer></script>
+
+        <title>メモリアキャラ検索</title>
+    </head>
+
+    <body>
+        <script src="../../js/header.js"></script>
+        <script>writeHeader(2);</script>
+
+        <main>
+            <div class="breadcrumb"><a href="../../">Top</a> > <a href="../">メモリア</a> > メモリアキャラ検索</div>
+            <h1 class="title">メモリアキャラ検索</h1>
+            <h2 id="high" class="link"><a href="./">★5はこちら</a></h2>
+            <h2 id="low" class="link active"><a href="./?mode=lowrare">★4以下はこちら</a></h2>
+            <div>
+                <input type="button" id="chara-open-btn" class="active" value="キャラ選択MENU ON/OFF">
+            </div>
+            <div class="mode-box">
+                <input type="checkbox" id="mode-check">
+                <label for="mode-check">選択キャラ"のみ"のメモリアを探す</label>
+            </div>
+            <div id="chara_list" class="active">
+                <h3>※低レアリティメモリアはすべて静止画の分類になっております。</h3>
+                <div class="flex_btn-box">
+                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="typeButtonPushAction('静止画');" value="静止画"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="typeButtonPushAction('クリエイターズコラボ');" value="クリエイターズコラボ"></div>
+                    <div class="flex_btn-item"><input type="button" class="select-btn" onclick="typeButtonPushAction('');" value="その他(通常の動くメモリア)"></div>
+                </div>
+            </div>
+            <!--テーブル生成位置-->
+            <h2>検索結果：<span id="resultCount"></span>件</h2>
+            <div class="maintable" id ='maintable'></div>
+        </main>
+
+        <script src="../../js/footer.js"></script>
+    </body>
+</html>
