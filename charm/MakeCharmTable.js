@@ -24,7 +24,7 @@ function makeTable() {
 
         // チェックと画像の列
         let tdImg = document.createElement("td");
-        tdImg.innerHTML = `<input type="checkbox" class="check" id="check_${charmJsonCopy[id]["index"]}">`;
+        tdImg.innerHTML = `<input type="checkbox" class="check" id="check_${id}">`;
         let img = document.createElement("img");
         img.src = `../images/charm/charm_${id}.webp`
         img.height = 80;
