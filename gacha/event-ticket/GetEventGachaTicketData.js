@@ -9,7 +9,7 @@ function addLineup() {
     for (let i = eventGachaTicketJson.length - 1; i >= 0; i--) {
         let caption = `<h3>▼${eventGachaTicketJson[i]["name"]}</h3>`;
         document.getElementById("ticket-lineup").insertAdjacentHTML("beforeend", caption);
-        document.getElementById("ticket-lineup").appendChild(getMemoriaList(eventGachaTicketJson[i]["lineup"], 3));
+        document.getElementById("ticket-lineup").appendChild(getMemoriaList(eventGachaTicketJson[i]["lineup"], 1));
     }
 }
 
