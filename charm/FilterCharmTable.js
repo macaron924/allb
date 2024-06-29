@@ -66,27 +66,27 @@ function paramFilter(tokuseiList) {
 }
 
 function filter() {
-    for (let i in charmJsonCopy) {
+    for (let id in charmJsonCopy) {
         let judge = false;
         switch (true) {
-            case checkFilter(charmJsonCopy[i]["index"]) == false:
+            case checkFilter(id) == false:
                 break;
-            case categoryFilter(charmJsonCopy[i]["分類"]) == false:
+            case categoryFilter(charmJsonCopy[id]["分類"]) == false:
                 break;
-            case getwayFilter(charmJsonCopy[i]["解放条件"]) == false:
+            case getwayFilter(charmJsonCopy[id]["解放条件"]) == false:
                 break;
-            case zokuseiFilter(charmJsonCopy[i]["特性"][modeSelection]) == false:
+            case zokuseiFilter(charmJsonCopy[id]["特性"][modeSelection]) == false:
                 break;
-            case paramFilter(charmJsonCopy[i]["特性"][modeSelection]) == false:
+            case paramFilter(charmJsonCopy[id]["特性"][modeSelection]) == false:
                 break;
             default:
                 judge = true;
         }
 
         if (judge == true) {
-            charmJsonCopy[i]["trRef"].style.display = "";
+            charmJsonCopy[id]["trRef"].style.display = "";
         } else {
-            charmJsonCopy[i]["trRef"].style.display = "none";
+            charmJsonCopy[id]["trRef"].style.display = "none";
         }
     }
 }
