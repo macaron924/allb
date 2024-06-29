@@ -16,8 +16,8 @@ function addLineup() {
 // データ取得
 const eventGachaTicketJson = loadData("../../data/gacha-ticket_event.json");
 const memoriaJson = loadData("../../data/memoria_data.json");
-const costumeJson = loadData("../../../data/costume_data.json");
-const charaDataTemp = loadData("../../../data/chara_data.json");
+const costumeJson = loadData("../../data/costume_data.json");
+const charaDataTemp = loadData("../../data/chara_data.json");
 const charaJson = charaDataTemp[0];
 const charaBelongJson = charaDataTemp[1];
 
