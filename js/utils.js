@@ -3,6 +3,73 @@ $(document).on("click", ".switch-icon", function () {
     $(this).parent().children(".memoria").toggleClass("active");
 });
 
+function buildLoadScreen() {
+    const loadScreen = document.createElement("div");
+    loadScreen.id = "loadScreen";
+    loadScreen.style = `
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+background-color: white;
+position: fixed;
+top: 0;
+left: 0;
+zindex: 999999;`;
+
+    const loadImage = document.createElement("img");
+    // 開発環境かどうかでURL変更
+    if(location.href.includes("allb/")) {
+        loadImage.src = "/allb/images/loading.webp"
+    } else {
+        loadImage.src = "/images/loading.webp";
+    }
+    
+    loadImage.style = `display: block;
+width: 150px;
+margin: auto;
+animation-direction: alternate`;
+
+    // ロード中の動き
+    const shakingPercentage = "5";
+    loadImage.animate(
+        [
+            {transform: `translateY(${shakingPercentage}%)`},
+            {transform: `translateY(-${shakingPercentage}%)`},
+        ],
+        {
+            duration: 600,
+            iterations: Infinity,
+            easing: "ease-in-out",
+            direction: "alternate"
+        }
+    );
+
+    loadScreen.appendChild(loadImage);
+    document.querySelector("body").appendChild(loadScreen);
+
+    //ロード完了後に消えていく演出後、要素を削除
+    const fadingDuration = 500;
+    addEventListener("load", () => {
+        const loadScreen = document.querySelector("#loadScreen");
+        loadScreen.animate(
+            [
+                { opacity: 1.0, visibility: "visible" },
+                { opacity: 0, visibility: "hidden" }
+            ],
+            {
+                duration: fadingDuration,
+                fill: "both"
+            }
+        );
+        setTimeout(() => {
+        loadScreen.remove();
+        }, fadingDuration);
+    })
+}
+
+
 function loadData(filePath) {
     const xhr = new XMLHttpRequest();
     xhr.open("GET", filePath, false);
@@ -11,6 +78,7 @@ function loadData(filePath) {
 }
 
 function getLimitedGachaData(depth) {
+    buildLoadScreen();
     let path = "";
     for (let i = 0; i < depth; i++) {
         path += "../"
