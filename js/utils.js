@@ -51,7 +51,7 @@ animation-direction: alternate`;
 
     //ロード完了後に消えていく演出後、要素を削除
     const fadingDuration = 500;
-    addEventListener("load", () => {
+    addEventListener("DOMContentLoaded", () => {
         const loadScreen = document.querySelector("#loadScreen");
         loadScreen.animate(
             [
