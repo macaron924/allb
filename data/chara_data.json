@@ -137,7 +137,8 @@
         "135": { "charaName": "綺更", "charaFullName":"岡田綺更", "charaJump": "", "specialSkill":"エルヴンゼノンパラドキサ", "playable": true },
         "136": { "charaName": "辰姫", "charaFullName":"森辰姫", "charaJump": "", "specialSkill":"Eルナティックトランサー", "playable": true },
         "137": { "charaName": "壱", "charaFullName":"田中壱", "charaJump": "", "specialSkill":"エルヴンマギプロヴィデンス", "playable": true },
-        "998": { "charaName": "八雲校長", "charaFullName":"八雲校長", "charaJump": "", "specialSkill":"", "playable": false },
+        "138": { "charaName": "八雲", "charaFullName":"高島八雲", "charaJump": "yakumo", "specialSkill":"", "playable": true },
+        "139": { "charaName": "藍", "charaFullName":"佐々木藍", "charaJump": "", "specialSkill":"マグスルナティック", "playable": true },
         "999": { "charaName": "美鈴", "charaFullName":"美鈴", "charaJump": "", "specialSkill":"", "playable": false }
         
     },[
@@ -145,9 +146,9 @@
         { "belong": "百合ヶ丘女学院／アールヴヘイム", "playable": true, "chara": [21, 121, 22, 134, 23, 123, 24, 137, 25, 124, 26, 125, 27, 128, 28, 127, 29, 136, 118, 122, 119, 126, 120, 135] },
         { "belong": "百合ヶ丘女学院／サングリーズル", "playable": true, "chara": [116, 117, 131] },
         { "belong": "百合ヶ丘女学院／その他", "playable": true, "chara": [20, 53, 54, 56, 57, 98, 99, 105, 106, 133, 115, 999] },
-        { "belong": "エレンスゲ女学園／ヘルヴォル", "playable": true, "chara": [10, 95, 11, 84, 12, 96, 13, 14] },
+        { "belong": "エレンスゲ女学園／ヘルヴォル", "playable": true, "chara": [10, 95, 11, 84, 139, 12, 96, 13, 14] },
         { "belong": "エレンスゲ女学園／クエレブレ", "playable": true, "chara": [71, 93, 72, 85, 73, 86, 74, 94, 114, 103, 104] },
-        { "belong": "エレンスゲ女学園／その他", "playable": false, "chara": [998] },
+        { "belong": "エレンスゲ女学園／その他", "playable": true, "chara": [138] },
         { "belong": "神庭女子藝術高校／グラン・エプレ", "playable": true, "chara": [15, 16, 17, 18, 19, 67, 68, 69, 70] },
         { "belong": "御台場女学校", "playable": true, "chara": [40, 41, 42, 43, 44] },
         { "belong": "私立ルドビコ女学院", "playable": true, "chara": [45, 46, 47, 48, 49] },
