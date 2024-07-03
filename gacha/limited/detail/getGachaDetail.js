@@ -247,7 +247,7 @@ function writeTotalRatio() {
     else {
         ratioStr = "<br>★5出現率";
         for (let j = 0; j < total.length; j++) {
-            ratioStr += ` STEP${j + 1}:各${total[j]}%`;
+            ratioStr += ` STEP${j + 1}:${total[j]}%`;
         }
     }
     document.getElementById("total-ratio").innerHTML = ratioStr;
@@ -276,12 +276,14 @@ function writeLineupNotice() {
 function writeLineup() {
 
     let total = thisGacha["lineup"]["total_ratio"];
+    let totalLineup = 0;
 
     for (let i = 0; i < thisGacha["lineup"]["pu"].length; i++) {
 
         let caption = thisGacha["lineup"]["pu"][i]["caption"];
         let ratio = thisGacha["lineup"]["pu"][i]["ratio"];
         let content = thisGacha["lineup"]["pu"][i]["content"];
+        totalLineup += content.length;
 
         for (let j = 0; j < total.length; j++) {
             total[j] -= (ratio[j] * content.length);
@@ -306,6 +308,7 @@ function writeLineup() {
 
     let caption = thisGacha["lineup"]["else"]["caption"];
     let content = thisGacha["lineup"]["else"]["content"];
+    totalLineup += content.length;
     let ratio = [];
     for (let j = 0; j < total.length; j++) {
         ratio.push(total[j] / content.length);
@@ -324,6 +327,8 @@ function writeLineup() {
 
     let memoriaList = getMemoriaList(content, 3);
     document.getElementById("lineup").appendChild(memoriaList);
+    
+    document.getElementById("total-lineup").innerText = totalLineup;
 }
 
 // データ取得
