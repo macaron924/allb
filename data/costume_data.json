@@ -2742,5 +2742,49 @@
     "686": {
         "chara": 117, "yakuwari": 3, "name": "百合ヶ丘標準制服(特殊単体)",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    "687": {
+        "chara": 103, "yakuwari": 2, "name": "ソルギナックシステム(通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "688": {
+        "chara": 103, "yakuwari": 4, "name": "ソルギナックシステム(特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "689": {
+        "chara": 103, "yakuwari": 5, "name": "ソルギナックシステム(支援)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["風UP", 5]]
+    },
+    "690": {
+        "chara": 103, "yakuwari": 6, "name": "ソルギナックシステム(妨害)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["風UP", 5]]
+    },
+    "691": {
+        "chara": 103, "yakuwari": 7, "name": "ソルギナックシステム(回復)",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    "692": {
+        "chara": 103, "yakuwari": 1, "name": "ソルギナックシステム(通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "693": {
+        "chara": 103, "yakuwari": 3, "name": "ソルギナックシステム(特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "694": {
+        "chara": 138, "yakuwari": 2, "name": "SSバスター",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 5], ["火耐性", 5], ["火メモリア補助発動率UP", 2]]
+    },
+    "695": {
+        "chara": 138, "yakuwari": 4, "name": "エレンスゲ校長服",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5], ["火耐性", 5], ["火メモリア補助発動率UP", 2]]
+    },
+    "696": {
+        "chara": 139, "yakuwari": 7, "name": "SSバスター",
+        "percent": 15, "parameter": [["Sp.DEF", 3000], ["DEF", 3000]], "ex": [["火UP", 5]]
+    },
+    "697": {
+        "chara": 86, "yakuwari": 1, "name": "SSバスター",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
     }
 }
