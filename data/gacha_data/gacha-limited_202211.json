@@ -12,7 +12,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "1回ガチャで", "item": [ { "index": "medal", "value": 10 } ] },
-                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
                     "table_content": [

@@ -139,13 +139,14 @@
         "137": { "charaName": "壱", "charaFullName":"田中壱", "charaJump": "", "specialSkill":"エルヴンマギプロヴィデンス", "playable": true },
         "138": { "charaName": "八雲", "charaFullName":"高島八雲", "charaJump": "yakumo", "specialSkill":"", "playable": true },
         "139": { "charaName": "藍", "charaFullName":"佐々木藍", "charaJump": "", "specialSkill":"マグスルナティック", "playable": true },
-        "999": { "charaName": "美鈴", "charaFullName":"美鈴", "charaJump": "", "specialSkill":"", "playable": false }
+        "1001": { "charaName": "美鈴", "charaFullName":"美鈴", "charaJump": "", "specialSkill":"", "playable": false },
+        "1002": { "charaName": "菖蒲", "charaFullName":"菖蒲", "charaJump": "", "specialSkill":"", "playable": false }
         
     },[
         { "belong": "百合ヶ丘女学院／一柳隊", "playable": true, "chara": [1, 30, 2, 107, 3, 132, 4, 130, 5, 55, 113, 6, 7, 8, 9, 35] },
         { "belong": "百合ヶ丘女学院／アールヴヘイム", "playable": true, "chara": [21, 121, 22, 134, 23, 123, 24, 137, 25, 124, 26, 125, 27, 128, 28, 127, 29, 136, 118, 122, 119, 126, 120, 135] },
         { "belong": "百合ヶ丘女学院／サングリーズル", "playable": true, "chara": [116, 117, 131] },
-        { "belong": "百合ヶ丘女学院／その他", "playable": true, "chara": [20, 53, 54, 56, 57, 98, 99, 105, 106, 133, 115, 999] },
+        { "belong": "百合ヶ丘女学院／その他", "playable": true, "chara": [20, 53, 54, 56, 57, 98, 99, 105, 106, 133, 115, 1001] },
         { "belong": "エレンスゲ女学園／ヘルヴォル", "playable": true, "chara": [10, 95, 11, 84, 139, 12, 96, 13, 14] },
         { "belong": "エレンスゲ女学園／クエレブレ", "playable": true, "chara": [71, 93, 72, 85, 73, 86, 74, 94, 114, 103, 104] },
         { "belong": "エレンスゲ女学園／その他", "playable": true, "chara": [138] },
@@ -155,6 +156,7 @@
         { "belong": "私立ルドビコ女学院／教導官", "playable": false, "chara": [97] },
         { "belong": "ヘイムスクリングラ", "playable": true, "chara": [34] },
         { "belong": "イルマ女子美術高校", "playable": false, "chara": [81, 82, 83] },
+        { "belong": "その他", "playable": false, "chara": [1002] },
         { "belong": "コラボ／魔法少女リリカルなのは", "playable": true, "chara": [31, 32, 33] },
         { "belong": "コラボ／戦姫絶唱シンフォギア", "playable": true, "chara": [36, 37, 38, 39] },
         { "belong": "コラボ／デート・ア・ライブ", "playable": true, "chara": [50, 51, 52] },
