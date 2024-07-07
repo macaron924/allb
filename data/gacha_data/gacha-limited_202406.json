@@ -12,7 +12,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "1回ガチャで", "item": [ { "index": "medal", "value": 10 } ] },
-                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
                     "table_content": [
@@ -102,7 +102,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "11回ガチャ8回限定", "item": [] },
-                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
                     "table_content": [
@@ -130,7 +130,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "11回ガチャ8回限定", "item": [] },
-                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
                     "table_content": [
@@ -158,7 +158,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "11回ガチャ8回限定", "item": [] },
-                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
                     "table_content": [
@@ -194,7 +194,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "11回ガチャ1回限定", "item": [] },
-                        { "text": "ガチャを引くと", "item": [ { "index": "medal", "value": 200}, { "index": "skip-ticket", "value": 300 }, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "ガチャを引くと", "item": [ { "index": "medal", "value": 200 }, { "index": "skip-ticket", "value": 300 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": [],
                     "table_content": []
@@ -257,7 +257,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "1回ガチャで", "item": [ { "index": "medal", "value": 10 } ] },
-                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
                     "table_content": [
@@ -349,7 +349,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "1回ガチャで", "item": [ { "index": "medal", "value": 10 } ] },
-                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
                     "table_content": [
@@ -364,7 +364,7 @@
                         { "need": [9, 99], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
                         { "need": [10, 110], "item": [ { "index": "exchange_costume_202406-event-3", "value": 1 } ] },
                         { "need": [11, 121], "item": [ { "index": "gacha-ticket_cost20", "value": 1 } ] },
-                        { "need": [12, 132], "item": [ { "index": "exchange_event-memoria_202406-3", "value": 1 } ] },
+                        { "need": [12, 132], "item": [ { "index": "exchange_new-memoria_202406-event-3", "value": 1 } ] },
                         { "need": [13, 143], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
                         { "need": [14, 154], "item": [ { "index": "exchange_pendant-ad_202406-event-3", "value": 1 } ] },
                         { "need": [15, 165], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
@@ -373,7 +373,7 @@
                         { "need": [18, 198], "item": [ { "index": "exchange_pendant-ad_202406-event-3", "value": 1 } ] },
                         { "need": [19, 209], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
                         { "need": [20, 220], "item": [ { "index": "exchange_costume_202406-event-3", "value": 1 } ] },
-                        { "need": [21, 231], "item": [ { "index": "exchange_event-memoria_202406-3", "value": 1 } ] },
+                        { "need": [21, 231], "item": [ { "index": "exchange_new-memoria_202406-event-3", "value": 1 } ] },
                         { "need": [22, 242], "item": [ { "index": "exchange_pendant-ad_202406-event-3", "value": 1 } ] },
                         { "need": [23, 253], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
                         { "need": [24, 264], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
@@ -383,7 +383,7 @@
                         { "need": [28, 308], "item": [ { "index": "skip-ticket", "value": 100 } ] },
                         { "need": [29, 319], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
                         { "need": [30, 330], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
-                        { "need": [31, 341], "item": [ { "index": "exchange_event-memoria_202406-3", "value": 1 } ] },
+                        { "need": [31, 341], "item": [ { "index": "exchange_new-memoria_202406-event-3", "value": 1 } ] },
                         { "need": [32, 352], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
                         { "need": [33, 363], "item": [ { "index": "skip-ticket", "value": 100 } ] },
                         { "need": [34, 374], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
@@ -439,7 +439,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "11回ガチャ1回限定", "item": [] },
-                        { "text": "ガチャを引くと", "item": [ { "index": "medal", "value": 200}, { "index": "skip-ticket", "value": 300 }, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "ガチャを引くと", "item": [ { "index": "medal", "value": 200 }, { "index": "skip-ticket", "value": 300 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": [],
                     "table_content": []
@@ -466,7 +466,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "1回ガチャで", "item": [ { "index": "medal", "value": 10 } ] },
-                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] },
+                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] },
                         { "text": "※ボーナスメダルⅦやメモリアメダルでの交換不可", "item": [] },
                         { "text": "ガチャボーナス660より後は1650までループ", "item": [] }
                     ],
@@ -555,7 +555,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "1回ガチャで", "item": [ { "index": "medal", "value": 10 } ] },
-                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] },
+                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] },
                         { "text": "※ボーナスメダルⅦやメモリアメダルでの交換不可", "item": [] },
                         { "text": "ガチャボーナス660より後は1650までループ", "item": [] }
                     ],
@@ -652,7 +652,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "11回ガチャ8回限定", "item": [] },
-                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100}, { "index": "skip-ticket", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100 }, { "index": "skip-ticket", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
                     "table_content": [
@@ -724,7 +724,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "1回ガチャで", "item": [ { "index": "medal", "value": 10 } ] },
-                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
                     "table_content": [
@@ -816,7 +816,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "11回ガチャ1回限定", "item": [] },
-                        { "text": "ガチャを引くと", "item": [ { "index": "medal", "value": 200}, { "index": "skip-ticket", "value": 300 }, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "ガチャを引くと", "item": [ { "index": "medal", "value": 200 }, { "index": "skip-ticket", "value": 300 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": [],
                     "table_content": []
@@ -843,7 +843,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "1回ガチャで", "item": [ { "index": "medal", "value": 10 } ] },
-                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
                     "table_content": [
@@ -933,7 +933,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "1回ガチャで", "item": [ { "index": "medal", "value": 10 } ] },
-                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
                     "table_content": [
@@ -1015,7 +1015,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "1回ガチャで", "item": [ { "index": "medal", "value": 10 } ] },
-                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
                     "table_content": [
@@ -1105,7 +1105,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "1回ガチャで", "item": [ { "index": "medal", "value": 10 } ] },
-                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100}, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
                     "table_content": [
@@ -1195,7 +1195,7 @@
                 "bonus": {
                     "notice": [
                         { "text": "11回ガチャ1回限定", "item": [] },
-                        { "text": "ガチャを引くと", "item": [ { "index": "medal", "value": 200}, { "index": "skip-ticket", "value": 300 }, { "index": "goggle-3", "value": 5 } ] }
+                        { "text": "ガチャを引くと", "item": [ { "index": "medal", "value": 200 }, { "index": "skip-ticket", "value": 300 }, { "index": "goggle-3", "value": 5 } ] }
                     ],
                     "table_header": [],
                     "table_content": []
