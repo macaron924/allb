@@ -2786,5 +2786,17 @@
     "697": {
         "chara": 86, "yakuwari": 1, "name": "SSバスター",
         "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "698": {
+        "chara": 5, "yakuwari": 7, "name": "サマースクール",
+        "percent": 15, "parameter": [["Sp.DEF", 3000], ["DEF", 3000]], "ex": [["火UP", 5], ["水耐性", 5], ["火メモリア補助発動率UP", 2]]
+    },
+    "699": {
+        "chara": 71, "yakuwari": 2, "name": "サマースクール",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 5], ["風耐性", 5], ["火メモリア補助発動率UP", 2]]
+    },
+    "700": {
+        "chara": 69, "yakuwari": 6, "name": "サマースクール",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 5], ["風耐性", 5], ["火メモリア補助発動率UP", 2]]
     }
 }
