@@ -92,7 +92,7 @@ function getCharaImg(memoriaCharaArray) {
 
         // サムネ画像要素の追加
         let img = document.createElement("img");
-        img.src = "../../images/chara/chara_" + memoriaCharaArray[i] + ".webp"
+        img.src = "../../images/chara/chara_" + memoriaCharaArray[i] + ".webp";
         img.className = "chara_img";
         img.loading = "lazy";
 
