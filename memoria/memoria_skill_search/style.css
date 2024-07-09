@@ -95,6 +95,13 @@
     top: 0;
 }
 
+#maintable tr:first-child>th:first-child {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
 #maintable tr:last-child>* {
     border-bottom: 0.2rem solid #000000;
 }
