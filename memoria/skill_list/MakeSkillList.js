@@ -43,7 +43,7 @@ function makeTable() {
     // th要素内にテキストを追加
     thName.textContent = "スキル名";
     thYakuwari.textContent = "役割";
-    thRange.textContent = "範囲";
+    thRange.textContent = "効果範囲";
     thContent.textContent = "詳細（text）";
     thDetail.textContent = "詳細（icon）";
     // th要素をtr要素の子要素に追加
@@ -84,19 +84,19 @@ function makeTable() {
             // 範囲
             switch (true) {
                 case skillJson[i][j]["name"].includes("A"):
-                    tdRange.textContent = "A";
+                    tdRange.textContent = "1体";
                     break;
                 case skillJson[i][j]["name"].includes("B"):
-                    tdRange.textContent = "B";
+                    tdRange.textContent = "1～2体";
                     break;
                 case skillJson[i][j]["name"].includes("C"):
-                    tdRange.textContent = "C";
+                    tdRange.textContent = "1～3体";
                     break;
                 case skillJson[i][j]["name"].includes("D"):
-                    tdRange.textContent = "D";
+                    tdRange.textContent = "2体";
                     break;
                 case skillJson[i][j]["name"].includes("E"):
-                    tdRange.textContent = "E";
+                    tdRange.textContent = "2～3体";
                     break;
             }
             // スキル
