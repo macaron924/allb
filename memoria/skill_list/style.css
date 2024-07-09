@@ -1,58 +1,4 @@
-/*絞り込みメニュー*/
 
-#dual-display {
-    margin-left: 3rem;
-    height: 2rem;
-    width: 2rem;
-}
-
-#filter-menu_content, #exchange-menu_content {
-    display: none;
-    background: #ccf2ff;
-    border: solid #00bfff;
-    margin-bottom: 2rem;
-    padding: 1rem;
-    height: max-content;
-    max-height: calc(100% - 10rem);
-    overflow: auto;
-}
-
-#filter-menu_content.active, #exchange-menu_content.active {
-    display: block;
-}
-
-#filter-menu_content .filter-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-}
-
-#filter-menu_content .filter-title {
-    white-space: nowrap;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    font-size: 2rem;
-}
-
-#filter-btn {
-    width: 100%;
-    background: #00bfff;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-}
-
-#filter-btn.not-changed {
-    background: #ffff99;
-}
-
-.flex_btn-box.disable .flex_btn-item .select-btn {
-    color: #999999;
-    border-color: #999999;
-}
-
-.flex_btn-box.disable .flex_btn-item .select-btn.active {
-    background: #77ddff;
-}
 
 
 /*メインの表*/
@@ -117,7 +63,7 @@
     border-right: 0.2rem solid #000000;
 }
 
-#maintable .yakuwari_img {
+#maintable .yakuwari_img, .battle_icon {
     height: 4rem;
 }
 
@@ -129,14 +75,23 @@
     font-weight: bold;
 }
 
-#maintable tr>td:nth-of-type(2) {
-    white-space: normal;
+#maintable td .battle_icons {
+    display: flex;
+    justify-content: left;
 }
 
-#maintable.vshuge .lmRow, #maintable.vshuge .hojoRow {
-    display: none;
+#maintable td .battle_icons div {
+    width: 6.5rem;
 }
 
-#maintable.lm .vshugeRow {
+#maintable td .battle_icons img{
+    float: left;
+}
+
+#maintable td .battle_additional {
+    font-weight: bold;
+}
+
+#maintable tr.disable {
     display: none;
 }

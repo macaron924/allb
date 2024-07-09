@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head prefix="og: https://ogp.me/ns#">
+        <meta http-equiv="content-type" charset="UTF-8">
+        <meta property="og:url" content="https://macaron924.github.io/allb/memoria/skill_list/">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="スキル一覧">
+        <meta property="og:description" content="メモリアスキルの一覧です。">
+        <meta property="og:site_name" content="はっぴーゆにこーん☆">
+        <meta property="og:image" content="https://macaron924.github.io/allb/images/icon.png">
+        <meta name="twitter:card" content="summary">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../../images/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Noto+Sans+JP&display=swap">
+        <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+        <link rel="stylesheet" href="../../css/menu.css">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="./style.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+        <script src="../../js/menu.js" defer></script>
+        <script src="../../js/utils.js" defer></script>
+        <script src="./MakeSkillList.js" defer></script>
+
+        <title>スキル一覧</title>
+    </head>
+
+    <body>
+        <script src="../../js/header.js"></script>
+        <script>writeHeader(2);</script>
+
+        <main>
+            <div class="breadcrumb"><a href="../../">Top</a> > <a href="../">メモリア</a> > スキル一覧</div>
+            <h1 class="title">スキル一覧</h1>
+            <div class="flex_btn-box">
+                <div class="flex_btn-item">
+                    <button class="select-btn" onclick="yakuwariButtonPushAction(0);">
+                        all
+                    </button>
+                </div>
+                <div class="flex_btn-item">
+                    <button class="select-btn" onclick="yakuwariButtonPushAction(1);">
+                        <img src="./../../images/icon/yakuwari_1.webp" height="16">通常単体
+                    </button>
+                </div>
+                <div class="flex_btn-item">
+                    <button class="select-btn" onclick="yakuwariButtonPushAction(2);">
+                        <img src="./../../images/icon/yakuwari_2.webp" height="16">通常範囲
+                    </button>
+                </div>
+                <div class="flex_btn-item">
+                    <button class="select-btn" onclick="yakuwariButtonPushAction(3);">
+                        <img src="./../../images/icon/yakuwari_3.webp" height="16">特殊単体
+                    </button>
+                </div>
+                <div class="flex_btn-item">
+                    <button class="select-btn" onclick="yakuwariButtonPushAction(4);">
+                        <img src="./../../images/icon/yakuwari_4.webp" height="16">特殊範囲
+                    </button>
+                </div>
+                <div class="flex_btn-item">
+                    <button class="select-btn" onclick="yakuwariButtonPushAction(5);">
+                        <img src="./../../images/icon/yakuwari_5.webp" height="16">支援
+                    </button>
+                </div>
+                <div class="flex_btn-item">
+                    <button class="select-btn" onclick="yakuwariButtonPushAction(6);">
+                        <img src="./../../images/icon/yakuwari_6.webp" height="16">妨害
+                    </button>
+                </div>
+                <div class="flex_btn-item">
+                    <button class="select-btn" onclick="yakuwariButtonPushAction(7);">
+                        <img src="./../../images/icon/yakuwari_7.webp" height="16">回復
+                    </button>
+                </div>
+            </div>
+            <!--テーブル生成位置-->
+            <!--<h2>スキル数：<span id="resultCount"></span>件</h2>-->
+            <div id ="maintable" class="all"></div>
+        </main>
+
+        <script src="../../js/footer.js"></script>
+
+    </body>
+</html>
