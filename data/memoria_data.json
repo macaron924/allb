@@ -8103,7 +8103,7 @@
     },
     "905": {
         "name": "クリエイターズコラボ-どこに行こうか？-",
-        "zokusei": 3, "cost": 23, "costume": 0, "legendary": "", "illustration": { "type": "クリエイターズコラボ", "illustrator": "shiohana先生", "chara": [13, 12] },
+        "zokusei": 3, "cost": 23, "costume": 0, "legendary": "", "illustration": { "type": "クリエイターズコラボ", "illustrator": "Hz先生", "chara": [13, 12] },
         "get_rank": "C (推定)", "category": { "c1": "前衛後衛/役割別/クリエイターズコラボガチャ", "c2": "3.5周年前夜祭 BRAND-NEWメモリアガチャ (2024/7/11～)", "c3": [""] },
         "skill": [
             { "yakuwari": 2, "name": ["マイトブレイクB Ⅳ+", "[火風]デュオガードブレイクB Ⅳ+", "攻:ガードDOWN/副攻:風ガードDOWN Ⅳ"] },
@@ -8113,7 +8113,7 @@
     },
     "906": {
         "name": "クリエイターズコラボ-ニャンと素敵な夜-",
-        "zokusei": 3, "cost": 23, "costume": 0, "legendary": "", "illustration": { "type": "クリエイターズコラボ", "illustrator": "Hz先生", "chara": [7, 8] },
+        "zokusei": 3, "cost": 23, "costume": 0, "legendary": "", "illustration": { "type": "クリエイターズコラボ", "illustrator": "shiohana先生", "chara": [7, 8] },
         "get_rank": "C (推定)", "category": { "c1": "前衛後衛/役割別/クリエイターズコラボガチャ", "c2": "3.5周年前夜祭 BRAND-NEWメモリアガチャ (2024/7/11～)", "c3": [""] },
         "skill": [
             { "yakuwari": 6, "name": ["パワーフォールE Ⅳ", "アニマパワーフォールE Ⅳ", "援:マイトDOWN Ⅳ"] },
