@@ -128,3 +128,7 @@
 .link.active{
     display: block;
 }
+
+.disable {
+    display: none;
+}

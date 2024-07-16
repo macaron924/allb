@@ -1,3 +1,25 @@
+function memoriaSort() {
+    document.getElementById("memoria-sort-btn").className = "active";
+    document.getElementById("illustrator-sort-btn").className = "";
+    document.getElementById("maintable").classList.remove("disable");
+    document.getElementById("illustratorList").classList.add("disable");
+}
+
+function illustratorSort() {
+    document.getElementById("illustrator-sort-btn").className = "active";
+    document.getElementById("memoria-sort-btn").className = "";
+    document.getElementById("illustratorList").classList.remove("disable");
+    document.getElementById("maintable").classList.add("disable");
+}
+
+function makeIllustratorList(illustratorData) {
+    for (let i in illustratorData) {
+        let caption = `<br><h3>${illustratorData[i]["illustrator"]}</h3>`;
+        document.getElementById("illustratorList").insertAdjacentHTML("beforeend", caption);
+        document.getElementById("illustratorList").appendChild(getMemoriaList(illustratorData[i]["memoria"], 2));
+    }
+}
+
 // テーブル作成
 function makeTable() {
 
@@ -23,6 +45,7 @@ function makeTable() {
 
     // 検索結果件数を保存する変数
     let resultCount = 0;
+    let illustratorData = [];
 
     // テーブル本体を作成
     for (let id in memoriaJsonCopy) {
@@ -49,7 +72,18 @@ function makeTable() {
         // td要素内にテキストを追加
         tdId.appendChild(img);
         tdName.textContent = memoriaJsonCopy[id]["name"];
-        tdIllustrator.textContent = memoriaJsonCopy[id]["illustration"]["illustrator"];
+        let illustrator = memoriaJsonCopy[id]["illustration"]["illustrator"]
+        tdIllustrator.textContent = illustrator;
+        let illustratorExist = false;
+        for (let index in illustratorData) {
+            if (illustratorData[index]["illustrator"] == illustrator) {
+                illustratorData[index]["memoria"].push(id);
+                illustratorExist = true;
+            }
+        }
+        if (illustratorExist == false) {
+            illustratorData.push( { "illustrator": illustrator, "memoria": [id] } )
+        }
         // リンク
         if (mode != "lowrare") {
             let p = document.createElement("p");
@@ -73,6 +107,9 @@ function makeTable() {
 
     // 検索結果件数表示
     document.getElementById("resultCount").replaceChildren(resultCount);
+
+    makeIllustratorList(illustratorData);
+    //console.log(illustratorData);
 }
 
 // URLパラメータ取得

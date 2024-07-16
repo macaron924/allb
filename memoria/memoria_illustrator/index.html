@@ -11,6 +11,7 @@
         <meta name="twitter:card" content="summary">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="../../images/icon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Noto+Sans+JP&display=swap">
@@ -37,8 +38,13 @@
             <div class="breadcrumb"><a href="../../">Top</a> > <a href="../">メモリア</a> > クリエイターズコラボ</div>
             <h1 class="title">クリエイターズコラボ</h1>
             <!--テーブル生成位置-->
+            <div>
+                <input type="button" id="memoria-sort-btn" class="active" value="メモリア別" onclick="memoriaSort();">
+                <input type="button" id="illustrator-sort-btn" class="" value="イラストレーター別" onclick="illustratorSort();">
+            </div>
             <h2>検索結果：<span id="resultCount"></span>件</h2>
-            <div class="maintable" id ='maintable'></div>
+            <div class="maintable" id="maintable"></div>
+            <div class="disable" id="illustratorList"></div>
         </main>
 
         <script src="../../js/footer.js"></script>
