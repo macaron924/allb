@@ -90,6 +90,12 @@ let ranks = [
         "content": []
     },
     {
+        "rank": "クリエイターズコラボフェス",
+        "index": "creators_fes",
+        "summary": "マンデーボーナスガチャには入らないがリリパス入り。",
+        "content": []
+    },
+    {
         "rank": "2023秋以降のクリエイターズコラボ衣装",
         "index": "creators_costume",
         "summary": "マンデーボーナスガチャには一定期間入るがその後の復刻が少ない。",
