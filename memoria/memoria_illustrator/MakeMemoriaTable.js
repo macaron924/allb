@@ -1,15 +1,28 @@
 function memoriaSort() {
     document.getElementById("memoria-sort-btn").className = "active";
     document.getElementById("illustrator-sort-btn").className = "";
+    document.getElementById("chara-sort-btn").className = "";
     document.getElementById("maintable").classList.remove("disable");
     document.getElementById("illustratorList").classList.add("disable");
+    document.getElementById("charaList").classList.add("disable");
 }
 
 function illustratorSort() {
-    document.getElementById("illustrator-sort-btn").className = "active";
     document.getElementById("memoria-sort-btn").className = "";
-    document.getElementById("illustratorList").classList.remove("disable");
+    document.getElementById("illustrator-sort-btn").className = "active";
+    document.getElementById("chara-sort-btn").className = "";
     document.getElementById("maintable").classList.add("disable");
+    document.getElementById("illustratorList").classList.remove("disable");
+    document.getElementById("charaList").classList.add("disable");
+}
+
+function charaSort() {
+    document.getElementById("memoria-sort-btn").className = "";
+    document.getElementById("illustrator-sort-btn").className = "";
+    document.getElementById("chara-sort-btn").className = "active";
+    document.getElementById("maintable").classList.add("disable");
+    document.getElementById("illustratorList").classList.add("disable");
+    document.getElementById("charaList").classList.remove("disable");
 }
 
 function makeIllustratorList(illustratorData) {
@@ -17,6 +30,14 @@ function makeIllustratorList(illustratorData) {
         let caption = `<br><h3>${illustratorData[i]["illustrator"]}</h3>`;
         document.getElementById("illustratorList").insertAdjacentHTML("beforeend", caption);
         document.getElementById("illustratorList").appendChild(getMemoriaList(illustratorData[i]["memoria"], 2));
+    }
+}
+
+function makeCharaList(illustrationCharaData) {
+    for (let i in illustrationCharaData) {
+        let caption = `<br><h3><img src="../../images/chara/chara_${i}.webp" class="charaImg"> ${charaJson[i]["charaName"]}: ${illustrationCharaData[i].length}</h3>`;
+        document.getElementById("charaList").insertAdjacentHTML("beforeend", caption);
+        document.getElementById("charaList").appendChild(getMemoriaList(illustrationCharaData[i], 2));
     }
 }
 
@@ -46,6 +67,7 @@ function makeTable() {
     // 検索結果件数を保存する変数
     let resultCount = 0;
     let illustratorData = [];
+    let illustrationCharaData = {};
 
     // テーブル本体を作成
     for (let id in memoriaJsonCopy) {
@@ -72,7 +94,8 @@ function makeTable() {
         // td要素内にテキストを追加
         tdId.appendChild(img);
         tdName.textContent = memoriaJsonCopy[id]["name"];
-        let illustrator = memoriaJsonCopy[id]["illustration"]["illustrator"]
+
+        let illustrator = memoriaJsonCopy[id]["illustration"]["illustrator"];
         tdIllustrator.textContent = illustrator;
         let illustratorExist = false;
         for (let index in illustratorData) {
@@ -82,8 +105,19 @@ function makeTable() {
             }
         }
         if (illustratorExist == false) {
-            illustratorData.push( { "illustrator": illustrator, "memoria": [id] } )
+            illustratorData.push( { "illustrator": illustrator, "memoria": [id] } );
         }
+
+        let charas = memoriaJsonCopy[id]["illustration"]["chara"];
+        for (let i in charas) {
+            let chara = charas[i].toString();
+            if (illustrationCharaData[chara] == undefined) {
+                illustrationCharaData[chara] = [id];
+            } else {
+                illustrationCharaData[chara].push(id);
+            }
+        }
+
         // リンク
         if (mode != "lowrare") {
             let p = document.createElement("p");
@@ -109,7 +143,9 @@ function makeTable() {
     document.getElementById("resultCount").replaceChildren(resultCount);
 
     makeIllustratorList(illustratorData);
+    makeCharaList(illustrationCharaData);
     //console.log(illustratorData);
+    //console.log(illustrationCharaData);
 }
 
 // URLパラメータ取得

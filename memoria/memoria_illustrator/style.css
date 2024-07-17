@@ -132,3 +132,7 @@
 .disable {
     display: none;
 }
+
+.charaImg {
+    height: 10rem;
+}
