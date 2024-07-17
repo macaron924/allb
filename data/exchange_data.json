@@ -1478,6 +1478,19 @@
             }
         },
         {
+            "index": "exchange_costume_riririzo-swimsuit",
+            "name": "3.5周年記念!!水着衣装引換券",
+            "type": "衣装引換券",
+            "get": ["生放送記念ガチャ ガチャボーナス"],
+            "notice": [],
+            "lineup": {
+                "memoria": [],
+                "costume": [ { "caption": "衣装", "ratio": 1, "content": [472, 473, 442, 443, 444, 414, 415, 416, 410, 411, 412, 404, 405, 396, 397, 398, 217, 218, 219, 220, 206, 207, 208, 88, 89, 86, 87, 83, 84, 81, 82] } ],
+                "item": [],
+                "event-ticket": []
+            }
+        },
+        {
             "index": "exchange_costume_premium_202406",
             "name": "プレミア衣装引換券6月",
             "type": "衣装引換券",
