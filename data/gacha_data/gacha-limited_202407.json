@@ -1,5 +1,36 @@
 [
     {
+        "start": "2024/7/16(火) 12:00",
+        "finish": "2024/7/19(金) 23:59",
+        "type": "その他のガチャ",
+        "medal": "medal_bonus_202407",
+        "gacha": [
+            {
+                "index": "20240716_1",
+                "name": "3.5周年 生放送記念ガチャ",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "11回ガチャ3回限定", "item": [] },
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
+                    ],
+                    "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_content": [
+                        { "need": [1, 11], "item": [ { "index": "exchange_costume_riririzo-swimsuit", "value": 1 } ] },
+                        { "need": [2, 22], "item": [ { "index": "medal_pendant-premium", "value": 300 } ] },
+                        { "need": [3, 33], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] }
+                    ]
+                },
+                "lineup": {
+                    "total_ratio": [5],
+                    "notice": ["★5メモリア1枚確定", "★5メモリアは水着メモリアから選出"],
+                    "pu": [],
+                    "else": { "caption": "ピックアップ無し", "content": [133, 134, 135, 138, 139, 136, 140, 141, 142, 143, 144, 145, 146, 339, 340, 341, 342, 358, 359, 360, 361, 653, 654, 655, 659, 660, 667, 668, 669, 675, 676, 677, 705, 706, 707, 739, 740] }
+                }
+            }
+        ]
+    },
+    {
         "start": "2024/7/15(月) 12:00",
         "finish": "2024/7/17(水) 23:59",
         "type": "マンデーボーナスガチャ",
