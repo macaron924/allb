@@ -133,27 +133,27 @@
     },
     "34": {
         "chara": 1, "yakuwari": 2, "name": "ムーンライト",
-        "percent": 12.5, "parameter": [["ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["ATK", 2000], ["DEF", 1500]], "ex": []
     },
     "35": {
         "chara": 2, "yakuwari": 5, "name": "ムーンライト",
-        "percent": 12.5, "parameter": [["Sp.ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]], "ex": []
     },
     "36": {
         "chara": 6, "yakuwari": 3, "name": "ムーンライト",
-        "percent": 12.5, "parameter": [["Sp.ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]], "ex": []
     },
     "37": {
         "chara": 1, "yakuwari": 7, "name": "ナイトルージュ",
-        "percent": 12.5, "parameter": [["DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["DEF", 2000], ["Sp.DEF", 1500]], "ex": []
     },
     "38": {
         "chara": 2, "yakuwari": 4, "name": "ナイトルージュ",
-        "percent": 12.5, "parameter": [["Sp.ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]], "ex": []
     },
     "39": {
         "chara": 5, "yakuwari": 1, "name": "ナイトルージュ",
-        "percent": 12.5, "parameter": [["ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["ATK", 2000], ["DEF", 1500]], "ex": []
     },
     "40": {
         "chara": 10, "yakuwari": 2, "name": "エレンスゲオーダー",
@@ -197,15 +197,15 @@
     },
     "50": {
         "chara": 3, "yakuwari": 7, "name": "アーセナリーローズ",
-        "percent": 12.5, "parameter": [["Sp.DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.DEF", 2000], ["DEF", 1500]], "ex": []
     },
     "51": {
         "chara": 9, "yakuwari": 2, "name": "アーセナリーローズ",
-        "percent": 12.5, "parameter": [["ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["ATK", 2000], ["DEF", 1500]], "ex": []
     },
     "52": {
         "chara": 4, "yakuwari": 3, "name": "アーセナリーローズ",
-        "percent": 12.5, "parameter": [["Sp.ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]], "ex": []
     },
     "53": {
         "chara": 8, "yakuwari": 4, "name": "百合ヶ丘訓練制服",
@@ -213,27 +213,27 @@
     },
     "54": {
         "chara": 19, "yakuwari": 6, "name": "マルチカラードフラワー",
-        "percent": 12.5, "parameter": [["Sp.ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]], "ex": []
     },
     "55": {
         "chara": 18, "yakuwari": 1, "name": "マルチカラードフラワー",
-        "percent": 12.5, "parameter": [["ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["ATK", 2000], ["DEF", 1500]], "ex": []
     },
     "56": {
         "chara": 15, "yakuwari": 5, "name": "マルチカラードフラワー",
-        "percent": 12.5, "parameter": [["Sp.DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.DEF", 2000], ["Sp.ATK", 1500]], "ex": []
     },
     "57": {
         "chara": 10, "yakuwari": 7, "name": "マリンセーラー",
-        "percent": 12.5, "parameter": [["DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["DEF", 2000], ["Sp.DEF", 1500]], "ex": []
     },
     "58": {
         "chara": 11, "yakuwari": 4, "name": "マリンセーラー",
-        "percent": 12.5, "parameter": [["Sp.ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]], "ex": []
     },
     "59": {
         "chara": 12, "yakuwari": 6, "name": "マリンセーラー",
-        "percent": 12.5, "parameter": [["DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["DEF", 2000], ["ATK", 1500]], "ex": []
     },
     "60": {
         "chara": 7, "yakuwari": 2, "name": "百合ヶ丘訓練制服",
@@ -245,15 +245,15 @@
     },
     "62": {
         "chara": 9, "yakuwari": 1, "name": "ブリリアントスピカ",
-        "percent": 12.5, "parameter": [["ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["ATK", 2000], ["DEF", 1500]], "ex": []
     },
     "63": {
         "chara": 3, "yakuwari": 4, "name": "ブリリアントスピカ",
-        "percent": 12.5, "parameter": [["Sp.ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]], "ex": []
     },
     "64": {
         "chara": 4, "yakuwari": 6, "name": "ブリリアントスピカ",
-        "percent": 12.5, "parameter": [["DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["DEF", 2000], ["ATK", 1500]], "ex": []
     },
     "65": {
         "chara": 1, "yakuwari": 5, "name": "GROWING*",
@@ -261,15 +261,15 @@
     },
     "66": {
         "chara": 5, "yakuwari": 3, "name": "防衛軍式典制服",
-        "percent": 12.5, "parameter": [["Sp.ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 1500]], "ex": []
     },
     "67": {
         "chara": 7, "yakuwari": 5, "name": "防衛軍式典制服",
-        "percent": 12.5, "parameter": [["DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["DEF", 2000], ["ATK", 1500]], "ex": []
     },
     "68": {
         "chara": 8, "yakuwari": 2, "name": "防衛軍式典制服",
-        "percent": 12.5, "parameter": [["ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["ATK", 2000], ["DEF", 1500]], "ex": []
     },
     "69": {
         "chara": 10, "yakuwari": 6, "name": "オブシダンスーツ",
@@ -321,19 +321,19 @@
     },
     "81": {
         "chara": 1, "yakuwari": 4, "name": "リリティカルサマー",
-        "percent": 12.5, "parameter": [["Sp.ATK", 500], ["Sp.DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 2000]], "ex": []
     },
     "82": {
         "chara": 3, "yakuwari": 7, "name": "リリティカルサマー",
-        "percent": 12.5, "parameter": [["Sp.DEF", 500], ["DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.DEF", 2000], ["DEF", 2000]], "ex": []
     },
     "83": {
         "chara": 10, "yakuwari": 2, "name": "リリティカルサマー",
-        "percent": 12.5, "parameter": [["ATK", 500], ["DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["ATK", 2000], ["DEF", 2000]], "ex": []
     },
     "84": {
         "chara": 11, "yakuwari": 5, "name": "リリティカルサマー",
-        "percent": 12.5, "parameter": [["Sp.ATK", 500], ["Sp.DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 2000]], "ex": []
     },
     "85": {
         "chara": 5, "yakuwari": 2, "name": "百合ヶ丘訓練制服",
@@ -341,19 +341,19 @@
     },
     "86": {
         "chara": 8, "yakuwari": 1, "name": "リリティカルサマー",
-        "percent": 12.5, "parameter": [["ATK", 500], ["DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["ATK", 2000], ["DEF", 2000]], "ex": []
     },
     "87": {
         "chara": 7, "yakuwari": 6, "name": "リリティカルサマー",
-        "percent": 12.5, "parameter": [["Sp.DEF", 500], ["Sp.ATK", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.DEF", 2000], ["Sp.ATK", 2000]], "ex": []
     },
     "88": {
         "chara": 15, "yakuwari": 7, "name": "リリティカルサマー",
-        "percent": 12.5, "parameter": [["Sp.DEF", 500], ["DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.DEF", 2000], ["DEF", 2000]], "ex": []
     },
     "89": {
         "chara": 18, "yakuwari": 3, "name": "リリティカルサマー",
-        "percent": 12.5, "parameter": [["Sp.ATK", 500], ["Sp.DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 2000]], "ex": []
     },
     "90": {
         "chara": 30, "yakuwari": 2, "name": "百合ヶ丘標準制服",
@@ -377,19 +377,19 @@
     },
     "95": {
         "chara": 15, "yakuwari": 3, "name": "涼風の浴衣",
-        "percent": 12.5, "parameter": [["Sp.ATK", 500], ["Sp.DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 2000]], "ex": []
     },
     "96": {
         "chara": 16, "yakuwari": 7, "name": "涼風の浴衣",
-        "percent": 12.5, "parameter": [["DEF", 500], ["Sp.DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["DEF", 2000], ["Sp.DEF", 2000]], "ex": []
     },
     "97": {
         "chara": 4, "yakuwari": 2, "name": "涼風の浴衣",
-        "percent": 12.5, "parameter": [["ATK", 500], ["DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["ATK", 2000], ["DEF", 2000]], "ex": []
     },
     "98": {
         "chara": 17, "yakuwari": 4, "name": "涼風の浴衣",
-        "percent": 12.5, "parameter": [["Sp.ATK", 500], ["Sp.DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 2000]], "ex": []
     },
     "99": {
         "chara": 11, "yakuwari": 3, "name": "サマースタイル",
@@ -569,11 +569,11 @@
     },
     "143": {
         "chara": 16, "yakuwari": 4, "name": "マルチカラードフラワー",
-        "percent": 12.5, "parameter": [["Sp.ATK", 500], ["Sp.DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["Sp.ATK", 2000], ["Sp.DEF", 2000]], "ex": []
     },
     "144": {
         "chara": 17, "yakuwari": 6, "name": "マルチカラードフラワー",
-        "percent": 12.5, "parameter": [["ATK", 500], ["DEF", 500]], "ex": []
+        "percent": 12.5, "parameter": [["ATK", 2000], ["DEF", 2000]], "ex": []
     },
     "145": {
         "chara": 1, "yakuwari": 7, "name": "リディアン音楽院制服",
@@ -821,15 +821,15 @@
     },
     "206": {
         "chara": 19, "yakuwari": 2, "name": "リリティカルサマー",
-        "percent": 15, "parameter": [["ATK", 1500], ["DEF", 1500]], "ex": []
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": []
     },
     "207": {
         "chara": 17, "yakuwari": 7, "name": "リリティカルサマー",
-        "percent": 15, "parameter": [["DEF", 1500], ["Sp.DEF", 1500]], "ex": []
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": []
     },
     "208": {
         "chara": 14, "yakuwari": 6, "name": "リリティカルサマー",
-        "percent": 15, "parameter": [["Sp.DEF", 1500], ["Sp.ATK", 1500]], "ex": []
+        "percent": 15, "parameter": [["Sp.DEF", 3000], ["Sp.ATK", 3000]], "ex": []
     },
     "209": {
         "chara": 13, "yakuwari": 4, "name": "ブリッツアングリフ",
@@ -853,7 +853,7 @@
     },
     "214": {
         "chara": 13, "yakuwari": 6, "name": "マリンセーラー",
-        "percent": 15, "parameter": [["ATK", 1500], ["DEF", 1500]], "ex": []
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": []
     },
     "215": {
         "chara": 2, "yakuwari": 4, "name": "りりふぇす!!フラワー",
@@ -865,19 +865,19 @@
     },
     "217": {
         "chara": 4, "yakuwari": 7, "name": "リリティカルサマー",
-        "percent": 15, "parameter": [["DEF", 1500], ["Sp.DEF", 1500]], "ex": []
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": []
     },
     "218": {
         "chara": 6, "yakuwari": 4, "name": "リリティカルサマー",
-        "percent": 15, "parameter": [["Sp.ATK", 1500], ["Sp.DEF", 1500]], "ex": []
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": []
     },
     "219": {
         "chara": 9, "yakuwari": 2, "name": "リリティカルサマー",
-        "percent": 15, "parameter": [["ATK", 1500], ["DEF", 1500]], "ex": []
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": []
     },
     "220": {
         "chara": 5, "yakuwari": 5, "name": "リリティカルサマー",
-        "percent": 15, "parameter": [["Sp.DEF", 1500], ["Sp.ATK", 1500]], "ex": []
+        "percent": 15, "parameter": [["Sp.DEF", 3000], ["Sp.ATK", 3000]], "ex": []
     },
     "221": {
         "chara": 1, "yakuwari": 6, "name": "りりふぇす!!フラワー",
