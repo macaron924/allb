@@ -2802,5 +2802,33 @@
     "701": {
         "chara": 18, "yakuwari": 4, "name": "リリリゾ!!サンシャイン",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    "702": {
+        "chara": 35, "yakuwari": 6, "name": "リリリゾ!!サンシャイン",
+        "percent": 7.5, "parameter": [["Sp.ATK", 1550], ["Sp.DEF", 1500]], "ex": [["風UP", 5]]
+    },
+    "703": {
+        "chara": 14, "yakuwari": 3, "name": "リリリゾ!!サンシャイン",
+        "percent": 7.5, "parameter": [["Sp.ATK", 1550], ["Sp.DEF", 1500]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "704": {
+        "chara": 118, "yakuwari": 5, "name": "リリリゾ!!サンシャイン",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    "705": {
+        "chara": 140, "yakuwari": 4, "name": "リリリゾ!!サンシャイン",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5], ["火耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "706": {
+        "chara": 140, "yakuwari": 2, "name": "百合ヶ丘標準制服",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["風耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "707": {
+        "chara": 53, "yakuwari": 6, "name": "リリリゾ!!サンシャイン",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 5], ["火耐性", 5], ["火メモリア補助発動率UP", 2]]
+    },
+    "708": {
+        "chara": 119, "yakuwari": 7, "name": "リリリゾ!!サンシャイン",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5]]
     }
 }

@@ -8120,5 +8120,57 @@
             { "yakuwari": 2, "name": ["マイトストライクB Ⅳ+", "風：ウィンドパワーストライクB Ⅳ+", "攻:ダメージUP/副攻:風パワーUP Ⅳ"] },
             { "yakuwari": 7, "name": ["ガードヒールE Ⅳ", "ウィンドガードヒールE Ⅳ", "回:回復UP/副援:風ガードUP Ⅳ"] }
         ]
+    },
+    "907": {
+        "name": "勇者たちの休日",
+        "zokusei": 3, "cost": 25, "costume": 704, "legendary": "ガチャ", "illustration": { "type": "", "chara": [118, 25, 21] },
+        "get_rank": "季節 (推定)", "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "Peaceful Vacance (2024/7/20～)", "c3": ["イベントガチャ"] },
+        "skill": [
+            { "yakuwari": 5, "name": ["風：WパワーアシストE Ⅳ", "風：WパワーアシストE Ⅳ", "援:支援UP/副援:風パワーUP Ⅴ"] },
+            { "yakuwari": 2, "name": ["マイトブレイクB Ⅳ+", "風：ウィンドガードブレイクB Ⅳ+", "攻:ダメージUP/ガードDOWN Ⅴ"] },
+            { "yakuwari": 4, "name": ["Sp.マイトスマッシュB Ⅳ+", "風：Sp.ウィンドパワースマッシュB Ⅳ+", "攻:ダメージUP/Sp.パワーUP Ⅴ"] }
+        ]
+    },
+    "908": {
+        "name": "華舞う砂浜",
+        "zokusei": 3, "cost": 23, "costume": 705, "legendary": "", "illustration": { "type": "", "chara": [140, 2] },
+        "get_rank": "季節 (推定)", "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "Peaceful Vacance (2024/7/20～)", "c3": ["イベントガチャ"] },
+        "skill": [
+            { "yakuwari": 4, "name": ["Sp.マイトバーストD Ⅲ+", "Sp.カウンターウィンドガードバーストD Ⅲ+", "攻:ダメージUP/副攻:風ガードDOWN Ⅴ"] },
+            { "yakuwari": 6, "name": ["Sp.パワーフォールE Ⅳ", "[風防]Sp.アニママイトフォールE Ⅳ", "援:支援UP/副援:風ガードDOWN Ⅴ"] },
+            { "yakuwari": 7, "name": ["Sp.ガードヒールC Ⅴ", "風：Sp.ウィンドガードヒールC Ⅴ", "回:回復UP/副援:風ガードUP Ⅴ"] }
+        ]
+    },
+    "909": {
+        "name": "夏の日のアクシデント",
+        "zokusei": 1, "cost": 23, "costume": 707, "legendary": "", "illustration": { "type": "", "chara": [53, 1] },
+        "get_rank": "季節 (推定)", "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "Peaceful Vacance (2024/7/20～)", "c3": ["イベントガチャ"] },
+        "skill": [
+            { "yakuwari": 6, "name": ["パワーフォールE Ⅳ", "アニマファイアパワーフォールE Ⅳ", "援:支援UP/副援:火パワーDOWN Ⅴ"] },
+            { "yakuwari": 2, "name": ["マイトストライクD Ⅲ+", "バリアファイアパワーストライクD Ⅲ+", "攻:ダメージUP/副攻:火パワーUP Ⅴ"] },
+            { "yakuwari": 5, "name": ["パワーアシストE Ⅳ", "メテオファイアパワーアシストE Ⅳ", "援:支援UP/副援:火パワーUP Ⅴ"] }
+        ]
+    },
+    "910": {
+        "name": "ピクシー・ラグーン",
+        "zokusei": 1, "cost": 25, "costume": 708, "legendary": "ガチャ", "illustration": { "type": "", "chara": [119] },
+        "get_rank": "季節 (推定)", "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "Peaceful Vacance (2024/7/20～)", "c3": ["イベントガチャ"] },
+        "skill": [
+            { "yakuwari": 7, "name": ["ガードヒールE Ⅳ", "バリアファイアガードヒールE Ⅳ", "回:回復UP/副援:火ガードUP Ⅴ"] },
+            { "yakuwari": 2, "name": ["マイトブレイクB Ⅳ+", "カウンターファイアガードブレイクB Ⅳ+", "攻:ダメージUP/副攻:火ガードDOWN Ⅴ"] },
+            { "yakuwari": 6, "name": ["Sp.パワーフォールE Ⅳ", "火：Sp.ファイアパワーフォールE Ⅳ", "援:支援UP/副援:火パワーDOWN Ⅴ"] }
+        ]
+    },
+    "911": {
+        "name": "祝3.5周年 リリリゾ!!",
+        "zokusei": 1, "cost": 18, "costume": 0, "legendary": "", "illustration": { "type": "静止画", "chara": [1, 2, 140, 118, 21, 25] },
+        "get_rank": "非ガチャ産", "category": { "c1": "ミッション、ログインボーナス等", "c2": "HA、AN無料/ボックスガチャ", "c3": ["3.5周年"] },
+        "skill": [
+            { "yakuwari": 4, "name": ["Sp.パワースマッシュB Ⅲ", "Sp.パワースマッシュB Ⅲ", "攻:Sp.パワーUP Ⅲ"] },
+            { "yakuwari": 2, "name": ["パワーストライクB Ⅲ", "パワーストライクB Ⅲ", "攻:パワーUP Ⅲ"] },
+            { "yakuwari": 5, "name": ["Sp.パワーアシストB Ⅲ", "Sp.パワーアシストB Ⅲ", "援:Sp.パワーUP Ⅲ"] },
+            { "yakuwari": 6, "name": ["パワーフォールB Ⅲ", "パワーフォールB Ⅲ", "援:パワーDOWN Ⅲ"] },
+            { "yakuwari": 7, "name": ["Sp.ガードヒールC Ⅲ", "Sp.ガードヒールC Ⅲ", "回:Sp.ガードUP Ⅲ"] }
+        ]
     }
 }
