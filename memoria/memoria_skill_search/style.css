@@ -117,7 +117,7 @@
     border-right: 0.2rem solid #000000;
 }
 
-#maintable .yakuwari_img {
+#maintable .yakuwari_img, .battle_icon {
     height: 4rem;
 }
 
@@ -138,5 +138,29 @@
 }
 
 #maintable.lm .vshugeRow {
+    display: none;
+}
+
+
+/* 効果アイコン */
+
+#maintable td .battle_icons {
+    display: flex;
+    justify-content: left;
+}
+
+#maintable td .battle_icons div {
+    width: 6.5rem;
+}
+
+#maintable td .battle_icons img{
+    float: left;
+}
+
+#maintable td .battle_additional {
+    font-weight: bold;
+}
+
+#maintable tr.disable {
     display: none;
 }

@@ -171,6 +171,9 @@ function makeTable() {
                     case tag[k]["fx"].startsWith("闇防"):
                         iconName = "battle_darkguard";
                         break;
+                    case tag[k]["fx"].startsWith("最大HP"):
+                        iconName = "battle_lifeassist";
+                        break;
                 }
                 if (iconName !== "") {
                     let battle_icon_img = document.createElement("img");
@@ -182,11 +185,11 @@ function makeTable() {
                     battle_icon_txt.style.writingMode = "vertical-rl";
                     switch (true) {
                         case tag[k]["fx"].includes("↑"):
-                            battle_icon_txt.textContent = `▲${tag[k]["val"]}`;
+                            battle_icon_txt.textContent = `▲ ${tag[k]["val"]}`;
                             battle_icon_txt.style.color = "red";
                             break;
                         case tag[k]["fx"].includes("↓"):
-                            battle_icon_txt.textContent = `▼${tag[k]["val"]}`;
+                            battle_icon_txt.textContent = `▼ ${tag[k]["val"]}`;
                             battle_icon_txt.style.color = "blue";
                             break;
                         default:

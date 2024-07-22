@@ -490,6 +490,113 @@ function getHojoSkillInfoFromName(skillName) {
     return "";
 }
 
+// タグからアイコン(スキル)
+function skillTagToIcon(tag, tag2, i) {
+    let tdDetail = document.createElement("td");
+    let battle_icons = document.createElement("div");
+    battle_icons.classList.add("battle_icons");
+    for (let k = 0; k < tag.length; k++) {
+        let iconName = "";
+        switch (true) {
+            case tag[k]["fx"].includes("通常ダメージ") && i == 0:
+                iconName = "yakuwari_1";
+                break;
+            case tag[k]["fx"].includes("通常ダメージ") && i == 1:
+                iconName = "yakuwari_2";
+                break;
+            case tag[k]["fx"].includes("特殊ダメージ") && i == 2:
+                iconName = "yakuwari_3";
+                break;
+            case tag[k]["fx"].includes("特殊ダメージ") && i == 3:
+                iconName = "yakuwari_4";
+                break;
+            case tag[k]["fx"].includes("自身回復") || tag[k]["fx"].includes("味方回復"):
+                iconName = "yakuwari_7";
+                break;
+            case tag[k]["fx"].startsWith("ATK"):
+                iconName = "battle_atk";
+                break;
+            case tag[k]["fx"].startsWith("DEF"):
+                iconName = "battle_def";
+                break;
+            case tag[k]["fx"].startsWith("Sp.ATK"):
+                iconName = "battle_spatk";
+                break;
+            case tag[k]["fx"].startsWith("Sp.DEF"):
+                iconName = "battle_spdef";
+                break;
+            case tag[k]["fx"].startsWith("火攻"):
+                iconName = "battle_firepower";
+                break;
+            case tag[k]["fx"].startsWith("水攻"):
+                iconName = "battle_waterpower";
+                break;
+            case tag[k]["fx"].startsWith("風攻"):
+                iconName = "battle_windpower";
+                break;
+            case tag[k]["fx"].startsWith("光攻"):
+                iconName = "battle_lightpower";
+                break;
+            case tag[k]["fx"].startsWith("闇攻"):
+                iconName = "battle_darkpower";
+                break;
+            case tag[k]["fx"].startsWith("火防"):
+                iconName = "battle_fireguard";
+                break;
+            case tag[k]["fx"].startsWith("水防"):
+                iconName = "battle_waterguard";
+                break;
+            case tag[k]["fx"].startsWith("風防"):
+                iconName = "battle_windguard";
+                break;
+            case tag[k]["fx"].startsWith("光防"):
+                iconName = "battle_lightguard";
+                break;
+            case tag[k]["fx"].startsWith("闇防"):
+                iconName = "battle_darkguard";
+                break;
+            case tag[k]["fx"].startsWith("最大HP"):
+                iconName = "battle_lifeassist";
+                break;
+        }
+        if (iconName !== "") {
+            let battle_icon_img = document.createElement("img");
+            battle_icon_img.src = `../../images/icon/${iconName}.webp`;
+            battle_icon_img.className = "battle_icon";
+            battle_icon_img.loading = "lazy";
+            let battle_icon_txt = document.createElement("p");
+            battle_icon_txt.style.fontWeight = "bold";
+            battle_icon_txt.style.writingMode = "vertical-rl";
+            switch (true) {
+                case tag[k]["fx"].includes("↑"):
+                    battle_icon_txt.textContent = `▲ ${tag[k]["val"]}`;
+                    battle_icon_txt.style.color = "red";
+                    break;
+                case tag[k]["fx"].includes("↓"):
+                    battle_icon_txt.textContent = `▼ ${tag[k]["val"]}`;
+                    battle_icon_txt.style.color = "blue";
+                    break;
+                default:
+                    battle_icon_txt.textContent = tag[k]["val"];
+            }
+            let battle_icon = document.createElement("div");
+            battle_icon.appendChild(battle_icon_img);
+            battle_icon.appendChild(battle_icon_txt);
+            battle_icons.appendChild(battle_icon);
+        }
+    }
+    tdDetail.appendChild(battle_icons);
+    let battle_additional = document.createElement("div");
+    battle_additional.classList.add("battle_additional");
+    battle_additional.textContent = "";
+    for (let i = 0; i < tag2.length; i++) {
+        battle_additional.innerHTML += `<br>${tag2[i]}`;
+    }
+    tdDetail.appendChild(battle_additional);
+
+    return tdDetail;
+}
+
 // タグから文字列に(スキル)
 function skillTagToString(tag, tag2) {
     let str = "";
@@ -507,10 +614,16 @@ function skillTagToString(tag, tag2) {
 }
 
 // スキル詳細を生成
+function createSkillDetailFromName(tag, tag2, yakuwari) {
+    if (tag == "") return "";
+    //return skillTagToString(tag, tag2);
+    return skillTagToIcon(tag, tag2, yakuwari);
+}
+/*
 function createSkillDetailFromName(tag, tag2) {
     if (tag == "") return "";
     return skillTagToString(tag, tag2);
-}
+}*/
 
 // タグから文字列に(補助)
 function hojoTagToString(tag) {
@@ -704,7 +817,8 @@ function makeTable() {
                 tdVshugeDetail.innerHTML = "";
             } else {
                 tdVshugeName.innerHTML = "<nobr>" + vshuge_name + "</nobr><br>" + vshuge["effect_detail"];
-                tdVshugeDetail.innerHTML = createSkillDetailFromName(vshuge["tag"], vshuge["tag2"]);
+                //tdVshugeDetail.innerHTML = createSkillDetailFromName(vshuge["tag"], vshuge["tag2"]);
+                tdVshugeDetail = createSkillDetailFromName(vshuge["tag"], vshuge["tag2"], skill_yakuwari);
             }
             // レギマスキル
             let lm_name = skill_names[1];
@@ -715,7 +829,8 @@ function makeTable() {
                 tdLmDetail.innerHTML = "";
             } else {
                 tdLmName.innerHTML = "<nobr>" + lm_name + "</nobr><br>" + lm["effect_detail"];
-                tdLmDetail.innerHTML = createSkillDetailFromName(lm["tag"], lm["tag2"]);
+                //tdLmDetail.innerHTML = createSkillDetailFromName(lm["tag"], lm["tag2"]);
+                tdLmDetail = createSkillDetailFromName(lm["tag"], lm["tag2"], skill_yakuwari);
             }
             // 補助スキル
             let hojo_name = skill_names[2];
