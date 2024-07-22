@@ -491,23 +491,23 @@ function getHojoSkillInfoFromName(skillName) {
 }
 
 // タグからアイコン(スキル)
-function skillTagToIcon(tag, tag2, i) {
+function skillTagToIcon(tag, tag2, yakuwari) {
     let tdDetail = document.createElement("td");
     let battle_icons = document.createElement("div");
     battle_icons.classList.add("battle_icons");
     for (let k = 0; k < tag.length; k++) {
         let iconName = "";
         switch (true) {
-            case tag[k]["fx"].includes("通常ダメージ") && i == 0:
+            case tag[k]["fx"].includes("通常ダメージ") && yakuwari == 1:
                 iconName = "yakuwari_1";
                 break;
-            case tag[k]["fx"].includes("通常ダメージ") && i == 1:
+            case tag[k]["fx"].includes("通常ダメージ") && yakuwari == 2:
                 iconName = "yakuwari_2";
                 break;
-            case tag[k]["fx"].includes("特殊ダメージ") && i == 2:
+            case tag[k]["fx"].includes("特殊ダメージ") && yakuwari == 3:
                 iconName = "yakuwari_3";
                 break;
-            case tag[k]["fx"].includes("特殊ダメージ") && i == 3:
+            case tag[k]["fx"].includes("特殊ダメージ") && yakuwari == 4:
                 iconName = "yakuwari_4";
                 break;
             case tag[k]["fx"].includes("自身回復") || tag[k]["fx"].includes("味方回復"):
