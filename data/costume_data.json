@@ -2830,5 +2830,41 @@
     "708": {
         "chara": 119, "yakuwari": 7, "name": "リリリゾ!!サンシャイン",
         "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5]]
+    },
+    "709": {
+        "chara": 106, "yakuwari": 4, "name": "リリリゾ!!サンシャイン",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    "710": {
+        "chara": 3, "yakuwari": 5, "name": "リリリゾ!!サンシャイン",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5], ["火耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "711": {
+        "chara": 105, "yakuwari": 2, "name": "リリリゾ!!サンシャイン(通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "712": {
+        "chara": 105, "yakuwari": 4, "name": "リリリゾ!!サンシャイン(特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "713": {
+        "chara": 105, "yakuwari": 5, "name": "リリリゾ!!サンシャイン(支援)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["風UP", 5]]
+    },
+    "714": {
+        "chara": 105, "yakuwari": 6, "name": "リリリゾ!!サンシャイン(妨害)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["風UP", 5]]
+    },
+    "715": {
+        "chara": 105, "yakuwari": 7, "name": "リリリゾ!!サンシャイン(回復)",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    "716": {
+        "chara": 105, "yakuwari": 1, "name": "リリリゾ!!サンシャイン(通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "717": {
+        "chara": 105, "yakuwari": 3, "name": "リリリゾ!!サンシャイン(特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
     }
 }
