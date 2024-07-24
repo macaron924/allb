@@ -353,6 +353,10 @@ function getItemName(item) {
             items = itemJson["exchange_costume"];
             link = `exchange/content/?index=${item}`;
             break;
+        case item.startsWith("exchange_memoria"):
+            items = itemJson["exchange_memoria"];
+            link = `exchange/content/?index=${item}`;
+            break;
         case item.startsWith("exchange"):
             items = itemJson["exchange"];
             link = `exchange/content/?index=${item}`;

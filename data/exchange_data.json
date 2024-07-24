@@ -579,6 +579,19 @@
             }
         },
         {
+            "index": "exchange_memoria_premium_wind",
+            "name": "プレミア風属性★5メモリア引換券",
+            "type": "メモリア引換券",
+            "get": ["ガチャ"],
+            "notice": [],
+            "lineup": {
+                "memoria": [ { "caption": "メモリアのみ", "ratio": 1, "content": [553, 582, 614, 615, 634, 633, 635, 636, 657, 658, 659, 660, 675, 676, 677, 683, 684, 685, 686, 697, 698, 699, 700, 701, 801, 807, 811, 821, 829, 835, 842, 844, 849, 856, 870] } ],
+                "costume": [],
+                "item": [],
+                "event-ticket": []
+            }
+        },
+        {
             "index": "exchange_memoria_premium_riririzo",
             "name": "3.5周年プレミア★5メモリア引換券",
             "type": "メモリア引換券",
