@@ -1517,6 +1517,71 @@
             }
         },
         {
+            "index": "exchange_costume_pack-and-gacha-bonus-tsuujou",
+            "name": "パック＆ガチャボーナス衣装引換券【通常前衛】",
+            "type": "衣装引換券",
+            "get": ["ガチャ"],
+            "notice": [],
+            "lineup": {
+                "memoria": [],
+                "costume": [ { "caption": "衣装", "ratio": 1, "content": [333, 216, 85, 73, 60] } ],
+                "item": [],
+                "event-ticket": []
+            }
+        },
+        {
+            "index": "exchange_costume_pack-and-gacha-bonus-tokushu",
+            "name": "パック＆ガチャボーナス衣装引換券【特殊前衛】",
+            "type": "衣装引換券",
+            "get": ["ガチャ"],
+            "notice": [],
+            "lineup": {
+                "memoria": [],
+                "costume": [ { "caption": "衣装", "ratio": 1, "content": [494, 386, 349, 301, 205, 199, 184, 53] } ],
+                "item": [],
+                "event-ticket": []
+            }
+        },
+        {
+            "index": "exchange_costume_pack-and-gacha-bonus-shien",
+            "name": "パック＆ガチャボーナス衣装引換券【支援】",
+            "type": "衣装引換券",
+            "get": ["ガチャ"],
+            "notice": [],
+            "lineup": {
+                "memoria": [],
+                "costume": [ { "caption": "衣装", "ratio": 1, "content": [448, 439, 359, 355, 339, 323, 292, 85] } ],
+                "item": [],
+                "event-ticket": []
+            }
+        },
+        {
+            "index": "exchange_costume_pack-and-gacha-bonus-bougai",
+            "name": "パック＆ガチャボーナス衣装引換券【妨害】",
+            "type": "衣装引換券",
+            "get": ["ガチャ"],
+            "notice": [],
+            "lineup": {
+                "memoria": [],
+                "costume": [ { "caption": "衣装", "ratio": 1, "content": [391, 302, 260] } ],
+                "item": [],
+                "event-ticket": []
+            }
+        },
+        {
+            "index": "exchange_costume_pack-and-gacha-bonus-kaifuku",
+            "name": "パック＆ガチャボーナス衣装引換券【回復】",
+            "type": "衣装引換券",
+            "get": ["ガチャ"],
+            "notice": [],
+            "lineup": {
+                "memoria": [],
+                "costume": [ { "caption": "衣装", "ratio": 1, "content": [482, 406, 401, 235] } ],
+                "item": [],
+                "event-ticket": []
+            }
+        },
+        {
             "index": "exchange_costume_riririzo-1",
             "name": "3.5周年 Peaceful Vacance衣装引換券",
             "type": "衣装引換券",
@@ -1533,7 +1598,7 @@
             "index": "exchange_costume_riririzo",
             "name": "3.5周年リリリゾ!!衣装引換券",
             "type": "衣装引換券",
-            "get": ["課金(10000円, 販売期間:2024/7/19～2024/8/29), (160円, 販売期間:2024/7/20～2024//)"],
+            "get": ["課金(10000円, 販売期間:2024/7/19～2024/8/29), (160円, 販売期間:2024/7/20～2024//)", "ガチャ"],
             "notice": [],
             "lineup": {
                 "memoria": [],
