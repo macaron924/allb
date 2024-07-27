@@ -65,6 +65,11 @@ let categories = [
         "content": []
     },
     {
+        "c1": "パック＆ガチャボーナス衣装解放メモリア",
+        "index": "pack-and-gacha-bonus",
+        "content": []
+    },
+    {
         "c1": "シリアルコード",
         "index": "code",
         "content": []

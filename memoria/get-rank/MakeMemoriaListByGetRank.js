@@ -150,6 +150,12 @@ let ranks = [
         "content": []
     },
     {
+        "rank": "パック＆ガチャボーナス衣装解放メモリア",
+        "index": "pack-and-gacha-bonus",
+        "summary": "",
+        "content": []
+    },
+    {
         "rank": "非ガチャ産",
         "index": "not-gacha",
         "summary": "",
