@@ -1,5 +1,178 @@
 [
     {
+        "start": "2024/7/26(金) 12:00",
+        "finish": "2024/8/8(木) 23:59",
+        "type": "ざくざくフェス",
+        "medal": "medal_bonus_202408",
+        "gacha": [
+            {
+                "index": "20240726_1-1",
+                "name": "リリリゾ!! 通常前衛 超ざくざくフェス",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "11回ガチャ10回限定", "item": [] },
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] },
+                        { "text": "メモリアメダル無し", "item": [] }
+                    ],
+                    "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_content": [
+                        { "need": [1, 11], "item": [ { "index": "exchange_costume_riririzo", "value": 1 } ] },
+                        { "need": [2, 22], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [3, 33], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [4, 44], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [5, 55], "item": [ { "index": "moon", "value": 1 } ] },
+                        { "need": [6, 66], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [7, 77], "item": [ { "index": "exchange_costume_pack-and-gacha-bonus-tsuujou", "value": 1 } ] },
+                        { "need": [8, 88], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
+                        { "need": [9, 99], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [10, 110], "item": [ { "index": "moon", "value": 1 } ] }
+                    ]
+                },
+                "lineup": {
+                    "total_ratio": [100],
+                    "notice": ["★5メモリアはパック＆ガチャボーナス衣装解放と2023年以降登場のみ"],
+                    "pu": [
+                        { "caption": "ピックアップ", "ratio": [0.823], "content": [492, 493, 497, 494, 498, 504, 509, 513, 524, 527, 529, 533, 538, 539, 548, 555, 557, 566, 574, 576, 580, 578, 584, 588, 586, 592, 595, 599, 598, 601, 604, 602, 607, 606, 612, 609, 627, 625, 635, 634, 641, 642, 644, 647, 651, 649, 655, 653, 659, 657, 665, 662, 668, 669, 675, 682, 685, 683, 696, 695, 697, 700, 702, 706, 711, 712, 717, 718, 722, 721, 724, 733, 732, 737, 736, 734, 740, 742, 741, 745, 744, 747, 746, 749, 748, 750, 753, 752, 756, 758, 760, 763, 762, 766, 765, 768, 771, 774, 773, 775, 776, 779, 783, 784, 781, 786, 788, 792, 794, 802, 805, 804, 807, 809, 808, 810, 915, 916, 917, 921, 928] }
+                    ],
+                    "else": { "caption": "その他", "content": [518, 521, 670, 673, 674, 796, 797] }
+                }
+            },
+            {
+                "index": "20240726_1-2",
+                "name": "リリリゾ!! 特殊前衛 超ざくざくフェス",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "11回ガチャ10回限定", "item": [] },
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] },
+                        { "text": "メモリアメダル無し", "item": [] }
+                    ],
+                    "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_content": [
+                        { "need": [1, 11], "item": [ { "index": "exchange_costume_riririzo", "value": 1 } ] },
+                        { "need": [2, 22], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [3, 33], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [4, 44], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [5, 55], "item": [ { "index": "moon", "value": 1 } ] },
+                        { "need": [6, 66], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [7, 77], "item": [ { "index": "exchange_costume_pack-and-gacha-bonus-tokushu", "value": 1 } ] },
+                        { "need": [8, 88], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
+                        { "need": [9, 99], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [10, 110], "item": [ { "index": "moon", "value": 1 } ] }
+                    ]
+                },
+                "lineup": {
+                    "total_ratio": [100],
+                    "notice": ["★5メモリアはパック＆ガチャボーナス衣装解放と2023年以降登場のみ"],
+                    "pu": [
+                        { "caption": "ピックアップ", "ratio": [0.754], "content": [491, 490, 496, 495, 499, 505, 508, 514, 512, 517, 525, 528, 530, 531, 534, 549, 554, 558, 564, 567, 573, 572, 577, 581, 579, 583, 589, 587, 591, 594, 597, 596, 600, 605, 603, 608, 611, 610, 614, 615, 626, 624, 636, 633, 638, 639, 643, 645, 648, 652, 650, 654, 660, 658, 664, 663, 667, 677, 676, 681, 680, 686, 684, 694, 698, 699, 701, 704, 703, 707, 705, 710, 713, 717, 716, 719, 722, 720, 725, 733, 735, 737, 740, 739, 738, 742, 743, 745, 747, 749, 751, 753, 756, 757, 760, 759, 763, 766, 768, 767, 771, 770, 774, 775, 777, 779, 778, 783, 782, 784, 785, 788, 792, 794, 802, 801, 805, 803, 807, 806, 809, 808, 810, 811, 914, 918, 919, 920, 925, 930, 933, 940] }
+                    ],
+                    "else": { "caption": "その他", "content": [519, 520, 522, 671, 672, 798, 799, 800] }
+                }
+            },
+            {
+                "index": "20240726_1-3",
+                "name": "リリリゾ!! 支援 超ざくざくフェス",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "11回ガチャ10回限定", "item": [] },
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] },
+                        { "text": "メモリアメダル無し", "item": [] }
+                    ],
+                    "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_content": [
+                        { "need": [1, 11], "item": [ { "index": "exchange_costume_riririzo", "value": 1 } ] },
+                        { "need": [2, 22], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [3, 33], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [4, 44], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [5, 55], "item": [ { "index": "moon", "value": 1 } ] },
+                        { "need": [6, 66], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [7, 77], "item": [ { "index": "exchange_costume_pack-and-gacha-bonus-shien", "value": 1 } ] },
+                        { "need": [8, 88], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
+                        { "need": [9, 99], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [10, 110], "item": [ { "index": "moon", "value": 1 } ] }
+                    ]
+                },
+                "lineup": {
+                    "total_ratio": [100],
+                    "notice": ["★5メモリアはパック＆ガチャボーナス衣装解放と2023年以降登場のみ"],
+                    "pu": [
+                        { "caption": "ピックアップ", "ratio": [1.048], "content": [493, 496, 500, 504, 512, 526, 528, 529, 535, 550, 553, 559, 564, 568, 572, 574, 578, 580, 583, 587, 588, 591, 595, 598, 603, 612, 614, 625, 627, 634, 638, 643, 644, 650, 654, 662, 667, 666, 677, 682, 684, 685, 694, 699, 701, 702, 705, 710, 712, 717, 719, 722, 721, 725, 732, 734, 740, 741, 744, 747, 751, 750, 753, 758, 756, 759, 763, 766, 764, 768, 770, 773, 775, 777, 778, 781, 786, 788, 792, 794, 784, 801, 804, 805, 806, 808, 809, 811, 924, 927, 929, 931, 932, 937, 938] }
+                    ],
+                    "else": { "caption": "その他", "content": [518, 521, 671, 672, 799] }
+                }
+            },
+            {
+                "index": "20240726_1-4",
+                "name": "リリリゾ!! 妨害 超ざくざくフェス",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "11回ガチャ10回限定", "item": [] },
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] },
+                        { "text": "メモリアメダル無し", "item": [] }
+                    ],
+                    "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_content": [
+                        { "need": [1, 11], "item": [ { "index": "exchange_costume_riririzo", "value": 1 } ] },
+                        { "need": [2, 22], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [3, 33], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [4, 44], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [5, 55], "item": [ { "index": "moon", "value": 1 } ] },
+                        { "need": [6, 66], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [7, 77], "item": [ { "index": "exchange_costume_pack-and-gacha-bonus-bougai", "value": 1 } ] },
+                        { "need": [8, 88], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
+                        { "need": [9, 99], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [10, 110], "item": [ { "index": "moon", "value": 1 } ] }
+                    ]
+                },
+                "lineup": {
+                    "total_ratio": [100],
+                    "notice": ["★5メモリアはパック＆ガチャボーナス衣装解放と2023年以降登場のみ"],
+                    "pu": [
+                        { "caption": "ピックアップ", "ratio": [1.131], "content": [492, 495, 501, 513, 517, 524, 531, 539, 551, 554, 560, 569, 573, 576, 579, 581, 584, 586, 589, 592, 594, 597, 601, 602, 605, 607, 610, 624, 633, 635, 639, 642, 646, 648, 649, 651, 653, 659, 664, 668, 676, 696, 698, 704, 706, 709, 713, 717, 716, 718, 720, 724, 733, 737, 736, 740, 742, 745, 743, 747, 749, 752, 757, 755, 760, 763, 765, 767, 770, 771, 774, 776, 779, 783, 784, 782, 786, 788, 793, 802, 803, 806, 807, 808, 810, 923, 926, 934] }
+                    ],
+                    "else": { "caption": "その他", "content": [519, 520, 670, 673, 797, 800] }
+                }
+            },
+            {
+                "index": "20240726_1-5",
+                "name": "リリリゾ!! 回復 超ざくざくフェス",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "11回ガチャ10回限定", "item": [] },
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] },
+                        { "text": "メモリアメダル無し", "item": [] }
+                    ],
+                    "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_content": [
+                        { "need": [1, 11], "item": [ { "index": "exchange_costume_riririzo", "value": 1 } ] },
+                        { "need": [2, 22], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [3, 33], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [4, 44], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [5, 55], "item": [ { "index": "moon", "value": 1 } ] },
+                        { "need": [6, 66], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [7, 77], "item": [ { "index": "exchange_costume_pack-and-gacha-bonus-kaifuku", "value": 1 } ] },
+                        { "need": [8, 88], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
+                        { "need": [9, 99], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [10, 110], "item": [ { "index": "moon", "value": 1 } ] }
+                    ]
+                },
+                "lineup": {
+                    "total_ratio": [100],
+                    "notice": ["★5メモリアはパック＆ガチャボーナス衣装解放と2023年以降登場のみ"],
+                    "pu": [
+                        { "caption": "ピックアップ", "ratio": [1.144], "content": [491, 497, 502, 505, 514, 525, 527, 530, 536, 538, 552, 555, 561, 570, 575, 577, 582, 599, 600, 604, 608, 609, 611, 615, 626, 636, 641, 645, 647, 652, 655, 660, 663, 665, 669, 675, 681, 683, 686, 695, 700, 703, 707, 711, 715, 718, 722, 725, 733, 737, 735, 739, 742, 745, 746, 749, 753, 756, 760, 762, 766, 768, 771, 769, 774, 777, 775, 779, 782, 783, 786, 787, 792, 794, 801, 802, 805, 803, 804, 807, 809, 811, 810, 922, 935, 936, 939] }
+                    ],
+                    "else": { "caption": "その他", "content": [522, 674, 796, 798] }
+                }
+            }
+        ]
+    },
+    {
         "start": "2024/7/24(水) 12:00",
         "finish": "2024/8/4(日) 23:59",
         "type": "その他のガチャ",

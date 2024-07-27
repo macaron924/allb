@@ -373,6 +373,11 @@
         { "index": "exchange_costume_wedding", "name": "2024年ウェディング記念衣装引換券", "link": true },
         { "index": "exchange_costume_premium_202404", "name": "プレミア衣装引換券", "link": true },
         { "index": "exchange_costume_premium_202406", "name": "プレミア衣装引換券6月", "link": true },
+        { "index": "exchange_costume_pack-and-gacha-bonus-tsuujou", "name": "パック＆ガチャボーナス衣装引換券【通常前衛】", "link": true },
+        { "index": "exchange_costume_pack-and-gacha-bonus-tokushu", "name": "パック＆ガチャボーナス衣装引換券【特殊前衛】", "link": true },
+        { "index": "exchange_costume_pack-and-gacha-bonus-shien", "name": "パック＆ガチャボーナス衣装引換券【支援】", "link": true },
+        { "index": "exchange_costume_pack-and-gacha-bonus-bougai", "name": "パック＆ガチャボーナス衣装引換券【妨害】", "link": true },
+        { "index": "exchange_costume_pack-and-gacha-bonus-kaifuku", "name": "パック＆ガチャボーナス衣装引換券【回復】", "link": true },
         { "index": "exchange_costume_ad-pendant", "name": "ADペンダントメダルセレクトチケット", "link": true }
     ],
     "exchange_memoria": [

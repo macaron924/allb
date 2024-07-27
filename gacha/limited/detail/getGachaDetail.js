@@ -1,3 +1,16 @@
+$("#costume-filter-btn").on("click", function () {//タイトル要素をクリックしたら
+    let thisClass = $(this).attr("class");
+    if (thisClass.includes("active")) {
+        $(this).removeClass("active");
+        document.getElementById("lineup").classList.remove("only-with-costume");
+        checkOnly = false;
+    } else {
+        $(this).addClass("active");
+        document.getElementById("lineup").classList.add("only-with-costume");
+        checkOnly = true;
+    }
+});
+
 /**
  * アイテム情報を取得する関数
 

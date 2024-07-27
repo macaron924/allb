@@ -5,3 +5,11 @@
 p#total-ratio, p#total-lineup {
     display: inline;
 }
+
+#lineup.only-with-costume .flex_memoria-item {
+    display: none;
+}
+
+#lineup.only-with-costume .flex_memoria-item.with-costume {
+    display: block;
+}
