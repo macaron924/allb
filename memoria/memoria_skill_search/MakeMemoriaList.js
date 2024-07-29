@@ -779,13 +779,6 @@ function makeTable() {
             let tdLmDetail = document.createElement("td");
             let tdHojoName = document.createElement("td");
             let tdHojoDetail = document.createElement("td");
-            // 各スキル列のclass
-            tdVshugeName.className = "vshugeRow";
-            tdVshugeDetail.className = "vshugeRow";
-            tdLmName.className = "lmRow";
-            tdLmDetail.className = "lmRow";
-            tdHojoName.className = "hojoRow";
-            tdHojoDetail.className = "hojoRow";
             // サムネ画像要素の追加
             let img = document.createElement("img");
             img.src = "../../images/memoria/memoria_" + id + ".webp";
@@ -811,7 +804,7 @@ function makeTable() {
             // 対ヒュージスキル
             let vshuge_name = skill_names[0];
             let vshuge = getSkillInfoFromName(skill_yakuwari, vshuge_name);
-            tdVshugeName.classList.add("skill_name");
+            //tdVshugeName.classList.add("skill_name");
             if (vshuge == "") {
                 tdVshugeName.innerHTML = "<nobr>" + vshuge_name + "</nobr><br>" + "";
                 tdVshugeDetail.innerHTML = "";
@@ -823,7 +816,7 @@ function makeTable() {
             // レギマスキル
             let lm_name = skill_names[1];
             let lm = getSkillInfoFromName(skill_yakuwari, lm_name);
-            tdLmName.classList.add("skill_name");
+            //tdLmName.classList.add("skill_name");
             if (lm == "") {
                 tdLmName.innerHTML = "<nobr>" + lm_name + "</nobr><br>" + "";
                 tdLmDetail.innerHTML = "";
@@ -835,7 +828,7 @@ function makeTable() {
             // 補助スキル
             let hojo_name = skill_names[2];
             let hojo = getHojoSkillInfoFromName(hojo_name);
-            tdHojoName.classList.add("skill_name");
+            //tdHojoName.classList.add("skill_name");
             if (hojo == "") {
                 tdHojoName.innerHTML = "<nobr>" + hojo_name + "</nobr><br>" + "";
                 tdHojoDetail.innerHTML = "";
@@ -843,6 +836,13 @@ function makeTable() {
                 tdHojoName.innerHTML = "<nobr>" + hojo_name + "</nobr><br>" + hojo["effect_detail"];
                 tdHojoDetail.innerHTML = createHojoSkillDetailFromName(hojo["tag"]);
             }
+            // 各スキル列のclass
+            tdVshugeName.className = "vshugeRow skill_name";
+            tdVshugeDetail.className = "vshugeRow";
+            tdLmName.className = "lmRow skill_name";
+            tdLmDetail.className = "lmRow";
+            tdHojoName.className = "hojoRow skill_name";
+            tdHojoDetail.className = "hojoRow";
             // td要素をtr要素の子要素に追加
             tr.appendChild(tdId);
             tr.appendChild(tdName);
