@@ -2866,5 +2866,25 @@
     "717": {
         "chara": 105, "yakuwari": 3, "name": "リリリゾ!!サンシャイン(特殊単体)",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "718": {
+        "chara": 40, "yakuwari": 7, "name": "リリリゾ!!サンシャイン",
+        "percent": 7.5, "parameter": [["Sp.DEF", 1550], ["DEF", 1500]], "ex": [["火UP", 5], ["風耐性", 5], ["火メモリア補助発動率UP", 2]]
+    },
+    "719": {
+        "chara": 68, "yakuwari": 2, "name": "リリリゾ!!サンシャイン",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    "720": {
+        "chara": 74, "yakuwari": 4, "name": "リリリゾ!!サンシャイン",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5], ["風耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "721": {
+        "chara": 73, "yakuwari": 2, "name": "リリリゾ!!サンシャイン",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["火耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "722": {
+        "chara": 120, "yakuwari": 6, "name": "リリリゾ!!サンシャイン",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5]]
     }
 }
