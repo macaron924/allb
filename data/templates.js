@@ -49,7 +49,7 @@
     ,
     "id": {
         "name": "",
-        "zokusei": , "cost": , "costume": , "legendary": "", "illustration": { "type": "", "chara": [] },
+        "zokusei": , "cost": , "costume": , "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [] },
         "get_rank": "", "category": { "c1": "", "c2": "", "c3": [] },
         "skill": [
             { "yakuwari": , "name": ["", "", ""] },

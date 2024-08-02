@@ -107,6 +107,8 @@
         { "index": "gacha-ticket_life-assist", "name": "ライフアシストスキル★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_wedding", "name": "ウェディング記念★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_wedding-kakutei", "name": "ウェディングメモリア100%!!★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_happy-summer", "name": "ハッピーサマー記念★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_swimsuit-kakutei", "name": "水着メモリア100%!!★5確定ガチャチケット", "link": true },
         
         { "index": "gacha-ticket_202212-event-1", "name": "聖夜へ捧ぐサプライズ★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202212-event-2", "name": "凍て空の流星★5確定ガチャチケットⅡ", "link": false },
@@ -181,7 +183,8 @@
         { "index": "gacha-ticket_202406-event-1", "name": "追憶のリグレット★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202406-event-2", "name": "ドレスアップ・ハッピネス★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202407-event-1", "name": "悠久のレミニセンス★5確定ガチャチケット", "link": false },
-        { "index": "gacha-ticket_202407-event-2", "name": "Peaceful Vacance★5確定ガチャチケット", "link": false }
+        { "index": "gacha-ticket_202407-event-2", "name": "Peaceful Vacance★5確定ガチャチケット", "link": false },
+        { "index": "gacha-ticket_202408-event-1", "name": "Twilight Paradise★5確定ガチャチケット", "link": false }
     ],
     "exchange_pendant_ex": [
         { "index": "exchange_pendant-ex_202212-event-1", "name": "聖夜へ捧ぐサプライズペンダントEX交換券", "link": false },
@@ -266,6 +269,7 @@
         { "index": "exchange_pendant-ex_202406-event-2", "name": "ドレスアップ・ハッピネスペンダントEX交換券", "link": false },
         { "index": "exchange_pendant-ex_202407-event-1", "name": "悠久のレミニセンスペンダントEX交換券", "link": false },
         { "index": "exchange_pendant-ex_202407-event-2", "name": "Peaceful VacanceペンダントEX交換券", "link": false },
+        { "index": "exchange_pendant-ex_202408-event-1", "name": "Twilight ParadiseペンダントEX交換券", "link": false },
 
         { "index": "exchange_pendant-ex_xmas", "name": "Xmas記念ペンダントEX交換券", "link": true },
         { "index": "exchange_pendant-ex_xmas-cuelebre", "name": "Xmas記念クエレブレペンダントEX交換券", "link": true },
@@ -323,6 +327,7 @@
         { "index": "exchange_costume_ririsama-2", "name": "トロピカルナイト衣装引換券", "link": true },
         { "index": "exchange_costume_ririsama-3", "name": "ギガントウェーブ衣装引換券", "link": true },
         { "index": "exchange_costume_riririzo-1", "name": "3.5周年 Peaceful Vacance衣装引換券", "link": true },
+        { "index": "exchange_costume_riririzo-2", "name": "3.5周年 Twilight Paradise衣装引換券", "link": true },
         { "index": "exchange_costume_dream", "name": "3rdAnniv.DREAM!衣装引換券", "link": true },
         { "index": "exchange_costume_dream-1", "name": "3rdAnniv.DREAMプレシャス衣装引換券", "link": true },
         { "index": "exchange_costume_dream-2", "name": "3rdAnniv.DREAMミスティック衣装引換券", "link": true },
@@ -332,11 +337,13 @@
         { "index": "exchange_costume_id-506-512", "name": "天葉/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-506-512_202406", "name": "天葉/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-506-512_202407", "name": "天葉/ドリーミィパレード衣装引換券", "link": false },
+        { "index": "exchange_costume_id-506-512_202408", "name": "天葉/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-519-525", "name": "高嶺/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-528-534", "name": "恋花/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-536-542", "name": "幸恵/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-536-542_202406", "name": "幸恵/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-536-542_202407", "name": "幸恵/ドリーミィパレード衣装引換券", "link": false },
+        { "index": "exchange_costume_id-536-542_202408", "name": "幸恵/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-546-552", "name": "純/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-555-561", "name": "弥宏/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-562-568", "name": "紅巴/ドリーミィパレード衣装引換券", "link": false },
@@ -357,11 +364,13 @@
         { "index": "exchange_costume_id-672-673", "name": "神琳＆雨嘉/ミラージュマリアージュアドバンス衣装引換券", "link": false },
         { "index": "exchange_costume_id-694-695", "name": "八雲/SSバスター＆エレンスゲ校長服AD衣装引換券", "link": false },
         { "index": "exchange_costume_id-705-706", "name": "美鈴AD衣装引換券[華舞う砂浜]", "link": false },
+        { "index": "exchange_costume_id-720-721", "name": "結爾/蒔菜AD衣装引換券[二人のセーブポイント]", "link": false },
         { "index": "exchange_costume_202405-event-2", "name": "暴姫のカンパニュラAD衣装引換券", "link": false },
         { "index": "exchange_costume_202406-event-1", "name": "追憶のリグレットAD衣装引換券", "link": false },
         { "index": "exchange_costume_202406-event-3", "name": "Cherish Lily’s WeddingAD衣装引換券", "link": false },
         { "index": "exchange_costume_202407-fes", "name": "サマースクールフェスAD衣装引換券", "link": false },
         { "index": "exchange_costume_202407-event-2", "name": "Peaceful VacanceAD衣装引換券", "link": false },
+        { "index": "exchange_costume_202408-event-1", "name": "Twilight ParadiseAD衣装引換券", "link": false },
         { "index": "exchange_costume_id-584-586", "name": "Dreamin’☆Party衣装引換券", "link": false },
 
         { "index": "exchange_costume_xmas", "name": "Xmas記念衣装引換券", "link": true },
@@ -539,7 +548,8 @@
         { "index": "exchange_pendant-ad_202406-event-1", "name": "追憶のリグレットADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202406-event-3", "name": "Cherish Lily’s WeddingADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202407-fes", "name": "サマースクールフェスADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202407-event-2", "name": "Peaceful VacanceADペンダント交換券", "link": false }
+        { "index": "exchange_pendant-ad_202407-event-2", "name": "Peaceful VacanceADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202408-event-1", "name": "Twilight ParadiseADペンダント交換券", "link": false }
     ],
     "medal_bonus": [
         { "index": "medal_bonus_202212", "name": "ボーナスメダルⅫ", "link": false },

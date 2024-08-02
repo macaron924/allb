@@ -140,7 +140,8 @@
         "138": { "charaName": "八雲", "charaFullName":"高島八雲", "charaJump": "yakumo", "specialSkill":"", "playable": true },
         "139": { "charaName": "藍", "charaFullName":"佐々木藍", "charaJump": "", "specialSkill":"マグスルナティック", "playable": true },
         "140": { "charaName": "美鈴", "charaFullName":"川添美鈴", "charaJump": "misuzu", "specialSkill":"", "playable": true },
-        "1001": { "charaName": "菖蒲", "charaFullName":"菖蒲", "charaJump": "", "specialSkill":"", "playable": false }
+        "1001": { "charaName": "菖蒲", "charaFullName":"菖蒲", "charaJump": "", "specialSkill":"", "playable": false },
+        "1002": { "charaName": "燈", "charaFullName":"燈", "charaJump": "", "specialSkill":"", "playable": false }
         
     },[
         { "belong": "百合ヶ丘女学院／一柳隊", "playable": true, "chara": [1, 30, 2, 107, 3, 132, 4, 130, 5, 55, 113, 6, 7, 8, 9, 35] },
