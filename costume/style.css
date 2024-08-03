@@ -115,6 +115,7 @@ img {
 
 
 .flex_costumeDetail-item {
+    white-space: normal;
     padding: 1rem;
     color: #000;
     background-color: #fff;
