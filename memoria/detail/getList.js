@@ -34,12 +34,65 @@ $(document).on("click", "button.mode-btn", function () {
     }
 });
 
+$(document).on("click", "#skill_icon img.able", function () {
+    const yakuwari = this.id.split("_")[1];
+    let allDetail = Array.from(document.getElementById("skill_detail").children);
+    allDetail.forEach(element => {
+        element.classList.remove("active");
+    });
+    let allIcon = Array.from(document.getElementById("skill_icon").children);
+    allIcon.forEach(element => {
+        element.classList.remove("active");
+    });
+    document.getElementById(`skill_${yakuwari}`).classList.add("active");
+    document.getElementById(`icon_${yakuwari}`).classList.add("active");
+    return yakuwari;
+});
+
+// 役割とスキル名をもとに情報を取得
+function getSkillNameFromName(yakuwari, skillName) {
+    let skillGroup = skillJson[yakuwari - 1]; // 役割をもとに探索する対象を限定する
+    if (skillGroup == "") return "";
+    for (let i = 0; i < skillGroup.length; i++) { // 名前が一致するスキルを探す
+        if (skillName == skillGroup[i]["name"]) return skillGroup[i]["effect_detail"]; // 名前が一致したらそれを返す
+    }
+    return "";
+}
+
+// 頭文字と補助スキル名をもとに情報を取得
+function getHojoSkillNameFromName(skillName) {
+    let hojoGroup;
+    let hojoPrefix = skillName[0];
+    switch (hojoPrefix) { // 頭文字をもとに探索する対象を限定する
+        case "攻":
+            hojoGroup = hojoJson[0];
+            break;
+        case "援":
+            hojoGroup = hojoJson[1];
+            break;
+        case "回":
+            hojoGroup = hojoJson[2];
+            break;
+        case "コ":
+            hojoGroup = hojoJson[3];
+            break;
+        default:
+            hojoGroup = "";
+    }
+    for (let i = 0; i < hojoGroup.length; i++) { // 名前が一致するスキルを探す
+        if (skillName == hojoGroup[i]["name"]) return hojoGroup[i]["effect_detail"]; // 名前が一致したらそれを返す
+    }
+    return "";
+}
+
 // データ取得
 const gachaTicketJson = loadData("../../data/gacha-ticket_data.json");
 const gachaDaily11 = loadData("../../data/gacha_data/gacha-daily11.json");
 const gachaFree = loadData("../../data/gacha_data/gacha-free.json");
 const gachaLimitedList = getLimitedGachaData(2);
 const exchangeDataJson = loadData("../../data/exchange_data.json");
+const skillJson = loadData("../../data/memoria_skill.json");
+const hojoJson = loadData("../../data/memoria_hojo.json");
 
 // URLパラメータ取得
 const url = new URL(window.location.href);
@@ -135,6 +188,47 @@ document.getElementById("memoria_list").appendChild(getMemoriaList(Object.keys(m
 if (memoriaSelection != null) {
     let id = memoriaSelection;
     let idnum = parseInt(id);
+
+    const thisSkill = memoriaJson[id]["skill"];
+    for (let i in thisSkill) {
+        const yakuwari = thisSkill[i]["yakuwari"];
+        const [vsh, lm, hojo] = thisSkill[i]["name"];
+        document.getElementById(`icon_${yakuwari}`).classList.add("able");
+        //document.getElementById(`skill_${yakuwari}`).innerText = `${vsh}, ${lm}, ${hojo}`;
+
+        let vshBox = document.createElement("div");
+        let vshName = document.createElement("div");
+        vshName.innerText = `対ヒュージスキル: ${vsh}`;
+        vshBox.appendChild(vshName);
+        let vshDetail = document.createElement("div");
+        vshDetail.innerText = getSkillNameFromName(yakuwari, vsh);
+        vshBox.appendChild(vshDetail);
+        
+        let lmBox = document.createElement("div");
+        let lmName = document.createElement("div");
+        lmName.innerText = `レギオンマッチスキル: ${lm}`;
+        lmBox.appendChild(lmName);
+        let lmDetail = document.createElement("div");
+        lmDetail.innerText = getSkillNameFromName(yakuwari, lm);
+        lmBox.appendChild(lmDetail);
+
+        let hojoBox = document.createElement("div");
+        let hojoName = document.createElement("div");
+        hojoName.innerText = `補助スキル: ${hojo}`;
+        hojoBox.appendChild(hojoName);
+        let hojoDetail = document.createElement("div");
+        hojoDetail.innerText = getHojoSkillNameFromName(hojo);
+        hojoBox.appendChild(hojoDetail);
+
+        document.getElementById(`skill_${yakuwari}`).appendChild(vshBox);
+        document.getElementById(`skill_${yakuwari}`).appendChild(lmBox);
+        document.getElementById(`skill_${yakuwari}`).appendChild(hojoBox);
+        
+        if (i == 0) {
+            document.getElementById(`skill_${yakuwari}`).classList.add("active");
+            document.getElementById(`icon_${yakuwari}`).classList.add("active");
+        }
+    }
 
     //let text = "";
     let judge = false;

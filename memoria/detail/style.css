@@ -98,3 +98,33 @@ hr {
 #result_info.active, #result_gachas.active, #result_exchanges.active {
     display: block;
 }
+
+#skill_icon img {
+    height: 4rem;
+    width: 4rem;
+    opacity: 0.3;
+}
+
+#skill_icon img.able {
+    opacity: 1;
+}
+
+#skill_icon img.active {
+    border: #00bfff solid 0.5rem;
+}
+
+#skill_detail>div {
+    display: none;
+}
+
+#skill_detail>div>div {
+    padding: 1rem;
+}
+
+#skill_detail>div>div>div:first-child {
+    font-weight: bold;
+}
+
+#skill_detail .active {
+    display: block;
+}

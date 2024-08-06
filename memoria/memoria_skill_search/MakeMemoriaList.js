@@ -467,7 +467,7 @@ function getSkillInfoFromName(yakuwari, skillName) {
 // 頭文字と補助スキル名をもとに情報を取得
 function getHojoSkillInfoFromName(skillName) {
     let hojoJson;
-    let hojoPrefix = skillName[0]
+    let hojoPrefix = skillName[0];
     switch (hojoPrefix) { // 頭文字をもとに探索する対象を限定する
         case "攻":
             hojoJson = hojoJsonCopy[0];
