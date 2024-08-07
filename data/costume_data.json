@@ -2890,5 +2890,17 @@
     "723": {
         "chara": 25, "yakuwari": 5, "name": "リリティカルサマー",
         "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 5], ["水耐性", 5], ["火メモリア補助発動率UP", 2]]
+    },
+    "724": {
+        "chara": 22, "yakuwari": 4, "name": "リリティカルサマー",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    "725": {
+        "chara": 24, "yakuwari": 6, "name": "リリティカルサマー",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["水耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "726": {
+        "chara": 21, "yakuwari": 7, "name": "リリティカルサマー",
+        "percent": 15, "parameter": [["Sp.DEF", 3000], ["DEF", 3000]], "ex": [["風UP", 5]]
     }
 }
