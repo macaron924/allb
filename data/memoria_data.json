@@ -5827,7 +5827,7 @@
         "zokusei": 1, "cost": 21, "costume": 0, "legendary": "リーグ", "illustration": { "type": "", "illustrator": "", "chara": [25] },
         "get_rank": "非ガチャ産", "category": { "c1": "レジェンダリー", "c2": "レギオンリーグ", "c3": ["2nd"] },
         "skill": [
-            { "yakuwari": 4, "name": ["Sp.ガードバーストD LG", "Sp.ガードバーストD LG", "攻:ダメージUP Ⅲ"] }
+            { "yakuwari": 4, "name": ["Sp.ガードバーストD LG", "Sp.ガードバーストD LG", "攻:ダメージUP/Sp.ガードDOWN Ⅲ"] }
         ]
     },
     "679": {
