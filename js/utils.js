@@ -155,15 +155,17 @@ function getMemoriaBox(id, depth) {
     flexitem.className = "flex_memoria-item";
 
     let memoriaCostumeId = memoriaJson[id]["costume"];
-    if (memoriaCostumeId > 0) {
+    if (memoriaCostumeId.length > 0) {
         flexitem.classList.add("with-costume");
 
         let switchIcon = document.createElement("div");
         switchIcon.className = "switch-icon";
         flexitem.appendChild(switchIcon);
 
-        let costumeBox = getCostumeBox(memoriaCostumeId, depth)
-        flexitem.appendChild(costumeBox);
+        for (let i in memoriaCostumeId) {
+            let costumeBox = getCostumeBox(memoriaCostumeId[i], depth)
+            flexitem.appendChild(costumeBox);
+        }
     }
 
     let memoriaBox = document.createElement("div");
