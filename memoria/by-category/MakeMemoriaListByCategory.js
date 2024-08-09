@@ -70,6 +70,11 @@ let categories = [
         "content": []
     },
     {
+        "c1": "アイテム獲得メモリア",
+        "index": "item-get",
+        "content": []
+    },
+    {
         "c1": "シリアルコード",
         "index": "code",
         "content": []

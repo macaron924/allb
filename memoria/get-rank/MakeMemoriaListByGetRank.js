@@ -156,6 +156,12 @@ let ranks = [
         "content": []
     },
     {
+        "rank": "アイテム獲得メモリア",
+        "index": "item-get",
+        "summary": "",
+        "content": []
+    },
+    {
         "rank": "非ガチャ産",
         "index": "not-gacha",
         "summary": "",
