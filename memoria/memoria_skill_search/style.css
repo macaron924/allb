@@ -54,6 +54,20 @@
     background: #77ddff;
 }
 
+.select-btn.check-only.active {
+    background: #00bfff;
+}
+
+#memoria-name {
+    display: block;
+    background-color: #ffffff;
+    cursor: text;
+}
+
+#memoria-name:hover {
+    cursor: text;
+}
+
 
 /*メインの表*/
 
@@ -115,6 +129,11 @@
 
 #maintable tr>*:last-child {
     border-right: 0.2rem solid #000000;
+}
+
+#maintable input.check {
+    height: 3rem;
+    width: 3rem;
 }
 
 #maintable .yakuwari_img, .battle_icon {
