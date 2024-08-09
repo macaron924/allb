@@ -13,6 +13,11 @@ $("#chara-open-btn").click(function () { // キャラ選択表示ボタンがク
     $("#chara_list").toggleClass("active"); // chara_listにactiveクラスを付与(リストopen)
 });
 
+$("#costume-name").change(function () { // 名前入力変更時
+    document.getElementById("filter-btn").className = "not-changed";
+    document.getElementById("filter-btn").value = "未反映";
+});
+
 $(".select-btn").click(function () { // 選択ボタンがクリックされたら
     $(this).toggleClass("active"); // 自身にactiveクラスを付与(色付け)
     document.getElementById("filter-btn").className = "not-changed";
@@ -55,6 +60,11 @@ function runButtonPushAction() {
     makeList();
     document.getElementById("filter-btn").className = "";
     document.getElementById("filter-btn").value = "反映済み";
+}
+
+function nameFilter(id) {
+    if (costumeJson[id]["name"].includes(filterName)) return true;
+    return false;
 }
 
 function percentFilter(id) {
@@ -135,6 +145,8 @@ function charaFilter(id) {
 }
 
 function filter(id) {
+    filterName = document.getElementById("costume-name").value;
+    if (nameFilter(id) == false) return false;
     if (charaFilter(id) == false) return false;
     if (yakuwariFilter(id) == false) return false;
     if (percentFilter(id) == false) return false;
@@ -285,4 +297,5 @@ let parameterSelectionArray = [
     ["", "", ""]
 ];
 let exSelection = "";
+let filterName = "";
 makeList();

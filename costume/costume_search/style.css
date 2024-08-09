@@ -1,3 +1,13 @@
+#costume-name {
+    display: block;
+    background-color: #ffffff;
+    cursor: text;
+}
+
+#costume-name:hover {
+    cursor: text;
+}
+
 /*絞り込みメニュー*/
 
 #filter-menu_content {
