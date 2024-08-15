@@ -8488,5 +8488,35 @@
         "get_rank": "アイテム獲得メモリア", "category": { "c1": "アイテム獲得メモリア", "c2": "2024/8/9", "c3": [""] },
         "skill": [
         ]
+    },
+    "952": {
+        "name": "大人のバケーション",
+        "zokusei": 1, "cost": 23, "costume": [727, 728], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [115, 138] },
+        "get_rank": "季節 (推定)", "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "Exciting Utopia (2024/8/14～)", "c3": ["イベントガチャ"] },
+        "skill": [
+            { "yakuwari": 2, "name": ["マイトストライクD Ⅲ+", "メテオファイアパワーストライクD Ⅲ+", "攻:パワーUP/副攻:火パワーUP Ⅴ"] },
+            { "yakuwari": 4, "name": ["Sp.マイトバーストB Ⅳ+", "Sp.バリアファイアガードバーストB Ⅳ+", "攻:Sp.ガードDOWN/副攻:火ガードDOWN Ⅴ"] },
+            { "yakuwari": 5, "name": ["Sp.パワーアシストE Ⅳ", "Sp.メテオファイアパワーアシストE Ⅳ", "援:Sp.パワーUP/副援:火パワーUP Ⅴ"] }
+        ]
+    },
+    "953": {
+        "name": "エンジェル・サマー",
+        "zokusei": 3, "cost": 23, "costume": [729], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [133] },
+        "get_rank": "季節 (推定)", "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "Exciting Utopia (2024/8/14～)", "c3": ["イベントガチャ"] },
+        "skill": [
+            { "yakuwari": 7, "name": ["Sp.ガードヒールE Ⅳ", "Sp.バリアウィンドガードヒールE Ⅳ", "回:回復UP/副援:支援UP Ⅴ"] },
+            { "yakuwari": 4, "name": ["Sp.マイトスマッシュB Ⅳ+", "Sp.メテオウィンドパワースマッシュB Ⅳ+", "攻:ダメージUP/副攻:風パワーUP Ⅴ"] },
+            { "yakuwari": 6, "name": ["パワーフォールE Ⅳ", "[風攻]アニマワイドフォールE Ⅳ", "援:パワーDOWN/副援:風パワーDOWN Ⅴ"] }
+        ]
+    },
+    "954": {
+        "name": "ヒグレ・ユウグレ",
+        "zokusei": 3, "cost": 25, "costume": [730], "legendary": "ガチャ", "illustration": { "type": "", "illustrator": "", "chara": [103] },
+        "get_rank": "季節 (推定)", "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "Exciting Utopia (2024/8/14～)", "c3": ["イベントガチャ"] },
+        "skill": [
+            { "yakuwari": 6, "name": ["Sp.パワーフォールE Ⅳ", "[風攻]Sp.アニマワイドフォールE Ⅳ", "援:支援UP/副援:風パワーDOWN Ⅴ"] },
+            { "yakuwari": 2, "name": ["マイトブレイクB Ⅳ+", "風：ウィンドガードブレイクB Ⅳ+", "攻:ダメージUP/ガードDOWN Ⅴ"] },
+            { "yakuwari": 5, "name": ["WパワーアシストE Ⅳ", "WアニマパワーアシストE Ⅳ", "援:支援UP/副援:風パワーUP Ⅴ"] }
+        ]
     }
 }
