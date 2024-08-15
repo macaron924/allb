@@ -2902,5 +2902,21 @@
     "726": {
         "chara": 21, "yakuwari": 7, "name": "リリティカルサマー",
         "percent": 15, "parameter": [["Sp.DEF", 3000], ["DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    "727": {
+        "chara": 115, "yakuwari": 2, "name": "リリリゾ!!サンシャイン",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 5], ["火耐性", 5], ["火メモリア補助発動率UP", 2]]
+    },
+    "728": {
+        "chara": 138, "yakuwari": 4, "name": "リリリゾ!!サンシャイン",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5], ["水耐性", 5], ["火メモリア補助発動率UP", 2]]
+    },
+    "729": {
+        "chara": 133, "yakuwari": 7, "name": "リリリゾ!!サンシャイン",
+        "percent": 15, "parameter": [["Sp.DEF", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["火耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "730": {
+        "chara": 103, "yakuwari": 6, "name": "リリリゾ!!サンシャイン",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5]]
     }
 }
