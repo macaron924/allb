@@ -483,6 +483,7 @@
         { "index": "exchange_event-gacha-special_dream", "name": "3rd Anniv.イベントガチャスペシャル交換券", "link": true },
         { "index": "exchange_event-gacha-special_202404", "name": "イベントガチャスペシャル交換券", "link": true },
         { "index": "exchange_event-gacha-special_202406", "name": "イベントガチャスペシャル交換券6月", "link": true },
+        { "index": "exchange_event-gacha-special_riririzo", "name": "3.5周年イベントガチャスペシャル交換券", "link": true },
         
         { "index": "exchange_ultimate_1-select-zenei", "name": "アルティメットメモリア前衛交換券", "link": false },
         { "index": "exchange_ultimate_1-select-kouei", "name": "アルティメットメモリア後衛交換券", "link": false },
@@ -500,6 +501,8 @@
         { "index": "exchange_ultimate_2-select-kouei-3", "name": "アルティメットメモリア後衛交換券", "link": false },
         { "index": "exchange_ultimate_3-select-zenei-2", "name": "アルティメットメモリア前衛交換券6月", "link": false },
         { "index": "exchange_ultimate_3-select-kouei-2", "name": "アルティメットメモリア後衛交換券6月", "link": false },
+        { "index": "exchange_ultimate_4-select-zenei", "name": "3.5周年アルティメットメモリア前衛交換券", "link": false },
+        { "index": "exchange_ultimate_4-select-kouei", "name": "3.5周年アルティメットメモリア後衛交換券", "link": false },
         
         { "index": "exchange_brand-new", "name": "BRAND-NEW★5メモリア引換券", "link": false },
         { "index": "exchange_brand-new_202310-2", "name": "BRAND-NEW★5メモリア引換券10月Ⅱ", "link": false },
