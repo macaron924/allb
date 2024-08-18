@@ -8518,5 +8518,50 @@
             { "yakuwari": 2, "name": ["マイトブレイクB Ⅳ+", "風：ウィンドガードブレイクB Ⅳ+", "攻:ダメージUP/ガードDOWN Ⅴ"] },
             { "yakuwari": 5, "name": ["WパワーアシストE Ⅳ", "WアニマパワーアシストE Ⅳ", "援:支援UP/副援:風パワーUP Ⅴ"] }
         ]
+    },
+    "955": {
+        "name": "Ultimate Memoria -非道を穿つ弾丸-",
+        "zokusei": 1, "cost": 28, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [138] },
+        "get_rank": "アルティメットメモリア", "category": { "c1": "アルティメットメモリアガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2024/8/17～)", "c3": ["前衛ガチャ"] },
+        "skill": [
+            { "yakuwari": 2, "name": ["火：ガードブレイクD Ⅳ", "カウンタートライガードブレイクD Ⅳ+", "攻:ダメージUP Ⅴ+"] },
+            { "yakuwari": 6, "name": ["Sp.パワーフォールE Ⅴ", "Sp.SカウンタートライパワーフォールE Ⅴ", "援:支援UP Ⅴ+"] }
+        ]
+    },
+    "956": {
+        "name": "Ultimate Memoria -ファントム・ペイン-",
+        "zokusei": 3, "cost": 28, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [140] },
+        "get_rank": "アルティメットメモリア", "category": { "c1": "アルティメットメモリアガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2024/8/17～)", "c3": ["前衛ガチャ"] },
+        "skill": [
+            { "yakuwari": 4, "name": ["風：Sp.ガードバーストD Ⅳ", "Sp.SカウンタートライガードバーストD Ⅳ+", "コ:効果範囲+1"] },
+            { "yakuwari": 7, "name": ["Sp.ガードヒールE Ⅴ", "Sp.SカウンタートライガードヒールE Ⅴ", "コ:効果範囲+1"] }
+        ]
+    },
+    "957": {
+        "name": "Ultimate Memoria -花影-",
+        "zokusei": 1, "cost": 28, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [115] },
+        "get_rank": "アルティメットメモリア", "category": { "c1": "アルティメットメモリアガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2024/8/17～)", "c3": ["後衛ガチャ"] },
+        "skill": [
+            { "yakuwari": 5, "name": ["WパワーアシストE Ⅴ", "WSカウンターパワーアシストE Ⅴ", "コ:効果範囲+1"] },
+            { "yakuwari": 4, "name": ["火：Sp.ガードバーストD Ⅳ", "Sp.カウンタートライガードバーストD Ⅳ+", "攻:ダメージUP Ⅴ+"] }
+        ]
+    },
+    "958": {
+        "name": "Ultimate Memoria -闇晴らす魔術師-",
+        "zokusei": 3, "cost": 28, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [117] },
+        "get_rank": "アルティメットメモリア", "category": { "c1": "アルティメットメモリアガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2024/8/17～)", "c3": ["後衛ガチャ"] },
+        "skill": [
+            { "yakuwari": 6, "name": ["パワーフォールE Ⅴ", "SカウンタートライパワーフォールE Ⅴ", "コ:効果範囲+1"] },
+            { "yakuwari": 2, "name": ["風：ガードブレイクD Ⅳ", "SカウンタートライガードブレイクD Ⅳ+", "コ:効果範囲+1"] }
+        ]
+    },
+    "959": {
+        "name": "Ultimate Memoria -己が研鑽を放つ時-",
+        "zokusei": 1, "cost": 28, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [20] },
+        "get_rank": "アルティメットメモリア", "category": { "c1": "アルティメットメモリアガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2024/8/17～)", "c3": ["後衛ガチャ"] },
+        "skill": [
+            { "yakuwari": 7, "name": ["ガードヒールE Ⅴ", "SカウンタートライガードヒールE Ⅴ", "回:回復UP Ⅴ+"] },
+            { "yakuwari": 1, "name": ["マイトストライクA Ⅴ+", "カウンタートライパワーストライクA Ⅴ+", "攻:ダメージUP Ⅴ+"] }
+        ]
     }
 }
