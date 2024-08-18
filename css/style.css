@@ -164,6 +164,11 @@ main a:hover {
     position: relative;
 }
 
+.flex_memoria-item .yakuwari_img {
+    width: 2rem;
+    height: 2rem;
+}
+
 .flex_memoria-item .switch-icon {
     cursor: pointer;
 }

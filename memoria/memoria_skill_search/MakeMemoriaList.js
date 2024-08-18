@@ -255,7 +255,6 @@ function makeTable() {
             // td要素を生成
             let tdId = document.createElement("td");
             let tdName = document.createElement("td");
-            let tdYakuwari = document.createElement("td");
             let tdVshugeName = document.createElement("td");
             let tdVshugeDetail = document.createElement("td");
             let tdLmName = document.createElement("td");
@@ -279,6 +278,8 @@ function makeTable() {
             yakuwari_icon.loading = "lazy";
             // 画像
             tdId.appendChild(img);
+            // 役割アイコン
+            tdId.appendChild(yakuwari_icon);
             // リンク
             let p = document.createElement("p");
             let link = document.createElement("a");
@@ -288,8 +289,6 @@ function makeTable() {
             tdId.appendChild(p);
             // メモリア名
             tdName.textContent = memoriaJsonCopy[id]["name"];
-            // 役割アイコン
-            tdYakuwari.appendChild(yakuwari_icon);
             // 対ヒュージスキル
             let vshuge_name = skill_names[0];
             let vshuge = getSkillInfoFromName(skill_yakuwari, vshuge_name);
@@ -335,7 +334,6 @@ function makeTable() {
             // td要素をtr要素の子要素に追加
             tr.appendChild(tdId);
             tr.appendChild(tdName);
-            tr.appendChild(tdYakuwari);
             tr.appendChild(tdVshugeName);
             tr.appendChild(tdVshugeDetail);
             tr.appendChild(tdLmName);

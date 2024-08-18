@@ -136,7 +136,11 @@
     width: 3rem;
 }
 
-#maintable .yakuwari_img, .battle_icon {
+#maintable .yakuwari_img {
+    height: 3rem;
+}
+
+#maintable .battle_icon {
     height: 4rem;
 }
 

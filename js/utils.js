@@ -176,6 +176,17 @@ function getMemoriaBox(id, depth) {
     memoriaImg.loading = "lazy";
     memoriaBox.appendChild(memoriaImg);
 
+    let memoriaYakuwari = document.createElement("p");
+    let skills = memoriaJson[id]["skill"];
+    for (let i in skills) {
+        let yakuwari_icon = document.createElement("img");
+        yakuwari_icon.src = `${path}images/icon/yakuwari_${skills[i]["yakuwari"]}.webp`;
+        yakuwari_icon.className = "yakuwari_img";
+        yakuwari_icon.loading = "lazy";
+        memoriaYakuwari.appendChild(yakuwari_icon);
+    }
+    memoriaBox.appendChild(memoriaYakuwari);
+
     let memoriaJump = document.createElement("a");
     memoriaJump.href = `${path}memoria/detail/?memoriaID=${id}`;
     memoriaJump.innerText = "詳細＞＞";
