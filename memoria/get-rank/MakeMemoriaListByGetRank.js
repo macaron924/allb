@@ -163,25 +163,44 @@ let ranks = [
     }
 ]
 
-// jsonに格納
-for (let id in memoriaJson) {
-    for (let j = 0; j < ranks.length; j++) {
-        if (memoriaJson[id]["get_rank"] == ranks[j]["rank"]) {
-            ranks[j]["content"].push(id);
-            break;
+// データ取得
+const path = "../../";
+const urls = [
+    { dataName: "charaDataTemp", urlName: `${path}data/chara_data.json` },
+    { dataName: "costumeJson", urlName: `${path}data/costume_data.json` },
+    { dataName: "memoriaJson", urlName: `${path}data/memoria_data.json` }
+]
+
+const fetches = urls.map((url) => fetch(url.urlName).then(r => r.json()));
+
+Promise.all(fetches)
+    .then(result => {
+        // Process
+        let resultsObjects = {};
+        for (let i in urls) {
+            resultsObjects[urls[i].dataName] = result[i];
         }
-    }
-}
 
-function addLineup() {
-    for (let i = 0; i < ranks.length; i++) {
-        let jump = `<option value="#${ranks[i]["index"]}">${ranks[i]["rank"]}</option>`
-        document.getElementById("jump").insertAdjacentHTML("beforeend", jump);
-
-        let caption = `<br><h2 id=${ranks[i]["index"]}>${ranks[i]["rank"]}</h2>${ranks[i]["summary"]}`;
-        document.getElementById("list").insertAdjacentHTML("beforeend", caption);
-        document.getElementById("list").appendChild(getMemoriaList(ranks[i]["content"], 2));
-    }
-}
-
-addLineup();
+        // jsonに格納
+        for (let id in resultsObjects.memoriaJson) {
+            for (let j = 0; j < ranks.length; j++) {
+                if (resultsObjects.memoriaJson[id]["get_rank"] == ranks[j]["rank"]) {
+                    ranks[j]["content"].push(id);
+                    break;
+                }
+            }
+        }
+        
+        function addLineup() {
+            for (let i = 0; i < ranks.length; i++) {
+                let jump = `<option value="#${ranks[i]["index"]}">${ranks[i]["rank"]}</option>`
+                document.getElementById("jump").insertAdjacentHTML("beforeend", jump);
+        
+                let caption = `<br><h2 id=${ranks[i]["index"]}>${ranks[i]["rank"]}</h2>${ranks[i]["summary"]}`;
+                document.getElementById("list").insertAdjacentHTML("beforeend", caption);
+                document.getElementById("list").appendChild(getMemoriaList(resultsObjects, ranks[i]["content"]));
+            }
+        }
+        
+        addLineup();
+    })

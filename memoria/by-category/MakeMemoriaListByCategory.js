@@ -166,30 +166,48 @@ function addLineup() {
                 let captionC3 = `<h4>${c2[k]["c3"]}</h4>`;
                 document.getElementById("list").insertAdjacentHTML("beforeend", captionC3);
 
-                document.getElementById("list").appendChild(getMemoriaList(c2[k]["content"], 2));
+                document.getElementById("list").appendChild(getMemoriaList(resultsObjects, c2[k]["content"], 2));
             }
         }
     }
 }
 
+// データ取得
+const path = "../../";
+const urls = [
+    { dataName: "charaDataTemp", urlName: `${path}data/chara_data.json` },
+    { dataName: "costumeJson", urlName: `${path}data/costume_data.json` },
+    { dataName: "memoriaJson", urlName: `${path}data/memoria_data.json` }
+]
 
-// jsonに格納
-for (let id in memoriaJson) {
-    let memoriaC1 = memoriaJson[id]["category"]["c1"];
-    let memoriaC2 = memoriaJson[id]["category"]["c2"];
-    let memoriaC3 = memoriaJson[id]["category"]["c3"];
+const fetches = urls.map((url) => fetch(url.urlName).then(r => r.json()));
 
-    // 同じc1を探す
-    let searchC1res = searchC1(memoriaC1);
-    // c1から同じc2を探す
-    let searchC2res = searchC2(searchC1res, memoriaC2);
-
-    for (let j = 0; j < memoriaC3.length; j++) {
-        // c2から同じc3を探す
-        let searchC3res = searchC3(searchC2res, memoriaC3[j]);
-        // 格納
-        searchC3res.push(id)
-    }
-}
-
-addLineup();
+Promise.all(fetches)
+    .then(result => {
+        // Process
+        let resultsObjects = {};
+        for (let i in urls) {
+            resultsObjects[urls[i].dataName] = result[i];
+        }
+        
+        // jsonに格納
+        for (let id in resultsObjects.memoriaJson) {
+            let memoriaC1 = resultsObjects.memoriaJson[id]["category"]["c1"];
+            let memoriaC2 = resultsObjects.memoriaJson[id]["category"]["c2"];
+            let memoriaC3 = resultsObjects.memoriaJson[id]["category"]["c3"];
+        
+            // 同じc1を探す
+            let searchC1res = searchC1(memoriaC1);
+            // c1から同じc2を探す
+            let searchC2res = searchC2(searchC1res, memoriaC2);
+        
+            for (let j = 0; j < memoriaC3.length; j++) {
+                // c2から同じc3を探す
+                let searchC3res = searchC3(searchC2res, memoriaC3[j]);
+                // 格納
+                searchC3res.push(id)
+            }
+        }
+        
+        addLineup();
+    })

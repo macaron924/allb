@@ -78,11 +78,7 @@ function loadData(filePath) {
 }
 
 function getLimitedGachaData(depth) {
-    buildLoadScreen();
-    let path = "";
-    for (let i = 0; i < depth; i++) {
-        path += "../"
-    }
+    //buildLoadScreen();
     const gachaLimitedList = [];
 
     gachaLimitedList.push({ ref: loadData(path + "data/gacha_data/gacha-limited_202408.json"), index: 202408, active: true, group: "" });
@@ -111,7 +107,7 @@ function getLimitedGachaData(depth) {
     return gachaLimitedList;
 };
 
-function getMemoriaList(memoriaArray, depth) {
+function getMemoriaList(resultsObjects, memoriaArray) {
     // flexboxを生成
     let flexbox = document.createElement("div");
     flexbox.className = "flex_memoria-box";
@@ -120,14 +116,14 @@ function getMemoriaList(memoriaArray, depth) {
     for (let i in memoriaArray) {
 
         // flexitemをflexboxの子要素に追加
-        let flexitem = getMemoriaBox(memoriaArray[i], depth);
+        let flexitem = getMemoriaBox(resultsObjects, memoriaArray[i]);
         flexbox.appendChild(flexitem);
     }
 
     return flexbox;
 }
 
-function getCostumeList(costumeArray, depth) {
+function getCostumeList(resultsObjects, costumeArray) {
     // flexboxを生成
     let flexbox = document.createElement("div");
     flexbox.className = "flex_costume-box";
@@ -136,7 +132,7 @@ function getCostumeList(costumeArray, depth) {
     for (let i in costumeArray) {
 
         // flexitemをflexboxの子要素に追加
-        let flexitem = getCostumeBox(costumeArray[i], depth);
+        let flexitem = getCostumeBox(resultsObjects, costumeArray[i]);
         flexitem.className = "flex_costume-item";
         flexbox.appendChild(flexitem);
     }
@@ -144,17 +140,15 @@ function getCostumeList(costumeArray, depth) {
     return flexbox;
 }
 
-function getMemoriaBox(id, depth) {
-    let path = "";
-    for (let i = 0; i < depth; i++) {
-        path += "../"
-    }
+function getMemoriaBox(resultsObjects, id) {
+
+    const thisMemoria = resultsObjects.memoriaJson[id];
 
     // flexitemを生成
     let flexitem = document.createElement("div");
     flexitem.className = "flex_memoria-item";
 
-    let memoriaCostumeId = memoriaJson[id]["costume"];
+    let memoriaCostumeId = thisMemoria["costume"];
     if (memoriaCostumeId.length > 0) {
         flexitem.classList.add("with-costume");
 
@@ -163,7 +157,7 @@ function getMemoriaBox(id, depth) {
         flexitem.appendChild(switchIcon);
 
         for (let i in memoriaCostumeId) {
-            let costumeBox = getCostumeBox(memoriaCostumeId[i], depth)
+            let costumeBox = getCostumeBox(resultsObjects, memoriaCostumeId[i])
             flexitem.appendChild(costumeBox);
         }
     }
@@ -177,7 +171,7 @@ function getMemoriaBox(id, depth) {
     memoriaBox.appendChild(memoriaImg);
 
     let memoriaYakuwari = document.createElement("p");
-    let skills = memoriaJson[id]["skill"];
+    let skills = thisMemoria["skill"];
     for (let i in skills) {
         let yakuwari_icon = document.createElement("img");
         yakuwari_icon.src = `${path}images/icon/yakuwari_${skills[i]["yakuwari"]}.webp`;
@@ -193,7 +187,7 @@ function getMemoriaBox(id, depth) {
     memoriaBox.appendChild(memoriaJump);
 
     let memoriaName = document.createElement("p");
-    memoriaName.innerText = memoriaJson[id]["name"];
+    memoriaName.innerText = thisMemoria["name"];
     memoriaBox.appendChild(memoriaName);
 
     flexitem.appendChild(memoriaBox);
@@ -202,11 +196,9 @@ function getMemoriaBox(id, depth) {
 
 }
 
-function getCostumeBox(id, depth) {
-    let path = "";
-    for (let i = 0; i < depth; i++) {
-        path += "../";
-    }
+function getCostumeBox(resultsObjects, id) {
+
+    const thisCostume = resultsObjects.costumeJson[id];
 
     let costumeBox = document.createElement("div");
     costumeBox.className = "costume";
@@ -222,17 +214,13 @@ function getCostumeBox(id, depth) {
     costumeBox.appendChild(costumeJump);
 
     let costumeName = document.createElement("p");
-    costumeName.innerText = `${charaJson[costumeJson[id]["chara"]]["charaName"]} / ${costumeJson[id]["name"]}`;
+    costumeName.innerText = `${resultsObjects.charaDataTemp[0][thisCostume["chara"]]["charaName"]} / ${thisCostume["name"]}`;
     costumeBox.appendChild(costumeName);
 
     return costumeBox;
 }
 
-function getMedalBox(obj, depth) {
-    let path = "";
-    for (let i = 0; i < depth; i++) {
-        path += "../";
-    }
+function getMedalBox(obj) {
 
     let id = obj["index"];
     let name = obj["name"];
@@ -269,11 +257,7 @@ function getMedalBox(obj, depth) {
     return flexitem;
 }
 
-function getTicketBox(obj, depth) {
-    let path = "";
-    for (let i = 0; i < depth; i++) {
-        path += "../";
-    }
+function getTicketBox(obj) {
 
     let id = obj["index"];
     let name = obj["name"];

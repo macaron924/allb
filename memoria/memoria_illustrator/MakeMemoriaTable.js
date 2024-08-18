@@ -25,24 +25,24 @@ function charaSort() {
     document.getElementById("charaList").classList.remove("disable");
 }
 
-function makeIllustratorList(illustratorData) {
+function makeIllustratorList(resultsObjects, illustratorData) {
     for (let i in illustratorData) {
         let caption = `<br><h3>${illustratorData[i]["illustrator"]}</h3>`;
         document.getElementById("illustratorList").insertAdjacentHTML("beforeend", caption);
-        document.getElementById("illustratorList").appendChild(getMemoriaList(illustratorData[i]["memoria"], 2));
+        document.getElementById("illustratorList").appendChild(getMemoriaList(resultsObjects, illustratorData[i]["memoria"]));
     }
 }
 
-function makeCharaList(illustrationCharaData) {
+function makeCharaList(resultsObjects, illustrationCharaData) {
     for (let i in illustrationCharaData) {
-        let caption = `<br><h3><img src="../../images/chara/chara_${i}.webp" class="charaImg"> ${charaJson[i]["charaName"]}: ${illustrationCharaData[i].length}</h3>`;
+        let caption = `<br><h3><img src="../../images/chara/chara_${i}.webp" class="charaImg"> ${resultsObjects.charaDataTemp[0][i]["charaName"]}: ${illustrationCharaData[i].length}</h3>`;
         document.getElementById("charaList").insertAdjacentHTML("beforeend", caption);
-        document.getElementById("charaList").appendChild(getMemoriaList(illustrationCharaData[i], 2));
+        document.getElementById("charaList").appendChild(getMemoriaList(resultsObjects, illustrationCharaData[i]));
     }
 }
 
 // テーブル作成
-function makeTable() {
+function makeTable(resultsObjects, memoriaJsonCopy) {
 
     // table要素を生成
     let table = document.createElement("table");
@@ -84,11 +84,7 @@ function makeTable() {
         let tdIllustrator = document.createElement("td");
         // サムネ画像要素の追加
         let img = document.createElement("img");
-        if (mode == "lowrare") {
-            img.src = "../../images/low-rare-memoria/low-rare-memoria_" + id + ".webp";
-        } else {
-            img.src = "../../images/memoria/memoria_" + id + ".webp";
-        }
+        img.src = "../../images/memoria/memoria_" + id + ".webp";
         img.className = "memoria_img";
         img.loading = "lazy";
         // td要素内にテキストを追加
@@ -119,14 +115,12 @@ function makeTable() {
         }
 
         // リンク
-        if (mode != "lowrare") {
-            let p = document.createElement("p");
-            let link = document.createElement("a");
-            link.href = `../../memoria/detail/?memoriaID=${id}`;
-            link.innerText = "詳細＞＞";
-            p.appendChild(link);
-            tdId.appendChild(p);
-        }
+        let p = document.createElement("p");
+        let link = document.createElement("a");
+        link.href = `../../memoria/detail/?memoriaID=${id}`;
+        link.innerText = "詳細＞＞";
+        p.appendChild(link);
+        tdId.appendChild(p);
         // td要素をtr要素の子要素に追加
         tr.appendChild(tdId);
         tr.appendChild(tdName);
@@ -142,32 +136,42 @@ function makeTable() {
     // 検索結果件数表示
     document.getElementById("resultCount").replaceChildren(resultCount);
 
-    makeIllustratorList(illustratorData);
-    makeCharaList(illustrationCharaData);
+    makeIllustratorList(resultsObjects, illustratorData);
+    makeCharaList(resultsObjects, illustrationCharaData);
     //console.log(illustratorData);
     //console.log(illustrationCharaData);
 }
 
-// URLパラメータ取得
-const url = new URL(window.location.href);
-const params = url.searchParams;
+// データ取得
+const path = "../../";
+const urls = [
+    { dataName: "charaDataTemp", urlName: `${path}data/chara_data.json` },
+    { dataName: "costumeJson", urlName: `${path}data/costume_data.json` },
+    { dataName: "memoriaJson", urlName: `${path}data/memoria_data.json` }
+]
 
-// indexのパラメータ取得
-const mode = params.get("mode");
+const fetches = urls.map((url) => fetch(url.urlName).then(r => r.json()));
 
-// 初期化
-let memoriaJsonCopy = null;
-if (mode == "lowrare") {
-    memoriaJsonCopy = JSON.parse(JSON.stringify(lrmemoriaJson));
-    document.getElementById("low").classList.remove("active");
-    document.getElementById("high").classList.add("active");
-} else {
-    memoriaJsonCopy = JSON.parse(JSON.stringify(memoriaJson));
-}
-for (let id in memoriaJsonCopy) {
-    memoriaJsonCopy[id]["tr"] = "";
-}
-makeTable();
-let charaSelectionArray = [];
-let typeSelectionArray = [];
-let onlymode = false
+Promise.all(fetches)
+    .then(result => {
+        // Process
+        let resultsObjects = {};
+        for (let i in urls) {
+            resultsObjects[urls[i].dataName] = result[i];
+        }
+
+        // URLパラメータ取得
+        const url = new URL(window.location.href);
+        const params = url.searchParams;
+        
+        // indexのパラメータ取得
+        const mode = params.get("mode");
+        
+        // 初期化
+        let memoriaJsonCopy = JSON.parse(JSON.stringify(resultsObjects.memoriaJson));
+        for (let id in memoriaJsonCopy) {
+            memoriaJsonCopy[id]["tr"] = "";
+        }
+        makeTable(resultsObjects, memoriaJsonCopy);
+    })
+

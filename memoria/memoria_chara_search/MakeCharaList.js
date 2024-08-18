@@ -10,29 +10,33 @@ $(document).on("click", "button.chara", function () { // 選択ボタンがク�
     charaButtonPushAction(value);
 });
 
-function getChara(charaID) {
+function getChara(charaJson, charaID) {
     let charaName = charaJson[charaID]["charaName"];
     if (charaJson[charaID]["specialSkill"] != "") return [charaName, false];
     return [charaName, true];
 }
 
-let charaList = document.createElement("div");
-for (let i in charaBelongJson) {
-
-    let caption = document.createElement("h3");
-    caption.className = "belong";
-    caption.innerHTML = `<span>▶</span> ${charaBelongJson[i]["belong"]}`;
-    charaList.appendChild(caption);
-    let buttonBox = document.createElement("div");
-    buttonBox.className = "flex_btn-box";
-    for (let j in charaBelongJson[i]["chara"]) {
-
-        let [name, playable] = getChara(charaBelongJson[i]["chara"][j]);
-        if (playable == false) continue;
-
-        let buttonBoxItem = `<div class="flex_btn-item"><button class="chara" value="${charaBelongJson[i]["chara"][j]}"><img src="./../../images/chara/chara_${charaBelongJson[i]["chara"][j]}.webp"><p>${name}</p></button></div>`;
-        buttonBox.insertAdjacentHTML("beforeend", buttonBoxItem);
+function makeCharaList(resultsObjects) {
+    let charaList = document.createElement("div");
+    const charaJson = resultsObjects.charaDataTemp[0];
+    const charaBelongJson = resultsObjects.charaDataTemp[1];
+    for (let i in charaBelongJson) {
+    
+        let caption = document.createElement("h3");
+        caption.className = "belong";
+        caption.innerHTML = `<span>▶</span> ${charaBelongJson[i]["belong"]}`;
+        charaList.appendChild(caption);
+        let buttonBox = document.createElement("div");
+        buttonBox.className = "flex_btn-box";
+        for (let j in charaBelongJson[i]["chara"]) {
+    
+            let [name, playable] = getChara(charaJson, charaBelongJson[i]["chara"][j]);
+            if (playable == false) continue;
+    
+            let buttonBoxItem = `<div class="flex_btn-item"><button class="chara" value="${charaBelongJson[i]["chara"][j]}"><img src="./../../images/chara/chara_${charaBelongJson[i]["chara"][j]}.webp"><p>${name}</p></button></div>`;
+            buttonBox.insertAdjacentHTML("beforeend", buttonBoxItem);
+        }
+        charaList.appendChild(buttonBox);
     }
-    charaList.appendChild(buttonBox);
+    document.getElementById("chara_list").appendChild(charaList);
 }
-document.getElementById("chara_list").appendChild(charaList);
