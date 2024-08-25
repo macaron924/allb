@@ -6233,7 +6233,7 @@
         "zokusei": 1, "cost": 21, "costume": [], "legendary": "リーグ", "illustration": { "type": "", "illustrator": "", "chara": [22] },
         "get_rank": "非ガチャ産", "category": { "c1": "レジェンダリー", "c2": "レギオンリーグ", "c3": ["2nd"] },
         "skill": [
-            { "yakuwari": 6, "name": ["WパワーフォールE LG", "WパワーフォールE LG", "援:支援UP Ⅲ"] }
+            { "yakuwari": 6, "name": ["WパワーフォールE LG", "WパワーフォールE LG", "援:支援UP/Sp.パワーDOWN Ⅲ"] }
         ]
     },
     "724": {
