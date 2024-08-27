@@ -2918,5 +2918,9 @@
     "730": {
         "chara": 103, "yakuwari": 6, "name": "リリリゾ!!サンシャイン",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    "731": {
+        "chara": 28, "yakuwari": 5, "name": "リリティカルサマー",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5], ["風耐性", 5], ["風メモリア補助発動率UP", 2]]
     }
 }
