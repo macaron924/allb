@@ -109,6 +109,7 @@
         { "index": "gacha-ticket_wedding-kakutei", "name": "ウェディングメモリア100%!!★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_happy-summer", "name": "ハッピーサマー記念★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_swimsuit-kakutei", "name": "水着メモリア100%!!★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_odaiba-kamba", "name": "御台場＆神庭★5確定ガチャチケット", "link": true },
         
         { "index": "gacha-ticket_202212-event-1", "name": "聖夜へ捧ぐサプライズ★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202212-event-2", "name": "凍て空の流星★5確定ガチャチケットⅡ", "link": false },
@@ -325,6 +326,8 @@
         { "index": "exchange_costume_gigant_202401", "name": "ギガント級ヒュージ討伐衣装引換券 (1月)", "link": true },
         { "index": "exchange_costume_gigant-2", "name": "ギガント級ヒュージ討伐衣装引換券Ver.2 (2月)", "link": true },
         { "index": "exchange_costume_gigant-3", "name": "ギガント級ヒュージ討伐衣装引換券Ver.3 (3月)", "link": true },
+        { "index": "exchange_costume_gigant-4", "name": "ギガント級ヒュージ討伐衣装引換券Ver.4 (5月)", "link": true },
+        { "index": "exchange_costume_gigant-5", "name": "ギガント級ヒュージ討伐衣装引換券Ver.5 (8月)", "link": true },
         { "index": "exchange_costume_ririsama-1", "name": "GO!GO!スプラッシュ衣装引換券", "link": true },
         { "index": "exchange_costume_ririsama-2", "name": "トロピカルナイト衣装引換券", "link": true },
         { "index": "exchange_costume_ririsama-3", "name": "ギガントウェーブ衣装引換券", "link": true },
