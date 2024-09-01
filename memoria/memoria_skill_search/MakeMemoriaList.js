@@ -206,7 +206,6 @@ function makeTable() {
     // th要素を生成
     let thId = document.createElement("th");
     let thName = document.createElement("th");
-    let thYakuwari = document.createElement("th");
     let thVshuge = document.createElement("th");
     let thLm = document.createElement("th");
     let thHojo = document.createElement("th");
@@ -220,14 +219,12 @@ function makeTable() {
     // th要素内にテキストを追加
     thId.textContent = "画像";
     thName.textContent = "メモリア名";
-    thYakuwari.textContent = "役割";
     thVshuge.textContent = "対ヒュージスキル";
     thLm.textContent = "レギオンマッチスキル";
     thHojo.textContent = "レギオンマッチ補助スキル";
     // th要素をtr要素の子要素に追加
     tr.appendChild(thId);
     tr.appendChild(thName);
-    tr.appendChild(thYakuwari);
     tr.appendChild(thVshuge);
     tr.appendChild(thLm);
     tr.appendChild(thHojo);
