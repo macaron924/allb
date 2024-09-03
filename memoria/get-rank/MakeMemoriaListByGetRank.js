@@ -84,6 +84,12 @@ let ranks = [
         "content": []
     },
     {
+        "rank": "メインストーリー5章 (未復刻)",
+        "index": "main-story-5_est",
+        "summary": "",
+        "content": []
+    },
+    {
         "rank": "クリエイターズコラボフェス",
         "index": "creators_fes",
         "summary": "マンデーボーナスガチャには入らないがリリパス入り。",
