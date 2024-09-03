@@ -140,9 +140,12 @@
         "138": { "charaName": "八雲", "charaFullName":"高島八雲", "charaJump": "yakumo", "specialSkill":"", "playable": true },
         "139": { "charaName": "藍", "charaFullName":"佐々木藍", "charaJump": "", "specialSkill":"マグスルナティック", "playable": true },
         "140": { "charaName": "美鈴", "charaFullName":"川添美鈴", "charaJump": "misuzu", "specialSkill":"", "playable": true },
+        "141": { "charaName": "治", "charaFullName":"菱田治", "charaJump": "haru", "specialSkill":"", "playable": true },
+        "142": { "charaName": "紅", "charaFullName":"紅", "charaJump": "", "specialSkill":"", "playable": false },
+        "143": { "charaName": "治", "charaFullName":"菱田治", "charaJump": "", "specialSkill":"神宿り", "playable": true },
+        "144": { "charaName": "純", "charaFullName":"船田純", "charaJump": "", "specialSkill":"岬の狂月", "playable": true },
         "1001": { "charaName": "菖蒲", "charaFullName":"菖蒲", "charaJump": "", "specialSkill":"", "playable": false },
         "1002": { "charaName": "燈", "charaFullName":"燈", "charaJump": "", "specialSkill":"", "playable": false }
-        
     },[
         { "belong": "百合ヶ丘女学院／一柳隊", "playable": true, "chara": [1, 30, 2, 107, 3, 132, 4, 130, 5, 55, 113, 6, 7, 8, 9, 35] },
         { "belong": "百合ヶ丘女学院／アールヴヘイム", "playable": true, "chara": [21, 121, 22, 134, 23, 123, 24, 137, 25, 124, 26, 125, 27, 128, 28, 127, 29, 136, 118, 122, 119, 126, 120, 135] },
@@ -157,7 +160,7 @@
         { "belong": "エレンスゲ女学園／クエレブレ", "playable": true, "chara": [71, 93, 72, 85, 73, 86, 74, 94, 114, 103, 104] },
         { "belong": "エレンスゲ女学園／その他", "playable": true, "chara": [138] },
         { "belong": "神庭女子藝術高校／グラン・エプレ", "playable": true, "chara": [15, 16, 17, 18, 19, 67, 68, 69, 70] },
-        { "belong": "御台場女学校", "playable": true, "chara": [40, 41, 42, 43, 44] },
+        { "belong": "御台場女学校", "playable": true, "chara": [40, 144, 41, 42, 43, 44, 141, 143, 142] },
         { "belong": "私立ルドビコ女学院", "playable": true, "chara": [45, 46, 47, 48, 49] },
         { "belong": "私立ルドビコ女学院／教導官", "playable": false, "chara": [97] },
         { "belong": "ヘイムスクリングラ", "playable": true, "chara": [34] },

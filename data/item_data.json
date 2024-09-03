@@ -186,7 +186,8 @@
         { "index": "gacha-ticket_202407-event-1", "name": "悠久のレミニセンス★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202407-event-2", "name": "Peaceful Vacance★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202408-event-1", "name": "Twilight Paradise★5確定ガチャチケット", "link": false },
-        { "index": "gacha-ticket_202408-event-3", "name": "Exciting Utopia★5確定ガチャチケット", "link": false }
+        { "index": "gacha-ticket_202408-event-3", "name": "Exciting Utopia★5確定ガチャチケット", "link": false },
+        { "index": "gacha-ticket_202409-event-1", "name": "邂逅のヴァルキュリア★5確定ガチャチケット", "link": false }
     ],
     "exchange_pendant_ex": [
         { "index": "exchange_pendant-ex_202212-event-1", "name": "聖夜へ捧ぐサプライズペンダントEX交換券", "link": false },
@@ -344,12 +345,14 @@
         { "index": "exchange_costume_id-506-512_202406", "name": "天葉/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-506-512_202407", "name": "天葉/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-506-512_202408", "name": "天葉/ドリーミィパレード衣装引換券", "link": false },
+        { "index": "exchange_costume_id-506-512_202409", "name": "天葉/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-519-525", "name": "高嶺/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-528-534", "name": "恋花/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-536-542", "name": "幸恵/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-536-542_202406", "name": "幸恵/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-536-542_202407", "name": "幸恵/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-536-542_202408", "name": "幸恵/ドリーミィパレード衣装引換券", "link": false },
+        { "index": "exchange_costume_id-536-542_202409", "name": "幸恵/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-546-552", "name": "純/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-555-561", "name": "弥宏/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-562-568", "name": "紅巴/ドリーミィパレード衣装引換券", "link": false },
@@ -362,6 +365,7 @@
         { "index": "exchange_costume_id-571-577_202408", "name": "秋日/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-642-648", "name": "二水/B.C.プロトタイプ衣装引換券", "link": false },
         { "index": "exchange_costume_id-687-693", "name": "緋紅/ソルギナックシステム衣装引換券", "link": false },
+        { "index": "exchange_costume_id-687-693_202409", "name": "緋紅/ソルギナックシステム衣装引換券", "link": false },
         { "index": "exchange_costume_id-591-597", "name": "若菜/百合ヶ丘標準制服衣装引換券", "link": false },
         { "index": "exchange_costume_id-613-619", "name": "乃彩/百合ヶ丘標準制服衣装引換券", "link": false },
         { "index": "exchange_costume_id-661-667", "name": "綺更/百合ヶ丘標準制服衣装引換券", "link": false },
@@ -381,6 +385,7 @@
         { "index": "exchange_costume_202407-event-2", "name": "Peaceful VacanceAD衣装引換券", "link": false },
         { "index": "exchange_costume_202408-event-1", "name": "Twilight ParadiseAD衣装引換券", "link": false },
         { "index": "exchange_costume_202408-event-3", "name": "Exciting UtopiaAD衣装引換券", "link": false },
+        { "index": "exchange_costume_202409-event-1", "name": "邂逅のヴァルキュリアAD衣装引換券", "link": false },
         { "index": "exchange_costume_id-584-586", "name": "Dreamin’☆Party衣装引換券", "link": false },
 
         { "index": "exchange_costume_xmas", "name": "Xmas記念衣装引換券", "link": true },
@@ -567,7 +572,8 @@
         { "index": "exchange_pendant-ad_202407-fes", "name": "サマースクールフェスADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202407-event-2", "name": "Peaceful VacanceADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202408-event-1", "name": "Twilight ParadiseADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202408-event-3", "name": "Exciting UtopiaADペンダント交換券", "link": false }
+        { "index": "exchange_pendant-ad_202408-event-3", "name": "Exciting UtopiaADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202409-event-1", "name": "邂逅のヴァルキュリアADペンダント交換券", "link": false }
     ],
     "medal_bonus": [
         { "index": "medal_bonus_202212", "name": "ボーナスメダルⅫ", "link": false },
@@ -683,7 +689,8 @@
         { "index": "charm_197_star3", "name": "ティルフィングMCC-B", "link": false },
         { "index": "charm_198_star3", "name": "グラムSP.OK", "link": false },
         { "index": "charm_201_star3", "name": "デュランダルSP.TS", "link": false },
-        { "index": "charm_202_star3", "name": "ブルンツヴィークSP .TY", "link": false },
-        { "index": "charm_204_star3", "name": "ブリューナクSP .KM", "link": false }
+        { "index": "charm_202_star3", "name": "ブルンツヴィークSP.TY", "link": false },
+        { "index": "charm_204_star3", "name": "ブリューナクSP.KM", "link": false },
+        { "index": "charm_211_star3", "name": "デュランダルSP.HH", "link": false }
     ]
 }
