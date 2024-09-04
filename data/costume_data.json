@@ -2934,5 +2934,17 @@
     "734": {
         "chara": 144, "yakuwari": 6, "name": "極光の聖装",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    "735": {
+        "chara": 145, "yakuwari": 4, "name": "極光の聖装",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "736": {
+        "chara": 146, "yakuwari": 7, "name": "極光の聖装",
+        "percent": 15, "parameter": [["Sp.DEF", 3000], ["DEF", 3000]], "ex": [["火UP", 5], ["火耐性", 5], ["火メモリア補助発動率UP", 2]]
+    },
+    "737": {
+        "chara": 147, "yakuwari": 6, "name": "極光の聖装",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["火耐性", 5], ["風メモリア補助発動率UP", 2]]
     }
 }
