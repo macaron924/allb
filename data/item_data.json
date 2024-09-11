@@ -109,6 +109,8 @@
         { "index": "gacha-ticket_wedding-kakutei", "name": "ウェディングメモリア100%!!★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_happy-summer", "name": "ハッピーサマー記念★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_swimsuit-kakutei", "name": "水着メモリア100%!!★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_festival", "name": "お祭り記念★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_yukata-kakutei", "name": "浴衣メモリア100%!!★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_odaiba-kamba", "name": "御台場＆神庭★5確定ガチャチケット", "link": true },
         
         { "index": "gacha-ticket_202212-event-1", "name": "聖夜へ捧ぐサプライズ★5確定ガチャチケット", "link": false },
@@ -187,7 +189,8 @@
         { "index": "gacha-ticket_202407-event-2", "name": "Peaceful Vacance★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202408-event-1", "name": "Twilight Paradise★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202408-event-3", "name": "Exciting Utopia★5確定ガチャチケット", "link": false },
-        { "index": "gacha-ticket_202409-event-1", "name": "邂逅のヴァルキュリア★5確定ガチャチケット", "link": false }
+        { "index": "gacha-ticket_202409-event-1", "name": "邂逅のヴァルキュリア★5確定ガチャチケット", "link": false },
+        { "index": "gacha-ticket_202409-event-2", "name": "Lovely Anger Festival★5確定ガチャチケット", "link": false }
     ],
     "exchange_pendant_ex": [
         { "index": "exchange_pendant-ex_202212-event-1", "name": "聖夜へ捧ぐサプライズペンダントEX交換券", "link": false },
@@ -387,6 +390,7 @@
         { "index": "exchange_costume_202408-event-1", "name": "Twilight ParadiseAD衣装引換券", "link": false },
         { "index": "exchange_costume_202408-event-3", "name": "Exciting UtopiaAD衣装引換券", "link": false },
         { "index": "exchange_costume_202409-event-1", "name": "邂逅のヴァルキュリアAD衣装引換券", "link": false },
+        { "index": "exchange_costume_202409-event-2", "name": "Lovely Anger FestivalAD衣装引換券", "link": false },
         { "index": "exchange_costume_id-584-586", "name": "Dreamin’☆Party衣装引換券", "link": false },
 
         { "index": "exchange_costume_xmas", "name": "Xmas記念衣装引換券", "link": true },
@@ -396,6 +400,7 @@
         { "index": "exchange_costume_valentine", "name": "2024年バレンタイン記念衣装引換券", "link": true },
         { "index": "exchange_costume_white-day", "name": "2024年ホワイトデー記念衣装引換券", "link": true },
         { "index": "exchange_costume_wedding", "name": "2024年ウェディング記念衣装引換券", "link": true },
+        { "index": "exchange_costume_festival", "name": "2024年お祭り記念衣装引換券", "link": true },
         { "index": "exchange_costume_premium_202404", "name": "プレミア衣装引換券", "link": true },
         { "index": "exchange_costume_premium_202406", "name": "プレミア衣装引換券6月", "link": true },
         { "index": "exchange_costume_pack-and-gacha-bonus-tsuujou", "name": "パック＆ガチャボーナス衣装引換券【通常前衛】", "link": true },
@@ -576,7 +581,8 @@
         { "index": "exchange_pendant-ad_202407-event-2", "name": "Peaceful VacanceADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202408-event-1", "name": "Twilight ParadiseADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202408-event-3", "name": "Exciting UtopiaADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202409-event-1", "name": "邂逅のヴァルキュリアADペンダント交換券", "link": false }
+        { "index": "exchange_pendant-ad_202409-event-1", "name": "邂逅のヴァルキュリアADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202409-event-2", "name": "Lovely Anger FestivalADペンダント交換券", "link": false }
     ],
     "medal_bonus": [
         { "index": "medal_bonus_202212", "name": "ボーナスメダルⅫ", "link": false },
