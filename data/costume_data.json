@@ -2958,5 +2958,37 @@
     "740": {
         "chara": 12, "yakuwari": 2, "name": "夏彩の浴衣",
         "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "741": {
+        "chara": 148, "yakuwari": 5, "name": "極光の聖装",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["火耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "742": {
+        "chara": 143, "yakuwari": 2, "name": "極光の聖装(神宿り/通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    "743": {
+        "chara": 143, "yakuwari": 4, "name": "極光の聖装(神宿り/特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    "744": {
+        "chara": 143, "yakuwari": 5, "name": "極光の聖装(神宿り/支援)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["火UP", 5]]
+    },
+    "745": {
+        "chara": 143, "yakuwari": 6, "name": "極光の聖装(神宿り/妨害)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["火UP", 5]]
+    },
+    "746": {
+        "chara": 143, "yakuwari": 7, "name": "極光の聖装(神宿り/回復)",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5]]
+    },
+    "747": {
+        "chara": 143, "yakuwari": 1, "name": "極光の聖装(神宿り/通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
+    },
+    "748": {
+        "chara": 143, "yakuwari": 3, "name": "極光の聖装(神宿り/特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 3], ["風耐性", 2]]
     }
 }
