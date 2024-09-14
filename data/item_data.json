@@ -374,6 +374,7 @@
         { "index": "exchange_costume_id-661-667", "name": "綺更/百合ヶ丘標準制服衣装引換券", "link": false },
         { "index": "exchange_costume_id-680-686", "name": "日羽梨/百合ヶ丘標準制服衣装引換券", "link": false },
         { "index": "exchange_costume_id-711-717", "name": "弥宏/リリリゾ!!サンシャイン衣装引換券", "link": false },
+        { "index": "exchange_costume_id-742-748", "name": "治/極光の聖装(神宿り)衣装引換券", "link": false },
         { "index": "exchange_costume_id-633-639", "name": "夏凜/勇者服(満開)衣装引換券", "link": false },
         { "index": "exchange_costume_id-611-612", "name": "毛綱乃彩/黄昏の聖装アドバンス衣装引換券", "link": false },
         { "index": "exchange_costume_id-672-673", "name": "神琳＆雨嘉/ミラージュマリアージュアドバンス衣装引換券", "link": false },
@@ -550,6 +551,7 @@
         { "index": "exchange_new-memoria_202406-event-3", "name": "Cherish Lily’s Wedding★5メモリア引換券", "link": false },
         { "index": "exchange_new-memoria_202407-fes", "name": "サマースクールフェス★5メモリア引換券", "link": false },
         { "index": "exchange_new-memoria_202408-event-2", "name": "メランコリック・プランセス★5メモリア引換券", "link": false },
+        { "index": "exchange_new-memoria_202409-event-1-3", "name": "邂逅のヴァルキュリア開催記念★5メモリア引換券", "link": false },
         
         { "index": "exchange_xmas-cuelebre", "name": "Xmas記念クエレブレ引換券", "link": true },
         { "index": "exchange_charm_202312-event-1", "name": "誓いのリコネクトCHARM引換券", "link": false },
