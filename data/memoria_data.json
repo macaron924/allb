@@ -1070,7 +1070,7 @@
         "zokusei": 2, "cost": 18, "costume": [], "legendary": "リーグ", "illustration": { "type": "", "illustrator": "", "chara": [21] },
         "get_rank": "非ガチャ産", "category": { "c1": "レジェンダリー", "c2": "レギオンリーグ", "c3": ["1st"] },
         "skill": [
-            { "yakuwari": 4, "name": ["スマッシュD LG", "スマッシュD LG", "攻:ダメージUP/Sp.パワーUP Ⅲ"] }
+            { "yakuwari": 4, "name": ["Sp.パワースマッシュD LG", "Sp.パワースマッシュD LG", "攻:ダメージUP/Sp.パワーUP Ⅴ"] }
         ]
     },
     "132": {
