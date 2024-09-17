@@ -362,11 +362,14 @@
         { "index": "exchange_costume_id-562-568_202406", "name": "紅巴/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-562-568_202407", "name": "紅巴/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-562-568_202408", "name": "紅巴/ドリーミィパレード衣装引換券", "link": false },
+        { "index": "exchange_costume_id-562-568_202409", "name": "紅巴/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-571-577", "name": "秋日/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-571-577_202406", "name": "秋日/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-571-577_202407", "name": "秋日/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-571-577_202408", "name": "秋日/ドリーミィパレード衣装引換券", "link": false },
+        { "index": "exchange_costume_id-571-577_202409", "name": "秋日/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-642-648", "name": "二水/B.C.プロトタイプ衣装引換券", "link": false },
+        { "index": "exchange_costume_id-642-648_202409", "name": "二水/B.C.プロトタイプ衣装引換券", "link": false },
         { "index": "exchange_costume_id-687-693", "name": "緋紅/ソルギナックシステム衣装引換券", "link": false },
         { "index": "exchange_costume_id-687-693_202409", "name": "緋紅/ソルギナックシステム衣装引換券", "link": false },
         { "index": "exchange_costume_id-591-597", "name": "若菜/百合ヶ丘標準制服衣装引換券", "link": false },
@@ -392,6 +395,7 @@
         { "index": "exchange_costume_202408-event-3", "name": "Exciting UtopiaAD衣装引換券", "link": false },
         { "index": "exchange_costume_202409-event-1", "name": "邂逅のヴァルキュリアAD衣装引換券", "link": false },
         { "index": "exchange_costume_202409-event-2", "name": "Lovely Anger FestivalAD衣装引換券", "link": false },
+        { "index": "exchange_costume_202409-fes", "name": "ドリーミングライブフェスAD衣装引換券", "link": false },
         { "index": "exchange_costume_id-584-586", "name": "Dreamin’☆Party衣装引換券", "link": false },
 
         { "index": "exchange_costume_xmas", "name": "Xmas記念衣装引換券", "link": true },
@@ -552,6 +556,7 @@
         { "index": "exchange_new-memoria_202407-fes", "name": "サマースクールフェス★5メモリア引換券", "link": false },
         { "index": "exchange_new-memoria_202408-event-2", "name": "メランコリック・プランセス★5メモリア引換券", "link": false },
         { "index": "exchange_new-memoria_202409-event-1-3", "name": "邂逅のヴァルキュリア開催記念★5メモリア引換券", "link": false },
+        { "index": "exchange_new-memoria_202409-fes", "name": "ドリーミングライブフェス★5メモリア引換券", "link": false },
         
         { "index": "exchange_xmas-cuelebre", "name": "Xmas記念クエレブレ引換券", "link": true },
         { "index": "exchange_charm_202312-event-1", "name": "誓いのリコネクトCHARM引換券", "link": false },
@@ -584,7 +589,8 @@
         { "index": "exchange_pendant-ad_202408-event-1", "name": "Twilight ParadiseADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202408-event-3", "name": "Exciting UtopiaADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202409-event-1", "name": "邂逅のヴァルキュリアADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202409-event-2", "name": "Lovely Anger FestivalADペンダント交換券", "link": false }
+        { "index": "exchange_pendant-ad_202409-event-2", "name": "Lovely Anger FestivalADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202409-fes", "name": "ドリーミングライブフェスADペンダント交換券", "link": false }
     ],
     "medal_bonus": [
         { "index": "medal_bonus_202212", "name": "ボーナスメダルⅫ", "link": false },
