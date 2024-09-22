@@ -2998,5 +2998,17 @@
     "750": {
         "chara": 8, "yakuwari": 2, "name": "ドリーミングアイドル",
         "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["風耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "751": {
+        "chara": 2, "yakuwari": 4, "name": "星花の浴衣",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5], ["火耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "752": {
+        "chara": 6, "yakuwari": 5, "name": "星花の浴衣",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5]]
+    },
+    "753": {
+        "chara": 5, "yakuwari": 6, "name": "星花の浴衣",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["風耐性", 5], ["風メモリア補助発動率UP", 2]]
     }
 }
