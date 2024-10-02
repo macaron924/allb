@@ -3010,5 +3010,21 @@
     "753": {
         "chara": 5, "yakuwari": 6, "name": "星花の浴衣",
         "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["風耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "754": {
+        "chara": 95, "yakuwari": 4, "name": "極光の聖装",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "755": {
+        "chara": 150, "yakuwari": 7, "name": "極光の聖装",
+        "percent": 15, "parameter": [["Sp.DEF", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["水耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "756": {
+        "chara": 151, "yakuwari": 2, "name": "エレンスゲ標準制服",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["火耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "757": {
+        "chara": 152, "yakuwari": 4, "name": "極光の聖装",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5], ["風耐性", 5], ["風メモリア補助発動率UP", 2]]
     }
 }

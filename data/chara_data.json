@@ -148,6 +148,10 @@
         "146": { "charaName": "高嶺", "charaFullName":"宮川高嶺", "charaJump": "", "specialSkill":"エプレ・パラドキサ", "playable": true },
         "147": { "charaName": "叶星", "charaFullName":"今叶星", "charaJump": "", "specialSkill":"エプレ・レジスタ", "playable": true },
         "148": { "charaName": "治", "charaFullName":"菱田治", "charaJump": "", "specialSkill":"ヘオロットパラドキサ", "playable": true },
+        "149": { "charaName": "七保", "charaFullName":"坪井七保", "charaJump": "nanaho", "specialSkill":"", "playable": true },
+        "150": { "charaName": "優珂", "charaFullName":"松村優珂", "charaJump": "", "specialSkill":"グラヴィティーノ", "playable": true },
+        "151": { "charaName": "七保", "charaFullName":"坪井七保", "charaJump": "", "specialSkill":"スキャルドアクセル", "playable": true },
+        "152": { "charaName": "七保", "charaFullName":"坪井七保", "charaJump": "", "specialSkill":"ブラッディリザレクション", "playable": true },
         "1001": { "charaName": "菖蒲", "charaFullName":"菖蒲", "charaJump": "", "specialSkill":"", "playable": false },
         "1002": { "charaName": "燈", "charaFullName":"燈", "charaJump": "", "specialSkill":"", "playable": false }
     },[
@@ -161,7 +165,8 @@
         { "belong": "百合ヶ丘女学院／シュヴェルトライテ", "playable": true, "chara": [133] },
         { "belong": "百合ヶ丘女学院／その他", "playable": true, "chara": [20, 105, 106, 115, 140] },
         { "belong": "エレンスゲ女学園／ヘルヴォル", "playable": true, "chara": [10, 95, 11, 84, 139, 12, 96, 13, 14] },
-        { "belong": "エレンスゲ女学園／クエレブレ", "playable": true, "chara": [71, 93, 72, 85, 73, 86, 74, 94, 114, 103, 104] },
+        { "belong": "エレンスゲ女学園／クエレブレ", "playable": true, "chara": [71, 93, 150, 72, 85, 73, 86, 74, 94, 114, 103, 104] },
+        { "belong": "エレンスゲ女学園／バシャンドレ", "playable": true, "chara": [149, 151, 152] },
         { "belong": "エレンスゲ女学園／その他", "playable": true, "chara": [138] },
         { "belong": "神庭女子藝術高校／グラン・エプレ", "playable": true, "chara": [15, 147, 16, 146, 17, 18, 19, 67, 68, 69, 145, 70] },
         { "belong": "御台場女学校", "playable": true, "chara": [40, 144, 41, 42, 43, 44, 141, 143, 142, 148] },
