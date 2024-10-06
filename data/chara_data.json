@@ -152,6 +152,8 @@
         "150": { "charaName": "優珂", "charaFullName":"松村優珂", "charaJump": "", "specialSkill":"グラヴィティーノ", "playable": true },
         "151": { "charaName": "七保", "charaFullName":"坪井七保", "charaJump": "", "specialSkill":"スキャルドアクセル", "playable": true },
         "152": { "charaName": "七保", "charaFullName":"坪井七保", "charaJump": "", "specialSkill":"ブラッディリザレクション", "playable": true },
+        "153": { "charaName": "瑤", "charaFullName":"初鹿野瑤", "charaJump": "", "specialSkill":"アルヴィトルブレイブ", "playable": true },
+        "154": { "charaName": "恋花", "charaFullName":"飯島恋花", "charaJump": "", "specialSkill":"Aトランセンデンス", "playable": true },
         "1001": { "charaName": "菖蒲", "charaFullName":"菖蒲", "charaJump": "", "specialSkill":"", "playable": false },
         "1002": { "charaName": "燈", "charaFullName":"燈", "charaJump": "", "specialSkill":"", "playable": false }
     },[
@@ -164,7 +166,7 @@
         { "belong": "百合ヶ丘女学院／サングリーズル", "playable": true, "chara": [116, 117, 131] },
         { "belong": "百合ヶ丘女学院／シュヴェルトライテ", "playable": true, "chara": [133] },
         { "belong": "百合ヶ丘女学院／その他", "playable": true, "chara": [20, 105, 106, 115, 140] },
-        { "belong": "エレンスゲ女学園／ヘルヴォル", "playable": true, "chara": [10, 95, 11, 84, 139, 12, 96, 13, 14] },
+        { "belong": "エレンスゲ女学園／ヘルヴォル", "playable": true, "chara": [10, 95, 11, 84, 139, 12, 96, 154, 13, 153, 14] },
         { "belong": "エレンスゲ女学園／クエレブレ", "playable": true, "chara": [71, 93, 150, 72, 85, 73, 86, 74, 94, 114, 103, 104] },
         { "belong": "エレンスゲ女学園／バシャンドレ", "playable": true, "chara": [149, 151, 152] },
         { "belong": "エレンスゲ女学園／その他", "playable": true, "chara": [138] },
