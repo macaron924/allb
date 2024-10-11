@@ -3038,5 +3038,17 @@
     "760": {
         "chara": 34, "yakuwari": 4, "name": "和装猫耳メイド",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["火UP", 5], ["風耐性", 5], ["火メモリア補助発動率UP", 2]]
+    },
+    "761": {
+        "chara": 133, "yakuwari": 4, "name": "モンスターハロウィン",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5], ["風耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "762": {
+        "chara": 54, "yakuwari": 2, "name": "モンスターハロウィン",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["風耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "763": {
+        "chara": 105, "yakuwari": 7, "name": "モンスターハロウィン",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5]]
     }
 }
