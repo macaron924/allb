@@ -365,6 +365,10 @@ function getItemName(item) {
             items = itemJson["exchange_pendant_ex"];
             link = `exchange/content/?index=${item}`;
             break;
+        case item.startsWith("exchange_pendant-ad"):
+            items = itemJson["exchange_pendant_ad"];
+            link = `exchange/content/?index=${item}`;
+            break;
         case item.startsWith("exchange_costume"):
             items = itemJson["exchange_costume"];
             link = `exchange/content/?index=${item}`;
