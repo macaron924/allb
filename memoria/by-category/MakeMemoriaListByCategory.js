@@ -154,6 +154,7 @@ function addLineup() {
 
         let c1 = categories[i]["content"];
 
+        if (categories[i]["c1"] != "初期実装") c1 = c1.reverse();
         for (let j = 0; j < c1.length; j++) {
 
             let captionC2 = `<h3 class="category-2">▼ ${c1[j]["c2"]}</h3>`;
