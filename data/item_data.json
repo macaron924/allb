@@ -83,6 +83,7 @@
         { "index": "gacha-ticket_lohengrin", "name": "ローエングリン登場記念★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_cuelebre", "name": "クエレブレ登場記念★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_halloween", "name": "ハッピー！ハロウィン記念★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_halloween-kakutei", "name": "ハロウィンメモリア100%!!★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_hitotsuyanagi-tai_coupling", "name": "一柳隊★5 100%!!カップリング2回ガチャチケット", "link": true },
         { "index": "gacha-ticket_xmas", "name": "Xmas記念★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_xmas-kakutei", "name": "Xmasメモリア100%!!★5確定ガチャチケット", "link": true },
@@ -192,7 +193,8 @@
         { "index": "gacha-ticket_202408-event-3", "name": "Exciting Utopia★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202409-event-1", "name": "邂逅のヴァルキュリア★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202409-event-2", "name": "Lovely Anger Festival★5確定ガチャチケット", "link": false },
-        { "index": "gacha-ticket_202410-event-1", "name": "竜楯のエスペランサ★5確定ガチャチケット", "link": false }
+        { "index": "gacha-ticket_202410-event-1", "name": "竜楯のエスペランサ★5確定ガチャチケット", "link": false },
+        { "index": "gacha-ticket_202410-event-2", "name": "鎌倉ハロウィンパーティー★5確定ガチャチケット", "link": false }
     ],
     "exchange_pendant_ex": [
         { "index": "exchange_pendant-ex_202212-event-1", "name": "聖夜へ捧ぐサプライズペンダントEX交換券", "link": false },
@@ -284,6 +286,25 @@
         { "index": "exchange_pendant-ex_xmas-cuelebre", "name": "Xmas記念クエレブレペンダントEX交換券", "link": true },
         { "index": "exchange_pendant-ex_new-year-2024", "name": "新春ペンダントEX交換券", "link": true },
         { "index": "exchange_pendant-ex_dream", "name": "3rd Anniv.DREAM!ペンダントEX交換券", "link": true }
+    ],
+    "exchange_pendant_ad": [
+        { "index": "exchange_pendant-ad_id-611-612", "name": "毛綱乃彩/黄昏の聖装ADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_id-672-673", "name": "神琳＆雨嘉/ミラージュマリアージュADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_id-694-695", "name": "八雲/SSバスター＆エレンスゲ校長服ADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_id-736-737", "name": "叶星/高嶺ADペンダント交換券[サンライトに包まれて]", "link": false },
+        { "index": "exchange_pendant-ad_202405-event-2", "name": "暴姫のカンパニュラADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202406-event-1", "name": "追憶のリグレットADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202406-event-3", "name": "Cherish Lily’s WeddingADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202407-fes", "name": "サマースクールフェスADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202407-event-2", "name": "Peaceful VacanceADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202408-event-1", "name": "Twilight ParadiseADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202408-event-3", "name": "Exciting UtopiaADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202409-event-1", "name": "邂逅のヴァルキュリアADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202409-event-2", "name": "Lovely Anger FestivalADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202409-fes", "name": "ドリーミングライブフェスADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202409-event-3", "name": "二人眺める秋花火ADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202410-event-1", "name": "竜楯のエスペランサADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202410-event-2", "name": "鎌倉ハロウィンパーティーADペンダント交換券", "link": false }
     ],
     "exchange_costume": [
         { "index": "exchange_costume_toumei-diary", "name": "トウメイダイアリーCD発売記念！衣装引換券", "link": true },
@@ -384,6 +405,9 @@
         { "index": "exchange_costume_id-711-717", "name": "弥宏/リリリゾ!!サンシャイン衣装引換券", "link": false },
         { "index": "exchange_costume_id-742-748", "name": "治/極光の聖装(神宿り)衣装引換券", "link": false },
         { "index": "exchange_costume_id-633-639", "name": "夏凜/勇者服(満開)衣装引換券", "link": false },
+        
+        { "index": "exchange_costume_id-584-586", "name": "Dreamin’☆Party衣装引換券", "link": false },
+
         { "index": "exchange_costume_id-611-612", "name": "毛綱乃彩/黄昏の聖装アドバンス衣装引換券", "link": false },
         { "index": "exchange_costume_id-672-673", "name": "神琳＆雨嘉/ミラージュマリアージュアドバンス衣装引換券", "link": false },
         { "index": "exchange_costume_id-694-695", "name": "八雲/SSバスター＆エレンスゲ校長服AD衣装引換券", "link": false },
@@ -404,7 +428,7 @@
         { "index": "exchange_costume_202409-fes", "name": "ドリーミングライブフェスAD衣装引換券", "link": false },
         { "index": "exchange_costume_202409-event-3", "name": "二人眺める秋花火AD衣装引換券", "link": false },
         { "index": "exchange_costume_202410-event-1", "name": "竜楯のエスペランサAD衣装引換券", "link": false },
-        { "index": "exchange_costume_id-584-586", "name": "Dreamin’☆Party衣装引換券", "link": false },
+        { "index": "exchange_costume_202410-event-2", "name": "鎌倉ハロウィンパーティーAD衣装引換券", "link": false },
 
         { "index": "exchange_costume_xmas", "name": "Xmas記念衣装引換券", "link": true },
         { "index": "exchange_costume_new-year", "name": "2024年新春記念衣装引換券", "link": true },
@@ -414,6 +438,7 @@
         { "index": "exchange_costume_white-day", "name": "2024年ホワイトデー記念衣装引換券", "link": true },
         { "index": "exchange_costume_wedding", "name": "2024年ウェディング記念衣装引換券", "link": true },
         { "index": "exchange_costume_festival", "name": "2024年お祭り記念衣装引換券", "link": true },
+        { "index": "exchange_costume_halloween", "name": "2024年ハロウィン記念衣装引換券", "link": true },
         { "index": "exchange_costume_premium_202404", "name": "プレミア衣装引換券", "link": true },
         { "index": "exchange_costume_premium_202406", "name": "プレミア衣装引換券6月", "link": true },
         { "index": "exchange_costume_pack-and-gacha-bonus-tsuujou", "name": "パック＆ガチャボーナス衣装引換券【通常前衛】", "link": true },
@@ -585,24 +610,7 @@
         { "index": "exchange_gacha_yakuwari_202405", "name": "役割別ガチャチケット引換券5月", "link": false },
         { "index": "exchange_gacha_yakuwari_202406", "name": "役割別ガチャチケット引換券6月", "link": false },
         { "index": "exchange_gacha_yakuwari_3rd-anniv", "name": "3rd Anniv.役割別ガチャチケット引換券", "link": false },
-        { "index": "exchange_gacha_yakuwari_gw-2024", "name": "GW2024役割別ガチャチケット引換券", "link": false },
-
-        { "index": "exchange_pendant-ad_id-611-612", "name": "毛綱乃彩/黄昏の聖装ADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_id-672-673", "name": "神琳＆雨嘉/ミラージュマリアージュADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_id-694-695", "name": "八雲/SSバスター＆エレンスゲ校長服ADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_id-736-737", "name": "叶星/高嶺ADペンダント交換券[サンライトに包まれて]", "link": false },
-        { "index": "exchange_pendant-ad_202405-event-2", "name": "暴姫のカンパニュラADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202406-event-1", "name": "追憶のリグレットADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202406-event-3", "name": "Cherish Lily’s WeddingADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202407-fes", "name": "サマースクールフェスADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202407-event-2", "name": "Peaceful VacanceADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202408-event-1", "name": "Twilight ParadiseADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202408-event-3", "name": "Exciting UtopiaADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202409-event-1", "name": "邂逅のヴァルキュリアADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202409-event-2", "name": "Lovely Anger FestivalADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202409-fes", "name": "ドリーミングライブフェスADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202409-event-3", "name": "二人眺める秋花火ADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202410-event-1", "name": "竜楯のエスペランサADペンダント交換券", "link": false }
+        { "index": "exchange_gacha_yakuwari_gw-2024", "name": "GW2024役割別ガチャチケット引換券", "link": false }
     ],
     "medal_bonus": [
         { "index": "medal_bonus_202212", "name": "ボーナスメダルⅫ", "link": false },
