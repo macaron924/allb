@@ -6957,47 +6957,47 @@
     },
     "796": {
         "name": "Ultimate Memoria -至宝の煌き-",
-        "zokusei": 2, "cost": 27, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [3] },
+        "zokusei": 2, "cost": 28, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [3] },
         "get_rank": "アルティメットメモリア", "category": { "c1": "アルティメットメモリアガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2024/2/6～)", "c3": ["前衛ガチャ"] },
         "skill": [
             { "yakuwari": 2, "name": ["水：パワーストライクD Ⅳ", "カウンタートライパワーストライクD Ⅳ+", "コ:効果範囲+1"] },
-            { "yakuwari": 7, "name": ["ガードヒールE Ⅴ", "カウンタートライガードヒールE Ⅴ", "コ:効果範囲+1"] }
+            { "yakuwari": 7, "name": ["ガードヒールE Ⅴ", "WカウンタートライガードヒールE Ⅴ", "コ:効果範囲+1"] }
         ]
     },
     "797": {
         "name": "Ultimate Memoria -日輪背負う天使-",
-        "zokusei": 1, "cost": 27, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [57] },
+        "zokusei": 1, "cost": 28, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [57] },
         "get_rank": "アルティメットメモリア", "category": { "c1": "アルティメットメモリアガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2024/2/6～)", "c3": ["後衛ガチャ"] },
         "skill": [
-            { "yakuwari": 6, "name": ["パワーフォールE Ⅴ", "カウンタートライパワーフォールE Ⅴ", "コ:効果範囲+1"] },
+            { "yakuwari": 6, "name": ["パワーフォールE Ⅴ", "[火水風攻]カウンターワイドフォールE Ⅴ", "コ:効果範囲+1"] },
             { "yakuwari": 2, "name": ["火：ガードブレイクD Ⅳ", "カウンタートライガードブレイクD Ⅳ+", "コ:効果範囲+1"] }
         ]
     },
     "798": {
         "name": "Ultimate Memoria -閑雅なる氷帝-",
-        "zokusei": 1, "cost": 27, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [56] },
+        "zokusei": 1, "cost": 28, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [56] },
         "get_rank": "アルティメットメモリア", "category": { "c1": "アルティメットメモリアガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2024/2/6～)", "c3": ["後衛ガチャ"] },
         "skill": [
-            { "yakuwari": 7, "name": ["Sp.ガードヒールE Ⅴ", "Sp.カウンタートライガードヒールE Ⅴ", "コ:効果範囲+1"] },
+            { "yakuwari": 7, "name": ["Sp.ガードヒールE Ⅴ", "WカウンタートライガードヒールE Ⅴ", "コ:効果範囲+1"] },
             { "yakuwari": 4, "name": ["火：Sp.パワースマッシュD Ⅳ", "Sp.カウンタートライパワースマッシュD Ⅳ+", "コ:効果範囲+1"] }
         ]
     },
     "799": {
         "name": "Ultimate Memoria -戦場の一番星-",
-        "zokusei": 2, "cost": 27, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [70] },
+        "zokusei": 2, "cost": 28, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [70] },
         "get_rank": "アルティメットメモリア", "category": { "c1": "アルティメットメモリアガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2024/2/6～)", "c3": ["後衛ガチャ"] },
         "skill": [
-            { "yakuwari": 5, "name": ["WパワーアシストE Ⅴ", "WカウンターパワーアシストE Ⅴ", "コ:効果範囲+1"] },
+            { "yakuwari": 5, "name": ["WパワーアシストE Ⅴ", "WカウンタートライパワーアシストE Ⅴ", "コ:効果範囲+1"] },
             { "yakuwari": 3, "name": ["Sp.マイトスマッシュA Ⅴ+", "Sp.カウンタートライパワースマッシュA Ⅴ+", "コ:効果範囲+1"] }
         ]
     },
     "800": {
         "name": "Ultimate Memoria -変幻自在のtrickster-",
-        "zokusei": 2, "cost": 27, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [73] },
+        "zokusei": 2, "cost": 28, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [73] },
         "get_rank": "アルティメットメモリア", "category": { "c1": "アルティメットメモリアガチャ", "c2": "アルティメットメモリア前衛後衛ガチャ (2024/2/6～)", "c3": ["前衛ガチャ"] },
         "skill": [
             { "yakuwari": 4, "name": ["水：Sp.ガードバーストD Ⅳ", "Sp.カウンタートライガードバーストD Ⅳ+", "コ:効果範囲+1"] },
-            { "yakuwari": 6, "name": ["Sp.パワーフォールE Ⅴ", "Sp.カウンタートライパワーフォールE Ⅴ", "コ:効果範囲+1"] }
+            { "yakuwari": 6, "name": ["Sp.パワーフォールE Ⅴ", "[火水風攻]Sp.カウンターワイドフォールE Ⅴ", "コ:効果範囲+1"] }
         ]
     },
     "801": {
