@@ -113,7 +113,8 @@
         { "index": "gacha-ticket_festival", "name": "お祭り記念★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_yukata-kakutei", "name": "浴衣メモリア100%!!★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_odaiba-kamba", "name": "御台場＆神庭★5確定ガチャチケット", "link": true },
-        { "index": "gacha-ticket_herensuge", "name": "御台場＆神庭★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_herensuge", "name": "エレンスゲ女学園★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_main-story-5-climax", "name": "宿星の花束クライマックス★5確定ガチャチケット", "link": true },
         
         { "index": "gacha-ticket_202212-event-1", "name": "聖夜へ捧ぐサプライズ★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202212-event-2", "name": "凍て空の流星★5確定ガチャチケットⅡ", "link": false },
