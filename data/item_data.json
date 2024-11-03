@@ -195,7 +195,8 @@
         { "index": "gacha-ticket_202409-event-1", "name": "邂逅のヴァルキュリア★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202409-event-2", "name": "Lovely Anger Festival★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202410-event-1", "name": "竜楯のエスペランサ★5確定ガチャチケット", "link": false },
-        { "index": "gacha-ticket_202410-event-2", "name": "鎌倉ハロウィンパーティー★5確定ガチャチケット", "link": false }
+        { "index": "gacha-ticket_202410-event-2", "name": "鎌倉ハロウィンパーティー★5確定ガチャチケット", "link": false },
+        { "index": "gacha-ticket_202411-event-1", "name": "凶星のホライズン★5確定ガチャチケット", "link": false }
     ],
     "exchange_pendant_ex": [
         { "index": "exchange_pendant-ex_202212-event-1", "name": "聖夜へ捧ぐサプライズペンダントEX交換券", "link": false },
@@ -306,7 +307,8 @@
         { "index": "exchange_pendant-ad_202409-event-3", "name": "二人眺める秋花火ADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202410-event-1", "name": "竜楯のエスペランサADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202410-event-2", "name": "鎌倉ハロウィンパーティーADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202410-event-3", "name": "特別をあなたにADペンダント交換券", "link": false }
+        { "index": "exchange_pendant-ad_202410-event-3", "name": "特別をあなたにADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202411-event-1", "name": "凶星のホライズンADペンダント交換券", "link": false }
     ],
     "exchange_costume": [
         { "index": "exchange_costume_toumei-diary", "name": "トウメイダイアリーCD発売記念！衣装引換券", "link": true },
@@ -375,6 +377,7 @@
         { "index": "exchange_costume_id-506-512_202408", "name": "天葉/ドリーミィパレード衣装引換券8月", "link": false },
         { "index": "exchange_costume_id-506-512_202409", "name": "天葉/ドリーミィパレード衣装引換券9月", "link": false },
         { "index": "exchange_costume_id-506-512_202410", "name": "天葉/ドリーミィパレード衣装引換券10月", "link": false },
+        { "index": "exchange_costume_id-506-512_202411", "name": "天葉/ドリーミィパレード衣装引換券10月", "link": false },
         { "index": "exchange_costume_id-519-525", "name": "高嶺/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-528-534", "name": "恋花/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-536-542", "name": "幸恵/ドリーミィパレード衣装引換券", "link": false },
@@ -383,6 +386,7 @@
         { "index": "exchange_costume_id-536-542_202408", "name": "幸恵/ドリーミィパレード衣装引換券8月", "link": false },
         { "index": "exchange_costume_id-536-542_202409", "name": "幸恵/ドリーミィパレード衣装引換券9月", "link": false },
         { "index": "exchange_costume_id-536-542_202410", "name": "幸恵/ドリーミィパレード衣装引換券10月", "link": false },
+        { "index": "exchange_costume_id-536-542_202411", "name": "幸恵/ドリーミィパレード衣装引換券10月", "link": false },
         { "index": "exchange_costume_id-546-552", "name": "純/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-555-561", "name": "弥宏/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-562-568", "name": "紅巴/ドリーミィパレード衣装引換券", "link": false },
@@ -403,12 +407,14 @@
         { "index": "exchange_costume_id-687-693", "name": "緋紅/ソルギナックシステム衣装引換券", "link": false },
         { "index": "exchange_costume_id-687-693_202409", "name": "緋紅/ソルギナックシステム衣装引換券9月", "link": false },
         { "index": "exchange_costume_id-687-693_202410", "name": "緋紅/ソルギナックシステム衣装引換券10月", "link": false },
+        { "index": "exchange_costume_id-687-693_202411", "name": "緋紅/ソルギナックシステム衣装引換券10月", "link": false },
         { "index": "exchange_costume_id-591-597", "name": "若菜/百合ヶ丘標準制服衣装引換券", "link": false },
         { "index": "exchange_costume_id-613-619", "name": "乃彩/百合ヶ丘標準制服衣装引換券", "link": false },
         { "index": "exchange_costume_id-661-667", "name": "綺更/百合ヶ丘標準制服衣装引換券", "link": false },
         { "index": "exchange_costume_id-680-686", "name": "日羽梨/百合ヶ丘標準制服衣装引換券", "link": false },
         { "index": "exchange_costume_id-711-717", "name": "弥宏/リリリゾ!!サンシャイン衣装引換券", "link": false },
         { "index": "exchange_costume_id-742-748", "name": "治/極光の聖装(神宿り)衣装引換券", "link": false },
+        { "index": "exchange_costume_id-774-780", "name": "羽来/極光の聖装衣装引換券", "link": false },
         { "index": "exchange_costume_id-633-639", "name": "夏凜/勇者服(満開)衣装引換券", "link": false },
         
         { "index": "exchange_costume_id-584-586", "name": "Dreamin’☆Party衣装引換券", "link": false },
@@ -435,6 +441,7 @@
         { "index": "exchange_costume_202410-event-1-ad", "name": "竜楯のエスペランサAD衣装引換券", "link": false },
         { "index": "exchange_costume_202410-event-2-ad", "name": "鎌倉ハロウィンパーティーAD衣装引換券", "link": false },
         { "index": "exchange_costume_202410-event-3-ad", "name": "特別をあなたにAD衣装引換券", "link": false },
+        { "index": "exchange_costume_202411-event-1-ad", "name": "凶星のホライズンAD衣装引換券", "link": false },
 
         { "index": "exchange_costume_xmas", "name": "Xmas記念衣装引換券", "link": true },
         { "index": "exchange_costume_new-year", "name": "2024年新春記念衣装引換券", "link": true },
@@ -744,6 +751,7 @@
         { "index": "charm_202_star3", "name": "ブルンツヴィークSP.TY", "link": false },
         { "index": "charm_204_star3", "name": "ブリューナクSP.KM", "link": false },
         { "index": "charm_211_star3", "name": "デュランダルSP.HH", "link": false },
-        { "index": "charm_212_star3", "name": "シュガールSP.TN", "link": false }
+        { "index": "charm_212_star3", "name": "シュガールSP.TN", "link": false },
+        { "index": "charm_215_star3", "name": "クラウ・ソラスSP.HW", "link": false }
     ]
 }

@@ -3070,5 +3070,53 @@
     "768": {
         "chara": 10, "yakuwari": 5, "name": "残響のスキャルドメール",
         "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    "769": {
+        "chara": 113, "yakuwari": 5, "name": "宿星の凶装",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    "770": {
+        "chara": 156, "yakuwari": 2, "name": "極光の聖装",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["風耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "771": {
+        "chara": 155, "yakuwari": 4, "name": "イルマ女子美術高校制服",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5], ["風耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "772": {
+        "chara": 157, "yakuwari": 2, "name": "宿星の凶装",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["火耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "773": {
+        "chara": 114, "yakuwari": 7, "name": "宿星の凶装",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    "774": {
+        "chara": 158, "yakuwari": 2, "name": "極光の聖装(通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "775": {
+        "chara": 158, "yakuwari": 4, "name": "極光の聖装(特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "776": {
+        "chara": 158, "yakuwari": 5, "name": "極光の聖装(支援)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["風UP", 5]]
+    },
+    "777": {
+        "chara": 158, "yakuwari": 6, "name": "極光の聖装(妨害)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["風UP", 5]]
+    },
+    "778": {
+        "chara": 158, "yakuwari": 7, "name": "極光の聖装(回復)",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    "779": {
+        "chara": 158, "yakuwari": 1, "name": "極光の聖装(通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "780": {
+        "chara": 158, "yakuwari": 3, "name": "極光の聖装(特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
     }
 }
