@@ -308,7 +308,8 @@
         { "index": "exchange_pendant-ad_202410-event-1", "name": "竜楯のエスペランサADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202410-event-2", "name": "鎌倉ハロウィンパーティーADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202410-event-3", "name": "特別をあなたにADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202411-event-1", "name": "凶星のホライズンADペンダント交換券", "link": false }
+        { "index": "exchange_pendant-ad_202411-event-1", "name": "凶星のホライズンADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202411-fes", "name": "マルチカラードライブフェスADペンダント交換券", "link": false }
     ],
     "exchange_costume": [
         { "index": "exchange_costume_toumei-diary", "name": "トウメイダイアリーCD発売記念！衣装引換券", "link": true },
@@ -442,6 +443,7 @@
         { "index": "exchange_costume_202410-event-2-ad", "name": "鎌倉ハロウィンパーティーAD衣装引換券", "link": false },
         { "index": "exchange_costume_202410-event-3-ad", "name": "特別をあなたにAD衣装引換券", "link": false },
         { "index": "exchange_costume_202411-event-1-ad", "name": "凶星のホライズンAD衣装引換券", "link": false },
+        { "index": "exchange_costume_202411-fes-ad", "name": "マルチカラードライブフェスAD衣装引換券", "link": false },
 
         { "index": "exchange_costume_xmas", "name": "Xmas記念衣装引換券", "link": true },
         { "index": "exchange_costume_new-year", "name": "2024年新春記念衣装引換券", "link": true },
@@ -611,6 +613,7 @@
         { "index": "exchange_new-memoria_202409-fes", "name": "ドリーミングライブフェス★5メモリア引換券", "link": false },
         { "index": "exchange_new-memoria_202409-event-3", "name": "二人眺める秋花火★5メモリア引換券", "link": false },
         { "index": "exchange_new-memoria_202410-event-3", "name": "特別をあなたに★5メモリア引換券", "link": false },
+        { "index": "exchange_new-memoria_202411-fes", "name": "マルチカラードライブフェス★5メモリア引換券", "link": false },
         
         { "index": "exchange_xmas-cuelebre", "name": "Xmas記念クエレブレ引換券", "link": true },
         { "index": "exchange_charm_202312-event-1", "name": "誓いのリコネクトCHARM引換券", "link": false },
