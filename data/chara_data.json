@@ -158,6 +158,8 @@
         "156": { "charaName": "天葉", "charaFullName":"天野天葉", "charaJump": "", "specialSkill":"ブルームーンウォール", "playable": true },
         "157": { "charaName": "辰姫", "charaFullName":"森辰姫", "charaJump": "", "specialSkill":"オラクル", "playable": true },
         "158": { "charaName": "羽来", "charaFullName":"日比野羽来", "charaJump": "", "specialSkill":"イルミンファンタズム", "playable": true },
+        "159": { "charaName": "御巴留", "charaFullName":"御巴留", "charaJump": "", "specialSkill":"", "playable": false },
+        "160": { "charaName": "紅々李", "charaFullName":"紅々李", "charaJump": "", "specialSkill":"", "playable": false },
         "1001": { "charaName": "菖蒲", "charaFullName":"菖蒲", "charaJump": "", "specialSkill":"", "playable": false },
         "1002": { "charaName": "燈", "charaFullName":"燈", "charaJump": "", "specialSkill":"", "playable": false }
     },[
@@ -179,7 +181,7 @@
         { "belong": "私立ルドビコ女学院", "playable": true, "chara": [45, 46, 47, 48, 49] },
         { "belong": "私立ルドビコ女学院／教導官", "playable": false, "chara": [97] },
         { "belong": "ヘイムスクリングラ", "playable": true, "chara": [34] },
-        { "belong": "イルマ女子美術高校", "playable": true, "chara": [155, 158, 81, 82, 83] },
+        { "belong": "イルマ女子美術高校", "playable": true, "chara": [155, 158, 81, 82, 83, 159, 160] },
         { "belong": "その他", "playable": false, "chara": [1001] },
         { "belong": "コラボ／魔法少女リリカルなのは", "playable": true, "chara": [31, 32, 33] },
         { "belong": "コラボ／戦姫絶唱シンフォギア", "playable": true, "chara": [36, 37, 38, 39] },
