@@ -117,6 +117,8 @@
         { "index": "gacha-ticket_main-story-5-climax", "name": "宿星の花束クライマックス★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_kazuha-shenlin-kanaho", "name": "一葉・神琳・叶星★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_kazuha-shenlin-kanaho-kakutei", "name": "一葉・神琳・叶星メモリア100%!!★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_happy-xmas", "name": "Happy Xmas★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_xmas-kakutei_2024", "name": "Xmasメモリア100%!!★5確定ガチャチケット", "link": true },
         
         { "index": "gacha-ticket_202212-event-1", "name": "聖夜へ捧ぐサプライズ★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202212-event-2", "name": "凍て空の流星★5確定ガチャチケットⅡ", "link": false },
@@ -200,7 +202,8 @@
         { "index": "gacha-ticket_202410-event-2", "name": "鎌倉ハロウィンパーティー★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202411-event-1", "name": "凶星のホライズン★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202411-event-2", "name": "ラビット☆プリンセス！★5確定ガチャチケット", "link": false },
-        { "index": "gacha-ticket_202412-event-1", "name": "激紅のクリスマスギフト★5確定ガチャチケット", "link": false }
+        { "index": "gacha-ticket_202412-event-1", "name": "激紅のクリスマスギフト★5確定ガチャチケット", "link": false },
+        { "index": "gacha-ticket_202412-event-2", "name": "聖夜のスイートクリスマス★5確定ガチャチケット", "link": false }
     ],
     "exchange_pendant_ex": [
         { "index": "exchange_pendant-ex_202212-event-1", "name": "聖夜へ捧ぐサプライズペンダントEX交換券", "link": false },
@@ -315,7 +318,8 @@
         { "index": "exchange_pendant-ad_202411-event-1", "name": "凶星のホライズンADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202411-fes", "name": "マルチカラードライブフェスADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202411-event-2", "name": "ラビット☆プリンセス！ADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202412-event-1", "name": "激紅のクリスマスギフトADペンダント交換券", "link": false }
+        { "index": "exchange_pendant-ad_202412-event-1", "name": "激紅のクリスマスギフトADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202412-event-2", "name": "聖夜のスイートクリスマスADペンダント交換券", "link": false }
     ],
     "exchange_costume": [
         { "index": "exchange_costume_toumei-diary", "name": "トウメイダイアリーCD発売記念！衣装引換券", "link": true },
@@ -459,6 +463,7 @@
         { "index": "exchange_costume_202411-fes-ad", "name": "マルチカラードライブフェスAD衣装引換券", "link": false },
         { "index": "exchange_costume_202411-event-2-ad", "name": "ラビット☆プリンセス！AD衣装引換券", "link": false },
         { "index": "exchange_costume_202412-event-1-ad", "name": "激紅のクリスマスギフトAD衣装引換券", "link": false },
+        { "index": "exchange_costume_202412-event-2-ad", "name": "聖夜のスイートクリスマスAD衣装引換券", "link": false },
 
         { "index": "exchange_costume_xmas", "name": "Xmas記念衣装引換券", "link": true },
         { "index": "exchange_costume_new-year", "name": "2024年新春記念衣装引換券", "link": true },
@@ -470,6 +475,7 @@
         { "index": "exchange_costume_festival", "name": "2024年お祭り記念衣装引換券", "link": true },
         { "index": "exchange_costume_halloween", "name": "2024年ハロウィン記念衣装引換券", "link": true },
         { "index": "exchange_costume_202411-event-2-kinen", "name": "ラビット☆プリンセス！イベント開催記念衣装引換券", "link": true },
+        { "index": "exchange_costume_202412-event-2-kinen", "name": "聖夜のスイートクリスマスイベント開催記念衣装引換券", "link": true },
         { "index": "exchange_costume_premium_202404", "name": "プレミア衣装引換券", "link": true },
         { "index": "exchange_costume_premium_202406", "name": "プレミア衣装引換券6月", "link": true },
         { "index": "exchange_costume_premium_202410", "name": "プレミア衣装引換券10月", "link": true },
