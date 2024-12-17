@@ -3194,5 +3194,9 @@
     "799": {
         "chara": 19, "yakuwari": 7, "name": "クリスマスピクシー",
         "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    "800": {
+        "chara": 3, "yakuwari": 4, "name": "クリスマスピクシー",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
     }
 }
