@@ -320,7 +320,8 @@
         { "index": "exchange_pendant-ad_202411-event-2", "name": "ラビット☆プリンセス！ADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202412-event-1", "name": "激紅のクリスマスギフトADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202412-event-2", "name": "聖夜のスイートクリスマスADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202412-event-2-2", "name": "聖夜のスイートクリスマス開催記念ADペンダント交換券", "link": false }
+        { "index": "exchange_pendant-ad_202412-event-2-2", "name": "聖夜のスイートクリスマス開催記念ADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202412-event-3", "name": "クリスマスは片付けまで！ADペンダント交換券", "link": false }
     ],
     "exchange_costume": [
         { "index": "exchange_costume_toumei-diary", "name": "トウメイダイアリーCD発売記念！衣装引換券", "link": true },
@@ -469,6 +470,7 @@
         { "index": "exchange_costume_202412-event-1-ad", "name": "激紅のクリスマスギフトAD衣装引換券", "link": false },
         { "index": "exchange_costume_202412-event-2-ad", "name": "聖夜のスイートクリスマスAD衣装引換券", "link": false },
         { "index": "exchange_costume_202412-event-2-2-ad", "name": "聖夜のスイートクリスマス開催記念AD衣装引換券", "link": false },
+        { "index": "exchange_costume_202412-event-3-ad", "name": "クリスマスは片付けまで！AD衣装引換券", "link": false },
 
         { "index": "exchange_costume_xmas", "name": "Xmas記念衣装引換券", "link": true },
         { "index": "exchange_costume_new-year", "name": "2024年新春記念衣装引換券", "link": true },
@@ -484,6 +486,7 @@
         { "index": "exchange_costume_premium_202404", "name": "プレミア衣装引換券", "link": true },
         { "index": "exchange_costume_premium_202406", "name": "プレミア衣装引換券6月", "link": true },
         { "index": "exchange_costume_premium_202410", "name": "プレミア衣装引換券10月", "link": true },
+        { "index": "exchange_costume_premium_202412", "name": "プレミア衣装引換券12月", "link": true },
         { "index": "exchange_costume_pack-and-gacha-bonus-tsuujou", "name": "パック＆ガチャボーナス衣装引換券【通常前衛】", "link": true },
         { "index": "exchange_costume_pack-and-gacha-bonus-tokushu", "name": "パック＆ガチャボーナス衣装引換券【特殊前衛】", "link": true },
         { "index": "exchange_costume_pack-and-gacha-bonus-shien", "name": "パック＆ガチャボーナス衣装引換券【支援】", "link": true },
@@ -580,6 +583,7 @@
         { "index": "exchange_event-gacha-special_202406", "name": "イベントガチャスペシャル交換券6月", "link": true },
         { "index": "exchange_event-gacha-special_riririzo", "name": "3.5周年イベントガチャスペシャル交換券", "link": true },
         { "index": "exchange_event-gacha-special_202410", "name": "イベントガチャスペシャル交換券10月", "link": true },
+        { "index": "exchange_event-gacha-special_202412", "name": "イベントガチャスペシャル交換券12月", "link": true },
         
         { "index": "exchange_ultimate_1-select-zenei", "name": "アルティメットメモリア前衛交換券", "link": false },
         { "index": "exchange_ultimate_1-select-kouei", "name": "アルティメットメモリア後衛交換券", "link": false },
@@ -601,6 +605,8 @@
         { "index": "exchange_ultimate_4-select-kouei", "name": "3.5周年アルティメットメモリア後衛交換券", "link": false },
         { "index": "exchange_ultimate_3-select-zenei-3", "name": "アルティメットメモリア前衛交換券10月", "link": false },
         { "index": "exchange_ultimate_3-select-kouei-3", "name": "アルティメットメモリア後衛交換券10月", "link": false },
+        { "index": "exchange_ultimate_4-select-zenei-2", "name": "アルティメットメモリア前衛交換券12月", "link": false },
+        { "index": "exchange_ultimate_4-select-kouei-2", "name": "アルティメットメモリア後衛交換券12月", "link": false },
         
         { "index": "exchange_brand-new", "name": "BRAND-NEW★5メモリア引換券", "link": false },
         { "index": "exchange_brand-new_202310-2", "name": "BRAND-NEW★5メモリア引換券10月Ⅱ", "link": false },
@@ -646,6 +652,7 @@
         { "index": "exchange_new-memoria_202411-fes", "name": "マルチカラードライブフェス★5メモリア引換券", "link": false },
         { "index": "exchange_new-memoria_202411-event-3", "name": "今日も明日も明後日も★5メモリア引換券", "link": false },
         { "index": "exchange_new-memoria_202412-event-2-2", "name": "聖夜のスイートクリスマス開催記念★5メモリア引換券", "link": false },
+        { "index": "exchange_new-memoria_202412-event-3", "name": "クリスマスは片付けまで！★5メモリア引換券", "link": false },
         
         { "index": "exchange_xmas-cuelebre", "name": "Xmas記念クエレブレ引換券", "link": true },
         { "index": "exchange_charm_202312-event-1", "name": "誓いのリコネクトCHARM引換券", "link": false },
@@ -692,6 +699,7 @@
         { "index": "medal_bonus_202410", "name": "ボーナスメダルⅩ", "link": false },
         { "index": "medal_bonus_202411", "name": "ボーナスメダルⅪ", "link": false },
         { "index": "medal_bonus_202412", "name": "ボーナスメダルⅫ", "link": false },
+        { "index": "medal_bonus_202501", "name": "ボーナスメダルⅠ", "link": false },
         { "index": "medal_bonus_collabo-prisma-illya", "name": "シスターズ・カラミティボーナスメダル", "link": false },
         { "index": "medal_bonus_collabo-madoka-magica", "name": "マギカ☆ワンダーワールドボーナスメダル", "link": false },
         { "index": "medal_bonus_collabo-yuyuyu", "name": "白百合の章ボーナスメダル", "link": false },
@@ -734,6 +742,7 @@
         { "index": "medal_bonus_premium_202312", "name": "プレミアボーナスメダル", "link": true },
         { "index": "medal_bonus_premium_202406", "name": "プレミアボーナスメダル6月", "link": true },
         { "index": "medal_bonus_premium_202410", "name": "プレミアボーナスメダル10月", "link": true },
+        { "index": "medal_bonus_premium_202412", "name": "プレミアボーナスメダル12月", "link": true },
         { "index": "medal_bonus_ririsama", "name": "2.5周年リリサマ!!ボーナスメダル", "link": true },
         { "index": "medal_bonus_dream", "name": "3rd Anniv.記念ボーナスメダル", "link": true },
         { "index": "medal_bonus_new-ch-gran-eple", "name": "新章グラン・エプレ編ボーナスメダル", "link": true },
