@@ -42,6 +42,13 @@ for (let i in exchangeDataJson["exchange_pendant-ex"]) {
     }
 }
 
+for (let i in exchangeDataJson["exchange_pendant-ad"]) {
+    let flexitem = getMedalBox(exchangeDataJson["exchange_pendant-ad"][i], 1);
+    if (flexitem !== null) {
+        document.getElementById("exchange-list").appendChild(flexitem);
+    }
+}
+
 for (let i in exchangeDataJson["exchange"]) {
     let flexitem = getMedalBox(exchangeDataJson["exchange"][i], 1);
     if (flexitem !== null) {

@@ -24,14 +24,68 @@ let ranks = [
         "content": []
     },
     {
+        "rank": "季節",
+        "index": "season",
+        "summary": "→ 入手方法がかなり限られている。不定期のシーズンガチャがあったが廃止の模様。シーズンガチャではGWのアイドルも含んでいて、古いものから順に確率アップの対象外になっていた(交換は可)。",
+        "content": []
+    },
+    {
+        "rank": "季節 (推定)",
+        "index": "season_est",
+        "summary": "→ メイン等が復刻していても含まれないことがよくある。",
+        "content": []
+    },
+    {
+        "rank": "3周年",
+        "index": "3nd-anniversary",
+        "summary": "",
+        "content": []
+    },
+    {
         "rank": "2周年の宴",
         "index": "2nd-anniversary",
         "summary": "→ LCSチケット入り。衣装は一部引換券で交換可。",
         "content": []
     },
     {
-        "rank": "3周年",
-        "index": "3nd-anniversary",
+        "rank": "メインストーリー5章",
+        "index": "main-story-5",
+        "summary": "",
+        "content": []
+    },
+    {
+        "rank": "メインストーリー4章",
+        "index": "main-story-4",
+        "summary": "",
+        "content": []
+    },
+    {
+        "rank": "メインストーリー3章",
+        "index": "main-story-3",
+        "summary": "→ 限定扱い。グラン・エプレ前編のみ新規イベント以外の様々なガチャから出てた時期もあり。グラン・エプレは2.5周年で、クエレブレはクリスマス記念で一斉復刻済み。",
+        "content": []
+    },
+    {
+        "rank": "限定イベント",
+        "index": "event",
+        "summary": "→ 季節でもメインでもないイベントだけど復刻が少ない。入手難易度はメインと同等？",
+        "content": []
+    },
+    {
+        "rank": "限定イベント (推定)",
+        "index": "event_est",
+        "summary": "",
+        "content": []
+    },
+    {
+        "rank": "その他限定",
+        "index": "other-limited",
+        "summary": "→ メイン4章が新春引換券に入る前に入ったため、イベントとは扱いが別の可能性あり。",
+        "content": []
+    },
+    {
+        "rank": "その他限定 (推定)",
+        "index": "other-limited_est",
         "summary": "",
         "content": []
     },
@@ -45,48 +99,6 @@ let ranks = [
         "rank": "イベント「ユリの花咲く場所」",
         "index": "yuri-event",
         "summary": "→ 季節ではないが限定扱い。2.5周年無料ガチャにはあったが、季節メモリアよりも入手方法がかなり限られている。しかし衣装のみリフレイン等で交換可。",
-        "content": []
-    },
-    {
-        "rank": "季節",
-        "index": "season",
-        "summary": "→ 入手方法がかなり限られている。不定期のシーズンガチャがあったが廃止の模様。シーズンガチャではGWのアイドルも含んでいて、古いものから順に確率アップの対象外になっていた(交換は可)。",
-        "content": []
-    },
-    {
-        "rank": "季節 (推定)",
-        "index": "season_est",
-        "summary": "→ メイン等が復刻していても含まれないことがよくある。",
-        "content": []
-    },
-    {
-        "rank": "限定イベント",
-        "index": "event",
-        "summary": "→ 季節でもメインでもないイベントだけど復刻が少ない。",
-        "content": []
-    },
-    {
-        "rank": "限定イベント (推定)",
-        "index": "event_est",
-        "summary": "",
-        "content": []
-    },
-    {
-        "rank": "メインストーリー3章",
-        "index": "main-story-3",
-        "summary": "→ 限定扱い。グラン・エプレ前編のみ新規イベント以外の様々なガチャから出てた時期もあり。グラン・エプレは2.5周年で、クエレブレはクリスマス記念で一斉復刻済み。",
-        "content": []
-    },
-    {
-        "rank": "メインストーリー4章 (未復刻)",
-        "index": "main-story-4_est",
-        "summary": "",
-        "content": []
-    },
-    {
-        "rank": "メインストーリー5章 (未復刻)",
-        "index": "main-story-5_est",
-        "summary": "",
         "content": []
     },
     {

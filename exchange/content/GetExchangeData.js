@@ -32,6 +32,9 @@ function getMedalData(medalSelection) {
         case medalSelection.startsWith("exchange_pendant-ex"):
             list = exchangeDataJson["exchange_pendant-ex"];
             break;
+        case medalSelection.startsWith("exchange_pendant-ad"):
+            list = exchangeDataJson["exchange_pendant-ad"];
+            break;
         default:
             list = exchangeDataJson["exchange"];
     }
