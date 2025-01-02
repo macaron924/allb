@@ -74,6 +74,7 @@
         { "index": "gacha-ticket_3rd-anniv-bougai", "name": "3rd Anniv.妨害★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_3rd-anniv-kaifuku", "name": "3rd Anniv.回復★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_zakuzaku", "name": "★5 100%!!ざくざく11回ガチャチケット", "link": true },
+        { "index": "gacha-ticket_zakuzaku_2025", "name": "★5 100%!!ざくざく11回ガチャチケット", "link": true },
         { "index": "gacha-ticket_odaiba", "name": "御台場女学校★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_ludojyo", "name": "私立ルドビコ女学院★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_hervarar_2", "name": "ヘルヴォル★5確定ガチャチケットⅡ", "link": true },
@@ -92,9 +93,9 @@
         { "index": "gacha-ticket_emotional-include", "name": "エモーショナルメモリア入り!!★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_new-year", "name": "正月記念★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_new-year-kakutei", "name": "正月メモリア100%!!★5確定ガチャチケット", "link": true },
-        { "index": "gacha-ticket_new-year-cost20costume", "name": "正月記念!!衣装解放コスト20以上★5ガチャチケット", "link": true },
-        { "index": "gacha-ticket_new-year-cost21", "name": "正月記念!!コスト21以上★5ガチャチケット", "link": true },
-        { "index": "gacha-ticket_new-year-cost21costume", "name": "正月記念!!衣装解放コスト21以上★5ガチャチケット", "link": true },
+        { "index": "gacha-ticket_new-year-cost20costume", "name": "正月記念!!衣装解放コスト20以上★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_new-year-cost21", "name": "正月記念!!コスト21以上★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_new-year-cost21costume", "name": "正月記念!!衣装解放コスト21以上★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_valentine", "name": "バレンタイン記念★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_valentine-kakutei", "name": "バレンタインメモリア100%!!★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_alfheim", "name": "アールヴヘイム★5確定ガチャチケット", "link": true },
@@ -119,6 +120,10 @@
         { "index": "gacha-ticket_kazuha-shenlin-kanaho-kakutei", "name": "一葉・神琳・叶星メモリア100%!!★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_happy-xmas", "name": "Happy Xmas★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_xmas-kakutei_2024", "name": "Xmasメモリア100%!!★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_new-year-kakutei_2025", "name": "正月メモリア100%!!★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_new-year-cost21costume_2025", "name": "正月記念!!衣装解放コスト21以上★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_new-year-cost22_2025", "name": "正月記念!!コスト22以上★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_new-year-cost22costume_2025", "name": "正月記念!!衣装解放コスト22以上★5確定ガチャチケット", "link": true },
         
         { "index": "gacha-ticket_202212-event-1", "name": "聖夜へ捧ぐサプライズ★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202212-event-2", "name": "凍て空の流星★5確定ガチャチケットⅡ", "link": false },
@@ -203,7 +208,8 @@
         { "index": "gacha-ticket_202411-event-1", "name": "凶星のホライズン★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202411-event-2", "name": "ラビット☆プリンセス！★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202412-event-1", "name": "激紅のクリスマスギフト★5確定ガチャチケット", "link": false },
-        { "index": "gacha-ticket_202412-event-2", "name": "聖夜のスイートクリスマス★5確定ガチャチケット", "link": false }
+        { "index": "gacha-ticket_202412-event-2", "name": "聖夜のスイートクリスマス★5確定ガチャチケット", "link": false },
+        { "index": "gacha-ticket_202501-event-1", "name": "新春ハッピー☆サンライズ★5確定ガチャチケット", "link": false }
     ],
     "exchange_pendant_ex": [
         { "index": "exchange_pendant-ex_202212-event-1", "name": "聖夜へ捧ぐサプライズペンダントEX交換券", "link": false },
@@ -290,10 +296,12 @@
         { "index": "exchange_pendant-ex_202407-event-2", "name": "Peaceful VacanceペンダントEX交換券", "link": false },
         { "index": "exchange_pendant-ex_202408-event-1", "name": "Twilight ParadiseペンダントEX交換券", "link": false },
         { "index": "exchange_pendant-ex_202408-event-2", "name": "メランコリック・プランセスペンダントEX交換券", "link": false },
+        { "index": "exchange_pendant-ex_202501-event-1", "name": "新春ハッピー☆サンライズペンダントEX交換券", "link": false },
 
         { "index": "exchange_pendant-ex_xmas", "name": "Xmas記念ペンダントEX交換券", "link": true },
         { "index": "exchange_pendant-ex_xmas-cuelebre", "name": "Xmas記念クエレブレペンダントEX交換券", "link": true },
         { "index": "exchange_pendant-ex_new-year-2024", "name": "新春ペンダントEX交換券", "link": true },
+        { "index": "exchange_pendant-ex_new-year-2025", "name": "新春ペンダントEX交換券", "link": true },
         { "index": "exchange_pendant-ex_dream", "name": "3rd Anniv.DREAM!ペンダントEX交換券", "link": true }
     ],
     "exchange_pendant_ad": [
@@ -321,7 +329,9 @@
         { "index": "exchange_pendant-ad_202412-event-1", "name": "激紅のクリスマスギフトADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202412-event-2", "name": "聖夜のスイートクリスマスADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202412-event-2-2", "name": "聖夜のスイートクリスマス開催記念ADペンダント交換券", "link": false },
-        { "index": "exchange_pendant-ad_202412-event-3", "name": "クリスマスは片付けまで！ADペンダント交換券", "link": false }
+        { "index": "exchange_pendant-ad_202412-event-3", "name": "クリスマスは片付けまで！ADペンダント交換券", "link": false },
+
+        { "index": "exchange_pendant-ad_new-year-2025", "name": "福袋ADペンダント引換券", "link": false }
     ],
     "exchange_costume": [
         { "index": "exchange_costume_toumei-diary", "name": "トウメイダイアリーCD発売記念！衣装引換券", "link": true },
@@ -476,6 +486,9 @@
         { "index": "exchange_costume_new-year", "name": "2024年新春記念衣装引換券", "link": true },
         { "index": "exchange_costume_new-year-2024-premium", "name": "新春プレミア衣装引換券", "link": true },
         { "index": "exchange_costume_new-year-2024-normal", "name": "新春衣装引換券", "link": true },
+        { "index": "exchange_costume_new-year-2025-ad", "name": "福袋AD衣装引換券", "link": true },
+        { "index": "exchange_costume_new-year-2025-premium", "name": "新春プレミア衣装引換券", "link": true },
+        { "index": "exchange_costume_new-year-2025-normal", "name": "新春衣装引換券", "link": true },
         { "index": "exchange_costume_valentine", "name": "2024年バレンタイン記念衣装引換券", "link": true },
         { "index": "exchange_costume_white-day", "name": "2024年ホワイトデー記念衣装引換券", "link": true },
         { "index": "exchange_costume_wedding", "name": "2024年ウェディング記念衣装引換券", "link": true },
@@ -483,6 +496,7 @@
         { "index": "exchange_costume_halloween", "name": "2024年ハロウィン記念衣装引換券", "link": true },
         { "index": "exchange_costume_202411-event-2-kinen", "name": "ラビット☆プリンセス！イベント開催記念衣装引換券", "link": true },
         { "index": "exchange_costume_202412-event-2-kinen", "name": "聖夜のスイートクリスマスイベント開催記念衣装引換券", "link": true },
+        { "index": "exchange_costume_202501-event-1-kinen", "name": "新春ハッピー☆サンライズ衣装引換券", "link": true },
         { "index": "exchange_costume_premium_202404", "name": "プレミア衣装引換券", "link": true },
         { "index": "exchange_costume_premium_202406", "name": "プレミア衣装引換券6月", "link": true },
         { "index": "exchange_costume_premium_202410", "name": "プレミア衣装引換券10月", "link": true },
@@ -506,6 +520,8 @@
         { "index": "exchange_memoria_new-year-2024-ultimate", "name": "新春アルティメット★5メモリア引換券", "link": true },
         { "index": "exchange_memoria_new-year-2024-premium", "name": "新春プレミア★5メモリア引換券", "link": true },
         { "index": "exchange_memoria_new-year-2024-normal", "name": "新春★5メモリア引換券", "link": true },
+        { "index": "exchange_memoria_new-year-2025-premium", "name": "新春プレミア★5メモリア引換券", "link": true },
+        { "index": "exchange_memoria_new-year-2025-normal", "name": "新春★5メモリア引換券", "link": true },
         { "index": "exchange_memoria_2nd-anniversary-1", "name": "2周年祭りぽかぽか★5メモリア引換券", "link": true },
         { "index": "exchange_memoria_2nd-anniversary-2", "name": "2周年祭りどきどき★5メモリア引換券", "link": true },
         { "index": "exchange_memoria_2nd-anniversary-3", "name": "2周年祭りあまあま★5メモリア引換券", "link": true },
