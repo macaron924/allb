@@ -330,6 +330,7 @@
         { "index": "exchange_pendant-ad_202412-event-2", "name": "聖夜のスイートクリスマスADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202412-event-2-2", "name": "聖夜のスイートクリスマス開催記念ADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202412-event-3", "name": "クリスマスは片付けまで！ADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202501-event-2", "name": "開催！よふかし会ADペンダント交換券", "link": false },
 
         { "index": "exchange_pendant-ad_new-year-2025", "name": "福袋ADペンダント引換券", "link": false }
     ],
@@ -481,6 +482,7 @@
         { "index": "exchange_costume_202412-event-2-ad", "name": "聖夜のスイートクリスマスAD衣装引換券", "link": false },
         { "index": "exchange_costume_202412-event-2-2-ad", "name": "聖夜のスイートクリスマス開催記念AD衣装引換券", "link": false },
         { "index": "exchange_costume_202412-event-3-ad", "name": "クリスマスは片付けまで！AD衣装引換券", "link": false },
+        { "index": "exchange_costume_202501-event-2-ad", "name": "開催！よふかし会AD衣装引換券", "link": false },
 
         { "index": "exchange_costume_xmas", "name": "Xmas記念衣装引換券", "link": true },
         { "index": "exchange_costume_new-year", "name": "2024年新春記念衣装引換券", "link": true },
@@ -669,6 +671,7 @@
         { "index": "exchange_new-memoria_202411-event-3", "name": "今日も明日も明後日も★5メモリア引換券", "link": false },
         { "index": "exchange_new-memoria_202412-event-2-2", "name": "聖夜のスイートクリスマス開催記念★5メモリア引換券", "link": false },
         { "index": "exchange_new-memoria_202412-event-3", "name": "クリスマスは片付けまで！★5メモリア引換券", "link": false },
+        { "index": "exchange_new-memoria_202501-event-2", "name": "開催！よふかし会★5メモリア引換券", "link": false },
         
         { "index": "exchange_xmas-cuelebre", "name": "Xmas記念クエレブレ引換券", "link": true },
         { "index": "exchange_charm_202312-event-1", "name": "誓いのリコネクトCHARM引換券", "link": false },

@@ -3222,5 +3222,17 @@
     "806": {
         "chara": 70, "yakuwari": 7, "name": "乙巳の振り袖",
         "percent": 15, "parameter": [["Sp.DEF", 3000], ["DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    "807": {
+        "chara": 71, "yakuwari": 2, "name": "おやすみスタイル",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
+    },
+    "808": {
+        "chara": 74, "yakuwari": 6, "name": "おやすみスタイル",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5], ["水耐性", 5], ["水メモリア補助発動率UP", 2]]
+    },
+    "809": {
+        "chara": 73, "yakuwari": 4, "name": "おやすみスタイル",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5], ["水耐性", 5], ["水メモリア補助発動率UP", 2]]
     }
 }
