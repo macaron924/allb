@@ -3234,5 +3234,17 @@
     "809": {
         "chara": 73, "yakuwari": 4, "name": "おやすみスタイル",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5], ["水耐性", 5], ["水メモリア補助発動率UP", 2]]
+    },
+    "810": {
+        "chara": 133, "yakuwari": 5, "name": "舞姫絢爛",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    "811": {
+        "chara": 29, "yakuwari": 4, "name": "舞姫絢爛",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "812": {
+        "chara": 28, "yakuwari": 2, "name": "舞姫絢爛",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 5], ["水耐性", 5], ["水メモリア補助発動率UP", 2]]
     }
 }
