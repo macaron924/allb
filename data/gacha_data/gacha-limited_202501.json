@@ -1,5 +1,250 @@
 [
     {
+        "start": "2025/1/21(火) 12:00",
+        "finish": "2025/1/31(金) 23:59",
+        "type": "エモーショナルメモリアガチャ",
+        "medal": "medal_bonus_emotional_202501",
+        "gacha": [
+            {
+                "index": "20250121_1",
+                "name": "4thAnniv.エモーショナルメモリアフェス",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
+                    ],
+                    "table_header": ["3回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_content": [
+                        { "need": [1, 11], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
+                        { "need": [2, 22], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [3, 33], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [4, 44], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
+                        { "need": [5, 55], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [6, 66], "item": [ { "index": "exchange_memoria_4th-anniv-emotional", "value": 1 } ] },
+                        { "need": [7, 77], "item": [ { "index": "gacha-ticket_cost18", "value": 1 } ] },
+                        { "need": [8, 88], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [9, 99], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [10, 110], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
+                        { "need": [11, 121], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [12, 132], "item": [ { "index": "exchange_memoria_4th-anniv-emotional", "value": 1 } ] },
+                        { "need": [13, 143], "item": [ { "index": "gacha-ticket_cost18", "value": 1 } ] },
+                        { "need": [14, 154], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [15, 165], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [16, 176], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
+                        { "need": [17, 187], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [18, 198], "item": [ { "index": "exchange_memoria_4th-anniv-emotional", "value": 1 } ] },
+                        { "need": [19, 209], "item": [ { "index": "gacha-ticket_cost18", "value": 1 } ] },
+                        { "need": [20, 220], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [21, 231], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [22, 242], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
+                        { "need": [23, 253], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [24, 264], "item": [ { "index": "exchange_memoria_4th-anniv-emotional", "value": 1 } ] },
+                        { "need": [25, 275], "item": [ { "index": "gacha-ticket_cost18", "value": 1 } ] },
+                        { "need": [26, 286], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [27, 297], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [28, 308], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
+                        { "need": [29, 319], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [30, 330], "item": [ { "index": "exchange_memoria_4th-anniv-emotional", "value": 1 } ] },
+                        { "need": [31, 341], "item": [ { "index": "gacha-ticket_cost18", "value": 1 } ] },
+                        { "need": [32, 352], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [33, 363], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [34, 374], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
+                        { "need": [35, 385], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [36, 396], "item": [ { "index": "exchange_memoria_4th-anniv-emotional", "value": 1 } ] },
+                        { "need": [37, 407], "item": [ { "index": "gacha-ticket_cost18", "value": 1 } ] },
+                        { "need": [38, 418], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [39, 429], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [40, 440], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
+                        { "need": [41, 451], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [42, 462], "item": [ { "index": "exchange_memoria_4th-anniv-emotional", "value": 1 } ] },
+                        { "need": [43, 473], "item": [ { "index": "gacha-ticket_cost18", "value": 1 } ] },
+                        { "need": [44, 484], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [45, 495], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [46, 506], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
+                        { "need": [47, 517], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [48, 528], "item": [ { "index": "exchange_memoria_4th-anniv-emotional", "value": 1 } ] },
+                        { "need": [49, 539], "item": [ { "index": "gacha-ticket_cost18", "value": 1 } ] },
+                        { "need": [50, 550], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [51, 561], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [52, 572], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
+                        { "need": [53, 583], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [54, 594], "item": [ { "index": "exchange_memoria_4th-anniv-emotional", "value": 1 } ] },
+                        { "need": [55, 605], "item": [ { "index": "gacha-ticket_cost18", "value": 1 } ] },
+                        { "need": [56, 616], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [57, 627], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [58, 638], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
+                        { "need": [59, 649], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [60, 660], "item": [ { "index": "exchange_memoria_4th-anniv-emotional", "value": 1 } ] }
+                    ]
+                },
+                "lineup": {
+                    "total_ratio": [5],
+                    "notice": [],
+                    "pu": [
+                        { "caption": "ピックアップ", "ratio": [0.200], "content": [312, 348, 363, 523, 571, 628, 661, 708, 754, 789] }
+                    ],
+                    "else": { "caption": "ピックアップ無し", "content": [123, 148, 149, 153, 155, 158, 159, 161, 162, 169, 173, 170, 171, 172, 174, 175, 176, 186, 191, 192, 187, 188, 189, 193, 190, 198, 202, 203, 204, 206, 208, 209, 210, 211, 213, 214, 215, 216, 218, 220, 221, 232, 233, 250, 251, 261, 262, 263, 264, 277, 278, 279, 286, 288, 289, 287, 298, 299, 300, 302, 303, 304, 305, 307, 308, 318, 320, 322, 323, 324, 326, 327, 319, 321, 329, 330, 331, 332, 338, 334, 335, 336, 337, 345, 346, 349, 350, 351, 352, 353, 354, 355, 356, 364, 365, 367, 368, 369, 370, 371, 372, 373, 379, 380, 381, 382, 386, 387, 388, 389, 391, 392, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 410, 411, 406, 407, 408, 409, 414, 415, 416, 418, 419, 420, 421, 431, 432, 427, 428, 429, 430, 444, 445, 446, 447, 448, 449, 451, 452, 453, 454, 455, 456, 457, 458, 461, 467, 468, 469, 470, 471, 474, 475, 480, 481, 482, 483, 484, 498, 499, 500, 501, 502, 504, 505, 538, 539, 533, 534, 535, 536, 548, 549, 550, 551, 552, 564, 557, 558, 559, 560, 561, 566, 567, 568, 569, 570, 578, 579, 580, 581, 586, 587, 588, 589, 591, 592, 602, 603, 604, 605, 609, 610, 611, 612, 614, 615, 624, 625, 626, 627, 633, 634, 635, 636, 638, 639, 650, 652, 663, 665, 684, 686, 695, 703, 713, 718, 725, 733, 742, 747, 753, 760, 768, 774, 779, 802, 807, 809, 822, 824, 829, 843, 844, 856, 867, 870, 875, 892, 895, 897] }
+                }
+            }
+        ]
+    },
+    {
+        "start": "2025/1/21(火) 12:00",
+        "finish": "2025/1/31(金) 23:59",
+        "type": "その他のガチャ",
+        "medal": "medal_bonus_202501",
+        "gacha": [
+            {
+                "index": "20250121_2",
+                "name": "【10回限定!!】プレミア水属性フェス",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "11回ガチャ10回限定", "item": [] },
+                        { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] },
+                        { "text": "メモリアメダル無し", "item": [] }
+                    ],
+                    "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_content": [
+                        { "need": [1, 11], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
+                        { "need": [2, 22], "item": [ { "index": "exchange_memoria_premium_water", "value": 1 } ] },
+                        { "need": [3, 33], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
+                        { "need": [4, 44], "item": [ { "index": "exchange_memoria_premium_water", "value": 1 } ] },
+                        { "need": [5, 55], "item": [ { "index": "medal_pendant-premium", "value": 200 } ] },
+                        { "need": [6, 66], "item": [ { "index": "exchange_memoria_premium_water", "value": 1 } ] },
+                        { "need": [7, 77], "item": [ { "index": "medal_pendant-premium", "value": 300 } ] },
+                        { "need": [8, 88], "item": [ { "index": "exchange_memoria_premium_water", "value": 1 } ] },
+                        { "need": [9, 99], "item": [ { "index": "exchange_memoria_premium_water", "value": 1 } ] },
+                        { "need": [10, 110], "item": [ { "index": "moon-water", "value": 1 } ] }
+                    ]
+                },
+                "lineup": {
+                    "total_ratio": [50],
+                    "notice": [],
+                    "pu": [],
+                    "else": { "caption": "ピックアップ無し", "content": [242, 243, 244, 397, 398, 399, 400, 401, 403, 406, 407, 408, 409, 426, 464, 465, 466, 468, 469, 471, 473, 474, 475, 480, 483, 594, 595, 596, 597, 598, 599, 600, 601, 606, 607, 608, 624, 625, 626, 627, 638, 639, 644, 645, 646, 647, 648, 649, 650, 651, 652, 666, 667, 668, 669, 694, 695, 696, 705, 706, 707, 712, 713, 715, 716, 717, 724, 725, 734, 735, 736, 737, 738, 739, 740, 743, 744, 745, 752, 753, 755, 756, 757, 758, 765, 766, 771, 773, 776, 779, 781, 782, 783, 784, 787, 794, 802, 804, 805, 810, 815, 816, 818, 820, 822, 827, 823, 831, 833, 836, 837, 839, 840, 845, 848, 852, 853] }
+                }
+            }
+        ]
+    },
+    {
+        "start": "2025/1/20(月) 12:00",
+        "finish": "2025/1/31(金) 11:59",
+        "type": "イベントガチャ",
+        "medal": "medal_bonus_202501",
+        "gacha": [
+            {
+                "index": "20250120_1",
+                "name": "リリィズファン!!～姫と騎士と4つの誓い～ イベントガチャ",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "1回ガチャで", "item": [ { "index": "medal", "value": 10 } ] },
+                        { "text": "11回ガチャで", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] }
+                    ],
+                    "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_content": [
+                        { "need": [1, 11], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
+                        { "need": [2, 22], "item": [ { "index": "exchange_pendant-ad_202501-event-4", "value": 1 } ] },
+                        { "need": [3, 33], "item": [ { "index": "costume_824_pendant-ex", "value": 1 } ] },
+                        { "need": [4, 44], "item": [ { "index": "exchange_costume_id-826-832", "value": 1 } ] },
+                        { "need": [5, 55], "item": [ { "index": "costume_833_before", "value": 1 } ] },
+                        { "need": [6, 66], "item": [ { "index": "exchange_pendant-ad_202501-event-4", "value": 1 } ] },
+                        { "need": [7, 77], "item": [ { "index": "charm_222_star3", "value": 1 } ] },
+                        { "need": [8, 88], "item": [ { "index": "moon", "value": 1 } ] },
+                        { "need": [9, 99], "item": [ { "index": "exchange_pendant-ad_202501-event-4", "value": 1 } ] },
+                        { "need": [10, 110], "item": [ { "index": "exchange_costume_202501-event-4-ad", "value": 1 } ] },
+                        { "need": [11, 121], "item": [ { "index": "exchange_pendant-ad_202501-event-4", "value": 1 } ] },
+                        { "need": [12, 132], "item": [ { "index": "gacha-ticket_202501-event-4", "value": 1 } ] },
+                        { "need": [13, 143], "item": [ { "index": "medal_pendant-royal", "value": 100 } ] },
+                        { "need": [14, 154], "item": [ { "index": "exchange_pendant-ad_202501-event-4", "value": 1 } ] },
+                        { "need": [15, 165], "item": [ { "index": "exchange_costume_id-826-832", "value": 1 } ] },
+                        { "need": [16, 176], "item": [ { "index": "exchange_pendant-ad_202501-event-4", "value": 1 } ] },
+                        { "need": [17, 187], "item": [ { "index": "moon", "value": 1 } ] },
+                        { "need": [18, 198], "item": [ { "index": "exchange_pendant-ad_202501-event-4", "value": 1 } ] },
+                        { "need": [19, 209], "item": [ { "index": "medal_pendant-premium", "value": 25 } ] },
+                        { "need": [20, 220], "item": [ { "index": "exchange_costume_202501-event-4-ad", "value": 1 } ] },
+                        { "need": [21, 231], "item": [ { "index": "exchange_costume_id-826-832", "value": 1 } ] },
+                        { "need": [22, 242], "item": [ { "index": "exchange_pendant-ad_202501-event-4", "value": 1 } ] },
+                        { "need": [23, 253], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
+                        { "need": [24, 264], "item": [ { "index": "gacha-ticket_202501-event-4", "value": 1 } ] },
+                        { "need": [25, 275], "item": [ { "index": "medal_pendant-premium", "value": 25 } ] },
+                        { "need": [26, 286], "item": [ { "index": "exchange_pendant-ad_202501-event-4", "value": 1 } ] },
+                        { "need": [27, 297], "item": [ { "index": "exchange_costume_id-826-832", "value": 1 } ] },
+                        { "need": [28, 308], "item": [ { "index": "exchange_costume_202501-event-4-ad", "value": 1 } ] },
+                        { "need": [29, 319], "item": [ { "index": "exchange_costume_id-826-832", "value": 1 } ] },
+                        { "need": [30, 330], "item": [ { "index": "exchange_pendant-ad_202501-event-4", "value": 1 } ] },
+                        { "need": [31, 341], "item": [ { "index": "moon", "value": 1 } ] },
+                        { "need": [32, 352], "item": [ { "index": "exchange_pendant-ad_202501-event-4", "value": 1 } ] },
+                        { "need": [33, 363], "item": [ { "index": "gacha-ticket_cost19", "value": 1 } ] },
+                        { "need": [34, 374], "item": [ { "index": "exchange_pendant-ad_202501-event-4", "value": 1 } ] },
+                        { "need": [35, 385], "item": [ { "index": "exchange_costume_id-826-832", "value": 1 } ] },
+                        { "need": [36, 396], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [37, 407], "item": [ { "index": "exchange_costume_id-826-832", "value": 1 } ] },
+                        { "need": [38, 418], "item": [ { "index": "gacha-ticket_202501-event-4", "value": 1 } ] },
+                        { "need": [39, 429], "item": [ { "index": "medal_pendant-premium", "value": 25 } ] },
+                        { "need": [40, 440], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [41, 451], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [42, 462], "item": [ { "index": "medal_pendant-premium", "value": 25 } ] },
+                        { "need": [43, 473], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [44, 484], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [45, 495], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [46, 506], "item": [ { "index": "medal_pendant-premium", "value": 25 } ] },
+                        { "need": [47, 517], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [48, 528], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [49, 539], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [50, 550], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [51, 561], "item": [ { "index": "medal_pendant-premium", "value": 25 } ] },
+                        { "need": [52, 572], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [53, 583], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [54, 594], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [55, 605], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [56, 616], "item": [ { "index": "medal_pendant-premium", "value": 25 } ] },
+                        { "need": [57, 627], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [58, 638], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [59, 649], "item": [ { "index": "skip-ticket", "value": 100 } ] },
+                        { "need": [60, 660], "item": [ { "index": "skip-ticket", "value": 100 } ] }
+                    ]
+                },
+                "lineup": {
+                    "total_ratio": [6],
+                    "notice": [],
+                    "pu": [
+                        { "caption": "ピックアップ", "ratio": [0.400], "content": [1040, 1041, 1042, 1043] }
+                    ],
+                    "else": { "caption": "その他", "content": [43, 57, 64, 74, 75, 80, 81, 76, 88, 96, 97, 98, 99, 100, 112, 113, 118, 121, 130, 128, 129, 137, 132, 156, 162, 173, 174, 175, 176, 186, 191, 192, 193, 190, 198, 202, 203, 208, 213, 214, 215, 286, 287, 299, 300, 318, 320, 319, 321, 334, 335, 336, 337, 352, 353, 354, 355, 367, 368, 369, 370, 379, 380, 381, 382, 386, 387, 388, 389, 398, 399, 400, 401, 406, 407, 408, 409, 418, 419, 420, 421, 427, 428, 429, 430, 444, 445, 446, 447, 448, 454, 455, 456, 457, 458, 467, 468, 469, 470, 471, 480, 481, 482, 483, 484, 498, 499, 500, 501, 502, 533, 534, 535, 536, 548, 549, 550, 551, 552, 557, 558, 559, 560, 561, 578, 579, 580, 581, 586, 587, 588, 589, 602, 603, 604, 605, 609, 610, 611, 612, 624, 625, 626, 627, 633, 634, 635, 636, 650, 652, 663, 665, 684, 686, 695, 703, 713, 718, 725, 733, 742, 747, 753, 760, 768, 774, 779, 802, 807, 809, 822, 824, 829, 843, 844, 856, 867, 870, 875, 892, 895, 897, 961, 967, 968, 986] }
+                }
+            }
+        ]
+    },
+    {
+        "start": "2025/1/20(月) 12:00",
+        "finish": "2025/1/22(水) 23:59",
+        "type": "マンデーボーナスガチャ",
+        "medal": "medal_bonus_202501",
+        "gacha": [
+            {
+                "index": "20250120_2",
+                "name": "マンデーボーナスガチャ",
+                "big_banner": true,
+                "bonus": {
+                    "notice": [
+                        { "text": "11回ガチャ1回限定", "item": [] },
+                        { "text": "ガチャを引くと", "item": [ { "index": "medal", "value": 200 }, { "index": "skip-ticket", "value": 300 }, { "index": "goggle-3", "value": 5 } ] }
+                    ],
+                    "table_header": [],
+                    "table_content": []
+                },
+                "lineup": {
+                    "total_ratio": [5],
+                    "notice": ["★5メモリアは半年以内追加のみ"],
+                    "pu": [],
+                    "else": { "caption": "ピックアップ無し", "content": [961, 967, 968, 986] }
+                }
+            }
+        ]
+    },
+    {
         "start": "2025/1/18(土) 12:00",
         "finish": "2025/1/24(金) 23:59",
         "type": "その他のガチャ",
