@@ -36,6 +36,12 @@ let ranks = [
         "content": []
     },
     {
+        "rank": "4周年",
+        "index": "4th-anniversary",
+        "summary": "",
+        "content": []
+    },
+    {
         "rank": "3周年",
         "index": "3nd-anniversary",
         "summary": "",

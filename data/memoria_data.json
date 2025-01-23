@@ -1599,7 +1599,7 @@
         "zokusei": 2, "cost": 18, "costume": [], "legendary": "リーグ", "illustration": { "type": "", "illustrator": "", "chara": [24] },
         "get_rank": "非ガチャ産", "category": { "c1": "レジェンダリー", "c2": "レギオンリーグ", "c3": ["1st"] },
         "skill": [
-            { "yakuwari": 1, "name": ["パワーストライクA LG", "パワーストライクA LG", "攻:ダメージUP/パワーUP Ⅲ"] }
+            { "yakuwari": 1, "name": ["パワーストライクA LG+", "パワーストライクA LG+", "攻:ダメージUP/パワーUP Ⅴ"] }
         ]
     },
     "195": {
@@ -5672,7 +5672,7 @@
     },
     "661": {
         "name": "Emotional Memoria -楽しいを探して-",
-        "zokusei": 3, "cost": 21, "costume": [406], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [35] },
+        "zokusei": 3, "cost": 21, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [35] },
         "get_rank": "エモーショナルメモリア", "category": { "c1": "エモーショナルメモリアガチャ", "c2": "エモーショナルメモリア -楽しいを探して- ガチャ", "c3": [""] },
         "skill": [
             { "yakuwari": 7, "name": ["WガードヒールD Ⅳ", "WガードヒールD Ⅳ", "回:回復UP/副援:水ガードUP Ⅲ"] },
@@ -9359,5 +9359,69 @@
             { "yakuwari": 6, "name": ["WパワーフォールE Ⅳ", "WアニマウォーターパワーフォールE Ⅳ", "援:支援UP/副援:水パワーDOWN Ⅴ"] },
             { "yakuwari": 7, "name": ["Sp.ガードヒールE Ⅳ", "Sp.グロリアガードヒールE Ⅳ", "回:回復UP/副援:支援UP Ⅴ"] }
         ]
+    },
+    "1039": {
+        "name": "4th Anniversary vow",
+        "zokusei": 2, "cost": 28, "costume": [], "legendary": "", "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 10, 71, 15, 16] },
+        "get_rank": "非ガチャ産", "category": { "c1": "ミッション、ログインボーナス等", "c2": "HA、AN無料/ボックスガチャ", "c3": ["4周年"] },
+        "skill": [
+            { "yakuwari": 4, "name": ["Sp.ガードバーストB Ⅲ", "Sp.ガードバーストB Ⅲ", "攻:Sp.ガードDOWN Ⅲ"] },
+            { "yakuwari": 2, "name": ["ガードブレイクB Ⅲ", "ガードブレイクB Ⅲ", "攻:ガードDOWN Ⅲ"] },
+            { "yakuwari": 5, "name": ["パワーアシストB Ⅲ", "パワーアシストB Ⅲ", "援:パワーUP Ⅲ"] },
+            { "yakuwari": 6, "name": ["Sp.ガードフォールB Ⅲ", "Sp.ガードフォールB Ⅲ", "援:Sp.ガードDOWN Ⅲ"] },
+            { "yakuwari": 7, "name": ["ガードヒールC Ⅲ", "ガードヒールC Ⅲ", "回:ガードUP Ⅲ"] }
+        ]
+    },
+    "1040": {
+        "name": "願い掛けるはおとぎの中に",
+        "zokusei": 2, "cost": 26, "costume": [822], "legendary": "ガチャ", "illustration": { "type": "", "illustrator": "", "chara": [1, 3] },
+        "get_rank": "4周年", "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "リリィズファン!!～姫と騎士と4つの誓い～ (2025/1/20～)", "c3": ["イベントガチャ"] },
+        "skill": [
+            { "yakuwari": 6, "name": ["WガードフォールE Ⅳ", "WアニマガードフォールE Ⅳ", "援:支援UP/副援:水ガードDOWN Ⅴ"] },
+            { "yakuwari": 4, "name": ["Sp.マイトスマッシュB Ⅳ+", "Sp.メテオウォーターパワースマッシュB Ⅳ+", "攻:ダメージUP/副攻:水パワーUP Ⅴ"] },
+            { "yakuwari": 5, "name": ["パワーアシストE Ⅳ", "エーテルパワーアシストE Ⅳ", "援:支援UP/副援:水パワーUP Ⅴ"] }
+        ]
+    },
+    "1041": {
+        "name": "薔薇の剣戟",
+        "zokusei": 3, "cost": 24, "costume": [823], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [10, 71] },
+        "get_rank": "4周年", "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "リリィズファン!!～姫と騎士と4つの誓い～ (2025/1/20～)", "c3": ["イベントガチャ"] },
+        "skill": [
+            { "yakuwari": 4, "name": ["Sp.マイトスマッシュD Ⅲ+", "Sp.コメットパワースマッシュD Ⅲ", "攻:ダメージUP/副攻:風パワーUP Ⅴ"] },
+            { "yakuwari": 2, "name": ["マイトストライクD Ⅲ+", "コメットパワーストライクD Ⅲ", "攻:ダメージUP/副攻:風パワーUP Ⅴ"] },
+            { "yakuwari": 6, "name": ["パワーフォールE Ⅳ", "[風攻]カウンターワイドフォールE Ⅳ", "援:支援UP/副援:風パワーDOWN Ⅴ"] }
+        ]
+    },
+    "1042": {
+        "name": "あなたがいれば",
+        "zokusei": 3, "cost": 24, "costume": [824], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [16, 15] },
+        "get_rank": "4周年", "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "リリィズファン!!～姫と騎士と4つの誓い～ (2025/1/20～)", "c3": ["イベントガチャ"] },
+        "skill": [
+            { "yakuwari": 5, "name": ["Sp.パワーアシストE Ⅳ", "Sp.アニマウィンドパワーアシストE Ⅳ", "援:支援UP/副援:風パワーUP Ⅴ"] },
+            { "yakuwari": 4, "name": ["Sp.マイトスマッシュB Ⅳ+", "Sp.メテオウィンドパワースマッシュB Ⅳ+", "攻:ダメージUP/副攻:風パワーUP Ⅴ"] },
+            { "yakuwari": 7, "name": ["ガードヒールE Ⅳ", "グロリアガードヒールE Ⅳ", "回:回復UP/副援:風ガードUP Ⅴ"] }
+        ]
+    },
+    "1043": {
+        "name": "祈りをひとひら",
+        "zokusei": 2, "cost": 26, "costume": [825], "legendary": "ガチャ", "illustration": { "type": "", "illustrator": "", "chara": [161, 53] },
+        "get_rank": "4周年", "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "リリィズファン!!～姫と騎士と4つの誓い～ (2025/1/20～)", "c3": ["イベントガチャ"] },
+        "skill": [
+            { "yakuwari": 2, "name": ["マイトストライクD Ⅲ+", "コメットパワーストライクD Ⅲ", "攻:ダメージUP/副攻:水パワーUP Ⅴ"] },
+            { "yakuwari": 4, "name": ["Sp.マイトスマッシュD Ⅲ+", "Sp.コメットパワースマッシュD Ⅲ", "攻:ダメージUP/副攻:水パワーUP Ⅴ"] },
+            { "yakuwari": 7, "name": ["Sp.ガードヒールC Ⅴ", "Sp.エデンウォーターガードヒールC Ⅴ", "回:回復UP/副援:水ガードUP Ⅴ"] }
+        ]
+    },
+    "1044": {
+        "name": "みんなといっしょ",
+        "zokusei": 3, "cost": 22, "costume": [], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [35, 1, 2, 3, 4, 5, 6, 7, 8, 9] },
+        "get_rank": "非ガチャ産", "category": { "c1": "シリアルコード", "c2": "一柳隊ミニアルバム「CONSTELLAT10N」", "c3": [""] },
+        "skill": [
+            { "yakuwari": 2, "name": ["マイトストライクB Ⅳ+", "マイトストライクB Ⅳ+", "攻:マイトUP Ⅳ"] },
+            { "yakuwari": 4, "name": ["Sp.マイトスマッシュB Ⅳ+", "Sp.マイトスマッシュB Ⅳ+", "攻:Sp.マイトUP Ⅳ"] },
+            { "yakuwari": 5, "name": ["マイトアシストE Ⅳ", "マイトアシストE Ⅳ", "援:マイトUP Ⅳ"] },
+            { "yakuwari": 6, "name": ["マイトフォールE Ⅳ", "マイトフォールE Ⅳ", "援:マイトDOWN Ⅳ"] },
+            { "yakuwari": 7, "name": ["ガードヒールE Ⅳ", "ガードヒールE Ⅳ", "回:ガードUP/副援:風ガードUP Ⅳ"] }
+    ]
     }
 }
