@@ -210,7 +210,8 @@
         { "index": "gacha-ticket_202412-event-1", "name": "激紅のクリスマスギフト★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202412-event-2", "name": "聖夜のスイートクリスマス★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202501-event-1", "name": "新春ハッピー☆サンライズ★5確定ガチャチケット", "link": false },
-        { "index": "gacha-ticket_202501-event-3", "name": "片付け戦争！★5確定ガチャチケット", "link": false }
+        { "index": "gacha-ticket_202501-event-3", "name": "片付け戦争！★5確定ガチャチケット", "link": false },
+        { "index": "gacha-ticket_202501-event-4", "name": "リリィズファン!!～姫と騎士と4つの誓い～★5確定ガチャチケット", "link": false }
     ],
     "exchange_pendant_ex": [
         { "index": "exchange_pendant-ex_202212-event-1", "name": "聖夜へ捧ぐサプライズペンダントEX交換券", "link": false },
@@ -333,6 +334,7 @@
         { "index": "exchange_pendant-ad_202412-event-2-2", "name": "聖夜のスイートクリスマス開催記念ADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202412-event-3", "name": "クリスマスは片付けまで！ADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202501-event-2", "name": "開催！よふかし会ADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202501-event-4", "name": "リリィズファン!!～姫と騎士と4つの誓い～ADペンダント交換券", "link": false },
 
         { "index": "exchange_pendant-ad_new-year-2025", "name": "福袋ADペンダント引換券", "link": false }
     ],
@@ -374,8 +376,6 @@
         { "index": "exchange_costume_koukainama-202401", "name": "公開生放送2024記念!!衣装交換チケット", "link": true },
         { "index": "exchange_costume_riririzo-swimsuit", "name": "3.5周年記念!!水着衣装引換券", "link": true },
         { "index": "exchange_costume_namahousou_202501", "name": "生放送2025記念!!衣装引換券", "link": true },
-        { "index": "exchange_costume_ririsama", "name": "2.5周年リリサマ!!衣装引換券", "link": true },
-        { "index": "exchange_costume_riririzo", "name": "3.5周年リリリゾ!!衣装引換券", "link": true },
         { "index": "exchange_costume_gigant", "name": "ギガント級ヒュージ討伐衣装引換券", "link": true },
         { "index": "exchange_costume_gigant_202308", "name": "ギガント級ヒュージ討伐衣装引換券 (8月)", "link": true },
         { "index": "exchange_costume_gigant_202309", "name": "ギガント級ヒュージ討伐衣装引換券 (9月)", "link": true },
@@ -387,9 +387,11 @@
         { "index": "exchange_costume_gigant-4", "name": "ギガント級衣装引換券Ver.4 (5月)", "link": true },
         { "index": "exchange_costume_gigant-5", "name": "ギガント級衣装引換券Ver.5 (8月)", "link": true },
         { "index": "exchange_costume_gigant-6", "name": "ギガント級衣装引換券Ver.6 (11月)", "link": true },
+        { "index": "exchange_costume_ririsama", "name": "2.5周年リリサマ!!衣装引換券", "link": true },
         { "index": "exchange_costume_ririsama-1", "name": "GO!GO!スプラッシュ衣装引換券", "link": true },
         { "index": "exchange_costume_ririsama-2", "name": "トロピカルナイト衣装引換券", "link": true },
         { "index": "exchange_costume_ririsama-3", "name": "ギガントウェーブ衣装引換券", "link": true },
+        { "index": "exchange_costume_riririzo", "name": "3.5周年リリリゾ!!衣装引換券", "link": true },
         { "index": "exchange_costume_riririzo-1", "name": "3.5周年 Peaceful Vacance衣装引換券", "link": true },
         { "index": "exchange_costume_riririzo-2", "name": "3.5周年 Twilight Paradise衣装引換券", "link": true },
         { "index": "exchange_costume_riririzo-3", "name": "3.5周年 Exciting Utopia衣装引換券", "link": true },
@@ -397,8 +399,9 @@
         { "index": "exchange_costume_dream-1", "name": "3rdAnniv.DREAMプレシャス衣装引換券", "link": true },
         { "index": "exchange_costume_dream-2", "name": "3rdAnniv.DREAMミスティック衣装引換券", "link": true },
         { "index": "exchange_costume_dream-3", "name": "3rdAnniv.DREAMスウィーティ衣装引換券", "link": true },
+        { "index": "exchange_costume_4th-anniv", "name": "4thAnniv.衣装引換券", "link": true },
+        { "index": "exchange_costume_4th-anniv-1", "name": "4周年姫と騎士と4つの誓い衣装引換券", "link": true },
         
-        { "index": "exchange_costume_id-505", "name": "汐里/セイクリッドドリーム衣装引換券", "link": false },
         { "index": "exchange_costume_id-506-512", "name": "天葉/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-506-512_202406", "name": "天葉/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-506-512_202407", "name": "天葉/ドリーミィパレード衣装引換券", "link": false },
@@ -408,8 +411,6 @@
         { "index": "exchange_costume_id-506-512_202411", "name": "天葉/ドリーミィパレード衣装引換券11月", "link": false },
         { "index": "exchange_costume_id-506-512_202412", "name": "天葉/ドリーミィパレード衣装引換券12月", "link": false },
         { "index": "exchange_costume_id-506-512_2025", "name": "天葉/ドリーミィパレード衣装引換券", "link": false },
-        { "index": "exchange_costume_id-519-525", "name": "高嶺/ドリーミィパレード衣装引換券", "link": false },
-        { "index": "exchange_costume_id-528-534", "name": "恋花/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-536-542", "name": "幸恵/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-536-542_202406", "name": "幸恵/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-536-542_202407", "name": "幸恵/ドリーミィパレード衣装引換券", "link": false },
@@ -419,8 +420,6 @@
         { "index": "exchange_costume_id-536-542_202411", "name": "幸恵/ドリーミィパレード衣装引換券11月", "link": false },
         { "index": "exchange_costume_id-536-542_202412", "name": "幸恵/ドリーミィパレード衣装引換券12月", "link": false },
         { "index": "exchange_costume_id-536-542_2025", "name": "幸恵/ドリーミィパレード衣装引換券", "link": false },
-        { "index": "exchange_costume_id-546-552", "name": "純/ドリーミィパレード衣装引換券", "link": false },
-        { "index": "exchange_costume_id-555-561", "name": "弥宏/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-562-568", "name": "紅巴/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-562-568_202406", "name": "紅巴/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-562-568_202407", "name": "紅巴/ドリーミィパレード衣装引換券", "link": false },
@@ -451,6 +450,13 @@
         { "index": "exchange_costume_id-687-693_202411", "name": "緋紅/ソルギナックシステム衣装引換券11月", "link": false },
         { "index": "exchange_costume_id-687-693_202412", "name": "緋紅/ソルギナックシステム衣装引換券12月", "link": false },
         { "index": "exchange_costume_id-687-693_2025", "name": "緋紅/ソルギナックシステム衣装引換券", "link": false },
+        { "index": "exchange_costume_id-815-821", "name": "樟美/ドリーミィパレード衣装引換券", "link": false },
+
+        { "index": "exchange_costume_id-505", "name": "汐里/セイクリッドドリーム衣装引換券", "link": false },
+        { "index": "exchange_costume_id-519-525", "name": "高嶺/ドリーミィパレード衣装引換券", "link": false },
+        { "index": "exchange_costume_id-528-534", "name": "恋花/ドリーミィパレード衣装引換券", "link": false },
+        { "index": "exchange_costume_id-546-552", "name": "純/ドリーミィパレード衣装引換券", "link": false },
+        { "index": "exchange_costume_id-555-561", "name": "弥宏/ドリーミィパレード衣装引換券", "link": false },
         { "index": "exchange_costume_id-591-597", "name": "若菜/百合ヶ丘標準制服衣装引換券", "link": false },
         { "index": "exchange_costume_id-613-619", "name": "乃彩/百合ヶ丘標準制服衣装引換券", "link": false },
         { "index": "exchange_costume_id-661-667", "name": "綺更/百合ヶ丘標準制服衣装引換券", "link": false },
@@ -459,6 +465,7 @@
         { "index": "exchange_costume_id-742-748", "name": "治/極光の聖装(神宿り)衣装引換券", "link": false },
         { "index": "exchange_costume_id-774-780", "name": "羽来/極光の聖装衣装引換券", "link": false },
         { "index": "exchange_costume_id-633-639", "name": "夏凜/勇者服(満開)衣装引換券", "link": false },
+        { "index": "exchange_costume_id-826-832", "name": "汐里/マジェスティナイツ衣装引換券", "link": false },
         
         { "index": "exchange_costume_id-584-586", "name": "Dreamin’☆Party衣装引換券", "link": false },
 
@@ -492,6 +499,7 @@
         { "index": "exchange_costume_202412-event-2-2-ad", "name": "聖夜のスイートクリスマス開催記念AD衣装引換券", "link": false },
         { "index": "exchange_costume_202412-event-3-ad", "name": "クリスマスは片付けまで！AD衣装引換券", "link": false },
         { "index": "exchange_costume_202501-event-2-ad", "name": "開催！よふかし会AD衣装引換券", "link": false },
+        { "index": "exchange_costume_202501-event-4-ad", "name": "リリィズファン!!～姫と騎士と4つの誓い～AD衣装引換券", "link": false },
 
         { "index": "exchange_costume_xmas", "name": "Xmas記念衣装引換券", "link": true },
         { "index": "exchange_costume_new-year", "name": "2024年新春記念衣装引換券", "link": true },
@@ -544,6 +552,8 @@
         { "index": "exchange_memoria_premium_202404", "name": "プレミア★5メモリア引換券", "link": true },
         { "index": "exchange_memoria_premium_riririzo", "name": "3.5周年プレミア★5メモリア引換券", "link": true },
         { "index": "exchange_memoria_premium_wind", "name": "プレミア風属性★5メモリア引換券", "link": true },
+        { "index": "exchange_memoria_premium_water", "name": "プレミア水属性★5メモリア引換券", "link": true },
+        { "index": "exchange_memoria_4th-anniv-emotional", "name": "4thAnniv.エモーショナルメモリア引換券", "link": true },
         { "index": "exchange_memoria_riririzo", "name": "3.5周年★5メモリア引換券", "link": true },
         { "index": "exchange_memoria_riririzo-ultimate", "name": "3.5周年アルティメット★5メモリア引換券", "link": true },
         { "index": "exchange_memoria_gran-eple", "name": "グラン・エプレ★5メモリア引換券", "link": true },
@@ -552,8 +562,8 @@
         { "index": "exchange_memoria_renka", "name": "飯島恋花★5メモリア引換券", "link": true },
         { "index": "exchange_memoria_takane", "name": "宮川高嶺★5メモリア引換券", "link": true },
         { "index": "exchange_memoria_kureha", "name": "土岐紅巴★5メモリア引換券", "link": true },
-        { "index": "exchange_memoria_riri", "name": "一柳梨璃メモリア引換券", "link": true },
-        { "index": "exchange_memoria_mai", "name": "吉村・Thi・梅メモリア引換券", "link": true },
+        { "index": "exchange_memoria_riri", "name": "一柳梨璃★5メモリア引換券", "link": true },
+        { "index": "exchange_memoria_mai", "name": "吉村・Thi・梅★5メモリア引換券", "link": true },
         { "index": "exchange_memoria_kazuha", "name": "相澤一葉★5メモリア引換券", "link": true },
         { "index": "exchange_memoria_akari", "name": "丹羽灯莉★5メモリア引換券", "link": true },
         { "index": "exchange_memoria_chikaru", "name": "芹沢千香瑠★5メモリア引換券", "link": true },
@@ -763,6 +773,7 @@
         { "index": "medal_bonus_emotional-8", "name": "エモーショナルメモリアボーナスメダルⅧ", "link": true },
         { "index": "medal_bonus_emotional-9", "name": "エモーショナルメモリアボーナスメダルⅨ", "link": true },
         { "index": "medal_bonus_emotional-10", "name": "エモーショナルメモリアボーナスメダルⅩ", "link": true },
+        { "index": "medal_bonus_emotional_202501", "name": "エモーショナルメモリアボーナスメダルⅠ", "link": true },
         { "index": "medal_bonus_peta-max", "name": "ペタMAXボーナスメダル", "link": true },
         { "index": "medal_bonus_gw", "name": "ラスバれ！GWボーナスメダル", "link": true },
         { "index": "medal_bonus_premium", "name": "プレミアボーナスメダル", "link": true },
@@ -826,6 +837,7 @@
         { "index": "charm_211_star3", "name": "デュランダルSP.HH", "link": false },
         { "index": "charm_212_star3", "name": "シュガールSP.TN", "link": false },
         { "index": "charm_215_star3", "name": "クラウ・ソラスSP.HW", "link": false },
-        { "index": "charm_217_star3", "name": "クリューサーオールSP.SK", "link": false }
+        { "index": "charm_217_star3", "name": "クリューサーオールSP.SK", "link": false },
+        { "index": "charm_222_star3", "name": "グラムSP.TH", "link": false }
     ]
 }

@@ -3246,5 +3246,89 @@
     "812": {
         "chara": 28, "yakuwari": 2, "name": "舞姫絢爛",
         "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 5], ["水耐性", 5], ["水メモリア補助発動率UP", 2]]
+    },
+    "813": {
+        "chara": 19, "yakuwari": 1, "name": "シャイニーパレード",
+        "percent": 7.5, "parameter": [["ATK", 1550], ["DEF", 1500]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "814": {
+        "chara": 72, "yakuwari": 3, "name": "シャイニーパレード",
+        "percent": 7.5, "parameter": [["Sp.ATK", 1550], ["Sp.DEF", 1500]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "815": {
+        "chara": 25, "yakuwari": 2, "name": "ドリーミィパレード(通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "816": {
+        "chara": 25, "yakuwari": 4, "name": "ドリーミィパレード(特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "817": {
+        "chara": 25, "yakuwari": 5, "name": "ドリーミィパレード(支援)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["水UP", 5]]
+    },
+    "818": {
+        "chara": 25, "yakuwari": 6, "name": "ドリーミィパレード(妨害)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["水UP", 5]]
+    },
+    "819": {
+        "chara": 25, "yakuwari": 7, "name": "ドリーミィパレード(回復)",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    "820": {
+        "chara": 25, "yakuwari": 1, "name": "ドリーミィパレード(通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "821": {
+        "chara": 25, "yakuwari": 3, "name": "ドリーミィパレード(特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "822": {
+        "chara": 1, "yakuwari": 6, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["Sp.DEF", 3000], ["Sp.ATK", 3000]], "ex": [["水UP", 5], ["水耐性", 5], ["水メモリア補助発動率UP", 2]]
+    },
+    "823": {
+        "chara": 10, "yakuwari": 4, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5], ["風耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "824": {
+        "chara": 16, "yakuwari": 5, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    "825": {
+        "chara": 161, "yakuwari": 2, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 5], ["水耐性", 5], ["水メモリア補助発動率UP", 2]]
+    },
+    "826": {
+        "chara": 53, "yakuwari": 2, "name": "マジェスティナイツ(通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "827": {
+        "chara": 53, "yakuwari": 4, "name": "マジェスティナイツ(特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "828": {
+        "chara": 53, "yakuwari": 5, "name": "マジェスティナイツ(支援)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["水UP", 5]]
+    },
+    "829": {
+        "chara": 53, "yakuwari": 6, "name": "マジェスティナイツ(妨害)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["水UP", 5]]
+    },
+    "830": {
+        "chara": 53, "yakuwari": 7, "name": "マジェスティナイツ(回復)",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    "831": {
+        "chara": 53, "yakuwari": 1, "name": "マジェスティナイツ(通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "832": {
+        "chara": 53, "yakuwari": 3, "name": "マジェスティナイツ(特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "833": {
+        "chara": 161, "yakuwari": 4, "name": "百合ヶ丘標準制服",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5], ["水耐性", 5], ["水メモリア補助発動率UP", 2]]
     }
 }

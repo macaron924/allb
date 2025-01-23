@@ -397,7 +397,7 @@
                         { "text": "ガチャを引く毎に", "item": [ { "index": "medal", "value": 100 }, { "index": "goggle-3", "value": 5 } ] },
                         { "text": "メモリアメダル無し", "item": [] }
                     ],
-                    "table_header": ["3回ガチャ回数", "累計", "ガチャボーナス"],
+                    "table_header": ["11回ガチャ回数", "累計", "ガチャボーナス"],
                     "table_content": [
                         { "need": [1, 11], "item": [ { "index": "medal_pendant-premium", "value": 100 } ] },
                         { "need": [2, 22], "item": [ { "index": "exchange_memoria_premium_wind", "value": 1 } ] },

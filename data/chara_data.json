@@ -160,12 +160,13 @@
         "158": { "charaName": "羽来", "charaFullName":"日比野羽来", "charaJump": "", "specialSkill":"イルミンファンタズム", "playable": true },
         "159": { "charaName": "御巴留", "charaFullName":"御巴留", "charaJump": "", "specialSkill":"", "playable": false },
         "160": { "charaName": "紅々李", "charaFullName":"紅々李", "charaJump": "", "specialSkill":"", "playable": false },
+        "161": { "charaName": "聖", "charaFullName":"谷口聖", "charaJump": "hijiri", "specialSkill":"", "playable": true },
         "1001": { "charaName": "菖蒲", "charaFullName":"菖蒲", "charaJump": "", "specialSkill":"", "playable": false },
         "1002": { "charaName": "燈", "charaFullName":"燈", "charaJump": "", "specialSkill":"", "playable": false }
     },[
         { "belong": "百合ヶ丘女学院／一柳隊", "playable": true, "chara": [1, 30, 2, 107, 3, 132, 4, 130, 5, 55, 113, 6, 7, 8, 9, 35] },
         { "belong": "百合ヶ丘女学院／アールヴヘイム", "playable": true, "chara": [21, 121, 156, 22, 134, 23, 123, 24, 137, 25, 124, 26, 125, 27, 128, 28, 127, 29, 136, 157, 118, 122, 119, 126, 120, 135] },
-        { "belong": "百合ヶ丘女学院／レギンレイヴ", "playable": true, "chara": [53] },
+        { "belong": "百合ヶ丘女学院／レギンレイヴ", "playable": true, "chara": [53, 161] },
         { "belong": "百合ヶ丘女学院／エイル", "playable": true, "chara": [54] },
         { "belong": "百合ヶ丘女学院／シュバルツグレイル", "playable": true, "chara": [56] },
         { "belong": "百合ヶ丘女学院／ローエングリン", "playable": true, "chara": [57, 98, 99] },
