@@ -73,6 +73,11 @@
         { "index": "gacha-ticket_3rd-anniv-shien", "name": "3rd Anniv.支援★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_3rd-anniv-bougai", "name": "3rd Anniv.妨害★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_3rd-anniv-kaifuku", "name": "3rd Anniv.回復★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_4th-anniv-tsuujou", "name": "4thAnniv.通常前衛★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_4th-anniv-tokushu", "name": "4thAnniv.特殊前衛★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_4th-anniv-shien", "name": "4thAnniv.支援★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_4th-anniv-bougai", "name": "4thAnniv.妨害★5確定ガチャチケット", "link": true },
+        { "index": "gacha-ticket_4th-anniv-kaifuku", "name": "4thAnniv.回復★5確定ガチャチケット", "link": true },
         { "index": "gacha-ticket_zakuzaku", "name": "★5 100%!!ざくざく11回ガチャチケット", "link": true },
         { "index": "gacha-ticket_zakuzaku_2025", "name": "★5 100%!!ざくざく11回ガチャチケット", "link": true },
         { "index": "gacha-ticket_odaiba", "name": "御台場女学校★5確定ガチャチケット", "link": true },
@@ -466,6 +471,8 @@
         { "index": "exchange_costume_id-774-780", "name": "羽来/極光の聖装衣装引換券", "link": false },
         { "index": "exchange_costume_id-633-639", "name": "夏凜/勇者服(満開)衣装引換券", "link": false },
         { "index": "exchange_costume_id-826-832", "name": "汐里/マジェスティナイツ衣装引換券", "link": false },
+        { "index": "exchange_costume_id-836-842", "name": "優珂/マジェスティナイツ衣装引換券", "link": false },
+        { "index": "exchange_costume_id-845-851", "name": "鈴夢/マジェスティナイツ衣装引換券", "link": false },
         
         { "index": "exchange_costume_id-584-586", "name": "Dreamin’☆Party衣装引換券", "link": false },
 
@@ -709,6 +716,7 @@
         { "index": "exchange_gacha_yakuwari_202405", "name": "役割別ガチャチケット引換券5月", "link": false },
         { "index": "exchange_gacha_yakuwari_202406", "name": "役割別ガチャチケット引換券6月", "link": false },
         { "index": "exchange_gacha_yakuwari_3rd-anniv", "name": "3rd Anniv.役割別ガチャチケット引換券", "link": false },
+        { "index": "exchange_gacha_yakuwari_4th-anniv", "name": "4thAnniv.役割別ガチャチケット引換券", "link": false },
         { "index": "exchange_gacha_yakuwari_gw-2024", "name": "GW2024役割別ガチャチケット引換券", "link": false }
     ],
     "medal_bonus": [
