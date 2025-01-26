@@ -3330,5 +3330,77 @@
     "833": {
         "chara": 161, "yakuwari": 4, "name": "百合ヶ丘標準制服",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5], ["水耐性", 5], ["水メモリア補助発動率UP", 2]]
+    },
+    "834": {
+        "chara": 23, "yakuwari": 7, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["Sp.DEF", 3000], ["DEF", 3000]], "ex": [["風UP", 5]]
+    },
+    "835": {
+        "chara": 3, "yakuwari": 2, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 5], ["水耐性", 5], ["水メモリア補助発動率UP", 2]]
+    },
+    "836": {
+        "chara": 71, "yakuwari": 1, "name": "マジェスティナイツ(通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "837": {
+        "chara": 71, "yakuwari": 3, "name": "マジェスティナイツ(特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "838": {
+        "chara": 71, "yakuwari": 5, "name": "マジェスティナイツ(支援)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["水UP", 5]]
+    },
+    "839": {
+        "chara": 71, "yakuwari": 6, "name": "マジェスティナイツ(妨害)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["水UP", 5]]
+    },
+    "840": {
+        "chara": 71, "yakuwari": 7, "name": "マジェスティナイツ(回復)",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    "841": {
+        "chara": 71, "yakuwari": 2, "name": "マジェスティナイツ(通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "842": {
+        "chara": 71, "yakuwari": 4, "name": "マジェスティナイツ(特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "843": {
+        "chara": 11, "yakuwari": 6, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 5], ["風耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "844": {
+        "chara": 15, "yakuwari": 4, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "845": {
+        "chara": 69, "yakuwari": 2, "name": "マジェスティナイツ(通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "846": {
+        "chara": 69, "yakuwari": 4, "name": "マジェスティナイツ(特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "847": {
+        "chara": 69, "yakuwari": 5, "name": "マジェスティナイツ(支援)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["水UP", 5]]
+    },
+    "848": {
+        "chara": 69, "yakuwari": 6, "name": "マジェスティナイツ(妨害)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["水UP", 5]]
+    },
+    "849": {
+        "chara": 69, "yakuwari": 7, "name": "マジェスティナイツ(回復)",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    "850": {
+        "chara": 69, "yakuwari": 1, "name": "マジェスティナイツ(通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "851": {
+        "chara": 69, "yakuwari": 3, "name": "マジェスティナイツ(特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
     }
 }
