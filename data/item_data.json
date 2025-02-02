@@ -216,7 +216,8 @@
         { "index": "gacha-ticket_202412-event-2", "name": "聖夜のスイートクリスマス★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202501-event-1", "name": "新春ハッピー☆サンライズ★5確定ガチャチケット", "link": false },
         { "index": "gacha-ticket_202501-event-3", "name": "片付け戦争！★5確定ガチャチケット", "link": false },
-        { "index": "gacha-ticket_202501-event-4", "name": "リリィズファン!!～姫と騎士と4つの誓い～★5確定ガチャチケット", "link": false }
+        { "index": "gacha-ticket_202501-event-4", "name": "リリィズファン!!～姫と騎士と4つの誓い～★5確定ガチャチケット", "link": false },
+        { "index": "gacha-ticket_202502-event-1", "name": "リリィズファン!!～真実の守護者たち～★5確定ガチャチケット", "link": false }
     ],
     "exchange_pendant_ex": [
         { "index": "exchange_pendant-ex_202212-event-1", "name": "聖夜へ捧ぐサプライズペンダントEX交換券", "link": false },
@@ -340,6 +341,7 @@
         { "index": "exchange_pendant-ad_202412-event-3", "name": "クリスマスは片付けまで！ADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202501-event-2", "name": "開催！よふかし会ADペンダント交換券", "link": false },
         { "index": "exchange_pendant-ad_202501-event-4", "name": "リリィズファン!!～姫と騎士と4つの誓い～ADペンダント交換券", "link": false },
+        { "index": "exchange_pendant-ad_202502-event-1", "name": "リリィズファン!!～真実の守護者たち～ADペンダント交換券", "link": false },
 
         { "index": "exchange_pendant-ad_new-year-2025", "name": "福袋ADペンダント引換券", "link": false }
     ],
@@ -456,6 +458,7 @@
         { "index": "exchange_costume_id-687-693_202412", "name": "緋紅/ソルギナックシステム衣装引換券12月", "link": false },
         { "index": "exchange_costume_id-687-693_2025", "name": "緋紅/ソルギナックシステム衣装引換券", "link": false },
         { "index": "exchange_costume_id-815-821", "name": "樟美/ドリーミィパレード衣装引換券", "link": false },
+        { "index": "exchange_costume_id-852-858", "name": "二水/ドリーミィパレード衣装引換券", "link": false },
 
         { "index": "exchange_costume_id-505", "name": "汐里/セイクリッドドリーム衣装引換券", "link": false },
         { "index": "exchange_costume_id-519-525", "name": "高嶺/ドリーミィパレード衣装引換券", "link": false },
@@ -507,6 +510,7 @@
         { "index": "exchange_costume_202412-event-3-ad", "name": "クリスマスは片付けまで！AD衣装引換券", "link": false },
         { "index": "exchange_costume_202501-event-2-ad", "name": "開催！よふかし会AD衣装引換券", "link": false },
         { "index": "exchange_costume_202501-event-4-ad", "name": "リリィズファン!!～姫と騎士と4つの誓い～AD衣装引換券", "link": false },
+        { "index": "exchange_costume_202502-event-1-ad", "name": "リリィズファン!!～真実の守護者たち～AD衣装引換券", "link": false },
 
         { "index": "exchange_costume_xmas", "name": "Xmas記念衣装引換券", "link": true },
         { "index": "exchange_costume_new-year", "name": "2024年新春記念衣装引換券", "link": true },
@@ -746,6 +750,7 @@
         { "index": "medal_bonus_202411", "name": "ボーナスメダルⅪ", "link": false },
         { "index": "medal_bonus_202412", "name": "ボーナスメダルⅫ", "link": false },
         { "index": "medal_bonus_202501", "name": "ボーナスメダルⅠ", "link": false },
+        { "index": "medal_bonus_202502", "name": "ボーナスメダルⅡ", "link": false },
         { "index": "medal_bonus_collabo-prisma-illya", "name": "シスターズ・カラミティボーナスメダル", "link": false },
         { "index": "medal_bonus_collabo-madoka-magica", "name": "マギカ☆ワンダーワールドボーナスメダル", "link": false },
         { "index": "medal_bonus_collabo-yuyuyu", "name": "白百合の章ボーナスメダル", "link": false },
