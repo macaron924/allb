@@ -9362,7 +9362,7 @@
     },
     "1039": {
         "name": "4th Anniversary vow",
-        "zokusei": 2, "cost": 28, "costume": [], "legendary": "", "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 10, 71, 15, 16] },
+        "zokusei": 2, "cost": 18, "costume": [], "legendary": "", "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 10, 71, 15, 16] },
         "get_rank": "非ガチャ産", "category": { "c1": "ミッション、ログインボーナス等", "c2": "HA、AN無料/ボックスガチャ", "c3": ["4周年"] },
         "skill": [
             { "yakuwari": 4, "name": ["Sp.ガードバーストB Ⅲ", "Sp.ガードバーストB Ⅲ", "攻:Sp.ガードDOWN Ⅲ"] },
@@ -9462,6 +9462,36 @@
             { "yakuwari": 4, "name": ["Sp.マイトスマッシュB Ⅳ+", "Sp.カウンターウォーターパワースマッシュB Ⅳ+", "攻:ダメージUP/副攻:水パワーUP Ⅴ"] },
             { "yakuwari": 2, "name": ["マイトストライクB Ⅳ+", "カウンターウォーターパワーストライクB Ⅳ+", "攻:ダメージUP/副攻:水パワーUP Ⅴ"] },
             { "yakuwari": 6, "name": ["ガードフォールE Ⅳ", "[水防]アニマワイドフォールE Ⅳ", "援:支援UP/副援:水ガードDOWN Ⅴ"] }
+        ]
+    },
+    "1049": {
+        "name": "クロスロード",
+        "zokusei": 2, "cost": 26, "costume": [859], "legendary": "ガチャ", "illustration": { "type": "", "illustrator": "", "chara": [7, 8] },
+        "get_rank": "4周年", "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "リリィズファン!!～真実の守護者たち～ (2025/1/31～)", "c3": ["イベントガチャ"] },
+        "skill": [
+            { "yakuwari": 5, "name": ["パワーアシストE Ⅳ", "メテオウォーターパワーアシストE Ⅳ", "援:支援UP/副援:水パワーUP Ⅴ"] },
+            { "yakuwari": 2, "name": ["マイトストライクB Ⅳ+", "コメットパワーストライクB Ⅳ", "攻:ダメージUP/副攻:水パワーUP Ⅴ"] },
+            { "yakuwari": 4, "name": ["Sp.マイトスマッシュB Ⅳ+", "Sp.コメットパワースマッシュB Ⅳ", "攻:ダメージUP/副攻:水パワーUP Ⅴ"] }
+        ]
+    },
+    "1050": {
+        "name": "If more……",
+        "zokusei": 2, "cost": 24, "costume": [860], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [140, 2] },
+        "get_rank": "4周年", "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "リリィズファン!!～真実の守護者たち～ (2025/1/31～)", "c3": ["イベントガチャ"] },
+        "skill": [
+            { "yakuwari": 2, "name": ["マイトストライクB Ⅳ+", "メテオウォーターパワーストライクB Ⅳ+", "攻:ダメージUP/副攻:水パワーUP Ⅴ"] },
+            { "yakuwari": 6, "name": ["Sp.パワーフォールE Ⅳ", "[水攻]Sp.アニマワイドフォールE Ⅳ", "援:支援UP/副援:水パワーDOWN Ⅴ"] },
+            { "yakuwari": 7, "name": ["Sp.ガードヒールE Ⅳ", "Sp.バリアウォーターガードヒールE Ⅳ", "回:回復UP/副援:水ガードUP Ⅴ"] }
+        ]
+    },
+    "1051": {
+        "name": "お手をどうぞ",
+        "zokusei": 3, "cost": 24, "costume": [861], "legendary": "", "illustration": { "type": "", "illustrator": "", "chara": [117, 4] },
+        "get_rank": "4周年", "category": { "c1": "メダル/ギガント級討伐イベント", "c2": "リリィズファン!!～真実の守護者たち～ (2025/1/31～)", "c3": ["イベントガチャ"] },
+        "skill": [
+            { "yakuwari": 4, "name": ["Sp.マイトスマッシュB Ⅳ+", "Sp.メテオウィンドパワースマッシュB Ⅳ+", "攻:ダメージUP/副攻:風パワーUP Ⅴ"] },
+            { "yakuwari": 2, "name": ["マイトストライクB Ⅳ+", "メテオウィンドパワーストライクB Ⅳ+", "攻:ダメージUP/副攻:風パワーUP Ⅴ"] },
+            { "yakuwari": 5, "name": ["Sp.パワーアシストE Ⅳ", "Sp.カウンターウィンドパワーアシストE Ⅳ", "援:支援UP/副援:風パワーUP Ⅴ"] }
         ]
     }
 }
