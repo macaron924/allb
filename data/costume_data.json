@@ -3172,7 +3172,7 @@
         "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["風UP", 3], ["水耐性", 2]]
     },
     "794": {
-        "chara": 149, "yakuwari": 5, "name": "クリスマスピクシー",
+        "chara": 151, "yakuwari": 5, "name": "クリスマスピクシー",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5], ["風耐性", 5], ["水メモリア補助発動率UP", 2]]
     },
     "795": {
@@ -3402,5 +3402,49 @@
     "851": {
         "chara": 69, "yakuwari": 3, "name": "マジェスティナイツ(特殊単体)",
         "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "852": {
+        "chara": 4, "yakuwari": 2, "name": "ドリーミィパレード(通常範囲)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "853": {
+        "chara": 4, "yakuwari": 4, "name": "ドリーミィパレード(特殊範囲)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "854": {
+        "chara": 4, "yakuwari": 5, "name": "ドリーミィパレード(支援)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["水UP", 5]]
+    },
+    "855": {
+        "chara": 4, "yakuwari": 6, "name": "ドリーミィパレード(妨害)",
+        "percent": 15, "parameter": [["ATK", 3000], ["Sp.ATK", 3000]], "ex": [["水UP", 5]]
+    },
+    "856": {
+        "chara": 4, "yakuwari": 7, "name": "ドリーミィパレード(回復)",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    "857": {
+        "chara": 4, "yakuwari": 1, "name": "ドリーミィパレード(通常単体)",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "858": {
+        "chara": 4, "yakuwari": 3, "name": "ドリーミィパレード(特殊単体)",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
+    },
+    "859": {
+        "chara": 7, "yakuwari": 5, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    "860": {
+        "chara": 140, "yakuwari": 2, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 5], ["水耐性", 5], ["水メモリア補助発動率UP", 2]]
+    },
+    "861": {
+        "chara": 117, "yakuwari": 4, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["風UP", 5], ["風耐性", 5], ["風メモリア補助発動率UP", 2]]
+    },
+    "862": {
+        "chara": 8, "yakuwari": 7, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5], ["水耐性", 5], ["水メモリア補助発動率UP", 2]]
     }
 }
