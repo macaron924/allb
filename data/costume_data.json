@@ -3446,5 +3446,17 @@
     "862": {
         "chara": 8, "yakuwari": 7, "name": "マジェスティナイツ",
         "percent": 15, "parameter": [["DEF", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5], ["水耐性", 5], ["水メモリア補助発動率UP", 2]]
+    },
+    "863": {
+        "chara": 5, "yakuwari": 4, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["Sp.ATK", 3000], ["Sp.DEF", 3000]], "ex": [["水UP", 5], ["水耐性", 5], ["水メモリア補助発動率UP", 2]]
+    },
+    "864": {
+        "chara": 138, "yakuwari": 6, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 5]]
+    },
+    "865": {
+        "chara": 2, "yakuwari": 2, "name": "マジェスティナイツ",
+        "percent": 15, "parameter": [["ATK", 3000], ["DEF", 3000]], "ex": [["水UP", 3], ["火耐性", 2]]
     }
 }
