@@ -85,8 +85,9 @@ function getLimitedGachaData(depth) {
     }
     const gachaLimitedList = [];
 
+    gachaLimitedList.push({ ref: loadData(path + "data/gacha_data/gacha-limited_202502.json"), index: 202502, active: true, group: "" });
     gachaLimitedList.push({ ref: loadData(path + "data/gacha_data/gacha-limited_202501.json"), index: 202501, active: true, group: "" });
-    gachaLimitedList.push({ ref: loadData(path + "data/gacha_data/gacha-limited_202412.json"), index: 202412, active: true, group: "" });
+    gachaLimitedList.push({ ref: loadData(path + "data/gacha_data/gacha-limited_202412.json"), index: 202412, active: false, group: "" });
     gachaLimitedList.push({ ref: loadData(path + "data/gacha_data/gacha-limited_202411.json"), index: 202411, active: false, group: "" });
     gachaLimitedList.push({ ref: loadData(path + "data/gacha_data/gacha-limited_202410.json"), index: 202410, active: false, group: "" });
     gachaLimitedList.push({ ref: loadData(path + "data/gacha_data/gacha-limited_202409.json"), index: 202409, active: false, group: "" });
