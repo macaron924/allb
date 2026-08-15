@@ -1,0 +1,5950 @@
+{
+  "1": {
+    "name": "守りたいもの",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "2": {
+    "name": "世代を越え伝えるもの",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "3": {
+    "name": "完全無欠のお嬢様",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "4": {
+    "name": "ふーみん、司令官になる",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "5": {
+    "name": "紡ぐ未来、変わる今",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "6": {
+    "name": "吉村・Ｔｈｉ・梅の日常",
+    "illustration": { "type": "", "illustrator": "", "chara": [6] }
+  },
+  "7": {
+    "name": "ふたりで守る灯り",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "8": {
+    "name": "淑やかなるスナイパー",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "9": {
+    "name": "先輩と後輩と仲間たち",
+    "illustration": { "type": "", "illustrator": "", "chara": [9] }
+  },
+  "10": {
+    "name": "全力少女",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "11": {
+    "name": "藍の一番長い日",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "12": {
+    "name": "ヘルヴォルの名を冠する者",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "13": {
+    "name": "言葉なく猛る",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "14": {
+    "name": "秘密の魔法の唱え方",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "15": {
+    "name": "その笑顔を守るために",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "16": {
+    "name": "グラン・エプレの必勝戦術",
+    "illustration": { "type": "", "illustrator": "", "chara": [16] }
+  },
+  "17": {
+    "name": "努力は憧れを追って",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "18": {
+    "name": "エアリアル☆シューター",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "19": {
+    "name": "花は優しく微笑む",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "20": {
+    "name": "お気に入りの隊服",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "21": {
+    "name": "孤高のリリィが生きる今",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "22": {
+    "name": "バトル・ウエイトレス",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "23": {
+    "name": "一柳隊の仲間として",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "24": {
+    "name": "紅蓮を翔ける勇者",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "25": {
+    "name": "トレイン・コースター",
+    "illustration": { "type": "", "illustrator": "", "chara": [6] }
+  },
+  "26": {
+    "name": "可憐なる旗のもとに",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "27": {
+    "name": "踏み出す勇気",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "28": {
+    "name": "夢見る魔法少女",
+    "illustration": { "type": "", "illustrator": "", "chara": [9] }
+  },
+  "29": {
+    "name": "レンズにほころぶ百合の蕾",
+    "illustration": { "type": "", "illustrator": "", "chara": [7, 8] }
+  },
+  "30": {
+    "name": "ねむねむにさようなら",
+    "illustration": { "type": "", "illustrator": "", "chara": [11, 10] }
+  },
+  "31": {
+    "name": "やさしい黄昏",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 16] }
+  },
+  "32": {
+    "name": "そばにいるだけで",
+    "illustration": { "type": "", "illustrator": "", "chara": [2, 1] }
+  },
+  "33": {
+    "name": "祝!!リリース!!",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 10, 15] }
+  },
+  "34": {
+    "name": "果てなき戦いの日々",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 2] }
+  },
+  "35": {
+    "name": "ふたりの約束",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 2] }
+  },
+  "36": {
+    "name": "焔の中の断罪者",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "37": {
+    "name": "帰り立つ少女",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "38": {
+    "name": "シュッツエンゲルの誓い",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 2] }
+  },
+  "39": {
+    "name": "雪辱の一閃",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "40": {
+    "name": "疾風の救助者",
+    "illustration": { "type": "", "illustrator": "", "chara": [6] }
+  },
+  "41": {
+    "name": "強くなるために",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "42": {
+    "name": "Dear Schutzengel",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "43": {
+    "name": "アフタヌーンティー",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "44": {
+    "name": "夜に潜む",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "45": {
+    "name": "伝えたい言葉",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "46": {
+    "name": "歴戦の貫禄",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "47": {
+    "name": "ニアレスト",
+    "illustration": { "type": "", "illustrator": "", "chara": [5, 1] }
+  },
+  "48": {
+    "name": "雨上がりの朝稽古",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "49": {
+    "name": "放課後ファンタズム",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "50": {
+    "name": "楯の乙女",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "51": {
+    "name": "雨降って絆深まる",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "52": {
+    "name": "お気に入りのかわいい服",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "53": {
+    "name": "誇りの一閃",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "54": {
+    "name": "約束のピクニック",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "55": {
+    "name": "ヘルヴォルの戦乙女",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "56": {
+    "name": "私たちの正義",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 12] }
+  },
+  "57": {
+    "name": "星降る夜の約束",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "58": {
+    "name": "変わる世界と変わらぬ想い",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "59": {
+    "name": "貴方に贈る花",
+    "illustration": { "type": "", "illustrator": "", "chara": [16] }
+  },
+  "60": {
+    "name": "わたしの秘密の記録",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "61": {
+    "name": "都会の空を舞う天使",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "62": {
+    "name": "ストロベリー・プリンセス",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "63": {
+    "name": "これまでも、これからも隣で",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 16] }
+  },
+  "64": {
+    "name": "猫の誘惑",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "65": {
+    "name": "安らぎの帰り道",
+    "illustration": { "type": "", "illustrator": "", "chara": [3, 4] }
+  },
+  "66": {
+    "name": "戦場を切り裂く閃光",
+    "illustration": { "type": "", "illustrator": "", "chara": [9] }
+  },
+  "67": {
+    "name": "わたしにできること",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "68": {
+    "name": "一流の戦い",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "69": {
+    "name": "ふたりのアーセナル",
+    "illustration": { "type": "", "illustrator": "", "chara": [9, 20] }
+  },
+  "70": {
+    "name": "CHARMにお疲れ様",
+    "illustration": { "type": "", "illustrator": "", "chara": [3, 4, 9] }
+  },
+  "71": {
+    "name": "ロイヤル・ホスピタリティ",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "72": {
+    "name": "一柳隊、大特集！",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "73": {
+    "name": "一柳隊の知恵袋",
+    "illustration": { "type": "", "illustrator": "", "chara": [9] }
+  },
+  "74": {
+    "name": "あたしがこの手で守るもの",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "75": {
+    "name": "ガラスの中の大切な世界",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "76": {
+    "name": "姫歌イメチェン大作戦!!",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "77": {
+    "name": "湯けむりの園",
+    "illustration": { "type": "", "illustrator": "", "chara": [3, 1] }
+  },
+  "78": {
+    "name": "晴れのちラムネ",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "79": {
+    "name": "クラシック・ホリデイ",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "80": {
+    "name": "迷子のクマ",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "81": {
+    "name": "うさぎになったカメ",
+    "illustration": { "type": "", "illustrator": "", "chara": [6] }
+  },
+  "82": {
+    "name": "アイドルリリィ★スマイル",
+    "illustration": { "type": "", "illustrator": "", "chara": [19, 18] }
+  },
+  "83": {
+    "name": "ハッピー☆シューティングスター",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "84": {
+    "name": "光り輝くステージへ",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "85": {
+    "name": "アイドルリリィをつかまえて",
+    "illustration": { "type": "", "illustrator": "", "chara": [16, 15] }
+  },
+  "86": {
+    "name": "姫歌を脅かす2つの新星",
+    "illustration": { "type": "", "illustrator": "", "chara": [17, 18] }
+  },
+  "87": {
+    "name": "ひめひめ・オン・ザ・ステージ！",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "88": {
+    "name": "藍の宝物",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "89": {
+    "name": "突き通す信念の剣",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "90": {
+    "name": "トリガーハッピー",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "91": {
+    "name": "たった一歩の前進",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "92": {
+    "name": "キャッチ＆リリース＆イート",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "93": {
+    "name": "そこにある笑顔",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "94": {
+    "name": "白花咲く港",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "95": {
+    "name": "星が見えない君へ",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 12] }
+  },
+  "96": {
+    "name": "ふたつのふれあい",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "97": {
+    "name": "ワンショット",
+    "illustration": { "type": "", "illustrator": "", "chara": [16] }
+  },
+  "98": {
+    "name": "不器用なお姉様",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "99": {
+    "name": "レンズに咲く百合の花",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "100": {
+    "name": "ハッピーハッピー☆タピオカ",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "101": {
+    "name": "GO!GO!ミリアム",
+    "illustration": { "type": "", "illustrator": "", "chara": [9] }
+  },
+  "102": {
+    "name": "優美なる舞",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "103": {
+    "name": "踏み込む勇気",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "104": {
+    "name": "見切れ希望女子",
+    "illustration": { "type": "", "illustrator": "", "chara": [17, 16] }
+  },
+  "105": {
+    "name": "空想と現実は陸続き",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "106": {
+    "name": "パーフェクトガード",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "107": {
+    "name": "朋友",
+    "illustration": { "type": "", "illustrator": "", "chara": [7, 8] }
+  },
+  "108": {
+    "name": "想いの輪唱",
+    "illustration": { "type": "", "illustrator": "", "chara": [8, 7] }
+  },
+  "109": {
+    "name": "復讐の炎",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "110": {
+    "name": "甘いスイーツでおもてなし♪",
+    "illustration": { "type": "", "illustrator": "", "chara": [5, 7, 8] }
+  },
+  "111": {
+    "name": "出逢いの約束",
+    "illustration": { "type": "", "illustrator": "", "chara": [8, 7] }
+  },
+  "112": {
+    "name": "恋花様ダイエット大作戦",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "113": {
+    "name": "不完全ゆえに愛おしく",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "114": {
+    "name": "果断なる漆黒の騎士",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "115": {
+    "name": "撃滅のブラックナイト",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "116": {
+    "name": "優麗なる白の姫騎士",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "117": {
+    "name": "不滅のホワイトナイト",
+    "illustration": { "type": "", "illustrator": "", "chara": [16] }
+  },
+  "118": {
+    "name": "カワイイのシャッターチャンス",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "119": {
+    "name": "おこづかいのゆくえ",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "120": {
+    "name": "心を満たす栄養食",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "121": {
+    "name": "この地にて芽吹く",
+    "illustration": { "type": "", "illustrator": "", "chara": [16] }
+  },
+  "122": {
+    "name": "百由の息抜き",
+    "illustration": { "type": "", "illustrator": "", "chara": [20] }
+  },
+  "123": {
+    "name": "未来を切り開く武器",
+    "illustration": { "type": "", "illustrator": "", "chara": [20] }
+  },
+  "124": {
+    "name": "新しい可能性",
+    "illustration": { "type": "", "illustrator": "", "chara": [9] }
+  },
+  "125": {
+    "name": "アーセナルの絆",
+    "illustration": { "type": "", "illustrator": "", "chara": [9, 20] }
+  },
+  "126": {
+    "name": "黄昏の研究者たち",
+    "illustration": { "type": "", "illustrator": "", "chara": [9, 20] }
+  },
+  "127": {
+    "name": "鬼さんズ、こちら",
+    "illustration": { "type": "", "illustrator": "", "chara": [7, 4] }
+  },
+  "128": {
+    "name": "文武両道の乙女",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "129": {
+    "name": "ひとりはみんなのために",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "130": {
+    "name": "アンブレイカブル",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "131": {
+    "name": "蒼き月の御使い",
+    "illustration": { "type": "", "illustrator": "", "chara": [21] }
+  },
+  "132": {
+    "name": "勝負の鍵は",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "133": {
+    "name": "アナザーワールド",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "134": {
+    "name": "ウォーター・レイルウェイ",
+    "illustration": { "type": "", "illustrator": "", "chara": [2, 10, 1] }
+  },
+  "135": {
+    "name": "ラ・ヴァカンス・パルフェ",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "136": {
+    "name": "水の車窓",
+    "illustration": { "type": "", "illustrator": "", "chara": [3, 1, 2] }
+  },
+  "137": {
+    "name": "あなたと甘いひとときを",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "138": {
+    "name": "ランペイジクラフト",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "139": {
+    "name": "ざっぱ～～ん！",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "140": {
+    "name": "おもちゃのプール",
+    "illustration": { "type": "", "illustrator": "", "chara": [13, 11] }
+  },
+  "141": {
+    "name": "エスコートナイト",
+    "illustration": { "type": "", "illustrator": "", "chara": [8, 7] }
+  },
+  "142": {
+    "name": "輝きの海岸線",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "143": {
+    "name": "馳せたる海辺",
+    "illustration": { "type": "", "illustrator": "", "chara": [5, 8, 7] }
+  },
+  "144": {
+    "name": "グリーンライフ",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "145": {
+    "name": "きみとぼくの創作世界",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "146": {
+    "name": "スーパーかわいいジャンプ！",
+    "illustration": { "type": "", "illustrator": "", "chara": [19, 18] }
+  },
+  "147": {
+    "name": "レギオン、集結",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 10, 15] }
+  },
+  "148": {
+    "name": "夜の闇を切り拓く者たち",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 16, 17, 19, 18] }
+  },
+  "149": {
+    "name": "通じ合うふたり",
+    "illustration": { "type": "", "illustrator": "", "chara": [8, 13] }
+  },
+  "150": {
+    "name": "顕現する脅威",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 10, 15] }
+  },
+  "151": {
+    "name": "ラプラスの発動",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "152": {
+    "name": "親愛なる仲間",
+    "illustration": { "type": "", "illustrator": "", "chara": [7, 19, 18] }
+  },
+  "153": {
+    "name": "単騎無双",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "154": {
+    "name": "信頼の背中",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 15] }
+  },
+  "155": {
+    "name": "戦いを終えて",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 2, 10, 15] }
+  },
+  "156": {
+    "name": "リリィのすべてを伝えるために",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "157": {
+    "name": "リリィたちの羽休め",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 10, 15] }
+  },
+  "158": {
+    "name": "神宿りの暴走",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "159": {
+    "name": "大切な存在",
+    "illustration": { "type": "", "illustrator": "", "chara": [6, 2] }
+  },
+  "160": {
+    "name": "悲壮の華",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "161": {
+    "name": "黄昏の英雄たち",
+    "illustration": { "type": "", "illustrator": "", "chara": [2, 6, 21, 14, 22] }
+  },
+  "162": {
+    "name": "のびのびトレーニング！",
+    "illustration": { "type": "", "illustrator": "", "chara": [6] }
+  },
+  "163": {
+    "name": "プランセス",
+    "illustration": { "type": "", "illustrator": "", "chara": [22] }
+  },
+  "164": {
+    "name": "夜空に咲く約束の花",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 16] }
+  },
+  "165": {
+    "name": "もう何も奪わせない",
+    "illustration": { "type": "", "illustrator": "", "chara": [16] }
+  },
+  "166": {
+    "name": "夏祭りのスナイパー",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "167": {
+    "name": "約束の蕾",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 16] }
+  },
+  "168": {
+    "name": "紅巴式夏祭りの楽しみ方",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "169": {
+    "name": "優しい夕暮れ",
+    "illustration": { "type": "", "illustrator": "", "chara": [13, 11] }
+  },
+  "170": {
+    "name": "楽しい遊園地",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "171": {
+    "name": "繋げたい言葉",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "172": {
+    "name": "いつかみんなと見る景色",
+    "illustration": { "type": "", "illustrator": "", "chara": [11, 5] }
+  },
+  "173": {
+    "name": "リフレッシュ！エンジン",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "174": {
+    "name": "清淑なる黒き槍",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "175": {
+    "name": "プリンセスひめひめ",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "176": {
+    "name": "仮想訓練場の応酬",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "177": {
+    "name": "獅子奮迅",
+    "illustration": { "type": "", "illustrator": "", "chara": [23] }
+  },
+  "178": {
+    "name": "はるかな空",
+    "illustration": { "type": "", "illustrator": "", "chara": [31, 1] }
+  },
+  "179": {
+    "name": "貫く想いの一撃",
+    "illustration": { "type": "", "illustrator": "", "chara": [31] }
+  },
+  "180": {
+    "name": "救う願いの一閃",
+    "illustration": { "type": "", "illustrator": "", "chara": [32] }
+  },
+  "181": {
+    "name": "束ねる絆の一夜",
+    "illustration": { "type": "", "illustrator": "", "chara": [33] }
+  },
+  "182": {
+    "name": "わたしたちの魔法",
+    "illustration": { "type": "", "illustrator": "", "chara": [31, 1] }
+  },
+  "183": {
+    "name": "小さなシュッツエンゲル",
+    "illustration": { "type": "", "illustrator": "", "chara": [31, 32] }
+  },
+  "184": {
+    "name": "世界を越えて",
+    "illustration": { "type": "", "illustrator": "", "chara": [32, 2] }
+  },
+  "185": {
+    "name": "凛々しい花々",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 10, 15] }
+  },
+  "186": {
+    "name": "姉妹の休息",
+    "illustration": { "type": "", "illustrator": "", "chara": [9, 20] }
+  },
+  "187": {
+    "name": "花を束ねる者",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 10, 15] }
+  },
+  "188": {
+    "name": "追跡者",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "189": {
+    "name": "この空の下で",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "190": {
+    "name": "発進☆ユニコーン！",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "191": {
+    "name": "一直線上のストラテジー",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "192": {
+    "name": "校舎屋上のストラグル",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "193": {
+    "name": "ハッピーを見つけたら☆",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "194": {
+    "name": "誠実なる守護者",
+    "illustration": { "type": "", "illustrator": "", "chara": [24] }
+  },
+  "195": {
+    "name": "ハッピー＆トリート",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "196": {
+    "name": "吸血鬼のたしなみ",
+    "illustration": { "type": "", "illustrator": "", "chara": [16, 15] }
+  },
+  "197": {
+    "name": "おいでよ☆ハロウィン",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "198": {
+    "name": "ヘルヴォルのお嫁さん",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "199": {
+    "name": "ようこそ！ふしぎの国へ",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "200": {
+    "name": "プレ・ハロウィンパーティー！",
+    "illustration": { "type": "", "illustrator": "", "chara": [6, 5, 9] }
+  },
+  "201": {
+    "name": "ホワイト・ラビット・マジック！",
+    "illustration": { "type": "", "illustrator": "", "chara": [9] }
+  },
+  "202": {
+    "name": "平穏を守るための哮り",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "203": {
+    "name": "フォール・ダウン・アタック",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "204": {
+    "name": "無邪気な親近感",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "205": {
+    "name": "神の子",
+    "illustration": { "type": "", "illustrator": "", "chara": [25] }
+  },
+  "206": {
+    "name": "ここから先へ",
+    "illustration": { "type": "", "illustrator": "", "chara": [5, 11] }
+  },
+  "207": {
+    "name": "プレシャス・モーニング",
+    "illustration": { "type": "", "illustrator": "", "chara": [8, 7] }
+  },
+  "208": {
+    "name": "飾らぬ想いに咲き誇る",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "209": {
+    "name": "ヘイムスクリングラ・シスターズ",
+    "illustration": { "type": "", "illustrator": "", "chara": [8, 34] }
+  },
+  "210": {
+    "name": "勝利の女神が微笑む時",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "211": {
+    "name": "二水のヘイムスクリングラ体験",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "212": {
+    "name": "アクアプラクティス",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "213": {
+    "name": "街角の寡黙な花",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "214": {
+    "name": "電光石火でご到着！",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "215": {
+    "name": "スピード☆スター",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "216": {
+    "name": "駆けろ！エージェント",
+    "illustration": { "type": "", "illustrator": "", "chara": [12, 13, 14] }
+  },
+  "217": {
+    "name": "美しき鉄糸の舞",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "218": {
+    "name": "せめて、この子だけは",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "219": {
+    "name": "リトル・アークメイジ",
+    "illustration": { "type": "", "illustrator": "", "chara": [26] }
+  },
+  "220": {
+    "name": "エレクトロンバウト！",
+    "illustration": { "type": "", "illustrator": "", "chara": [20] }
+  },
+  "221": {
+    "name": "気まぐれのツーショット",
+    "illustration": { "type": "", "illustrator": "", "chara": [3, 9] }
+  },
+  "222": {
+    "name": "指先と白いペン",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 10] }
+  },
+  "223": {
+    "name": "トライング・オン",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "224": {
+    "name": "リワード・マイセルフ",
+    "illustration": { "type": "", "illustrator": "", "chara": [9] }
+  },
+  "225": {
+    "name": "リリィになるために！",
+    "illustration": { "type": "", "illustrator": "", "chara": [35] }
+  },
+  "226": {
+    "name": "冷たいラムネをどうぞ",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "227": {
+    "name": "みんな、ガンバレー！",
+    "illustration": { "type": "", "illustrator": "", "chara": [35] }
+  },
+  "228": {
+    "name": "結梨の大好きな場所",
+    "illustration": { "type": "", "illustrator": "", "chara": [35, 1, 2] }
+  },
+  "229": {
+    "name": "胸躍る聖夜",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "230": {
+    "name": "スノーフレイク",
+    "illustration": { "type": "", "illustrator": "", "chara": [2, 1] }
+  },
+  "231": {
+    "name": "プレゼントはお任せ♪",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "232": {
+    "name": "高らかと響き渡る歌声の中で",
+    "illustration": { "type": "", "illustrator": "", "chara": [16] }
+  },
+  "233": {
+    "name": "大丈夫、みんながいるから",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "234": {
+    "name": "戦場のコンダクター",
+    "illustration": { "type": "", "illustrator": "", "chara": [27] }
+  },
+  "235": {
+    "name": "情熱の取材前夜！",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "236": {
+    "name": "あなたに傘を",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "237": {
+    "name": "戦いの合間に",
+    "illustration": { "type": "", "illustrator": "", "chara": [36, 1, 2, 39] }
+  },
+  "238": {
+    "name": "絆の歌",
+    "illustration": { "type": "", "illustrator": "", "chara": [36, 1] }
+  },
+  "239": {
+    "name": "神獣鏡の輝き",
+    "illustration": { "type": "", "illustrator": "", "chara": [37] }
+  },
+  "240": {
+    "name": "ガンズ・パーティー",
+    "illustration": { "type": "", "illustrator": "", "chara": [38] }
+  },
+  "241": {
+    "name": "気高き錬金術師",
+    "illustration": { "type": "", "illustrator": "", "chara": [39] }
+  },
+  "242": {
+    "name": "元日の決斗！",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "243": {
+    "name": "心弛ぶひととき",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "244": {
+    "name": "故郷へ想い馳せながら",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "245": {
+    "name": "罰執行のお時間です",
+    "illustration": { "type": "", "illustrator": "", "chara": [7, 8] }
+  },
+  "246": {
+    "name": "大切な貴女への贈り物",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "247": {
+    "name": "ボナペティ！",
+    "illustration": { "type": "", "illustrator": "", "chara": [25] }
+  },
+  "248": {
+    "name": "CHARMを絵筆に替えて",
+    "illustration": { "type": "", "illustrator": "", "chara": [23] }
+  },
+  "249": {
+    "name": "海の世界に想いを馳せて",
+    "illustration": { "type": "", "illustrator": "", "chara": [22] }
+  },
+  "250": {
+    "name": "ミューチュアルプロテクション",
+    "illustration": { "type": "", "illustrator": "", "chara": [9, 20] }
+  },
+  "251": {
+    "name": "ファイア・ダッシュ",
+    "illustration": { "type": "", "illustrator": "", "chara": [20] }
+  },
+  "252": {
+    "name": "パジャマパーティー",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 10, 15] }
+  },
+  "253": {
+    "name": "猪突猛進！",
+    "illustration": { "type": "", "illustrator": "", "chara": [28] }
+  },
+  "254": {
+    "name": "戦いの旅路",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 45, 10, 15, 40, 41] }
+  },
+  "255": {
+    "name": "Anniversary Memoria -大切なあなたを想い-",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "256": {
+    "name": "狂乱の姫巫女",
+    "illustration": { "type": "", "illustrator": "", "chara": [40] }
+  },
+  "257": {
+    "name": "台場の白き魔女",
+    "illustration": { "type": "", "illustrator": "", "chara": [41] }
+  },
+  "258": {
+    "name": "鬼神の意志を継ぐ者",
+    "illustration": { "type": "", "illustrator": "", "chara": [45] }
+  },
+  "259": {
+    "name": "ラ・ピュセル",
+    "illustration": { "type": "", "illustrator": "", "chara": [46] }
+  },
+  "260": {
+    "name": "戦火の結束",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 10, 15, 40, 45] }
+  },
+  "261": {
+    "name": "ジャスト・ザ・ブレイブ",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "262": {
+    "name": "コール・ユア・ネーム",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "263": {
+    "name": "ガーディアン・パワー",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "264": {
+    "name": "エクストリームブースト",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "265": {
+    "name": "一筆の心",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "266": {
+    "name": "煌めく花々",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 10, 15] }
+  },
+  "267": {
+    "name": "ドキドキ・ショコラーデ",
+    "illustration": { "type": "", "illustrator": "", "chara": [9, 20] }
+  },
+  "268": {
+    "name": "まごころをこめて！",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "269": {
+    "name": "ハッピーバレンタインだにゃん♪",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "270": {
+    "name": "ハンドメイド・リリィ",
+    "illustration": { "type": "", "illustrator": "", "chara": [25, 8, 1, 9] }
+  },
+  "271": {
+    "name": "暁に笑う少女",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "272": {
+    "name": "ワンマンアーミー",
+    "illustration": { "type": "", "illustrator": "", "chara": [29] }
+  },
+  "273": {
+    "name": "暴君の花嫁",
+    "illustration": { "type": "", "illustrator": "", "chara": [44] }
+  },
+  "274": {
+    "name": "セインツの宝石",
+    "illustration": { "type": "", "illustrator": "", "chara": [43] }
+  },
+  "275": {
+    "name": "劔の妖精",
+    "illustration": { "type": "", "illustrator": "", "chara": [42] }
+  },
+  "276": {
+    "name": "信念と誇り",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 40, 16, 41] }
+  },
+  "277": {
+    "name": "寂寥の美",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "278": {
+    "name": "先駆けプリンセス",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "279": {
+    "name": "遠い日の足跡",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "280": {
+    "name": "真夜中のクリエイター",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "281": {
+    "name": "小春日和",
+    "illustration": { "type": "", "illustrator": "", "chara": [21, 25] }
+  },
+  "282": {
+    "name": "放課後のミューズ",
+    "illustration": { "type": "", "illustrator": "", "chara": [24] }
+  },
+  "283": {
+    "name": "純白の想い",
+    "illustration": { "type": "", "illustrator": "", "chara": [2, 1] }
+  },
+  "284": {
+    "name": "いつでも近くに",
+    "illustration": { "type": "", "illustrator": "", "chara": [20, 9] }
+  },
+  "285": {
+    "name": "あなただけの守護天使",
+    "illustration": { "type": "", "illustrator": "", "chara": [21, 25] }
+  },
+  "286": {
+    "name": "レスキューキャット",
+    "illustration": { "type": "", "illustrator": "", "chara": [6, 5] }
+  },
+  "287": {
+    "name": "静かに肩を寄せて",
+    "illustration": { "type": "", "illustrator": "", "chara": [4, 3] }
+  },
+  "288": {
+    "name": "ブレイブ・ショット",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "289": {
+    "name": "不撓不屈の心を胸に",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "290": {
+    "name": "迎え撃つ勇士たち",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 10, 15] }
+  },
+  "291": {
+    "name": "キラキラアイスクリーム！",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "292": {
+    "name": "デートのプロフェッショナル",
+    "illustration": { "type": "", "illustrator": "", "chara": [51, 16] }
+  },
+  "293": {
+    "name": "静寂の中で",
+    "illustration": { "type": "", "illustrator": "", "chara": [50] }
+  },
+  "294": {
+    "name": "灼爛の一撃",
+    "illustration": { "type": "", "illustrator": "", "chara": [51] }
+  },
+  "295": {
+    "name": "扶翼の剣",
+    "illustration": { "type": "", "illustrator": "", "chara": [52] }
+  },
+  "296": {
+    "name": "悪夢との共闘",
+    "illustration": { "type": "", "illustrator": "", "chara": [50, 52] }
+  },
+  "297": {
+    "name": "世界を守る剣たち",
+    "illustration": { "type": "", "illustrator": "", "chara": [52, 15] }
+  },
+  "298": {
+    "name": "水流乱撃",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "299": {
+    "name": "なかよしとわいらいと",
+    "illustration": { "type": "", "illustrator": "", "chara": [14, 11] }
+  },
+  "300": {
+    "name": "月下の傍観者",
+    "illustration": { "type": "", "illustrator": "", "chara": [5, 1] }
+  },
+  "301": {
+    "name": "愛しき人との待ち合わせ",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "302": {
+    "name": "そうさく倶楽部の活動",
+    "illustration": { "type": "", "illustrator": "", "chara": [53, 3] }
+  },
+  "303": {
+    "name": "不動劔の姫",
+    "illustration": { "type": "", "illustrator": "", "chara": [53] }
+  },
+  "304": {
+    "name": "飛翔迎撃",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "305": {
+    "name": "麗しき出立",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "306": {
+    "name": "フラガラッハの光",
+    "illustration": { "type": "", "illustrator": "", "chara": [21] }
+  },
+  "307": {
+    "name": "雷光一閃",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "308": {
+    "name": "アクアストライク",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "309": {
+    "name": "ストームデュオ",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 18] }
+  },
+  "310": {
+    "name": "アサルトリリィ ふるーつ",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 10, 15] }
+  },
+  "311": {
+    "name": "駆ける希望",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 45, 40] }
+  },
+  "312": {
+    "name": "Emotional Memoria -癒しの露天風呂-",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "313": {
+    "name": "不死身の刃",
+    "illustration": { "type": "", "illustrator": "", "chara": [47] }
+  },
+  "314": {
+    "name": "友を守護する剣",
+    "illustration": { "type": "", "illustrator": "", "chara": [48] }
+  },
+  "315": {
+    "name": "狂化フルスロットル",
+    "illustration": { "type": "", "illustrator": "", "chara": [49] }
+  },
+  "316": {
+    "name": "みんなを守るために",
+    "illustration": { "type": "", "illustrator": "", "chara": [11, 45] }
+  },
+  "317": {
+    "name": "足踏み健康ロードの悲劇",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "318": {
+    "name": "すってんあかりん",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "319": {
+    "name": "ブレイク・タイム",
+    "illustration": { "type": "", "illustrator": "", "chara": [3, 5] }
+  },
+  "320": {
+    "name": "ラブリーアンドピース",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 19] }
+  },
+  "321": {
+    "name": "思い出はカメラの中に",
+    "illustration": { "type": "", "illustrator": "", "chara": [16, 18, 17] }
+  },
+  "322": {
+    "name": "希望の光",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 14] }
+  },
+  "323": {
+    "name": "だいすきをあげる",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "324": {
+    "name": "私ヲ蝕ム悪イ夢",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "325": {
+    "name": "昼下がりのラプソディー",
+    "illustration": { "type": "", "illustrator": "", "chara": [16] }
+  },
+  "326": {
+    "name": "心の炎は豪雨で消えず",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "327": {
+    "name": "相生の水先案内人",
+    "illustration": { "type": "", "illustrator": "", "chara": [16] }
+  },
+  "328": {
+    "name": "もう一度、何度でも",
+    "illustration": { "type": "", "illustrator": "", "chara": [8, 1] }
+  },
+  "329": {
+    "name": "BZのプロフェッショナル",
+    "illustration": { "type": "", "illustrator": "", "chara": [54] }
+  },
+  "330": {
+    "name": "最高のルームメイト",
+    "illustration": { "type": "", "illustrator": "", "chara": [2, 54] }
+  },
+  "331": {
+    "name": "美しき師弟関係",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 54] }
+  },
+  "332": {
+    "name": "生徒会のお仕事",
+    "illustration": { "type": "", "illustrator": "", "chara": [54] }
+  },
+  "333": {
+    "name": "尊みの探求者",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "334": {
+    "name": "回遊のススメ",
+    "illustration": { "type": "", "illustrator": "", "chara": [18, 8] }
+  },
+  "335": {
+    "name": "メイクアップ！",
+    "illustration": { "type": "", "illustrator": "", "chara": [12, 11] }
+  },
+  "336": {
+    "name": "謳歌のミュージックアワー",
+    "illustration": { "type": "", "illustrator": "", "chara": [13, 10] }
+  },
+  "337": {
+    "name": "お手当マイスター",
+    "illustration": { "type": "", "illustrator": "", "chara": [16, 18] }
+  },
+  "338": {
+    "name": "勝利のファンファーレ",
+    "illustration": { "type": "", "illustrator": "", "chara": [6, 7] }
+  },
+  "339": {
+    "name": "M.V.P.オンステージ",
+    "illustration": { "type": "", "illustrator": "", "chara": [19, 15] }
+  },
+  "340": {
+    "name": "乙女の非常事態",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "341": {
+    "name": "ビーチでバカンス",
+    "illustration": { "type": "", "illustrator": "", "chara": [17, 18] }
+  },
+  "342": {
+    "name": "華の休息",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "343": {
+    "name": "クローバー・クラウン",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "344": {
+    "name": "猛る獅子の剣",
+    "illustration": { "type": "", "illustrator": "", "chara": [23] }
+  },
+  "345": {
+    "name": "ここから先は通さない",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "346": {
+    "name": "巨影を討つ閃光",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "347": {
+    "name": "この勝利が小さな一歩でも",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 13] }
+  },
+  "348": {
+    "name": "Emotional Memoria-お姉様の水難-",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "349": {
+    "name": "ピュリファイ・ラプラス",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "350": {
+    "name": "絆のアルケミートレース",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "351": {
+    "name": "信じる想いを力に変えて",
+    "illustration": { "type": "", "illustrator": "", "chara": [8, 1] }
+  },
+  "352": {
+    "name": "水も滴るいい乙女",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "353": {
+    "name": "ゼロ距離のしあわせ",
+    "illustration": { "type": "", "illustrator": "", "chara": [17, 15] }
+  },
+  "354": {
+    "name": "光の注ぐ夜",
+    "illustration": { "type": "", "illustrator": "", "chara": [6, 4] }
+  },
+  "355": {
+    "name": "やめられない刺激",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "356": {
+    "name": "殲滅のシルバーバレット",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "357": {
+    "name": "祝1.5周年りりふぇす!!",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 10, 15] }
+  },
+  "358": {
+    "name": "面目躍如のサバイバル",
+    "illustration": { "type": "", "illustrator": "", "chara": [4, 3] }
+  },
+  "359": {
+    "name": "炊事は任せた！",
+    "illustration": { "type": "", "illustrator": "", "chara": [6, 2] }
+  },
+  "360": {
+    "name": "ウッドクラフトに挑戦",
+    "illustration": { "type": "", "illustrator": "", "chara": [9] }
+  },
+  "361": {
+    "name": "ダイビング・アタッカー",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "362": {
+    "name": "楽しいを探しに行こう！",
+    "illustration": { "type": "", "illustrator": "", "chara": [6] }
+  },
+  "363": {
+    "name": "Emotional Memoria-晴れときどきサンオイル-",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "364": {
+    "name": "アンブッシュ",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "365": {
+    "name": "淀みを蹴って",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "366": {
+    "name": "バトル・デプロイメント",
+    "illustration": { "type": "", "illustrator": "", "chara": [6, 2] }
+  },
+  "367": {
+    "name": "クリエイターズコラボ-月に顔をそむけて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "やだぽてと先生", "chara": [23, 1] }
+  },
+  "368": {
+    "name": "クリエイターズコラボ-レディーティータイム-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "美和野らぐ先生", "chara": [16, 14] }
+  },
+  "369": {
+    "name": "クリエイターズコラボ-ひまわりとんだよ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "いちかわはる先生", "chara": [11, 15] }
+  },
+  "370": {
+    "name": "クリエイターズコラボ-らぶらぶぴーす-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "てつぶた先生", "chara": [18, 8] }
+  },
+  "371": {
+    "name": "不屈の一太刀",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "372": {
+    "name": "極限コンビネーション",
+    "illustration": { "type": "", "illustrator": "", "chara": [12, 13] }
+  },
+  "373": {
+    "name": "激戦の終わりに",
+    "illustration": { "type": "", "illustrator": "", "chara": [13, 10] }
+  },
+  "374": {
+    "name": "Cherish",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 3, 4, 5, 6, 7, 8, 9] }
+  },
+  "375": {
+    "name": "Diverse",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [15, 10, 11, 12, 13, 14, 16, 17, 18, 19] }
+  },
+  "376": {
+    "name": "新刊1部ください！？",
+    "illustration": { "type": "", "illustrator": "", "chara": [17, 4] }
+  },
+  "377": {
+    "name": "見返り美人",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "378": {
+    "name": "夏の海とかき氷",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "379": {
+    "name": "クリエイターズコラボ-きらめきステージ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "みすみ先生", "chara": [1] }
+  },
+  "380": {
+    "name": "クリエイターズコラボ-躍動の旋律-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "日向あずり先生", "chara": [2] }
+  },
+  "381": {
+    "name": "クリエイターズコラボ-花咲くハーモニー-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "香川悠作先生", "chara": [7] }
+  },
+  "382": {
+    "name": "クリエイターズコラボ-想いを込めた歌声-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "夏炉先生", "chara": [8] }
+  },
+  "383": {
+    "name": "祭囃子と恋の音",
+    "illustration": { "type": "", "illustrator": "", "chara": [3, 1] }
+  },
+  "384": {
+    "name": "ポイ越しの笑顔",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "385": {
+    "name": "飛び出せミリアム！",
+    "illustration": { "type": "", "illustrator": "", "chara": [9] }
+  },
+  "386": {
+    "name": "クリエイターズコラボ-納涼かき氷-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "サコ先生", "chara": [1, 9] }
+  },
+  "387": {
+    "name": "クリエイターズコラボ-涼やかな響き-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "にわ田先生", "chara": [10, 11] }
+  },
+  "388": {
+    "name": "クリエイターズコラボ-打ち上げ花火-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "𝗰𝗵𝗶𝗿𝗶先生", "chara": [15, 16] }
+  },
+  "389": {
+    "name": "クリエイターズコラボ-夏色日和-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "香川悠作先生", "chara": [21, 25] }
+  },
+  "390": {
+    "name": "ナイトガンスリンガー",
+    "illustration": { "type": "", "illustrator": "", "chara": [26] }
+  },
+  "391": {
+    "name": "天からの強襲",
+    "illustration": { "type": "", "illustrator": "", "chara": [6] }
+  },
+  "392": {
+    "name": "アクロバット・シューター",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "393": {
+    "name": "その瞳に映るモノ",
+    "illustration": { "type": "", "illustrator": "", "chara": [17, 12] }
+  },
+  "394": {
+    "name": "氷帝",
+    "illustration": { "type": "", "illustrator": "", "chara": [56] }
+  },
+  "395": {
+    "name": "白鳥の姫騎士",
+    "illustration": { "type": "", "illustrator": "", "chara": [57] }
+  },
+  "396": {
+    "name": "戦場のお色直し",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 56] }
+  },
+  "397": {
+    "name": "親愛なるルームメイト",
+    "illustration": { "type": "", "illustrator": "", "chara": [56, 1] }
+  },
+  "398": {
+    "name": "クリエイターズコラボ-りざるとちぇっく-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ミ茶先生", "chara": [4, 3] }
+  },
+  "399": {
+    "name": "クリエイターズコラボ-もっと優しく-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "みすみ先生", "chara": [13, 12] }
+  },
+  "400": {
+    "name": "クリエイターズコラボ-先輩ふぁいと☆-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "あるてら先生", "chara": [16, 18] }
+  },
+  "401": {
+    "name": "クリエイターズコラボ-ペアトレ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "potg先生", "chara": [29, 26] }
+  },
+  "402": {
+    "name": "一葉ののんびりタイム",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "403": {
+    "name": "真夜中の極秘作戦",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "404": {
+    "name": "ミッドナイトスティール",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "405": {
+    "name": "息を潜めて",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "406": {
+    "name": "クリエイターズコラボ-すすきの道しるべ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "緜先生", "chara": [6, 5] }
+  },
+  "407": {
+    "name": "クリエイターズコラボ-二人の奏でる夜の歌-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "gomzi先生", "chara": [17, 19] }
+  },
+  "408": {
+    "name": "クリエイターズコラボ-星空のどうぶつ探し-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "夏炉先生", "chara": [11, 14] }
+  },
+  "409": {
+    "name": "クリエイターズコラボ-好きなものを一緒に-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "渥海 潤先生", "chara": [28, 27] }
+  },
+  "410": {
+    "name": "静寂に佇む狩人",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "411": {
+    "name": "藍は舞い降りた",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "412": {
+    "name": "らんとたづさのかくれんぼ",
+    "illustration": { "type": "", "illustrator": "", "chara": [11, 5] }
+  },
+  "413": {
+    "name": "ダイスキをキャンバスに",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "414": {
+    "name": "ふたりの距離",
+    "illustration": { "type": "", "illustrator": "", "chara": [16, 15] }
+  },
+  "415": {
+    "name": "庭園の護り人",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "416": {
+    "name": "ソーイングマスター姫歌",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "417": {
+    "name": "秋空ピクニック",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "418": {
+    "name": "クリエイターズコラボ-ジャックコーデ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "塩かずのこ先生", "chara": [12, 10] }
+  },
+  "419": {
+    "name": "クリエイターズコラボ-Early Trick-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "みきさい先生", "chara": [24, 23] }
+  },
+  "420": {
+    "name": "クリエイターズコラボ-こころにいたずら-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ミ茶先生", "chara": [2, 1] }
+  },
+  "421": {
+    "name": "クリエイターズコラボ-くるくおーらんたん-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "さくら兎れみ先生", "chara": [18, 19] }
+  },
+  "422": {
+    "name": "陽だまりシュッツエンゲル",
+    "illustration": { "type": "", "illustrator": "", "chara": [37, 36] }
+  },
+  "423": {
+    "name": "夜空に響く勝利の歌",
+    "illustration": { "type": "", "illustrator": "", "chara": [36] }
+  },
+  "424": {
+    "name": "いたずらゴースト",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "425": {
+    "name": "どきどきデビル",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "426": {
+    "name": "はじらいマミー",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "427": {
+    "name": "クリエイターズコラボ-秋の木漏れ日-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "モ誰先生", "chara": [15, 16] }
+  },
+  "428": {
+    "name": "クリエイターズコラボ-秋月夜の彩り-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "TAYA先生", "chara": [22, 21] }
+  },
+  "429": {
+    "name": "クリエイターズコラボ-紅葉も頬も色づいて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "かがちさく先生", "chara": [8, 7] }
+  },
+  "430": {
+    "name": "クリエイターズコラボ-紅葉の帳-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "potg先生", "chara": [14, 10] }
+  },
+  "431": {
+    "name": "ひめひめ華麗に参上！",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "432": {
+    "name": "好機を待つのじゃ",
+    "illustration": { "type": "", "illustrator": "", "chara": [9] }
+  },
+  "433": {
+    "name": "雲間から差し込む光",
+    "illustration": { "type": "", "illustrator": "", "chara": [19, 9] }
+  },
+  "434": {
+    "name": "月夜に吠える天狼",
+    "illustration": { "type": "", "illustrator": "", "chara": [24] }
+  },
+  "435": {
+    "name": "ワイン色の思い出",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "436": {
+    "name": "形勢逆転！！",
+    "illustration": { "type": "", "illustrator": "", "chara": [58, 10] }
+  },
+  "437": {
+    "name": "西住流の誇り",
+    "illustration": { "type": "", "illustrator": "", "chara": [59] }
+  },
+  "438": {
+    "name": "優雅なティータイム",
+    "illustration": { "type": "", "illustrator": "", "chara": [60] }
+  },
+  "439": {
+    "name": "予想外の事態",
+    "illustration": { "type": "", "illustrator": "", "chara": [61, 11] }
+  },
+  "440": {
+    "name": "作戦会議です！",
+    "illustration": { "type": "", "illustrator": "", "chara": [58, 59, 10, 12] }
+  },
+  "441": {
+    "name": "束の間の休息",
+    "illustration": { "type": "", "illustrator": "", "chara": [62] }
+  },
+  "442": {
+    "name": "ワーオ！ エキサイティン！！",
+    "illustration": { "type": "", "illustrator": "", "chara": [63] }
+  },
+  "443": {
+    "name": "CHARMという兵器",
+    "illustration": { "type": "", "illustrator": "", "chara": [58] }
+  },
+  "444": {
+    "name": "クリエイターズコラボ-ねんねこぐろっぴ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "江戸屋犬八先生", "chara": [20, 9] }
+  },
+  "445": {
+    "name": "クリエイターズコラボ-不動劔と至宝-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "yadapot先生", "chara": [53, 3] }
+  },
+  "446": {
+    "name": "カワウソづくし",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "447": {
+    "name": "ひめひめコールお願いっ！",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "448": {
+    "name": "かめ、のち、えがお",
+    "illustration": { "type": "", "illustrator": "", "chara": [6] }
+  },
+  "449": {
+    "name": "暮れなずむ空",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "450": {
+    "name": "縄跳びトレーニング",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "451": {
+    "name": "あなたとおそろい",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "452": {
+    "name": "騒がし乙女の凱旋",
+    "illustration": { "type": "", "illustrator": "", "chara": [34] }
+  },
+  "453": {
+    "name": "覚醒の兆し",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "454": {
+    "name": "クリエイターズコラボ-もふもふな時間-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "gomzi先生", "chara": [5, 1] }
+  },
+  "455": {
+    "name": "クリエイターズコラボ-思い出がもう一つ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "みすみ先生", "chara": [25, 24] }
+  },
+  "456": {
+    "name": "クリエイターズコラボ-どたばたデイズ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "かにビーム先生", "chara": [17, 18] }
+  },
+  "457": {
+    "name": "クリエイターズコラボ-いつものおやつ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "胡麻乃りお先生", "chara": [13, 11] }
+  },
+  "458": {
+    "name": "クリエイターズコラボ-ご一緒にいかが？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "香川悠作先生", "chara": [57, 56] }
+  },
+  "459": {
+    "name": "鳴り響く狂乱の連弾",
+    "illustration": { "type": "", "illustrator": "", "chara": [40, 11] }
+  },
+  "460": {
+    "name": "雪原の白き魔女",
+    "illustration": { "type": "", "illustrator": "", "chara": [41] }
+  },
+  "461": {
+    "name": "雪風と踊る少女",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "462": {
+    "name": "白に染まる世界",
+    "illustration": { "type": "", "illustrator": "", "chara": [41] }
+  },
+  "463": {
+    "name": "レンズ越しの視点",
+    "illustration": { "type": "", "illustrator": "", "chara": [9] }
+  },
+  "464": {
+    "name": "帯びる熱と急接近",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 15] }
+  },
+  "465": {
+    "name": "サプライズゲーム",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "466": {
+    "name": "はっぴーらっきーとっきー",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "467": {
+    "name": "クリエイターズコラボ-ひめひめ仕立て-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "みわべさくら先生", "chara": [19, 15, 16] }
+  },
+  "468": {
+    "name": "クリエイターズコラボ-手作りクリスマス-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "江戸屋犬八先生", "chara": [14, 12] }
+  },
+  "469": {
+    "name": "クリエイターズコラボ-聖夜に乾杯-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "大熊まい先生", "chara": [54, 2] }
+  },
+  "470": {
+    "name": "クリエイターズコラボ-聖夜のテラリウム-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "LINO先生", "chara": [26, 22] }
+  },
+  "471": {
+    "name": "クリエイターズコラボ-サンタをつかまえて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "らんぐ先生", "chara": [3, 1] }
+  },
+  "472": {
+    "name": "神琳！？ これは違うの！",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "473": {
+    "name": "旋律に身を委ねて",
+    "illustration": { "type": "", "illustrator": "", "chara": [43] }
+  },
+  "474": {
+    "name": "縮地、友の元へ",
+    "illustration": { "type": "", "illustrator": "", "chara": [6] }
+  },
+  "475": {
+    "name": "雪原に火花散る",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "476": {
+    "name": "歴戦の余裕",
+    "illustration": { "type": "", "illustrator": "", "chara": [43] }
+  },
+  "477": {
+    "name": "ふーみんにインタビュー",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "478": {
+    "name": "聞こえし者",
+    "illustration": { "type": "", "illustrator": "", "chara": [29] }
+  },
+  "479": {
+    "name": "懐かしくて、優しい味",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "480": {
+    "name": "クリエイターズコラボ-どんがらがっしゃん-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "雨傘ゆん先生", "chara": [28, 25] }
+  },
+  "481": {
+    "name": "クリエイターズコラボ-あつあつの肉まん-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "万冬しま先生", "chara": [18, 17] }
+  },
+  "482": {
+    "name": "クリエイターズコラボ-ゆー姉と一緒！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "香川悠作先生", "chara": [34, 8] }
+  },
+  "483": {
+    "name": "クリエイターズコラボ-かずはをよしよし-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "緜先生", "chara": [11, 10] }
+  },
+  "484": {
+    "name": "クリエイターズコラボ-膝の子猫と窓の雪-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "jimmy先生", "chara": [7, 5] }
+  },
+  "485": {
+    "name": "空想魔法少女",
+    "illustration": { "type": "", "illustrator": "", "chara": [64, 1] }
+  },
+  "486": {
+    "name": "願いの魔法少女",
+    "illustration": { "type": "", "illustrator": "", "chara": [65] }
+  },
+  "487": {
+    "name": "投影魔術",
+    "illustration": { "type": "", "illustrator": "", "chara": [66] }
+  },
+  "488": {
+    "name": "射殺す百頭",
+    "illustration": { "type": "", "illustrator": "", "chara": [65] }
+  },
+  "489": {
+    "name": "約束された勝利の剣",
+    "illustration": { "type": "", "illustrator": "", "chara": [64] }
+  },
+  "490": {
+    "name": "初春の宴に貴女を想う",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "491": {
+    "name": "新年、はっじまっるよ～♪",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "492": {
+    "name": "兎であけおめですわ！",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "493": {
+    "name": "かがみもち、できました！",
+    "illustration": { "type": "", "illustrator": "", "chara": [53] }
+  },
+  "494": {
+    "name": "雪兎に会えた日",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "495": {
+    "name": "突きて返すは兎姉妹",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 2] }
+  },
+  "496": {
+    "name": "思い出を抱きしめて",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "497": {
+    "name": "賀正！！",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "498": {
+    "name": "クリエイターズコラボ-ことよろなのじゃ！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "佐倉おりこ先生", "chara": [9, 5, 4] }
+  },
+  "499": {
+    "name": "クリエイターズコラボ-新年を祝すわ！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "きのと先生", "chara": [21, 22, 25] }
+  },
+  "500": {
+    "name": "クリエイターズコラボ-あけおめですっ♪-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "香川悠作先生", "chara": [1, 3, 2] }
+  },
+  "501": {
+    "name": "クリエイターズコラボ-謹賀新年です！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ぽんす先生", "chara": [10, 11, 12] }
+  },
+  "502": {
+    "name": "クリエイターズコラボ-今年もよろしくね-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "サコ先生", "chara": [15, 19, 16] }
+  },
+  "503": {
+    "name": "この手に劔がある限り",
+    "illustration": { "type": "", "illustrator": "", "chara": [42] }
+  },
+  "504": {
+    "name": "うりゃうりゃうりゃうりゃ！！",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "505": {
+    "name": "飢えし群れ、挑む狩人",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "506": {
+    "name": "引導を渡して差し上げますわ",
+    "illustration": { "type": "", "illustrator": "", "chara": [40] }
+  },
+  "507": {
+    "name": "2周年祭り 絆の彩り",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 35, 40, 41, 46, 45] }
+  },
+  "508": {
+    "name": "止めどない熱",
+    "illustration": { "type": "", "illustrator": "", "chara": [8, 7] }
+  },
+  "509": {
+    "name": "Cherishing",
+    "illustration": { "type": "", "illustrator": "", "chara": [35, 1] }
+  },
+  "510": {
+    "name": "変わらない絆",
+    "illustration": { "type": "", "illustrator": "", "chara": [40, 41] }
+  },
+  "511": {
+    "name": "ふたりのヒメゴト",
+    "illustration": { "type": "", "illustrator": "", "chara": [46, 45] }
+  },
+  "512": {
+    "name": "好いも甘いも受け止めて",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "513": {
+    "name": "宵に舞う華",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "514": {
+    "name": "湯けむりの向こう側",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "515": {
+    "name": "蝶の夢",
+    "illustration": { "type": "", "illustrator": "", "chara": [41] }
+  },
+  "516": {
+    "name": "いつも隣に",
+    "illustration": { "type": "", "illustrator": "", "chara": [45] }
+  },
+  "517": {
+    "name": "ありのままのわたしで",
+    "illustration": { "type": "", "illustrator": "", "chara": [23] }
+  },
+  "518": {
+    "name": "Ultimate Memoria -比類なき異能-",
+    "illustration": { "type": "", "illustrator": "", "chara": [26] }
+  },
+  "519": {
+    "name": "Ultimate Memoria -フェノメノ-",
+    "illustration": { "type": "", "illustrator": "", "chara": [23] }
+  },
+  "520": {
+    "name": "Ultimate Memoria -蒼き月、満ちる時-",
+    "illustration": { "type": "", "illustrator": "", "chara": [21] }
+  },
+  "521": {
+    "name": "Ultimate Memoria -シリウス・ロア-",
+    "illustration": { "type": "", "illustrator": "", "chara": [24] }
+  },
+  "522": {
+    "name": "Ultimate Memoria -縦横無尽、阻む者無し-",
+    "illustration": { "type": "", "illustrator": "", "chara": [29] }
+  },
+  "523": {
+    "name": "Emotional Memoria -吐息の距離-",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "524": {
+    "name": "ハルナストライク！！",
+    "illustration": { "type": "", "illustrator": "", "chara": [67] }
+  },
+  "525": {
+    "name": "光の盾",
+    "illustration": { "type": "", "illustrator": "", "chara": [68] }
+  },
+  "526": {
+    "name": "貴女の笑顔を守るために",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "527": {
+    "name": "貴女と共にあるために",
+    "illustration": { "type": "", "illustrator": "", "chara": [16] }
+  },
+  "528": {
+    "name": "運命のトリニティ",
+    "illustration": { "type": "", "illustrator": "", "chara": [68, 15, 2, 1, 10, 71] }
+  },
+  "529": {
+    "name": "チョコを知らない君へ",
+    "illustration": { "type": "", "illustrator": "", "chara": [12, 10] }
+  },
+  "530": {
+    "name": "触れ合う吐息",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "531": {
+    "name": "安らぎをあなたに",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "532": {
+    "name": "あなたにお茶を",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "533": {
+    "name": "クリエイターズコラボ-いただきだゾ♪-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "あかつき聖先生", "chara": [6, 2] }
+  },
+  "534": {
+    "name": "クリエイターズコラボ-ショコラのゆうわく-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "あろあ先生", "chara": [11, 13] }
+  },
+  "535": {
+    "name": "クリエイターズコラボ-甘いきらめき-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "星の紅茶先生", "chara": [19, 18] }
+  },
+  "536": {
+    "name": "クリエイターズコラボ-とろけるハート-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "氷菜先生", "chara": [23, 24] }
+  },
+  "537": {
+    "name": "輝ける流星",
+    "illustration": { "type": "", "illustrator": "", "chara": [44] }
+  },
+  "538": {
+    "name": "六花、胡蝶の如く舞う",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "539": {
+    "name": "一意専心",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "540": {
+    "name": "氷嵐を断つ劔",
+    "illustration": { "type": "", "illustrator": "", "chara": [42] }
+  },
+  "541": {
+    "name": "連携プレーの勝利！",
+    "illustration": { "type": "", "illustrator": "", "chara": [75, 76] }
+  },
+  "542": {
+    "name": "謎めいた魔法少女",
+    "illustration": { "type": "", "illustrator": "", "chara": [76] }
+  },
+  "543": {
+    "name": "頼れる先輩",
+    "illustration": { "type": "", "illustrator": "", "chara": [77] }
+  },
+  "544": {
+    "name": "奇跡の出会い！",
+    "illustration": { "type": "", "illustrator": "", "chara": [75, 1] }
+  },
+  "545": {
+    "name": "僕と契約して、魔法少女になってよ！",
+    "illustration": { "type": "", "illustrator": "", "chara": [80] }
+  },
+  "546": {
+    "name": "共同戦線！",
+    "illustration": { "type": "", "illustrator": "", "chara": [78, 79] }
+  },
+  "547": {
+    "name": "差し出されたお菓子",
+    "illustration": { "type": "", "illustrator": "", "chara": [79, 15] }
+  },
+  "548": {
+    "name": "クリエイターズコラボ-苺色に染めて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "Xin先生", "chara": [7, 8] }
+  },
+  "549": {
+    "name": "クリエイターズコラボ-籠いっぱいの幸せ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "UGUME先生", "chara": [17, 18] }
+  },
+  "550": {
+    "name": "クリエイターズコラボ-甘々苺クレープ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ねむりねむ先生", "chara": [12, 10] }
+  },
+  "551": {
+    "name": "クリエイターズコラボ-苺飴の味わい-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "林けゐ先生", "chara": [27, 26] }
+  },
+  "552": {
+    "name": "クリエイターズコラボ-シルト餌付け実験-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "keenbiscuit先生", "chara": [20, 9] }
+  },
+  "553": {
+    "name": "ぎゅーっとしてあげる",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "554": {
+    "name": "泡立てチャレンジの結果",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "555": {
+    "name": "光咲く日々を抱いて",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 11, 12, 13, 14] }
+  },
+  "556": {
+    "name": "堅固なる守り",
+    "illustration": { "type": "", "illustrator": "", "chara": [27] }
+  },
+  "557": {
+    "name": "クリエイターズコラボ-春風に吹かれて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "煮たか先生", "chara": [56, 1] }
+  },
+  "558": {
+    "name": "クリエイターズコラボ-お花見ティータイム-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "にもし先生", "chara": [13, 14] }
+  },
+  "559": {
+    "name": "クリエイターズコラボ-天に舞う花びら-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "カラスBTK先生", "chara": [25, 21] }
+  },
+  "560": {
+    "name": "クリエイターズコラボ-GOGO新学期！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "くるみつ先生", "chara": [4, 3] }
+  },
+  "561": {
+    "name": "クリエイターズコラボ-桜と貴女を-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "kr木先生", "chara": [16, 15] }
+  },
+  "562": {
+    "name": "贖いの祈り",
+    "illustration": { "type": "", "illustrator": "", "chara": [45] }
+  },
+  "563": {
+    "name": "その心、炎よりも熱く",
+    "illustration": { "type": "", "illustrator": "", "chara": [48] }
+  },
+  "564": {
+    "name": "蒼き輝き、楯たる矜持",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "565": {
+    "name": "反りし刃、誘うは棺",
+    "illustration": { "type": "", "illustrator": "", "chara": [48] }
+  },
+  "566": {
+    "name": "ツインテじゃらし",
+    "illustration": { "type": "", "illustrator": "", "chara": [9] }
+  },
+  "567": {
+    "name": "グラスにラムネを注いだら",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "568": {
+    "name": "ぱーふぇくとアカリズム",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "569": {
+    "name": "玲瓏玉の如し",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "570": {
+    "name": "千香瑠のエクササイズ",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "571": {
+    "name": "Emotional Memoria -朝寝坊のススメ-",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "572": {
+    "name": "天使の左手、堕天使の右手",
+    "illustration": { "type": "", "illustrator": "", "chara": [70] }
+  },
+  "573": {
+    "name": "笑顔の夜明け",
+    "illustration": { "type": "", "illustrator": "", "chara": [69, 68] }
+  },
+  "574": {
+    "name": "尊き花を守るために",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "575": {
+    "name": "マルチカラード・ティアーズ",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 16, 68, 69] }
+  },
+  "576": {
+    "name": "これが、あたしの理！",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "577": {
+    "name": "天のアカリ目！",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "578": {
+    "name": "クリエイターズコラボ-エッグロール開始！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ふわり（후와리）先生", "chara": [14, 13] }
+  },
+  "579": {
+    "name": "クリエイターズコラボ-イースターエッグ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "代々先生", "chara": [18, 17] }
+  },
+  "580": {
+    "name": "クリエイターズコラボ-花咲くイースター-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "茉崎ミユキ先生", "chara": [8, 7] }
+  },
+  "581": {
+    "name": "クリエイターズコラボ-イースターハント-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ダンミル先生", "chara": [57, 56] }
+  },
+  "582": {
+    "name": "魅惑のセレクション",
+    "illustration": { "type": "", "illustrator": "", "chara": [14, 16, 8] }
+  },
+  "583": {
+    "name": "バニートラップ",
+    "illustration": { "type": "", "illustrator": "", "chara": [16] }
+  },
+  "584": {
+    "name": "さみしがりうさぎ",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "585": {
+    "name": "舞台「The Gleam of Dawn」開演！",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [81, 82, 83] }
+  },
+  "586": {
+    "name": "クリエイターズコラボ-紫に酔い、白に想う-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "たくぼん先生", "chara": [29, 23] }
+  },
+  "587": {
+    "name": "クリエイターズコラボ-藤棚の下で-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "クロがねや先生", "chara": [10, 11] }
+  },
+  "588": {
+    "name": "クリエイターズコラボ-花言葉のように-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "黒兎ゆう先生", "chara": [2, 1] }
+  },
+  "589": {
+    "name": "クリエイターズコラボ-ウィステリアの誘い-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "うなさか先生", "chara": [19, 16] }
+  },
+  "590": {
+    "name": "戦場に差しこむ光",
+    "illustration": { "type": "", "illustrator": "", "chara": [49] }
+  },
+  "591": {
+    "name": "猛禽の視点",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "592": {
+    "name": "閑かなること、幻想の如く",
+    "illustration": { "type": "", "illustrator": "", "chara": [56] }
+  },
+  "593": {
+    "name": "荒ぶる魂",
+    "illustration": { "type": "", "illustrator": "", "chara": [49] }
+  },
+  "594": {
+    "name": "ゴージャスアイドル☆楓",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "595": {
+    "name": "エクセレントアイドル☆紗癒",
+    "illustration": { "type": "", "illustrator": "", "chara": [57] }
+  },
+  "596": {
+    "name": "藍だけが使える魔法",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "597": {
+    "name": "征くと決めたこの道を",
+    "illustration": { "type": "", "illustrator": "", "chara": [72] }
+  },
+  "598": {
+    "name": "パーフェクトエイム",
+    "illustration": { "type": "", "illustrator": "", "chara": [73] }
+  },
+  "599": {
+    "name": "竜のシャナと楯の乙女",
+    "illustration": { "type": "", "illustrator": "", "chara": [71, 10] }
+  },
+  "600": {
+    "name": "戦乙女の誇り",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "601": {
+    "name": "言葉無く吠える",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "602": {
+    "name": "クリエイターズコラボ-皐月の頃に-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "U35先生", "chara": [15, 10] }
+  },
+  "603": {
+    "name": "クリエイターズコラボ-尊さの不意打ち-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "樫風先生", "chara": [4, 17] }
+  },
+  "604": {
+    "name": "クリエイターズコラボ-なでなで連鎖-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ろここ先生", "chara": [6, 5] }
+  },
+  "605": {
+    "name": "クリエイターズコラボ-ピクニック日和-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ᴡᴇʀɪ先生", "chara": [11, 14] }
+  },
+  "606": {
+    "name": "エターナル・プロミス",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 16] }
+  },
+  "607": {
+    "name": "ウエディング・マーチ",
+    "illustration": { "type": "", "illustrator": "", "chara": [68] }
+  },
+  "608": {
+    "name": "夢見る自分を、怖れずに",
+    "illustration": { "type": "", "illustrator": "", "chara": [69] }
+  },
+  "609": {
+    "name": "クリエイターズコラボ-門出のブーケ・トス-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ゆあま先生", "chara": [20, 9] }
+  },
+  "610": {
+    "name": "クリエイターズコラボ-ウェディングベア-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "あやみ先生", "chara": [13, 12] }
+  },
+  "611": {
+    "name": "クリエイターズコラボ-想像ウェディング-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "香川悠作先生", "chara": [67, 19] }
+  },
+  "612": {
+    "name": "クリエイターズコラボ-式場を決めましたわ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "佐倉おりこ先生", "chara": [3, 1] }
+  },
+  "613": {
+    "name": "月光奏鳴",
+    "illustration": { "type": "", "illustrator": "", "chara": [47] }
+  },
+  "614": {
+    "name": "黒蝕の夢",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "615": {
+    "name": "焼け焦げた土を踏んで",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "616": {
+    "name": "G戦場の百合亜",
+    "illustration": { "type": "", "illustrator": "", "chara": [47] }
+  },
+  "617": {
+    "name": "つきしーMAX!!",
+    "illustration": { "type": "", "illustrator": "", "chara": [28] }
+  },
+  "618": {
+    "name": "貴方に微笑む",
+    "illustration": { "type": "", "illustrator": "", "chara": [87] }
+  },
+  "619": {
+    "name": "愛情の絆",
+    "illustration": { "type": "", "illustrator": "", "chara": [88] }
+  },
+  "620": {
+    "name": "情熱",
+    "illustration": { "type": "", "illustrator": "", "chara": [89] }
+  },
+  "621": {
+    "name": "交差する勇み花",
+    "illustration": { "type": "", "illustrator": "", "chara": [87, 1] }
+  },
+  "622": {
+    "name": "そよ風のシュッツエンゲル",
+    "illustration": { "type": "", "illustrator": "", "chara": [88, 87] }
+  },
+  "623": {
+    "name": "清純な心",
+    "illustration": { "type": "", "illustrator": "", "chara": [90] }
+  },
+  "624": {
+    "name": "クリエイターズコラボ-紫陽花の咲く頃-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "かにビーム先生", "chara": [1, 53] }
+  },
+  "625": {
+    "name": "クリエイターズコラボ-雨の日は紅茶を-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "湯気先生", "chara": [68, 69] }
+  },
+  "626": {
+    "name": "クリエイターズコラボ-雨、舌戦のあと-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "サコ先生", "chara": [3, 26] }
+  },
+  "627": {
+    "name": "クリエイターズコラボ-二度寝のいいわけ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "LOOM先生", "chara": [12, 10] }
+  },
+  "628": {
+    "name": "Emotional Memoria -伝わる鼓動-",
+    "illustration": { "type": "", "illustrator": "", "chara": [16] }
+  },
+  "629": {
+    "name": "勇気の拳",
+    "illustration": { "type": "", "illustrator": "", "chara": [87] }
+  },
+  "630": {
+    "name": "輝く心",
+    "illustration": { "type": "", "illustrator": "", "chara": [91] }
+  },
+  "631": {
+    "name": "心の痛みを判る人",
+    "illustration": { "type": "", "illustrator": "", "chara": [92] }
+  },
+  "632": {
+    "name": "桜花爛漫",
+    "illustration": { "type": "", "illustrator": "", "chara": [87, 2] }
+  },
+  "633": {
+    "name": "クリエイターズコラボ-水族館を探検-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "希先生", "chara": [11, 13] }
+  },
+  "634": {
+    "name": "クリエイターズコラボ-初夏の装い-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "あるてら先生", "chara": [2, 54] }
+  },
+  "635": {
+    "name": "クリエイターズコラボ-日差しを見上げて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "みすみ先生", "chara": [9, 4] }
+  },
+  "636": {
+    "name": "クリエイターズコラボ-これなんかどう？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "芹野いつき先生", "chara": [18, 19] }
+  },
+  "637": {
+    "name": "祈りの声が届く時",
+    "illustration": { "type": "", "illustrator": "", "chara": [46] }
+  },
+  "638": {
+    "name": "煉獄の守護天使",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "639": {
+    "name": "受け継がれし攻守の型",
+    "illustration": { "type": "", "illustrator": "", "chara": [53] }
+  },
+  "640": {
+    "name": "心を鋼鉄に変えて",
+    "illustration": { "type": "", "illustrator": "", "chara": [46] }
+  },
+  "641": {
+    "name": "幸せな夢を見る前に",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "642": {
+    "name": "枕投げチャンピオン",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "643": {
+    "name": "ゴージャス☆おしゃ恋花",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "644": {
+    "name": "竜のシャナ",
+    "illustration": { "type": "", "illustrator": "", "chara": [71] }
+  },
+  "645": {
+    "name": "七頭龍幻想の担い手",
+    "illustration": { "type": "", "illustrator": "", "chara": [74] }
+  },
+  "646": {
+    "name": "深炎のスキャルドメール",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 71] }
+  },
+  "647": {
+    "name": "正義の咆哮",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "648": {
+    "name": "夢の果て、その先へ",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "649": {
+    "name": "クリエイターズコラボ-碧い海のふたり-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "みわべさくら先生", "chara": [7, 8] }
+  },
+  "650": {
+    "name": "クリエイターズコラボ-灯莉の貝殻アート☆-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ゆうじん先生", "chara": [18, 9] }
+  },
+  "651": {
+    "name": "クリエイターズコラボ-冷たい舌触り-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "chiri先生", "chara": [8, 5] }
+  },
+  "652": {
+    "name": "クリエイターズコラボ-非常事態のその後-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "工藤える先生", "chara": [13, 14] }
+  },
+  "653": {
+    "name": "蒼き月の夜",
+    "illustration": { "type": "", "illustrator": "", "chara": [21] }
+  },
+  "654": {
+    "name": "月下に舞うプランセス",
+    "illustration": { "type": "", "illustrator": "", "chara": [22] }
+  },
+  "655": {
+    "name": "星月夜の指揮者",
+    "illustration": { "type": "", "illustrator": "", "chara": [27] }
+  },
+  "656": {
+    "name": "祝2.5周年 リリサマ!!",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 21, 25] }
+  },
+  "657": {
+    "name": "夏色スライダー",
+    "illustration": { "type": "", "illustrator": "", "chara": [23, 1, 3] }
+  },
+  "658": {
+    "name": "アグレッシヴ・ヒロイン",
+    "illustration": { "type": "", "illustrator": "", "chara": [67, 19] }
+  },
+  "659": {
+    "name": "王家の夏休み",
+    "illustration": { "type": "", "illustrator": "", "chara": [34, 8] }
+  },
+  "660": {
+    "name": "惹かれる手のひら",
+    "illustration": { "type": "", "illustrator": "", "chara": [69] }
+  },
+  "661": {
+    "name": "Emotional Memoria -楽しいを探して-",
+    "illustration": { "type": "", "illustrator": "", "chara": [35] }
+  },
+  "662": {
+    "name": "クリエイターズコラボ-水着をお披露目-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "茉崎ミユキ先生", "chara": [17, 19] }
+  },
+  "663": {
+    "name": "クリエイターズコラボ-向日葵の咲く園-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "かがちさく先生", "chara": [21, 20] }
+  },
+  "664": {
+    "name": "クリエイターズコラボ-浮き輪でぷかぷか-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "茨乃先生", "chara": [11, 10] }
+  },
+  "665": {
+    "name": "クリエイターズコラボ-真夏のステージ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "缶乃先生", "chara": [1, 2] }
+  },
+  "666": {
+    "name": "はにかみプールサイド",
+    "illustration": { "type": "", "illustrator": "", "chara": [72] }
+  },
+  "667": {
+    "name": "いたずらトゥインクル",
+    "illustration": { "type": "", "illustrator": "", "chara": [71, 10] }
+  },
+  "668": {
+    "name": "焦がれる夜",
+    "illustration": { "type": "", "illustrator": "", "chara": [16, 15] }
+  },
+  "669": {
+    "name": "待ち望んだパーティナイト",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "670": {
+    "name": "Ultimate Memoria -ヴィルトシュバイン-",
+    "illustration": { "type": "", "illustrator": "", "chara": [28] }
+  },
+  "671": {
+    "name": "Ultimate Memoria -終曲のタクト-",
+    "illustration": { "type": "", "illustrator": "", "chara": [27] }
+  },
+  "672": {
+    "name": "Ultimate Memoria -幻奏乙女-",
+    "illustration": { "type": "", "illustrator": "", "chara": [25] }
+  },
+  "673": {
+    "name": "Ultimate Memoria -無二なる二刀-",
+    "illustration": { "type": "", "illustrator": "", "chara": [53] }
+  },
+  "674": {
+    "name": "Ultimate Memoria -双刃無双-",
+    "illustration": { "type": "", "illustrator": "", "chara": [22] }
+  },
+  "675": {
+    "name": "くすみんサマー",
+    "illustration": { "type": "", "illustrator": "", "chara": [25] }
+  },
+  "676": {
+    "name": "壱撃必殺！！",
+    "illustration": { "type": "", "illustrator": "", "chara": [24] }
+  },
+  "677": {
+    "name": "夏尽くしの海",
+    "illustration": { "type": "", "illustrator": "", "chara": [28] }
+  },
+  "678": {
+    "name": "神の子は、水面に踊る",
+    "illustration": { "type": "", "illustrator": "", "chara": [25] }
+  },
+  "679": {
+    "name": "真実の刃＆リリコレ2023 開演！",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [97, 40, 43, 46, 45] }
+  },
+  "680": {
+    "name": "燦然たる騎士",
+    "illustration": { "type": "", "illustrator": "", "chara": [57] }
+  },
+  "681": {
+    "name": "陽だまりの女神",
+    "illustration": { "type": "", "illustrator": "", "chara": [98] }
+  },
+  "682": {
+    "name": "明朗たる戦乙女",
+    "illustration": { "type": "", "illustrator": "", "chara": [99] }
+  },
+  "683": {
+    "name": "クリエイターズコラボ-切れた鼻緒と繋ぐ心-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "Xin先生", "chara": [14, 10] }
+  },
+  "684": {
+    "name": "クリエイターズコラボ-射的の景品です！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "雪丸ぬん先生", "chara": [4, 3] }
+  },
+  "685": {
+    "name": "クリエイターズコラボ-瞳の中に映る花火-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "WERI先生", "chara": [15, 16] }
+  },
+  "686": {
+    "name": "クリエイターズコラボ-お祭りを味わって-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ぷらこ先生", "chara": [70, 69] }
+  },
+  "687": {
+    "name": "これが私の、全力だぁ――！！",
+    "illustration": { "type": "", "illustrator": "", "chara": [100] }
+  },
+  "688": {
+    "name": "お姉様の露払い",
+    "illustration": { "type": "", "illustrator": "", "chara": [101] }
+  },
+  "689": {
+    "name": "さすが私ってところかしらぁ？",
+    "illustration": { "type": "", "illustrator": "", "chara": [102] }
+  },
+  "690": {
+    "name": "楯の乙女と超電磁砲",
+    "illustration": { "type": "", "illustrator": "", "chara": [100, 10] }
+  },
+  "691": {
+    "name": "超電磁アイドル",
+    "illustration": { "type": "", "illustrator": "", "chara": [100] }
+  },
+  "692": {
+    "name": "デュエットですの♥",
+    "illustration": { "type": "", "illustrator": "", "chara": [101, 100] }
+  },
+  "693": {
+    "name": "キラキラ★アイドル",
+    "illustration": { "type": "", "illustrator": "", "chara": [102] }
+  },
+  "694": {
+    "name": "クリエイターズコラボ-コスモスコスメ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "白野アキヒロ先生", "chara": [12, 14] }
+  },
+  "695": {
+    "name": "クリエイターズコラボ-朋友信之-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "きのと先生", "chara": [7, 8] }
+  },
+  "696": {
+    "name": "クリエイターズコラボ-黄色い絨毯で-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "雪子先生", "chara": [13, 11] }
+  },
+  "697": {
+    "name": "シャナの剣",
+    "illustration": { "type": "", "illustrator": "", "chara": [72, 71] }
+  },
+  "698": {
+    "name": "追憶の星空",
+    "illustration": { "type": "", "illustrator": "", "chara": [74] }
+  },
+  "699": {
+    "name": "ワイルドバンチ",
+    "illustration": { "type": "", "illustrator": "", "chara": [103] }
+  },
+  "700": {
+    "name": "クエレブレの正義",
+    "illustration": { "type": "", "illustrator": "", "chara": [71] }
+  },
+  "701": {
+    "name": "2人でニューゲーム",
+    "illustration": { "type": "", "illustrator": "", "chara": [73, 74] }
+  },
+  "702": {
+    "name": "クリエイターズコラボ-お月さまの秘密-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "むく先生", "chara": [18, 17] }
+  },
+  "703": {
+    "name": "クリエイターズコラボ-月を見上げて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "宮原都先生", "chara": [24, 22] }
+  },
+  "704": {
+    "name": "クリエイターズコラボ-ムーンリットワルツ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "花ヶ田先生", "chara": [19, 15] }
+  },
+  "705": {
+    "name": "荒ぶる銘花",
+    "illustration": { "type": "", "illustrator": "", "chara": [23] }
+  },
+  "706": {
+    "name": "彼方の宵空",
+    "illustration": { "type": "", "illustrator": "", "chara": [26] }
+  },
+  "707": {
+    "name": "たつき100％",
+    "illustration": { "type": "", "illustrator": "", "chara": [29] }
+  },
+  "708": {
+    "name": "Emotional Memoria -ねこさんこちら-",
+    "illustration": { "type": "", "illustrator": "", "chara": [69] }
+  },
+  "709": {
+    "name": "誓いの剣閃",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 2] }
+  },
+  "710": {
+    "name": "緋染めの天使",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "711": {
+    "name": "光射す守護者",
+    "illustration": { "type": "", "illustrator": "", "chara": [105, 106] }
+  },
+  "712": {
+    "name": "クリエイターズコラボ-楓の頃-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "胡麻乃りお先生", "chara": [3, 1] }
+  },
+  "713": {
+    "name": "クリエイターズコラボ-もみじまんじゅう-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "みやしろ先生", "chara": [20, 9] }
+  },
+  "714": {
+    "name": "百合ヶ丘ティーパーティ2023開催！",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 3, 4, 5, 6, 7, 8, 9] }
+  },
+  "715": {
+    "name": "健気×恥じらい＝",
+    "illustration": { "type": "", "illustrator": "", "chara": [69] }
+  },
+  "716": {
+    "name": "這い寄る妖艶",
+    "illustration": { "type": "", "illustrator": "", "chara": [70] }
+  },
+  "717": {
+    "name": "優美な魔女に魅せられて",
+    "illustration": { "type": "", "illustrator": "", "chara": [68] }
+  },
+  "718": {
+    "name": "クリエイターズコラボ-秋空を見上げながら-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "雲呑めお先生", "chara": [71, 72] }
+  },
+  "719": {
+    "name": "クリエイターズコラボ-転ばぬ先の一葉-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "成田タメゾウ先生", "chara": [10, 12] }
+  },
+  "720": {
+    "name": "廃墟のアンティークドール",
+    "illustration": { "type": "", "illustrator": "", "chara": [9] }
+  },
+  "721": {
+    "name": "掲げし長針と短針",
+    "illustration": { "type": "", "illustrator": "", "chara": [53] }
+  },
+  "722": {
+    "name": "瓦礫の街に咲いてこそ",
+    "illustration": { "type": "", "illustrator": "", "chara": [20] }
+  },
+  "723": {
+    "name": "雹嵐の如く",
+    "illustration": { "type": "", "illustrator": "", "chara": [22] }
+  },
+  "724": {
+    "name": "クリエイターズコラボ-深まる秋の一幕-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "氷菜先生", "chara": [16, 15] }
+  },
+  "725": {
+    "name": "クリエイターズコラボ-落ち葉のリース-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "柚原もけ先生", "chara": [67, 18] }
+  },
+  "726": {
+    "name": "海風に吹かれて",
+    "illustration": { "type": "", "illustrator": "", "chara": [108] }
+  },
+  "727": {
+    "name": "メイドのご奉仕",
+    "illustration": { "type": "", "illustrator": "", "chara": [109] }
+  },
+  "728": {
+    "name": "メイドのうたたね",
+    "illustration": { "type": "", "illustrator": "", "chara": [110, 109] }
+  },
+  "729": {
+    "name": "素敵なお茶会",
+    "illustration": { "type": "", "illustrator": "", "chara": [108, 109, 110, 7, 8] }
+  },
+  "730": {
+    "name": "双子メイド風スタイル",
+    "illustration": { "type": "", "illustrator": "", "chara": [8, 7] }
+  },
+  "731": {
+    "name": "かけがえのない時間",
+    "illustration": { "type": "", "illustrator": "", "chara": [111, 112] }
+  },
+  "732": {
+    "name": "クリエイターズコラボ-秋のそうさく-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ミシュネ先生", "chara": [4, 53] }
+  },
+  "733": {
+    "name": "クリエイターズコラボ-新涼灯火-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "麦うさぎ先生", "chara": [7, 2] }
+  },
+  "734": {
+    "name": "クリエイターズコラボ-ひそひそナイト-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "さなだケイスイ先生", "chara": [13, 14] }
+  },
+  "735": {
+    "name": "クリエイターズコラボ-フレフレリリィ！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "柏月すず先生", "chara": [2, 1] }
+  },
+  "736": {
+    "name": "クリエイターズコラボ-夢の中で隠れんぼ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "眠田むぅ。先生", "chara": [12, 11] }
+  },
+  "737": {
+    "name": "クリエイターズコラボ-はつらつハイタッチ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "香川悠作先生", "chara": [10, 13] }
+  },
+  "738": {
+    "name": "秘め事☆プールサイド",
+    "illustration": { "type": "", "illustrator": "", "chara": [19, 18] }
+  },
+  "739": {
+    "name": "シネマティックに煌めいて",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "740": {
+    "name": "神庭の花火師",
+    "illustration": { "type": "", "illustrator": "", "chara": [70] }
+  },
+  "741": {
+    "name": "クリエイターズコラボ-藍の心と秋の空-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "沢城あやほ先生", "chara": [11, 14] }
+  },
+  "742": {
+    "name": "クリエイターズコラボ-かわいい狩りの秋-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "東暮先生", "chara": [74, 73] }
+  },
+  "743": {
+    "name": "夕映えに冴える一手",
+    "illustration": { "type": "", "illustrator": "", "chara": [56] }
+  },
+  "744": {
+    "name": "暮れなずむ廃址の佳人",
+    "illustration": { "type": "", "illustrator": "", "chara": [98] }
+  },
+  "745": {
+    "name": "理が導く勝機",
+    "illustration": { "type": "", "illustrator": "", "chara": [99] }
+  },
+  "746": {
+    "name": "クリエイターズコラボ-小さな音楽会-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "月野先生", "chara": [17, 19] }
+  },
+  "747": {
+    "name": "クリエイターズコラボ-秋の日に描く面影-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "shiohana先生", "chara": [69, 68] }
+  },
+  "748": {
+    "name": "やがて運命は扉を叩く",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 5, 2, 6] }
+  },
+  "749": {
+    "name": "決着の引き金、魂を重ねて",
+    "illustration": { "type": "", "illustrator": "", "chara": [6, 5] }
+  },
+  "750": {
+    "name": "邪眼解放",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "751": {
+    "name": "真打ち登場やで！",
+    "illustration": { "type": "", "illustrator": "", "chara": [106] }
+  },
+  "752": {
+    "name": "クリエイターズコラボ-初雪を見上げて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "メレ先生", "chara": [9, 3] }
+  },
+  "753": {
+    "name": "クリエイターズコラボ-2人のおもてなし-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "はるひな先生", "chara": [69, 67] }
+  },
+  "754": {
+    "name": "Emotional Memoria -箱入り神琳-",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "755": {
+    "name": "流星のトリニティ",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 2, 10, 71, 15, 68] }
+  },
+  "756": {
+    "name": "聖眼解放",
+    "illustration": { "type": "", "illustrator": "", "chara": [74] }
+  },
+  "757": {
+    "name": "悠久なるノスフェラトゥ",
+    "illustration": { "type": "", "illustrator": "", "chara": [115] }
+  },
+  "758": {
+    "name": "清廉なる赤き衝動",
+    "illustration": { "type": "", "illustrator": "", "chara": [69] }
+  },
+  "759": {
+    "name": "クリエイターズコラボ-ツリーを飾る指先-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "nima先生", "chara": [8, 1] }
+  },
+  "760": {
+    "name": "クリエイターズコラボ-白きホーリーナイト-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ぺんたごん先生", "chara": [15, 16] }
+  },
+  "761": {
+    "name": "新たな闘いの幕開け",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [116, 4, 117, 40] }
+  },
+  "762": {
+    "name": "クリエイターズコラボ-相合い傘越しの虹-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "にわ田先生", "chara": [17, 16] }
+  },
+  "763": {
+    "name": "クリエイターズコラボ-雨上がりレインボー-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "Ruien先生", "chara": [18, 19] }
+  },
+  "764": {
+    "name": "聖夜の竜星",
+    "illustration": { "type": "", "illustrator": "", "chara": [71, 72] }
+  },
+  "765": {
+    "name": "聖夜のスニーキングミッション",
+    "illustration": { "type": "", "illustrator": "", "chara": [73] }
+  },
+  "766": {
+    "name": "約束のサンタクロース",
+    "illustration": { "type": "", "illustrator": "", "chara": [103] }
+  },
+  "767": {
+    "name": "クリエイターズコラボ-聖夜のデュオ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "といぺー先生", "chara": [19, 17] }
+  },
+  "768": {
+    "name": "クリエイターズコラボ-サンタを待ちながら-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "Hz先生", "chara": [10, 11] }
+  },
+  "769": {
+    "name": "龍の威纏う女帝",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "770": {
+    "name": "炎龍を宿す舞人",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "771": {
+    "name": "恵みもたらす食神",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "772": {
+    "name": "辰年ニューイヤー",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [25, 21] }
+  },
+  "773": {
+    "name": "クリエイターズコラボ-ふたりだけの夜-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "PinkiO先生", "chara": [6, 5] }
+  },
+  "774": {
+    "name": "クリエイターズコラボ-満たされる時間-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "いかり先生", "chara": [21, 25] }
+  },
+  "775": {
+    "name": "決着に繋ぐ一打",
+    "illustration": { "type": "", "illustrator": "", "chara": [54] }
+  },
+  "776": {
+    "name": "廃墟のワンダーランド",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "777": {
+    "name": "夜会を彩る花",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "778": {
+    "name": "クリエイターズコラボ-冬のパンづくし-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "永山ゆうのん先生", "chara": [53, 4] }
+  },
+  "779": {
+    "name": "クリエイターズコラボ-お手軽Sweet Time-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "はみこ先生", "chara": [98, 57] }
+  },
+  "780": {
+    "name": "3rd Anniversary DREAM",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 21, 15, 68, 10, 71] }
+  },
+  "781": {
+    "name": "夢のようなひとときを",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 2] }
+  },
+  "782": {
+    "name": "尊みエスコート",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 16, 17] }
+  },
+  "783": {
+    "name": "月影のロマンス",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 12] }
+  },
+  "784": {
+    "name": "熱に浮かされて",
+    "illustration": { "type": "", "illustrator": "", "chara": [7, 8] }
+  },
+  "785": {
+    "name": "婀娜やかな誘い",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "786": {
+    "name": "月灯りに姫と歌う",
+    "illustration": { "type": "", "illustrator": "", "chara": [18, 19] }
+  },
+  "787": {
+    "name": "ようとちかるとらん・ラン・RUN♬",
+    "illustration": { "type": "", "illustrator": "", "chara": [11, 13, 14] }
+  },
+  "788": {
+    "name": "褪せない夜",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "789": {
+    "name": "Emotional Memoria -見つめてシンパシー-",
+    "illustration": { "type": "", "illustrator": "", "chara": [71] }
+  },
+  "790": {
+    "name": "アトラクティヴ・キャンドル",
+    "illustration": { "type": "", "illustrator": "", "chara": [41, 40] }
+  },
+  "791": {
+    "name": "メルヘンチック・ヒロイン",
+    "illustration": { "type": "", "illustrator": "", "chara": [45, 46] }
+  },
+  "792": {
+    "name": "幻惑の麗姫",
+    "illustration": { "type": "", "illustrator": "", "chara": [115] }
+  },
+  "793": {
+    "name": "優美な花に誘われて",
+    "illustration": { "type": "", "illustrator": "", "chara": [106, 105] }
+  },
+  "794": {
+    "name": "瞳の中のステラ",
+    "illustration": { "type": "", "illustrator": "", "chara": [54] }
+  },
+  "795": {
+    "name": "出撃！リリィサバイバル",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1] }
+  },
+  "796": {
+    "name": "Ultimate Memoria -至宝の煌き-",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "797": {
+    "name": "Ultimate Memoria -日輪背負う天使-",
+    "illustration": { "type": "", "illustrator": "", "chara": [57] }
+  },
+  "798": {
+    "name": "Ultimate Memoria -閑雅なる氷帝-",
+    "illustration": { "type": "", "illustrator": "", "chara": [56] }
+  },
+  "799": {
+    "name": "Ultimate Memoria -戦場の一番星-",
+    "illustration": { "type": "", "illustrator": "", "chara": [70] }
+  },
+  "800": {
+    "name": "Ultimate Memoria -変幻自在のtrickster-",
+    "illustration": { "type": "", "illustrator": "", "chara": [73] }
+  },
+  "801": {
+    "name": "クリエイターズコラボ-せんぱいのお花たち-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "サコ先生", "chara": [18, 15] }
+  },
+  "802": {
+    "name": "クリエイターズコラボ-可憐な香に包まれて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "染平かつ先生", "chara": [56, 1] }
+  },
+  "803": {
+    "name": "お出迎え♡スウィートハート",
+    "illustration": { "type": "", "illustrator": "", "chara": [19, 67, 69] }
+  },
+  "804": {
+    "name": "すうぃ～と♡にゃんだふる",
+    "illustration": { "type": "", "illustrator": "", "chara": [67] }
+  },
+  "805": {
+    "name": "すずめ♡あらもーど",
+    "illustration": { "type": "", "illustrator": "", "chara": [69] }
+  },
+  "806": {
+    "name": "クリエイターズコラボ-あなたのカメリア-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "希先生", "chara": [14, 10] }
+  },
+  "807": {
+    "name": "クリエイターズコラボ-小さな幸せを冠して-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "くるみつ先生", "chara": [103, 71] }
+  },
+  "808": {
+    "name": "クリエイターズコラボ-芽吹く心-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "おぐら。先生", "chara": [5, 11] }
+  },
+  "809": {
+    "name": "クリエイターズコラボ-色とりどりの遊蝶花-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "とけし先生", "chara": [27, 28] }
+  },
+  "810": {
+    "name": "クリエイターズコラボ-丸底鍋の既視感-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "桜木蓮先生", "chara": [34, 7] }
+  },
+  "811": {
+    "name": "クリエイターズコラボ-屋台で一杯-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ちうね先生", "chara": [68, 12] }
+  },
+  "812": {
+    "name": "ラスバレライブ記念メモリア～一柳隊～",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 3, 4, 5, 6, 7, 8, 9] }
+  },
+  "813": {
+    "name": "ラスバレライブ記念メモリア～ヘルヴォル～",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [10, 11, 12, 13, 14] }
+  },
+  "814": {
+    "name": "ラスバレライブ記念メモリア～グラン・エプレ～",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [15, 16, 17, 18, 19] }
+  },
+  "815": {
+    "name": "祝福の庭園",
+    "illustration": { "type": "", "illustrator": "", "chara": [118, 21] }
+  },
+  "816": {
+    "name": "光翼の覇者",
+    "illustration": { "type": "", "illustrator": "", "chara": [21] }
+  },
+  "817": {
+    "name": "百合の園の聖女",
+    "illustration": { "type": "", "illustrator": "", "chara": [118] }
+  },
+  "818": {
+    "name": "聖剣の三女神",
+    "illustration": { "type": "", "illustrator": "", "chara": [21, 118, 25] }
+  },
+  "819": {
+    "name": "紅蓮の狂姫士",
+    "illustration": { "type": "", "illustrator": "", "chara": [23] }
+  },
+  "820": {
+    "name": "妖精の恩寵を受けし者",
+    "illustration": { "type": "", "illustrator": "", "chara": [25] }
+  },
+  "821": {
+    "name": "クリエイターズコラボ-甘いおもてなし-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "はらけんし先生", "chara": [20, 9] }
+  },
+  "822": {
+    "name": "クリエイターズコラボ-大好きをこめて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "くわばら先生", "chara": [67, 16] }
+  },
+  "823": {
+    "name": "クリエイターズコラボ-尊みティータイム-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "あろあ先生", "chara": [15, 17] }
+  },
+  "824": {
+    "name": "クリエイターズコラボ-ふたりだけのお茶会-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "綺平先生", "chara": [2, 1] }
+  },
+  "825": {
+    "name": "Good sleeping Girl",
+    "illustration": { "type": "", "illustrator": "", "chara": [68, 69] }
+  },
+  "826": {
+    "name": "コンコン♡ダンス",
+    "illustration": { "type": "", "illustrator": "", "chara": [70] }
+  },
+  "827": {
+    "name": "高嶺の甘い花",
+    "illustration": { "type": "", "illustrator": "", "chara": [16] }
+  },
+  "828": {
+    "name": "クリエイターズコラボ-くまさんといっしょ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "カラスBTK先生", "chara": [13, 11] }
+  },
+  "829": {
+    "name": "クリエイターズコラボ-お手軽ティータイム-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "pupps先生", "chara": [99, 98] }
+  },
+  "830": {
+    "name": "クリエイターズコラボ-背伸びでお披露目-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "日下氏先生", "chara": [1, 5] }
+  },
+  "831": {
+    "name": "クリエイターズコラボ-いつも傍らに-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ゾイルン先生", "chara": [2, 6] }
+  },
+  "832": {
+    "name": "クリエイターズコラボ-幻想に揺蕩う夜-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ろここ先生", "chara": [54, 2] }
+  },
+  "833": {
+    "name": "クリエイターズコラボ-夢色トワイライト-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "神吉李花先生", "chara": [10, 12] }
+  },
+  "834": {
+    "name": "クリエイターズコラボ-おはようございます-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "古弥月先生", "chara": [7, 8] }
+  },
+  "835": {
+    "name": "クリエイターズコラボ-よしよし、いいこ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ASG先生", "chara": [11, 14] }
+  },
+  "836": {
+    "name": "クリエイターズコラボ-永遠の約束-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "むりょ先生", "chara": [16, 15] }
+  },
+  "837": {
+    "name": "ジョーカーと狂犬",
+    "illustration": { "type": "", "illustrator": "", "chara": [26, 119] }
+  },
+  "838": {
+    "name": "湖上の妖精舞踊",
+    "illustration": { "type": "", "illustrator": "", "chara": [119] }
+  },
+  "839": {
+    "name": "大胆不敵な一番槍",
+    "illustration": { "type": "", "illustrator": "", "chara": [28] }
+  },
+  "840": {
+    "name": "太陽と月のソナタ",
+    "illustration": { "type": "", "illustrator": "", "chara": [27] }
+  },
+  "841": {
+    "name": "天使の休息",
+    "illustration": { "type": "", "illustrator": "", "chara": [28, 27] }
+  },
+  "842": {
+    "name": "クリエイターズコラボ-スプリングアワー-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "千種みのり先生", "chara": [7, 3] }
+  },
+  "843": {
+    "name": "クリエイターズコラボ-指先で伝える想い-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "tatsuki先生", "chara": [22, 24] }
+  },
+  "844": {
+    "name": "クリエイターズコラボ-美味しい休息-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "雪丸ぬん先生", "chara": [2, 6] }
+  },
+  "845": {
+    "name": "クリエイターズコラボ-甘い苺を召し上がれ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ののまろ先生", "chara": [10, 12] }
+  },
+  "846": {
+    "name": "ハピネスロリータ",
+    "illustration": { "type": "", "illustrator": "", "chara": [73, 74] }
+  },
+  "847": {
+    "name": "深窓のお嬢様",
+    "illustration": { "type": "", "illustrator": "", "chara": [74] }
+  },
+  "848": {
+    "name": "片恋ロリータ",
+    "illustration": { "type": "", "illustrator": "", "chara": [71] }
+  },
+  "849": {
+    "name": "クリエイターズコラボ-二人きりの時間-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "白湯先生", "chara": [2, 1] }
+  },
+  "850": {
+    "name": "クリエイターズコラボ-膝の上のシルト-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "どこでもノック先生", "chara": [20, 9] }
+  },
+  "851": {
+    "name": "クリエイターズコラボ-ふたつの歌声-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "champi先生", "chara": [69, 17] }
+  },
+  "852": {
+    "name": "クリエイターズコラボ-秘密の寝物語-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "星の紅茶先生", "chara": [3, 1] }
+  },
+  "853": {
+    "name": "エレクトリカルシャウト",
+    "illustration": { "type": "", "illustrator": "", "chara": [72] }
+  },
+  "854": {
+    "name": "ミラクルセンセイション",
+    "illustration": { "type": "", "illustrator": "", "chara": [103] }
+  },
+  "855": {
+    "name": "クリエイターズコラボ-手心と真心-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "桧野ひなこ先生", "chara": [16, 19] }
+  },
+  "856": {
+    "name": "クリエイターズコラボ-苺尽くしを味わって-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ERIMO先生", "chara": [105, 106] }
+  },
+  "857": {
+    "name": "数多の想い、重ねて",
+    "illustration": { "type": "", "illustrator": "", "chara": [87, 15] }
+  },
+  "858": {
+    "name": "巨悪を穿つ",
+    "illustration": { "type": "", "illustrator": "", "chara": [88] }
+  },
+  "859": {
+    "name": "勇剣覚醒",
+    "illustration": { "type": "", "illustrator": "", "chara": [91, 89] }
+  },
+  "860": {
+    "name": "決死の猛アタック！",
+    "illustration": { "type": "", "illustrator": "", "chara": [90] }
+  },
+  "861": {
+    "name": "誰も傷つかせないために",
+    "illustration": { "type": "", "illustrator": "", "chara": [92] }
+  },
+  "862": {
+    "name": "クリエイターズコラボ-ふじの特製うどん！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "香川悠作先生", "chara": [91, 92, 70] }
+  },
+  "863": {
+    "name": "クリエイターズコラボ-お近づきの印に-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "雪子先生", "chara": [89, 69] }
+  },
+  "864": {
+    "name": "クリエイターズコラボ-花々の華やぎ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ミ茶先生", "chara": [87, 88, 16] }
+  },
+  "865": {
+    "name": "クリエイターズコラボ-尊みの同志-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ねむりねむ先生", "chara": [90, 17] }
+  },
+  "866": {
+    "name": "クリエイターズコラボ-応援番長-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "Ayul先生", "chara": [9, 3] }
+  },
+  "867": {
+    "name": "クリエイターズコラボ-抜け駆けピクニック-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "柏月すず先生", "chara": [57, 56] }
+  },
+  "868": {
+    "name": "群雄並び立つ",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [21, 116, 40] }
+  },
+  "869": {
+    "name": "クリエイターズコラボ-ありがとうを込めて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "えく先生", "chara": [14, 12] }
+  },
+  "870": {
+    "name": "クリエイターズコラボ-ハイキングへGO！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "茨乃先生", "chara": [103, 74] }
+  },
+  "871": {
+    "name": "護りたい笑顔",
+    "illustration": { "type": "", "illustrator": "", "chara": [117, 4] }
+  },
+  "872": {
+    "name": "サングリーズルの魔術師",
+    "illustration": { "type": "", "illustrator": "", "chara": [117] }
+  },
+  "873": {
+    "name": "mission complete！",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "874": {
+    "name": "クリエイターズコラボ-花畑ステージ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "佐倉おりこ先生", "chara": [67, 19] }
+  },
+  "875": {
+    "name": "クリエイターズコラボ-幸せを見つけて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ちうね先生", "chara": [16, 15] }
+  },
+  "876": {
+    "name": "クリエイターズコラボ-今宵、貴方と共に-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "hiro先生", "chara": [14, 10] }
+  },
+  "877": {
+    "name": "クリエイターズコラボ-心踊るエスコート-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "TAiGA/空洞先生", "chara": [13, 12] }
+  },
+  "878": {
+    "name": "クリエイターズコラボ-この腕逃すべからず-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "みすみ先生", "chara": [19, 18] }
+  },
+  "879": {
+    "name": "スターリィ・ヴァルキュリア",
+    "illustration": { "type": "", "illustrator": "", "chara": [22, 120, 24] }
+  },
+  "880": {
+    "name": "戦場の白天使",
+    "illustration": { "type": "", "illustrator": "", "chara": [133] }
+  },
+  "881": {
+    "name": "支配する女帝",
+    "illustration": { "type": "", "illustrator": "", "chara": [120] }
+  },
+  "882": {
+    "name": "きこえているよ",
+    "illustration": { "type": "", "illustrator": "", "chara": [29, 133] }
+  },
+  "883": {
+    "name": "プロムナード・プランセス",
+    "illustration": { "type": "", "illustrator": "", "chara": [24, 22] }
+  },
+  "884": {
+    "name": "お手入れTime",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "885": {
+    "name": "はじまりの朝",
+    "illustration": { "type": "", "illustrator": "", "chara": [1] }
+  },
+  "886": {
+    "name": "夢現の間",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "887": {
+    "name": "ひめひめの休息",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "888": {
+    "name": "吐息を重ねて",
+    "illustration": { "type": "", "illustrator": "", "chara": [8, 7] }
+  },
+  "889": {
+    "name": "神の子の祝福",
+    "illustration": { "type": "", "illustrator": "", "chara": [25] }
+  },
+  "890": {
+    "name": "乙女なら誰だって",
+    "illustration": { "type": "", "illustrator": "", "chara": [23] }
+  },
+  "891": {
+    "name": "クリエイターズコラボ-悦びのベールアップ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "麦うさぎ先生", "chara": [14, 10] }
+  },
+  "892": {
+    "name": "クリエイターズコラボ-ハピネス・トス！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "永山ゆうのん先生", "chara": [69, 68] }
+  },
+  "893": {
+    "name": "クリエイターズコラボ-憧れのセレモニー-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ゆあま先生", "chara": [1, 2] }
+  },
+  "894": {
+    "name": "クリエイターズコラボ-ふたりの共同作業-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "★先生", "chara": [2, 1] }
+  },
+  "895": {
+    "name": "クリエイターズコラボ-不器用な二人の門出-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ぐーさん先生", "chara": [117, 4] }
+  },
+  "896": {
+    "name": "クリエイターズコラボ-思い出がまた一つ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ひややっこ先生", "chara": [1, 2] }
+  },
+  "897": {
+    "name": "クリエイターズコラボ-蒼き月の抱擁-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "江川あきら先生", "chara": [25, 21] }
+  },
+  "898": {
+    "name": "熟練の太刀筋",
+    "illustration": { "type": "", "illustrator": "", "chara": [138] }
+  },
+  "899": {
+    "name": "ブラッディ・ダンス",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "900": {
+    "name": "ノーコンティニュー",
+    "illustration": { "type": "", "illustrator": "", "chara": [73] }
+  },
+  "901": {
+    "name": "クリエイターズコラボ-サンライトホリディ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "wasabi60先生", "chara": [5, 6] }
+  },
+  "902": {
+    "name": "クリエイターズコラボ-日差しに誘われて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "しいずけん先生", "chara": [71, 72] }
+  },
+  "903": {
+    "name": "クリエイターズコラボ-小休止のリゾート-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "さり先生", "chara": [69, 17] }
+  },
+  "904": {
+    "name": "クリエイターズコラボ-ゆにこーんだいぶ！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "綺平先生", "chara": [18, 70] }
+  },
+  "905": {
+    "name": "クリエイターズコラボ-どこに行こうか？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "Hz先生", "chara": [13, 12] }
+  },
+  "906": {
+    "name": "クリエイターズコラボ-ニャンと素敵な夜-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "shiohana先生", "chara": [7, 8] }
+  },
+  "907": {
+    "name": "勇者たちの休日",
+    "illustration": { "type": "", "illustrator": "", "chara": [118, 25, 21] }
+  },
+  "908": {
+    "name": "華舞う砂浜",
+    "illustration": { "type": "", "illustrator": "", "chara": [140, 2] }
+  },
+  "909": {
+    "name": "夏の日のアクシデント",
+    "illustration": { "type": "", "illustrator": "", "chara": [53, 1] }
+  },
+  "910": {
+    "name": "ピクシー・ラグーン",
+    "illustration": { "type": "", "illustrator": "", "chara": [119] }
+  },
+  "911": {
+    "name": "祝3.5周年 リリリゾ!!",
+    "illustration": { "type": "静止画", "chara": [1, 2, 140, 118, 21, 25] }
+  },
+  "912": {
+    "name": "ボートでGO！！",
+    "illustration": { "type": "", "illustrator": "", "chara": [106, 105] }
+  },
+  "913": {
+    "name": "悩ましの熱視線",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "914": {
+    "name": "[雨嘉/百合ヶ丘訓練制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [8] }
+  },
+  "915": {
+    "name": "[神琳/百合ヶ丘訓練制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [7] }
+  },
+  "916": {
+    "name": "[梅/百合ヶ丘訓練制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [6] }
+  },
+  "917": {
+    "name": "[鶴紗/百合ヶ丘訓練制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [5] }
+  },
+  "918": {
+    "name": "[汐里/百合ヶ丘標準制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [53] }
+  },
+  "919": {
+    "name": "[祀/百合ヶ丘標準制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [54] }
+  },
+  "920": {
+    "name": "[瑤/リリティカルサマー] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [13] }
+  },
+  "921": {
+    "name": "[叶星/りりふぇす!!フラワー] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [15] }
+  },
+  "922": {
+    "name": "[閑/百合ヶ丘標準制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [56] }
+  },
+  "923": {
+    "name": "[莉芬/ヘイムスクリングラ制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [34] }
+  },
+  "924": {
+    "name": "[結梨/淑女の嗜み] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [35] }
+  },
+  "925": {
+    "name": "[結梨/百合ヶ丘訓練制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [35] }
+  },
+  "926": {
+    "name": "[悠夏/神庭女子標準制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [67] }
+  },
+  "927": {
+    "name": "[天葉/メイドホワイトデー] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [21] }
+  },
+  "928": {
+    "name": "[鈴夢/神庭女子標準制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [69] }
+  },
+  "929": {
+    "name": "[藤乃/神庭女子標準制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [70] }
+  },
+  "930": {
+    "name": "[美岳/エレンスゲ標準制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [72] }
+  },
+  "931": {
+    "name": "[蒔菜/エレンスゲ標準制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [73] }
+  },
+  "932": {
+    "name": "[高嶺/エレガントフォーマル] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [16] }
+  },
+  "933": {
+    "name": "[結爾/エレンスゲ標準制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [74] }
+  },
+  "934": {
+    "name": "[優珂/エレンスゲ標準制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [71] }
+  },
+  "935": {
+    "name": "[雨嘉/スタースプラッシュ] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [8] }
+  },
+  "936": {
+    "name": "[結梨/リリティカルサマー] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [35] }
+  },
+  "937": {
+    "name": "[緋紅/エレンスゲ標準制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [103] }
+  },
+  "938": {
+    "name": "[弥宏/ピュアリティプロミス] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [105] }
+  },
+  "939": {
+    "name": "[真/百合ヶ丘標準制服] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [106] }
+  },
+  "940": {
+    "name": "[美岳/ホーリーナイトキャット] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "chara": [72] }
+  },
+  "941": {
+    "name": "きいたんといっしょ",
+    "illustration": { "type": "", "illustrator": "", "chara": [40, 11] }
+  },
+  "942": {
+    "name": "リゾート・ナイトな二人",
+    "illustration": { "type": "", "illustrator": "", "chara": [68, 69] }
+  },
+  "943": {
+    "name": "二人のセーブポイント",
+    "illustration": { "type": "", "illustrator": "", "chara": [74, 73] }
+  },
+  "944": {
+    "name": "渚の『吸血姫』",
+    "illustration": { "type": "", "illustrator": "", "chara": [120] }
+  },
+  "945": {
+    "name": "クリエイターズコラボ-日差しが強いから-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "湯。先生", "chara": [25, 53] }
+  },
+  "946": {
+    "name": "クリエイターズコラボ-少し浮かれすぎ！？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "こげくじら先生", "chara": [26, 119] }
+  },
+  "947": {
+    "name": "クリエイターズコラボ-誘惑Vacation-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ミト先生", "chara": [3, 16] }
+  },
+  "948": {
+    "name": "クリエイターズコラボ-わたくしにおまかせ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "猫月ユキ先生", "chara": [22, 120] }
+  },
+  "949": {
+    "name": "クリエイターズコラボ-いっちゃん大ピンチ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "あかびの先生", "chara": [24, 23] }
+  },
+  "950": {
+    "name": "クリエイターズコラボ-夏のないしょ話-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "宇佐美まる先生", "chara": [21, 22] }
+  },
+  "951": {
+    "name": "レジェンダリームーン獲得メモリア",
+    "illustration": { "type": "アイテム獲得メモリア", "chara": [] }
+  },
+  "952": {
+    "name": "大人のバケーション",
+    "illustration": { "type": "", "illustrator": "", "chara": [115, 138] }
+  },
+  "953": {
+    "name": "エンジェル・サマー",
+    "illustration": { "type": "", "illustrator": "", "chara": [133] }
+  },
+  "954": {
+    "name": "ヒグレ・ユウグレ",
+    "illustration": { "type": "", "illustrator": "", "chara": [103] }
+  },
+  "955": {
+    "name": "Ultimate Memoria -非道を穿つ弾丸-",
+    "illustration": { "type": "", "illustrator": "", "chara": [138] }
+  },
+  "956": {
+    "name": "Ultimate Memoria -ファントム・ペイン-",
+    "illustration": { "type": "", "illustrator": "", "chara": [140] }
+  },
+  "957": {
+    "name": "Ultimate Memoria -花影-",
+    "illustration": { "type": "", "illustrator": "", "chara": [115] }
+  },
+  "958": {
+    "name": "Ultimate Memoria -闇晴らす魔術師-",
+    "illustration": { "type": "", "illustrator": "", "chara": [117] }
+  },
+  "959": {
+    "name": "Ultimate Memoria -己が研鑽を放つ時-",
+    "illustration": { "type": "", "illustrator": "", "chara": [20] }
+  },
+  "960": {
+    "name": "クリエイターズコラボ-ぷかぷかつきしー-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "LLLthika先生", "chara": [28, 29] }
+  },
+  "961": {
+    "name": "クリエイターズコラボ-サマー・チアーズ！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "うおのめうろこ先生", "chara": [27, 117] }
+  },
+  "962": {
+    "name": "麗しき武人たち",
+    "illustration": { "type": "", "illustrator": "", "chara": [141, 40, 15, 16] }
+  },
+  "963": {
+    "name": "怪異斬り",
+    "illustration": { "type": "", "illustrator": "", "chara": [141] }
+  },
+  "964": {
+    "name": "舞い降りた姫巫女",
+    "illustration": { "type": "", "illustrator": "", "chara": [40] }
+  },
+  "965": {
+    "name": "花びら追う視線",
+    "illustration": { "type": "", "illustrator": "", "chara": [69] }
+  },
+  "966": {
+    "name": "サンライトに包まれて",
+    "illustration": { "type": "", "illustrator": "", "chara": [16, 15] }
+  },
+  "967": {
+    "name": "クリエイターズコラボ-安心のサポート-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "薫る石先生", "chara": [72, 71] }
+  },
+  "968": {
+    "name": "クリエイターズコラボ-ダンス・レッスン-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "河地りん先生", "chara": [103, 14] }
+  },
+  "969": {
+    "name": "なにみてるんですか",
+    "illustration": { "type": "", "illustrator": "", "chara": [74] }
+  },
+  "970": {
+    "name": "だだっ子チャーミンぎゅ～？",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "971": {
+    "name": "煌めきのフェスティバル",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "972": {
+    "name": "クリエイターズコラボ-勝利を噛み締めて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ナナテトラ先生", "chara": [141, 40] }
+  },
+  "973": {
+    "name": "クリエイターズコラボ-それぞれの場所で-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "Saty.先生", "chara": [142, 69] }
+  },
+  "974": {
+    "name": "クリエイターズコラボ-激突☆リリィライブ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "こたろう先生", "chara": [7, 57] }
+  },
+  "975": {
+    "name": "クリエイターズコラボ-ラバーズ・ライブ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "さり先生", "chara": [8, 7] }
+  },
+  "976": {
+    "name": "クリエイターズコラボ-空の華を見上げて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "あやせりん先生", "chara": [2, 1] }
+  },
+  "977": {
+    "name": "クリエイターズコラボ-綿あめは逃げないゾ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ひややっこ先生", "chara": [6, 5] }
+  },
+  "978": {
+    "name": "クリエイターズコラボ-小さな慈愛-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "mi/u∵u先生", "chara": [5, 11] }
+  },
+  "979": {
+    "name": "竜楯解放",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 71] }
+  },
+  "980": {
+    "name": "重力を司る者",
+    "illustration": { "type": "", "illustrator": "", "chara": [71] }
+  },
+  "981": {
+    "name": "正義執行！",
+    "illustration": { "type": "", "illustrator": "", "chara": [149] }
+  },
+  "982": {
+    "name": "アサルトリリィ BOUQUET4周年記念イラスト",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 35] }
+  },
+  "983": {
+    "name": "気高き勇気",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "984": {
+    "name": "木陰の小休止",
+    "illustration": { "type": "", "illustrator": "", "chara": [12] }
+  },
+  "985": {
+    "name": "クリエイターズコラボ-ニャンニャン・王-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "んぬ先生", "chara": [34, 8] }
+  },
+  "986": {
+    "name": "クリエイターズコラボ-もちもちハピネス-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "★先生", "chara": [9, 20] }
+  },
+  "987": {
+    "name": "イタズラ猫にご用心",
+    "illustration": { "type": "", "illustrator": "", "chara": [133] }
+  },
+  "988": {
+    "name": "HATA☆MAJO☆MATSURI",
+    "illustration": { "type": "", "illustrator": "", "chara": [54] }
+  },
+  "989": {
+    "name": "小悪魔の企み",
+    "illustration": { "type": "", "illustrator": "", "chara": [105] }
+  },
+  "990": {
+    "name": "クリエイターズコラボ-スイート・ウインク-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "恋ゆる先生", "chara": [117, 4] }
+  },
+  "991": {
+    "name": "クリエイターズコラボ-ふわもふハロウィン-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "しいずけん先生", "chara": [68, 69] }
+  },
+  "992": {
+    "name": "クリエイターズコラボ-いざパーティーへ！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ナナ先生", "chara": [27, 117] }
+  },
+  "993": {
+    "name": "クリエイターズコラボ-つきしー☆とりっく-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "さかなへん先生", "chara": [28, 27] }
+  },
+  "994": {
+    "name": "クリエイターズコラボ-ターゲットはだぁれ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "華葡。先生", "chara": [23, 29] }
+  },
+  "995": {
+    "name": "残響のスキャルドメール",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [10, 12, 13, 11, 14] }
+  },
+  "996": {
+    "name": "竜楯のスキャルドメール",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [71, 10] }
+  },
+  "997": {
+    "name": "竜を宿し、屠るもの",
+    "illustration": { "type": "", "illustrator": "", "chara": [5, 29, 74] }
+  },
+  "998": {
+    "name": "束ねたチカラ",
+    "illustration": { "type": "", "illustrator": "", "chara": [21] }
+  },
+  "999": {
+    "name": "アンロスト・ショット",
+    "illustration": { "type": "", "illustrator": "", "chara": [155] }
+  },
+  "1000": {
+    "name": "呪縛、力に変えて",
+    "illustration": { "type": "", "illustrator": "", "chara": [29] }
+  },
+  "1001": {
+    "name": "わたしのすごいところ",
+    "illustration": { "type": "", "illustrator": "", "chara": [74] }
+  },
+  "1002": {
+    "name": "クリエイターズコラボ-華は歌いて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ひややっこ先生", "chara": [68, 15] }
+  },
+  "1003": {
+    "name": "クリエイターズコラボ-瞬き禁止！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ekm先生", "chara": [70, 16] }
+  },
+  "1004": {
+    "name": "クリエイターズコラボ-すずすず☆ひめひめ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ごとー先生", "chara": [69, 19] }
+  },
+  "1005": {
+    "name": "世直し！ラビットプリンセス",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 15, 7] }
+  },
+  "1006": {
+    "name": "無茶振りこなすもお手のもの",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "1007": {
+    "name": "本日のお仕事",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "1008": {
+    "name": "クリエイターズコラボ-可愛いの詰め合わせ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "さり先生", "chara": [12, 10] }
+  },
+  "1009": {
+    "name": "クリエイターズコラボ-たゆたい-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "misekiss先生", "chara": [8, 7] }
+  },
+  "1010": {
+    "name": "クリエイターズコラボ-休憩のお供-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "にゃまそ先生", "chara": [71, 103] }
+  },
+  "1011": {
+    "name": "クリエイターズコラボ-勝負の行方-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "RK先生", "chara": [73, 74] }
+  },
+  "1012": {
+    "name": "ごろにゃんクリスマス",
+    "illustration": { "type": "", "illustrator": "", "chara": [142, 40] }
+  },
+  "1013": {
+    "name": "願いをあなたに",
+    "illustration": { "type": "", "illustrator": "", "chara": [141] }
+  },
+  "1014": {
+    "name": "秘密のプレゼント",
+    "illustration": { "type": "", "illustrator": "", "chara": [40] }
+  },
+  "1015": {
+    "name": "ここより先には",
+    "illustration": { "type": "", "illustrator": "", "chara": [142] }
+  },
+  "1016": {
+    "name": "クリエイターズコラボ-夜明けまでの数時間-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "夏川まさ先生", "chara": [74, 71] }
+  },
+  "1017": {
+    "name": "クリエイターズコラボ-にゃんこさんたーず-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ドドタ先生", "chara": [103, 73] }
+  },
+  "1018": {
+    "name": "花言葉は高潔",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [155, 159, 83, 160] }
+  },
+  "1019": {
+    "name": "ホーリースターライト",
+    "illustration": { "type": "", "illustrator": "", "chara": [149] }
+  },
+  "1020": {
+    "name": "みなさんにお届け",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "1021": {
+    "name": "煌めきの中で",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "1022": {
+    "name": "いい子にしてましたか？",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "1023": {
+    "name": "しずけき夜に光さして",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "1024": {
+    "name": "クリームより甘いのは",
+    "illustration": { "type": "", "illustrator": "", "chara": [19] }
+  },
+  "1025": {
+    "name": "クリエイターズコラボ-喜んでくれるかな-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "★先生", "chara": [3, 8] }
+  },
+  "1026": {
+    "name": "クリエイターズコラボ-一番美味しいところ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "きゃしー先生", "chara": [15, 10] }
+  },
+  "1027": {
+    "name": "クリエイターズコラボ-わたしのサンタさん-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "湯。先生", "chara": [1, 2] }
+  },
+  "1028": {
+    "name": "クリエイターズコラボ-寒さなんて感じずに-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "界さけ先生", "chara": [56, 1] }
+  },
+  "1029": {
+    "name": "クリエイターズコラボ-プレゼント計画！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "えめらね先生", "chara": [57, 7] }
+  },
+  "1030": {
+    "name": "大吉ミラクル",
+    "illustration": { "type": "", "illustrator": "", "chara": [18, 69] }
+  },
+  "1031": {
+    "name": "詣でる幸福",
+    "illustration": { "type": "", "illustrator": "", "chara": [69] }
+  },
+  "1032": {
+    "name": "浅き夢見じ",
+    "illustration": { "type": "", "illustrator": "", "chara": [70] }
+  },
+  "1033": {
+    "name": "クリエイターズコラボ-真夜中の乙女たち-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "サクミチ先生", "chara": [71, 72] }
+  },
+  "1034": {
+    "name": "クリエイターズコラボ-食べていいですか？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "金瀬先生", "chara": [74, 149] }
+  },
+  "1035": {
+    "name": "クリエイターズコラボ-パジャマパーティー-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "ひややっこ先生", "chara": [73, 74] }
+  },
+  "1036": {
+    "name": "花鳥風月",
+    "illustration": { "type": "", "illustrator": "", "chara": [133] }
+  },
+  "1037": {
+    "name": "雪月花",
+    "illustration": { "type": "", "illustrator": "", "chara": [29] }
+  },
+  "1038": {
+    "name": "夢の合間",
+    "illustration": { "type": "", "illustrator": "", "chara": [28] }
+  },
+  "1039": {
+    "name": "4th Anniversary vow",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 10, 71, 15, 16] }
+  },
+  "1040": {
+    "name": "願い掛けるはおとぎの中に",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 3] }
+  },
+  "1041": {
+    "name": "薔薇の剣戟",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 71] }
+  },
+  "1042": {
+    "name": "あなたがいれば",
+    "illustration": { "type": "", "illustrator": "", "chara": [16, 15] }
+  },
+  "1043": {
+    "name": "祈りをひとひら",
+    "illustration": { "type": "", "illustrator": "", "chara": [161, 53] }
+  },
+  "1044": {
+    "name": "みんなといっしょ",
+    "illustration": { "type": "", "illustrator": "", "chara": [35, 1, 2, 3, 4, 5, 6, 7, 8, 9] }
+  },
+  "1045": {
+    "name": "たわむれ",
+    "illustration": { "type": "", "illustrator": "", "chara": [23, 25] }
+  },
+  "1046": {
+    "name": "宵闇に咲う",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "1047": {
+    "name": "パレードは誰のため",
+    "illustration": { "type": "", "illustrator": "", "chara": [11, 69] }
+  },
+  "1048": {
+    "name": "氷の温度はあたたかに",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "1049": {
+    "name": "クロスロード",
+    "illustration": { "type": "", "illustrator": "", "chara": [7, 8] }
+  },
+  "1050": {
+    "name": "If more……",
+    "illustration": { "type": "", "illustrator": "", "chara": [140, 2] }
+  },
+  "1051": {
+    "name": "お手をどうぞ",
+    "illustration": { "type": "", "illustrator": "", "chara": [117, 4] }
+  },
+  "1052": {
+    "name": "心の隙間を埋めるのは",
+    "illustration": { "type": "", "illustrator": "", "chara": [5, 6] }
+  },
+  "1053": {
+    "name": "QUEEN",
+    "illustration": { "type": "", "illustrator": "", "chara": [138] }
+  },
+  "1054": {
+    "name": "クリエイターズコラボ-がんばれの魔法-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [149, 10] }
+  },
+  "1055": {
+    "name": "クリエイターズコラボ-ねぎらい-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [54, 2] }
+  },
+  "1056": {
+    "name": "クリエイターズコラボ-明日の綺麗は夜の内-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [67, 16] }
+  },
+  "1057": {
+    "name": "クリエイターズコラボ-おやすみ前の-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [17, 19] }
+  },
+  "1058": {
+    "name": "クリエイターズコラボ-どうか良い夢を-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [16, 15] }
+  },
+  "1059": {
+    "name": "ご褒美は手ずから",
+    "illustration": { "type": "", "illustrator": "", "chara": [120, 118] }
+  },
+  "1060": {
+    "name": "メイドの秘密",
+    "illustration": { "type": "", "illustrator": "", "chara": [118] }
+  },
+  "1061": {
+    "name": "刺激的の正体は？",
+    "illustration": { "type": "", "illustrator": "", "chara": [119] }
+  },
+  "1062": {
+    "name": "クリエイターズコラボ-応援合戦-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [103, 72] }
+  },
+  "1063": {
+    "name": "クリエイターズコラボ-ラムネのコツ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [56, 1] }
+  },
+  "1064": {
+    "name": "[二水/B.C.プロトタイプ(通常単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [4] }
+  },
+  "1065": {
+    "name": "[二水/B.C.プロトタイプ(通常範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [4] }
+  },
+  "1066": {
+    "name": "[二水/B.C.プロトタイプ(特殊単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [4] }
+  },
+  "1067": {
+    "name": "[二水/B.C.プロトタイプ(特殊範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [4] }
+  },
+  "1068": {
+    "name": "[二水/B.C.プロトタイプ(支援)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [4] }
+  },
+  "1069": {
+    "name": "[二水/B.C.プロトタイプ(妨害)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [4] }
+  },
+  "1070": {
+    "name": "[二水/B.C.プロトタイプ(回復)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [4] }
+  },
+  "1071": {
+    "name": "[天葉/ドリーミィパレード(通常単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [21] }
+  },
+  "1072": {
+    "name": "[天葉/ドリーミィパレード(通常範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [21] }
+  },
+  "1073": {
+    "name": "[天葉/ドリーミィパレード(特殊単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [21] }
+  },
+  "1074": {
+    "name": "[天葉/ドリーミィパレード(特殊範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [21] }
+  },
+  "1075": {
+    "name": "[天葉/ドリーミィパレード(支援)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [21] }
+  },
+  "1076": {
+    "name": "[天葉/ドリーミィパレード(妨害)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [21] }
+  },
+  "1077": {
+    "name": "[天葉/ドリーミィパレード(回復)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [21] }
+  },
+  "1078": {
+    "name": "[秋日/ドリーミィパレード(通常単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [68] }
+  },
+  "1079": {
+    "name": "[秋日/ドリーミィパレード(通常範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [68] }
+  },
+  "1080": {
+    "name": "[秋日/ドリーミィパレード(特殊単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [68] }
+  },
+  "1081": {
+    "name": "[秋日/ドリーミィパレード(特殊範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [68] }
+  },
+  "1082": {
+    "name": "[秋日/ドリーミィパレード(支援)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [68] }
+  },
+  "1083": {
+    "name": "[秋日/ドリーミィパレード(妨害)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [68] }
+  },
+  "1084": {
+    "name": "[秋日/ドリーミィパレード(回復)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [68] }
+  },
+  "1085": {
+    "name": "[紅巴/ドリーミィパレード(通常単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [17] }
+  },
+  "1086": {
+    "name": "[紅巴/ドリーミィパレード(通常範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [17] }
+  },
+  "1087": {
+    "name": "[紅巴/ドリーミィパレード(特殊単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [17] }
+  },
+  "1088": {
+    "name": "[紅巴/ドリーミィパレード(特殊範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [17] }
+  },
+  "1089": {
+    "name": "[紅巴/ドリーミィパレード(支援)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [17] }
+  },
+  "1090": {
+    "name": "[紅巴/ドリーミィパレード(妨害)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [17] }
+  },
+  "1091": {
+    "name": "[紅巴/ドリーミィパレード(回復)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [17] }
+  },
+  "1092": {
+    "name": "[緋紅/ソルギナックシステム(通常単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [103] }
+  },
+  "1093": {
+    "name": "[緋紅/ソルギナックシステム(通常範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [103] }
+  },
+  "1094": {
+    "name": "[緋紅/ソルギナックシステム(特殊単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [103] }
+  },
+  "1095": {
+    "name": "[緋紅/ソルギナックシステム(特殊範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [103] }
+  },
+  "1096": {
+    "name": "[緋紅/ソルギナックシステム(支援)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [103] }
+  },
+  "1097": {
+    "name": "[緋紅/ソルギナックシステム(妨害)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [103] }
+  },
+  "1098": {
+    "name": "[緋紅/ソルギナックシステム(回復)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [103] }
+  },
+  "1099": {
+    "name": "[梨璃／Dreamin’☆Party ] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [1] }
+  },
+  "1100": {
+    "name": "[一葉／Dreamin’☆Party ] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [10] }
+  },
+  "1101": {
+    "name": "[叶星／Dreamin’☆Party ] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [15] }
+  },
+  "1102": {
+    "name": "Ultimate Memoria -光はここに-",
+    "illustration": { "type": "", "illustrator": "", "chara": [133] }
+  },
+  "1103": {
+    "name": "Ultimate Memoria -轟-",
+    "illustration": { "type": "", "illustrator": "", "chara": [118] }
+  },
+  "1104": {
+    "name": "Ultimate Memoria -刹那の一閃-",
+    "illustration": { "type": "", "illustrator": "", "chara": [119] }
+  },
+  "1105": {
+    "name": "Ultimate Memoria -敵より啜るは-",
+    "illustration": { "type": "", "illustrator": "", "chara": [120] }
+  },
+  "1106": {
+    "name": "Ultimate Memoria -独壇場-",
+    "illustration": { "type": "", "illustrator": "", "chara": [161] }
+  },
+  "1107": {
+    "name": "engagement",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 11, 162, 163, 71, 72] }
+  },
+  "1108": {
+    "name": "限界なんて、どこにも",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "1109": {
+    "name": "手折られることのない花",
+    "illustration": { "type": "", "illustrator": "", "chara": [13] }
+  },
+  "1110": {
+    "name": "絶対離さないから",
+    "illustration": { "type": "", "illustrator": "", "chara": [12, 10] }
+  },
+  "1111": {
+    "name": "Coppélia",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "1112": {
+    "name": "クリエイターズコラボ-あなたに似合う花-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [69, 17] }
+  },
+  "1113": {
+    "name": "クリエイターズコラボ-穏やかな景色-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [16, 18] }
+  },
+  "1114": {
+    "name": "100億倍のらぶを込めて",
+    "illustration": { "type": "", "illustrator": "", "chara": [26, 24, 25] }
+  },
+  "1115": {
+    "name": "ふぁんたすてぃっく・にゃー！",
+    "illustration": { "type": "", "illustrator": "", "chara": [25] }
+  },
+  "1116": {
+    "name": "おかえりなさいませ、お姉様",
+    "illustration": { "type": "", "illustrator": "", "chara": [24] }
+  },
+  "1117": {
+    "name": "クリエイターズコラボ-陽を浴びて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [15, 10] }
+  },
+  "1118": {
+    "name": "クリエイターズコラボ-戦士たちの休息-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [12, 13] }
+  },
+  "1119": {
+    "name": "クリエイターズコラボ-長湯のあとには-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [133, 29] }
+  },
+  "1120": {
+    "name": "クリエイターズコラボ-カラオケ大会！？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [53, 7] }
+  },
+  "1121": {
+    "name": "クリエイターズコラボ-どうぞゆるりと-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [7, 133] }
+  },
+  "1122": {
+    "name": "クリエイターズコラボ-くつろぎはいかが？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [138, 11] }
+  },
+  "1123": {
+    "name": "クリエイターズコラボ-ゆめいろドリーム-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [19, 18] }
+  },
+  "1124": {
+    "name": "魔法少女♡ミラクルリリィ",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 35, 2, 5, 6] }
+  },
+  "1125": {
+    "name": "届け、魔法！",
+    "illustration": { "type": "", "illustrator": "", "chara": [35] }
+  },
+  "1126": {
+    "name": "月光の少女",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "1127": {
+    "name": "ヒミツのナカマ",
+    "illustration": { "type": "", "illustrator": "", "chara": [6] }
+  },
+  "1128": {
+    "name": "わんふぉーおーる！",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "1129": {
+    "name": "クリエイターズコラボ-MIRACLE EGG!-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [9, 4] }
+  },
+  "1130": {
+    "name": "クリエイターズコラボ-おひとつどうぞ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [119, 21] }
+  },
+  "1131": {
+    "name": "CONSTELLAT10N ~Wish Upon A Star~",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [35, 1, 2, 3, 4, 5, 6, 7, 8, 9] }
+  },
+  "1132": {
+    "name": "特別な時間",
+    "illustration": { "type": "", "illustrator": "", "chara": [19, 17, 18] }
+  },
+  "1133": {
+    "name": "おさなごころ",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "1134": {
+    "name": "flower crown",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "1135": {
+    "name": "クリエイターズコラボ-孵るのは……？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [149, 12] }
+  },
+  "1136": {
+    "name": "クリエイターズコラボ-サプライズづくり-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [23, 25] }
+  },
+  "1137": {
+    "name": "クリエイターズコラボ-バルーン量産中！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [69, 68] }
+  },
+  "1138": {
+    "name": "クリエイターズコラボ-うさぎグルーミング-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [70, 67] }
+  },
+  "1139": {
+    "name": "クリエイターズコラボ-ウェルカムバニー-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [68, 70] }
+  },
+  "1140": {
+    "name": "サングリーズル編、開幕！",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [117, 164, 165] }
+  },
+  "1141": {
+    "name": "ここに至りて",
+    "illustration": { "type": "", "illustrator": "", "chara": [162, 11] }
+  },
+  "1142": {
+    "name": "勝利、展開",
+    "illustration": { "type": "", "illustrator": "", "chara": [149] }
+  },
+  "1143": {
+    "name": "臨界点突破！",
+    "illustration": { "type": "", "illustrator": "", "chara": [74] }
+  },
+  "1144": {
+    "name": "派手にいこうよ！",
+    "illustration": { "type": "", "illustrator": "", "chara": [73, 74] }
+  },
+  "1145": {
+    "name": "繋ぐために",
+    "illustration": { "type": "", "illustrator": "", "chara": [103] }
+  },
+  "1146": {
+    "name": "クリエイターズコラボ-お茶をどうぞ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [21, 22] }
+  },
+  "1147": {
+    "name": "クリエイターズコラボ-こころゆるめて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [15, 67] }
+  },
+  "1148": {
+    "name": "重なる呼吸",
+    "illustration": { "type": "", "illustrator": "", "chara": [53, 161] }
+  },
+  "1149": {
+    "name": "百合ヶ丘の恋人",
+    "illustration": { "type": "", "illustrator": "", "chara": [161] }
+  },
+  "1150": {
+    "name": "ロストガーデン",
+    "illustration": { "type": "", "illustrator": "", "chara": [22] }
+  },
+  "1151": {
+    "name": "クリエイターズコラボ-to share-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [16, 15] }
+  },
+  "1152": {
+    "name": "クリエイターズコラボ-とくべつすいーつ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [105, 2] }
+  },
+  "1153": {
+    "name": "クリエイターズコラボ-お好みを詰め込んで-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [3, 57] }
+  },
+  "1154": {
+    "name": "クリエイターズコラボ-よーく冷まして-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [57, 99] }
+  },
+  "1155": {
+    "name": "クリエイターズコラボ-カエシの道も一歩から-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [56, 3] }
+  },
+  "1156": {
+    "name": "クリエイターズコラボ-一粒に全部込めて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [25, 21] }
+  },
+  "1157": {
+    "name": "クリエイターズコラボ-大事な距離感-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [24, 29] }
+  },
+  "1158": {
+    "name": "罪と罰",
+    "illustration": { "type": "", "illustrator": "", "chara": [71, 163, 10] }
+  },
+  "1159": {
+    "name": "Final Attack",
+    "illustration": { "type": "", "illustrator": "", "chara": [162] }
+  },
+  "1160": {
+    "name": "ここで終わり",
+    "illustration": { "type": "", "illustrator": "", "chara": [163] }
+  },
+  "1161": {
+    "name": "求めよ、さらば――",
+    "illustration": { "type": "", "illustrator": "", "chara": [72, 163] }
+  },
+  "1162": {
+    "name": "秘華",
+    "illustration": { "type": "", "illustrator": "", "chara": [138] }
+  },
+  "1163": {
+    "name": "クリエイターズコラボ-手を引く貴方は-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [10, 12] }
+  },
+  "1164": {
+    "name": "クリエイターズコラボ-ほんとに着るんですか-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [5, 6] }
+  },
+  "1165": {
+    "name": "くちびるに華を",
+    "illustration": { "type": "", "illustrator": "", "chara": [71, 72] }
+  },
+  "1166": {
+    "name": "サムシングフォーを探して",
+    "illustration": { "type": "", "illustrator": "", "chara": [73] }
+  },
+  "1167": {
+    "name": "鐘の音、響く",
+    "illustration": { "type": "", "illustrator": "", "chara": [74] }
+  },
+  "1168": {
+    "name": "クリエイターズコラボ-晴空の下-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [70, 68] }
+  },
+  "1169": {
+    "name": "クリエイターズコラボ-ヴェール-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [28, 27] }
+  },
+  "1170": {
+    "name": "クリエイターズコラボ-いちばん特別な日-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [18, 19] }
+  },
+  "1171": {
+    "name": "クリエイターズコラボ-ふたりだけの式-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [120, 22] }
+  },
+  "1172": {
+    "name": "クリエイターズコラボ-CASCADE-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [133, 29] }
+  },
+  "1173": {
+    "name": "クリエイターズコラボ-雨上がりの温度-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [29, 23] }
+  },
+  "1174": {
+    "name": "クリエイターズコラボ-ウェディングトーチ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [119, 26] }
+  },
+  "1175": {
+    "name": "月光の花",
+    "illustration": { "type": "", "illustrator": "", "chara": [166, 162] }
+  },
+  "1176": {
+    "name": "たいせつなおもい",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "1177": {
+    "name": "変化と不変と",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "1178": {
+    "name": "クリエイターズコラボ-夏の秘密話-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [23, 120] }
+  },
+  "1179": {
+    "name": "クリエイターズコラボ-Icing venus-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [26, 24] }
+  },
+  "1180": {
+    "name": "クリエイターズコラボ-いろとりどり-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [12, 73] }
+  },
+  "1181": {
+    "name": "クリエイターズコラボ-すいか両断-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [13, 14] }
+  },
+  "1182": {
+    "name": "クリエイターズコラボ-本気の遊び-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [72, 10] }
+  },
+  "1183": {
+    "name": "クリエイターズコラボ-POPPING!-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [67, 19] }
+  },
+  "1184": {
+    "name": "クリエイターズコラボ-余すとこなく？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [3, 1] }
+  },
+  "1185": {
+    "name": "サマーテンプテーション",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 10, 15, 53, 161] }
+  },
+  "1186": {
+    "name": "Summertime sometime",
+    "illustration": { "type": "", "illustrator": "", "chara": [7, 5, 8] }
+  },
+  "1187": {
+    "name": "夏空のつくる影",
+    "illustration": { "type": "", "illustrator": "", "chara": [161, 53] }
+  },
+  "1188": {
+    "name": "風を浴びて",
+    "illustration": { "type": "", "illustrator": "", "chara": [141] }
+  },
+  "1189": {
+    "name": "涼んで、ほてって",
+    "illustration": { "type": "", "illustrator": "", "chara": [17, 15] }
+  },
+  "1190": {
+    "name": "豪華な砂遊び",
+    "illustration": { "type": "", "illustrator": "", "chara": [69] }
+  },
+  "1191": {
+    "name": "ふたりの釣果",
+    "illustration": { "type": "", "illustrator": "", "chara": [9, 20] }
+  },
+  "1192": {
+    "name": "クリエイターズコラボ-クールダウン-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [54, 1] }
+  },
+  "1193": {
+    "name": "クリエイターズコラボ-波乗りイルカ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [2, 106] }
+  },
+  "1194": {
+    "name": "リリィが水着に着替えたら",
+    "illustration": { "type": "", "illustrator": "", "chara": [56, 1] }
+  },
+  "1195": {
+    "name": "スプラッシュファイト",
+    "illustration": { "type": "", "illustrator": "", "chara": [57, 3] }
+  },
+  "1196": {
+    "name": "You are my sunshine.",
+    "illustration": { "type": "", "illustrator": "", "chara": [117] }
+  },
+  "1197": {
+    "name": "サマーフォトグラフ",
+    "illustration": { "type": "", "illustrator": "", "chara": [4, 117] }
+  },
+  "1198": {
+    "name": "夏空シャワータイム",
+    "illustration": { "type": "", "illustrator": "", "chara": [5, 6] }
+  },
+  "1199": {
+    "name": "クリエイターズコラボ-お互いの色で-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [71, 72] }
+  },
+  "1200": {
+    "name": "クリエイターズコラボ-夢を浮かべて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [74, 11] }
+  },
+  "1201": {
+    "name": "Still Alive ～紡がれる遺志～",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [71, 10, 11, 12, 13, 14, 149, 163] }
+  },
+  "1202": {
+    "name": "クリエイターズコラボ-束の間のくつろぎ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [27, 119] }
+  },
+  "1203": {
+    "name": "クリエイターズコラボ-パラソルの下で-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [25, 118] }
+  },
+  "1204": {
+    "name": "クリエイターズコラボ-すらいでぃん！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [119, 21] }
+  },
+  "1205": {
+    "name": "クリエイターズコラボ-勝負！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [103, 14] }
+  },
+  "1206": {
+    "name": "クリエイターズコラボ-よるにはなさく-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [133, 22] }
+  },
+  "1207": {
+    "name": "憧憬",
+    "illustration": { "type": "", "illustrator": "", "chara": [163] }
+  },
+  "1208": {
+    "name": "すいへいせんとはなび",
+    "illustration": { "type": "", "illustrator": "", "chara": [162, 11] }
+  },
+  "1209": {
+    "name": "きっとまた",
+    "illustration": { "type": "", "illustrator": "", "chara": [149] }
+  },
+  "1210": {
+    "name": "4.5周年カウントダウンイラスト「あと3日」",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [19, 70] }
+  },
+  "1211": {
+    "name": "4.5周年カウントダウンイラスト「あと2日」",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [14, 11] }
+  },
+  "1212": {
+    "name": "4.5周年カウントダウンイラスト「あと1日」",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 5] }
+  },
+  "1213": {
+    "name": "クリエイターズコラボ-またこようね-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [18, 16] }
+  },
+  "1214": {
+    "name": "クリエイターズコラボ-ぷかぷかタイム-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [19, 15] }
+  },
+  "1215": {
+    "name": "クリエイターズコラボ-magical tag!-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [3, 4] }
+  },
+  "1216": {
+    "name": "クリエイターズコラボ-magical gaze-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [7, 8] }
+  },
+  "1217": {
+    "name": "クリエイターズコラボ-magical sprint-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [8, 7] }
+  },
+  "1218": {
+    "name": "クリエイターズコラボ-magical time-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [4, 1] }
+  },
+  "1219": {
+    "name": "クリエイターズコラボ-magical night-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [9, 4] }
+  },
+  "1220": {
+    "name": "Ultimate Memoria -これが私の-",
+    "illustration": { "type": "", "illustrator": "", "chara": [16] }
+  },
+  "1221": {
+    "name": "Ultimate Memoria -CONTROL-",
+    "illustration": { "type": "", "illustrator": "", "chara": [15] }
+  },
+  "1222": {
+    "name": "Ultimate Memoria -解き放つ意志-",
+    "illustration": { "type": "", "illustrator": "", "chara": [10] }
+  },
+  "1223": {
+    "name": "Ultimate Memoria -爆ぜる風-",
+    "illustration": { "type": "", "illustrator": "", "chara": [6] }
+  },
+  "1224": {
+    "name": "Ultimate Memoria -誓いと想い-",
+    "illustration": { "type": "", "illustrator": "", "chara": [54] }
+  },
+  "1225": {
+    "name": "交差する魔法",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 68, 70, 167] }
+  },
+  "1226": {
+    "name": "よすが",
+    "illustration": { "type": "", "illustrator": "", "chara": [16, 15] }
+  },
+  "1227": {
+    "name": "さいきょーの魔法使い！",
+    "illustration": { "type": "", "illustrator": "", "chara": [167] }
+  },
+  "1228": {
+    "name": "気高き誓い",
+    "illustration": { "type": "", "illustrator": "", "chara": [67] }
+  },
+  "1229": {
+    "name": "Shape of My Heart",
+    "illustration": { "type": "", "illustrator": "", "chara": [70] }
+  },
+  "1230": {
+    "name": "クリエイターズコラボ-サイズの変化は……？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [73, 74] }
+  },
+  "1231": {
+    "name": "クリエイターズコラボ-放課後スクラップ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [56, 4] }
+  },
+  "1232": {
+    "name": "クリエイターズコラボ-山の幸-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [118, 119] }
+  },
+  "1233": {
+    "name": "クリエイターズコラボ-木陰とブランコ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [105, 106] }
+  },
+  "1234": {
+    "name": "クリエイターズコラボ-戦果は上々！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [21, 22] }
+  },
+  "1235": {
+    "name": "クリエイターズコラボ-童心-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [22, 14] }
+  },
+  "1236": {
+    "name": "クリエイターズコラボ-狙い撃ち！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [24, 25] }
+  },
+  "1237": {
+    "name": "クリエイターズコラボ-ハーベストムーン-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [28, 29] }
+  },
+  "1238": {
+    "name": "クリエイターズコラボ-早朝勉強会-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [98, 57] }
+  },
+  "1239": {
+    "name": "眞說・御台場迎撃戦公開記念",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [21, 116, 6] }
+  },
+  "1240": {
+    "name": "ASSAULT LILY ERWACHEN",
+    "illustration": { "type": "", "illustrator": "", "chara": [83, 155, 43, 161, 46] }
+  },
+  "1241": {
+    "name": "ひとつの戦いの終わり",
+    "illustration": { "type": "", "illustrator": "", "chara": [155, 83] }
+  },
+  "1242": {
+    "name": "繋ぐチカラ",
+    "illustration": { "type": "", "illustrator": "", "chara": [43, 161] }
+  },
+  "1243": {
+    "name": "どうかまた共に",
+    "illustration": { "type": "", "illustrator": "", "chara": [119, 155] }
+  },
+  "1244": {
+    "name": "選び取る未来",
+    "illustration": { "type": "", "illustrator": "", "chara": [161] }
+  },
+  "1245": {
+    "name": "特別な歌声",
+    "illustration": { "type": "", "illustrator": "", "chara": [17, 168] }
+  },
+  "1246": {
+    "name": "過去を連れ、前へ",
+    "illustration": { "type": "", "illustrator": "", "chara": [168] }
+  },
+  "1247": {
+    "name": "SENSE!",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "1248": {
+    "name": "ポジティブバトルスタイル",
+    "illustration": { "type": "", "illustrator": "", "chara": [169] }
+  },
+  "1249": {
+    "name": "ふたりでいれば最強だから",
+    "illustration": { "type": "", "illustrator": "", "chara": [19, 18] }
+  },
+  "1250": {
+    "name": "クリエイターズコラボ-どこから食べたら-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [8, 5] }
+  },
+  "1251": {
+    "name": "クリエイターズコラボ-楽しむために-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [53, 161] }
+  },
+  "1252": {
+    "name": "ハロウィンに問い",
+    "illustration": { "type": "", "illustrator": "", "chara": [103, 149, 71, 163] }
+  },
+  "1253": {
+    "name": "魔女の大捕物",
+    "illustration": { "type": "", "illustrator": "", "chara": [149] }
+  },
+  "1254": {
+    "name": "まどろみからの目覚め",
+    "illustration": { "type": "", "illustrator": "", "chara": [163] }
+  },
+  "1255": {
+    "name": "クリエイターズコラボ-小悪魔たちの魅了-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [12, 13] }
+  },
+  "1256": {
+    "name": "クリエイターズコラボ-びっくりさせる練習-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [11, 14] }
+  },
+  "1257": {
+    "name": "クリエイターズコラボ-せーのでにゃーん！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [3, 4] }
+  },
+  "1258": {
+    "name": "クリエイターズコラボ-ひといきいれて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [4, 9] }
+  },
+  "1259": {
+    "name": "クリエイターズコラボ-ウィッチ＆デビル-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [7, 8] }
+  },
+  "1260": {
+    "name": "raison d'être",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 10, 15] }
+  },
+  "1261": {
+    "name": "raison d'être（梨璃＆夢結）",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2] }
+  },
+  "1262": {
+    "name": "raison d'être（一葉＆優珂）",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [10, 71] }
+  },
+  "1263": {
+    "name": "raison d'être（叶星＆高嶺）",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [15, 16] }
+  },
+  "1264": {
+    "name": "raison d'être（神琳＆雨嘉）",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [7, 8] }
+  },
+  "1265": {
+    "name": "クリエイターズコラボ-魔法の薬！？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [1, 6] }
+  },
+  "1266": {
+    "name": "クリエイターズコラボ-フェイスペイント-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [133, 54] }
+  },
+  "1267": {
+    "name": "むすびつき",
+    "illustration": { "type": "", "illustrator": "", "chara": [70, 68] }
+  },
+  "1268": {
+    "name": "TRAILBLAZER",
+    "illustration": { "type": "", "illustrator": "", "chara": [69, 17] }
+  },
+  "1269": {
+    "name": "先生、ですから！",
+    "illustration": { "type": "", "illustrator": "", "chara": [170] }
+  },
+  "1270": {
+    "name": "光のカデンツァ",
+    "illustration": { "type": "", "illustrator": "", "chara": [68, 69] }
+  },
+  "1271": {
+    "name": "秋と、魔法と",
+    "illustration": { "type": "", "illustrator": "", "chara": [167] }
+  },
+  "1272": {
+    "name": "クリエイターズコラボ-設計図はふたりで-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [20, 29] }
+  },
+  "1273": {
+    "name": "クリエイターズコラボ-スイートメモリー-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [15, 18] }
+  },
+  "1274": {
+    "name": "You are on my side.",
+    "illustration": { "type": "", "illustrator": "", "chara": [171, 57] }
+  },
+  "1275": {
+    "name": "預けた背と心",
+    "illustration": { "type": "", "illustrator": "", "chara": [22, 171] }
+  },
+  "1276": {
+    "name": "束の間の視線",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "1277": {
+    "name": "クリエイターズコラボ-秋にまどろみ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [118, 21] }
+  },
+  "1278": {
+    "name": "クリエイターズコラボ-そよ風に寄せる-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [23, 24] }
+  },
+  "1279": {
+    "name": "クリエイターズコラボ-泡泡アートワーク-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [5, 1] }
+  },
+  "1280": {
+    "name": "クリエイターズコラボ-地に咲く紅星-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [6, 2] }
+  },
+  "1281": {
+    "name": "クリエイターズコラボ-休んで、憩って-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [10, 12] }
+  },
+  "1282": {
+    "name": "クリエイターズコラボ-花に駆けて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [11, 10] }
+  },
+  "1283": {
+    "name": "クリエイターズコラボ-淑女たちのたしなみ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [14, 11] }
+  },
+  "1284": {
+    "name": "RED＆BLUE",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [172, 40, 41] }
+  },
+  "1285": {
+    "name": "望郷と食の会",
+    "illustration": { "type": "", "illustrator": "", "chara": [41, 40] }
+  },
+  "1286": {
+    "name": "至高と究極の……",
+    "illustration": { "type": "", "illustrator": "", "chara": [117] }
+  },
+  "1287": {
+    "name": "推し食材を召し上がれ",
+    "illustration": { "type": "", "illustrator": "", "chara": [141] }
+  },
+  "1288": {
+    "name": "船田流包丁術！？",
+    "illustration": { "type": "", "illustrator": "", "chara": [40, 4] }
+  },
+  "1289": {
+    "name": "はい、あーん！",
+    "illustration": { "type": "", "illustrator": "", "chara": [4, 117] }
+  },
+  "1290": {
+    "name": "クリエイターズコラボ-ひだまりベンチ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [6, 5] }
+  },
+  "1291": {
+    "name": "クリエイターズコラボ-いつかの思い出を-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [2, 1] }
+  },
+  "1292": {
+    "name": "クリエイターズコラボ-想いを込めて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [168, 169] }
+  },
+  "1293": {
+    "name": "クリエイターズコラボ-メリクリは派手に！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [169, 18] }
+  },
+  "1294": {
+    "name": "クリエイターズコラボ-似合うと思って-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [167, 68] }
+  },
+  "1295": {
+    "name": "BLESS YOU",
+    "illustration": { "type": "", "illustrator": "", "chara": [21, 119] }
+  },
+  "1296": {
+    "name": "暖かな光のなかで",
+    "illustration": { "type": "", "illustrator": "", "chara": [25, 21] }
+  },
+  "1297": {
+    "name": "全部、あなたに",
+    "illustration": { "type": "", "illustrator": "", "chara": [119] }
+  },
+  "1298": {
+    "name": "クリエイターズコラボ-クリスマスオブジェ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [9, 3] }
+  },
+  "1299": {
+    "name": "クリエイターズコラボ-セントリリィクロス-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [56, 57] }
+  },
+  "1300": {
+    "name": "クリエイターズコラボ-ツイスト・ゲーム-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [67, 19] }
+  },
+  "1301": {
+    "name": "クリエイターズコラボ-特製のおほしさま-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [17, 15] }
+  },
+  "1302": {
+    "name": "クリエイターズコラボ-手を引かれて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [54, 1] }
+  },
+  "1303": {
+    "name": "クリエイターズコラボ-良い子のあなたへ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [149, 10] }
+  },
+  "1304": {
+    "name": "クリエイターズコラボ-正月遊び-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [26, 119] }
+  },
+  "1305": {
+    "name": "クリエイターズコラボ-祈りは静かに-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [24, 25] }
+  },
+  "1306": {
+    "name": "あけまして、初勝負！",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 11] }
+  },
+  "1307": {
+    "name": "さいきょーのおしょうがつ！",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "1308": {
+    "name": "今年も新たに",
+    "illustration": { "type": "", "illustrator": "", "chara": [12, 10] }
+  },
+  "1309": {
+    "name": "クリエイターズコラボ-今年の初手繋ぎ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [19, 18] }
+  },
+  "1310": {
+    "name": "クリエイターズコラボ-しあわせぺったん-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [70, 69] }
+  },
+  "1311": {
+    "name": "クリエイターズコラボ-秘めたる遊戯-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [161, 53] }
+  },
+  "1312": {
+    "name": "クリエイターズコラボ-真心サービス！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [53, 23] }
+  },
+  "1313": {
+    "name": "クリエイターズコラボ-蒸したてほかほか-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [23, 29] }
+  },
+  "1314": {
+    "name": "クリエイターズコラボ-冬の並木道-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [133, 171] }
+  },
+  "1315": {
+    "name": "クリエイターズコラボ-冴える朝の日-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [120, 22] }
+  },
+  "1316": {
+    "name": "五周年-華将三国-",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 3, 10, 71, 15, 16] }
+  },
+  "1317": {
+    "name": "リリィズ三国志-桃園結義-",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 2, 6] }
+  },
+  "1318": {
+    "name": "世を平らに",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 71] }
+  },
+  "1319": {
+    "name": "武闘舞踏",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "1320": {
+    "name": "不動の防衛線",
+    "illustration": { "type": "", "illustrator": "", "chara": [5, 6] }
+  },
+  "1321": {
+    "name": "月華薫風",
+    "illustration": { "type": "", "illustrator": "", "chara": [6, 2] }
+  },
+  "1322": {
+    "name": "威風堂々",
+    "illustration": { "type": "", "illustrator": "", "chara": [71] }
+  },
+  "1323": {
+    "name": "物語る者",
+    "illustration": { "type": "", "illustrator": "", "chara": [4] }
+  },
+  "1324": {
+    "name": "預ける戦略",
+    "illustration": { "type": "", "illustrator": "", "chara": [3, 1] }
+  },
+  "1325": {
+    "name": "[樟美/ドリーミィパレード(通常単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [25] }
+  },
+  "1326": {
+    "name": "[樟美/ドリーミィパレード(通常範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [25] }
+  },
+  "1327": {
+    "name": "[樟美/ドリーミィパレード(特殊単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [25] }
+  },
+  "1328": {
+    "name": "[樟美/ドリーミィパレード(特殊範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [25] }
+  },
+  "1329": {
+    "name": "[樟美/ドリーミィパレード(支援)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [25] }
+  },
+  "1330": {
+    "name": "[樟美/ドリーミィパレード(妨害)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [25] }
+  },
+  "1331": {
+    "name": "[樟美/ドリーミィパレード(回復)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [25] }
+  },
+  "1332": {
+    "name": "[二水/ドリーミィパレード(通常単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [4] }
+  },
+  "1333": {
+    "name": "[二水/ドリーミィパレード(通常範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [4] }
+  },
+  "1334": {
+    "name": "[二水/ドリーミィパレード(特殊単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [4] }
+  },
+  "1335": {
+    "name": "[二水/ドリーミィパレード(特殊範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [4] }
+  },
+  "1336": {
+    "name": "[二水/ドリーミィパレード(支援)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [4] }
+  },
+  "1337": {
+    "name": "[二水/ドリーミィパレード(妨害)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [4] }
+  },
+  "1338": {
+    "name": "[二水/ドリーミィパレード(回復)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [4] }
+  },
+  "1339": {
+    "name": "[梅/ドリーミィパレード(通常単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [6] }
+  },
+  "1340": {
+    "name": "[梅/ドリーミィパレード(通常範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [6] }
+  },
+  "1341": {
+    "name": "[梅/ドリーミィパレード(特殊単体)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [6] }
+  },
+  "1342": {
+    "name": "[梅/ドリーミィパレード(特殊範囲)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [6] }
+  },
+  "1343": {
+    "name": "[梅/ドリーミィパレード(支援)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [6] }
+  },
+  "1344": {
+    "name": "[梅/ドリーミィパレード(妨害)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [6] }
+  },
+  "1345": {
+    "name": "[梅/ドリーミィパレード(回復)] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [6] }
+  },
+  "1346": {
+    "name": "[一葉/残響のスキャルドメール] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [10] }
+  },
+  "1347": {
+    "name": "[梨璃/CONSTELLAT10N] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [1] }
+  },
+  "1348": {
+    "name": "[結梨/CONSTELLAT10N] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [35] }
+  },
+  "1349": {
+    "name": "[優珂/Still Alive] 解放メモリア",
+    "illustration": { "type": "衣装解放メモリア", "illustrator": "", "chara": [71] }
+  },
+  "1350": {
+    "name": "リリィズ三国志-守護る誇り-",
+    "illustration": { "type": "", "illustrator": "", "chara": [74, 11] }
+  },
+  "1351": {
+    "name": "蒼天に望む",
+    "illustration": { "type": "", "illustrator": "", "chara": [163, 71] }
+  },
+  "1352": {
+    "name": "眼前に敵はなし",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "1353": {
+    "name": "綯交る知略",
+    "illustration": { "type": "", "illustrator": "", "chara": [17, 15] }
+  },
+  "1354": {
+    "name": "平和を思う",
+    "illustration": { "type": "", "illustrator": "", "chara": [149] }
+  },
+  "1355": {
+    "name": "クリエイターズコラボ-ほころびテイスト-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [29, 26] }
+  },
+  "1356": {
+    "name": "クリエイターズコラボ-お味は……？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [28, 27] }
+  },
+  "1357": {
+    "name": "クリエイターズコラボ-privilege-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [27, 119] }
+  },
+  "1358": {
+    "name": "5th Anniv. ~With Lilie~",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 10, 15] }
+  },
+  "1359": {
+    "name": "クリエイターズコラボ-らぶは大さじ！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [18, 16] }
+  },
+  "1360": {
+    "name": "クリエイターズコラボ-3時のお届け-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [67, 15] }
+  },
+  "1361": {
+    "name": "リリィズ三国志-赤壁deバトル-",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 16, 3] }
+  },
+  "1362": {
+    "name": "わたしの矛",
+    "illustration": { "type": "", "illustrator": "", "chara": [16, 15] }
+  },
+  "1363": {
+    "name": "たおやかな紅",
+    "illustration": { "type": "", "illustrator": "", "chara": [69] }
+  },
+  "1364": {
+    "name": "クリエイターズコラボ-どうぞ召しませ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [54, 2] }
+  },
+  "1365": {
+    "name": "クリエイターズコラボ-メイドの戯れ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [25, 118] }
+  },
+  "1366": {
+    "name": "Ultimate Memoria -激烈一閃-",
+    "illustration": { "type": "", "illustrator": "", "chara": [171] }
+  },
+  "1367": {
+    "name": "Ultimate Memoria -ワンショットオーダー-",
+    "illustration": { "type": "", "illustrator": "", "chara": [99] }
+  },
+  "1368": {
+    "name": "Ultimate Memoria -天花爛漫-",
+    "illustration": { "type": "", "illustrator": "", "chara": [98] }
+  },
+  "1369": {
+    "name": "Ultimate Memoria -星が降りる時-",
+    "illustration": { "type": "", "illustrator": "", "chara": [105] }
+  },
+  "1370": {
+    "name": "Ultimate Memoria -真ちゃんSP！-",
+    "illustration": { "type": "", "illustrator": "", "chara": [106] }
+  },
+  "1371": {
+    "name": "クリエイターズコラボ-若葉ショコラティエ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [103, 14] }
+  },
+  "1372": {
+    "name": "クリエイターズコラボ-距離を縮める魔法-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [167, 69] }
+  },
+  "1373": {
+    "name": "進むべき路",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 2] }
+  },
+  "1374": {
+    "name": "戦陣の盾",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "1375": {
+    "name": "Sink",
+    "illustration": { "type": "", "illustrator": "", "chara": [8, 7] }
+  },
+  "1376": {
+    "name": "赫く咲きて",
+    "illustration": { "type": "", "illustrator": "", "chara": [2] }
+  },
+  "1377": {
+    "name": "このまま真っ直ぐに！",
+    "illustration": { "type": "", "illustrator": "", "chara": [5, 1] }
+  },
+  "1378": {
+    "name": "クリエイターズコラボ-転んだ先の……？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [70, 19] }
+  },
+  "1379": {
+    "name": "クリエイターズコラボ-姐さんより得意な事-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [73, 103] }
+  },
+  "1380": {
+    "name": "フリマは楽しく",
+    "illustration": { "type": "", "illustrator": "", "chara": [169, 168, 170] }
+  },
+  "1381": {
+    "name": "Did you fall over?",
+    "illustration": { "type": "", "illustrator": "", "chara": [170] }
+  },
+  "1382": {
+    "name": "「次」を願って",
+    "illustration": { "type": "", "illustrator": "", "chara": [168] }
+  },
+  "1383": {
+    "name": "クリエイターズコラボ-真剣勝負！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [117, 119] }
+  },
+  "1384": {
+    "name": "クリエイターズコラボ-いちご色チーク-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [57, 171] }
+  },
+  "1385": {
+    "name": "クリエイターズコラボ-爪にいろどり-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [71, 163] }
+  },
+  "1386": {
+    "name": "クリエイターズコラボ-制服デートタイム-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [72, 71] }
+  },
+  "1387": {
+    "name": "クリエイターズコラボ-可愛すぎませんか？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [10, 12] }
+  },
+  "1388": {
+    "name": "クリエイターズコラボ-わたしの……-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [22, 24] }
+  },
+  "1389": {
+    "name": "クリエイターズコラボ-春爛漫-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [13, 11] }
+  },
+  "1390": {
+    "name": "双光",
+    "illustration": { "type": "", "illustrator": "", "chara": [106, 105] }
+  },
+  "1391": {
+    "name": "無に帰す盾",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "1392": {
+    "name": "女神のプレイメーカー",
+    "illustration": { "type": "", "illustrator": "", "chara": [173] }
+  },
+  "1393": {
+    "name": "月下共闘",
+    "illustration": { "type": "", "illustrator": "", "chara": [4, 3] }
+  },
+  "1394": {
+    "name": "花色、暮れて",
+    "illustration": { "type": "", "illustrator": "", "chara": [105, 106] }
+  },
+  "1395": {
+    "name": "クリエイターズコラボ-ゆらりと咲いて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [25, 53] }
+  },
+  "1396": {
+    "name": "クリエイターズコラボ-桜の下の約束-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [133, 29] }
+  },
+  "1397": {
+    "name": "ジャジー・ア・テンポ",
+    "illustration": { "type": "", "illustrator": "", "chara": [161, 53] }
+  },
+  "1398": {
+    "name": "開演前のひととき",
+    "illustration": { "type": "", "illustrator": "", "chara": [53] }
+  },
+  "1399": {
+    "name": "Dress up!",
+    "illustration": { "type": "", "illustrator": "", "chara": [27, 161] }
+  },
+  "1400": {
+    "name": "クリエイターズコラボ-華やぐ陰-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [74, 73] }
+  },
+  "1401": {
+    "name": "クリエイターズコラボ-みらいのよてい-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [149, 163] }
+  },
+  "1402": {
+    "name": "STURM！",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [116, 174] }
+  },
+  "1403": {
+    "name": "クリエイターズコラボ-春色カラオケ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [67, 15] }
+  },
+  "1404": {
+    "name": "クリエイターズコラボ-次はこの曲-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [16, 19] }
+  },
+  "1405": {
+    "name": "クリエイターズコラボ-あなたと歌うなら-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [15, 16] }
+  },
+  "1406": {
+    "name": "クリエイターズコラボ-憧れの1シーン-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [68, 12] }
+  },
+  "1407": {
+    "name": "クリエイターズコラボ-春を言祝ぐ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [17, 167] }
+  },
+  "1408": {
+    "name": "目覚めを待つ花",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 2] }
+  },
+  "1409": {
+    "name": "譲れないもの",
+    "illustration": { "type": "", "illustrator": "", "chara": [2, 3] }
+  },
+  "1410": {
+    "name": "時の支配者",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "1411": {
+    "name": "開いたチカラ",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 2] }
+  },
+  "1412": {
+    "name": "力の振るいどころ",
+    "illustration": { "type": "", "illustrator": "", "chara": [6] }
+  },
+  "1413": {
+    "name": "また、この空の下で",
+    "illustration": { "type": "", "illustrator": "", "chara": [9, 4] }
+  },
+  "1414": {
+    "name": "クリエイターズコラボ-ときには緩めて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [21, 118] }
+  },
+  "1415": {
+    "name": "クリエイターズコラボ-心もほぐして-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [168, 17] }
+  },
+  "1416": {
+    "name": "まどろむあなたに",
+    "illustration": { "type": "", "illustrator": "", "chara": [173, 54] }
+  },
+  "1417": {
+    "name": "戦況を変える者",
+    "illustration": { "type": "", "illustrator": "", "chara": [54] }
+  },
+  "1418": {
+    "name": "師弟、出撃！",
+    "illustration": { "type": "", "illustrator": "", "chara": [2, 173] }
+  },
+  "1419": {
+    "name": "クリエイターズコラボ-皐月にそよぐ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [29, 24] }
+  },
+  "1420": {
+    "name": "クリエイターズコラボ-捕まえた♪-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [23, 25] }
+  },
+  "1421": {
+    "name": "クリエイターズコラボ-次の授業は-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [12, 14] }
+  },
+  "1422": {
+    "name": "クリエイターズコラボ-任されました！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [10, 149] }
+  },
+  "1423": {
+    "name": "クリエイターズコラボ-せんせいといっしょ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [170, 167] }
+  },
+  "1424": {
+    "name": "クリエイターズコラボ-ゴールテープ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [70, 69] }
+  },
+  "1425": {
+    "name": "クリエイターズコラボ-狙った獲物は-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [167, 70] }
+  },
+  "1426": {
+    "name": "輝くあなたは",
+    "illustration": { "type": "", "illustrator": "", "chara": [17] }
+  },
+  "1427": {
+    "name": "視線の先には……",
+    "illustration": { "type": "", "illustrator": "", "chara": [18] }
+  },
+  "1428": {
+    "name": "祝福はみんなで",
+    "illustration": { "type": "", "illustrator": "", "chara": [67, 17, 19] }
+  },
+  "1429": {
+    "name": "あなたとわけあう",
+    "illustration": { "type": "", "illustrator": "", "chara": [19, 18] }
+  },
+  "1430": {
+    "name": "catch!",
+    "illustration": { "type": "", "illustrator": "", "chara": [169] }
+  },
+  "1431": {
+    "name": "クリエイターズコラボ-晴れの下、咲いて-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [57, 171] }
+  },
+  "1432": {
+    "name": "クリエイターズコラボ-預ける温度感-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [14, 13] }
+  },
+  "1433": {
+    "name": "にゃん・にゃん・にゃん！",
+    "illustration": { "type": "", "illustrator": "", "chara": [149, 5, 11] }
+  },
+  "1434": {
+    "name": "しっぽのきもち",
+    "illustration": { "type": "", "illustrator": "", "chara": [5] }
+  },
+  "1435": {
+    "name": "いっしょにあそぼ！",
+    "illustration": { "type": "", "illustrator": "", "chara": [11] }
+  },
+  "1436": {
+    "name": "クリエイターズコラボ-気合いの入れどころ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [4, 3] }
+  },
+  "1437": {
+    "name": "クリエイターズコラボ-絆のおひろめ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [7, 8] }
+  },
+  "1438": {
+    "name": "Breath to Breath",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 10, 15] }
+  },
+  "1439": {
+    "name": "クリエイターズコラボ-共に歩く人-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [20, 9] }
+  },
+  "1440": {
+    "name": "クリエイターズコラボ-特別な約束-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [9, 20] }
+  },
+  "1441": {
+    "name": "クリエイターズコラボ-花開く祝福-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [117, 4] }
+  },
+  "1442": {
+    "name": "クリエイターズコラボ-ほどけぬえにし-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [163, 71] }
+  },
+  "1443": {
+    "name": "クリエイターズコラボ-貰ってあげようか？-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [73, 74] }
+  },
+  "1444": {
+    "name": "Shall we dance？",
+    "illustration": { "type": "", "illustrator": "", "chara": [44, 43] }
+  },
+  "1445": {
+    "name": "スポットライト",
+    "illustration": { "type": "", "illustrator": "", "chara": [16, 15] }
+  },
+  "1446": {
+    "name": "リフトアップ！",
+    "illustration": { "type": "", "illustrator": "", "chara": [142, 69] }
+  },
+  "1447": {
+    "name": "わたしたちのリズム",
+    "illustration": { "type": "", "illustrator": "", "chara": [68, 167] }
+  },
+  "1448": {
+    "name": "つまづき",
+    "illustration": { "type": "", "illustrator": "", "chara": [69] }
+  },
+  "1449": {
+    "name": "クリエイターズコラボ-ナイトプール-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [53, 161] }
+  },
+  "1450": {
+    "name": "クリエイターズコラボ-いつものペースで-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [5, 11] }
+  },
+  "1451": {
+    "name": "フラワーライト",
+    "illustration": { "type": "", "illustrator": "", "chara": [167, 44] }
+  },
+  "1452": {
+    "name": "パーフェクトダンス",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 43] }
+  },
+  "1453": {
+    "name": "呼吸とテンポ",
+    "illustration": { "type": "", "illustrator": "", "chara": [141, 16] }
+  },
+  "1454": {
+    "name": "クリエイターズコラボ-暮れゆく日差し-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [98, 57] }
+  },
+  "1455": {
+    "name": "クリエイターズコラボ-潮騒の夜を彩る-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [69, 68] }
+  },
+  "1456": {
+    "name": "全力応援！　輝くステージのために",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [44, 175, 43] }
+  },
+  "1457": {
+    "name": "リリィたちの夏！",
+    "illustration": { "type": "静止画", "illustrator": "", "chara": [1, 2, 10, 12, 15, 16] }
+  },
+  "1458": {
+    "name": "なつみず☆バトル",
+    "illustration": { "type": "", "illustrator": "", "chara": [1, 2] }
+  },
+  "1459": {
+    "name": "夏に華やぐ",
+    "illustration": { "type": "", "illustrator": "", "chara": [15, 16] }
+  },
+  "1460": {
+    "name": "ゴールはふたりで！",
+    "illustration": { "type": "", "illustrator": "", "chara": [10, 12] }
+  },
+  "1461": {
+    "name": "夏空、ひとりじめ",
+    "illustration": { "type": "", "illustrator": "", "chara": [3] }
+  },
+  "1462": {
+    "name": "真夏の主導権",
+    "illustration": { "type": "", "illustrator": "", "chara": [175, 44] }
+  },
+  "1463": {
+    "name": "いざ行かん、夏！",
+    "illustration": { "type": "", "illustrator": "", "chara": [175] }
+  },
+  "1464": {
+    "name": "ハイパワーシューターズ",
+    "illustration": { "type": "", "illustrator": "", "chara": [43, 44] }
+  },
+  "1465": {
+    "name": "束の間SUMMER",
+    "illustration": { "type": "", "illustrator": "", "chara": [6, 5] }
+  },
+  "1466": {
+    "name": "クリエイトアンバランス",
+    "illustration": { "type": "", "illustrator": "", "chara": [8, 7] }
+  },
+  "1467": {
+    "name": "クリエイターズコラボ-飛び込む速度-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [106, 6] }
+  },
+  "1468": {
+    "name": "クリエイターズコラボ-シーサイドBBQ！-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [149, 12] }
+  },
+  "1469": {
+    "name": "Ultimate Memoria -透き通る切先-",
+    "illustration": { "type": "", "illustrator": "", "chara": [67] }
+  },
+  "1470": {
+    "name": "Ultimate Memoria -嵐を纏う者-",
+    "illustration": { "type": "", "illustrator": "", "chara": [7] }
+  },
+  "1471": {
+    "name": "Ultimate Memoria -覚悟の放射-",
+    "illustration": { "type": "", "illustrator": "", "chara": [8] }
+  },
+  "1472": {
+    "name": "Ultimate Memoria -揺らぎ、束ねて-",
+    "illustration": { "type": "", "illustrator": "", "chara": [14] }
+  },
+  "1473": {
+    "name": "Ultimate Memoria -開闢-",
+    "illustration": { "type": "", "illustrator": "", "chara": [103] }
+  },
+  "1474": {
+    "name": "なつみず☆トレジャー",
+    "illustration": { "type": "", "illustrator": "", "chara": [23, 74] }
+  },
+  "1475": {
+    "name": "碧と蒼の狭間",
+    "illustration": { "type": "", "illustrator": "", "chara": [70, 68] }
+  },
+  "1476": {
+    "name": "波の下の冒険",
+    "illustration": { "type": "", "illustrator": "", "chara": [169, 168] }
+  },
+  "1477": {
+    "name": "夏の日差しに照らされて",
+    "illustration": { "type": "", "illustrator": "", "chara": [74, 73] }
+  },
+  "1478": {
+    "name": "エンジョイ！夏空",
+    "illustration": { "type": "", "illustrator": "", "chara": [170] }
+  },
+  "1479": {
+    "name": "クリエイターズコラボ-アクアガーデン-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [105, 106] }
+  },
+  "1480": {
+    "name": "クリエイターズコラボ-夏色シロップ-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [163, 72] }
+  },
+  "1481": {
+    "name": "なつみず☆救助レース",
+    "illustration": { "type": "", "illustrator": "", "chara": [71, 149] }
+  },
+  "1482": {
+    "name": "キラキラ☆サマーメモリー",
+    "illustration": { "type": "", "illustrator": "", "chara": [18, 19] }
+  },
+  "1483": {
+    "name": "この夏の特等席",
+    "illustration": { "type": "", "illustrator": "", "chara": [11, 69] }
+  },
+  "1484": {
+    "name": "人工呼吸の心得",
+    "illustration": { "type": "", "illustrator": "", "chara": [41, 40] }
+  },
+  "1485": {
+    "name": "真夏の魔法をあなたに☆",
+    "illustration": { "type": "", "illustrator": "", "chara": [167] }
+  },
+  "1486": {
+    "name": "クリエイターズコラボ-夏、まるごとシェア-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [99, 98] }
+  },
+  "1487": {
+    "name": "クリエイターズコラボ-わたしたちが築く-",
+    "illustration": { "type": "クリエイターズコラボ", "illustrator": "", "chara": [7, 57] }
+  }
+}
