@@ -153,14 +153,17 @@ function makeTable() {
     // td要素を生成
     let thId = document.createElement("th");
     let thName = document.createElement("th");
+    let thGen = document.createElement("th");
     let thChara = document.createElement("th");
     // th要素内にテキストを追加
     thId.textContent = "画像";
     thName.textContent = "メモリア名";
+    thGen.textContent = "ﾒﾓﾘｱ・ｱｰｶｲﾌﾞ GEN.";
     thChara.textContent = "イラストキャラ";
     // th要素をtr要素の子要素に追加
     tr.appendChild(thId);
     tr.appendChild(thName);
+    tr.appendChild(thGen);
     tr.appendChild(thChara);
     // tr要素をtable要素の子要素に追加
     table.appendChild(tr);
@@ -183,6 +186,7 @@ function makeTable() {
         // td要素を生成
         let tdId = document.createElement("td");
         let tdName = document.createElement("td");
+        let tdGen = document.createElement("td");
         let tdChara = document.createElement("td");
         // サムネ画像要素の追加
         let img = document.createElement("img");
@@ -192,10 +196,12 @@ function makeTable() {
         // td要素内にテキストを追加
         tdId.appendChild(img);
         tdName.textContent = item["name"];
+        tdGen.textContent = item["archive-gen"] == null ? "" : `${item["archive-gen"]}`;
         tdChara = getCharaImg(memoriaCharaArray);
         // td要素をtr要素の子要素に追加
         tr.appendChild(tdId);
         tr.appendChild(tdName);
+        tr.appendChild(tdGen);
         tr.appendChild(tdChara);
         // tr要素をtable要素の子要素に追加
         table.appendChild(tr);
